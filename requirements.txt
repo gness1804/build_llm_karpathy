@@ -1,0 +1,21 @@
+# Core ML/AI dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+tiktoken>=0.5.0
+
+# Visualization and plotting
+matplotlib>=3.7.0
+
+# Development and code quality tools
+ruff>=0.1.0
+pytest>=7.4.0
+pre-commit>=3.4.0
+
+# Optional: Additional useful packages for ML development
+# Uncomment as needed:
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+# tensorboard>=2.13.0
+# wandb>=0.15.0
