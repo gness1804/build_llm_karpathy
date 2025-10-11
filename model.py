@@ -43,12 +43,6 @@ def get_batch(split):
     return x, y
 
 xb, yb = get_batch('train')
-# print('inputs:')
-# print(xb.shape)
-# print(xb)
-# print('targets:')
-# print(yb.shape)
-# print(yb)
 
 print('----')
 
@@ -65,8 +59,8 @@ class BigramLanguageModel(nn.Module):
         # each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
 
-    def forward(self, idx, targets=None):
-
+    def forward(self, idx, targets=None) -> tuple[torch.Tensor, torch.Tensor | None]: # computes logits (raw predictions) for what could come next after each position
+        # B = batch size, T = sequence length (tokens in a chunk), C = channel. This is "the number of features or dimensions that describe each token at each position. This is the 'information' held by that token." (From Gemini answer.)
         # idx and targets are both (B,T) tensor of integers
         logits = self.token_embedding_table(idx) # (B,T,C)
 
@@ -96,8 +90,24 @@ class BigramLanguageModel(nn.Module):
         return idx
 
 m = BigramLanguageModel(vocab_size)
-logits, loss = m(xb, yb)
+logits, loss = m(xb, yb) # calls the forward method
 # print(logits.shape)
 # print(loss)
 
-print(decode(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=100)[0].tolist()))
+# print(decode(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=100)[0].tolist()))
+
+optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
+
+batch_size = 32
+for steps in range(100): # increase number of steps for good results...
+
+    # sample a batch of data
+    xb, yb = get_batch('train')
+
+    # evaluate the loss
+    logits, loss = m(xb, yb)
+    optimizer.zero_grad(set_to_none=True)
+    loss.backward()
+    optimizer.step()
+
+print(loss.item())
