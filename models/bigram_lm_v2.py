@@ -9,6 +9,32 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+class Head(nn.Module):
+    """ one head of self-attention """
+
+    def __init__(self, n_embd, head_size, block_size, dropout):
+        super().__init__()
+        self.key = nn.Linear(n_embd, head_size, bias=False)
+        self.query = nn.Linear(n_embd, head_size, bias=False)
+        self.value = nn.Linear(n_embd, head_size, bias=False)
+        self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
+
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        B,T,C = x.shape
+        k = self.key(x)   # (B,T,C)
+        q = self.query(x) # (B,T,C)
+        # compute attention scores ("affinities")
+        wei = q @ k.transpose(-2,-1) * C**-0.5 # (B, T, C) @ (B, C, T) -> (B, T, T)
+        wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf')) # (B, T, T)
+        wei = F.softmax(wei, dim=-1) # (B, T, T)
+        wei = self.dropout(wei)
+        # perform the weighted aggregation of the values
+        v = self.value(x) # (B,T,C)
+        out = wei @ v # (B, T, T) @ (B, T, C) -> (B, T, C)
+        return out
+
 
 class BigramLanguageModel(nn.Module):
     """
@@ -16,11 +42,12 @@ class BigramLanguageModel(nn.Module):
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size, n_embed, block_size, device):
+    def __init__(self, vocab_size, n_embed, block_size, device, dropout):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, n_embed)
         self.position_embedding_table = nn.Embedding(block_size, n_embed)
+        self.sa_head = Head(n_embed, n_embed, block_size, dropout)
         self.lm_head = nn.Linear(n_embed, vocab_size)
         self.block_size = block_size
         self.device = device
@@ -48,6 +75,7 @@ class BigramLanguageModel(nn.Module):
         token_emb = self.token_embedding_table(idx) # (B, T, C)
         position_emb = self.position_embedding_table(torch.arange(T, device=self.device)) # (T, C)
         x = token_emb + position_emb
+        x = self.sa_head(x) # (B, T, C). Apply one head of self-attention
         logits = self.lm_head(x) # (B, T, C)
 
         if targets is None:

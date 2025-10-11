@@ -18,9 +18,10 @@ torch.manual_seed(1337)
 block_size = 8          # Maximum context length for predictions
 batch_size = 32         # How many independent sequences to process in parallel
 learning_rate = 1e-3    # Learning rate for optimizer
-training_steps = 10000  # Number of training iterations
+training_steps = 5000  # Number of training iterations
 eval_iters = 200        # Number of iterations to evaluate loss
 n_embed = 32           # Number of embedding dimensions
+dropout = 0.1          # Dropout rate for self-attention
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu' # use GPU if available, otherwise use CPU
 
@@ -104,7 +105,7 @@ def estimate_loss():
 # ============================================================================
 
 # Initialize model
-model = BigramLanguageModel(vocab_size, n_embed, block_size, device)
+model = BigramLanguageModel(vocab_size, n_embed, block_size, device, dropout)
 model.to(device) # move model to device
 
 # Initialize optimizer
