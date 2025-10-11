@@ -94,12 +94,12 @@ logits, loss = m(xb, yb) # calls the forward method
 # print(logits.shape)
 # print(loss)
 
-# print(decode(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=100)[0].tolist()))
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
 
 batch_size = 32
-for steps in range(100): # increase number of steps for good results...
+training_steps = 10000
+for steps in range(training_steps): # increase number of steps for good results...
 
     # sample a batch of data
     xb, yb = get_batch('train')
@@ -110,4 +110,7 @@ for steps in range(100): # increase number of steps for good results...
     loss.backward()
     optimizer.step()
 
-print(loss.item())
+    # print(f'Step {steps} - Loss: {loss.item()}')
+print('End of training. Loss:', loss.item())
+print(decode(m.generate(idx = torch.zeros((1, 1), dtype=torch.long), max_new_tokens=300)[0].tolist()))
+
