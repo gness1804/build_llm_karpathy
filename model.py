@@ -5,7 +5,7 @@ Following Andrej Karpathy's tutorial
 
 import torch
 
-from models.bigram_lm import BigramLanguageModel
+from models.bigram_lm_v2 import BigramLanguageModel
 
 # ============================================================================
 # HYPERPARAMETERS
@@ -20,6 +20,7 @@ batch_size = 32         # How many independent sequences to process in parallel
 learning_rate = 1e-3    # Learning rate for optimizer
 training_steps = 10000  # Number of training iterations
 eval_iters = 200        # Number of iterations to evaluate loss
+n_embed = 32           # Number of embedding dimensions
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu' # use GPU if available, otherwise use CPU
 
@@ -103,7 +104,7 @@ def estimate_loss():
 # ============================================================================
 
 # Initialize model
-model = BigramLanguageModel(vocab_size)
+model = BigramLanguageModel(vocab_size, n_embed)
 model.to(device) # move model to device
 
 # Initialize optimizer

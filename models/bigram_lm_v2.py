@@ -16,10 +16,11 @@ class BigramLanguageModel(nn.Module):
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size):
+    def __init__(self, vocab_size, n_embed):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
-        self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
+        self.token_embedding_table = nn.Embedding(vocab_size, n_embed)
+        self.lm_head = nn.Linear(n_embed, vocab_size)
     
     def forward(self, idx, targets=None):
         """
@@ -39,8 +40,9 @@ class BigramLanguageModel(nn.Module):
             C = channels (number of features/dimensions per token, equals vocab_size here)
         """
         # Get predictions from embedding table: (B, T) -> (B, T, C)
-        logits = self.token_embedding_table(idx)
-        
+        token_emb = self.token_embedding_table(idx)
+        logits = self.lm_head(token_emb)
+
         if targets is None:
             loss = None
         else:
