@@ -16,11 +16,14 @@ class BigramLanguageModel(nn.Module):
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size, n_embed):
+    def __init__(self, vocab_size, n_embed, block_size, device):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, n_embed)
+        self.position_embedding_table = nn.Embedding(block_size, n_embed)
         self.lm_head = nn.Linear(n_embed, vocab_size)
+        self.block_size = block_size
+        self.device = device
     
     def forward(self, idx, targets=None):
         """
@@ -39,15 +42,19 @@ class BigramLanguageModel(nn.Module):
             T = sequence length (tokens in a chunk) / time dimension
             C = channels (number of features/dimensions per token, equals vocab_size here)
         """
-        # Get predictions from embedding table: (B, T) -> (B, T, C)
-        token_emb = self.token_embedding_table(idx)
-        logits = self.lm_head(token_emb)
+
+        B, T = idx.shape
+
+        token_emb = self.token_embedding_table(idx) # (B, T, C)
+        position_emb = self.position_embedding_table(torch.arange(T, device=self.device)) # (T, C)
+        x = token_emb + position_emb
+        logits = self.lm_head(x) # (B, T, C)
 
         if targets is None:
             loss = None
         else:
             # Reshape for cross_entropy loss function
-            B, T, C = logits.shape
+            B, T, C = logits.shape # (B, T, C)
             logits = logits.view(B * T, C)
             targets = targets.view(B * T)
             loss = F.cross_entropy(logits, targets)
@@ -66,8 +73,11 @@ class BigramLanguageModel(nn.Module):
             idx: Extended sequence of shape (B, T + max_new_tokens)
         """
         for _ in range(max_new_tokens):
-            # Get predictions for all positions
-            logits, loss = self(idx)
+            # Crop context to last block_size tokens to avoid index errors
+            idx_cond = idx[:, -self.block_size:]
+            
+            # Get predictions for the cropped context
+            logits, loss = self(idx_cond)
             
             # Focus only on the last time step: (B, T, C) -> (B, C)
             logits = logits[:, -1, :]

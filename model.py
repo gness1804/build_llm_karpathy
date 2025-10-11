@@ -104,7 +104,7 @@ def estimate_loss():
 # ============================================================================
 
 # Initialize model
-model = BigramLanguageModel(vocab_size, n_embed)
+model = BigramLanguageModel(vocab_size, n_embed, block_size, device)
 model.to(device) # move model to device
 
 # Initialize optimizer
