@@ -19,6 +19,9 @@ block_size = 8          # Maximum context length for predictions
 batch_size = 32         # How many independent sequences to process in parallel
 learning_rate = 1e-3    # Learning rate for optimizer
 training_steps = 10000  # Number of training iterations
+eval_iters = 200        # Number of iterations to evaluate loss
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu' # use GPU if available, otherwise use CPU
 
 # Generation settings
 max_new_tokens = 300    # Number of characters to generate
@@ -72,7 +75,28 @@ def get_batch(split):
     ix = torch.randint(len(data) - block_size, (batch_size,))
     x = torch.stack([data[i:i+block_size] for i in ix])
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+    x, y = x.to(device), y.to(device)
     return x, y
+
+@torch.no_grad()
+def estimate_loss():
+    """
+    Estimate the loss of the model on the train and validation sets
+    
+    Returns:
+        out: Dictionary containing the loss on the train and validation sets
+    """
+    out = {}
+    model.eval()
+    for split in ['train', 'val']:
+        losses = torch.zeros(eval_iters)
+        for k in range(eval_iters):
+            X, Y = get_batch(split)
+            logits, loss = model(X, Y)
+            losses[k] = loss.item()
+        out[split] = losses.mean()
+    model.train()
+    return out
 
 # ============================================================================
 # TRAINING SETUP
@@ -80,6 +104,7 @@ def get_batch(split):
 
 # Initialize model
 model = BigramLanguageModel(vocab_size)
+model.to(device) # move model to device
 
 # Initialize optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
@@ -99,10 +124,10 @@ print("-" * 50)
 for step in range(training_steps):
     # Sample a batch of data
     xb, yb = get_batch('train')
-    
     # Forward pass: compute predictions and loss
     logits, loss = model(xb, yb)
     
+    loss = loss.mean() # average loss over the batch
     # Backward pass: compute gradients
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
@@ -113,6 +138,11 @@ for step in range(training_steps):
     # Print progress every <interval_print> steps: e.g. if interval_print is 1000, print every 1000 steps
     if (step + 1) % interval_print == 0:
         print(f"Step {step + 1}/{training_steps} - Loss: {loss.item():.4f}")
+
+# Print loss every eval_iters steps
+if (step + 1) % eval_iters == 0:
+    losses = estimate_loss()
+    print(f"Step {step + 1}/{training_steps} - Train loss: {losses['train']:.4f}, Val loss: {losses['val']:.4f}")
 
 print("-" * 50)
 print(f"Training complete! Final loss: {loss.item():.4f}")
