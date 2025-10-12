@@ -23,6 +23,7 @@ eval_iters = 200        # Number of iterations to evaluate loss
 n_embed = 32           # Number of embedding dimensions
 dropout = 0.1          # Dropout rate for self-attention
 num_heads = 4          # Number of heads for self-attention
+n_layer = 4          # Number of layers for the transformer
 head_size = n_embed // num_heads  # Size of each head (must satisfy: num_heads * head_size = n_embed)
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu' # use GPU if available, otherwise use CPU
@@ -107,7 +108,7 @@ def estimate_loss():
 # ============================================================================
 
 # Initialize model
-model = BigramLanguageModel(vocab_size, n_embed, block_size, device, dropout, num_heads, head_size)
+model = BigramLanguageModel(vocab_size, n_embed, block_size, device, dropout, num_heads, head_size, n_layer)
 model.to(device) # move model to device
 
 # Initialize optimizer

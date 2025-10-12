@@ -9,8 +9,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
-from self_attention.self_attention_classes import MultiHeadAttention
-from feed_forward.feed_forward_classes import FeedFoward
+from transformer_core.block import Block
 
 
 class BigramLanguageModel(nn.Module):
@@ -19,13 +18,12 @@ class BigramLanguageModel(nn.Module):
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size, n_embd, block_size, device, dropout, num_heads, head_size):
+    def __init__(self, vocab_size, n_embd, block_size, device, dropout, num_heads, head_size, n_layer):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
         self.position_embedding_table = nn.Embedding(block_size, n_embd)
-        self.sa_heads = MultiHeadAttention(num_heads, head_size, n_embd, block_size, dropout)
-        self.ffwd = FeedFoward(n_embd, dropout)
+        self.blocks = nn.Sequential(*[Block(n_embd, num_heads, block_size, dropout) for _ in range(n_layer)])
         self.lm_head = nn.Linear(n_embd, vocab_size)
         self.block_size = block_size
         self.device = device
@@ -53,8 +51,7 @@ class BigramLanguageModel(nn.Module):
         token_emb = self.token_embedding_table(idx) # (B, T, C)
         position_emb = self.position_embedding_table(torch.arange(T, device=self.device)) # (T, C)
         x = token_emb + position_emb
-        x = self.sa_heads(x) # (B, T, C). Apply multiple heads of self-attention
-        x = self.ffwd(x) # (B, T, C). Apply feedforward network
+        x = self.blocks(x) # (B, T, C). Apply multiple blocks of the transformer
         logits = self.lm_head(x) # (B, T, C)
 
         if targets is None:
