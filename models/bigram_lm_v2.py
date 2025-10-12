@@ -36,19 +36,51 @@ class Head(nn.Module):
         return out
 
 
+class MultiHeadAttention(nn.Module):
+    """ multiple heads of self-attention in parallel """
+
+    def __init__(self, num_heads, head_size, n_embd, block_size, dropout):
+        super().__init__()
+        self.heads = nn.ModuleList([Head(n_embd, head_size, block_size, dropout) for _ in range(num_heads)])
+        self.proj = nn.Linear(n_embd, n_embd)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        out = torch.cat([h(x) for h in self.heads], dim=-1)
+        out = self.dropout(self.proj(out))
+        return out
+
+
+class FeedFoward(nn.Module):
+    """ a simple linear layer followed by a non-linearity """
+
+    def __init__(self, n_embd, dropout):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(n_embd, 4 * n_embd),
+            nn.ReLU(),
+            nn.Linear(4 * n_embd, n_embd),
+            nn.Dropout(dropout),
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
+
 class BigramLanguageModel(nn.Module):
     """
     Simple bigram language model that predicts the next character
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size, n_embed, block_size, device, dropout):
+    def __init__(self, vocab_size, n_embd, block_size, device, dropout, num_heads, head_size):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
-        self.token_embedding_table = nn.Embedding(vocab_size, n_embed)
-        self.position_embedding_table = nn.Embedding(block_size, n_embed)
-        self.sa_head = Head(n_embed, n_embed, block_size, dropout)
-        self.lm_head = nn.Linear(n_embed, vocab_size)
+        self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+        self.position_embedding_table = nn.Embedding(block_size, n_embd)
+        self.sa_heads = MultiHeadAttention(num_heads, head_size, n_embd, block_size, dropout)
+        self.ffwd = FeedFoward(n_embd, dropout)
+        self.lm_head = nn.Linear(n_embd, vocab_size)
         self.block_size = block_size
         self.device = device
     
@@ -75,7 +107,8 @@ class BigramLanguageModel(nn.Module):
         token_emb = self.token_embedding_table(idx) # (B, T, C)
         position_emb = self.position_embedding_table(torch.arange(T, device=self.device)) # (T, C)
         x = token_emb + position_emb
-        x = self.sa_head(x) # (B, T, C). Apply one head of self-attention
+        x = self.sa_heads(x) # (B, T, C). Apply multiple heads of self-attention
+        x = self.ffwd(x) # (B, T, C). Apply feedforward network
         logits = self.lm_head(x) # (B, T, C)
 
         if targets is None:
