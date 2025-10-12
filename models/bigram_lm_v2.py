@@ -18,12 +18,12 @@ class BigramLanguageModel(nn.Module):
     based only on the current character using a lookup table.
     """
     
-    def __init__(self, vocab_size, n_embd, block_size, device, dropout, num_heads, head_size, n_layer):
+    def __init__(self, vocab_size, n_embd, block_size, device, dropout, n_head, n_layer):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
         self.position_embedding_table = nn.Embedding(block_size, n_embd)
-        self.blocks = nn.Sequential(*[Block(n_embd, num_heads, block_size, dropout) for _ in range(n_layer)])
+        self.blocks = nn.Sequential(*[Block(n_embd, n_head, block_size, dropout) for _ in range(n_layer)])
         self.blocks.append(nn.LayerNorm(n_embd))
         self.lm_head = nn.Linear(n_embd, vocab_size)
         self.block_size = block_size
