@@ -12,7 +12,7 @@ class FeedFoward(nn.Module):
             nn.Linear(n_embd, 4 * n_embd),
             nn.ReLU(),
             nn.Linear(4 * n_embd, n_embd),
-            nn.Dropout(dropout),
+            # nn.Dropout(dropout),
         )
 
     def forward(self, x):
