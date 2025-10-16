@@ -54,7 +54,7 @@ ruff check . --fix
 
 This project implements a transformer-based language model following Andrej Karpathy's "Let's build GPT" approach:
 
-- **`model.py`** - Core GPT transformer implementation with multi-head attention
+- **`training.py`** - Core GPT transformer implementation with multi-head attention
 - **`train.py`** - Training loop with gradient accumulation and learning rate scheduling  
 - **`sample.py`** - Text generation and sampling utilities
 - **`data.py`** - Data loading and tokenization (BPE via tiktoken)

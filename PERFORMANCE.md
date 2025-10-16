@@ -46,16 +46,16 @@ The production mode has been tuned for Apple Silicon:
 ### Option 1: Environment Variable (Recommended)
 ```bash
 # Test mode
-TEST_MODE=True python model.py
+TEST_MODE=True python training.py
 
 # Production mode
-TEST_MODE=False python model.py
+TEST_MODE=False python training.py
 # or just:
-python model.py
+python training.py
 ```
 
 ### Option 2: Edit File
-Change line 18 in `model.py`:
+Change line 18 in `training.py`:
 ```python
 TEST_MODE = True   # for testing
 TEST_MODE = False  # for production
@@ -77,7 +77,7 @@ Further reduce production hyperparameters:
 - Reduce `batch_size` to 32
 
 ### Model Compilation Fails?
-Comment out lines 154-160 in `model.py` to skip compilation.
+Comment out lines 154-160 in `training.py` to skip compilation.
 
 ## 💡 Tips
 

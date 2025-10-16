@@ -32,7 +32,7 @@ The implementation uses Shakespeare's text as training data to (ideally) generat
 To train the model and generate text, simply run:
 
 ```bash
-python model.py
+python training.py
 ```
 
 **What happens when you run it:**
@@ -103,7 +103,7 @@ The model learns which characters typically follow other characters by seeing ma
 ```
 build_llm_karpathy/
 ├── README.md           # This file
-├── model.py            # Main model implementation and training
+├── training.py         # Main training script with model implementation
 ├── notes.md            # Detailed learning notes and explanations
 ├── requirements.txt    # Python dependencies
 ├── sources/
@@ -145,7 +145,7 @@ After understanding this bigram model, typical next steps include:
 
 - **Tutorial Video**: Andrej Karpathy's LLM tutorial (link to be added)
 - **notes.md**: Detailed notes with visual explanations of key concepts
-- **Model Code**: `model.py` contains extensive comments explaining each step
+- **Training Code**: `training.py` contains extensive comments explaining each step
 
 ## Credits
 
