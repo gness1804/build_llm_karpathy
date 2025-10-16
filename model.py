@@ -35,20 +35,29 @@ if TEST_MODE:
     dropout = 0.2           # Dropout rate for self-attention
     print("🔬 TEST MODE: Using reduced hyperparameters for fast training")
 else:
-    # Full configuration for production training
-    batch_size = 64         # How many independent sequences to process in parallel
-    block_size = 256        # Maximum context length for predictions
+    # Full configuration for production training (aggressively optimized for Apple Silicon)
+    batch_size = 32         # Reduced from 64 for better M4 performance
+    block_size = 64         # Further reduced from 128 (4x less attention computation)
     training_steps = 5000   # Number of training iterations 
-    eval_interval = 500     # Evaluation interval
+    eval_interval = 100     # More frequent feedback (reduced from 500)
     learning_rate = 3e-4    # Learning rate for optimizer
-    eval_iters = 200        # Number of iterations to evaluate loss
-    n_embd = 384            # Number of embedding dimensions
-    n_head = 6              # Number of heads for self-attention
-    n_layer = 6             # Number of layers for the transformer
+    eval_iters = 25         # Further reduced from 50 for faster eval
+    n_embd = 192            # Further reduced from 256 for Apple Silicon
+    n_head = 3              # Further reduced from 4 for Apple Silicon
+    n_layer = 3             # Further reduced from 4 for Apple Silicon
     dropout = 0.2           # Dropout rate for self-attention
-    print("🚀 FULL MODE: Using full hyperparameters for production training")
+    print("🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)")
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu' # use GPU if available, otherwise use CPU
+# Device selection: prioritize MPS (Apple Silicon GPU) > CUDA > CPU
+if torch.cuda.is_available():
+    device = 'cuda'
+    print("✅ Using NVIDIA GPU (CUDA)")
+elif torch.backends.mps.is_available():
+    device = 'mps'
+    print("✅ Using Apple Silicon GPU (Metal Performance Shaders)")
+else:
+    device = 'cpu'
+    print("⚠️  Using CPU (slow) - consider using MPS if available")
 
 # Generation settings
 max_new_tokens = 300    # Number of characters to generate
@@ -140,6 +149,24 @@ model.to(device) # move model to device
 total_params = sum(p.numel() for p in model.parameters())
 print(f"Total model parameters: {total_params:,}")
 
+# Verify device usage
+print(f"Model device: {next(model.parameters()).device}")
+if device == 'mps':
+    print("✅ Model successfully moved to Apple Silicon GPU (MPS)")
+
+# Compile model for better performance (PyTorch 2.0+)
+# This can provide 2-3x speedup on Apple Silicon M4
+# DISABLED: torch.compile for MPS is still experimental and may cause slowdowns
+try:
+    if device == 'mps' and hasattr(torch, 'compile') and False:  # Disabled for now
+        print("🔧 Compiling model for Apple Silicon... (this may take a minute)")
+        model = torch.compile(model, mode='default')
+        print("✅ Model compiled successfully!")
+    else:
+        print("ℹ️  Using MPS without compilation (torch.compile disabled for MPS)")
+except Exception as e:
+    print(f"⚠️  Model compilation skipped: {e}")
+
 # Initialize optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate) # AdamW optimizer
 
@@ -164,13 +191,17 @@ for step in range(training_steps):
         losses = estimate_loss()
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed if step > 0 else 0
-        print(f"step {step}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s elapsed ({steps_per_sec:.2f} steps/sec)")
+        progress_pct = (step / training_steps) * 100
+        print(f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)")
     
-    # Print progress every 50 steps to show it's not hung
-    elif step % 50 == 0:
+    # Print progress more frequently in production mode to show it's not hung
+    elif step > 0 and step % 25 == 0:
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed
-        print(f"step {step} | {elapsed:.1f}s elapsed ({steps_per_sec:.2f} steps/sec)")
+        progress_pct = (step / training_steps) * 100
+        eta_seconds = (training_steps - step) / steps_per_sec if steps_per_sec > 0 else 0
+        eta_minutes = eta_seconds / 60
+        print(f"step {step}/{training_steps} ({progress_pct:.1f}%) | {steps_per_sec:.2f} steps/sec | ETA: {eta_minutes:.1f}m")
     
     # Sample a batch of data
     xb, yb = get_batch('train')
