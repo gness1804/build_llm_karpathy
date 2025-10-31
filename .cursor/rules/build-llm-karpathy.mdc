@@ -1,0 +1,373 @@
+---
+description: Cursor rules for build_llm_karpathy - PyTorch LLM learning project
+globs: ["**/*.py"]
+alwaysApply: true
+---
+
+# Build LLM Karpathy - Cursor Rules
+
+This document provides Cursor AI with specific guidance for working with the build_llm_karpathy codebase - a PyTorch-based language model implementation following Andrej Karpathy's tutorial.
+
+## Project Overview
+
+This is an educational project for learning how to build Large Language Models (LLMs) from scratch using PyTorch. The implementation progresses from simple bigram models to transformer architectures with attention mechanisms.
+
+## Technology Stack
+
+- **Language**: Python 3.8+
+- **ML Framework**: PyTorch 2.0+
+- **Tokenization**: tiktoken (GPT-2 BPE), sentencepiece (custom BPE), character-level
+- **Device Support**: CPU, CUDA, Apple Silicon (MPS)
+- **Testing**: pytest
+- **Linting**: ruff
+- **Version Control**: Git with conventional commits
+
+## Code Standards & Conventions
+
+### Python Style Guide
+
+1. **Follow PEP 8**:
+   - Use 4 spaces for indentation
+   - Maximum line length: 100 characters (can exceed for readability in ML code)
+   - Use descriptive variable names (e.g., `batch_size`, `vocab_size`, not `bs`, `vs`)
+
+2. **Type Hints** (when helpful):
+   ```python
+   def get_batch(split: str) -> tuple[torch.Tensor, torch.Tensor]:
+       """Returns (x, y) tensors for the specified split."""
+   ```
+
+3. **Docstrings**:
+   - Use triple-quoted strings for module, class, and function documentation
+   - Include parameter descriptions and return values
+   - Explain tensor shapes using (B, T, C) notation (Batch, Time, Channels)
+
+### PyTorch Best Practices
+
+1. **Tensor Shape Annotations**:
+   ```python
+   # Always comment tensor shapes for clarity
+   token_emb = self.token_embedding_table(idx)  # (B, T, C)
+   logits = logits.view(B * T, C)  # Reshape for cross_entropy
+   ```
+
+2. **Device Management**:
+   ```python
+   # Prioritize: MPS (Apple Silicon) > CUDA > CPU
+   if torch.cuda.is_available():
+       device = 'cuda'
+   elif torch.backends.mps.is_available():
+       device = 'mps'
+   else:
+       device = 'cpu'
+   
+   # Always move tensors to device explicitly
+   x, y = x.to(device), y.to(device)
+   model = model.to(device)
+   ```
+
+3. **Gradient Management**:
+   ```python
+   # Use set_to_none=True for performance
+   optimizer.zero_grad(set_to_none=True)
+   loss.backward()
+   optimizer.step()
+   ```
+
+4. **Evaluation Mode**:
+   ```python
+   @torch.no_grad()
+   def estimate_loss():
+       model.eval()
+       # ... evaluation code ...
+       model.train()  # Switch back to training mode
+   ```
+
+5. **Memory Efficiency**:
+   - Use `torch.no_grad()` for inference
+   - Avoid unnecessary `.item()` calls in loops
+   - Use `torch.cat()` efficiently (avoid repeated concatenation)
+
+### Model Architecture Patterns
+
+1. **Module Structure**:
+   ```python
+   class BigramLanguageModel(nn.Module):
+       def __init__(self, vocab_size, n_embd, block_size, device, dropout, n_head, n_layer):
+           super().__init__()
+           # Store hyperparameters
+           self.block_size = block_size
+           self.device = device
+           # Define layers
+           self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+           # ...
+       
+       def forward(self, idx, targets=None):
+           """Document tensor shapes: (B, T) -> (B, T, C)"""
+           # Implementation
+   ```
+
+2. **Transformer Block Pattern**:
+   ```python
+   class Block(nn.Module):
+       def __init__(self, n_embd, n_head, block_size, dropout):
+           super().__init__()
+           self.sa = MultiHeadAttention(...)
+           self.ffwd = FeedForward(...)
+           self.ln1 = nn.LayerNorm(n_embd)
+           self.ln2 = nn.LayerNorm(n_embd)
+       
+       def forward(self, x):
+           # Pre-norm architecture
+           x = x + self.sa(self.ln1(x))
+           x = x + self.ffwd(self.ln2(x))
+           return x
+   ```
+
+3. **Generation Function**:
+   ```python
+   def generate(self, idx, max_new_tokens):
+       """Generate tokens autoregressively."""
+       for _ in range(max_new_tokens):
+           idx_cond = idx[:, -self.block_size:]  # Crop to block_size
+           logits, _ = self(idx_cond)
+           logits = logits[:, -1, :]  # Focus on last time step
+           probs = F.softmax(logits, dim=-1)
+           idx_next = torch.multinomial(probs, num_samples=1)
+           idx = torch.cat((idx, idx_next), dim=1)
+       return idx
+   ```
+
+### Tokenization Patterns
+
+1. **Encoding/Decoding Functions**:
+   ```python
+   # Use proper function definitions, not lambdas
+   def encode(s: str) -> list[int]:
+       """Convert string to list of token IDs."""
+       return encoder.encode(s)
+   
+   def decode(token_ids: list[int]) -> str:
+       """Convert list of token IDs to string."""
+       return decoder.decode(token_ids)
+   ```
+
+2. **Tokenization Method Selection**:
+   - Support multiple methods: character-level, GPT-2 BPE, custom BPE
+   - Use environment variables for configuration: `TOKENIZATION_METHOD`
+   - Provide automatic fallback mechanisms
+   - Scale vocabulary size automatically based on dataset size
+
+### Training Loop Patterns
+
+1. **Standard Training Loop**:
+   ```python
+   for step in range(training_steps):
+       # Evaluate periodically
+       if step % eval_interval == 0:
+           losses = estimate_loss()
+           print(f"step {step}: train loss {losses['train']:.4f}")
+       
+       # Get batch
+       xb, yb = get_batch('train')
+       
+       # Forward pass
+       logits, loss = model(xb, yb)
+       
+       # Backward pass
+       optimizer.zero_grad(set_to_none=True)
+       loss.backward()
+       optimizer.step()
+   ```
+
+2. **Loss Estimation**:
+   ```python
+   @torch.no_grad()
+   def estimate_loss():
+       out = {}
+       model.eval()
+       for split in ['train', 'val']:
+           losses = torch.zeros(eval_iters)
+           for k in range(eval_iters):
+               X, Y = get_batch(split)
+               _, loss = model(X, Y)
+               losses[k] = loss.item()
+           out[split] = losses.mean()
+       model.train()
+       return out
+   ```
+
+### Configuration & Hyperparameters
+
+1. **Environment Variable Configuration**:
+   ```python
+   # Read from environment with sensible defaults
+   TEST_MODE = os.environ.get("TEST_MODE", "False") == "True"
+   TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/shakespeare.txt")
+   TOKENIZATION_METHOD = os.environ.get("TOKENIZATION_METHOD", "character")
+   ```
+
+2. **Hyperparameter Organization**:
+   - Group hyperparameters in clearly marked sections
+   - Provide both TEST_MODE and production configurations
+   - Document the purpose of each hyperparameter
+   - Use meaningful variable names: `n_embd`, `n_head`, `n_layer`, `block_size`
+
+### Documentation Standards
+
+1. **Inline Comments**:
+   - Explain tensor shape transformations: `# (B, T, C) -> (B*T, C)`
+   - Document why certain operations are performed
+   - Clarify non-obvious PyTorch operations
+
+2. **Function Docstrings**:
+   ```python
+   def get_batch(split):
+       """
+       Generate a small batch of data of inputs x and targets y
+       
+       Args:
+           split: 'train' or 'val' to select which dataset to use
+           
+       Returns:
+           x: Input sequences of shape (batch_size, block_size)
+           y: Target sequences of shape (batch_size, block_size)
+       """
+   ```
+
+3. **Learning Notes**:
+   - Use `notes.md` for conceptual explanations
+   - Include visual representations of tensor operations
+   - Document key learning insights
+
+### File Organization
+
+1. **Directory Structure**:
+   ```
+   build_llm_karpathy/
+   ├── training.py          # Main training script
+   ├── models/              # Model definitions
+   │   └── bigram_lm_v2.py
+   ├── transformer_core/    # Transformer components
+   │   └── block.py
+   ├── self_attention/      # Attention mechanisms
+   ├── feed_forward/        # Feed-forward networks
+   ├── sources/            # Training data
+   └── notes.md            # Learning documentation
+   ```
+
+2. **Module Imports**:
+   ```python
+   # Standard library
+   import time
+   import os
+   
+   # Third-party
+   import torch
+   import torch.nn as nn
+   from torch.nn import functional as F
+   
+   # Local imports
+   from models.bigram_lm_v2 import BigramLanguageModel
+   ```
+
+### Performance Optimization
+
+1. **Apple Silicon (MPS) Support**:
+   - Prioritize MPS when available
+   - Note: `torch.compile()` may be experimental for MPS
+   - Optimize batch sizes and block sizes for M4/M-series chips
+
+2. **Efficient Operations**:
+   - Use `torch.stack()` for batch creation
+   - Avoid unnecessary CPU-GPU transfers
+   - Use in-place operations when safe
+   - Profile before optimizing
+
+3. **Memory Management**:
+   - Clear gradients with `set_to_none=True`
+   - Use `torch.no_grad()` for inference
+   - Monitor memory usage during training
+
+### Testing Practices
+
+1. **Test Structure**:
+   - Use pytest for testing
+   - Test model forward passes with small inputs
+   - Verify tensor shapes match expectations
+   - Test generation functions
+
+2. **Test Mode**:
+   - Support `TEST_MODE` environment variable
+   - Use reduced hyperparameters for fast testing
+   - Smaller batch sizes, fewer layers, shorter sequences
+
+### Error Handling
+
+1. **Graceful Degradation**:
+   ```python
+   try:
+       import sentencepiece as spm
+       # Use custom BPE
+   except ImportError:
+       print("Falling back to character-level tokenization")
+       # Use character-level encoding
+   ```
+
+2. **Device Fallback**:
+   ```python
+   try:
+       if torch.backends.mps.is_available():
+           device = 'mps'
+   except:
+       device = 'cpu'
+   ```
+
+### Git & Version Control
+
+1. **Commit Messages**:
+   - Use conventional commits format: `type: description`
+   - Types: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`
+   - Include bullet points for significant changes
+
+2. **Example Commit**:
+   ```
+   feat: add flexible tokenization system with multiple encoding options
+   
+   - Replace simple character-level encoding with configurable tokenization
+   - Add support for GPT-2 BPE tokenization via tiktoken library
+   - Implement custom BPE tokenizer with automatic vocabulary size scaling
+   ```
+
+## Common Patterns to Follow
+
+### Tensor Shape Documentation
+Always document tensor shapes using (B, T, C) notation:
+- **B**: Batch size
+- **T**: Time dimension (sequence length, tokens)
+- **C**: Channels (embedding dimension, vocab size)
+
+### Reproducibility
+- Set random seeds: `torch.manual_seed(1337)`
+- Document seed values
+- Ensure deterministic behavior when possible
+
+### Educational Focus
+- This is a learning project - prioritize clarity over optimization
+- Add explanatory comments for complex operations
+- Document the "why" not just the "what"
+
+## Anti-Patterns to Avoid
+
+1. ❌ **Don't use lambdas for encode/decode** - Use proper functions
+2. ❌ **Don't hardcode device** - Always check availability
+3. ❌ **Don't skip shape comments** - Always document tensor transformations
+4. ❌ **Don't forget `.train()` after `.eval()`** - Always restore training mode
+5. ❌ **Don't ignore MPS limitations** - Test on target hardware
+
+## Additional Resources
+
+- README.md: Project overview and setup instructions
+- notes.md: Detailed learning notes and explanations
+- WARP.md: Development environment setup
+- PERFORMANCE.md: Performance optimization notes
