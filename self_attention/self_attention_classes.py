@@ -97,7 +97,7 @@ class MultiHeadAttention(nn.Module):
         """
         super().__init__()
         self.heads = nn.ModuleList([Head(n_embd, head_size, block_size, dropout) for _ in range(num_heads)])
-        self.proj = nn.Linear(n_embd, n_embd)
+        self.proj = nn.Linear(num_heads * head_size, n_embd)
         self.dropout = nn.Dropout(dropout)
 
     def forward(self, x):
