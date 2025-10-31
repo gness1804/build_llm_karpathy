@@ -193,4 +193,5 @@ htmlcov/
 .python-version
 
 # project-specific files
-
+tmp/
+temp/
