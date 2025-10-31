@@ -16,6 +16,7 @@ from models.bigram_lm_v2 import BigramLanguageModel
 
 # Set to True for fast testing with smaller model, False for full training
 TEST_MODE = is_test_mode == "True"
+TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/shakespeare.txt")
 
 # Set random seed for reproducibility
 torch.manual_seed(1337)
@@ -70,7 +71,7 @@ print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
 # ============================================================================
 
 # Load training data
-with open('sources/shakespeare.txt', 'r', encoding='utf-8') as f:
+with open(TRAINING_DATA_SOURCE, 'r', encoding='utf-8') as f:
     text = f.read()
 
 # Create vocabulary from all unique characters in the text
