@@ -45,13 +45,13 @@ if TEST_MODE:
     print("🔬 TEST MODE: Using reduced hyperparameters for fast training")
 else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
-    batch_size = 32         # Reduced from 64 for better M4 performance
-    block_size = 64         # Further reduced from 128 (4x less attention computation)
+    batch_size = 64         # Reduced from 64 for better M4 performance
+    block_size = 128         # Further reduced from 128 (4x less attention computation)
     training_steps = 5000   # Number of training iterations 
     eval_interval = 100     # More frequent feedback (reduced from 500)
     learning_rate = 3e-4    # Learning rate for optimizer
     eval_iters = 25         # Further reduced from 50 for faster eval
-    n_embd = 192            # Further reduced from 256 for Apple Silicon
+    n_embd = 256            # Further reduced from 256 for Apple Silicon
     n_head = 3              # Further reduced from 4 for Apple Silicon
     n_layer = 3             # Further reduced from 4 for Apple Silicon
     dropout = 0.2           # Dropout rate for self-attention
