@@ -4,6 +4,7 @@ torchvision>=0.15.0
 torchaudio>=2.0.0
 numpy>=1.24.0
 tiktoken>=0.5.0
+tokenizers>=0.15.0  # HuggingFace tokenizers for custom BPE training
 
 # Visualization and plotting
 matplotlib>=3.7.0
