@@ -3,13 +3,14 @@ Bigram Language Model - Building an LLM from Scratch
 Following Andrej Karpathy's tutorial
 """
 
+import tiktoken
+from models.bigram_lm_v2 import BigramLanguageModel
+
 import time
 import torch
 import os
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
-import tiktoken
-from models.bigram_lm_v2 import BigramLanguageModel
 
 # Option: Use sentencepiece for custom BPE tokenization (smaller vocab)
 # Uncomment if you want to use a custom tokenizer trained on your data

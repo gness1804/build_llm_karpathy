@@ -5,9 +5,7 @@ Implements a simple two-layer MLP with ReLU activation and dropout,
 following the standard transformer feed-forward architecture.
 """
 
-import torch
 import torch.nn as nn
-from torch.nn import functional as F
 
 
 class FeedForward(nn.Module):

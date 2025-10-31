@@ -7,9 +7,7 @@ pre-norm transformer architecture.
 """
 
 # Third-party imports
-import torch
 import torch.nn as nn
-from torch.nn import functional as F
 
 # Local imports
 from self_attention.self_attention_classes import MultiHeadAttention
