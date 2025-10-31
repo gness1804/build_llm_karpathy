@@ -9,6 +9,9 @@ from models.bigram_lm_v2 import BigramLanguageModel
 import time
 import torch
 import os
+import sys
+from datetime import datetime
+from io import StringIO
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
 
@@ -25,6 +28,99 @@ TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/carolyn_h
 TOKENIZATION_METHOD = os.environ.get("TOKENIZATION_METHOD", "character")  # "character", "gpt2", or "custom_bpe"
 CUSTOM_VOCAB_SIZE = os.environ.get("CUSTOM_VOCAB_SIZE", None)
 
+# Output to file configuration
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs")
+ENABLE_OUTPUT_TO_FILE = os.environ.get("ENABLE_OUTPUT_TO_FILE", "True").lower() == "true"
+
+# ============================================================================
+# OUTPUT TO FILE UTILITIES
+# ============================================================================
+
+class TeeOutput:
+    """Capture stdout while still displaying to terminal"""
+    def __init__(self, *files):
+        self.files = files
+        self.buffer = StringIO()
+    
+    def write(self, obj):
+        # Write to all files (stdout + buffer)
+        for f in self.files:
+            f.write(obj)
+            f.flush()
+        # Also write to buffer for later retrieval
+        self.buffer.write(obj)
+    
+    def flush(self):
+        for f in self.files:
+            f.flush()
+    
+    def getvalue(self):
+        return self.buffer.getvalue()
+
+def get_data_source_name(training_data_source):
+    """Extract data source name without extension from path"""
+    # Handle both relative and absolute paths
+    source_path = os.path.normpath(training_data_source)
+    # Get filename with extension
+    filename = os.path.basename(source_path)
+    # Remove extension
+    source_name = os.path.splitext(filename)[0]
+    return source_name
+
+def generate_output_filename(model_name, source_name, vocab_size, training_steps, test_mode):
+    """Generate output filename with structured naming convention"""
+    # Format timestamp as MMDDYYYY_HHMMSS
+    timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
+    
+    # Construct filename components
+    components = [
+        "build_llm_output",
+        model_name,
+        source_name,
+        str(vocab_size),
+        str(training_steps),
+        f"test={str(test_mode).lower()}",
+        "OUTPUT",
+        timestamp
+    ]
+    
+    # Join with underscores (snake_case)
+    filename = "_".join(components) + ".txt"
+    return filename
+
+def write_output_file(output_path, hyperparameters, captured_output):
+    """Write hyperparameters and captured output to file"""
+    try:
+        with open(output_path, 'w', encoding='utf-8') as f:
+            # Write hyperparameters section
+            f.write("HYPERPARAMETERS\n")
+            f.write("=" * 16 + "\n")
+            for key, value in hyperparameters.items():
+                f.write(f"{key} = {value}\n")
+            
+            f.write("\n")
+            
+            # Write output section
+            f.write("OUTPUT\n")
+            f.write("=" * 6 + "\n")
+            f.write(captured_output)
+        
+        return True
+    except Exception as e:
+        print(f"⚠️  Error writing output file: {e}")
+        return False
+
+# Create output directory if it doesn't exist
+if ENABLE_OUTPUT_TO_FILE:
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Initialize stdout capture if output to file is enabled
+tee_output = None
+original_stdout = None
+if ENABLE_OUTPUT_TO_FILE:
+    original_stdout = sys.stdout
+    tee_output = TeeOutput(sys.stdout)
+    sys.stdout = tee_output
 
 # Set random seed for reproducibility
 torch.manual_seed(1337)
@@ -70,6 +166,24 @@ else:
 
 # Generation settings
 max_new_tokens = 300    # Number of characters to generate
+
+# Collect hyperparameters for output file
+hyperparameters = {
+    'batch_size': batch_size,
+    'block_size': block_size,
+    'training_steps': training_steps,
+    'eval_interval': eval_interval,
+    'learning_rate': learning_rate,
+    'eval_iters': eval_iters,
+    'n_embd': n_embd,
+    'n_head': n_head,
+    'n_layer': n_layer,
+    'dropout': dropout,
+    'max_new_tokens': max_new_tokens,
+    'device': device,
+    'tokenization_method': TOKENIZATION_METHOD,
+    'test_mode': TEST_MODE
+}
 
 print(f"Device: {device}")
 print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
@@ -199,6 +313,9 @@ if TOKENIZATION_METHOD == "character" or TOKENIZATION_METHOD not in ["gpt2", "cu
     print(f"📝 Using character-level tokenization (vocab_size={vocab_size})")
     print("✅ Recommended for small datasets - fastest training and lowest loss")
 
+# Add vocab_size to hyperparameters after it's determined (works for all tokenization methods)
+hyperparameters['vocab_size'] = vocab_size
+
 # Encode entire text dataset
 data = torch.tensor(encode(text), dtype=torch.long)
 
@@ -248,6 +365,14 @@ def estimate_loss():
         out[split] = losses.mean()
     model.train()
     return out
+
+def get_model_name(model_instance):
+    """Extract model name from model class (e.g., 'BigramLanguageModel' -> 'bigram')"""
+    class_name = model_instance.__class__.__name__
+    # Convert PascalCase to lowercase (simple heuristic: first word before 'LanguageModel')
+    if 'LanguageModel' in class_name:
+        return class_name.replace('LanguageModel', '').lower()
+    return class_name.lower()
 
 # ============================================================================
 # TRAINING SETUP
@@ -347,3 +472,34 @@ generated_text = decode(generated_tokens[0].tolist())
 
 print(generated_text)
 print("=" * 50)
+
+# ============================================================================
+# WRITE OUTPUT TO FILE
+# ============================================================================
+
+if ENABLE_OUTPUT_TO_FILE:
+    # Restore stdout
+    sys.stdout = original_stdout
+    
+    # Get captured output
+    captured_output = tee_output.getvalue()
+    
+    # Extract model name, data source name, and generate filename
+    model_name = get_model_name(model)
+    source_name = get_data_source_name(TRAINING_DATA_SOURCE)
+    filename = generate_output_filename(
+        model_name=model_name,
+        source_name=source_name,
+        vocab_size=vocab_size,
+        training_steps=training_steps,
+        test_mode=TEST_MODE
+    )
+    
+    # Construct full output path
+    output_path = os.path.join(OUTPUT_DIR, filename)
+    
+    # Write output file
+    if write_output_file(output_path, hyperparameters, captured_output):
+        print(f"\n✅ Output written to: {output_path}")
+    else:
+        print(f"\n⚠️  Failed to write output file")
