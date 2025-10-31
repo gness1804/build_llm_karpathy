@@ -12,9 +12,8 @@ import os
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
 
-# Option: Use sentencepiece for custom BPE tokenization (smaller vocab)
-# Uncomment if you want to use a custom tokenizer trained on your data
-# import sentencepiece as spm
+# Custom BPE tokenization uses HuggingFace tokenizers library
+# No need to import here - imported when custom_bpe method is selected
 
 # ============================================================================
 # HYPERPARAMETERS
@@ -102,10 +101,12 @@ if TOKENIZATION_METHOD == "gpt2":
     
 elif TOKENIZATION_METHOD == "custom_bpe":
     # Custom BPE: Train a tokenizer on your dataset (recommended for balanced approach)
-    # This requires sentencepiece library: pip install sentencepiece
+    # Uses HuggingFace tokenizers library: pip install tokenizers
     try:
-        import sentencepiece as spm
-        import tempfile
+        from tokenizers import Tokenizer
+        from tokenizers.models import BPE
+        from tokenizers.trainers import BpeTrainer
+        from tokenizers.pre_tokenizers import Whitespace
         import math
         
         # Automatically scale vocab size based on dataset characteristics
@@ -160,37 +161,22 @@ elif TOKENIZATION_METHOD == "custom_bpe":
                 print(f"   Dataset size: {dataset_size_mb:.2f} MB, Unique chars: {num_unique_chars}")
                 print(f"   Auto-selected vocab_size: {target_vocab_size:,}")
         
-        # Save text to temporary file for sentencepiece training
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
-            f.write(text)
-            temp_file = f.name
+        # Initialize tokenizer with BPE model
+        tokenizer = Tokenizer(BPE(unk_token="<unk>"))
+        tokenizer.pre_tokenizer = Whitespace()
         
-        # Train the tokenizer
-        spm.SentencePieceTrainer.train(
-            input=temp_file,
-            model_prefix='custom_tokenizer',
-            vocab_size=target_vocab_size,
-            character_coverage=0.9995,
-            model_type='bpe'
-        )
+        # Train the tokenizer (no verbose logging by default - clean and simple!)
+        trainer = BpeTrainer(vocab_size=target_vocab_size, special_tokens=["<unk>"])
+        tokenizer.train_from_iterator([text], trainer=trainer)
         
-        # Load the trained tokenizer
-        sp = spm.SentencePieceProcessor()
-        sp.load('custom_tokenizer.model')
-        vocab_size = len(sp)
+        vocab_size = tokenizer.get_vocab_size()
         
-        def encode(s): return sp.encode_as_ids(s)
-        def decode(token_ids): return sp.decode_ids(token_ids)
-        
-        # Cleanup
-        import os
-        os.unlink(temp_file)
-        os.unlink('custom_tokenizer.model')
-        os.unlink('custom_tokenizer.vocab')
+        def encode(s): return tokenizer.encode(s).ids
+        def decode(token_ids): return tokenizer.decode(token_ids)
         
         print(f"✅ Custom BPE tokenizer trained (vocab_size={vocab_size:,})")
     except ImportError:
-        print("❌ sentencepiece not installed. Install with: pip install sentencepiece")
+        print("❌ tokenizers not installed. Install with: pip install tokenizers")
         print("📝 Falling back to character-level tokenization")
         # Fall through to character-level implementation
         TOKENIZATION_METHOD = "character"
