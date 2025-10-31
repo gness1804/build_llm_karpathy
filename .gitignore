@@ -192,6 +192,6 @@ htmlcov/
 # pyenv
 .python-version
 
-# project-specific files
+# temporary files
 tmp/
 temp/

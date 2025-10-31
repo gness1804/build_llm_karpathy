@@ -21,7 +21,7 @@ is_test_mode = os.environ.get("TEST_MODE", "False")
 
 # Set to True for fast testing with smaller model, False for full training
 TEST_MODE = is_test_mode == "True"
-TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/shakespeare.txt")
+TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/hugging_face.txt")
 TOKENIZATION_METHOD = os.environ.get("TOKENIZATION_METHOD", "character")  # "character", "gpt2", or "custom_bpe"
 CUSTOM_VOCAB_SIZE = os.environ.get("CUSTOM_VOCAB_SIZE", None)
 
