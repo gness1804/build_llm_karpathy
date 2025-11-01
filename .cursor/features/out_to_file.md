@@ -1,5 +1,7 @@
 # Output to File
 
+**Implemented 10/31/2025**
+
 I would like for the training program in the current repo to be able to optionally output its results to a data file. This will allow for better recordkeeping of the various outputs as users experiment with the models.
 
 Each run of `training.py` should generate one output file. The output files should have the following components:
