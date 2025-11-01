@@ -63,7 +63,7 @@ class Head(nn.Module):
         
         # Compute attention scores ("affinities") - This is done by computing the attention scores between the key and query.
         # Scaled dot-product: Q @ K^T / sqrt(head_size)
-        weight: torch.Tensor = q @ k.transpose(-2, -1) * C**-0.5  # (B, T, head_size) @ (B, head_size, T) -> (B, T, T)
+        weight: torch.Tensor = q @ k.transpose(-2, -1) * C**-0.5  # (B, T, head_size) @ (B, head_size, T) -> (B, T, T) # The extra math is needed to scale the attention scores. This means that the attention scores are not too large or too small.
         
         # Apply causal mask (lower triangular) to prevent looking at future tokens - This is done to prevent the model from attending to future tokens in the sequence.
         weight: torch.Tensor = weight.masked_fill(self.tril[:T, :T] == 0, float('-inf'))  # (B, T, T)
