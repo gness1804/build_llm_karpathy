@@ -15,24 +15,24 @@ class BigramLanguageModel(nn.Module):
     Simple bigram language model that predicts the next character
     based only on the current character using a lookup table.
     """
-    
+
     def __init__(self, vocab_size):
         super().__init__()
         # Each token directly reads off the logits for the next token from a lookup table
         self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
-    
+
     def forward(self, idx, targets=None):
         """
         Compute logits (raw predictions) for what could come next after each position
-        
+
         Args:
             idx: Input tensor of shape (B, T) containing token indices
             targets: Optional target tensor of shape (B, T)
-            
+
         Returns:
             logits: Predictions of shape (B, T, C) or (B*T, C) if targets provided
             loss: Cross-entropy loss if targets provided, None otherwise
-            
+
         Where:
             B = batch size
             T = sequence length (tokens in a chunk) / time dimension
@@ -40,7 +40,7 @@ class BigramLanguageModel(nn.Module):
         """
         # Get predictions from embedding table: (B, T) -> (B, T, C)
         logits = self.token_embedding_table(idx)
-        
+
         if targets is None:
             loss = None
         else:
@@ -49,35 +49,34 @@ class BigramLanguageModel(nn.Module):
             logits = logits.view(B * T, C)
             targets = targets.view(B * T)
             loss = F.cross_entropy(logits, targets)
-        
+
         return logits, loss
-    
+
     def generate(self, idx, max_new_tokens):
         """
         Generate new tokens by repeatedly predicting and sampling
-        
+
         Args:
             idx: Starting context of shape (B, T)
             max_new_tokens: Number of new tokens to generate
-            
+
         Returns:
             idx: Extended sequence of shape (B, T + max_new_tokens)
         """
         for _ in range(max_new_tokens):
             # Get predictions for all positions
             logits, loss = self(idx)
-            
+
             # Focus only on the last time step: (B, T, C) -> (B, C)
             logits = logits[:, -1, :]
-            
+
             # Apply softmax to convert to probabilities: (B, C)
             probs = F.softmax(logits, dim=-1)
-            
+
             # Sample one token from the distribution: (B, C) -> (B, 1)
             idx_next = torch.multinomial(probs, num_samples=1)
-            
+
             # Append sampled token to the running sequence: (B, T) -> (B, T+1)
             idx = torch.cat((idx, idx_next), dim=1)
-        
-        return idx
 
+        return idx

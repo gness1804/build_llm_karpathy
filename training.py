@@ -12,6 +12,7 @@ import os
 import sys
 from datetime import datetime
 from io import StringIO
+
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
 
@@ -24,24 +25,32 @@ is_test_mode = os.environ.get("TEST_MODE", "False")
 
 # Set to True for fast testing with smaller model, False for full training
 TEST_MODE = is_test_mode == "True"
-TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", "sources/carolyn_hax_103125_chat.md")
-TOKENIZATION_METHOD = os.environ.get("TOKENIZATION_METHOD", "character")  # "character", "gpt2", or "custom_bpe"
+TRAINING_DATA_SOURCE = os.environ.get(
+    "TRAINING_DATA_SOURCE", "sources/carolyn_hax_103125_chat.md"
+)
+TOKENIZATION_METHOD = os.environ.get(
+    "TOKENIZATION_METHOD", "character"
+)  # "character", "gpt2", or "custom_bpe"
 CUSTOM_VOCAB_SIZE = os.environ.get("CUSTOM_VOCAB_SIZE", None)
 
 # Output to file configuration
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs")
-ENABLE_OUTPUT_TO_FILE = os.environ.get("ENABLE_OUTPUT_TO_FILE", "True").lower() == "true"
+ENABLE_OUTPUT_TO_FILE = (
+    os.environ.get("ENABLE_OUTPUT_TO_FILE", "True").lower() == "true"
+)
 
 # ============================================================================
 # OUTPUT TO FILE UTILITIES
 # ============================================================================
 
+
 class TeeOutput:
     """Capture stdout while still displaying to terminal"""
+
     def __init__(self, *files):
         self.files = files
         self.buffer = StringIO()
-    
+
     def write(self, obj):
         # Write to all files (stdout + buffer)
         for f in self.files:
@@ -49,13 +58,14 @@ class TeeOutput:
             f.flush()
         # Also write to buffer for later retrieval
         self.buffer.write(obj)
-    
+
     def flush(self):
         for f in self.files:
             f.flush()
-    
+
     def getvalue(self):
         return self.buffer.getvalue()
+
 
 def get_data_source_name(training_data_source):
     """Extract data source name without extension from path"""
@@ -67,11 +77,14 @@ def get_data_source_name(training_data_source):
     source_name = os.path.splitext(filename)[0]
     return source_name
 
-def generate_output_filename(model_name, source_name, vocab_size, training_steps, test_mode):
+
+def generate_output_filename(
+    model_name, source_name, vocab_size, training_steps, test_mode
+):
     """Generate output filename with structured naming convention"""
     # Format timestamp as MMDDYYYY_HHMMSS
     timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
-    
+
     # Construct filename components
     components = [
         "build_llm_output",
@@ -81,34 +94,36 @@ def generate_output_filename(model_name, source_name, vocab_size, training_steps
         str(training_steps),
         f"test={str(test_mode).lower()}",
         "OUTPUT",
-        timestamp
+        timestamp,
     ]
-    
+
     # Join with underscores (snake_case)
     filename = "_".join(components) + ".txt"
     return filename
 
+
 def write_output_file(output_path, hyperparameters, captured_output):
     """Write hyperparameters and captured output to file"""
     try:
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             # Write hyperparameters section
             f.write("HYPERPARAMETERS\n")
             f.write("=" * 16 + "\n")
             for key, value in hyperparameters.items():
                 f.write(f"{key} = {value}\n")
-            
+
             f.write("\n")
-            
+
             # Write output section
             f.write("OUTPUT\n")
             f.write("=" * 6 + "\n")
             f.write(captured_output)
-        
+
         return True
     except Exception as e:
         print(f"⚠️  Error writing output file: {e}")
         return False
+
 
 # Create output directory if it doesn't exist
 if ENABLE_OUTPUT_TO_FILE:
@@ -128,61 +143,63 @@ torch.manual_seed(1337)
 # Model hyperparameters
 if TEST_MODE:
     # Fast configuration for testing and debugging
-    batch_size = 32         # Reduced from 64
-    block_size = 64         # Reduced from 256 (16x less attention computation!)
-    training_steps = 1000   # Reduced from 5000
-    eval_interval = 100     # Evaluate more frequently
-    learning_rate = 3e-4    # Learning rate for optimizer
-    eval_iters = 50         # Reduced from 200
-    n_embd = 128            # Reduced from 384
-    n_head = 4              # Reduced from 6
-    n_layer = 3             # Reduced from 6 (half the layers!)
-    dropout = 0.2           # Dropout rate for self-attention
+    batch_size = 32  # Reduced from 64
+    block_size = 64  # Reduced from 256 (16x less attention computation!)
+    training_steps = 1000  # Reduced from 5000
+    eval_interval = 100  # Evaluate more frequently
+    learning_rate = 3e-4  # Learning rate for optimizer
+    eval_iters = 50  # Reduced from 200
+    n_embd = 128  # Reduced from 384
+    n_head = 4  # Reduced from 6
+    n_layer = 3  # Reduced from 6 (half the layers!)
+    dropout = 0.2  # Dropout rate for self-attention
     print("🔬 TEST MODE: Using reduced hyperparameters for fast training")
 else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
-    batch_size = 64         # Reduced from 64 for better M4 performance
-    block_size = 128         # Further reduced from 128 (4x less attention computation)
-    training_steps = 5000   # Number of training iterations 
-    eval_interval = 100     # More frequent feedback (reduced from 500)
-    learning_rate = 3e-4    # Learning rate for optimizer
-    eval_iters = 25         # Further reduced from 50 for faster eval
-    n_embd = 256            # Further reduced from 256 for Apple Silicon
-    n_head = 3              # Further reduced from 4 for Apple Silicon
-    n_layer = 3             # Further reduced from 4 for Apple Silicon
-    dropout = 0.2           # Dropout rate for self-attention
-    print("🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)")
+    batch_size = 64  # Reduced from 64 for better M4 performance
+    block_size = 128  # Further reduced from 128 (4x less attention computation)
+    training_steps = 5000  # Number of training iterations
+    eval_interval = 500  # More frequent feedback (reduced from 500)
+    learning_rate = 3e-4  # Learning rate for optimizer
+    eval_iters = 50  # Further reduced from 50 for faster eval
+    n_embd = 256  # Further reduced from 256 for Apple Silicon
+    n_head = 4  # Further reduced from 4 for Apple Silicon
+    n_layer = 4  # Further reduced from 4 for Apple Silicon
+    dropout = 0.2  # Dropout rate for self-attention
+    print(
+        "🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)"
+    )
 
 # Device selection: prioritize MPS (Apple Silicon GPU) > CUDA > CPU
 if torch.cuda.is_available():
-    device = 'cuda'
+    device = "cuda"
     print("✅ Using NVIDIA GPU (CUDA)")
 elif torch.backends.mps.is_available():
-    device = 'mps'
+    device = "mps"
     print("✅ Using Apple Silicon GPU (Metal Performance Shaders)")
 else:
-    device = 'cpu'
+    device = "cpu"
     print("⚠️  Using CPU (slow) - consider using MPS if available")
 
 # Generation settings
-max_new_tokens = 300    # Number of characters to generate
+max_new_tokens = 300  # Number of characters to generate
 
 # Collect hyperparameters for output file
 hyperparameters = {
-    'batch_size': batch_size,
-    'block_size': block_size,
-    'training_steps': training_steps,
-    'eval_interval': eval_interval,
-    'learning_rate': learning_rate,
-    'eval_iters': eval_iters,
-    'n_embd': n_embd,
-    'n_head': n_head,
-    'n_layer': n_layer,
-    'dropout': dropout,
-    'max_new_tokens': max_new_tokens,
-    'device': device,
-    'tokenization_method': TOKENIZATION_METHOD,
-    'test_mode': TEST_MODE
+    "batch_size": batch_size,
+    "block_size": block_size,
+    "training_steps": training_steps,
+    "eval_interval": eval_interval,
+    "learning_rate": learning_rate,
+    "eval_iters": eval_iters,
+    "n_embd": n_embd,
+    "n_head": n_head,
+    "n_layer": n_layer,
+    "dropout": dropout,
+    "max_new_tokens": max_new_tokens,
+    "device": device,
+    "tokenization_method": TOKENIZATION_METHOD,
+    "test_mode": TEST_MODE,
 }
 
 print(f"Device: {device}")
@@ -193,7 +210,7 @@ print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
 # ============================================================================
 
 # Load training data
-with open(TRAINING_DATA_SOURCE, 'r', encoding='utf-8') as f:
+with open(TRAINING_DATA_SOURCE, "r", encoding="utf-8") as f:
     text = f.read()
 
 # TOKENIZATION OPTIONS:
@@ -208,11 +225,16 @@ if TOKENIZATION_METHOD == "gpt2":
     # Better for large datasets, but slower and higher loss for small datasets
     enc = tiktoken.get_encoding("gpt2")
     vocab_size = enc.n_vocab
-    def encode(s): return enc.encode(s)
-    def decode(token_ids): return enc.decode(token_ids)
+
+    def encode(s):
+        return enc.encode(s)
+
+    def decode(token_ids):
+        return enc.decode(token_ids)
+
     print(f"📝 Using GPT-2 BPE tokenization (vocab_size={vocab_size:,})")
     print("⚠️  Note: Large vocab may cause higher loss and slower training")
-    
+
 elif TOKENIZATION_METHOD == "custom_bpe":
     # Custom BPE: Train a tokenizer on your dataset (recommended for balanced approach)
     # Uses HuggingFace tokenizers library: pip install tokenizers
@@ -222,17 +244,17 @@ elif TOKENIZATION_METHOD == "custom_bpe":
         from tokenizers.trainers import BpeTrainer
         from tokenizers.pre_tokenizers import Whitespace
         import math
-        
+
         # Automatically scale vocab size based on dataset characteristics
         # This balances efficiency (compression) with model size (parameters)
         # Can be overridden with CUSTOM_VOCAB_SIZE environment variable
         manual_vocab_size = CUSTOM_VOCAB_SIZE
-        
-        dataset_size_bytes = len(text.encode('utf-8'))
+
+        dataset_size_bytes = len(text.encode("utf-8"))
         dataset_size_mb = dataset_size_bytes / (1024 * 1024)
         num_unique_chars = len(set(text))
 
-        if manual_vocab_size and manual_vocab_size.lower() != 'none':
+        if manual_vocab_size and manual_vocab_size.lower() != "none":
             target_vocab_size = int(CUSTOM_VOCAB_SIZE)
             print(f"🔧 Using manual vocab_size override: {target_vocab_size:,}")
         else:
@@ -240,81 +262,100 @@ elif TOKENIZATION_METHOD == "custom_bpe":
             # 1. Base size on dataset size (larger datasets benefit from larger vocabs)
             # 2. Minimum vocab size ensures good coverage
             # 3. Maximum vocab size caps model complexity
-            
+
             # Heuristic: vocab_size scales logarithmically with dataset size
             # Formula: base_vocab + log2(dataset_size_mb) * scale_factor
             # This ensures:
             # - Small datasets (< 1MB): ~500-1000 tokens
-            # - Medium datasets (1-10MB): ~1000-3000 tokens  
+            # - Medium datasets (1-10MB): ~1000-3000 tokens
             # - Large datasets (> 10MB): ~3000-8000 tokens
-            
+
             base_vocab = 500
             scale_factor = 200
-            
+
             # Calculate target vocab size
             if dataset_size_mb < 0.1:
                 # Very small datasets: use smaller vocab
                 target_vocab_size = max(256, min(1000, num_unique_chars * 4))
             elif dataset_size_mb < 1.0:
                 # Small datasets: 500-1500 tokens
-                target_vocab_size = base_vocab + int(math.log2(max(0.1, dataset_size_mb)) * scale_factor)
+                target_vocab_size = base_vocab + int(
+                    math.log2(max(0.1, dataset_size_mb)) * scale_factor
+                )
             elif dataset_size_mb < 10.0:
                 # Medium datasets: 1000-3000 tokens
-                target_vocab_size = base_vocab + int(math.log2(max(1.0, dataset_size_mb)) * scale_factor)
+                target_vocab_size = base_vocab + int(
+                    math.log2(max(1.0, dataset_size_mb)) * scale_factor
+                )
             else:
                 # Large datasets: 3000-8000 tokens
-                target_vocab_size = min(8000, base_vocab + int(math.log2(max(10.0, dataset_size_mb)) * scale_factor))
-            
+                target_vocab_size = min(
+                    8000,
+                    base_vocab
+                    + int(math.log2(max(10.0, dataset_size_mb)) * scale_factor),
+                )
+
                 # Ensure vocab size is reasonable (not too small, not too large)
                 target_vocab_size = max(256, min(10000, target_vocab_size))
-                
+
                 # Round to nearest 100 for cleaner numbers
                 target_vocab_size = int(round(target_vocab_size / 100) * 100)
-                
+
                 print("🔧 Training custom BPE tokenizer...")
-                print(f"   Dataset size: {dataset_size_mb:.2f} MB, Unique chars: {num_unique_chars}")
+                print(
+                    f"   Dataset size: {dataset_size_mb:.2f} MB, Unique chars: {num_unique_chars}"
+                )
                 print(f"   Auto-selected vocab_size: {target_vocab_size:,}")
-        
+
         # Initialize tokenizer with BPE model
         tokenizer = Tokenizer(BPE(unk_token="<unk>"))
         tokenizer.pre_tokenizer = Whitespace()
-        
+
         # Train the tokenizer (no verbose logging by default - clean and simple!)
         trainer = BpeTrainer(vocab_size=target_vocab_size, special_tokens=["<unk>"])
         tokenizer.train_from_iterator([text], trainer=trainer)
-        
+
         vocab_size = tokenizer.get_vocab_size()
-        
-        def encode(s): return tokenizer.encode(s).ids
-        def decode(token_ids): return tokenizer.decode(token_ids)
-        
+
+        def encode(s):
+            return tokenizer.encode(s).ids
+
+        def decode(token_ids):
+            return tokenizer.decode(token_ids)
+
         print(f"✅ Custom BPE tokenizer trained (vocab_size={vocab_size:,})")
     except ImportError:
         print("❌ tokenizers not installed. Install with: pip install tokenizers")
         print("📝 Falling back to character-level tokenization")
         # Fall through to character-level implementation
         TOKENIZATION_METHOD = "character"
-    
-if TOKENIZATION_METHOD == "character" or TOKENIZATION_METHOD not in ["gpt2", "custom_bpe"]:
+
+if TOKENIZATION_METHOD == "character" or TOKENIZATION_METHOD not in [
+    "gpt2",
+    "custom_bpe",
+]:
     # Character-level: Simple, fast, best for small datasets
     # Create vocabulary from all unique characters in the text
     chars = sorted(list(set(text)))
     vocab_size = len(chars)
-    
+
     # Create character-to-integer and integer-to-character mappings
     stoi = {ch: i for i, ch in enumerate(chars)}
     itos = {i: ch for i, ch in enumerate(chars)}
-    
+
     # Encoder: convert string to list of integers
-    def encode(s): return [stoi[c] for c in s]
-    
+    def encode(s):
+        return [stoi[c] for c in s]
+
     # Decoder: convert list of integers to string
-    def decode(token_ids): return ''.join([itos[i] for i in token_ids])
+    def decode(token_ids):
+        return "".join([itos[i] for i in token_ids])
+
     print(f"📝 Using character-level tokenization (vocab_size={vocab_size})")
     print("✅ Recommended for small datasets - fastest training and lowest loss")
 
 # Add vocab_size to hyperparameters after it's determined (works for all tokenization methods)
-hyperparameters['vocab_size'] = vocab_size
+hyperparameters["vocab_size"] = vocab_size
 
 # Encode entire text dataset
 data = torch.tensor(encode(text), dtype=torch.long)
@@ -328,35 +369,37 @@ val_data = data[n:]
 # DATA LOADING UTILITIES
 # ============================================================================
 
+
 def get_batch(split):
     """
     Generate a small batch of data of inputs x and targets y
-    
+
     Args:
         split: 'train' or 'val' to select which dataset to use
-        
+
     Returns:
         x: Input sequences of shape (batch_size, block_size)
         y: Target sequences of shape (batch_size, block_size)
     """
-    data = train_data if split == 'train' else val_data
+    data = train_data if split == "train" else val_data
     ix = torch.randint(len(data) - block_size, (batch_size,))
-    x = torch.stack([data[i:i+block_size] for i in ix])
-    y = torch.stack([data[i+1:i+block_size+1] for i in ix])
+    x = torch.stack([data[i : i + block_size] for i in ix])
+    y = torch.stack([data[i + 1 : i + block_size + 1] for i in ix])
     x, y = x.to(device), y.to(device)
     return x, y
+
 
 @torch.no_grad()
 def estimate_loss():
     """
     Estimate the loss of the model on the train and validation sets
-    
+
     Returns:
         out: Dictionary containing the loss on the train and validation sets
     """
     out = {}
     model.eval()
-    for split in ['train', 'val']:
+    for split in ["train", "val"]:
         losses = torch.zeros(eval_iters)
         for k in range(eval_iters):
             X, Y = get_batch(split)
@@ -366,21 +409,31 @@ def estimate_loss():
     model.train()
     return out
 
+
 def get_model_name(model_instance):
     """Extract model name from model class (e.g., 'BigramLanguageModel' -> 'bigram')"""
     class_name = model_instance.__class__.__name__
     # Convert PascalCase to lowercase (simple heuristic: first word before 'LanguageModel')
-    if 'LanguageModel' in class_name:
-        return class_name.replace('LanguageModel', '').lower()
+    if "LanguageModel" in class_name:
+        return class_name.replace("LanguageModel", "").lower()
     return class_name.lower()
+
 
 # ============================================================================
 # TRAINING SETUP
 # ============================================================================
 
 # Initialize model
-model = BigramLanguageModel(vocab_size=vocab_size, n_embd=n_embd, block_size=block_size, device=device, dropout=dropout, n_head=n_head, n_layer=n_layer)
-model.to(device) # move model to device
+model = BigramLanguageModel(
+    vocab_size=vocab_size,
+    n_embd=n_embd,
+    block_size=block_size,
+    device=device,
+    dropout=dropout,
+    n_head=n_head,
+    n_layer=n_layer,
+)
+model.to(device)  # move model to device
 
 # Count parameters
 total_params = sum(p.numel() for p in model.parameters())
@@ -388,16 +441,16 @@ print(f"Total model parameters: {total_params:,}")
 
 # Verify device usage
 print(f"Model device: {next(model.parameters()).device}")
-if device == 'mps':
+if device == "mps":
     print("✅ Model successfully moved to Apple Silicon GPU (MPS)")
 
 # Compile model for better performance (PyTorch 2.0+)
 # This can provide 2-3x speedup on Apple Silicon M4
 # DISABLED: torch.compile for MPS is still experimental and may cause slowdowns
 try:
-    if device == 'mps' and hasattr(torch, 'compile') and False:  # Disabled for now
+    if device == "mps" and hasattr(torch, "compile") and False:  # Disabled for now
         print("🔧 Compiling model for Apple Silicon... (this may take a minute)")
-        model = torch.compile(model, mode='default')
+        model = torch.compile(model, mode="default")
         print("✅ Model compiled successfully!")
     else:
         print("ℹ️  Using MPS without compilation (torch.compile disabled for MPS)")
@@ -405,14 +458,14 @@ except Exception as e:
     print(f"⚠️  Model compilation skipped: {e}")
 
 # Initialize optimizer
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate) # AdamW optimizer
+optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)  # AdamW optimizer
 
 # ============================================================================
 # TRAINING LOOP
 # ============================================================================
 
 # Print progress every interval_print steps
-interval_print = training_steps // 10 # print every 10% of the training steps
+interval_print = training_steps // 10  # print every 10% of the training steps
 
 print(f"Starting training for {training_steps} steps...")
 print(f"Batch size: {batch_size}, Block size: {block_size}")
@@ -429,19 +482,25 @@ for step in range(training_steps):
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed if step > 0 else 0
         progress_pct = (step / training_steps) * 100
-        print(f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)")
-    
+        print(
+            f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
+        )
+
     # Print progress more frequently in production mode to show it's not hung
     elif step > 0 and step % 25 == 0:
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed
         progress_pct = (step / training_steps) * 100
-        eta_seconds = (training_steps - step) / steps_per_sec if steps_per_sec > 0 else 0
+        eta_seconds = (
+            (training_steps - step) / steps_per_sec if steps_per_sec > 0 else 0
+        )
         eta_minutes = eta_seconds / 60
-        print(f"step {step}/{training_steps} ({progress_pct:.1f}%) | {steps_per_sec:.2f} steps/sec | ETA: {eta_minutes:.1f}m")
-    
+        print(
+            f"step {step}/{training_steps} ({progress_pct:.1f}%) | {steps_per_sec:.2f} steps/sec | ETA: {eta_minutes:.1f}m"
+        )
+
     # Sample a batch of data
-    xb, yb = get_batch('train')
+    xb, yb = get_batch("train")
 
     # Forward pass: compute predictions and loss
     logits, loss = model(xb, yb)
@@ -449,14 +508,16 @@ for step in range(training_steps):
     # Backward pass: compute gradients
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
-    
+
     # Update parameters
     optimizer.step()
 
 print("-" * 50)
 print(f"Training complete! Final loss: {loss.item():.4f}")
 total_time = time.time() - start_time
-print(f"Total training time: {total_time:.1f}s ({training_steps/total_time:.2f} steps/sec)")
+print(
+    f"Total training time: {total_time:.1f}s ({training_steps/total_time:.2f} steps/sec)"
+)
 
 # ============================================================================
 # GENERATION
@@ -480,10 +541,10 @@ print("=" * 50)
 if ENABLE_OUTPUT_TO_FILE:
     # Restore stdout
     sys.stdout = original_stdout
-    
+
     # Get captured output
     captured_output = tee_output.getvalue()
-    
+
     # Extract model name, data source name, and generate filename
     model_name = get_model_name(model)
     source_name = get_data_source_name(TRAINING_DATA_SOURCE)
@@ -492,14 +553,14 @@ if ENABLE_OUTPUT_TO_FILE:
         source_name=source_name,
         vocab_size=vocab_size,
         training_steps=training_steps,
-        test_mode=TEST_MODE
+        test_mode=TEST_MODE,
     )
-    
+
     # Construct full output path
     output_path = os.path.join(OUTPUT_DIR, filename)
-    
+
     # Write output file
     if write_output_file(output_path, hyperparameters, captured_output):
         print(f"\n✅ Output written to: {output_path}")
     else:
-        print(f"\n⚠️  Failed to write output file")
+        print("\n⚠️  Failed to write output file")
