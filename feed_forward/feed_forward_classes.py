@@ -11,7 +11,7 @@ import torch.nn as nn
 class FeedForward(nn.Module):
     """
     Feed-forward network: a simple linear layer followed by a non-linearity.
-    
+
     Standard transformer feed-forward module that applies:
     1. Linear projection: n_embd -> 4 * n_embd
     2. ReLU activation
@@ -22,7 +22,7 @@ class FeedForward(nn.Module):
     def __init__(self, n_embd, dropout):
         """
         Initialize feed-forward network.
-        
+
         Args:
             n_embd: Embedding dimension
             dropout: Dropout probability
@@ -38,13 +38,13 @@ class FeedForward(nn.Module):
     def forward(self, x):
         """
         Forward pass through feed-forward network.
-        
+
         Args:
             x: Input tensor of shape (B, T, C)
-            
+
         Returns:
             x: Output tensor of shape (B, T, C)
-            
+
         Where:
             B = batch size
             T = sequence length (time dimension)
