@@ -1,0 +1,93 @@
+HYPERPARAMETERS
+================
+batch_size = 32
+block_size = 64
+training_steps = 1000
+eval_interval = 100
+learning_rate = 0.0003
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 3
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = custom_bpe
+test_mode = True
+use_lora = True
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+vocab_size = 360
+
+OUTPUT
+======
+🔬 TEST MODE: Using reduced hyperparameters for fast training
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 3 layers, 128 embedding dims, 4 heads
+✅ Custom BPE tokenizer trained (vocab_size=360)
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📊 Parameter Statistics:
+   Total parameters: 781,480
+   Trainable (LoRA): 142,912
+   Frozen (base): 638,568
+   LoRA percentage: 18.29%
+   💰 Cost savings: Training only 18.29% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 108 parameter groups (LoRA only)
+Starting training for 1000 steps...
+Batch size: 32, Block size: 64
+Vocabulary size: 360 tokens
+--------------------------------------------------
+step 0/1000 (0.0%): train loss 6.0626, val loss 6.0423 | 9.6s (0.00 steps/sec)
+step 25/1000 (2.5%) | 1.33 steps/sec | ETA: 12.2m
+step 50/1000 (5.0%) | 2.14 steps/sec | ETA: 7.4m
+step 75/1000 (7.5%) | 2.66 steps/sec | ETA: 5.8m
+step 100/1000 (10.0%): train loss 5.2737, val loss 5.3568 | 40.8s (2.45 steps/sec)
+step 125/1000 (12.5%) | 2.66 steps/sec | ETA: 5.5m
+step 150/1000 (15.0%) | 2.83 steps/sec | ETA: 5.0m
+step 175/1000 (17.5%) | 2.92 steps/sec | ETA: 4.7m
+step 200/1000 (20.0%): train loss 5.2575, val loss 5.3505 | 78.7s (2.54 steps/sec)
+step 225/1000 (22.5%) | 2.51 steps/sec | ETA: 5.1m
+step 250/1000 (25.0%) | 2.64 steps/sec | ETA: 4.7m
+step 275/1000 (27.5%) | 2.73 steps/sec | ETA: 4.4m
+step 300/1000 (30.0%): train loss 5.2471, val loss 5.3299 | 118.4s (2.53 steps/sec)
+step 325/1000 (32.5%) | 2.62 steps/sec | ETA: 4.3m
+step 350/1000 (35.0%) | 2.69 steps/sec | ETA: 4.0m
+step 375/1000 (37.5%) | 2.75 steps/sec | ETA: 3.8m
+step 400/1000 (40.0%): train loss 5.1704, val loss 5.2625 | 153.9s (2.60 steps/sec)
+step 425/1000 (42.5%) | 2.67 steps/sec | ETA: 3.6m
+step 450/1000 (45.0%) | 2.73 steps/sec | ETA: 3.4m
+step 475/1000 (47.5%) | 2.78 steps/sec | ETA: 3.2m
+step 500/1000 (50.0%): train loss 5.0419, val loss 5.1447 | 185.4s (2.70 steps/sec)
+step 525/1000 (52.5%) | 2.74 steps/sec | ETA: 2.9m
+step 550/1000 (55.0%) | 2.73 steps/sec | ETA: 2.7m
+step 575/1000 (57.5%) | 2.76 steps/sec | ETA: 2.6m
+step 600/1000 (60.0%): train loss 4.8902, val loss 4.9692 | 222.5s (2.70 steps/sec)
+step 625/1000 (62.5%) | 2.71 steps/sec | ETA: 2.3m
+step 650/1000 (65.0%) | 2.73 steps/sec | ETA: 2.1m
+step 675/1000 (67.5%) | 2.78 steps/sec | ETA: 2.0m
+step 700/1000 (70.0%): train loss 4.7498, val loss 4.8440 | 271.3s (2.58 steps/sec)
+step 725/1000 (72.5%) | 2.61 steps/sec | ETA: 1.8m
+step 750/1000 (75.0%) | 2.58 steps/sec | ETA: 1.6m
+step 775/1000 (77.5%) | 2.57 steps/sec | ETA: 1.5m
+step 800/1000 (80.0%): train loss 4.6056, val loss 4.6940 | 322.0s (2.48 steps/sec)
+step 825/1000 (82.5%) | 2.53 steps/sec | ETA: 1.2m
+step 850/1000 (85.0%) | 2.56 steps/sec | ETA: 1.0m
+step 875/1000 (87.5%) | 2.60 steps/sec | ETA: 0.8m
+step 900/1000 (90.0%): train loss 4.4984, val loss 4.6171 | 351.9s (2.56 steps/sec)
+step 925/1000 (92.5%) | 2.58 steps/sec | ETA: 0.5m
+step 950/1000 (95.0%) | 2.62 steps/sec | ETA: 0.3m
+step 975/1000 (97.5%) | 2.65 steps/sec | ETA: 0.2m
+--------------------------------------------------
+Training complete! Final loss: 4.4261
+Total training time: 374.2s (2.67 steps/sec)
+
+Generating text...
+==================================================
+the se with out w op ing to be the other because / res at more - re c es husband ate sa n u n be er to the re re le , but I feel be a se g l if in the ir ad to o ch ev ue ay y to the other My from some ) and . l in what need s , our self king need ing . R a b on it ally re ll pl re at per w on he w ? T op , n ha the ch ing om w s e f ou nd like s need s you ab p i le ar es er res s her to ty 1 4 ar e do no mo s " lo ct ation ing , ? T ion ally h My b art a other is g i c ate more tal c us s ess she don us en th c en it le if he ' t work one n would the fe me and but and . you w from and tr k po , , you ' s i th o have c i o b ce not se some I k on s or el go ar as r on he see I al ion that no need t say s because con s on ly his ev r ity if ' s act ed en is l ive on h do . I me to re up one your out as . Th an him H w an ce they think id ion , s he ' s h en with the king in in the res the s with be the se , ust am for us an g ation
+==================================================
