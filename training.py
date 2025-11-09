@@ -15,6 +15,12 @@ from io import StringIO
 
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
+# LoRA configuration
+USE_LORA = os.environ.get("USE_LORA", "False").lower() == "true"
+LORA_RANK = int(os.environ.get("LORA_RANK", "8"))
+LORA_ALPHA = float(os.environ.get("LORA_ALPHA", "16.0"))
+LORA_DROPOUT = float(os.environ.get("LORA_DROPOUT", "0.0"))
+
 
 # Custom BPE tokenization uses HuggingFace tokenizers library
 # No need to import here - imported when custom_bpe method is selected
@@ -79,7 +85,14 @@ def get_data_source_name(training_data_source):
 
 
 def generate_output_filename(
-    model_name, source_name, vocab_size, training_steps, test_mode
+    model_name,
+    source_name,
+    vocab_size,
+    training_steps,
+    test_mode,
+    use_lora=False,
+    lora_rank=None,
+    lora_alpha=None,
 ):
     """Generate output filename with structured naming convention"""
     # Format timestamp as MMDDYYYY_HHMMSS
@@ -93,9 +106,16 @@ def generate_output_filename(
         str(vocab_size),
         str(training_steps),
         f"test={str(test_mode).lower()}",
-        "OUTPUT",
-        timestamp,
     ]
+
+    # Add LoRA information if used
+    if use_lora:
+        lora_info = f"lora_r{lora_rank}_a{lora_alpha}"
+        components.append(lora_info)
+    else:
+        components.append("full_ft")  # full fine-tuning
+
+    components.extend(["OUTPUT", timestamp])
 
     # Join with underscores (snake_case)
     filename = "_".join(components) + ".txt"
@@ -200,7 +220,17 @@ hyperparameters = {
     "device": device,
     "tokenization_method": TOKENIZATION_METHOD,
     "test_mode": TEST_MODE,
+    "use_lora": USE_LORA,
 }
+
+if USE_LORA:
+    hyperparameters.update(
+        {
+            "lora_rank": LORA_RANK,
+            "lora_alpha": LORA_ALPHA,
+            "lora_dropout": LORA_DROPOUT,
+        }
+    )
 
 print(f"Device: {device}")
 print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
@@ -423,21 +453,73 @@ def get_model_name(model_instance):
 # TRAINING SETUP
 # ============================================================================
 
-# Initialize model
-model = BigramLanguageModel(
-    vocab_size=vocab_size,
-    n_embd=n_embd,
-    block_size=block_size,
-    device=device,
-    dropout=dropout,
-    n_head=n_head,
-    n_layer=n_layer,
-)
+# Initialize model (with or without LoRA)
+if USE_LORA:
+    from models.bigram_lm_v2_lora import BigramLanguageModelLoRA
+
+    print("🔧 Using LoRA for efficient fine-tuning")
+    print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
+    model = BigramLanguageModelLoRA(
+        vocab_size=vocab_size,
+        n_embd=n_embd,
+        block_size=block_size,
+        device=device,
+        dropout=dropout,
+        n_head=n_head,
+        n_layer=n_layer,
+        use_lora=True,
+        lora_rank=LORA_RANK,
+        lora_alpha=LORA_ALPHA,
+        lora_dropout=LORA_DROPOUT,
+    )
+else:
+    model = BigramLanguageModel(
+        vocab_size=vocab_size,
+        n_embd=n_embd,
+        block_size=block_size,
+        device=device,
+        dropout=dropout,
+        n_head=n_head,
+        n_layer=n_layer,
+    )
+
 model.to(device)  # move model to device
 
 # Count parameters
-total_params = sum(p.numel() for p in model.parameters())
-print(f"Total model parameters: {total_params:,}")
+if USE_LORA:
+    param_info = model.get_parameter_info()
+    print("📊 Parameter Statistics:")
+    print(f"   Total parameters: {param_info['total']:,}")
+    print(f"   Trainable (total): {param_info['trainable']:,}")
+    print(
+        f"     - LoRA adapters: {param_info['lora_only_params']:,} ({param_info['lora_only_percentage']:.2f}%)"
+    )
+    print(
+        f"     - Embeddings: {param_info['embedding_params']:,} ({param_info['embedding_percentage']:.2f}%)"
+    )
+    print(f"   Frozen (base model): {param_info['frozen']:,}")
+    print(
+        f"   💰 LoRA savings: Training only {param_info['lora_only_percentage']:.2f}% of parameters (LoRA-only)!"
+    )
+    if param_info["embedding_percentage"] > 5.0:
+        print(
+            f"   ⚠️  Note: Embeddings are {param_info['embedding_percentage']:.1f}% of total (higher in small models)"
+        )
+
+    # Warn about performance for small models
+    if param_info["total"] < 5_000_000:  # Less than 5M parameters
+        print(
+            "   ⚠️  PERFORMANCE WARNING: LoRA may be SLOWER than full fine-tuning for small models!"
+        )
+        print("       For models < 5M params, the LoRA overhead can outweigh benefits.")
+        print(
+            "       Consider using full fine-tuning (USE_LORA=False) for better speed."
+        )
+else:
+    total_params = sum(p.numel() for p in model.parameters())
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"Total model parameters: {total_params:,}")
+    print(f"Trainable parameters: {trainable_params:,}")
 
 # Verify device usage
 print(f"Model device: {next(model.parameters()).device}")
@@ -458,7 +540,18 @@ except Exception as e:
     print(f"⚠️  Model compilation skipped: {e}")
 
 # Initialize optimizer
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)  # AdamW optimizer
+# When using LoRA, only LoRA parameters are trainable (base model is frozen)
+if USE_LORA:
+    # Only optimize trainable parameters (LoRA adapters)
+    trainable_params = [p for p in model.parameters() if p.requires_grad]
+    optimizer = torch.optim.AdamW(trainable_params, lr=learning_rate)
+    print(
+        f"✅ Optimizer initialized with {len(trainable_params)} parameter groups (LoRA only)"
+    )
+else:
+    optimizer = torch.optim.AdamW(
+        model.parameters(), lr=learning_rate
+    )  # AdamW optimizer
 
 # ============================================================================
 # TRAINING LOOP
@@ -554,6 +647,9 @@ if ENABLE_OUTPUT_TO_FILE:
         vocab_size=vocab_size,
         training_steps=training_steps,
         test_mode=TEST_MODE,
+        use_lora=USE_LORA,
+        lora_rank=LORA_RANK if USE_LORA else None,
+        lora_alpha=LORA_ALPHA if USE_LORA else None,
     )
 
     # Construct full output path
