@@ -29,6 +29,7 @@ TRAINING_DATA_SOURCE = os.environ.get(
     "TRAINING_DATA_SOURCE", None
 )  # Use checkpoint default if None
 RESUME_STEPS = int(os.environ.get("RESUME_STEPS", "5000"))
+print(f"RESUME_STEPS: {RESUME_STEPS}")
 LEARNING_RATE_OVERRIDE = os.environ.get("LEARNING_RATE", None)
 BATCH_SIZE_OVERRIDE = os.environ.get("BATCH_SIZE", None)
 
