@@ -283,6 +283,7 @@ hyperparameters = {
     "test_mode": TEST_MODE,
     "use_lora": USE_LORA,
     "model_type": MODEL_TYPE,
+    "training_data_source": TRAINING_DATA_SOURCE,
 }
 
 if MODEL_TYPE == "gpt2":
