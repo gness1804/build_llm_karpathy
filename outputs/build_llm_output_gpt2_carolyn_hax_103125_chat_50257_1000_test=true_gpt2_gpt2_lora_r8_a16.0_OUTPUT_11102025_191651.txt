@@ -1,0 +1,128 @@
+HYPERPARAMETERS
+================
+batch_size = 32
+block_size = 64
+training_steps = 1000
+eval_interval = 100
+learning_rate = 0.0003
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 3
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = True
+use_lora = True
+model_type = gpt2
+gpt2_model_name = gpt2
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+🔬 TEST MODE: Using reduced hyperparameters for fast training
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 3 layers, 128 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 49 layers
+✅ LoRA adapters applied (rank=8, alpha=16.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 126,027,656
+   Trainable (total): 1,587,848
+   Frozen (base model): 124,439,808
+   💰 LoRA savings: Training only 1.26% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 98 parameter groups (LoRA only)
+Starting training for 1000 steps...
+Batch size: 32, Block size: 64
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+step 0/1000 (0.0%): train loss 9.5468, val loss 9.5399 | 42.4s (0.00 steps/sec)
+step 25/1000 (2.5%) | 0.41 steps/sec | ETA: 39.8m
+step 50/1000 (5.0%) | 0.63 steps/sec | ETA: 25.2m
+step 75/1000 (7.5%) | 0.77 steps/sec | ETA: 20.1m
+step 100/1000 (10.0%): train loss 7.2295, val loss 7.4329 | 157.9s (0.63 steps/sec)
+step 125/1000 (12.5%) | 0.71 steps/sec | ETA: 20.6m
+step 150/1000 (15.0%) | 0.77 steps/sec | ETA: 18.4m
+step 175/1000 (17.5%) | 0.82 steps/sec | ETA: 16.7m
+step 200/1000 (20.0%): train loss 6.0223, val loss 6.5418 | 276.5s (0.72 steps/sec)
+step 225/1000 (22.5%) | 0.76 steps/sec | ETA: 17.0m
+step 250/1000 (25.0%) | 0.79 steps/sec | ETA: 15.8m
+step 275/1000 (27.5%) | 0.82 steps/sec | ETA: 14.8m
+step 300/1000 (30.0%): train loss 5.9704, val loss 6.4975 | 406.4s (0.74 steps/sec)
+step 325/1000 (32.5%) | 0.76 steps/sec | ETA: 14.8m
+step 350/1000 (35.0%) | 0.78 steps/sec | ETA: 13.8m
+step 375/1000 (37.5%) | 0.80 steps/sec | ETA: 13.0m
+step 400/1000 (40.0%): train loss 5.9451, val loss 6.5573 | 538.9s (0.74 steps/sec)
+step 425/1000 (42.5%) | 0.76 steps/sec | ETA: 12.6m
+step 450/1000 (45.0%) | 0.78 steps/sec | ETA: 11.8m
+step 475/1000 (47.5%) | 0.79 steps/sec | ETA: 11.1m
+step 500/1000 (50.0%): train loss 6.5598, val loss 7.2540 | 670.7s (0.75 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step000500_11102025_190536.pt
+step 525/1000 (52.5%) | 0.76 steps/sec | ETA: 10.5m
+step 550/1000 (55.0%) | 0.77 steps/sec | ETA: 9.7m
+step 575/1000 (57.5%) | 0.78 steps/sec | ETA: 9.1m
+step 600/1000 (60.0%): train loss 6.1236, val loss 7.0177 | 808.4s (0.74 steps/sec)
+step 625/1000 (62.5%) | 0.75 steps/sec | ETA: 8.3m
+step 650/1000 (65.0%) | 0.76 steps/sec | ETA: 7.6m
+step 675/1000 (67.5%) | 0.77 steps/sec | ETA: 7.0m
+step 700/1000 (70.0%): train loss 6.2147, val loss 7.2574 | 949.3s (0.74 steps/sec)
+step 725/1000 (72.5%) | 0.75 steps/sec | ETA: 6.1m
+step 750/1000 (75.0%) | 0.75 steps/sec | ETA: 5.5m
+step 775/1000 (77.5%) | 0.76 steps/sec | ETA: 4.9m
+step 800/1000 (80.0%): train loss 6.2816, val loss 7.5562 | 1094.3s (0.73 steps/sec)
+step 825/1000 (82.5%) | 0.74 steps/sec | ETA: 3.9m
+step 850/1000 (85.0%) | 0.75 steps/sec | ETA: 3.3m
+step 875/1000 (87.5%) | 0.75 steps/sec | ETA: 2.8m
+step 900/1000 (90.0%): train loss 6.3292, val loss 7.7940 | 1236.4s (0.73 steps/sec)
+step 925/1000 (92.5%) | 0.73 steps/sec | ETA: 1.7m
+step 950/1000 (95.0%) | 0.74 steps/sec | ETA: 1.1m
+step 975/1000 (97.5%) | 0.75 steps/sec | ETA: 0.6m
+--------------------------------------------------
+Training complete! Final loss: 7.2503
+Total training time: 1328.9s (0.75 steps/sec)
+✅ Final model saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step001000_11102025_191634.pt
+
+Generating text...
+==================================================
+.�
+avCar Enter expand
+I I to.
+ to1 the all
+ therapist.. husband to..d women�m
+'t I this on person
+..av
+.
+ it things to.wellax
+ it,
+ that you that,
+ I therapist someone you you join.Post replies 191.ist
+49..Adv LikesRight therapist44
+ tomCarGuestPress undefined.
+I.
+ the negative to1.My to my and you to's in am it I some of.
+ therapist you wife I..Post replies
+Guest:. Likes Enter expand12m ( therapist.
+ p
+�
+,
+
+.
+ am a it to like go therapist my to. to
+ someone
+ your on this wife g It of I never. and. is it a to this, you to people.atarCar expand to it for that to. mom the to I then that ( your time for he
+ do to. about then you to a
+ I- I it and, about - to it had� like) am that and I it to on to of never my that all ones and I - people it – some There had Trust, andatart but and in to to people itarr husband you it waking from the Trust all and on to on to in. that like it ( for.
+ to someone to am someone. in that like couple is NOT need it err up I.Post undefined my,
+==================================================
