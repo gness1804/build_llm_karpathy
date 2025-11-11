@@ -195,3 +195,8 @@ htmlcov/
 # temporary files
 tmp/
 temp/
+
+# Model checkpoints (local development only)
+# Add specific checkpoints with: git add --force checkpoints/checkpoint_name.pt
+checkpoints/*.pt
+!checkpoints/.gitkeep
