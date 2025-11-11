@@ -214,8 +214,13 @@ class GPT2Wrapper(nn.Module):
         """
         self.model.eval()
         with torch.no_grad():
+            # Create attention mask: 1 for all real tokens, 0 for padding
+            # Since pad_token_id == eos_token_id, we need to explicitly set this
+            attention_mask = torch.ones_like(input_ids, dtype=torch.long)
+            
             generated = self.model.generate(
                 input_ids=input_ids,
+                attention_mask=attention_mask,
                 max_new_tokens=max_new_tokens,
                 temperature=temperature,
                 top_k=top_k,
