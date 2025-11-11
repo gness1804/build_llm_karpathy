@@ -1,0 +1,59 @@
+HYPERPARAMETERS
+================
+batch_size = 32
+block_size = 64
+training_steps = 10
+eval_interval = 100
+learning_rate = 0.0003
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 3
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = custom_bpe
+test_mode = True
+use_lora = True
+model_type = gpt2
+gpt2_model_name = gpt2
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+🔬 TEST MODE: Using reduced hyperparameters for fast training
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 3 layers, 128 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 1 layers
+✅ LoRA adapters applied (rank=8, alpha=16.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,848,008
+   Trainable (total): 86,250,632
+   Frozen (base model): 38,597,376
+   💰 LoRA savings: Training only 69.08% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 149 parameter groups (LoRA only)
+Starting training for 10 steps...
+Batch size: 32, Block size: 64
+Vocabulary size: 50,257 tokens
+--------------------------------------------------
+step 0/10 (0.0%): train loss 9.5213, val loss 9.5568 | 54.0s (0.00 steps/sec)
+--------------------------------------------------
+Training complete! Final loss: 9.1715
+Total training time: 70.4s (0.14 steps/sec)
+
+Generating text...
+==================================================
+
+In addition to my health and a 'I could make an I need to have to work to feel the need notto work toTtinkVIIAItWWTWHereTheYouThisAnIGItFSoLDoDItIfAnAnEPItFAnPThereYAAThisWeWouldTheItWItTWe"ThatSoBeIIAnTIfWeNeedToWeTLWWDonIfAsWouldHelpYouGoAskThisBeIWouldYouYouWItWouldLieHYouTPWeWOrForAPressPI"ForItMeetIAnIsToGoDonNWouldWHerePleaseDonWeAreWeWPressWePWAskGoLieWWHeWPleaseNoHeWhat wouldPTellMeetIWAndItSoYIWForWHowWeTheAnIWouldItHisBTellThereAskYourWAndItItIsItPItDOrSoWFQWe"NoTake-ThereWHereItWIMyIYBThereIfItPWePForYouAForMeSeeYouInWeWLTellMeetHisPIfLieSoHeWILieWeNSoIJustLieThatWeJustTellLieHSoYouLTWhyAnWeLieSoWeLWPleaseAAArgeWeBDWouldLieLieIsLie"ArAMyPLieEDYouWouldLieLieOrIWItLieSoTTakeHPlease
+==================================================

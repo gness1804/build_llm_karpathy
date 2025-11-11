@@ -14,29 +14,31 @@ import torch.nn as nn
 class LoRALinear(nn.Module):
     """
     LoRA-adapted linear layer.
-
-    Wraps a base linear layer and adds low-rank adaptation:
-    output = base_layer(x) + (x @ A^T) @ B^T * scaling
-
+    
+    Wraps a base linear layer (or Conv1D) and adds low-rank adaptation:
+    output = base_layer(x) + (x @ A) @ B * scaling
+    
     Where:
-    - base_layer: Original linear layer (frozen)
-    - A: Low-rank matrix (rank, in_features) - trainable
-    - B: Low-rank matrix (out_features, rank) - trainable
+    - base_layer: Original linear layer or Conv1D (frozen)
+    - A: Low-rank matrix (in_features, rank) - trainable
+    - B: Low-rank matrix (rank, out_features) - trainable
     - scaling: LoRA alpha / rank (scaling factor)
+    
+    Supports both nn.Linear and transformers.pytorch_utils.Conv1D
     """
 
     def __init__(
         self,
-        base_layer: nn.Linear,
+        base_layer,  # Can be nn.Linear or Conv1D
         rank: int = 8,
         alpha: float = 16.0,
         dropout: float = 0.0,
     ):
         """
-        Initialize LoRA adapter for a linear layer.
+        Initialize LoRA adapter for a linear layer or Conv1D.
 
         Args:
-            base_layer: The original linear layer to adapt (will be frozen)
+            base_layer: The original linear layer or Conv1D to adapt (will be frozen)
             rank: Rank of the low-rank matrices (typically 4-32)
             alpha: LoRA scaling factor (typically rank * 2)
             dropout: Dropout probability for LoRA path
@@ -46,23 +48,45 @@ class LoRALinear(nn.Module):
         self.rank = rank
         self.alpha = alpha
         self.scaling = alpha / rank
+        
+        # Detect layer type
+        try:
+            from transformers.pytorch_utils import Conv1D
+            self.is_conv1d = isinstance(base_layer, Conv1D)
+        except ImportError:
+            self.is_conv1d = False
 
         # Freeze the base layer
         for param in self.base_layer.parameters():
             param.requires_grad = False
 
         # Get dimensions from base layer
-        in_features = base_layer.in_features
-        out_features = base_layer.out_features
+        # Handle both nn.Linear (has in_features/out_features) and Conv1D (has nx/nf attributes)
+        if hasattr(base_layer, 'in_features') and hasattr(base_layer, 'out_features'):
+            # Standard nn.Linear
+            in_features = base_layer.in_features
+            out_features = base_layer.out_features
+        elif hasattr(base_layer, 'nx') and hasattr(base_layer, 'nf'):
+            # Conv1D from transformers - has nx (in_features) and nf (out_features)
+            in_features = base_layer.nx
+            out_features = base_layer.nf
+        elif hasattr(base_layer, 'weight') and base_layer.weight is not None:
+            # Fallback: extract from weight shape
+            # Conv1D weight shape is [in_features, out_features]
+            weight_shape = base_layer.weight.shape
+            in_features = weight_shape[0]
+            out_features = weight_shape[1]
+        else:
+            raise ValueError(f"Cannot determine dimensions for layer type: {type(base_layer)}")
 
         # Initialize LoRA matrices
-        # A: (rank, in_features) - initialized with Kaiming uniform
-        self.lora_A = nn.Parameter(torch.randn(rank, in_features))
+        # A: (in_features, rank) - initialized with Kaiming uniform
+        self.lora_A = nn.Parameter(torch.randn(in_features, rank))
         nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
 
-        # B: (out_features, rank) - initialized to zero
+        # B: (rank, out_features) - initialized to zero
         # This ensures LoRA starts with zero contribution (output = base_layer)
-        self.lora_B = nn.Parameter(torch.zeros(out_features, rank))
+        self.lora_B = nn.Parameter(torch.zeros(rank, out_features))
 
         # Optional dropout
         self.dropout = nn.Dropout(dropout) if dropout > 0.0 else nn.Identity()
@@ -82,15 +106,15 @@ class LoRALinear(nn.Module):
         with torch.no_grad():
             base_output = self.base_layer(x)
 
-        # LoRA adaptation: x @ A^T @ B^T * scaling
+        # LoRA adaptation: x @ A @ B * scaling
         # Optimized: combine the two matrix multiplications
         # x: (..., in_features)
-        # A: (rank, in_features) -> A^T: (in_features, rank)
-        # B: (out_features, rank) -> B^T: (rank, out_features)
+        # A: (in_features, rank)
+        # B: (rank, out_features)
         # Result: (..., out_features)
         x_drop = self.dropout(x)
-        # More efficient: (x @ A^T) @ B^T instead of separate operations
-        lora_output = (x_drop @ self.lora_A.T) @ self.lora_B.T * self.scaling
+        # More efficient: (x @ A) @ B instead of separate operations
+        lora_output = (x_drop @ self.lora_A) @ self.lora_B * self.scaling
 
         return base_output + lora_output
 

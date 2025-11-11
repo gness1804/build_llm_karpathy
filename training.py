@@ -21,6 +21,17 @@ LORA_RANK = int(os.environ.get("LORA_RANK", "8"))
 LORA_ALPHA = float(os.environ.get("LORA_ALPHA", "16.0"))
 LORA_DROPOUT = float(os.environ.get("LORA_DROPOUT", "0.0"))
 
+# Model selection: "from_scratch" or "gpt2"
+MODEL_TYPE = os.environ.get("MODEL_TYPE", "from_scratch").lower()
+GPT2_MODEL_NAME = os.environ.get("GPT2_MODEL_NAME", "gpt2")  # gpt2, gpt2-medium, gpt2-large, gpt2-xl
+
+# Checkpoint configuration
+ENABLE_CHECKPOINTS = (
+    os.environ.get("ENABLE_CHECKPOINTS", "False").lower() == "true"
+)
+CHECKPOINT_INTERVAL = int(os.environ.get("CHECKPOINT_INTERVAL", "500"))  # Save every N steps
+CHECKPOINT_DIR = os.environ.get("CHECKPOINT_DIR", "checkpoints")
+
 
 # Custom BPE tokenization uses HuggingFace tokenizers library
 # No need to import here - imported when custom_bpe method is selected
@@ -93,6 +104,8 @@ def generate_output_filename(
     use_lora=False,
     lora_rank=None,
     lora_alpha=None,
+    model_type="from_scratch",
+    gpt2_model_name=None,
 ):
     """Generate output filename with structured naming convention"""
     # Format timestamp as MMDDYYYY_HHMMSS
@@ -108,6 +121,15 @@ def generate_output_filename(
         f"test={str(test_mode).lower()}",
     ]
 
+    # Add model type information
+    if model_type == "gpt2":
+        if gpt2_model_name:
+            components.append(f"gpt2_{gpt2_model_name}")
+        else:
+            components.append("gpt2")
+    else:
+        components.append("from_scratch")
+    
     # Add LoRA information if used
     if use_lora:
         lora_info = f"lora_r{lora_rank}_a{lora_alpha}"
@@ -149,6 +171,10 @@ def write_output_file(output_path, hyperparameters, captured_output):
 if ENABLE_OUTPUT_TO_FILE:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# Create checkpoint directory if it doesn't exist
+if ENABLE_CHECKPOINTS:
+    os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+
 # Initialize stdout capture if output to file is enabled
 tee_output = None
 original_stdout = None
@@ -161,11 +187,14 @@ if ENABLE_OUTPUT_TO_FILE:
 torch.manual_seed(1337)
 
 # Model hyperparameters
+# Allow override of training_steps via environment variable for quick testing
+TRAINING_STEPS_OVERRIDE = os.environ.get("TRAINING_STEPS", None)
+
 if TEST_MODE:
     # Fast configuration for testing and debugging
     batch_size = 32  # Reduced from 64
     block_size = 64  # Reduced from 256 (16x less attention computation!)
-    training_steps = 1000  # Reduced from 5000
+    training_steps = int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 1000  # Reduced from 5000
     eval_interval = 100  # Evaluate more frequently
     learning_rate = 3e-4  # Learning rate for optimizer
     eval_iters = 50  # Reduced from 200
@@ -178,7 +207,7 @@ else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
     batch_size = 64  # Reduced from 64 for better M4 performance
     block_size = 128  # Further reduced from 128 (4x less attention computation)
-    training_steps = 5000  # Number of training iterations
+    training_steps = int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000  # Number of training iterations
     eval_interval = 500  # More frequent feedback (reduced from 500)
     learning_rate = 3e-4  # Learning rate for optimizer
     eval_iters = 50  # Further reduced from 50 for faster eval
@@ -221,7 +250,11 @@ hyperparameters = {
     "tokenization_method": TOKENIZATION_METHOD,
     "test_mode": TEST_MODE,
     "use_lora": USE_LORA,
+    "model_type": MODEL_TYPE,
 }
+
+if MODEL_TYPE == "gpt2":
+    hyperparameters["gpt2_model_name"] = GPT2_MODEL_NAME
 
 if USE_LORA:
     hyperparameters.update(
@@ -243,157 +276,158 @@ print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
 with open(TRAINING_DATA_SOURCE, "r", encoding="utf-8") as f:
     text = f.read()
 
-# TOKENIZATION OPTIONS:
+# TOKENIZATION OPTIONS (for from_scratch models):
 # Option 1: Character-level (original - fastest, simplest, best for small datasets)
 # Option 2: GPT-2 BPE via tiktoken (industry standard but large vocab: 50,257 tokens)
 # Option 3: Custom BPE tokenizer (balanced - train on your dataset for optimal vocab size)
 
-# Choose tokenization method:
-
-if TOKENIZATION_METHOD == "gpt2":
-    # GPT-2 BPE: Industry standard but large vocabulary (50,257 tokens)
-    # Better for large datasets, but slower and higher loss for small datasets
-    enc = tiktoken.get_encoding("gpt2")
-    vocab_size = enc.n_vocab
-
-    def encode(s):
-        return enc.encode(s)
-
-    def decode(token_ids):
-        return enc.decode(token_ids)
-
-    print(f"📝 Using GPT-2 BPE tokenization (vocab_size={vocab_size:,})")
-    print("⚠️  Note: Large vocab may cause higher loss and slower training")
-
-elif TOKENIZATION_METHOD == "custom_bpe":
-    # Custom BPE: Train a tokenizer on your dataset (recommended for balanced approach)
-    # Uses HuggingFace tokenizers library: pip install tokenizers
-    try:
-        from tokenizers import Tokenizer
-        from tokenizers.models import BPE
-        from tokenizers.trainers import BpeTrainer
-        from tokenizers.pre_tokenizers import Whitespace
-        import math
-
-        # Automatically scale vocab size based on dataset characteristics
-        # This balances efficiency (compression) with model size (parameters)
-        # Can be overridden with CUSTOM_VOCAB_SIZE environment variable
-        manual_vocab_size = CUSTOM_VOCAB_SIZE
-
-        dataset_size_bytes = len(text.encode("utf-8"))
-        dataset_size_mb = dataset_size_bytes / (1024 * 1024)
-        num_unique_chars = len(set(text))
-
-        if manual_vocab_size and manual_vocab_size.lower() != "none":
-            target_vocab_size = int(CUSTOM_VOCAB_SIZE)
-            print(f"🔧 Using manual vocab_size override: {target_vocab_size:,}")
-        else:
-            # Calculate target vocab size using heuristics:
-            # 1. Base size on dataset size (larger datasets benefit from larger vocabs)
-            # 2. Minimum vocab size ensures good coverage
-            # 3. Maximum vocab size caps model complexity
-
-            # Heuristic: vocab_size scales logarithmically with dataset size
-            # Formula: base_vocab + log2(dataset_size_mb) * scale_factor
-            # This ensures:
-            # - Small datasets (< 1MB): ~500-1000 tokens
-            # - Medium datasets (1-10MB): ~1000-3000 tokens
-            # - Large datasets (> 10MB): ~3000-8000 tokens
-
-            base_vocab = 500
-            scale_factor = 200
-
-            # Calculate target vocab size
-            if dataset_size_mb < 0.1:
-                # Very small datasets: use smaller vocab
-                target_vocab_size = max(256, min(1000, num_unique_chars * 4))
-            elif dataset_size_mb < 1.0:
-                # Small datasets: 500-1500 tokens
-                target_vocab_size = base_vocab + int(
-                    math.log2(max(0.1, dataset_size_mb)) * scale_factor
-                )
-            elif dataset_size_mb < 10.0:
-                # Medium datasets: 1000-3000 tokens
-                target_vocab_size = base_vocab + int(
-                    math.log2(max(1.0, dataset_size_mb)) * scale_factor
-                )
-            else:
-                # Large datasets: 3000-8000 tokens
-                target_vocab_size = min(
-                    8000,
-                    base_vocab
-                    + int(math.log2(max(10.0, dataset_size_mb)) * scale_factor),
-                )
-
-                # Ensure vocab size is reasonable (not too small, not too large)
-                target_vocab_size = max(256, min(10000, target_vocab_size))
-
-                # Round to nearest 100 for cleaner numbers
-                target_vocab_size = int(round(target_vocab_size / 100) * 100)
-
-                print("🔧 Training custom BPE tokenizer...")
-                print(
-                    f"   Dataset size: {dataset_size_mb:.2f} MB, Unique chars: {num_unique_chars}"
-                )
-                print(f"   Auto-selected vocab_size: {target_vocab_size:,}")
-
-        # Initialize tokenizer with BPE model
-        tokenizer = Tokenizer(BPE(unk_token="<unk>"))
-        tokenizer.pre_tokenizer = Whitespace()
-
-        # Train the tokenizer (no verbose logging by default - clean and simple!)
-        trainer = BpeTrainer(vocab_size=target_vocab_size, special_tokens=["<unk>"])
-        tokenizer.train_from_iterator([text], trainer=trainer)
-
-        vocab_size = tokenizer.get_vocab_size()
+# If using GPT-2 model, skip custom tokenization (GPT-2 has its own tokenizer)
+if MODEL_TYPE != "gpt2":
+    # Choose tokenization method:
+    if TOKENIZATION_METHOD == "gpt2":
+        # GPT-2 BPE: Industry standard but large vocabulary (50,257 tokens)
+        # Better for large datasets, but slower and higher loss for small datasets
+        enc = tiktoken.get_encoding("gpt2")
+        vocab_size = enc.n_vocab
 
         def encode(s):
-            return tokenizer.encode(s).ids
+            return enc.encode(s)
 
         def decode(token_ids):
-            return tokenizer.decode(token_ids)
+            return enc.decode(token_ids)
 
-        print(f"✅ Custom BPE tokenizer trained (vocab_size={vocab_size:,})")
-    except ImportError:
-        print("❌ tokenizers not installed. Install with: pip install tokenizers")
-        print("📝 Falling back to character-level tokenization")
-        # Fall through to character-level implementation
-        TOKENIZATION_METHOD = "character"
+        print(f"📝 Using GPT-2 BPE tokenization (vocab_size={vocab_size:,})")
+        print("⚠️  Note: Large vocab may cause higher loss and slower training")
 
-if TOKENIZATION_METHOD == "character" or TOKENIZATION_METHOD not in [
-    "gpt2",
-    "custom_bpe",
-]:
-    # Character-level: Simple, fast, best for small datasets
-    # Create vocabulary from all unique characters in the text
-    chars = sorted(list(set(text)))
-    vocab_size = len(chars)
+    elif TOKENIZATION_METHOD == "custom_bpe":
+        # Custom BPE: Train a tokenizer on your dataset (recommended for balanced approach)
+        # Uses HuggingFace tokenizers library: pip install tokenizers
+        try:
+            from tokenizers import Tokenizer
+            from tokenizers.models import BPE
+            from tokenizers.trainers import BpeTrainer
+            from tokenizers.pre_tokenizers import Whitespace
+            import math
 
-    # Create character-to-integer and integer-to-character mappings
-    stoi = {ch: i for i, ch in enumerate(chars)}
-    itos = {i: ch for i, ch in enumerate(chars)}
+            # Automatically scale vocab size based on dataset characteristics
+            # This balances efficiency (compression) with model size (parameters)
+            # Can be overridden with CUSTOM_VOCAB_SIZE environment variable
+            manual_vocab_size = CUSTOM_VOCAB_SIZE
 
-    # Encoder: convert string to list of integers
-    def encode(s):
-        return [stoi[c] for c in s]
+            dataset_size_bytes = len(text.encode("utf-8"))
+            dataset_size_mb = dataset_size_bytes / (1024 * 1024)
+            num_unique_chars = len(set(text))
 
-    # Decoder: convert list of integers to string
-    def decode(token_ids):
-        return "".join([itos[i] for i in token_ids])
+            if manual_vocab_size and manual_vocab_size.lower() != "none":
+                target_vocab_size = int(CUSTOM_VOCAB_SIZE)
+                print(f"🔧 Using manual vocab_size override: {target_vocab_size:,}")
+            else:
+                # Calculate target vocab size using heuristics:
+                # 1. Base size on dataset size (larger datasets benefit from larger vocabs)
+                # 2. Minimum vocab size ensures good coverage
+                # 3. Maximum vocab size caps model complexity
 
-    print(f"📝 Using character-level tokenization (vocab_size={vocab_size})")
-    print("✅ Recommended for small datasets - fastest training and lowest loss")
+                # Heuristic: vocab_size scales logarithmically with dataset size
+                # Formula: base_vocab + log2(dataset_size_mb) * scale_factor
+                # This ensures:
+                # - Small datasets (< 1MB): ~500-1000 tokens
+                # - Medium datasets (1-10MB): ~1000-3000 tokens
+                # - Large datasets (> 10MB): ~3000-8000 tokens
 
-# Add vocab_size to hyperparameters after it's determined (works for all tokenization methods)
-hyperparameters["vocab_size"] = vocab_size
+                base_vocab = 500
+                scale_factor = 200
 
-# Encode entire text dataset
-data = torch.tensor(encode(text), dtype=torch.long)
+                # Calculate target vocab size
+                if dataset_size_mb < 0.1:
+                    # Very small datasets: use smaller vocab
+                    target_vocab_size = max(256, min(1000, num_unique_chars * 4))
+                elif dataset_size_mb < 1.0:
+                    # Small datasets: 500-1500 tokens
+                    target_vocab_size = base_vocab + int(
+                        math.log2(max(0.1, dataset_size_mb)) * scale_factor
+                    )
+                elif dataset_size_mb < 10.0:
+                    # Medium datasets: 1000-3000 tokens
+                    target_vocab_size = base_vocab + int(
+                        math.log2(max(1.0, dataset_size_mb)) * scale_factor
+                    )
+                else:
+                    # Large datasets: 3000-8000 tokens
+                    target_vocab_size = min(
+                        8000,
+                        base_vocab
+                        + int(math.log2(max(10.0, dataset_size_mb)) * scale_factor),
+                    )
 
-# Split data into train and validation sets (90% train, 10% validation)
-n = int(0.9 * len(data))
-train_data = data[:n]
-val_data = data[n:]
+                    # Ensure vocab size is reasonable (not too small, not too large)
+                    target_vocab_size = max(256, min(10000, target_vocab_size))
+
+                    # Round to nearest 100 for cleaner numbers
+                    target_vocab_size = int(round(target_vocab_size / 100) * 100)
+
+                    print("🔧 Training custom BPE tokenizer...")
+                    print(
+                        f"   Dataset size: {dataset_size_mb:.2f} MB, Unique chars: {num_unique_chars}"
+                    )
+                    print(f"   Auto-selected vocab_size: {target_vocab_size:,}")
+
+            # Initialize tokenizer with BPE model
+            tokenizer = Tokenizer(BPE(unk_token="<unk>"))
+            tokenizer.pre_tokenizer = Whitespace()
+
+            # Train the tokenizer (no verbose logging by default - clean and simple!)
+            trainer = BpeTrainer(vocab_size=target_vocab_size, special_tokens=["<unk>"])
+            tokenizer.train_from_iterator([text], trainer=trainer)
+
+            vocab_size = tokenizer.get_vocab_size()
+
+            def encode(s):
+                return tokenizer.encode(s).ids
+
+            def decode(token_ids):
+                return tokenizer.decode(token_ids)
+
+            print(f"✅ Custom BPE tokenizer trained (vocab_size={vocab_size:,})")
+        except ImportError:
+            print("❌ tokenizers not installed. Install with: pip install tokenizers")
+            print("📝 Falling back to character-level tokenization")
+            # Fall through to character-level implementation
+            TOKENIZATION_METHOD = "character"
+
+    if TOKENIZATION_METHOD == "character" or TOKENIZATION_METHOD not in [
+        "gpt2",
+        "custom_bpe",
+    ]:
+        # Character-level: Simple, fast, best for small datasets
+        # Create vocabulary from all unique characters in the text
+        chars = sorted(list(set(text)))
+        vocab_size = len(chars)
+
+        # Create character-to-integer and integer-to-character mappings
+        stoi = {ch: i for i, ch in enumerate(chars)}
+        itos = {i: ch for i, ch in enumerate(chars)}
+
+        # Encoder: convert string to list of integers
+        def encode(s):
+            return [stoi[c] for c in s]
+
+        # Decoder: convert list of integers to string
+        def decode(token_ids):
+            return "".join([itos[i] for i in token_ids])
+
+        print(f"📝 Using character-level tokenization (vocab_size={vocab_size})")
+        print("✅ Recommended for small datasets - fastest training and lowest loss")
+
+    # Add vocab_size to hyperparameters after it's determined (works for all tokenization methods)
+    hyperparameters["vocab_size"] = vocab_size
+
+    # Encode entire text dataset
+    data = torch.tensor(encode(text), dtype=torch.long)
+
+    # Split data into train and validation sets (90% train, 10% validation)
+    n = int(0.9 * len(data))
+    train_data = data[:n]
+    val_data = data[n:]
 
 # ============================================================================
 # DATA LOADING UTILITIES
@@ -442,51 +476,145 @@ def estimate_loss():
 
 def get_model_name(model_instance):
     """Extract model name from model class (e.g., 'BigramLanguageModel' -> 'bigram')"""
+    if MODEL_TYPE == "gpt2":
+        # For GPT-2, use the model name from the wrapper
+        if hasattr(model_instance, 'model_name'):
+            return model_instance.model_name.replace('-', '')  # gpt2-medium -> gpt2medium
+        return "gpt2"
+    
     class_name = model_instance.__class__.__name__
     # Convert PascalCase to lowercase (simple heuristic: first word before 'LanguageModel')
     if "LanguageModel" in class_name:
         return class_name.replace("LanguageModel", "").lower()
+    if "Wrapper" in class_name:
+        return class_name.replace("Wrapper", "").lower()
     return class_name.lower()
+
+
+def save_checkpoint(step, model, optimizer, model_name, source_name):
+    """Save model checkpoint with metadata"""
+    checkpoint_data = {
+        "step": step,
+        "model_state_dict": model.state_dict(),
+        "optimizer_state_dict": optimizer.state_dict(),
+        "hyperparameters": hyperparameters,
+        "vocab_size": vocab_size,
+        "block_size": block_size,
+        "batch_size": batch_size,
+    }
+    
+    # Generate checkpoint filename
+    timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
+    checkpoint_name = f"checkpoint_{model_name}_{source_name}_step{step:06d}_{timestamp}.pt"
+    checkpoint_path = os.path.join(CHECKPOINT_DIR, checkpoint_name)
+    
+    try:
+        torch.save(checkpoint_data, checkpoint_path)
+        return checkpoint_path
+    except Exception as e:
+        print(f"⚠️  Error saving checkpoint: {e}")
+        return None
 
 
 # ============================================================================
 # TRAINING SETUP
 # ============================================================================
 
-# Initialize model (with or without LoRA)
-if USE_LORA:
-    from models.bigram_lm_v2_lora import BigramLanguageModelLoRA
-
-    print("🔧 Using LoRA for efficient fine-tuning")
-    print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
-    model = BigramLanguageModelLoRA(
-        vocab_size=vocab_size,
-        n_embd=n_embd,
-        block_size=block_size,
-        device=device,
-        dropout=dropout,
-        n_head=n_head,
-        n_layer=n_layer,
-        use_lora=True,
+# Initialize model based on MODEL_TYPE
+if MODEL_TYPE == "gpt2":
+    # GPT-2 model (pre-trained from HuggingFace)
+    from models.gpt2_wrapper import GPT2Wrapper
+    
+    print(f"🤖 Using GPT-2 model: {GPT2_MODEL_NAME}")
+    if USE_LORA:
+        print("🔧 Using LoRA for efficient fine-tuning")
+        print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
+    
+    model = GPT2Wrapper(
+        model_name=GPT2_MODEL_NAME,
+        use_lora=USE_LORA,
         lora_rank=LORA_RANK,
         lora_alpha=LORA_ALPHA,
         lora_dropout=LORA_DROPOUT,
-    )
-else:
-    model = BigramLanguageModel(
-        vocab_size=vocab_size,
-        n_embd=n_embd,
-        block_size=block_size,
         device=device,
-        dropout=dropout,
-        n_head=n_head,
-        n_layer=n_layer,
     )
+    
+    # Use GPT-2's tokenizer (already set up in GPT2Wrapper)
+    encode = model.encode
+    decode = model.decode
+    vocab_size = model.get_vocab_size()
+    
+    # Encode entire text dataset
+    data = torch.tensor(encode(text), dtype=torch.long)
+    
+    # Split data into train and validation sets (90% train, 10% validation)
+    n = int(0.9 * len(data))
+    train_data = data[:n]
+    val_data = data[n:]
+    
+    # GPT-2 uses its own block_size (from config), but we'll use our batch_size
+    # Note: GPT-2's max position embeddings might limit block_size
+    gpt2_config = model.model.config
+    max_pos = gpt2_config.max_position_embeddings
+    if block_size > max_pos:
+        print(f"⚠️  block_size ({block_size}) > GPT-2 max_pos ({max_pos}), using {max_pos}")
+        block_size = max_pos
+    
+    model.to(device)  # Ensure model is on device
+    
+elif MODEL_TYPE == "from_scratch":
+    # Original from-scratch model (with or without LoRA)
+    if USE_LORA:
+        from models.bigram_lm_v2_lora import BigramLanguageModelLoRA
 
-model.to(device)  # move model to device
+        print("🔧 Using LoRA for efficient fine-tuning")
+        print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
+        model = BigramLanguageModelLoRA(
+            vocab_size=vocab_size,
+            n_embd=n_embd,
+            block_size=block_size,
+            device=device,
+            dropout=dropout,
+            n_head=n_head,
+            n_layer=n_layer,
+            use_lora=True,
+            lora_rank=LORA_RANK,
+            lora_alpha=LORA_ALPHA,
+            lora_dropout=LORA_DROPOUT,
+        )
+    else:
+        model = BigramLanguageModel(
+            vocab_size=vocab_size,
+            n_embd=n_embd,
+            block_size=block_size,
+            device=device,
+            dropout=dropout,
+            n_head=n_head,
+            n_layer=n_layer,
+        )
+    
+    model.to(device)  # move model to device
+else:
+    raise ValueError(f"Unknown MODEL_TYPE: {MODEL_TYPE}. Use 'from_scratch' or 'gpt2'")
 
-# Count parameters
-if USE_LORA:
+# Count parameters (for both GPT-2 and from_scratch models)
+if MODEL_TYPE == "gpt2":
+    # GPT-2 always has parameter info method
+    param_info = model.get_parameter_info()
+    print("📊 Parameter Statistics:")
+    print(f"   Model: {param_info.get('model_name', GPT2_MODEL_NAME)}")
+    print(f"   Total parameters: {param_info['total']:,}")
+    if USE_LORA:
+        print(f"   Trainable (total): {param_info['trainable']:,}")
+        if 'lora_only_params' in param_info:
+            print(f"     - LoRA adapters: {param_info['lora_only_params']:,} ({param_info.get('lora_only_percentage', 0):.2f}%)")
+        print(f"   Frozen (base model): {param_info['frozen']:,}")
+        lora_pct = param_info.get('lora_percentage', param_info.get('lora_only_percentage', 0))
+        print(f"   💰 LoRA savings: Training only {lora_pct:.2f}% of parameters!")
+    else:
+        print(f"   Trainable parameters: {param_info['trainable']:,}")
+        print(f"   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)")
+elif USE_LORA:
     param_info = model.get_parameter_info()
     print("📊 Parameter Statistics:")
     print(f"   Total parameters: {param_info['total']:,}")
@@ -563,7 +691,13 @@ interval_print = training_steps // 10  # print every 10% of the training steps
 print(f"Starting training for {training_steps} steps...")
 print(f"Batch size: {batch_size}, Block size: {block_size}")
 print(f"Vocabulary size: {vocab_size:,} tokens")
+if ENABLE_CHECKPOINTS:
+    print(f"Checkpoints enabled: saving every {CHECKPOINT_INTERVAL} steps to {CHECKPOINT_DIR}/")
 print("-" * 50)
+
+# Get model and source names for checkpoint naming
+model_name = get_model_name(model)
+source_name = get_data_source_name(TRAINING_DATA_SOURCE)
 
 start_time = time.time()
 
@@ -578,6 +712,12 @@ for step in range(training_steps):
         print(
             f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
         )
+        
+        # Save checkpoint if enabled
+        if ENABLE_CHECKPOINTS and step % CHECKPOINT_INTERVAL == 0 and step > 0:
+            checkpoint_path = save_checkpoint(step, model, optimizer, model_name, source_name)
+            if checkpoint_path:
+                print(f"   💾 Checkpoint saved: {checkpoint_path}")
 
     # Print progress more frequently in production mode to show it's not hung
     elif step > 0 and step % 25 == 0:
@@ -612,6 +752,12 @@ print(
     f"Total training time: {total_time:.1f}s ({training_steps/total_time:.2f} steps/sec)"
 )
 
+# Save final model checkpoint
+if ENABLE_CHECKPOINTS:
+    final_checkpoint_path = save_checkpoint(training_steps, model, optimizer, model_name, source_name)
+    if final_checkpoint_path:
+        print(f"✅ Final model saved: {final_checkpoint_path}")
+
 # ============================================================================
 # GENERATION
 # ============================================================================
@@ -620,9 +766,26 @@ print("\nGenerating text...")
 print("=" * 50)
 
 # Generate text starting from a null character (index 0)
-context = torch.zeros((1, 1), dtype=torch.long).to(device)
-generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
-generated_text = decode(generated_tokens[0].tolist())
+# For GPT-2, we need to use the tokenizer's bos_token or a simple prompt
+if MODEL_TYPE == "gpt2":
+    # GPT-2 doesn't use a null token, so we'll start with an empty sequence
+    # The tokenizer will handle this appropriately
+    context = torch.tensor([[]], dtype=torch.long).to(device)
+    if context.shape[1] == 0:
+        # If empty, add a single token (usually BOS or a space)
+        context = torch.tensor([[model.tokenizer.bos_token_id or 0]], dtype=torch.long).to(device)
+    generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
+    # GPT-2 generate returns the full sequence including input, so we extract new tokens
+    if generated_tokens.shape[1] > context.shape[1]:
+        new_tokens = generated_tokens[0, context.shape[1]:].tolist()
+    else:
+        new_tokens = generated_tokens[0].tolist()
+    generated_text = decode(new_tokens)
+else:
+    # From-scratch model: start with null token
+    context = torch.zeros((1, 1), dtype=torch.long).to(device)
+    generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
+    generated_text = decode(generated_tokens[0].tolist())
 
 print(generated_text)
 print("=" * 50)
@@ -638,9 +801,7 @@ if ENABLE_OUTPUT_TO_FILE:
     # Get captured output
     captured_output = tee_output.getvalue()
 
-    # Extract model name, data source name, and generate filename
-    model_name = get_model_name(model)
-    source_name = get_data_source_name(TRAINING_DATA_SOURCE)
+    # Generate filename (reuse model_name and source_name from checkpoint section)
     filename = generate_output_filename(
         model_name=model_name,
         source_name=source_name,
@@ -650,6 +811,8 @@ if ENABLE_OUTPUT_TO_FILE:
         use_lora=USE_LORA,
         lora_rank=LORA_RANK if USE_LORA else None,
         lora_alpha=LORA_ALPHA if USE_LORA else None,
+        model_type=MODEL_TYPE,
+        gpt2_model_name=GPT2_MODEL_NAME if MODEL_TYPE == "gpt2" else None,
     )
 
     # Construct full output path

@@ -106,9 +106,13 @@ build_llm_karpathy/
 ├── training.py         # Main training script with model implementation
 ├── notes.md            # Detailed learning notes and explanations
 ├── requirements.txt    # Python dependencies
+├── docs/               # Documentation (see docs/README.md for index)
+│   ├── lora/          # LoRA fine-tuning documentation
+│   ├── gpt2/          # GPT-2 integration documentation
+│   └── *.md           # General guides
 ├── sources/
 │   └── shakespeare.txt # Training data
-└── WARP.md            # Additional documentation
+└── WARP.md            # Development environment setup
 ```
 
 ## Key Concepts Covered
@@ -146,6 +150,11 @@ After understanding this bigram model, typical next steps include:
 - **Tutorial Video**: Andrej Karpathy's LLM tutorial (link to be added)
 - **notes.md**: Detailed notes with visual explanations of key concepts
 - **Training Code**: `training.py` contains extensive comments explaining each step
+- **Documentation**: See [docs/README.md](docs/README.md) for comprehensive guides on:
+  - Fine-tuning strategies (LoRA, full fine-tuning)
+  - GPT-2 integration
+  - Performance optimization
+  - Checkpoint management
 
 ## Credits
 

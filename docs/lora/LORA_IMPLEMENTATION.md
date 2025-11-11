@@ -24,7 +24,7 @@ This branch (`lora-fine-tuning`) adds LoRA (Low-Rank Adaptation) support to your
    - Automatically applies LoRA to all linear layers
    - Freezes base weights, only trains LoRA adapters
 
-4. **`LORA_USAGE.md`**
+4. **`LORA_USAGE.md`** (this file is in the same directory)
    - Comprehensive usage guide
    - Examples and troubleshooting
    - Parameter explanations
