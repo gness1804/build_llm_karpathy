@@ -13,6 +13,32 @@ import sys
 from datetime import datetime
 from io import StringIO
 
+
+def format_time(seconds: float) -> str:
+    """
+    Format seconds into a human-readable string (hours, minutes, seconds).
+    
+    Args:
+        seconds: Time in seconds
+        
+    Returns:
+        Formatted string like "1h 23m 45s" or "23m 45s" or "45s"
+    """
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+    
+    parts = []
+    if hours > 0:
+        parts.append(f"{hours}h")
+    if minutes > 0:
+        parts.append(f"{minutes}m")
+    if secs > 0 or len(parts) == 0:  # Always show seconds if no hours/minutes
+        parts.append(f"{secs}s")
+    
+    return " ".join(parts)
+
+
 is_test_mode = os.environ.get("TEST_MODE", "False")
 
 # LoRA configuration
@@ -749,7 +775,7 @@ print("-" * 50)
 print(f"Training complete! Final loss: {loss.item():.4f}")
 total_time = time.time() - start_time
 print(
-    f"Total training time: {total_time:.1f}s ({training_steps/total_time:.2f} steps/sec)"
+    f"Total training time: {format_time(total_time)} ({training_steps/total_time:.2f} steps/sec)"
 )
 
 # Save final model checkpoint
