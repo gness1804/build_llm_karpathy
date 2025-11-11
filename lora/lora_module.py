@@ -14,16 +14,16 @@ import torch.nn as nn
 class LoRALinear(nn.Module):
     """
     LoRA-adapted linear layer.
-    
+
     Wraps a base linear layer (or Conv1D) and adds low-rank adaptation:
     output = base_layer(x) + (x @ A) @ B * scaling
-    
+
     Where:
     - base_layer: Original linear layer or Conv1D (frozen)
     - A: Low-rank matrix (in_features, rank) - trainable
     - B: Low-rank matrix (rank, out_features) - trainable
     - scaling: LoRA alpha / rank (scaling factor)
-    
+
     Supports both nn.Linear and transformers.pytorch_utils.Conv1D
     """
 
@@ -48,10 +48,11 @@ class LoRALinear(nn.Module):
         self.rank = rank
         self.alpha = alpha
         self.scaling = alpha / rank
-        
+
         # Detect layer type
         try:
             from transformers.pytorch_utils import Conv1D
+
             self.is_conv1d = isinstance(base_layer, Conv1D)
         except ImportError:
             self.is_conv1d = False
@@ -62,22 +63,24 @@ class LoRALinear(nn.Module):
 
         # Get dimensions from base layer
         # Handle both nn.Linear (has in_features/out_features) and Conv1D (has nx/nf attributes)
-        if hasattr(base_layer, 'in_features') and hasattr(base_layer, 'out_features'):
+        if hasattr(base_layer, "in_features") and hasattr(base_layer, "out_features"):
             # Standard nn.Linear
             in_features = base_layer.in_features
             out_features = base_layer.out_features
-        elif hasattr(base_layer, 'nx') and hasattr(base_layer, 'nf'):
+        elif hasattr(base_layer, "nx") and hasattr(base_layer, "nf"):
             # Conv1D from transformers - has nx (in_features) and nf (out_features)
             in_features = base_layer.nx
             out_features = base_layer.nf
-        elif hasattr(base_layer, 'weight') and base_layer.weight is not None:
+        elif hasattr(base_layer, "weight") and base_layer.weight is not None:
             # Fallback: extract from weight shape
             # Conv1D weight shape is [in_features, out_features]
             weight_shape = base_layer.weight.shape
             in_features = weight_shape[0]
             out_features = weight_shape[1]
         else:
-            raise ValueError(f"Cannot determine dimensions for layer type: {type(base_layer)}")
+            raise ValueError(
+                f"Cannot determine dimensions for layer type: {type(base_layer)}"
+            )
 
         # Initialize LoRA matrices
         # A: (in_features, rank) - initialized with Kaiming uniform

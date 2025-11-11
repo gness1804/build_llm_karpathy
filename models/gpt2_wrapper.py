@@ -9,22 +9,25 @@ Provides a wrapper around HuggingFace's GPT-2 model that:
 
 import torch
 import torch.nn as nn
-from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Config
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 from typing import Optional
 
 # Import LoRA support if available
 try:
     from lora.lora_module import apply_lora_to_linear, count_lora_parameters
+
     LORA_AVAILABLE = True
 except ImportError:
     LORA_AVAILABLE = False
-    print("⚠️  LoRA module not available. Install LoRA support for efficient fine-tuning.")
+    print(
+        "⚠️  LoRA module not available. Install LoRA support for efficient fine-tuning."
+    )
 
 
 class GPT2Wrapper(nn.Module):
     """
     Wrapper around HuggingFace GPT-2 model for fine-tuning.
-    
+
     Provides a consistent interface with BigramLanguageModel for training.
     Supports optional LoRA fine-tuning for efficiency.
     """
@@ -75,7 +78,9 @@ class GPT2Wrapper(nn.Module):
             self._apply_lora(lora_rank, lora_alpha, lora_dropout)
             print(f"✅ LoRA adapters applied (rank={lora_rank}, alpha={lora_alpha})")
         else:
-            print(f"✅ Model loaded with {sum(p.numel() for p in self.model.parameters()):,} parameters")
+            print(
+                f"✅ Model loaded with {sum(p.numel() for p in self.model.parameters()):,} parameters"
+            )
 
     def _apply_lora(self, rank: int, alpha: float, dropout: float):
         """
@@ -89,37 +94,38 @@ class GPT2Wrapper(nn.Module):
         # First, freeze ALL parameters in the base model
         for param in self.model.parameters():
             param.requires_grad = False
-        
+
         # Collect modules to wrap (don't modify during iteration)
         # GPT-2 uses Conv1D instead of nn.Linear, so we check for modules with weight attribute
         modules_to_wrap = []
-        
+
         # Import Conv1D to check for it
         try:
             from transformers.pytorch_utils import Conv1D
+
             CONV1D_AVAILABLE = True
         except ImportError:
             CONV1D_AVAILABLE = False
             Conv1D = None
-        
+
         for name, module in self.model.named_modules():
             # Check if it's a linear-like layer (Linear or Conv1D)
             is_linear = isinstance(module, nn.Linear)
             is_conv1d = CONV1D_AVAILABLE and isinstance(module, Conv1D)
-            
+
             if is_linear or is_conv1d:
                 # GPT-2 uses c_attn which is a single Conv1D layer combining q, k, v
                 if "attn.c_attn" in name:
                     modules_to_wrap.append((name, module))
-                
+
                 # Attention output projection
                 elif "attn.c_proj" in name:
                     modules_to_wrap.append((name, module))
-                
+
                 # Feed-forward first layer
                 elif "mlp.c_fc" in name:
                     modules_to_wrap.append((name, module))
-                
+
                 # Feed-forward second layer
                 elif "mlp.c_proj" in name:
                     modules_to_wrap.append((name, module))
@@ -132,7 +138,11 @@ class GPT2Wrapper(nn.Module):
             for part in parts[:-1]:
                 parent = getattr(parent, part)
             attr_name = parts[-1]
-            setattr(parent, attr_name, apply_lora_to_linear(module, rank=rank, alpha=alpha, dropout=dropout))
+            setattr(
+                parent,
+                attr_name,
+                apply_lora_to_linear(module, rank=rank, alpha=alpha, dropout=dropout),
+            )
 
         # Apply LoRA to language model head (this one is actually nn.Linear)
         if hasattr(self.model, "lm_head"):
@@ -140,22 +150,25 @@ class GPT2Wrapper(nn.Module):
             is_linear = isinstance(self.model.lm_head, nn.Linear)
             try:
                 from transformers.pytorch_utils import Conv1D
+
                 is_conv1d = isinstance(self.model.lm_head, Conv1D)
             except ImportError:
                 is_conv1d = False
-            
+
             if is_linear or is_conv1d:
                 self.model.lm_head = apply_lora_to_linear(
                     self.model.lm_head, rank=rank, alpha=alpha, dropout=dropout
                 )
-        
-        lora_applied = len(modules_to_wrap) + (1 if hasattr(self.model, "lm_head") else 0)
+
+        lora_applied = len(modules_to_wrap) + (
+            1 if hasattr(self.model, "lm_head") else 0
+        )
         print(f"   Applied LoRA to {lora_applied} layers")
 
     def forward(self, idx: torch.Tensor, targets: Optional[torch.Tensor] = None):
         """
         Forward pass through GPT-2 model.
-        
+
         Compatible interface with BigramLanguageModel:
         - Uses 'idx' instead of 'input_ids' for consistency
         - Uses 'targets' instead of 'labels' for consistency
@@ -233,11 +246,17 @@ class GPT2Wrapper(nn.Module):
             info["model_name"] = self.model_name
             # Calculate LoRA percentage if not already present
             if "lora_percentage" not in info:
-                info["lora_percentage"] = (info["trainable"] / info["total"] * 100) if info["total"] > 0 else 0.0
+                info["lora_percentage"] = (
+                    (info["trainable"] / info["total"] * 100)
+                    if info["total"] > 0
+                    else 0.0
+                )
             return info
         else:
             total = sum(p.numel() for p in self.model.parameters())
-            trainable = sum(p.numel() for p in self.model.parameters() if p.requires_grad)
+            trainable = sum(
+                p.numel() for p in self.model.parameters() if p.requires_grad
+            )
             return {
                 "total": total,
                 "trainable": trainable,
@@ -250,4 +269,3 @@ class GPT2Wrapper(nn.Module):
     def get_vocab_size(self) -> int:
         """Get vocabulary size."""
         return len(self.tokenizer)
-

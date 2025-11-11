@@ -17,17 +17,17 @@ from io import StringIO
 def format_time(seconds: float) -> str:
     """
     Format seconds into a human-readable string (hours, minutes, seconds).
-    
+
     Args:
         seconds: Time in seconds
-        
+
     Returns:
         Formatted string like "1h 23m 45s" or "23m 45s" or "45s"
     """
     hours = int(seconds // 3600)
     minutes = int((seconds % 3600) // 60)
     secs = int(seconds % 60)
-    
+
     parts = []
     if hours > 0:
         parts.append(f"{hours}h")
@@ -35,7 +35,7 @@ def format_time(seconds: float) -> str:
         parts.append(f"{minutes}m")
     if secs > 0 or len(parts) == 0:  # Always show seconds if no hours/minutes
         parts.append(f"{secs}s")
-    
+
     return " ".join(parts)
 
 
@@ -49,13 +49,15 @@ LORA_DROPOUT = float(os.environ.get("LORA_DROPOUT", "0.0"))
 
 # Model selection: "from_scratch" or "gpt2"
 MODEL_TYPE = os.environ.get("MODEL_TYPE", "from_scratch").lower()
-GPT2_MODEL_NAME = os.environ.get("GPT2_MODEL_NAME", "gpt2")  # gpt2, gpt2-medium, gpt2-large, gpt2-xl
+GPT2_MODEL_NAME = os.environ.get(
+    "GPT2_MODEL_NAME", "gpt2"
+)  # gpt2, gpt2-medium, gpt2-large, gpt2-xl
 
 # Checkpoint configuration
-ENABLE_CHECKPOINTS = (
-    os.environ.get("ENABLE_CHECKPOINTS", "False").lower() == "true"
-)
-CHECKPOINT_INTERVAL = int(os.environ.get("CHECKPOINT_INTERVAL", "500"))  # Save every N steps
+ENABLE_CHECKPOINTS = os.environ.get("ENABLE_CHECKPOINTS", "False").lower() == "true"
+CHECKPOINT_INTERVAL = int(
+    os.environ.get("CHECKPOINT_INTERVAL", "500")
+)  # Save every N steps
 CHECKPOINT_DIR = os.environ.get("CHECKPOINT_DIR", "checkpoints")
 
 
@@ -155,7 +157,7 @@ def generate_output_filename(
             components.append("gpt2")
     else:
         components.append("from_scratch")
-    
+
     # Add LoRA information if used
     if use_lora:
         lora_info = f"lora_r{lora_rank}_a{lora_alpha}"
@@ -220,7 +222,9 @@ if TEST_MODE:
     # Fast configuration for testing and debugging
     batch_size = 32  # Reduced from 64
     block_size = 64  # Reduced from 256 (16x less attention computation!)
-    training_steps = int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 1000  # Reduced from 5000
+    training_steps = (
+        int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 1000
+    )  # Reduced from 5000
     eval_interval = 100  # Evaluate more frequently
     learning_rate = 3e-4  # Learning rate for optimizer
     eval_iters = 50  # Reduced from 200
@@ -233,7 +237,9 @@ else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
     batch_size = 64  # Reduced from 64 for better M4 performance
     block_size = 128  # Further reduced from 128 (4x less attention computation)
-    training_steps = int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000  # Number of training iterations
+    training_steps = (
+        int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000
+    )  # Number of training iterations
     eval_interval = 500  # More frequent feedback (reduced from 500)
     learning_rate = 3e-4  # Learning rate for optimizer
     eval_iters = 50  # Further reduced from 50 for faster eval
@@ -504,10 +510,12 @@ def get_model_name(model_instance):
     """Extract model name from model class (e.g., 'BigramLanguageModel' -> 'bigram')"""
     if MODEL_TYPE == "gpt2":
         # For GPT-2, use the model name from the wrapper
-        if hasattr(model_instance, 'model_name'):
-            return model_instance.model_name.replace('-', '')  # gpt2-medium -> gpt2medium
+        if hasattr(model_instance, "model_name"):
+            return model_instance.model_name.replace(
+                "-", ""
+            )  # gpt2-medium -> gpt2medium
         return "gpt2"
-    
+
     class_name = model_instance.__class__.__name__
     # Convert PascalCase to lowercase (simple heuristic: first word before 'LanguageModel')
     if "LanguageModel" in class_name:
@@ -528,12 +536,14 @@ def save_checkpoint(step, model, optimizer, model_name, source_name):
         "block_size": block_size,
         "batch_size": batch_size,
     }
-    
+
     # Generate checkpoint filename
     timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
-    checkpoint_name = f"checkpoint_{model_name}_{source_name}_step{step:06d}_{timestamp}.pt"
+    checkpoint_name = (
+        f"checkpoint_{model_name}_{source_name}_step{step:06d}_{timestamp}.pt"
+    )
     checkpoint_path = os.path.join(CHECKPOINT_DIR, checkpoint_name)
-    
+
     try:
         torch.save(checkpoint_data, checkpoint_path)
         return checkpoint_path
@@ -550,12 +560,14 @@ def save_checkpoint(step, model, optimizer, model_name, source_name):
 if MODEL_TYPE == "gpt2":
     # GPT-2 model (pre-trained from HuggingFace)
     from models.gpt2_wrapper import GPT2Wrapper
-    
+
     print(f"🤖 Using GPT-2 model: {GPT2_MODEL_NAME}")
     if USE_LORA:
         print("🔧 Using LoRA for efficient fine-tuning")
-        print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
-    
+        print(
+            f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}"
+        )
+
     model = GPT2Wrapper(
         model_name=GPT2_MODEL_NAME,
         use_lora=USE_LORA,
@@ -564,37 +576,41 @@ if MODEL_TYPE == "gpt2":
         lora_dropout=LORA_DROPOUT,
         device=device,
     )
-    
+
     # Use GPT-2's tokenizer (already set up in GPT2Wrapper)
     encode = model.encode
     decode = model.decode
     vocab_size = model.get_vocab_size()
-    
+
     # Encode entire text dataset
     data = torch.tensor(encode(text), dtype=torch.long)
-    
+
     # Split data into train and validation sets (90% train, 10% validation)
     n = int(0.9 * len(data))
     train_data = data[:n]
     val_data = data[n:]
-    
+
     # GPT-2 uses its own block_size (from config), but we'll use our batch_size
     # Note: GPT-2's max position embeddings might limit block_size
     gpt2_config = model.model.config
     max_pos = gpt2_config.max_position_embeddings
     if block_size > max_pos:
-        print(f"⚠️  block_size ({block_size}) > GPT-2 max_pos ({max_pos}), using {max_pos}")
+        print(
+            f"⚠️  block_size ({block_size}) > GPT-2 max_pos ({max_pos}), using {max_pos}"
+        )
         block_size = max_pos
-    
+
     model.to(device)  # Ensure model is on device
-    
+
 elif MODEL_TYPE == "from_scratch":
     # Original from-scratch model (with or without LoRA)
     if USE_LORA:
         from models.bigram_lm_v2_lora import BigramLanguageModelLoRA
 
         print("🔧 Using LoRA for efficient fine-tuning")
-        print(f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}")
+        print(
+            f"   LoRA rank: {LORA_RANK}, alpha: {LORA_ALPHA}, dropout: {LORA_DROPOUT}"
+        )
         model = BigramLanguageModelLoRA(
             vocab_size=vocab_size,
             n_embd=n_embd,
@@ -618,7 +634,7 @@ elif MODEL_TYPE == "from_scratch":
             n_head=n_head,
             n_layer=n_layer,
         )
-    
+
     model.to(device)  # move model to device
 else:
     raise ValueError(f"Unknown MODEL_TYPE: {MODEL_TYPE}. Use 'from_scratch' or 'gpt2'")
@@ -632,14 +648,20 @@ if MODEL_TYPE == "gpt2":
     print(f"   Total parameters: {param_info['total']:,}")
     if USE_LORA:
         print(f"   Trainable (total): {param_info['trainable']:,}")
-        if 'lora_only_params' in param_info:
-            print(f"     - LoRA adapters: {param_info['lora_only_params']:,} ({param_info.get('lora_only_percentage', 0):.2f}%)")
+        if "lora_only_params" in param_info:
+            print(
+                f"     - LoRA adapters: {param_info['lora_only_params']:,} ({param_info.get('lora_only_percentage', 0):.2f}%)"
+            )
         print(f"   Frozen (base model): {param_info['frozen']:,}")
-        lora_pct = param_info.get('lora_percentage', param_info.get('lora_only_percentage', 0))
+        lora_pct = param_info.get(
+            "lora_percentage", param_info.get("lora_only_percentage", 0)
+        )
         print(f"   💰 LoRA savings: Training only {lora_pct:.2f}% of parameters!")
     else:
         print(f"   Trainable parameters: {param_info['trainable']:,}")
-        print(f"   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)")
+        print(
+            "   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)"
+        )
 elif USE_LORA:
     param_info = model.get_parameter_info()
     print("📊 Parameter Statistics:")
@@ -718,7 +740,9 @@ print(f"Starting training for {training_steps} steps...")
 print(f"Batch size: {batch_size}, Block size: {block_size}")
 print(f"Vocabulary size: {vocab_size:,} tokens")
 if ENABLE_CHECKPOINTS:
-    print(f"Checkpoints enabled: saving every {CHECKPOINT_INTERVAL} steps to {CHECKPOINT_DIR}/")
+    print(
+        f"Checkpoints enabled: saving every {CHECKPOINT_INTERVAL} steps to {CHECKPOINT_DIR}/"
+    )
 print("-" * 50)
 
 # Get model and source names for checkpoint naming
@@ -738,10 +762,12 @@ for step in range(training_steps):
         print(
             f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
         )
-        
+
         # Save checkpoint if enabled
         if ENABLE_CHECKPOINTS and step % CHECKPOINT_INTERVAL == 0 and step > 0:
-            checkpoint_path = save_checkpoint(step, model, optimizer, model_name, source_name)
+            checkpoint_path = save_checkpoint(
+                step, model, optimizer, model_name, source_name
+            )
             if checkpoint_path:
                 print(f"   💾 Checkpoint saved: {checkpoint_path}")
 
@@ -780,7 +806,9 @@ print(
 
 # Save final model checkpoint
 if ENABLE_CHECKPOINTS:
-    final_checkpoint_path = save_checkpoint(training_steps, model, optimizer, model_name, source_name)
+    final_checkpoint_path = save_checkpoint(
+        training_steps, model, optimizer, model_name, source_name
+    )
     if final_checkpoint_path:
         print(f"✅ Final model saved: {final_checkpoint_path}")
 
@@ -799,11 +827,13 @@ if MODEL_TYPE == "gpt2":
     context = torch.tensor([[]], dtype=torch.long).to(device)
     if context.shape[1] == 0:
         # If empty, add a single token (usually BOS or a space)
-        context = torch.tensor([[model.tokenizer.bos_token_id or 0]], dtype=torch.long).to(device)
+        context = torch.tensor(
+            [[model.tokenizer.bos_token_id or 0]], dtype=torch.long
+        ).to(device)
     generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
     # GPT-2 generate returns the full sequence including input, so we extract new tokens
     if generated_tokens.shape[1] > context.shape[1]:
-        new_tokens = generated_tokens[0, context.shape[1]:].tolist()
+        new_tokens = generated_tokens[0, context.shape[1] :].tolist()
     else:
         new_tokens = generated_tokens[0].tolist()
     generated_text = decode(new_tokens)
