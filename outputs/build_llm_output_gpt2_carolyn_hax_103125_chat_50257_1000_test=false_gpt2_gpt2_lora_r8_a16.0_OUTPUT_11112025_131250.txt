@@ -1,0 +1,135 @@
+HYPERPARAMETERS
+================
+batch_size = 16
+block_size = 64
+training_steps = 1000
+eval_interval = 500
+learning_rate = 0.0003
+eval_iters = 20
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = False
+use_lora = True
+model_type = gpt2
+training_data_source = sources/carolyn_hax_103125_chat.md
+gpt2_model_name = gpt2
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)
+   📌 GPT-2 detected: Using optimized batch/block sizes for MPS
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 4 layers, 256 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 49 layers
+✅ LoRA adapters applied (rank=8, alpha=16.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 126,027,656
+   Trainable (total): 1,587,848
+   Frozen (base model): 124,439,808
+   💰 LoRA savings: Training only 1.26% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 98 parameter groups (LoRA only)
+Starting training for 1000 steps...
+Batch size: 16, Block size: 64
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+step 0/1000 (0.0%): train loss 9.5012, val loss 9.5813 | 8.2s (0.00 steps/sec)
+step 25/1000 (2.5%) | 1.48 steps/sec | ETA: 10.9m
+step 50/1000 (5.0%) | 1.97 steps/sec | ETA: 8.0m
+step 75/1000 (7.5%) | 2.21 steps/sec | ETA: 7.0m
+step 100/1000 (10.0%) | 2.36 steps/sec | ETA: 6.4m
+step 125/1000 (12.5%) | 2.44 steps/sec | ETA: 6.0m
+step 150/1000 (15.0%) | 2.51 steps/sec | ETA: 5.6m
+step 175/1000 (17.5%) | 2.56 steps/sec | ETA: 5.4m
+step 200/1000 (20.0%) | 2.60 steps/sec | ETA: 5.1m
+step 225/1000 (22.5%) | 2.63 steps/sec | ETA: 4.9m
+step 250/1000 (25.0%) | 2.66 steps/sec | ETA: 4.7m
+step 275/1000 (27.5%) | 2.68 steps/sec | ETA: 4.5m
+step 300/1000 (30.0%) | 2.70 steps/sec | ETA: 4.3m
+step 325/1000 (32.5%) | 2.71 steps/sec | ETA: 4.1m
+step 350/1000 (35.0%) | 2.73 steps/sec | ETA: 4.0m
+step 375/1000 (37.5%) | 2.74 steps/sec | ETA: 3.8m
+step 400/1000 (40.0%) | 2.75 steps/sec | ETA: 3.6m
+step 425/1000 (42.5%) | 2.76 steps/sec | ETA: 3.5m
+step 450/1000 (45.0%) | 2.77 steps/sec | ETA: 3.3m
+step 475/1000 (47.5%) | 2.78 steps/sec | ETA: 3.2m
+step 500/1000 (50.0%): train loss 5.8200, val loss 6.5911 | 187.9s (2.66 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step000500_11112025_130947.pt
+step 525/1000 (52.5%) | 2.66 steps/sec | ETA: 3.0m
+step 550/1000 (55.0%) | 2.67 steps/sec | ETA: 2.8m
+step 575/1000 (57.5%) | 2.68 steps/sec | ETA: 2.6m
+step 600/1000 (60.0%) | 2.69 steps/sec | ETA: 2.5m
+step 625/1000 (62.5%) | 2.69 steps/sec | ETA: 2.3m
+step 650/1000 (65.0%) | 2.70 steps/sec | ETA: 2.2m
+step 675/1000 (67.5%) | 2.71 steps/sec | ETA: 2.0m
+step 700/1000 (70.0%) | 2.72 steps/sec | ETA: 1.8m
+step 725/1000 (72.5%) | 2.72 steps/sec | ETA: 1.7m
+step 750/1000 (75.0%) | 2.73 steps/sec | ETA: 1.5m
+step 775/1000 (77.5%) | 2.73 steps/sec | ETA: 1.4m
+step 800/1000 (80.0%) | 2.74 steps/sec | ETA: 1.2m
+step 825/1000 (82.5%) | 2.74 steps/sec | ETA: 1.1m
+step 850/1000 (85.0%) | 2.75 steps/sec | ETA: 0.9m
+step 875/1000 (87.5%) | 2.75 steps/sec | ETA: 0.8m
+step 900/1000 (90.0%) | 2.76 steps/sec | ETA: 0.6m
+step 925/1000 (92.5%) | 2.76 steps/sec | ETA: 0.5m
+step 950/1000 (95.0%) | 2.76 steps/sec | ETA: 0.3m
+step 975/1000 (97.5%) | 2.77 steps/sec | ETA: 0.2m
+--------------------------------------------------
+Training complete! Final loss: 6.5837
+Total training time: 6m 1s (2.77 steps/sec)
+✅ Final model saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step001000_11112025_131241.pt
+
+Generating text...
+==================================================
+ be-, to do do a prog in I on undefined " them, the to
+ a undefined. to this, your or, that, me't I this on to
+.. the for of not that things to that with a undefined on,
+ to you that, what never me. you you him she to you a.
+The in.. And have replies 111s
+ to is I to that I,, have. to the ", now my in no have a undefined to's in, for I him of of to about you to I about one in child and this we. And to, that that ( therapist., p LikesPress asking,
+
+Press to Enter expandist
+ Enter expandCarCar 147191 to
+ expand
+
+, are husband we of of- who you and " to3 a to
+, you a to.Hi Likesax49As p
+ has 0My the to I to:Press expand20AdvThere
+
+ I to about right
+ 108
+
+1
+2�
+, about - toMy because. Column
+1His
+ has replies H
+ you�m
+1What p styles
+ you have replies HCar 368
+, and:'s but Column
+, to p
+: is you,.'s ":Adv
+ 159Guest
+'ve in wife that, it we� p
+ to/'t My to�mCar 113Press is
+49 Enter know I I:
+us my,
+==================================================

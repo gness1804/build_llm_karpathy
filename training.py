@@ -235,14 +235,23 @@ if TEST_MODE:
     print("🔬 TEST MODE: Using reduced hyperparameters for fast training")
 else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
-    batch_size = 64  # Reduced from 64 for better M4 performance
-    block_size = 128  # Further reduced from 128 (4x less attention computation)
+    # GPT-2 specific optimizations: smaller batches/context for better MPS performance
+    if MODEL_TYPE == "gpt2":
+        # GPT-2 is large (126M params), so use smaller batches/context for MPS
+        batch_size = 16  # Reduced for GPT-2 on MPS (was 64)
+        block_size = 64  # Reduced for GPT-2 on MPS (was 128) - 4x less attention computation
+        eval_iters = 20  # Reduced for faster evaluation (was 50)
+    else:
+        # From-scratch models can handle larger batches
+        batch_size = 64  # Reduced from 64 for better M4 performance
+        block_size = 128  # Further reduced from 128 (4x less attention computation)
+        eval_iters = 50  # Further reduced from 50 for faster eval
+    
     training_steps = (
         int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000
     )  # Number of training iterations
     eval_interval = 500  # More frequent feedback (reduced from 500)
     learning_rate = 3e-4  # Learning rate for optimizer
-    eval_iters = 50  # Further reduced from 50 for faster eval
     n_embd = 256  # Further reduced from 256 for Apple Silicon
     n_head = 4  # Further reduced from 4 for Apple Silicon
     n_layer = 4  # Further reduced from 4 for Apple Silicon
@@ -250,6 +259,8 @@ else:
     print(
         "🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)"
     )
+    if MODEL_TYPE == "gpt2":
+        print("   📌 GPT-2 detected: Using optimized batch/block sizes for MPS")
 
 # Device selection: prioritize MPS (Apple Silicon GPU) > CUDA > CPU
 if torch.cuda.is_available():
