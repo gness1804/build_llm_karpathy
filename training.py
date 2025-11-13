@@ -68,10 +68,12 @@ CHECKPOINT_DIR = os.environ.get("CHECKPOINT_DIR", "checkpoints")
 # HYPERPARAMETERS
 # ============================================================================
 
+DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax_103125_chat.md"
+
 # Set to True for fast testing with smaller model, False for full training
 TEST_MODE = is_test_mode == "True"
 TRAINING_DATA_SOURCE = os.environ.get(
-    "TRAINING_DATA_SOURCE", "sources/carolyn_hax_103125_chat.md"
+    "TRAINING_DATA_SOURCE", DEFAULT_TRAINING_DATA_SOURCE
 )
 TOKENIZATION_METHOD = os.environ.get(
     "TOKENIZATION_METHOD", "character"

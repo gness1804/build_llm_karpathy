@@ -25,9 +25,8 @@ from datetime import datetime
 # ============================================================================
 
 CHECKPOINT_PATH = os.environ.get("CHECKPOINT_PATH", None)
-TRAINING_DATA_SOURCE = os.environ.get(
-    "TRAINING_DATA_SOURCE", None
-)  # Use checkpoint default if None
+DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax_103125_chat.md"
+TRAINING_DATA_SOURCE = os.environ.get("TRAINING_DATA_SOURCE", DEFAULT_TRAINING_DATA_SOURCE)
 RESUME_STEPS = int(os.environ.get("RESUME_STEPS", "5000"))
 print(f"RESUME_STEPS: {RESUME_STEPS}")
 LEARNING_RATE_OVERRIDE = os.environ.get("LEARNING_RATE", None)
@@ -138,7 +137,7 @@ if TRAINING_DATA_SOURCE:
 else:
     # Try to infer from checkpoint metadata or use default
     data_source = hyperparameters.get(
-        "training_data_source", "sources/carolyn_hax_103125_chat.md"
+        "training_data_source", DEFAULT_TRAINING_DATA_SOURCE
     )
     print(f"\n📝 Using original training data: {data_source}")
 
