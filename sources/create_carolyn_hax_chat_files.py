@@ -9,21 +9,31 @@ dates=[
     "072525",
     "071825",
     "071125",
-    "070425",
+    # "070425", # This chat is missing.
     "062725",
-    "062025",
+    # "062025", # This chat is missing.
     "061325",
     "060625",
+    "051625",
+    "050925",
+    "050225",
+    "042525",
+    "041825",
+    "041125",
+    "040425",
+    "032825",
+    "032125",
+    "031425",
 ]
 
 
 for date in dates:
-    print("Creating new Carolyn Hax chat in sources directory.")
-    if not os.path.exists(f"carolyn_hax_{date}_chat.md"):
-        os.system(f"touch carolyn_hax_{date}_chat.md")
+    print(f"Creating new Carolyn Hax chat in sources/carolyn_hax_chats directory for {date}.")
+    if not os.path.exists(f"sources/carolyn_hax_chats/carolyn_hax_{date}_chat.md"):
+        os.system(f"touch sources/carolyn_hax_chats/carolyn_hax_{date}_chat.md")
     else:
-        print("Carolyn Hax chat already exists in sources directory.")
+        print(f"Carolyn Hax chat already exists in sources/carolyn_hax_chats directory for {date}.")
         continue
 
-    print("Done.")
+    print(f"Done creating Carolyn Hax chat in sources/carolyn_hax_chats directory for {date}.")
 
