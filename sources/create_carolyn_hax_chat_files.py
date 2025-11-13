@@ -14,12 +14,12 @@ dates=[
 
 
 for date in dates:
-    print(f"Creating new Carolyn Hax chat in sources directory.")
+    print("Creating new Carolyn Hax chat in sources directory.")
     if not os.path.exists(f"carolyn_hax_{date}_chat.md"):
         os.system(f"touch carolyn_hax_{date}_chat.md")
     else:
-        print(f"Carolyn Hax chat already exists in sources directory.")
+        print("Carolyn Hax chat already exists in sources directory.")
         continue
 
-    print(f"Done.")
+    print("Done.")
 
