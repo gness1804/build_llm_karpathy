@@ -212,6 +212,11 @@ if MODE == "inference":
     print("\n" + "=" * 50)
     print("INFERENCE MODE")
     print("=" * 50)
+    
+    # Generation parameters
+    TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.7"))
+    TOP_K = int(os.environ.get("TOP_K", "50"))
+    print(f"Generation parameters: temperature={TEMPERATURE}, top_k={TOP_K}")
 
     if not PROMPT:
         if model_type == "gpt2":
@@ -227,9 +232,15 @@ if MODE == "inference":
         tokens = encode(PROMPT)
         context = torch.tensor([tokens], dtype=torch.long).to(device)
 
-    # Generate text
+    # Generate text with lower temperature for more coherent output
     with torch.no_grad():
-        generated_tokens = model.generate(context, max_new_tokens=MAX_NEW_TOKENS)
+        generated_tokens = model.generate(
+            context, 
+            max_new_tokens=MAX_NEW_TOKENS,
+            temperature=TEMPERATURE,
+            top_k=TOP_K,
+            do_sample=True
+        )
 
     # Decode and display
     if model_type == "gpt2":

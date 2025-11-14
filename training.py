@@ -278,6 +278,8 @@ else:
 
 # Generation settings
 max_new_tokens = 300  # Number of characters to generate
+generation_temperature = 0.7  # Lower temperature for more coherent generation (default: 1.0)
+generation_top_k = 50  # Top-k sampling for generation
 
 # Collect hyperparameters for output file
 hyperparameters = {
@@ -881,7 +883,13 @@ if MODEL_TYPE == "gpt2":
         context = torch.tensor(
             [[model.tokenizer.bos_token_id or 0]], dtype=torch.long
         ).to(device)
-    generated_tokens = model.generate(context, max_new_tokens=max_new_tokens)
+    generated_tokens = model.generate(
+        context, 
+        max_new_tokens=max_new_tokens,
+        temperature=generation_temperature,
+        top_k=generation_top_k,
+        do_sample=True
+    )
     # GPT-2 generate returns the full sequence including input, so we extract new tokens
     if generated_tokens.shape[1] > context.shape[1]:
         new_tokens = generated_tokens[0, context.shape[1] :].tolist()
