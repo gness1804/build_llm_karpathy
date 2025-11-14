@@ -29,7 +29,7 @@ def clean_carolyn_hax_text(text: str) -> str:
     """
     lines = text.split('\n')
     cleaned_lines = []
-    skip_until_question = False
+    # skip_until_question = False
     
     for line in lines:
         # Skip file headers and separators
