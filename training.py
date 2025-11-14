@@ -12,6 +12,7 @@ import os
 import sys
 from datetime import datetime
 from io import StringIO
+from torch.optim.lr_scheduler import CosineAnnealingLR, LinearLR, SequentialLR
 
 
 def format_time(seconds: float) -> str:
@@ -237,25 +238,25 @@ if TEST_MODE:
     print("🔬 TEST MODE: Using reduced hyperparameters for fast training")
 else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
-    # GPT-2 specific optimizations: smaller batches/context for better MPS performance
+    # GPT-2 specific optimizations: fine-tuning requires lower LR and larger context
     if MODEL_TYPE == "gpt2":
-        # GPT-2 is large (126M params), so use smaller batches/context for MPS
-        batch_size = 16  # Reduced for GPT-2 on MPS (was 64)
-        block_size = (
-            64  # Reduced for GPT-2 on MPS (was 128) - 4x less attention computation
-        )
+        # GPT-2 fine-tuning: lower learning rate, larger context, smaller batches
+        batch_size = 8  # Reduced to fit larger block_size
+        block_size = 512  # Increased for better context understanding (GPT-2 trained on 1024)
         eval_iters = 20  # Reduced for faster evaluation (was 50)
+        learning_rate = 1e-5  # Much lower for fine-tuning (prevents catastrophic forgetting)
+        print("   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and larger context (512)")
     else:
-        # From-scratch models can handle larger batches
+        # From-scratch models can handle larger batches and higher learning rates
         batch_size = 64  # Reduced from 64 for better M4 performance
         block_size = 128  # Further reduced from 128 (4x less attention computation)
         eval_iters = 50  # Further reduced from 50 for faster eval
+        learning_rate = 3e-4  # Higher LR is OK for from-scratch training
 
     training_steps = (
         int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000
     )  # Number of training iterations
     eval_interval = 500  # More frequent feedback (reduced from 500)
-    learning_rate = 3e-4  # Learning rate for optimizer
     n_embd = 256  # Further reduced from 256 for Apple Silicon
     n_head = 4  # Further reduced from 4 for Apple Silicon
     n_layer = 4  # Further reduced from 4 for Apple Silicon
@@ -263,8 +264,6 @@ else:
     print(
         "🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)"
     )
-    if MODEL_TYPE == "gpt2":
-        print("   📌 GPT-2 detected: Using optimized batch/block sizes for MPS")
 
 # Device selection: prioritize MPS (Apple Silicon GPU) > CUDA > CPU
 if torch.cuda.is_available():
@@ -745,6 +744,32 @@ else:
         model.parameters(), lr=learning_rate
     )  # AdamW optimizer
 
+# Initialize learning rate scheduler for GPT-2 fine-tuning
+# Warmup + cosine decay helps with stable fine-tuning
+scheduler = None
+if MODEL_TYPE == "gpt2":
+    # Warmup for first 10% of steps (prevents early instability)
+    warmup_steps = int(0.1 * training_steps)
+    # Cosine decay for remaining 90% (helps convergence)
+    decay_steps = training_steps - warmup_steps
+    
+    if warmup_steps > 0 and decay_steps > 0:
+        warmup_scheduler = LinearLR(
+            optimizer, start_factor=0.1, total_iters=warmup_steps
+        )
+        decay_scheduler = CosineAnnealingLR(
+            optimizer, T_max=decay_steps, eta_min=learning_rate * 0.1
+        )
+        scheduler = SequentialLR(
+            optimizer, [warmup_scheduler, decay_scheduler], milestones=[warmup_steps]
+        )
+        print(
+            f"📈 Learning rate schedule: {warmup_steps} warmup steps, {decay_steps} decay steps"
+        )
+        print(f"   LR range: {learning_rate * 0.1:.2e} → {learning_rate:.2e} → {learning_rate * 0.1:.2e}")
+    else:
+        print("⚠️  Training steps too few for scheduler, using constant LR")
+
 # ============================================================================
 # TRAINING LOOP
 # ============================================================================
@@ -775,8 +800,10 @@ for step in range(training_steps):
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed if step > 0 else 0
         progress_pct = (step / training_steps) * 100
+        # Get current learning rate for display
+        current_lr = optimizer.param_groups[0]["lr"]
         print(
-            f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
+            f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | LR: {current_lr:.2e} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
         )
 
         # Save checkpoint if enabled
@@ -810,8 +837,16 @@ for step in range(training_steps):
     optimizer.zero_grad(set_to_none=True)
     loss.backward()
 
+    # Gradient clipping to prevent exploding gradients (especially important for fine-tuning)
+    if MODEL_TYPE == "gpt2":
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
     # Update parameters
     optimizer.step()
+
+    # Update learning rate schedule
+    if scheduler is not None:
+        scheduler.step()
 
 print("-" * 50)
 print(f"Training complete! Final loss: {loss.item():.4f}")
