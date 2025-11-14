@@ -240,12 +240,12 @@ else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
     # GPT-2 specific optimizations: fine-tuning requires lower LR and larger context
     if MODEL_TYPE == "gpt2":
-        # GPT-2 fine-tuning: lower learning rate, larger context, smaller batches
-        batch_size = 8  # Reduced to fit larger block_size
-        block_size = 512  # Increased for better context understanding (GPT-2 trained on 1024)
+        # GPT-2 fine-tuning: lower learning rate, balanced context size for speed
+        batch_size = 16  # Increased from 8 since block_size is smaller
+        block_size = 128  # Balanced: better than 64, much faster than 512 (4x faster than 256)
         eval_iters = 20  # Reduced for faster evaluation (was 50)
         learning_rate = 1e-5  # Much lower for fine-tuning (prevents catastrophic forgetting)
-        print("   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and larger context (512)")
+        print("   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)")
     else:
         # From-scratch models can handle larger batches and higher learning rates
         batch_size = 64  # Reduced from 64 for better M4 performance
