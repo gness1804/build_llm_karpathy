@@ -217,7 +217,7 @@ class GPT2Wrapper(nn.Module):
             # Create attention mask: 1 for all real tokens, 0 for padding
             # Since pad_token_id == eos_token_id, we need to explicitly set this
             attention_mask = torch.ones_like(input_ids, dtype=torch.long)
-            
+
             generated = self.model.generate(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
@@ -233,42 +233,42 @@ class GPT2Wrapper(nn.Module):
     def encode(self, text: str, max_length: Optional[int] = None) -> list[int]:
         """
         Encode text to token IDs using GPT-2 tokenizer.
-        
+
         For long texts, chunks the text to avoid warnings about exceeding
         max_position_embeddings. The chunks are encoded separately and concatenated.
-        
+
         Args:
             text: Text to encode
             max_length: Maximum sequence length per chunk (defaults to model's max_position_embeddings)
-        
+
         Returns:
             List of token IDs (may be longer than max_length if text is very long)
         """
         if max_length is None:
             max_length = self.model.config.max_position_embeddings
-        
+
         # For short texts, encode directly (this won't trigger warnings)
         # Estimate: GPT-2 tokenizer typically produces ~0.75 tokens per character for English
         # So for max_length=1024, we'd expect ~1365 chars to be safe
         estimated_safe_length = int(max_length * 1.3)  # 30% buffer
-        
+
         if len(text) <= estimated_safe_length:
             # Short text - encode directly
             return self.tokenizer.encode(text, add_special_tokens=False)
-        
+
         # Long text - chunk to avoid warnings
         # Use conservative chunk size: aim for ~80% of max_length tokens per chunk
         # This gives us buffer to avoid warnings
         target_tokens_per_chunk = int(max_length * 0.8)
         # Estimate chars per token (conservative: ~4 chars per token)
         chunk_size_chars = target_tokens_per_chunk * 4
-        
+
         all_tokens = []
         for i in range(0, len(text), chunk_size_chars):
-            chunk = text[i:i + chunk_size_chars]
+            chunk = text[i : i + chunk_size_chars]
             chunk_tokens = self.tokenizer.encode(chunk, add_special_tokens=False)
             all_tokens.extend(chunk_tokens)
-        
+
         return all_tokens
 
     def decode(self, token_ids: list[int]) -> str:
