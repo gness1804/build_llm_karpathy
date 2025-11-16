@@ -2,3 +2,4 @@ I have a number of Carolyn_Hax_chats saved in the directory ~/Desktop/build_llm_
 
 Can you write a Python script that does this? I want the Python script to merge the chats in order from most recent to least recent. I also want the script to ignore any chat files that are empty. All of the others should be used for the larger document.
 
+<!-- DONE -->
