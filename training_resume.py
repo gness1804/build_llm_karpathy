@@ -19,6 +19,7 @@ import os
 import sys
 import time
 from datetime import datetime
+from io import StringIO
 
 # ============================================================================
 # CONFIGURATION
@@ -299,12 +300,131 @@ if optimizer_state_dict:
         print(f"⚠️  Could not load optimizer state: {e}")
         print("   Starting with fresh optimizer")
 
+# ============================================================================
+# OUTPUT TO FILE UTILITIES
+# ============================================================================
+
+
+class TeeOutput:
+    """Capture stdout while still displaying to terminal"""
+
+    def __init__(self, *files):
+        self.files = files
+        self.buffer = StringIO()
+
+    def write(self, obj):
+        # Write to all files (stdout + buffer)
+        for f in self.files:
+            f.write(obj)
+            f.flush()
+        # Also write to buffer for later retrieval
+        self.buffer.write(obj)
+
+    def flush(self):
+        for f in self.files:
+            f.flush()
+
+    def getvalue(self):
+        return self.buffer.getvalue()
+
+
+def get_data_source_name(training_data_source):
+    """Extract data source name without extension from path"""
+    # Handle both relative and absolute paths
+    source_path = os.path.normpath(training_data_source)
+    # Get filename with extension
+    filename = os.path.basename(source_path)
+    # Remove extension
+    source_name = os.path.splitext(filename)[0]
+    return source_name
+
+
+def generate_output_filename(
+    model_name,
+    source_name,
+    vocab_size,
+    training_steps,
+    test_mode,
+    use_lora=False,
+    lora_rank=None,
+    lora_alpha=None,
+    model_type="from_scratch",
+    gpt2_model_name=None,
+):
+    """Generate output filename with structured naming convention"""
+    # Format timestamp as MMDDYYYY_HHMMSS
+    timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
+
+    # Construct filename components
+    components = [
+        "build_llm_output",
+        model_name,
+        source_name,
+        str(vocab_size),
+        str(training_steps),
+        f"test={str(test_mode).lower()}",
+    ]
+
+    # Add model type information
+    if model_type == "gpt2":
+        if gpt2_model_name:
+            components.append(f"gpt2_{gpt2_model_name}")
+        else:
+            components.append("gpt2")
+    else:
+        components.append("from_scratch")
+
+    # Add LoRA information if used
+    if use_lora:
+        lora_info = f"lora_r{lora_rank}_a{lora_alpha}"
+        components.append(lora_info)
+    else:
+        components.append("full_ft")  # full fine-tuning
+
+    components.extend(["OUTPUT", timestamp])
+
+    # Join with underscores (snake_case)
+    filename = "_".join(components) + ".txt"
+    return filename
+
+
+def write_output_file(output_path, hyperparameters, captured_output):
+    """Write hyperparameters and captured output to file"""
+    try:
+        with open(output_path, "w", encoding="utf-8") as f:
+            # Write hyperparameters section
+            f.write("HYPERPARAMETERS\n")
+            f.write("=" * 16 + "\n")
+            for key, value in hyperparameters.items():
+                f.write(f"{key} = {value}\n")
+
+            f.write("\n")
+
+            # Write output section
+            f.write("OUTPUT\n")
+            f.write("=" * 6 + "\n")
+            f.write(captured_output)
+
+        return True
+    except Exception as e:
+        print(f"⚠️  Error writing output file: {e}")
+        return False
+
+
 # Create checkpoint and output directories
 if ENABLE_CHECKPOINTS:
     os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
 if ENABLE_OUTPUT_TO_FILE:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Initialize stdout capture if output to file is enabled
+tee_output = None
+original_stdout = None
+if ENABLE_OUTPUT_TO_FILE:
+    original_stdout = sys.stdout
+    tee_output = TeeOutput(sys.stdout)
+    sys.stdout = tee_output
 
 # ============================================================================
 # DATA LOADING UTILITIES
@@ -479,5 +599,57 @@ else:
 
 print(generated_text)
 print("=" * 50)
+
+# ============================================================================
+# WRITE OUTPUT TO FILE
+# ============================================================================
+
+if ENABLE_OUTPUT_TO_FILE:
+    # Restore stdout
+    sys.stdout = original_stdout
+
+    # Get captured output
+    captured_output = tee_output.getvalue()
+
+    # Extract information for filename generation
+    model_name = get_model_name(model)
+    source_name = get_data_source_name(data_source)
+    test_mode = hyperparameters.get("test_mode", False)
+    gpt2_model_name = (
+        hyperparameters.get("gpt2_model_name") if model_type == "gpt2" else None
+    )
+    lora_rank = hyperparameters.get("lora_rank") if use_lora else None
+    lora_alpha = hyperparameters.get("lora_alpha") if use_lora else None
+
+    # Generate filename
+    filename = generate_output_filename(
+        model_name=model_name,
+        source_name=source_name,
+        vocab_size=vocab_size,
+        training_steps=total_steps,  # Total steps including resumed steps
+        test_mode=test_mode,
+        use_lora=use_lora,
+        lora_rank=lora_rank,
+        lora_alpha=lora_alpha,
+        model_type=model_type,
+        gpt2_model_name=gpt2_model_name,
+    )
+
+    # Construct full output path
+    output_path = os.path.join(OUTPUT_DIR, filename)
+
+    # Update hyperparameters with resume information
+    resume_hyperparameters = hyperparameters.copy()
+    resume_hyperparameters["resume_step"] = resume_step
+    resume_hyperparameters["resume_steps"] = RESUME_STEPS
+    resume_hyperparameters["total_steps"] = total_steps
+    resume_hyperparameters["learning_rate"] = learning_rate
+    resume_hyperparameters["batch_size"] = batch_size
+
+    # Write output file
+    if write_output_file(output_path, resume_hyperparameters, captured_output):
+        print(f"\n✅ Output written to: {output_path}")
+    else:
+        print("\n⚠️  Failed to write output file")
 
 print("\n✅ Resume training complete!")

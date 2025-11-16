@@ -212,7 +212,7 @@ if MODE == "inference":
     print("\n" + "=" * 50)
     print("INFERENCE MODE")
     print("=" * 50)
-    
+
     # Generation parameters
     TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.7"))
     TOP_K = int(os.environ.get("TOP_K", "50"))
@@ -235,11 +235,11 @@ if MODE == "inference":
     # Generate text with lower temperature for more coherent output
     with torch.no_grad():
         generated_tokens = model.generate(
-            context, 
+            context,
             max_new_tokens=MAX_NEW_TOKENS,
             temperature=TEMPERATURE,
             top_k=TOP_K,
-            do_sample=True
+            do_sample=True,
         )
 
     # Decode and display

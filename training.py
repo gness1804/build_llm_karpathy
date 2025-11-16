@@ -242,10 +242,16 @@ else:
     if MODEL_TYPE == "gpt2":
         # GPT-2 fine-tuning: lower learning rate, balanced context size for speed
         batch_size = 16  # Increased from 8 since block_size is smaller
-        block_size = 128  # Balanced: better than 64, much faster than 512 (4x faster than 256)
+        block_size = (
+            128  # Balanced: better than 64, much faster than 512 (4x faster than 256)
+        )
         eval_iters = 20  # Reduced for faster evaluation (was 50)
-        learning_rate = 1e-5  # Much lower for fine-tuning (prevents catastrophic forgetting)
-        print("   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)")
+        learning_rate = (
+            1e-5  # Much lower for fine-tuning (prevents catastrophic forgetting)
+        )
+        print(
+            "   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)"
+        )
     else:
         # From-scratch models can handle larger batches and higher learning rates
         batch_size = 64  # Reduced from 64 for better M4 performance
@@ -278,7 +284,9 @@ else:
 
 # Generation settings
 max_new_tokens = 300  # Number of characters to generate
-generation_temperature = 0.7  # Lower temperature for more coherent generation (default: 1.0)
+generation_temperature = (
+    0.7  # Lower temperature for more coherent generation (default: 1.0)
+)
 generation_top_k = 50  # Top-k sampling for generation
 
 # Collect hyperparameters for output file
@@ -754,7 +762,7 @@ if MODEL_TYPE == "gpt2":
     warmup_steps = int(0.1 * training_steps)
     # Cosine decay for remaining 90% (helps convergence)
     decay_steps = training_steps - warmup_steps
-    
+
     if warmup_steps > 0 and decay_steps > 0:
         warmup_scheduler = LinearLR(
             optimizer, start_factor=0.1, total_iters=warmup_steps
@@ -768,7 +776,9 @@ if MODEL_TYPE == "gpt2":
         print(
             f"📈 Learning rate schedule: {warmup_steps} warmup steps, {decay_steps} decay steps"
         )
-        print(f"   LR range: {learning_rate * 0.1:.2e} → {learning_rate:.2e} → {learning_rate * 0.1:.2e}")
+        print(
+            f"   LR range: {learning_rate * 0.1:.2e} → {learning_rate:.2e} → {learning_rate * 0.1:.2e}"
+        )
     else:
         print("⚠️  Training steps too few for scheduler, using constant LR")
 
@@ -884,11 +894,11 @@ if MODEL_TYPE == "gpt2":
             [[model.tokenizer.bos_token_id or 0]], dtype=torch.long
         ).to(device)
     generated_tokens = model.generate(
-        context, 
+        context,
         max_new_tokens=max_new_tokens,
         temperature=generation_temperature,
         top_k=generation_top_k,
-        do_sample=True
+        do_sample=True,
     )
     # GPT-2 generate returns the full sequence including input, so we extract new tokens
     if generated_tokens.shape[1] > context.shape[1]:
