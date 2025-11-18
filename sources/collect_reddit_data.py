@@ -41,7 +41,7 @@ def get_reddit_client():
     client_id = os.environ.get("REDDIT_CLIENT_ID")
     client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
     user_agent = os.environ.get("REDDIT_USER_AGENT", "LLM Training Data Collector 1.0")
-    
+
     if not client_id or not client_secret:
         print("Error: Reddit API credentials not found.")
         print("\nTo get credentials:")
@@ -55,13 +55,11 @@ def get_reddit_client():
         print("  export REDDIT_CLIENT_SECRET='your_client_secret'")
         print("  export REDDIT_USER_AGENT='Your App Name 1.0'")
         sys.exit(1)
-    
+
     reddit = praw.Reddit(
-        client_id=client_id,
-        client_secret=client_secret,
-        user_agent=user_agent
+        client_id=client_id, client_secret=client_secret, user_agent=user_agent
     )
-    
+
     # Test connection
     try:
         reddit.user.me()  # This will be None for read-only, but tests connection
@@ -69,7 +67,7 @@ def get_reddit_client():
     except Exception as e:
         print(f"⚠️  Warning: Could not verify Reddit connection: {e}")
         print("   Continuing anyway (read-only access should work)...")
-    
+
     return reddit
 
 
@@ -80,14 +78,14 @@ def format_question(title: str, selftext: str) -> str:
         question = f"{title}\n\n{selftext}".strip()
     else:
         question = title.strip()
-    
+
     # Clean up common Reddit formatting
     question = question.replace("**", "")  # Remove bold markers
-    question = question.replace("*", "")   # Remove italics
+    question = question.replace("*", "")  # Remove italics
     question = question.replace("&amp;", "&")
     question = question.replace("&lt;", "<")
     question = question.replace("&gt;", ">")
-    
+
     return f"QUESTION: {question}"
 
 
@@ -96,15 +94,15 @@ def format_answer(comment_body: str) -> str:
     # Clean up Reddit formatting
     answer = comment_body.strip()
     answer = answer.replace("**", "")  # Remove bold markers
-    answer = answer.replace("*", "")   # Remove italics
+    answer = answer.replace("*", "")  # Remove italics
     answer = answer.replace("&amp;", "&")
     answer = answer.replace("&lt;", "<")
     answer = answer.replace("&gt;", ">")
-    
+
     # Remove common Reddit phrases
     answer = answer.replace("[deleted]", "")
     answer = answer.replace("[removed]", "")
-    
+
     return f"ANSWER: {answer}"
 
 
@@ -113,19 +111,19 @@ def get_best_advice_comment(post, min_length: int = 100) -> Optional[str]:
     # Sort comments by score (upvotes)
     post.comments.replace_more(limit=0)  # Remove "load more comments" placeholders
     comments = post.comments.list()
-    
+
     # Filter and sort comments
     valid_comments = []
     for comment in comments:
         # Skip deleted/removed
-        if hasattr(comment, 'body') and comment.body not in ['[deleted]', '[removed]']:
+        if hasattr(comment, "body") and comment.body not in ["[deleted]", "[removed]"]:
             # Filter by length (substantial advice)
             if len(comment.body) >= min_length:
                 valid_comments.append((comment.score, comment.body))
-    
+
     if not valid_comments:
         return None
-    
+
     # Return highest-scored comment
     valid_comments.sort(reverse=True, key=lambda x: x[0])
     return valid_comments[0][1]
@@ -138,7 +136,7 @@ def collect_posts(
     min_upvotes: int = 10,
     min_comment_length: int = 100,
     sort_by: str = "top",
-    time_filter: str = "all"
+    time_filter: str = "all",
 ) -> list[dict]:
     """Collect posts from subreddit"""
     print(f"\nCollecting from r/{subreddit_name}...")
@@ -146,9 +144,9 @@ def collect_posts(
     print(f"  Min upvotes: {min_upvotes}")
     print(f"  Sort by: {sort_by}")
     print(f"  Time filter: {time_filter}")
-    
+
     subreddit = reddit.subreddit(subreddit_name)
-    
+
     # Get posts based on sort method
     if sort_by == "top":
         posts = subreddit.top(limit=limit, time_filter=time_filter)
@@ -158,63 +156,67 @@ def collect_posts(
         posts = subreddit.new(limit=limit)
     else:
         posts = subreddit.top(limit=limit, time_filter=time_filter)
-    
+
     collected = []
     skipped = 0
-    
+
     for i, post in enumerate(posts, 1):
         # Filter by upvotes
         if post.score < min_upvotes:
             skipped += 1
             continue
-        
+
         # Skip stickied posts (usually mod announcements)
         if post.stickied:
             skipped += 1
             continue
-        
+
         # Skip if no selftext and title is too short
         if not post.selftext and len(post.title) < 50:
             skipped += 1
             continue
-        
+
         # Get best advice comment
         advice = get_best_advice_comment(post, min_comment_length)
         if not advice:
             skipped += 1
             continue
-        
+
         # Format as Q&A
         question = format_question(post.title, post.selftext)
         answer = format_answer(advice)
-        
-        collected.append({
-            'question': question,
-            'answer': answer,
-            'score': post.score,
-            'created_utc': post.created_utc,
-            'url': post.url,
-        })
-        
+
+        collected.append(
+            {
+                "question": question,
+                "answer": answer,
+                "score": post.score,
+                "created_utc": post.created_utc,
+                "url": post.url,
+            }
+        )
+
         if i % 10 == 0:
             print(f"  Collected {len(collected)} posts (skipped {skipped})...")
-    
+
     print(f"\n✅ Collected {len(collected)} posts (skipped {skipped})")
     return collected
 
 
 def save_to_file(collected: list[dict], output_file: Path):
     """Save collected data to file in training format"""
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         for i, item in enumerate(collected, 1):
             f.write(f"\n{'='*80}\n")
             f.write(f"# Reddit Post {i}\n")
-            f.write(f"# Score: {item['score']} | Date: {datetime.fromtimestamp(item['created_utc']).strftime('%Y-%m-%d')}\n")
+            f.write(
+                f"# Score: {item['score']} | Date: {datetime.fromtimestamp(item['created_utc']).strftime('%Y-%m-%d')}\n"
+            )
             f.write(f"# URL: {item['url']}\n")
             f.write(f"{'='*80}\n\n")
             f.write(f"{item['question']}\n\n")
             f.write(f"{item['answer']}\n\n")
-    
+
     print(f"✅ Saved {len(collected)} Q&A pairs to {output_file}")
     file_size = output_file.stat().st_size
     print(f"   File size: {file_size / 1024:.1f} KB ({file_size / (1024*1024):.2f} MB)")
@@ -266,9 +268,9 @@ def main():
         default="relationships",
         help="Subreddit name (default: relationships)",
     )
-    
+
     args = parser.parse_args()
-    
+
     # Determine output file
     if args.output:
         output_file = args.output
@@ -276,10 +278,10 @@ def main():
         timestamp = datetime.now().strftime("%Y%m%d")
         script_dir = Path(__file__).parent
         output_file = script_dir / f"reddit_{args.subreddit}_{timestamp}.md"
-    
+
     # Initialize Reddit client
     reddit = get_reddit_client()
-    
+
     # Collect posts
     collected = collect_posts(
         reddit=reddit,
@@ -290,25 +292,26 @@ def main():
         sort_by=args.sort,
         time_filter=args.time_filter,
     )
-    
+
     if not collected:
         print("\n❌ No posts collected. Try:")
         print("  - Lowering --min-upvotes")
         print("  - Lowering --min-comment-length")
         print("  - Increasing --limit")
         sys.exit(1)
-    
+
     # Save to file
     save_to_file(collected, output_file)
-    
+
     print(f"\n✅ Done! Collected {len(collected)} Q&A pairs")
     print(f"   Output: {output_file}")
     print("\nNext steps:")
     print("  1. Review the output file")
-    print(f"  2. Optionally clean with: python3 clean_carolyn_hax_data.py {output_file.name}")
+    print(
+        f"  2. Optionally clean with: python3 clean_carolyn_hax_data.py {output_file.name}"
+    )
     print("  3. Merge with Carolyn Hax data or use separately")
 
 
 if __name__ == "__main__":
     main()
-
