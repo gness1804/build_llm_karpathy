@@ -31,8 +31,8 @@ The training data contains excessive metadata that's confusing the model:
 
 **Use the data cleaning script:**
 ```bash
-cd sources
-python3 clean_carolyn_hax_data.py carolyn_hax_merged.md -o carolyn_hax_merged_cleaned.md -v
+cd ~/Desktop/build_llm_karpathy
+python3 sources/scripts/clean_carolyn_hax_data.py sources/carolyn_hax/carolyn_hax_merged.md -o sources/carolyn_hax/carolyn_hax_merged_cleaned.md -v
 ```
 
 This will:
@@ -43,7 +43,7 @@ This will:
 
 **Then retrain with cleaned data:**
 ```bash
-TRAINING_DATA_SOURCE=sources/carolyn_hax_merged_cleaned.md \
+TRAINING_DATA_SOURCE=sources/carolyn_hax/carolyn_hax_merged_cleaned.md \
 MODEL_TYPE=gpt2 \
 USE_LORA=True \
 LORA_RANK=16 \

@@ -158,12 +158,12 @@ def main():
         "output_file",
         nargs="?",
         default=None,
-        help="Output file path (default: carolyn_hax_merged.md in sources directory)",
+        help="Output file path (default: carolyn_hax_merged.md in sources/carolyn_hax directory)",
     )
     parser.add_argument(
         "--chats-dir",
         default=None,
-        help="Directory containing chat files (default: sources/carolyn_hax_chats)",
+        help="Directory containing chat files (default: sources/carolyn_hax/carolyn_hax_chats)",
     )
     parser.add_argument(
         "-v", "--verbose", action="store_true", help="Print verbose output"
@@ -173,17 +173,17 @@ def main():
 
     # Determine paths
     script_dir = Path(__file__).parent
-    sources_dir = script_dir  # Script is in sources directory
+    sources_dir = script_dir.parent  # Go up from scripts/ to sources/
 
     if args.chats_dir:
         chats_directory = Path(args.chats_dir)
     else:
-        chats_directory = sources_dir / "carolyn_hax_chats"
+        chats_directory = sources_dir / "carolyn_hax" / "carolyn_hax_chats"
 
     if args.output_file:
         output_file = Path(args.output_file)
     else:
-        output_file = sources_dir / "carolyn_hax_merged.md"
+        output_file = sources_dir / "carolyn_hax" / "carolyn_hax_merged.md"
 
     # Get and sort chat files
     if args.verbose:

@@ -29,7 +29,7 @@ Start with the most recent missing dates (easiest to find online):
 1. Go to: https://www.washingtonpost.com/advice/ask-carolyn-hax/
 2. Search for the specific date
 3. Copy the entire chat (all Q&As)
-4. Save as `carolyn_hax_MMDDYY_chat.md` in `sources/carolyn_hax_chats/`
+4. Save as `carolyn_hax_MMDDYY_chat.md` in `sources/carolyn_hax/carolyn_hax_chats/`
 
 ### Step 3: Collect 2024 Chats (2-3 hours)
 Go back through 2024 and collect missing Friday chats. There are 52 missing from 2024.
@@ -86,17 +86,17 @@ After collecting new chats:
 
 ```bash
 # 1. Check what you've collected
-cd ~/Desktop/build_llm_karpathy/sources
-python3 find_missing_dates.py --target-size 5.0
+cd ~/Desktop/build_llm_karpathy
+python3 sources/scripts/find_missing_dates.py --target-size 5.0
 
 # 2. Merge all chats
-python3 merge_carolyn_hax_chats.py
+python3 sources/scripts/merge_carolyn_hax_chats.py
 
 # 3. Clean the merged data
-python3 clean_carolyn_hax_data.py carolyn_hax_merged.md -o carolyn_hax_merged_cleaned.md
+python3 sources/scripts/clean_carolyn_hax_data.py sources/carolyn_hax/carolyn_hax_merged.md -o sources/carolyn_hax/carolyn_hax_merged_cleaned.md
 
 # 4. Check new size
-wc -c carolyn_hax_merged_cleaned.md
+wc -c sources/carolyn_hax/carolyn_hax_merged_cleaned.md
 ```
 
 ## Realistic Timeline

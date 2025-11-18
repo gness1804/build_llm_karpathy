@@ -69,7 +69,7 @@ CHECKPOINT_DIR = os.environ.get("CHECKPOINT_DIR", "checkpoints")
 # HYPERPARAMETERS
 # ============================================================================
 
-DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax_103125_chat.md"
+DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax/carolyn_hax_merged_cleaned.md"
 
 # Set to True for fast testing with smaller model, False for full training
 TEST_MODE = is_test_mode == "True"

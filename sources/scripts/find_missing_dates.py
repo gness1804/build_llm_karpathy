@@ -129,7 +129,7 @@ def main():
         "--chats-dir",
         type=Path,
         default=None,
-        help="Directory containing chat files (default: sources/carolyn_hax_chats)",
+        help="Directory containing chat files (default: sources/carolyn_hax/carolyn_hax_chats)",
     )
     parser.add_argument(
         "--target-size",
@@ -154,10 +154,11 @@ def main():
 
     # Determine chats directory
     script_dir = Path(__file__).parent
+    sources_dir = script_dir.parent  # Go up from scripts/ to sources/
     if args.chats_dir:
         chats_dir = args.chats_dir
     else:
-        chats_dir = script_dir / "carolyn_hax_chats"
+        chats_dir = sources_dir / "carolyn_hax" / "carolyn_hax_chats"
 
     if not chats_dir.exists():
         print(f"Error: Directory '{chats_dir}' does not exist.", file=sys.stderr)
@@ -263,7 +264,7 @@ def main():
     print("1. Visit: https://www.washingtonpost.com/advice/ask-carolyn-hax/")
     print("2. Find missing chat dates from the list above")
     print("3. Copy chat content and save as carolyn_hax_MMDDYY_chat.md")
-    print("4. Run: python3 merge_carolyn_hax_chats.py")
+    print("4. Run: python3 sources/scripts/merge_carolyn_hax_chats.py")
     print("5. Run: python3 clean_carolyn_hax_data.py")
 
 

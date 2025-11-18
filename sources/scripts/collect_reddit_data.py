@@ -273,11 +273,14 @@ def main():
 
     # Determine output file
     if args.output:
-        output_file = args.output
+        output_file = Path(args.output)
     else:
         timestamp = datetime.now().strftime("%Y%m%d")
         script_dir = Path(__file__).parent
-        output_file = script_dir / f"reddit_{args.subreddit}_{timestamp}.md"
+        sources_dir = script_dir.parent  # Go up from scripts/ to sources/
+        reddit_dir = sources_dir / "reddit"
+        reddit_dir.mkdir(exist_ok=True)
+        output_file = reddit_dir / f"reddit_{args.subreddit}_{timestamp}.md"
 
     # Initialize Reddit client
     reddit = get_reddit_client()

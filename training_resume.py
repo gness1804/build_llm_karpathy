@@ -26,7 +26,7 @@ from io import StringIO
 # ============================================================================
 
 CHECKPOINT_PATH = os.environ.get("CHECKPOINT_PATH", None)
-DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax_103125_chat.md"
+DEFAULT_TRAINING_DATA_SOURCE = "sources/carolyn_hax/carolyn_hax_merged_cleaned.md"
 TRAINING_DATA_SOURCE = os.environ.get(
     "TRAINING_DATA_SOURCE", DEFAULT_TRAINING_DATA_SOURCE
 )

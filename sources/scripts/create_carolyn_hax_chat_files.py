@@ -1,7 +1,7 @@
-import os
+from pathlib import Path
 
 dates = [
-    "100325" "092625",
+    "100325", "092625",
     "091925",
     "091225",
     "090525",
@@ -25,19 +25,25 @@ dates = [
     "031425",
 ]
 
+# Determine paths relative to script location
+script_dir = Path(__file__).parent
+sources_dir = script_dir.parent  # Go up from scripts/ to sources/
+chats_dir = sources_dir / "carolyn_hax" / "carolyn_hax_chats"
 
 for date in dates:
+    chat_file = chats_dir / f"carolyn_hax_{date}_chat.md"
     print(
-        f"Creating new Carolyn Hax chat in sources/carolyn_hax_chats directory for {date}."
+        f"Creating new Carolyn Hax chat in {chats_dir} directory for {date}."
     )
-    if not os.path.exists(f"sources/carolyn_hax_chats/carolyn_hax_{date}_chat.md"):
-        os.system(f"touch sources/carolyn_hax_chats/carolyn_hax_{date}_chat.md")
+    if not chat_file.exists():
+        chat_file.parent.mkdir(parents=True, exist_ok=True)
+        chat_file.touch()
     else:
         print(
-            f"Carolyn Hax chat already exists in sources/carolyn_hax_chats directory for {date}."
+            f"Carolyn Hax chat already exists in {chats_dir} directory for {date}."
         )
         continue
 
     print(
-        f"Done creating Carolyn Hax chat in sources/carolyn_hax_chats directory for {date}."
+        f"Done creating Carolyn Hax chat in {chats_dir} directory for {date}."
     )

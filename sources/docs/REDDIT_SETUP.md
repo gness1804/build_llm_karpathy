@@ -39,8 +39,8 @@ source ~/.zshrc
 
 ### Step 5: Test Collection
 ```bash
-cd ~/Desktop/build_llm_karpathy/sources
-python3 collect_reddit_data.py --limit 10
+cd ~/Desktop/build_llm_karpathy
+python3 sources/scripts/collect_reddit_data.py --limit 10
 ```
 
 You should see:
@@ -56,12 +56,12 @@ Collecting from r/relationships...
 
 ### Basic Collection (100 posts)
 ```bash
-python3 collect_reddit_data.py --limit 100
+python3 sources/scripts/collect_reddit_data.py --limit 100
 ```
 
 ### High-Quality Collection (500 top posts, min 50 upvotes)
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 500 \
   --min-upvotes 50 \
   --sort top \
@@ -70,7 +70,7 @@ python3 collect_reddit_data.py \
 
 ### Quick Test (10 posts, lower quality threshold)
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 10 \
   --min-upvotes 5 \
   --min-comment-length 50
@@ -78,16 +78,16 @@ python3 collect_reddit_data.py \
 
 ### Custom Output File
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 200 \
-  --output reddit_data_large.md
+  --output sources/reddit/reddit_data_large.md
 ```
 
 ## Recommended Settings
 
 ### For Initial Testing
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 50 \
   --min-upvotes 10 \
   --min-comment-length 100
@@ -96,7 +96,7 @@ python3 collect_reddit_data.py \
 
 ### For Training Dataset (5MB target)
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 500 \
   --min-upvotes 20 \
   --min-comment-length 150 \
@@ -107,7 +107,7 @@ python3 collect_reddit_data.py \
 
 ### For Large Dataset (10MB+)
 ```bash
-python3 collect_reddit_data.py \
+python3 sources/scripts/collect_reddit_data.py \
   --limit 1000 \
   --min-upvotes 15 \
   --min-comment-length 100 \
@@ -122,7 +122,7 @@ After collecting Reddit data:
 
 ```bash
 # 1. Clean Reddit data (optional, removes metadata)
-python3 clean_carolyn_hax_data.py reddit_relationships_*.md -o reddit_relationships_cleaned.md
+python3 sources/scripts/clean_carolyn_hax_data.py sources/reddit/reddit_relationships_*.md -o sources/reddit/reddit_relationships_cleaned.md
 
 # 2. Merge with Carolyn Hax data
 # (Manually combine files or create a new merge script)
@@ -160,16 +160,16 @@ You can collect from other advice subreddits:
 
 ```bash
 # Relationship advice
-python3 collect_reddit_data.py --subreddit relationships
+python3 sources/scripts/collect_reddit_data.py --subreddit relationships
 
 # General advice
-python3 collect_reddit_data.py --subreddit Advice
+python3 sources/scripts/collect_reddit_data.py --subreddit Advice
 
 # Personal finance advice
-python3 collect_reddit_data.py --subreddit personalfinance
+python3 sources/scripts/collect_reddit_data.py --subreddit personalfinance
 
 # Career advice
-python3 collect_reddit_data.py --subreddit careers
+python3 sources/scripts/collect_reddit_data.py --subreddit careers
 ```
 
 ## Next Steps

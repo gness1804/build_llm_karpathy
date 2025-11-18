@@ -29,7 +29,7 @@ When people say "pre-trained model," they typically mean a model that was:
 **What you're doing:**
 ```python
 # Your training.py
-TRAINING_DATA_SOURCE = "sources/carolyn_hax_103125_chat.md"
+TRAINING_DATA_SOURCE = "sources/carolyn_hax/carolyn_hax_merged_cleaned.md"
 # Training from scratch on a small, specific dataset
 ```
 

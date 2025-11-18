@@ -18,7 +18,7 @@ Since Reddit API app creation is restricted, here are alternatives:
 
 **Usage**:
 ```bash
-python3 collect_reddit_data_no_auth.py --limit 50
+python3 sources/scripts/collect_reddit_data_no_auth.py --limit 50
 ```
 
 **Time**: ~5-10 minutes for 50 posts (~1-2MB)
@@ -104,8 +104,8 @@ https://www.reddit.com/r/relationships/top/.rss?limit=25
 
 **Quick Start**:
 ```bash
-cd ~/Desktop/build_llm_karpathy/sources
-python3 collect_reddit_data_no_auth.py --limit 100
+cd ~/Desktop/build_llm_karpathy
+python3 sources/scripts/collect_reddit_data_no_auth.py --limit 100
 ```
 
 This will take ~10-15 minutes and give you ~2-4MB of data.
