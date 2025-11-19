@@ -13,9 +13,10 @@ import json
 import argparse
 import time
 import sys
+import re
 from pathlib import Path
 from datetime import datetime
-from typing import Optional
+from typing import Optional, Set
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 
@@ -114,6 +115,9 @@ def get_top_posts(
                 "created_utc": post_data.get("created_utc", 0),
                 "permalink": f"https://www.reddit.com{post_data.get('permalink', '')}",
                 "id": post_data.get("id", ""),
+                "name": post_data.get(
+                    "name", ""
+                ),  # Reddit's unique identifier (e.g., "t3_abc123")
             }
         )
 
@@ -156,6 +160,115 @@ def get_post_comments(post_id: str, subreddit: str) -> list[dict]:
     return comments
 
 
+def get_answer_snippet(answer: str, words: int = 40) -> str:
+    """Get first N words of answer for logging"""
+    words_list = answer.split()[:words]
+    snippet = " ".join(words_list)
+    if len(answer.split()) > words:
+        snippet += "..."
+    return snippet
+
+
+def extract_post_id_from_url(url: str) -> Optional[str]:
+    """Extract post ID from Reddit URL
+
+    URL format: https://www.reddit.com/r/{subreddit}/comments/{post_id}/{title}/
+    Returns the short post ID (e.g., 'a3zvze') or None if not found
+    """
+    try:
+        # Extract the post ID from URL path
+        # URL: https://www.reddit.com/r/relationships/comments/a3zvze/title/
+        parts = url.split("/comments/")
+        if len(parts) > 1:
+            post_id_part = parts[1].split("/")[0]
+            if post_id_part:
+                return post_id_part
+    except Exception:
+        pass
+    return None
+
+
+def load_post_ids_from_output_files(reddit_dir: Path, subreddit: str) -> Set[str]:
+    """Load post IDs from existing output files in the reddit directory"""
+    post_ids = set()
+
+    # Look for all output files for this subreddit
+    pattern = f"reddit_{subreddit}_*.md"
+    output_files = list(reddit_dir.glob(pattern))
+
+    if not output_files:
+        return post_ids
+
+    print(f"  📂 Scanning {len(output_files)} existing output file(s) for post IDs...")
+
+    for output_file in output_files:
+        try:
+            with open(output_file, "r", encoding="utf-8") as f:
+                content = f.read()
+                # Find all URLs in the file
+                url_pattern = (
+                    r"# URL: (https://www\.reddit\.com/r/[^/]+/comments/[^/]+/[^\s]+)"
+                )
+                urls = re.findall(url_pattern, content)
+
+                for url in urls:
+                    post_id = extract_post_id_from_url(url)
+                    if post_id:
+                        post_ids.add(post_id)
+        except Exception as e:
+            print(f"  ⚠️  Could not read {output_file.name}: {e}")
+
+    return post_ids
+
+
+def load_existing_post_ids(
+    log_file: Optional[Path], reddit_dir: Path, subreddit: str
+) -> Set[str]:
+    """Load post IDs from existing log file and output files to avoid duplicates"""
+    post_ids = set()
+
+    # First, load from existing output files (for backwards compatibility)
+    output_post_ids = load_post_ids_from_output_files(reddit_dir, subreddit)
+    post_ids.update(output_post_ids)
+
+    # Then, load from log file if it exists
+    if log_file and log_file.exists():
+        try:
+            with open(log_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("Post ID:"):
+                        # Extract post ID from line like "Post ID: t3_abc123" or short ID
+                        parts = line.split(":", 1)
+                        if len(parts) > 1:
+                            post_id = parts[1].strip()
+                            post_ids.add(post_id)
+                    elif line.startswith("URL:"):
+                        # Also extract from URL lines for backwards compatibility
+                        url = line.split(":", 1)[1].strip() if ":" in line else ""
+                        extracted_id = extract_post_id_from_url(url)
+                        if extracted_id:
+                            post_ids.add(extracted_id)
+        except Exception as e:
+            print(f"  ⚠️  Could not read existing log file: {e}")
+
+    return post_ids
+
+
+def write_to_log(log_file: Path, post_id: str, question: str, answer: str, url: str):
+    """Write post info to log file"""
+    snippet = get_answer_snippet(answer, 40)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    with open(log_file, "a", encoding="utf-8") as f:
+        f.write(f"\n{'='*80}\n")
+        f.write(f"Timestamp: {timestamp}\n")
+        f.write(f"Post ID: {post_id}\n")
+        f.write(f"URL: {url}\n")
+        f.write(f"Question: {question[:200]}{'...' if len(question) > 200 else ''}\n")
+        f.write(f"Answer snippet (first 40 words): {snippet}\n")
+        f.write(f"{'='*80}\n")
+
+
 def collect_posts(
     subreddit: str = "relationships",
     limit: int = 100,
@@ -165,6 +278,8 @@ def collect_posts(
     start_at: int = 1,
     delay: float = 3.0,
     batch_delay: float = 10.0,
+    log_file: Optional[Path] = None,
+    skip_duplicates: bool = True,
 ) -> list[dict]:
     """Collect posts and comments from subreddit"""
     print(f"\nCollecting from r/{subreddit}...")
@@ -174,8 +289,28 @@ def collect_posts(
     print(f"  Time filter: {time_filter}")
     print("  Note: Using public API (slower, no auth needed)")
 
+    # Load existing post IDs to avoid duplicates
+    existing_post_ids = set()
+    if skip_duplicates:
+        # Need to get reddit_dir and subreddit - these should be passed or derived
+        # For now, we'll get them from log_file path
+        if log_file:
+            reddit_dir = log_file.parent
+            # Extract subreddit from log filename or use default
+            subreddit_name = subreddit  # Use the parameter
+        else:
+            reddit_dir = Path("sources/reddit")  # Default fallback
+            subreddit_name = subreddit
+
+        existing_post_ids = load_existing_post_ids(log_file, reddit_dir, subreddit_name)
+        if existing_post_ids:
+            print(
+                f"  📋 Loaded {len(existing_post_ids)} existing post IDs (will skip duplicates)"
+            )
+
     collected = []
     skipped = 0
+    duplicates_skipped = 0
     posts_seen = 0  # Track total posts seen (including skipped)
     batch_size = 25  # Reddit JSON API limit per request
 
@@ -204,6 +339,35 @@ def collect_posts(
                         f"    Skipping post {posts_seen} (before start_at={start_at})..."
                     )
                 continue
+
+            # Check for duplicates using post ID
+            # Reddit provides both "name" (t3_xxx) and "id" (short ID)
+            post_name = post.get("name", "")  # Full ID like "t3_abc123"
+            post_short_id = post.get("id", "")  # Short ID like "abc123"
+
+            # Check both formats for duplicates
+            is_duplicate = False
+            if skip_duplicates:
+                if post_name and post_name in existing_post_ids:
+                    is_duplicate = True
+                elif post_short_id and post_short_id in existing_post_ids:
+                    is_duplicate = True
+                # Also check if URL matches (extract ID from permalink)
+                elif post.get("permalink"):
+                    url_id = extract_post_id_from_url(post["permalink"])
+                    if url_id and url_id in existing_post_ids:
+                        is_duplicate = True
+
+            if is_duplicate:
+                duplicates_skipped += 1
+                display_id = post_short_id or post_name[:20] or "unknown"
+                print(
+                    f"    Post {posts_seen}: ⚠️  DUPLICATE (ID: {display_id}...) - skipping"
+                )
+                continue
+
+            # Use short ID for tracking (more reliable from URLs)
+            post_id = post_short_id or post_name
 
             # Filter by upvotes
             if post["score"] < min_upvotes:
@@ -242,6 +406,9 @@ def collect_posts(
             question = format_question(post["title"], post["selftext"])
             answer = format_answer(best_comment)
 
+            # Get post ID for duplicate tracking (use short ID, fallback to name)
+            post_id = post.get("id", "") or post.get("name", "")
+
             collected.append(
                 {
                     "question": question,
@@ -249,10 +416,24 @@ def collect_posts(
                     "score": post["score"],
                     "created_utc": post["created_utc"],
                     "url": post["permalink"],
+                    "post_id": post_id,
                 }
             )
 
-            print(f"      ✅ Collected (total: {len(collected)}, skipped: {skipped})")
+            # Add to existing IDs set to avoid duplicates within this run
+            # Store both short ID and full name if available
+            if post_id:
+                existing_post_ids.add(post_id)
+            if post.get("name") and post.get("name") != post_id:
+                existing_post_ids.add(post.get("name"))
+
+            # Write to log file
+            if log_file:
+                write_to_log(log_file, post_id, question, answer, post["permalink"])
+
+            print(
+                f"      ✅ Collected (total: {len(collected)}, skipped: {skipped}, duplicates: {duplicates_skipped})"
+            )
 
             # Rate limiting - be more respectful to avoid 429 errors
             # Reddit's public API is stricter, so we need longer delays
@@ -274,8 +455,10 @@ def collect_posts(
             break
 
     print(
-        f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})"
+        f"\n✅ Collected {len(collected)} posts (skipped {skipped}, duplicates skipped: {duplicates_skipped}, started at post {start_at})"
     )
+    if log_file:
+        print(f"   📋 Log file: {log_file}")
     return collected
 
 
@@ -356,19 +539,37 @@ def main():
         default=10.0,
         help="Delay between batches in seconds (default: 10.0, increase if getting 429 errors)",
     )
+    parser.add_argument(
+        "--log-file",
+        type=Path,
+        default=None,
+        help="Log file to track collected posts (default: reddit_{subreddit}_log.txt in reddit directory)",
+    )
+    parser.add_argument(
+        "--no-skip-duplicates",
+        action="store_true",
+        help="Disable duplicate detection (not recommended)",
+    )
 
     args = parser.parse_args()
 
     # Determine output file
+    script_dir = Path(__file__).parent
+    sources_dir = script_dir.parent  # Go up from scripts/ to sources/
+    reddit_dir = sources_dir / "reddit"
+    reddit_dir.mkdir(exist_ok=True)
+
     if args.output:
         output_file = Path(args.output)
     else:
         timestamp = datetime.now().strftime("%Y%m%d")
-        script_dir = Path(__file__).parent
-        sources_dir = script_dir.parent  # Go up from scripts/ to sources/
-        reddit_dir = sources_dir / "reddit"
-        reddit_dir.mkdir(exist_ok=True)
         output_file = reddit_dir / f"reddit_{args.subreddit}_{timestamp}.md"
+
+    # Determine log file
+    if args.log_file:
+        log_file = Path(args.log_file)
+    else:
+        log_file = reddit_dir / f"reddit_{args.subreddit}_log.txt"
 
     print("=" * 60)
     print("Reddit Data Collector (No Auth Required)")
@@ -387,6 +588,8 @@ def main():
         start_at=args.start_at,
         delay=args.delay,
         batch_delay=args.batch_delay,
+        log_file=log_file,
+        skip_duplicates=not args.no_skip_duplicates,
     )
 
     if not collected:
