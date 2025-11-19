@@ -137,30 +137,45 @@ def collect_posts(
     min_comment_length: int = 100,
     sort_by: str = "top",
     time_filter: str = "all",
+    start_at: int = 1,
 ) -> list[dict]:
     """Collect posts from subreddit"""
     print(f"\nCollecting from r/{subreddit_name}...")
     print(f"  Limit: {limit} posts")
+    print(f"  Starting at post: {start_at}")
     print(f"  Min upvotes: {min_upvotes}")
     print(f"  Sort by: {sort_by}")
     print(f"  Time filter: {time_filter}")
 
     subreddit = reddit.subreddit(subreddit_name)
 
+    # Calculate how many posts we need to fetch
+    # We need to fetch enough to get 'limit' posts after starting at 'start_at'
+    total_posts_needed = start_at + limit - 1
+
     # Get posts based on sort method
     if sort_by == "top":
-        posts = subreddit.top(limit=limit, time_filter=time_filter)
+        posts = subreddit.top(limit=total_posts_needed, time_filter=time_filter)
     elif sort_by == "hot":
-        posts = subreddit.hot(limit=limit)
+        posts = subreddit.hot(limit=total_posts_needed)
     elif sort_by == "new":
-        posts = subreddit.new(limit=limit)
+        posts = subreddit.new(limit=total_posts_needed)
     else:
-        posts = subreddit.top(limit=limit, time_filter=time_filter)
+        posts = subreddit.top(limit=total_posts_needed, time_filter=time_filter)
 
     collected = []
     skipped = 0
+    posts_seen = 0  # Track total posts seen (including skipped)
 
-    for i, post in enumerate(posts, 1):
+    for post in posts:
+        posts_seen += 1
+        
+        # Skip posts before start_at
+        if posts_seen < start_at:
+            if posts_seen % 10 == 0:
+                print(f"  Skipping post {posts_seen} (before start_at={start_at})...")
+            continue
+
         # Filter by upvotes
         if post.score < min_upvotes:
             skipped += 1
@@ -196,10 +211,14 @@ def collect_posts(
             }
         )
 
-        if i % 10 == 0:
+        if len(collected) % 10 == 0:
             print(f"  Collected {len(collected)} posts (skipped {skipped})...")
 
-    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped})")
+        # Stop if we have enough collected posts
+        if len(collected) >= limit:
+            break
+
+    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})")
     return collected
 
 
@@ -268,6 +287,12 @@ def main():
         default="relationships",
         help="Subreddit name (default: relationships)",
     )
+    parser.add_argument(
+        "--start-at",
+        type=int,
+        default=1,
+        help="Start collecting from this post number (1-indexed, default: 1)",
+    )
 
     args = parser.parse_args()
 
@@ -294,6 +319,7 @@ def main():
         min_comment_length=args.min_comment_length,
         sort_by=args.sort,
         time_filter=args.time_filter,
+        start_at=args.start_at,
     )
 
     if not collected:

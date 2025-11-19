@@ -144,18 +144,25 @@ def collect_posts(
     min_upvotes: int = 10,
     min_comment_length: int = 100,
     time_filter: str = "all",
+    start_at: int = 1,
 ) -> list[dict]:
     """Collect posts and comments from subreddit"""
     print(f"\nCollecting from r/{subreddit}...")
     print(f"  Target: {limit} posts")
+    print(f"  Starting at post: {start_at}")
     print(f"  Min upvotes: {min_upvotes}")
     print(f"  Time filter: {time_filter}")
     print("  Note: Using public API (slower, no auth needed)")
 
     collected = []
     skipped = 0
+    posts_seen = 0  # Track total posts seen (including skipped)
     batch_size = 25  # Reddit JSON API limit per request
-    batches_needed = (limit + batch_size - 1) // batch_size
+    
+    # Calculate how many posts we need to fetch (accounting for start_at)
+    # We need to fetch enough to get 'limit' posts after starting at 'start_at'
+    total_posts_needed = start_at + limit - 1
+    batches_needed = (total_posts_needed + batch_size - 1) // batch_size
 
     for batch_num in range(batches_needed):
         print(f"\n  Batch {batch_num + 1}/{batches_needed}...")
@@ -167,7 +174,15 @@ def collect_posts(
             print("  ⚠️  No posts returned, stopping")
             break
 
-        for i, post in enumerate(posts):
+        for post in posts:
+            posts_seen += 1
+            
+            # Skip posts before start_at
+            if posts_seen < start_at:
+                if posts_seen % 10 == 0:
+                    print(f"    Skipping post {posts_seen} (before start_at={start_at})...")
+                continue
+
             # Filter by upvotes
             if post["score"] < min_upvotes:
                 skipped += 1
@@ -179,7 +194,7 @@ def collect_posts(
                 continue
 
             # Get comments for this post
-            print(f"    Processing: {post['title'][:50]}... (score: {post['score']})")
+            print(f"    Post {posts_seen}: Processing: {post['title'][:50]}... (score: {post['score']})")
             comments = get_post_comments(post["id"], subreddit)
 
             if not comments:
@@ -218,15 +233,19 @@ def collect_posts(
             # Rate limiting - be respectful
             time.sleep(1)  # 1 second between posts
 
+            # Stop if we have enough collected posts
+            if len(collected) >= limit:
+                break
+
         # Rate limiting between batches
         if batch_num < batches_needed - 1:
             time.sleep(2)
 
-        # Stop if we have enough
+        # Stop if we have enough collected posts
         if len(collected) >= limit:
             break
 
-    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped})")
+    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})")
     return collected
 
 
@@ -289,6 +308,12 @@ def main():
         default="relationships",
         help="Subreddit name (default: relationships)",
     )
+    parser.add_argument(
+        "--start-at",
+        type=int,
+        default=1,
+        help="Start collecting from this post number (1-indexed, default: 1)",
+    )
 
     args = parser.parse_args()
 
@@ -317,6 +342,7 @@ def main():
         min_upvotes=args.min_upvotes,
         min_comment_length=args.min_comment_length,
         time_filter=args.time_filter,
+        start_at=args.start_at,
     )
 
     if not collected:
