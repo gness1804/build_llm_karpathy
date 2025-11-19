@@ -1,0 +1,151 @@
+HYPERPARAMETERS
+================
+batch_size = 16
+block_size = 128
+training_steps = 2000
+eval_interval = 500
+learning_rate = 1e-05
+eval_iters = 20
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = False
+use_lora = False
+model_type = gpt2
+training_data_source = sources/training_data_combined.md
+gpt2_model_name = gpt2
+
+OUTPUT
+======
+   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)
+🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 4 layers, 256 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+📈 Learning rate schedule: 200 warmup steps, 1800 decay steps
+   LR range: 1.00e-06 → 1.00e-05 → 1.00e-06
+Starting training for 2000 steps...
+Batch size: 16, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+step 0/2000 (0.0%): train loss 9.4037, val loss 9.3413 | LR: 1.00e-06 | 13.3s (0.00 steps/sec)
+step 25/2000 (1.2%) | 0.59 steps/sec | ETA: 55.9m
+step 50/2000 (2.5%) | 0.69 steps/sec | ETA: 46.8m
+step 75/2000 (3.8%) | 0.73 steps/sec | ETA: 43.7m
+step 100/2000 (5.0%) | 0.75 steps/sec | ETA: 42.5m
+step 125/2000 (6.2%) | 0.73 steps/sec | ETA: 42.8m
+step 150/2000 (7.5%) | 0.71 steps/sec | ETA: 43.2m
+step 175/2000 (8.8%) | 0.68 steps/sec | ETA: 44.8m
+step 200/2000 (10.0%) | 0.66 steps/sec | ETA: 45.2m
+step 225/2000 (11.2%) | 0.65 steps/sec | ETA: 45.8m
+step 250/2000 (12.5%) | 0.64 steps/sec | ETA: 45.9m
+step 275/2000 (13.8%) | 0.60 steps/sec | ETA: 47.5m
+step 300/2000 (15.0%) | 0.57 steps/sec | ETA: 49.6m
+step 325/2000 (16.2%) | 0.54 steps/sec | ETA: 51.8m
+step 350/2000 (17.5%) | 0.54 steps/sec | ETA: 50.6m
+step 375/2000 (18.8%) | 0.55 steps/sec | ETA: 49.2m
+step 400/2000 (20.0%) | 0.55 steps/sec | ETA: 48.1m
+step 425/2000 (21.2%) | 0.56 steps/sec | ETA: 47.1m
+step 450/2000 (22.5%) | 0.56 steps/sec | ETA: 46.2m
+step 475/2000 (23.8%) | 0.56 steps/sec | ETA: 45.1m
+step 500/2000 (25.0%): train loss 5.5681, val loss 5.4046 | LR: 9.40e-06 | 899.6s (0.56 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step000500_11192025_092042.pt
+step 525/2000 (26.2%) | 0.56 steps/sec | ETA: 44.2m
+step 550/2000 (27.5%) | 0.55 steps/sec | ETA: 43.6m
+step 575/2000 (28.7%) | 0.55 steps/sec | ETA: 42.8m
+step 600/2000 (30.0%) | 0.56 steps/sec | ETA: 41.9m
+step 625/2000 (31.2%) | 0.56 steps/sec | ETA: 40.9m
+step 650/2000 (32.5%) | 0.56 steps/sec | ETA: 40.0m
+step 675/2000 (33.8%) | 0.56 steps/sec | ETA: 39.1m
+step 700/2000 (35.0%) | 0.57 steps/sec | ETA: 38.2m
+step 725/2000 (36.2%) | 0.57 steps/sec | ETA: 37.3m
+step 750/2000 (37.5%) | 0.57 steps/sec | ETA: 36.4m
+step 775/2000 (38.8%) | 0.57 steps/sec | ETA: 35.7m
+step 800/2000 (40.0%) | 0.57 steps/sec | ETA: 34.9m
+step 825/2000 (41.2%) | 0.57 steps/sec | ETA: 34.1m
+step 850/2000 (42.5%) | 0.58 steps/sec | ETA: 33.3m
+step 875/2000 (43.8%) | 0.57 steps/sec | ETA: 32.7m
+step 900/2000 (45.0%) | 0.57 steps/sec | ETA: 31.9m
+step 925/2000 (46.2%) | 0.58 steps/sec | ETA: 31.1m
+step 950/2000 (47.5%) | 0.58 steps/sec | ETA: 30.3m
+step 975/2000 (48.8%) | 0.37 steps/sec | ETA: 45.9m
+step 1000/2000 (50.0%): train loss 5.2508, val loss 5.2788 | LR: 6.28e-06 | 3739.5s (0.27 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step001000_11192025_100802.pt
+step 1025/2000 (51.2%) | 0.21 steps/sec | ETA: 76.7m
+step 1050/2000 (52.5%) | 0.21 steps/sec | ETA: 74.2m
+step 1075/2000 (53.8%) | 0.19 steps/sec | ETA: 83.2m
+step 1100/2000 (55.0%) | 0.19 steps/sec | ETA: 79.5m
+step 1125/2000 (56.2%) | 0.19 steps/sec | ETA: 76.1m
+step 1150/2000 (57.5%) | 0.19 steps/sec | ETA: 72.7m
+step 1175/2000 (58.8%) | 0.20 steps/sec | ETA: 69.4m
+step 1200/2000 (60.0%) | 0.20 steps/sec | ETA: 66.3m
+step 1225/2000 (61.3%) | 0.20 steps/sec | ETA: 63.2m
+step 1250/2000 (62.5%) | 0.21 steps/sec | ETA: 60.3m
+step 1275/2000 (63.7%) | 0.21 steps/sec | ETA: 57.5m
+step 1300/2000 (65.0%) | 0.21 steps/sec | ETA: 54.8m
+step 1325/2000 (66.2%) | 0.22 steps/sec | ETA: 52.1m
+step 1350/2000 (67.5%) | 0.22 steps/sec | ETA: 49.6m
+step 1375/2000 (68.8%) | 0.22 steps/sec | ETA: 47.1m
+step 1400/2000 (70.0%) | 0.22 steps/sec | ETA: 44.7m
+step 1425/2000 (71.2%) | 0.23 steps/sec | ETA: 42.3m
+step 1450/2000 (72.5%) | 0.23 steps/sec | ETA: 40.0m
+step 1475/2000 (73.8%) | 0.23 steps/sec | ETA: 37.8m
+step 1500/2000 (75.0%): train loss 5.1879, val loss 5.1962 | LR: 2.61e-06 | 6434.3s (0.23 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step001500_11192025_105257.pt
+step 1525/2000 (76.2%) | 0.24 steps/sec | ETA: 33.6m
+step 1550/2000 (77.5%) | 0.22 steps/sec | ETA: 34.1m
+step 1575/2000 (78.8%) | 0.22 steps/sec | ETA: 32.1m
+step 1600/2000 (80.0%) | 0.18 steps/sec | ETA: 38.0m
+step 1625/2000 (81.2%) | 0.18 steps/sec | ETA: 35.4m
+step 1650/2000 (82.5%) | 0.18 steps/sec | ETA: 32.7m
+step 1675/2000 (83.8%) | 0.18 steps/sec | ETA: 30.1m
+step 1700/2000 (85.0%) | 0.18 steps/sec | ETA: 27.6m
+step 1725/2000 (86.2%) | 0.18 steps/sec | ETA: 25.1m
+step 1750/2000 (87.5%) | 0.18 steps/sec | ETA: 22.6m
+step 1775/2000 (88.8%) | 0.19 steps/sec | ETA: 20.2m
+step 1800/2000 (90.0%) | 0.19 steps/sec | ETA: 17.8m
+step 1825/2000 (91.2%) | 0.19 steps/sec | ETA: 15.4m
+step 1850/2000 (92.5%) | 0.19 steps/sec | ETA: 13.1m
+step 1875/2000 (93.8%) | 0.19 steps/sec | ETA: 10.8m
+step 1900/2000 (95.0%) | 0.19 steps/sec | ETA: 8.6m
+step 1925/2000 (96.2%) | 0.20 steps/sec | ETA: 6.4m
+step 1950/2000 (97.5%) | 0.20 steps/sec | ETA: 4.2m
+step 1975/2000 (98.8%) | 0.20 steps/sec | ETA: 2.1m
+--------------------------------------------------
+Training complete! Final loss: 5.1972
+Total training time: 2h 44m 44s (0.20 steps/sec)
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_combined_step002000_11192025_115027.pt
+
+Generating text...
+==================================================
+
+ION:'m but you to your, to you
+ION
+ION:'re
+IONQUEST: is
+ION I� looking
+ION He� been so of.� He�s so the of, and you�d be your own.�� I� been,,� he� taken,, and, you� him
+ION it a time my of him�s.� I� a a,� and� he� had and.� I� a, and him�, we� been.� He� been to many, many,,, and, he�s, of, and, he� a.�, and are.� I�m that, he� been me me him time I. him.
+ANS: I� sorry
+ION I� not this I�m to.
+ION I a� that� a� of� times my about and, I� been I..'s.� that� been.�
+�I� been�ve to lot the times�s� of,, when's� about, I� a person� the of the,�.� of.� It� been.., that I� had at on time time of.� I� been about who� doing.. with,,,,,, myself�. I that� been.
+ION'm you I� been.
+ION�s you you� to,, you� to
+==================================================

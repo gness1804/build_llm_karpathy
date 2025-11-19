@@ -1,0 +1,512 @@
+HYPERPARAMETERS
+================
+batch_size = 16
+block_size = 128
+training_steps = 10000
+eval_interval = 500
+learning_rate = 1e-05
+eval_iters = 20
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = False
+use_lora = True
+model_type = gpt2
+training_data_source = sources/training_data_combined.md
+gpt2_model_name = gpt2
+lora_rank = 16
+lora_alpha = 32.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)
+🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 4 layers, 256 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 16, alpha: 32.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 49 layers
+✅ LoRA adapters applied (rank=16, alpha=32.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 127,615,504
+   Trainable (total): 3,175,696
+   Frozen (base model): 124,439,808
+   💰 LoRA savings: Training only 2.49% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 98 parameter groups (LoRA only)
+📈 Learning rate schedule: 1000 warmup steps, 9000 decay steps
+   LR range: 1.00e-06 → 1.00e-05 → 1.00e-06
+Starting training for 10000 steps...
+Batch size: 16, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+step 0/10000 (0.0%): train loss 9.4182, val loss 9.3174 | LR: 1.00e-06 | 17.1s (0.00 steps/sec)
+step 25/10000 (0.2%) | 0.69 steps/sec | ETA: 239.4m
+step 50/10000 (0.5%) | 0.90 steps/sec | ETA: 183.4m
+step 75/10000 (0.8%) | 1.00 steps/sec | ETA: 165.9m
+step 100/10000 (1.0%) | 1.06 steps/sec | ETA: 155.1m
+step 125/10000 (1.2%) | 1.11 steps/sec | ETA: 148.9m
+step 150/10000 (1.5%) | 1.13 steps/sec | ETA: 145.2m
+step 175/10000 (1.8%) | 1.14 steps/sec | ETA: 143.6m
+step 200/10000 (2.0%) | 1.13 steps/sec | ETA: 144.5m
+step 225/10000 (2.2%) | 1.12 steps/sec | ETA: 145.7m
+step 250/10000 (2.5%) | 1.11 steps/sec | ETA: 146.5m
+step 275/10000 (2.8%) | 1.10 steps/sec | ETA: 147.4m
+step 300/10000 (3.0%) | 1.09 steps/sec | ETA: 148.3m
+step 325/10000 (3.2%) | 1.09 steps/sec | ETA: 148.3m
+step 350/10000 (3.5%) | 1.09 steps/sec | ETA: 148.2m
+step 375/10000 (3.8%) | 1.08 steps/sec | ETA: 149.0m
+step 400/10000 (4.0%) | 1.06 steps/sec | ETA: 150.7m
+step 425/10000 (4.2%) | 1.05 steps/sec | ETA: 151.8m
+step 450/10000 (4.5%) | 1.04 steps/sec | ETA: 152.6m
+step 475/10000 (4.8%) | 1.04 steps/sec | ETA: 153.3m
+step 500/10000 (5.0%): train loss 7.4594, val loss 7.3655 | LR: 5.50e-06 | 514.7s (0.97 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step000500_11182025_215200.pt
+step 525/10000 (5.2%) | 0.97 steps/sec | ETA: 163.4m
+step 550/10000 (5.5%) | 0.96 steps/sec | ETA: 163.4m
+step 575/10000 (5.8%) | 0.96 steps/sec | ETA: 163.3m
+step 600/10000 (6.0%) | 0.96 steps/sec | ETA: 162.8m
+step 625/10000 (6.2%) | 0.96 steps/sec | ETA: 163.4m
+step 650/10000 (6.5%) | 0.87 steps/sec | ETA: 178.6m
+step 675/10000 (6.8%) | 0.88 steps/sec | ETA: 176.1m
+step 700/10000 (7.0%) | 0.89 steps/sec | ETA: 173.5m
+step 725/10000 (7.2%) | 0.90 steps/sec | ETA: 171.1m
+step 750/10000 (7.5%) | 0.91 steps/sec | ETA: 169.0m
+step 775/10000 (7.8%) | 0.92 steps/sec | ETA: 167.6m
+step 800/10000 (8.0%) | 0.92 steps/sec | ETA: 166.9m
+step 825/10000 (8.2%) | 0.92 steps/sec | ETA: 166.5m
+step 850/10000 (8.5%) | 0.92 steps/sec | ETA: 166.2m
+step 875/10000 (8.8%) | 0.92 steps/sec | ETA: 165.5m
+step 900/10000 (9.0%) | 0.92 steps/sec | ETA: 164.6m
+step 925/10000 (9.2%) | 0.92 steps/sec | ETA: 163.7m
+step 950/10000 (9.5%) | 0.93 steps/sec | ETA: 162.7m
+step 975/10000 (9.8%) | 0.93 steps/sec | ETA: 161.9m
+step 1000/10000 (10.0%): train loss 6.9665, val loss 7.0838 | LR: 1.00e-05 | 1098.2s (0.91 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step001000_11182025_220144.pt
+step 1025/10000 (10.2%) | 0.91 steps/sec | ETA: 164.1m
+step 1050/10000 (10.5%) | 0.91 steps/sec | ETA: 163.3m
+step 1075/10000 (10.8%) | 0.91 steps/sec | ETA: 162.6m
+step 1100/10000 (11.0%) | 0.92 steps/sec | ETA: 161.9m
+step 1125/10000 (11.2%) | 0.92 steps/sec | ETA: 161.2m
+step 1150/10000 (11.5%) | 0.92 steps/sec | ETA: 160.8m
+step 1175/10000 (11.8%) | 0.92 steps/sec | ETA: 160.3m
+step 1200/10000 (12.0%) | 0.92 steps/sec | ETA: 159.7m
+step 1225/10000 (12.2%) | 0.92 steps/sec | ETA: 159.4m
+step 1250/10000 (12.5%) | 0.92 steps/sec | ETA: 158.5m
+step 1275/10000 (12.8%) | 0.92 steps/sec | ETA: 157.6m
+step 1300/10000 (13.0%) | 0.64 steps/sec | ETA: 227.3m
+step 1325/10000 (13.2%) | 0.43 steps/sec | ETA: 332.9m
+step 1350/10000 (13.5%) | 0.44 steps/sec | ETA: 330.2m
+step 1375/10000 (13.8%) | 0.44 steps/sec | ETA: 327.2m
+step 1400/10000 (14.0%) | 0.44 steps/sec | ETA: 324.5m
+step 1425/10000 (14.2%) | 0.44 steps/sec | ETA: 321.6m
+step 1450/10000 (14.5%) | 0.45 steps/sec | ETA: 319.0m
+step 1475/10000 (14.8%) | 0.45 steps/sec | ETA: 316.4m
+step 1500/10000 (15.0%): train loss 6.6634, val loss 6.8484 | LR: 9.93e-06 | 3356.6s (0.45 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step001500_11182025_223922.pt
+step 1525/10000 (15.2%) | 0.45 steps/sec | ETA: 314.4m
+step 1550/10000 (15.5%) | 0.45 steps/sec | ETA: 311.5m
+step 1575/10000 (15.8%) | 0.45 steps/sec | ETA: 309.0m
+step 1600/10000 (16.0%) | 0.46 steps/sec | ETA: 306.4m
+step 1625/10000 (16.2%) | 0.46 steps/sec | ETA: 303.8m
+step 1650/10000 (16.5%) | 0.46 steps/sec | ETA: 301.5m
+step 1675/10000 (16.8%) | 0.46 steps/sec | ETA: 299.3m
+step 1700/10000 (17.0%) | 0.47 steps/sec | ETA: 297.1m
+step 1725/10000 (17.2%) | 0.47 steps/sec | ETA: 294.7m
+step 1750/10000 (17.5%) | 0.47 steps/sec | ETA: 292.4m
+step 1775/10000 (17.8%) | 0.47 steps/sec | ETA: 290.2m
+step 1800/10000 (18.0%) | 0.47 steps/sec | ETA: 288.1m
+step 1825/10000 (18.2%) | 0.48 steps/sec | ETA: 285.9m
+step 1850/10000 (18.5%) | 0.48 steps/sec | ETA: 283.7m
+step 1875/10000 (18.8%) | 0.48 steps/sec | ETA: 281.8m
+step 1900/10000 (19.0%) | 0.48 steps/sec | ETA: 280.0m
+step 1925/10000 (19.2%) | 0.48 steps/sec | ETA: 278.0m
+step 1950/10000 (19.5%) | 0.49 steps/sec | ETA: 276.1m
+step 1975/10000 (19.8%) | 0.49 steps/sec | ETA: 274.2m
+step 2000/10000 (20.0%): train loss 6.6440, val loss 6.8226 | LR: 9.73e-06 | 4124.6s (0.48 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step002000_11182025_225210.pt
+step 2025/10000 (20.2%) | 0.49 steps/sec | ETA: 273.3m
+step 2050/10000 (20.5%) | 0.49 steps/sec | ETA: 271.4m
+step 2075/10000 (20.8%) | 0.49 steps/sec | ETA: 269.7m
+step 2100/10000 (21.0%) | 0.49 steps/sec | ETA: 267.9m
+step 2125/10000 (21.2%) | 0.49 steps/sec | ETA: 266.3m
+step 2150/10000 (21.5%) | 0.49 steps/sec | ETA: 264.6m
+step 2175/10000 (21.8%) | 0.50 steps/sec | ETA: 262.8m
+step 2200/10000 (22.0%) | 0.50 steps/sec | ETA: 261.1m
+step 2225/10000 (22.2%) | 0.50 steps/sec | ETA: 259.5m
+step 2250/10000 (22.5%) | 0.50 steps/sec | ETA: 257.9m
+step 2275/10000 (22.8%) | 0.50 steps/sec | ETA: 256.3m
+step 2300/10000 (23.0%) | 0.50 steps/sec | ETA: 254.7m
+step 2325/10000 (23.2%) | 0.51 steps/sec | ETA: 253.2m
+step 2350/10000 (23.5%) | 0.51 steps/sec | ETA: 251.7m
+step 2375/10000 (23.8%) | 0.51 steps/sec | ETA: 250.2m
+step 2400/10000 (24.0%) | 0.51 steps/sec | ETA: 248.7m
+step 2425/10000 (24.2%) | 0.51 steps/sec | ETA: 247.2m
+step 2450/10000 (24.5%) | 0.51 steps/sec | ETA: 245.7m
+step 2475/10000 (24.8%) | 0.51 steps/sec | ETA: 244.3m
+step 2500/10000 (25.0%): train loss 7.0157, val loss 7.1396 | LR: 9.40e-06 | 4891.7s (0.51 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step002500_11182025_230457.pt
+step 2525/10000 (25.2%) | 0.51 steps/sec | ETA: 243.2m
+step 2550/10000 (25.5%) | 0.51 steps/sec | ETA: 241.8m
+step 2575/10000 (25.8%) | 0.51 steps/sec | ETA: 240.4m
+step 2600/10000 (26.0%) | 0.52 steps/sec | ETA: 239.0m
+step 2625/10000 (26.2%) | 0.52 steps/sec | ETA: 237.7m
+step 2650/10000 (26.5%) | 0.52 steps/sec | ETA: 236.3m
+step 2675/10000 (26.8%) | 0.52 steps/sec | ETA: 235.0m
+step 2700/10000 (27.0%) | 0.52 steps/sec | ETA: 233.6m
+step 2725/10000 (27.3%) | 0.52 steps/sec | ETA: 232.3m
+step 2750/10000 (27.5%) | 0.52 steps/sec | ETA: 231.0m
+step 2775/10000 (27.8%) | 0.52 steps/sec | ETA: 229.7m
+step 2800/10000 (28.0%) | 0.53 steps/sec | ETA: 228.5m
+step 2825/10000 (28.2%) | 0.53 steps/sec | ETA: 227.2m
+step 2850/10000 (28.5%) | 0.53 steps/sec | ETA: 226.0m
+step 2875/10000 (28.7%) | 0.53 steps/sec | ETA: 224.8m
+step 2900/10000 (29.0%) | 0.53 steps/sec | ETA: 223.5m
+step 2925/10000 (29.2%) | 0.53 steps/sec | ETA: 222.3m
+step 2950/10000 (29.5%) | 0.53 steps/sec | ETA: 221.1m
+step 2975/10000 (29.8%) | 0.53 steps/sec | ETA: 219.9m
+step 3000/10000 (30.0%): train loss 6.9857, val loss 7.2102 | LR: 8.95e-06 | 5657.7s (0.53 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step003000_11182025_231743.pt
+step 3025/10000 (30.2%) | 0.53 steps/sec | ETA: 218.9m
+step 3050/10000 (30.5%) | 0.53 steps/sec | ETA: 217.7m
+step 3075/10000 (30.8%) | 0.53 steps/sec | ETA: 216.5m
+step 3100/10000 (31.0%) | 0.53 steps/sec | ETA: 215.3m
+step 3125/10000 (31.2%) | 0.54 steps/sec | ETA: 214.2m
+step 3150/10000 (31.5%) | 0.54 steps/sec | ETA: 213.1m
+step 3175/10000 (31.8%) | 0.54 steps/sec | ETA: 211.9m
+step 3200/10000 (32.0%) | 0.54 steps/sec | ETA: 210.8m
+step 3225/10000 (32.2%) | 0.54 steps/sec | ETA: 209.7m
+step 3250/10000 (32.5%) | 0.54 steps/sec | ETA: 208.5m
+step 3275/10000 (32.8%) | 0.54 steps/sec | ETA: 207.5m
+step 3300/10000 (33.0%) | 0.54 steps/sec | ETA: 206.5m
+step 3325/10000 (33.2%) | 0.54 steps/sec | ETA: 205.4m
+step 3350/10000 (33.5%) | 0.54 steps/sec | ETA: 204.4m
+step 3375/10000 (33.8%) | 0.54 steps/sec | ETA: 203.3m
+step 3400/10000 (34.0%) | 0.54 steps/sec | ETA: 202.2m
+step 3425/10000 (34.2%) | 0.54 steps/sec | ETA: 201.2m
+step 3450/10000 (34.5%) | 0.55 steps/sec | ETA: 200.1m
+step 3475/10000 (34.8%) | 0.55 steps/sec | ETA: 199.0m
+step 3500/10000 (35.0%): train loss 7.0990, val loss 7.3528 | LR: 8.39e-06 | 6435.9s (0.54 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step003500_11182025_233042.pt
+step 3525/10000 (35.2%) | 0.54 steps/sec | ETA: 198.4m
+step 3550/10000 (35.5%) | 0.54 steps/sec | ETA: 197.3m
+step 3575/10000 (35.8%) | 0.55 steps/sec | ETA: 196.3m
+step 3600/10000 (36.0%) | 0.55 steps/sec | ETA: 195.2m
+step 3625/10000 (36.2%) | 0.55 steps/sec | ETA: 194.2m
+step 3650/10000 (36.5%) | 0.55 steps/sec | ETA: 193.2m
+step 3675/10000 (36.8%) | 0.55 steps/sec | ETA: 192.2m
+step 3700/10000 (37.0%) | 0.55 steps/sec | ETA: 191.1m
+step 3725/10000 (37.2%) | 0.55 steps/sec | ETA: 190.1m
+step 3750/10000 (37.5%) | 0.55 steps/sec | ETA: 189.1m
+step 3775/10000 (37.8%) | 0.55 steps/sec | ETA: 188.1m
+step 3800/10000 (38.0%) | 0.55 steps/sec | ETA: 187.1m
+step 3825/10000 (38.2%) | 0.55 steps/sec | ETA: 186.2m
+step 3850/10000 (38.5%) | 0.55 steps/sec | ETA: 185.2m
+step 3875/10000 (38.8%) | 0.55 steps/sec | ETA: 184.2m
+step 3900/10000 (39.0%) | 0.55 steps/sec | ETA: 183.2m
+step 3925/10000 (39.2%) | 0.56 steps/sec | ETA: 182.2m
+step 3950/10000 (39.5%) | 0.56 steps/sec | ETA: 181.3m
+step 3975/10000 (39.8%) | 0.56 steps/sec | ETA: 180.3m
+step 4000/10000 (40.0%): train loss 6.9105, val loss 7.1037 | LR: 7.75e-06 | 7210.9s (0.55 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step004000_11182025_234337.pt
+step 4025/10000 (40.2%) | 0.56 steps/sec | ETA: 179.4m
+step 4050/10000 (40.5%) | 0.56 steps/sec | ETA: 178.4m
+step 4075/10000 (40.8%) | 0.56 steps/sec | ETA: 177.5m
+step 4100/10000 (41.0%) | 0.56 steps/sec | ETA: 176.6m
+step 4125/10000 (41.2%) | 0.56 steps/sec | ETA: 175.6m
+step 4150/10000 (41.5%) | 0.56 steps/sec | ETA: 174.7m
+step 4175/10000 (41.8%) | 0.56 steps/sec | ETA: 173.8m
+step 4200/10000 (42.0%) | 0.56 steps/sec | ETA: 172.9m
+step 4225/10000 (42.2%) | 0.56 steps/sec | ETA: 171.9m
+step 4250/10000 (42.5%) | 0.56 steps/sec | ETA: 171.1m
+step 4275/10000 (42.8%) | 0.56 steps/sec | ETA: 170.1m
+step 4300/10000 (43.0%) | 0.56 steps/sec | ETA: 169.2m
+step 4325/10000 (43.2%) | 0.56 steps/sec | ETA: 168.2m
+step 4350/10000 (43.5%) | 0.56 steps/sec | ETA: 167.3m
+step 4375/10000 (43.8%) | 0.56 steps/sec | ETA: 166.4m
+step 4400/10000 (44.0%) | 0.56 steps/sec | ETA: 165.5m
+step 4425/10000 (44.2%) | 0.56 steps/sec | ETA: 164.5m
+step 4450/10000 (44.5%) | 0.57 steps/sec | ETA: 163.6m
+step 4475/10000 (44.8%) | 0.57 steps/sec | ETA: 162.7m
+step 4500/10000 (45.0%): train loss 6.8269, val loss 7.0415 | LR: 7.04e-06 | 7973.6s (0.56 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step004500_11182025_235619.pt
+step 4525/10000 (45.2%) | 0.56 steps/sec | ETA: 161.5m
+step 4550/10000 (45.5%) | 0.57 steps/sec | ETA: 160.6m
+step 4575/10000 (45.8%) | 0.57 steps/sec | ETA: 159.7m
+step 4600/10000 (46.0%) | 0.57 steps/sec | ETA: 158.8m
+step 4625/10000 (46.2%) | 0.57 steps/sec | ETA: 157.9m
+step 4650/10000 (46.5%) | 0.57 steps/sec | ETA: 157.0m
+step 4675/10000 (46.8%) | 0.57 steps/sec | ETA: 156.1m
+step 4700/10000 (47.0%) | 0.57 steps/sec | ETA: 155.2m
+step 4725/10000 (47.2%) | 0.57 steps/sec | ETA: 154.3m
+step 4750/10000 (47.5%) | 0.57 steps/sec | ETA: 153.4m
+step 4775/10000 (47.8%) | 0.57 steps/sec | ETA: 152.5m
+step 4800/10000 (48.0%) | 0.57 steps/sec | ETA: 151.7m
+step 4825/10000 (48.2%) | 0.57 steps/sec | ETA: 150.8m
+step 4850/10000 (48.5%) | 0.57 steps/sec | ETA: 149.9m
+step 4875/10000 (48.8%) | 0.57 steps/sec | ETA: 149.0m
+step 4900/10000 (49.0%) | 0.57 steps/sec | ETA: 148.2m
+step 4925/10000 (49.2%) | 0.57 steps/sec | ETA: 147.3m
+step 4950/10000 (49.5%) | 0.57 steps/sec | ETA: 146.4m
+step 4975/10000 (49.8%) | 0.58 steps/sec | ETA: 145.5m
+step 5000/10000 (50.0%): train loss 6.9508, val loss 7.1360 | LR: 6.28e-06 | 8714.5s (0.57 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step005000_11192025_000840.pt
+step 5025/10000 (50.2%) | 0.57 steps/sec | ETA: 144.4m
+step 5050/10000 (50.5%) | 0.57 steps/sec | ETA: 143.6m
+step 5075/10000 (50.7%) | 0.58 steps/sec | ETA: 142.7m
+step 5100/10000 (51.0%) | 0.58 steps/sec | ETA: 141.9m
+step 5125/10000 (51.2%) | 0.58 steps/sec | ETA: 141.0m
+step 5150/10000 (51.5%) | 0.58 steps/sec | ETA: 140.2m
+step 5175/10000 (51.7%) | 0.58 steps/sec | ETA: 139.3m
+step 5200/10000 (52.0%) | 0.58 steps/sec | ETA: 138.5m
+step 5225/10000 (52.2%) | 0.58 steps/sec | ETA: 137.6m
+step 5250/10000 (52.5%) | 0.58 steps/sec | ETA: 136.8m
+step 5275/10000 (52.8%) | 0.58 steps/sec | ETA: 136.0m
+step 5300/10000 (53.0%) | 0.58 steps/sec | ETA: 135.1m
+step 5325/10000 (53.2%) | 0.58 steps/sec | ETA: 134.3m
+step 5350/10000 (53.5%) | 0.58 steps/sec | ETA: 133.6m
+step 5375/10000 (53.8%) | 0.58 steps/sec | ETA: 132.8m
+step 5400/10000 (54.0%) | 0.58 steps/sec | ETA: 132.0m
+step 5425/10000 (54.2%) | 0.58 steps/sec | ETA: 131.2m
+step 5450/10000 (54.5%) | 0.58 steps/sec | ETA: 130.4m
+step 5475/10000 (54.8%) | 0.58 steps/sec | ETA: 129.6m
+step 5500/10000 (55.0%): train loss 6.8679, val loss 7.0871 | LR: 5.50e-06 | 9491.1s (0.58 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step005500_11192025_002137.pt
+step 5525/10000 (55.2%) | 0.58 steps/sec | ETA: 128.7m
+step 5550/10000 (55.5%) | 0.58 steps/sec | ETA: 127.9m
+step 5575/10000 (55.8%) | 0.58 steps/sec | ETA: 127.1m
+step 5600/10000 (56.0%) | 0.58 steps/sec | ETA: 126.2m
+step 5625/10000 (56.2%) | 0.58 steps/sec | ETA: 125.4m
+step 5650/10000 (56.5%) | 0.58 steps/sec | ETA: 124.6m
+step 5675/10000 (56.8%) | 0.58 steps/sec | ETA: 123.8m
+step 5700/10000 (57.0%) | 0.58 steps/sec | ETA: 123.0m
+step 5725/10000 (57.2%) | 0.58 steps/sec | ETA: 122.2m
+step 5750/10000 (57.5%) | 0.58 steps/sec | ETA: 121.4m
+step 5775/10000 (57.8%) | 0.58 steps/sec | ETA: 120.6m
+step 5800/10000 (58.0%) | 0.58 steps/sec | ETA: 119.8m
+step 5825/10000 (58.2%) | 0.58 steps/sec | ETA: 119.0m
+step 5850/10000 (58.5%) | 0.59 steps/sec | ETA: 118.2m
+step 5875/10000 (58.8%) | 0.59 steps/sec | ETA: 117.4m
+step 5900/10000 (59.0%) | 0.59 steps/sec | ETA: 116.6m
+step 5925/10000 (59.2%) | 0.59 steps/sec | ETA: 115.8m
+step 5950/10000 (59.5%) | 0.59 steps/sec | ETA: 115.0m
+step 5975/10000 (59.8%) | 0.59 steps/sec | ETA: 114.2m
+step 6000/10000 (60.0%): train loss 6.7846, val loss 7.0560 | LR: 4.72e-06 | 10241.8s (0.59 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step006000_11192025_003408.pt
+step 6025/10000 (60.2%) | 0.59 steps/sec | ETA: 113.0m
+step 6050/10000 (60.5%) | 0.59 steps/sec | ETA: 112.2m
+step 6075/10000 (60.8%) | 0.59 steps/sec | ETA: 111.4m
+step 6100/10000 (61.0%) | 0.59 steps/sec | ETA: 110.6m
+step 6125/10000 (61.3%) | 0.59 steps/sec | ETA: 109.9m
+step 6150/10000 (61.5%) | 0.59 steps/sec | ETA: 109.1m
+step 6175/10000 (61.8%) | 0.59 steps/sec | ETA: 108.3m
+step 6200/10000 (62.0%) | 0.59 steps/sec | ETA: 107.5m
+step 6225/10000 (62.3%) | 0.59 steps/sec | ETA: 106.7m
+step 6250/10000 (62.5%) | 0.59 steps/sec | ETA: 105.9m
+step 6275/10000 (62.7%) | 0.59 steps/sec | ETA: 105.2m
+step 6300/10000 (63.0%) | 0.59 steps/sec | ETA: 104.4m
+step 6325/10000 (63.2%) | 0.59 steps/sec | ETA: 103.6m
+step 6350/10000 (63.5%) | 0.59 steps/sec | ETA: 102.8m
+step 6375/10000 (63.7%) | 0.59 steps/sec | ETA: 102.1m
+step 6400/10000 (64.0%) | 0.59 steps/sec | ETA: 101.3m
+step 6425/10000 (64.2%) | 0.59 steps/sec | ETA: 100.5m
+step 6450/10000 (64.5%) | 0.59 steps/sec | ETA: 99.8m
+step 6475/10000 (64.8%) | 0.59 steps/sec | ETA: 99.0m
+step 6500/10000 (65.0%): train loss 6.8124, val loss 7.0524 | LR: 3.96e-06 | 10982.6s (0.59 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step006500_11192025_004628.pt
+step 6525/10000 (65.2%) | 0.59 steps/sec | ETA: 97.8m
+step 6550/10000 (65.5%) | 0.59 steps/sec | ETA: 97.0m
+step 6575/10000 (65.8%) | 0.59 steps/sec | ETA: 96.3m
+step 6600/10000 (66.0%) | 0.59 steps/sec | ETA: 95.5m
+step 6625/10000 (66.2%) | 0.59 steps/sec | ETA: 94.8m
+step 6650/10000 (66.5%) | 0.59 steps/sec | ETA: 94.0m
+step 6675/10000 (66.8%) | 0.59 steps/sec | ETA: 93.2m
+step 6700/10000 (67.0%) | 0.59 steps/sec | ETA: 92.5m
+step 6725/10000 (67.2%) | 0.60 steps/sec | ETA: 91.7m
+step 6750/10000 (67.5%) | 0.60 steps/sec | ETA: 91.0m
+step 6775/10000 (67.8%) | 0.60 steps/sec | ETA: 90.2m
+step 6800/10000 (68.0%) | 0.60 steps/sec | ETA: 89.5m
+step 6825/10000 (68.2%) | 0.60 steps/sec | ETA: 88.7m
+step 6850/10000 (68.5%) | 0.60 steps/sec | ETA: 88.0m
+step 6875/10000 (68.8%) | 0.60 steps/sec | ETA: 87.2m
+step 6900/10000 (69.0%) | 0.60 steps/sec | ETA: 86.5m
+step 6925/10000 (69.2%) | 0.60 steps/sec | ETA: 85.7m
+step 6950/10000 (69.5%) | 0.60 steps/sec | ETA: 85.0m
+step 6975/10000 (69.8%) | 0.60 steps/sec | ETA: 84.2m
+step 7000/10000 (70.0%): train loss 6.8455, val loss 7.1079 | LR: 3.25e-06 | 11721.2s (0.60 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step007000_11192025_005847.pt
+step 7025/10000 (70.2%) | 0.60 steps/sec | ETA: 83.0m
+step 7050/10000 (70.5%) | 0.60 steps/sec | ETA: 82.3m
+step 7075/10000 (70.8%) | 0.60 steps/sec | ETA: 81.5m
+step 7100/10000 (71.0%) | 0.60 steps/sec | ETA: 80.8m
+step 7125/10000 (71.2%) | 0.60 steps/sec | ETA: 80.0m
+step 7150/10000 (71.5%) | 0.60 steps/sec | ETA: 79.3m
+step 7175/10000 (71.8%) | 0.60 steps/sec | ETA: 78.5m
+step 7200/10000 (72.0%) | 0.60 steps/sec | ETA: 77.8m
+step 7225/10000 (72.2%) | 0.60 steps/sec | ETA: 77.1m
+step 7250/10000 (72.5%) | 0.60 steps/sec | ETA: 76.3m
+step 7275/10000 (72.8%) | 0.60 steps/sec | ETA: 75.6m
+step 7300/10000 (73.0%) | 0.60 steps/sec | ETA: 74.9m
+step 7325/10000 (73.2%) | 0.60 steps/sec | ETA: 74.2m
+step 7350/10000 (73.5%) | 0.60 steps/sec | ETA: 73.4m
+step 7375/10000 (73.8%) | 0.60 steps/sec | ETA: 72.7m
+step 7400/10000 (74.0%) | 0.60 steps/sec | ETA: 72.0m
+step 7425/10000 (74.2%) | 0.60 steps/sec | ETA: 71.2m
+step 7450/10000 (74.5%) | 0.60 steps/sec | ETA: 70.5m
+step 7475/10000 (74.8%) | 0.60 steps/sec | ETA: 69.8m
+step 7500/10000 (75.0%): train loss 6.8482, val loss 7.0807 | LR: 2.61e-06 | 12466.0s (0.60 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step007500_11192025_011112.pt
+step 7525/10000 (75.2%) | 0.60 steps/sec | ETA: 68.5m
+step 7550/10000 (75.5%) | 0.60 steps/sec | ETA: 67.8m
+step 7575/10000 (75.8%) | 0.60 steps/sec | ETA: 67.1m
+step 7600/10000 (76.0%) | 0.60 steps/sec | ETA: 66.4m
+step 7625/10000 (76.2%) | 0.60 steps/sec | ETA: 65.6m
+step 7650/10000 (76.5%) | 0.60 steps/sec | ETA: 64.9m
+step 7675/10000 (76.8%) | 0.60 steps/sec | ETA: 64.2m
+step 7700/10000 (77.0%) | 0.60 steps/sec | ETA: 63.5m
+step 7725/10000 (77.2%) | 0.60 steps/sec | ETA: 62.8m
+step 7750/10000 (77.5%) | 0.60 steps/sec | ETA: 62.0m
+step 7775/10000 (77.8%) | 0.60 steps/sec | ETA: 61.3m
+step 7800/10000 (78.0%) | 0.61 steps/sec | ETA: 60.6m
+step 7825/10000 (78.2%) | 0.61 steps/sec | ETA: 59.9m
+step 7850/10000 (78.5%) | 0.61 steps/sec | ETA: 59.2m
+step 7875/10000 (78.8%) | 0.61 steps/sec | ETA: 58.5m
+step 7900/10000 (79.0%) | 0.61 steps/sec | ETA: 57.7m
+step 7925/10000 (79.2%) | 0.61 steps/sec | ETA: 57.0m
+step 7950/10000 (79.5%) | 0.61 steps/sec | ETA: 56.3m
+step 7975/10000 (79.8%) | 0.61 steps/sec | ETA: 55.6m
+step 8000/10000 (80.0%): train loss 6.8892, val loss 7.0920 | LR: 2.05e-06 | 13209.4s (0.61 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step008000_11192025_012335.pt
+step 8025/10000 (80.2%) | 0.61 steps/sec | ETA: 54.3m
+step 8050/10000 (80.5%) | 0.61 steps/sec | ETA: 53.6m
+step 8075/10000 (80.8%) | 0.61 steps/sec | ETA: 52.9m
+step 8100/10000 (81.0%) | 0.61 steps/sec | ETA: 52.2m
+step 8125/10000 (81.2%) | 0.61 steps/sec | ETA: 51.5m
+step 8150/10000 (81.5%) | 0.61 steps/sec | ETA: 50.8m
+step 8175/10000 (81.8%) | 0.61 steps/sec | ETA: 50.1m
+step 8200/10000 (82.0%) | 0.61 steps/sec | ETA: 49.4m
+step 8225/10000 (82.2%) | 0.61 steps/sec | ETA: 48.7m
+step 8250/10000 (82.5%) | 0.61 steps/sec | ETA: 48.0m
+step 8275/10000 (82.8%) | 0.61 steps/sec | ETA: 47.3m
+step 8300/10000 (83.0%) | 0.61 steps/sec | ETA: 46.6m
+step 8325/10000 (83.2%) | 0.61 steps/sec | ETA: 45.8m
+step 8350/10000 (83.5%) | 0.61 steps/sec | ETA: 45.1m
+step 8375/10000 (83.8%) | 0.61 steps/sec | ETA: 44.4m
+step 8400/10000 (84.0%) | 0.61 steps/sec | ETA: 43.7m
+step 8425/10000 (84.2%) | 0.61 steps/sec | ETA: 43.0m
+step 8450/10000 (84.5%) | 0.61 steps/sec | ETA: 42.3m
+step 8475/10000 (84.8%) | 0.61 steps/sec | ETA: 41.6m
+step 8500/10000 (85.0%): train loss 6.9262, val loss 7.1325 | LR: 1.60e-06 | 13953.3s (0.61 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step008500_11192025_013559.pt
+step 8525/10000 (85.2%) | 0.61 steps/sec | ETA: 40.3m
+step 8550/10000 (85.5%) | 0.61 steps/sec | ETA: 39.6m
+step 8575/10000 (85.8%) | 0.61 steps/sec | ETA: 38.9m
+step 8600/10000 (86.0%) | 0.61 steps/sec | ETA: 38.2m
+step 8625/10000 (86.2%) | 0.61 steps/sec | ETA: 37.5m
+step 8650/10000 (86.5%) | 0.61 steps/sec | ETA: 36.8m
+step 8675/10000 (86.8%) | 0.61 steps/sec | ETA: 36.1m
+step 8700/10000 (87.0%) | 0.61 steps/sec | ETA: 35.5m
+step 8725/10000 (87.2%) | 0.61 steps/sec | ETA: 34.8m
+step 8750/10000 (87.5%) | 0.61 steps/sec | ETA: 34.1m
+step 8775/10000 (87.8%) | 0.61 steps/sec | ETA: 33.4m
+step 8800/10000 (88.0%) | 0.61 steps/sec | ETA: 32.7m
+step 8825/10000 (88.2%) | 0.61 steps/sec | ETA: 32.0m
+step 8850/10000 (88.5%) | 0.61 steps/sec | ETA: 31.3m
+step 8875/10000 (88.8%) | 0.61 steps/sec | ETA: 30.6m
+step 8900/10000 (89.0%) | 0.61 steps/sec | ETA: 29.9m
+step 8925/10000 (89.2%) | 0.61 steps/sec | ETA: 29.2m
+step 8950/10000 (89.5%) | 0.61 steps/sec | ETA: 28.5m
+step 8975/10000 (89.8%) | 0.61 steps/sec | ETA: 27.9m
+step 9000/10000 (90.0%): train loss 6.9460, val loss 7.1674 | LR: 1.27e-06 | 14703.0s (0.61 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step009000_11192025_014829.pt
+step 9025/10000 (90.2%) | 0.61 steps/sec | ETA: 26.5m
+step 9050/10000 (90.5%) | 0.61 steps/sec | ETA: 25.9m
+step 9075/10000 (90.8%) | 0.61 steps/sec | ETA: 25.2m
+step 9100/10000 (91.0%) | 0.61 steps/sec | ETA: 24.5m
+step 9125/10000 (91.2%) | 0.61 steps/sec | ETA: 23.8m
+step 9150/10000 (91.5%) | 0.61 steps/sec | ETA: 23.1m
+step 9175/10000 (91.8%) | 0.61 steps/sec | ETA: 22.4m
+step 9200/10000 (92.0%) | 0.61 steps/sec | ETA: 21.7m
+step 9225/10000 (92.2%) | 0.61 steps/sec | ETA: 21.0m
+step 9250/10000 (92.5%) | 0.61 steps/sec | ETA: 20.4m
+step 9275/10000 (92.8%) | 0.61 steps/sec | ETA: 19.7m
+step 9300/10000 (93.0%) | 0.61 steps/sec | ETA: 19.0m
+step 9325/10000 (93.2%) | 0.61 steps/sec | ETA: 18.3m
+step 9350/10000 (93.5%) | 0.62 steps/sec | ETA: 17.6m
+step 9375/10000 (93.8%) | 0.62 steps/sec | ETA: 16.9m
+step 9400/10000 (94.0%) | 0.62 steps/sec | ETA: 16.2m
+step 9425/10000 (94.2%) | 0.62 steps/sec | ETA: 15.6m
+step 9450/10000 (94.5%) | 0.62 steps/sec | ETA: 14.9m
+step 9475/10000 (94.8%) | 0.62 steps/sec | ETA: 14.2m
+step 9500/10000 (95.0%): train loss 6.9173, val loss 7.1852 | LR: 1.07e-06 | 15446.9s (0.62 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_combined_step009500_11192025_020053.pt
+step 9525/10000 (95.2%) | 0.62 steps/sec | ETA: 12.9m
+step 9550/10000 (95.5%) | 0.62 steps/sec | ETA: 12.2m
+step 9575/10000 (95.8%) | 0.62 steps/sec | ETA: 11.5m
+step 9600/10000 (96.0%) | 0.62 steps/sec | ETA: 10.8m
+step 9625/10000 (96.2%) | 0.62 steps/sec | ETA: 10.1m
+step 9650/10000 (96.5%) | 0.62 steps/sec | ETA: 9.5m
+step 9675/10000 (96.8%) | 0.62 steps/sec | ETA: 8.8m
+step 9700/10000 (97.0%) | 0.62 steps/sec | ETA: 8.1m
+step 9725/10000 (97.2%) | 0.62 steps/sec | ETA: 7.4m
+step 9750/10000 (97.5%) | 0.62 steps/sec | ETA: 6.8m
+step 9775/10000 (97.8%) | 0.62 steps/sec | ETA: 6.1m
+step 9800/10000 (98.0%) | 0.62 steps/sec | ETA: 5.4m
+step 9825/10000 (98.2%) | 0.62 steps/sec | ETA: 4.7m
+step 9850/10000 (98.5%) | 0.62 steps/sec | ETA: 4.0m
+step 9875/10000 (98.8%) | 0.62 steps/sec | ETA: 3.4m
+step 9900/10000 (99.0%) | 0.62 steps/sec | ETA: 2.7m
+step 9925/10000 (99.2%) | 0.62 steps/sec | ETA: 2.0m
+step 9950/10000 (99.5%) | 0.62 steps/sec | ETA: 1.3m
+step 9975/10000 (99.8%) | 0.62 steps/sec | ETA: 0.7m
+--------------------------------------------------
+Training complete! Final loss: 7.3697
+Total training time: 4h 29m 7s (0.62 steps/sec)
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_combined_step010000_11192025_021233.pt
+
+Generating text...
+==================================================
+ about out. just the I your of about of I and. to what. it to. what it of
+olynI it with. the and.
+ H
+WER It., even. the the,
+WER, is that it and,,.,
+ION to, the.
+ax,,.,. to to and that of and I
+t, to have out,,
+ax ", and.., a.,..� it. too for it
+WER,.
+//
+olynax in,... to. of, of,,., the. but. to,,, to so. from. and to to.,. I to to and the for so to,
+ION
+s a you for
+t.� it... and
+olynolynax. do but do.
+t,. a�� I.
+t
+olynION. to to. when of. you��,.
+ION is't.�
+sANS,��WER and so,, not,..,,, a
+I not
+WER I't with to do it.'re and
+ax.� about so.
+WER is� I,
+ist it.
+olynt�
+WER: and to out�,,,.. for a. have and be�'s it so. to
+ax then
+ION't and to?
+t,
+==================================================

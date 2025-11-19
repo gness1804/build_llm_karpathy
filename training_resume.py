@@ -127,7 +127,8 @@ print(f"   Additional steps: {RESUME_STEPS}")
 print(f"   Total steps will be: {resume_step + RESUME_STEPS}")
 print(f"   Learning rate: {learning_rate}")
 print(f"   Batch size: {batch_size}")
-print(f"   Block size: {block_size}")
+    print(f"   Block size: {block_size}")
+    print(f"   Training data source: {data_source}")
 
 # ============================================================================
 # DATA LOADING

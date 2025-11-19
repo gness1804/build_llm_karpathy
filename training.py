@@ -322,8 +322,9 @@ if USE_LORA:
         }
     )
 
-print(f"Device: {device}")
-print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
+    print(f"Device: {device}")
+    print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
+    print(f"Training data source: {TRAINING_DATA_SOURCE}")
 
 # ============================================================================
 # DATA LOADING AND PREPROCESSING
