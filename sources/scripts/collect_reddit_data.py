@@ -169,7 +169,7 @@ def collect_posts(
 
     for post in posts:
         posts_seen += 1
-        
+
         # Skip posts before start_at
         if posts_seen < start_at:
             if posts_seen % 10 == 0:
@@ -218,7 +218,9 @@ def collect_posts(
         if len(collected) >= limit:
             break
 
-    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})")
+    print(
+        f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})"
+    )
     return collected
 
 

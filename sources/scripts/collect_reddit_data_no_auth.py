@@ -51,8 +51,8 @@ def format_answer(comment_body: str) -> str:
     return f"ANSWER: {answer}"
 
 
-def get_json(url: str, retries: int = 3) -> Optional[dict]:
-    """Fetch JSON from URL with retries"""
+def get_json(url: str, retries: int = 5) -> Optional[dict]:
+    """Fetch JSON from URL with retries and rate limit handling"""
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
     }
@@ -63,7 +63,25 @@ def get_json(url: str, retries: int = 3) -> Optional[dict]:
             with urlopen(req, timeout=10) as response:
                 data = json.loads(response.read().decode("utf-8"))
                 return data
-        except (HTTPError, URLError, json.JSONDecodeError) as e:
+        except HTTPError as e:
+            # Handle 429 specifically
+            if e.code == 429:
+                wait_time = min(2**attempt * 10, 300)  # Max 5 minutes
+                print(f"  ⚠️  Rate limited (429). Waiting {wait_time}s before retry...")
+                if attempt < retries - 1:
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    print("  ❌ Rate limit exceeded. Please wait and try again later.")
+                    return None
+            elif attempt < retries - 1:
+                wait_time = (attempt + 1) * 2
+                print(f"  ⚠️  HTTP {e.code} error, retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"  ❌ Failed to fetch {url}: HTTP {e.code}")
+                return None
+        except (URLError, json.JSONDecodeError) as e:
             if attempt < retries - 1:
                 wait_time = (attempt + 1) * 2
                 print(f"  ⚠️  Error fetching {url}, retrying in {wait_time}s...")
@@ -145,6 +163,8 @@ def collect_posts(
     min_comment_length: int = 100,
     time_filter: str = "all",
     start_at: int = 1,
+    delay: float = 3.0,
+    batch_delay: float = 10.0,
 ) -> list[dict]:
     """Collect posts and comments from subreddit"""
     print(f"\nCollecting from r/{subreddit}...")
@@ -158,7 +178,7 @@ def collect_posts(
     skipped = 0
     posts_seen = 0  # Track total posts seen (including skipped)
     batch_size = 25  # Reddit JSON API limit per request
-    
+
     # Calculate how many posts we need to fetch (accounting for start_at)
     # We need to fetch enough to get 'limit' posts after starting at 'start_at'
     total_posts_needed = start_at + limit - 1
@@ -176,11 +196,13 @@ def collect_posts(
 
         for post in posts:
             posts_seen += 1
-            
+
             # Skip posts before start_at
             if posts_seen < start_at:
                 if posts_seen % 10 == 0:
-                    print(f"    Skipping post {posts_seen} (before start_at={start_at})...")
+                    print(
+                        f"    Skipping post {posts_seen} (before start_at={start_at})..."
+                    )
                 continue
 
             # Filter by upvotes
@@ -194,7 +216,9 @@ def collect_posts(
                 continue
 
             # Get comments for this post
-            print(f"    Post {posts_seen}: Processing: {post['title'][:50]}... (score: {post['score']})")
+            print(
+                f"    Post {posts_seen}: Processing: {post['title'][:50]}... (score: {post['score']})"
+            )
             comments = get_post_comments(post["id"], subreddit)
 
             if not comments:
@@ -230,22 +254,28 @@ def collect_posts(
 
             print(f"      ✅ Collected (total: {len(collected)}, skipped: {skipped})")
 
-            # Rate limiting - be respectful
-            time.sleep(1)  # 1 second between posts
+            # Rate limiting - be more respectful to avoid 429 errors
+            # Reddit's public API is stricter, so we need longer delays
+            time.sleep(delay)
 
             # Stop if we have enough collected posts
             if len(collected) >= limit:
                 break
 
-        # Rate limiting between batches
+        # Rate limiting between batches - longer delay to avoid rate limits
         if batch_num < batches_needed - 1:
-            time.sleep(2)
+            print(
+                f"  ⏸️  Waiting {batch_delay} seconds before next batch (to avoid rate limits)..."
+            )
+            time.sleep(batch_delay)
 
         # Stop if we have enough collected posts
         if len(collected) >= limit:
             break
 
-    print(f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})")
+    print(
+        f"\n✅ Collected {len(collected)} posts (skipped {skipped}, started at post {start_at})"
+    )
     return collected
 
 
@@ -314,6 +344,18 @@ def main():
         default=1,
         help="Start collecting from this post number (1-indexed, default: 1)",
     )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=3.0,
+        help="Delay between posts in seconds (default: 3.0, increase if getting 429 errors)",
+    )
+    parser.add_argument(
+        "--batch-delay",
+        type=float,
+        default=10.0,
+        help="Delay between batches in seconds (default: 10.0, increase if getting 429 errors)",
+    )
 
     args = parser.parse_args()
 
@@ -343,6 +385,8 @@ def main():
         min_comment_length=args.min_comment_length,
         time_filter=args.time_filter,
         start_at=args.start_at,
+        delay=args.delay,
+        batch_delay=args.batch_delay,
     )
 
     if not collected:
