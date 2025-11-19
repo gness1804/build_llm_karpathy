@@ -119,21 +119,6 @@ n_head = hyperparameters.get("n_head", 6)
 n_layer = hyperparameters.get("n_layer", 6)
 dropout = hyperparameters.get("dropout", 0.2)
 
-print("\n📊 Training Configuration:")
-print(f"   Model type: {model_type}")
-print(f"   LoRA enabled: {use_lora}")
-print(f"   Resuming from step: {resume_step}")
-print(f"   Additional steps: {RESUME_STEPS}")
-print(f"   Total steps will be: {resume_step + RESUME_STEPS}")
-print(f"   Learning rate: {learning_rate}")
-print(f"   Batch size: {batch_size}")
-    print(f"   Block size: {block_size}")
-    print(f"   Training data source: {data_source}")
-
-# ============================================================================
-# DATA LOADING
-# ============================================================================
-
 # Use new data source or fall back to checkpoint data source
 if TRAINING_DATA_SOURCE:
     data_source = TRAINING_DATA_SOURCE
@@ -144,6 +129,23 @@ else:
         "training_data_source", DEFAULT_TRAINING_DATA_SOURCE
     )
     print(f"\n📝 Using original training data: {data_source}")
+
+print("\n📊 Training Configuration:")
+print(f"   Model type: {model_type}")
+print(f"   LoRA enabled: {use_lora}")
+print(f"   Resuming from step: {resume_step}")
+print(f"   Additional steps: {RESUME_STEPS}")
+print(f"   Total steps will be: {resume_step + RESUME_STEPS}")
+print(f"   Learning rate: {learning_rate}")
+print(f"   Batch size: {batch_size}")
+print(f"   Block size: {block_size}")
+print(f"   Training data source: {data_source}")
+
+# ============================================================================
+# DATA LOADING
+# ============================================================================
+
+# (Data loading logic removed from here as it was moved up)
 
 if not os.path.exists(data_source):
     print(f"❌ Error: Training data not found at {data_source}")
