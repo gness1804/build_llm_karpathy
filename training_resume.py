@@ -573,6 +573,19 @@ if ENABLE_CHECKPOINTS:
     if final_checkpoint_path:
         print(f"✅ Final checkpoint saved: {final_checkpoint_path}")
 
+# Summarize each loss that appeared and the differences between them
+losses = estimate_loss()
+print(f"Train loss at beginning: {losses['train']:.4f}")
+print(f"Val loss at beginning: {losses['val']:.4f}")
+print(f"Train loss at end: {loss.item():.4f}")
+print(f"Val loss at end: {losses['val']:.4f}")
+print(
+    f"Difference between val loss at beginning and val loss at end: {losses['val'] - loss.item():.4f}"
+)  # This is the improvement in val loss
+print(
+    f"Difference between val loss at end and val loss at beginning as a percentage of the beginning loss: {(losses['val'] - loss.item()) / losses['val'] * 100:.2f}%"
+)
+
 print(f"{'=' * 60}\n")
 
 # Generate sample text

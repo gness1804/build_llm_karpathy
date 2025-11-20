@@ -95,14 +95,24 @@ def get_json(url: str, retries: int = 5) -> Optional[dict]:
 
 
 def get_top_posts(
-    subreddit: str, limit: int = 25, time_filter: str = "all"
-) -> list[dict]:
-    """Get top posts from subreddit using public JSON endpoint"""
+    subreddit: str,
+    limit: int = 25,
+    time_filter: str = "all",
+    after: Optional[str] = None,
+) -> tuple[list[dict], Optional[str]]:
+    """Get top posts from subreddit using public JSON endpoint
+
+    Returns:
+        tuple: (list of posts, after token for pagination)
+    """
     url = f"https://www.reddit.com/r/{subreddit}/top.json?limit={limit}&t={time_filter}"
+    if after:
+        url += f"&after={after}"
+
     data = get_json(url)
 
     if not data or "data" not in data or "children" not in data["data"]:
-        return []
+        return [], None
 
     posts = []
     for child in data["data"]["children"]:
@@ -121,7 +131,10 @@ def get_top_posts(
             }
         )
 
-    return posts
+    # Get the 'after' token for pagination (None if no more pages)
+    after_token = data["data"].get("after")
+
+    return posts, after_token
 
 
 def get_post_comments(post_id: str, subreddit: str) -> list[dict]:
@@ -313,21 +326,25 @@ def collect_posts(
     duplicates_skipped = 0
     posts_seen = 0  # Track total posts seen (including skipped)
     batch_size = 25  # Reddit JSON API limit per request
+    after_token = None  # For pagination
 
-    # Calculate how many posts we need to fetch (accounting for start_at)
-    # We need to fetch enough to get 'limit' posts after starting at 'start_at'
-    total_posts_needed = start_at + limit - 1
-    batches_needed = (total_posts_needed + batch_size - 1) // batch_size
+    batch_num = 0
+    while len(collected) < limit:
+        batch_num += 1
+        print(f"\n  Batch {batch_num}...")
 
-    for batch_num in range(batches_needed):
-        print(f"\n  Batch {batch_num + 1}/{batches_needed}...")
-
-        # Get batch of posts
-        posts = get_top_posts(subreddit, limit=batch_size, time_filter=time_filter)
+        # Get batch of posts with pagination
+        posts, after_token = get_top_posts(
+            subreddit, limit=batch_size, time_filter=time_filter, after=after_token
+        )
 
         if not posts:
             print("  ⚠️  No posts returned, stopping")
             break
+
+        # Note: We'll process this batch even if after_token is None (last page)
+        if after_token is None:
+            print("  ℹ️  This is the last page of results")
 
         for post in posts:
             posts_seen += 1
@@ -444,14 +461,22 @@ def collect_posts(
                 break
 
         # Rate limiting between batches - longer delay to avoid rate limits
-        if batch_num < batches_needed - 1:
+        # Only delay if we're continuing (have more posts to collect and after_token exists)
+        if len(collected) < limit and after_token is not None:
             print(
                 f"  ⏸️  Waiting {batch_delay} seconds before next batch (to avoid rate limits)..."
             )
             time.sleep(batch_delay)
-
-        # Stop if we have enough collected posts
-        if len(collected) >= limit:
+        elif after_token is None:
+            # No more pages, break after processing this batch
+            print("\n  ℹ️  Reached end of available posts (after_token is None)")
+            print(f"     Collected {len(collected)}/{limit} posts so far")
+            if len(collected) < limit:
+                print(f"     ⚠️  Could not reach target of {limit} posts.")
+                print("     💡 Suggestions:")
+                print(f"        - Lower --min-upvotes (currently {min_upvotes})")
+                print(f"        - Use longer --time-filter (currently {time_filter})")
+                print("        - Try --time-filter year or --time-filter all")
             break
 
     print(
