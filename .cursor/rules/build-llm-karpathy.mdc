@@ -240,6 +240,11 @@ This is an educational project for learning how to build Large Language Models (
    - Include visual representations of tensor operations
    - Document key learning insights
 
+4. **Documentation files**
+- Cursor agents should be judicious and sparing in creating documentation files. Historically, cursor agents have been observed to create too many documentation files that overlap too much. So if your first thought is to create three files, maybe one will do.
+- If you're creating a documentation file purely for debugging, that you don't intend to use later, please create it in a temporary folder in the repo.
+- All other documentation you create should be in a docs folder or similar, except for the few items that need to be in the repository root (such as the core @README.md). This helps to reduce clutter in the repository root and helps to keep the repository better organized.
+
 ### File Organization
 
 1. **Directory Structure**:
