@@ -19,11 +19,6 @@ from datetime import datetime
 from typing import Optional, Set
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
-from pathlib import Path
-from datetime import datetime
-from typing import Optional, Set
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError, URLError
 
 
 class TeeOutput:
@@ -115,18 +110,36 @@ def get_json(url: str, retries: int = 5) -> Optional[dict]:
     return None
 
 
-def get_top_posts(
+def get_posts(
     subreddit: str,
     limit: int = 25,
+    sort: str = "top",
     time_filter: str = "all",
     after: Optional[str] = None,
 ) -> tuple[list[dict], Optional[str]]:
-    """Get top posts from subreddit using public JSON endpoint
+    """Get posts from subreddit using public JSON endpoint
+
+    Args:
+        subreddit: Subreddit name
+        limit: Number of posts to fetch per request
+        sort: Sort method - "top", "hot", or "new"
+        time_filter: Time filter for "top" sort (all, year, month, week, day)
+        after: Pagination token
 
     Returns:
         tuple: (list of posts, after token for pagination)
     """
-    url = f"https://www.reddit.com/r/{subreddit}/top.json?limit={limit}&t={time_filter}"
+    # Build URL based on sort method
+    if sort == "top":
+        url = f"https://www.reddit.com/r/{subreddit}/top.json?limit={limit}&t={time_filter}"
+    elif sort == "hot":
+        url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
+    elif sort == "new":
+        url = f"https://www.reddit.com/r/{subreddit}/new.json?limit={limit}"
+    else:
+        # Default to top
+        url = f"https://www.reddit.com/r/{subreddit}/top.json?limit={limit}&t={time_filter}"
+
     if after:
         url += f"&after={after}"
 
@@ -308,6 +321,7 @@ def collect_posts(
     limit: int = 100,
     min_upvotes: int = 10,
     min_comment_length: int = 100,
+    sort: str = "top",
     time_filter: str = "all",
     start_at: int = 1,
     delay: float = 3.0,
@@ -318,9 +332,11 @@ def collect_posts(
     """Collect posts and comments from subreddit"""
     print(f"\nCollecting from r/{subreddit}...")
     print(f"  Target: {limit} posts")
+    print(f"  Sort method: {sort}")
     print(f"  Starting at post: {start_at}")
     print(f"  Min upvotes: {min_upvotes}")
-    print(f"  Time filter: {time_filter}")
+    if sort == "top":
+        print(f"  Time filter: {time_filter}")
     print("  Note: Using public API (slower, no auth needed)")
 
     # Load existing post IDs to avoid duplicates
@@ -355,8 +371,12 @@ def collect_posts(
         print(f"\n  Batch {batch_num}...")
 
         # Get batch of posts with pagination
-        posts, after_token = get_top_posts(
-            subreddit, limit=batch_size, time_filter=time_filter, after=after_token
+        posts, after_token = get_posts(
+            subreddit,
+            limit=batch_size,
+            sort=sort,
+            time_filter=time_filter,
+            after=after_token,
         )
 
         if not posts:
@@ -557,10 +577,16 @@ def main():
         help="Minimum comment length (default: 100)",
     )
     parser.add_argument(
+        "--sort",
+        choices=["top", "hot", "new"],
+        default="top",
+        help="Sort method: 'top' (highest scoring), 'hot' (currently trending), or 'new' (most recent). Use 'hot' or 'new' to get different posts than previous runs. (default: top)",
+    )
+    parser.add_argument(
         "--time-filter",
         choices=["all", "year", "month", "week", "day"],
         default="all",
-        help="Time filter (default: all)",
+        help="Time filter for 'top' sort only (default: all)",
     )
     parser.add_argument(
         "--subreddit",
@@ -643,7 +669,10 @@ def main():
     try:
         if not args.no_log_file:
             log_dir.mkdir(parents=True, exist_ok=True)
-            log_path = log_dir / f"reddit_collect_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+            log_path = (
+                log_dir
+                / f"reddit_collect_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+            )
             tee_log_handle = open(log_path, "w", encoding="utf-8")
             sys.stdout = TeeOutput(original_stdout, tee_log_handle)
             sys.stderr = TeeOutput(original_stderr, tee_log_handle)
@@ -662,6 +691,7 @@ def main():
             limit=args.limit,
             min_upvotes=args.min_upvotes,
             min_comment_length=args.min_comment_length,
+            sort=args.sort,
             time_filter=args.time_filter,
             start_at=args.start_at,
             delay=args.delay,

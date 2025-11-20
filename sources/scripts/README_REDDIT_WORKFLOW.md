@@ -18,12 +18,14 @@ Run the collection script to gather new posts:
 python3 sources/scripts/collect_reddit_data_no_auth.py \
   --subreddit relationship_advice \
   --limit 400 \
-  --time-filter year \
+  --sort hot \
   --min-upvotes 50 \
-  --output sources/reddit/reddit_relationship_advice_year_400_new.md \
+  --output sources/reddit/reddit_relationship_advice_hot_400.md \
   --delay 3.5 \
   --batch-delay 12.0
 ```
+
+**Note**: Use `--sort hot` or `--sort new` to get different posts than previous runs. Using `--sort top` will always return the same top-scoring posts, causing everything to be flagged as duplicates.
 
 This creates a new file in `sources/reddit/` (NOT in archive).
 
@@ -68,18 +70,19 @@ This will:
 ## Example: Adding More Data
 
 ```bash
-# 1. Collect new posts
+# 1. Collect new posts (use --sort hot or --sort new to avoid duplicates)
 python3 sources/scripts/collect_reddit_data_no_auth.py \
   --subreddit relationship_advice \
   --limit 500 \
-  --time-filter all \
+  --sort hot \
   --min-upvotes 30 \
-  --output sources/reddit/reddit_relationship_advice_all_500.md
+  --output sources/reddit/reddit_relationship_advice_hot_500.md
 
 # 2. Merge with existing merged training data
+#    NOTE: Use --new flag before the file path!
 python3 sources/scripts/merge_training_data.py \
   --existing sources/training_data_final_merged.md \
-  --new sources/reddit/reddit_relationship_advice_all_500.md \
+  --new sources/reddit/reddit_relationship_advice_hot_500.md \
   --output sources/training_data_final_merged.md
 
 # 3. (Optional) Clean up reddit directory
