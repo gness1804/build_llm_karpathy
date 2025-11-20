@@ -19,6 +19,27 @@ from datetime import datetime
 from typing import Optional, Set
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
+from pathlib import Path
+from datetime import datetime
+from typing import Optional, Set
+from urllib.request import urlopen, Request
+from urllib.error import HTTPError, URLError
+
+
+class TeeOutput:
+    """Write stdout/stderr data to multiple streams (e.g., console + log file)."""
+
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, data):
+        for stream in self.streams:
+            stream.write(data)
+        return len(data)
+
+    def flush(self):
+        for stream in self.streams:
+            stream.flush()
 
 
 def format_question(title: str, selftext: str) -> str:
@@ -575,6 +596,17 @@ def main():
         action="store_true",
         help="Disable duplicate detection (not recommended)",
     )
+    parser.add_argument(
+        "--log-dir",
+        type=Path,
+        default=None,
+        help="Directory for run logs (default: <repo_root>/logs)",
+    )
+    parser.add_argument(
+        "--no-log-file",
+        action="store_true",
+        help="Disable writing console output to a log file",
+    )
 
     args = parser.parse_args()
 
@@ -590,47 +622,73 @@ def main():
         timestamp = datetime.now().strftime("%Y%m%d")
         output_file = reddit_dir / f"reddit_{args.subreddit}_{timestamp}.md"
 
-    # Determine log file
+    # Determine log file for collected post metadata
     if args.log_file:
         log_file = Path(args.log_file)
     else:
         log_file = reddit_dir / f"reddit_{args.subreddit}_log.txt"
 
-    print("=" * 60)
-    print("Reddit Data Collector (No Auth Required)")
-    print("=" * 60)
-    print("This script uses Reddit's public JSON endpoints.")
-    print("No API credentials needed, but it's slower.")
-    print("=" * 60)
+    repo_root = script_dir.parent.parent
+    if args.log_dir:
+        log_dir = Path(args.log_dir)
+        if not log_dir.is_absolute():
+            log_dir = repo_root / log_dir
+    else:
+        log_dir = repo_root / "logs"
 
-    # Collect posts
-    collected = collect_posts(
-        subreddit=args.subreddit,
-        limit=args.limit,
-        min_upvotes=args.min_upvotes,
-        min_comment_length=args.min_comment_length,
-        time_filter=args.time_filter,
-        start_at=args.start_at,
-        delay=args.delay,
-        batch_delay=args.batch_delay,
-        log_file=log_file,
-        skip_duplicates=not args.no_skip_duplicates,
-    )
+    original_stdout = sys.stdout
+    original_stderr = sys.stderr
+    tee_log_handle = None
 
-    if not collected:
-        print("\n❌ No posts collected. Try:")
-        print("  - Lowering --min-upvotes")
-        print("  - Lowering --min-comment-length")
-        print("  - Checking if subreddit exists")
-        sys.exit(1)
+    try:
+        if not args.no_log_file:
+            log_dir.mkdir(parents=True, exist_ok=True)
+            log_path = log_dir / f"reddit_collect_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+            tee_log_handle = open(log_path, "w", encoding="utf-8")
+            sys.stdout = TeeOutput(original_stdout, tee_log_handle)
+            sys.stderr = TeeOutput(original_stderr, tee_log_handle)
+            print(f"📝 Logging output to {log_path}")
 
-    # Save to file
-    save_to_file(collected, output_file)
+        print("=" * 60)
+        print("Reddit Data Collector (No Auth Required)")
+        print("=" * 60)
+        print("This script uses Reddit's public JSON endpoints.")
+        print("No API credentials needed, but it's slower.")
+        print("=" * 60)
 
-    print(f"\n✅ Done! Collected {len(collected)} Q&A pairs")
-    print(f"   Output: {output_file}")
-    print("\nNote: This method is slower than authenticated API.")
-    print("For faster collection, try getting Reddit API access.")
+        # Collect posts
+        collected = collect_posts(
+            subreddit=args.subreddit,
+            limit=args.limit,
+            min_upvotes=args.min_upvotes,
+            min_comment_length=args.min_comment_length,
+            time_filter=args.time_filter,
+            start_at=args.start_at,
+            delay=args.delay,
+            batch_delay=args.batch_delay,
+            log_file=log_file,
+            skip_duplicates=not args.no_skip_duplicates,
+        )
+
+        if not collected:
+            print("\n❌ No posts collected. Try:")
+            print("  - Lowering --min-upvotes")
+            print("  - Lowering --min-comment-length")
+            print("  - Checking if subreddit exists")
+            sys.exit(1)
+
+        # Save to file
+        save_to_file(collected, output_file)
+
+        print(f"\n✅ Done! Collected {len(collected)} Q&A pairs")
+        print(f"   Output: {output_file}")
+        print("\nNote: This method is slower than authenticated API.")
+        print("For faster collection, try getting Reddit API access.")
+    finally:
+        sys.stdout = original_stdout
+        sys.stderr = original_stderr
+        if tee_log_handle:
+            tee_log_handle.close()
 
 
 if __name__ == "__main__":
