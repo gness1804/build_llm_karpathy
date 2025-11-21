@@ -1,0 +1,81 @@
+================================================================================
+TRAINING DATA CLEANUP REPORT
+================================================================================
+File: sources/training_data_final_merged.md
+Mode: IDENTIFY ONLY
+Date: 2025-11-21 12:34:13
+
+Total issues found: 4917
+
+
+Standalone Headlines: 1410 issues
+  Line 15: Your column
+  Line 25: Husband's therapist seems to want him to cheat.
+  Line 47: Needing a break doesn't mean I don't care
+  Line 82: Was that the question?
+  Line 83: Therapy as a condition
+  ... and 1405 more
+
+Columnist References: 31 issues
+  Line 24: --Mystified at My Desk
+  Line 73: Ned
+  Line 197: Ned video is not playing.....I want to see him!
+  Line 294: Ned
+  Line 453: Ned
+  ... and 26 more
+
+Reddit Bot Boilerplate: 2070 issues
+  Line 26373: ANSWER: Welcome to /r/relationship_advice. Please make sure you read o...
+  Line 26374: 
+  Line 26375: We do not allow any type of [am I the asshole? or situations/content i...
+  Line 26376: 
+  Line 26377: We do not allow users to privately message other users based on their ...
+  ... and 2065 more
+
+Reddit Updates: 623 issues
+  Line 2123: UPDATE:
+  Line 3685: TLDR: with EAPs, YMMV
+  Line 5317: Edit: Grammar on TL DR
+  Line 5319: Edit: Wow! I did not expect this post to blow up like it did! Thank yo...
+  Line 5378: Link to original post: https://m.reddit.com/r/relationships/comments/4...
+  ... and 618 more
+
+Urls Links: 276 issues
+  Line 813: https://www.aacap.org/AACAP/AACAP/Families_and_Youth/Facts_for_Familie...
+  Line 1055: https://www.scientificamerican.com/article/feeling-overwhelmed-by-the-...
+  Line 2369: https://wapo.st/44BqiQL
+  Line 2839: https://www.askamanager.org/2024/05/need-help-finding-a-job-start-here...
+  Line 3768: https://www.washingtonpost.com/advice/2025/05/07/carolyn-hax-remove-pi...
+  ... and 271 more
+
+Number Only Lines: 61 issues
+  Line 378: 1061
+  Line 414: 1084
+  Line 535: 1125
+  Line 769: 1101
+  Line 808: 1144
+  ... and 56 more
+
+Column Meta: 49 issues
+  Line 12: Wait, there's more to my intro that I forgot ... I will be off next Fr...
+  Line 14: Sorry I was a couple of minutes late today, too, I get stuck in pre-re...
+  Line 16: QUESTION: I think if you had come out and said that you were going to ...
+  Line 18: ANSWER: I did! I came right out and said it. In the chat right before ...
+  Line 92: QUESTION: Would you mind clarifying which days will have new questions...
+  ... and 44 more
+
+Re Prefix Lines: 101 issues
+  Line 69: Re: Neighborhood mom gives but never takes
+  Line 87: Re: husband’s therapist
+  Line 168: Re: Paige
+  Line 181: re: Paige
+  Line 210: re: husband's therapist
+  ... and 96 more
+
+Separators: 296 issues
+  Line 5578: ---
+  Line 8682: ----------------------------------------------------------------------...
+  Line 13168: --------------------------
+  Line 13472: --------------
+  Line 13476: --------------------
+  ... and 291 more
