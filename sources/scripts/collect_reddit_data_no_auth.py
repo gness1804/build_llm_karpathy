@@ -19,6 +19,7 @@ from datetime import datetime
 from typing import Optional, Set
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
+import socket
 
 
 class TeeOutput:
@@ -68,7 +69,7 @@ def format_answer(comment_body: str) -> str:
     return f"ANSWER: {answer}"
 
 
-def get_json(url: str, retries: int = 5) -> Optional[dict]:
+def get_json(url: str, retries: int = 5, timeout: int = 30) -> Optional[dict]:
     """Fetch JSON from URL with retries and rate limit handling"""
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
@@ -77,7 +78,7 @@ def get_json(url: str, retries: int = 5) -> Optional[dict]:
     for attempt in range(retries):
         try:
             req = Request(url, headers=headers)
-            with urlopen(req, timeout=10) as response:
+            with urlopen(req, timeout=timeout) as response:
                 data = json.loads(response.read().decode("utf-8"))
                 return data
         except HTTPError as e:
@@ -97,6 +98,14 @@ def get_json(url: str, retries: int = 5) -> Optional[dict]:
                 time.sleep(wait_time)
             else:
                 print(f"  ❌ Failed to fetch {url}: HTTP {e.code}")
+                return None
+        except (TimeoutError, socket.timeout) as e:
+            if attempt < retries - 1:
+                wait_time = (attempt + 1) * 5
+                print(f"  ⚠️  Timeout fetching {url}, retrying in {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                print(f"  ❌ Timeout fetching {url} after {retries} attempts")
                 return None
         except (URLError, json.JSONDecodeError) as e:
             if attempt < retries - 1:
@@ -328,6 +337,8 @@ def collect_posts(
     batch_delay: float = 10.0,
     log_file: Optional[Path] = None,
     skip_duplicates: bool = True,
+    output_file: Optional[Path] = None,
+    save_interval: int = 20,
 ) -> list[dict]:
     """Collect posts and comments from subreddit"""
     print(f"\nCollecting from r/{subreddit}...")
@@ -340,22 +351,54 @@ def collect_posts(
     print("  Note: Using public API (slower, no auth needed)")
 
     # Load existing post IDs to avoid duplicates
+    # IMPORTANT: Only check the output file, not the log file
+    # This ensures posts logged but not saved can be re-collected
     existing_post_ids = set()
     if skip_duplicates:
-        # Need to get reddit_dir and subreddit - these should be passed or derived
-        # For now, we'll get them from log_file path
-        if log_file:
-            reddit_dir = log_file.parent
-            # Extract subreddit from log filename or use default
-            subreddit_name = subreddit  # Use the parameter
-        else:
-            reddit_dir = Path("sources/reddit")  # Default fallback
-            subreddit_name = subreddit
-
-        existing_post_ids = load_existing_post_ids(log_file, reddit_dir, subreddit_name)
+        # Only load from the output file if it exists
+        if output_file and output_file.exists():
+            print(f"  📂 Checking output file for existing post IDs...")
+            try:
+                with open(output_file, "r", encoding="utf-8") as f:
+                    content = f.read()
+                    # Find all URLs in the file
+                    url_pattern = (
+                        r"# URL: (https://www\.reddit\.com/r/[^/]+/comments/[^/]+/[^\s]+)"
+                    )
+                    urls = re.findall(url_pattern, content)
+                    
+                    for url in urls:
+                        post_id = extract_post_id_from_url(url)
+                        if post_id:
+                            existing_post_ids.add(post_id)
+                    
+                    # Also check for post IDs in the format "t3_xxx" from Reddit's name field
+                    # These might be in comments or other metadata
+                    name_pattern = r"t3_[a-z0-9]+"
+                    names = re.findall(name_pattern, content, re.IGNORECASE)
+                    existing_post_ids.update(names)
+                    
+            except Exception as e:
+                print(f"  ⚠️  Could not read output file for duplicate checking: {e}")
+        
+        # Also check other output files for this subreddit (for backwards compatibility)
+        # but only if the specified output file doesn't exist or is empty
+        if not existing_post_ids:
+            if log_file:
+                reddit_dir = log_file.parent
+            else:
+                reddit_dir = Path("sources/reddit")
+            
+            output_post_ids = load_post_ids_from_output_files(reddit_dir, subreddit)
+            existing_post_ids.update(output_post_ids)
+        
         if existing_post_ids:
             print(
-                f"  📋 Loaded {len(existing_post_ids)} existing post IDs (will skip duplicates)"
+                f"  📋 Loaded {len(existing_post_ids)} existing post IDs from output file(s) (will skip duplicates)"
+            )
+        else:
+            print(
+                f"  ℹ️  No existing posts found in output file - all posts will be collected"
             )
 
     collected = []
@@ -364,6 +407,13 @@ def collect_posts(
     posts_seen = 0  # Track total posts seen (including skipped)
     batch_size = 25  # Reddit JSON API limit per request
     after_token = None  # For pagination
+    
+    # Track incremental saving
+    saved_count = 0
+    if output_file:
+        saved_count = count_existing_posts_in_file(output_file)
+        if saved_count > 0:
+            print(f"  💾 Found {saved_count} existing posts in output file (will append)")
 
     batch_num = 0
     while len(collected) < limit:
@@ -493,6 +543,14 @@ def collect_posts(
                 f"      ✅ Collected (total: {len(collected)}, skipped: {skipped}, duplicates: {duplicates_skipped})"
             )
 
+            # Incremental save every save_interval posts
+            if output_file and len(collected) > 0 and len(collected) % save_interval == 0:
+                unsaved_posts = collected[saved_count:]
+                if unsaved_posts:
+                    print(f"\n  💾 Saving {len(unsaved_posts)} posts to file (incremental save #{len(collected) // save_interval})...")
+                    save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
+                    saved_count = len(collected)
+
             # Rate limiting - be more respectful to avoid 429 errors
             # Reddit's public API is stricter, so we need longer delays
             time.sleep(delay)
@@ -525,13 +583,28 @@ def collect_posts(
     )
     if log_file:
         print(f"   📋 Log file: {log_file}")
+    
+    # Save any remaining unsaved posts
+    if output_file and len(collected) > saved_count:
+        unsaved_posts = collected[saved_count:]
+        print(f"\n  💾 Saving final {len(unsaved_posts)} posts to file...")
+        save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
+    
     return collected
 
 
-def save_to_file(collected: list[dict], output_file: Path):
-    """Save collected data to file"""
-    with open(output_file, "w", encoding="utf-8") as f:
-        for i, item in enumerate(collected, 1):
+def save_to_file(collected: list[dict], output_file: Path, append: bool = False, start_index: int = 1):
+    """Save collected data to file
+    
+    Args:
+        collected: List of post dictionaries to save
+        output_file: Path to output file
+        append: If True, append to existing file; if False, overwrite
+        start_index: Starting index for post numbering (used when appending)
+    """
+    mode = "a" if append else "w"
+    with open(output_file, mode, encoding="utf-8") as f:
+        for i, item in enumerate(collected, start_index):
             f.write(f"\n{'='*80}\n")
             f.write(f"# Reddit Post {i}\n")
             f.write(
@@ -542,9 +615,25 @@ def save_to_file(collected: list[dict], output_file: Path):
             f.write(f"{item['question']}\n\n")
             f.write(f"{item['answer']}\n\n")
 
-    print(f"✅ Saved {len(collected)} Q&A pairs to {output_file}")
+    action = "Appended" if append else "Saved"
+    print(f"✅ {action} {len(collected)} Q&A pairs to {output_file}")
     file_size = output_file.stat().st_size
     print(f"   File size: {file_size / 1024:.1f} KB ({file_size / (1024*1024):.2f} MB)")
+
+
+def count_existing_posts_in_file(output_file: Path) -> int:
+    """Count how many posts are already in the output file"""
+    if not output_file.exists():
+        return 0
+    
+    try:
+        with open(output_file, "r", encoding="utf-8") as f:
+            content = f.read()
+            # Count occurrences of "# Reddit Post" pattern
+            count = len(re.findall(r"# Reddit Post \d+", content))
+            return count
+    except Exception:
+        return 0
 
 
 def main():
@@ -633,6 +722,12 @@ def main():
         action="store_true",
         help="Disable writing console output to a log file",
     )
+    parser.add_argument(
+        "--save-interval",
+        type=int,
+        default=20,
+        help="Save collected posts to file every N posts (default: 20). This prevents data loss if the script crashes.",
+    )
 
     args = parser.parse_args()
 
@@ -685,20 +780,46 @@ def main():
         print("No API credentials needed, but it's slower.")
         print("=" * 60)
 
-        # Collect posts
-        collected = collect_posts(
-            subreddit=args.subreddit,
-            limit=args.limit,
-            min_upvotes=args.min_upvotes,
-            min_comment_length=args.min_comment_length,
-            sort=args.sort,
-            time_filter=args.time_filter,
-            start_at=args.start_at,
-            delay=args.delay,
-            batch_delay=args.batch_delay,
-            log_file=log_file,
-            skip_duplicates=not args.no_skip_duplicates,
-        )
+        # Collect posts - wrap in try/except to save partial results on error
+        collected = []
+        try:
+            collected = collect_posts(
+                subreddit=args.subreddit,
+                limit=args.limit,
+                min_upvotes=args.min_upvotes,
+                min_comment_length=args.min_comment_length,
+                sort=args.sort,
+                time_filter=args.time_filter,
+                start_at=args.start_at,
+                delay=args.delay,
+                batch_delay=args.batch_delay,
+                log_file=log_file,
+                skip_duplicates=not args.no_skip_duplicates,
+                output_file=output_file,
+                save_interval=args.save_interval,
+            )
+        except (KeyboardInterrupt, SystemExit):
+            print("\n\n⚠️  Collection interrupted by user")
+            # Final save of any unsaved posts
+            if output_file and collected:
+                saved_count = count_existing_posts_in_file(output_file)
+                unsaved_posts = collected[saved_count:]
+                if unsaved_posts:
+                    print(f"\n  💾 Saving {len(unsaved_posts)} unsaved posts before exit...")
+                    save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
+            raise
+        except Exception as e:
+            print(f"\n\n⚠️  Error during collection: {e}")
+            # Final save of any unsaved posts
+            if output_file and collected:
+                saved_count = count_existing_posts_in_file(output_file)
+                unsaved_posts = collected[saved_count:]
+                if unsaved_posts:
+                    print(f"\n  💾 Saving {len(unsaved_posts)} unsaved posts before exit...")
+                    save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
+                    print(f"\n✅ Partial results saved to {output_file}")
+                    print(f"   You can resume collection later or merge this file now.")
+            sys.exit(1)
 
         if not collected:
             print("\n❌ No posts collected. Try:")
@@ -707,8 +828,12 @@ def main():
             print("  - Checking if subreddit exists")
             sys.exit(1)
 
-        # Save to file
-        save_to_file(collected, output_file)
+        # Note: Posts are already saved incrementally, but we ensure final save happened
+        saved_count = count_existing_posts_in_file(output_file)
+        if len(collected) > saved_count:
+            unsaved_posts = collected[saved_count:]
+            print(f"\n  💾 Saving final {len(unsaved_posts)} posts...")
+            save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
 
         print(f"\n✅ Done! Collected {len(collected)} Q&A pairs")
         print(f"   Output: {output_file}")
