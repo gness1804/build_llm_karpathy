@@ -99,7 +99,7 @@ def get_json(url: str, retries: int = 5, timeout: int = 30) -> Optional[dict]:
             else:
                 print(f"  ❌ Failed to fetch {url}: HTTP {e.code}")
                 return None
-        except (TimeoutError, socket.timeout) as e:
+        except (TimeoutError, socket.timeout):
             if attempt < retries - 1:
                 wait_time = (attempt + 1) * 5
                 print(f"  ⚠️  Timeout fetching {url}, retrying in {wait_time}s...")
@@ -357,7 +357,7 @@ def collect_posts(
     if skip_duplicates:
         # Only load from the output file if it exists
         if output_file and output_file.exists():
-            print(f"  📂 Checking output file for existing post IDs...")
+            print("  📂 Checking output file for existing post IDs...")
             try:
                 with open(output_file, "r", encoding="utf-8") as f:
                     content = f.read()
@@ -398,7 +398,7 @@ def collect_posts(
             )
         else:
             print(
-                f"  ℹ️  No existing posts found in output file - all posts will be collected"
+                "  ℹ️  No existing posts found in output file - all posts will be collected"
             )
 
     collected = []
@@ -818,7 +818,7 @@ def main():
                     print(f"\n  💾 Saving {len(unsaved_posts)} unsaved posts before exit...")
                     save_to_file(unsaved_posts, output_file, append=(saved_count > 0), start_index=saved_count + 1)
                     print(f"\n✅ Partial results saved to {output_file}")
-                    print(f"   You can resume collection later or merge this file now.")
+                    print("   You can resume collection later or merge this file now.")
             sys.exit(1)
 
         if not collected:
