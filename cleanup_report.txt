@@ -3,23 +3,35 @@ TRAINING DATA CLEANUP REPORT
 ================================================================================
 File: sources/training_data_final_merged.md
 Mode: REMOVE
-Date: 2025-11-21 19:49:22
+Date: 2025-11-21 20:00:15
 
-Total issues found: 241
+Total issues found: 79
 
 
-Standalone Headlines: 221 issues
-  Line 61: Money
-  Line 139: Feel bad all the time
-  Line 153: Communication styles
-  Line 168: Any discussion of the wife's side of the ledger was about a responsibi...
-  Line 238: Just have to share, I did the most DC thing ever and started this chat...
-  ... and 216 more
+Standalone Headlines: 16 issues
+  Line 670: That's all the makeup you owe; no need to lay burnt offerings at her f...
+  Line 804: This does seem to need eyes on it, I'm sorry. In a way I hope they wer...
+  Line 2172: What you choose to tell them, though, is. So I hope you will be forthc...
+  Line 3076: But when you give me "My heart is not in it" and "my weak relationship...
+  Line 3838: Any other cost shaving you can do elsewhere would also be good. This i...
+  ... and 11 more
 
-Columnist References: 20 issues
-  Line 58: QUESTION: You promised us Ned, but only posted a pile of leaves! So di...
-  Line 150: QUESTION: Ned vid is not playing on my Chromrbook. I want to see him!
-  Line 283: QUESTION: I'm wondering why you Posties didn't use the standard method...
-  Line 376: QUESTION: Thank you for my weekly smile and BTW Ned has beautiful whit...
-  Line 440: QUESTION: Not a question BUT -- if you page down juuuust to the tip of...
-  ... and 15 more
+Meaningless Answers: 52 issues
+  Line 146: ANSWER: 👏👏👏
+  Line 231: ANSWER:  and
+  Line 234: ANSWER:  and
+  Line 273: ANSWER:  and
+  Line 276: ANSWER:  and
+  ... and 47 more
+
+Technical Questions: 9 issues
+  Line 293: QUESTION: “Click for more” isn’t working.
+  Line 319: QUESTION: what browser is where it's working? because it's not working...
+  Line 322: QUESTION: Is there a really big button that works on everything not ju...
+  Line 336: QUESTION: I can see the “click for more” now, so you are definitely no...
+  Line 339: QUESTION: Not working for chrome of safari. I'm on a mac.
+  ... and 4 more
+
+Headline Continuations: 2 issues
+  Line 212: (click for more)
+  Line 8825: "K"
