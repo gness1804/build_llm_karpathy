@@ -2,10 +2,10 @@
 TRAINING DATA CLEANUP REPORT
 ================================================================================
 File: sources/training_data_final_merged.md
-Mode: IDENTIFY ONLY
-Date: 2025-11-21 12:34:13
+Mode: REMOVE
+Date: 2025-11-21 14:06:07
 
-Total issues found: 4917
+Total issues found: 4734
 
 
 Standalone Headlines: 1410 issues
@@ -40,14 +40,6 @@ Reddit Updates: 623 issues
   Line 5378: Link to original post: https://m.reddit.com/r/relationships/comments/4...
   ... and 618 more
 
-Urls Links: 276 issues
-  Line 813: https://www.aacap.org/AACAP/AACAP/Families_and_Youth/Facts_for_Familie...
-  Line 1055: https://www.scientificamerican.com/article/feeling-overwhelmed-by-the-...
-  Line 2369: https://wapo.st/44BqiQL
-  Line 2839: https://www.askamanager.org/2024/05/need-help-finding-a-job-start-here...
-  Line 3768: https://www.washingtonpost.com/advice/2025/05/07/carolyn-hax-remove-pi...
-  ... and 271 more
-
 Number Only Lines: 61 issues
   Line 378: 1061
   Line 414: 1084
@@ -56,13 +48,13 @@ Number Only Lines: 61 issues
   Line 808: 1144
   ... and 56 more
 
-Column Meta: 49 issues
+Column Meta: 142 issues
   Line 12: Wait, there's more to my intro that I forgot ... I will be off next Fr...
   Line 14: Sorry I was a couple of minutes late today, too, I get stuck in pre-re...
   Line 16: QUESTION: I think if you had come out and said that you were going to ...
+  Line 17: 
   Line 18: ANSWER: I did! I came right out and said it. In the chat right before ...
-  Line 92: QUESTION: Would you mind clarifying which days will have new questions...
-  ... and 44 more
+  ... and 137 more
 
 Re Prefix Lines: 101 issues
   Line 69: Re: Neighborhood mom gives but never takes
