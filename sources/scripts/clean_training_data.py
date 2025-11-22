@@ -71,35 +71,47 @@ class TrainingDataCleaner:
         if prev_line and prev_line.strip().startswith("QUESTION:"):
             return False
         
-        # Skip if it's clearly part of an answer (follows ANSWER:)
-        if prev_line and prev_line.strip().startswith("ANSWER:"):
-            return False
+        # Don't skip if previous line is ANSWER: - standalone headlines can appear after answers
+        # (they're Reddit post titles that appear between Q&A pairs)
         
         # Patterns that indicate standalone headlines
         headline_patterns = [
-            r"^[A-Z][a-z]+'s [a-z]+",  # "Husband's therapist"
+            r"^[A-Z][a-z]+'s [A-Za-z]+",  # "Husband's therapist" or "Husband's Therapist"
             r"^[A-Z][a-z]+ [a-z]+ [a-z]+",  # "Needing a break"
             r"^[A-Z][a-z]+ [a-z]+ [a-z]+ [a-z]+",  # "How do I move on"
             r"^[A-Z][a-z]+ [a-z]+ [a-z]+ [a-z]+ [a-z]+",  # Longer headlines
             r"^[A-Z][a-z]+$",  # Single word capitalized (like "Money", "Ned")
-            r"^[A-Z][a-z]+ [a-z]+$",  # Two words (like "Go Ask")
+            r"^[A-Z][a-z]+ [a-z]+$",  # Two words (like "Go Ask", "Communication styles")
+            # Lowercase headlines (often Reddit post titles)
+            r"^[a-z]+ [a-z]+ [a-z]+",  # "where is the line"
+            r"^[a-z]+ [a-z]+ [a-z]+ [a-z]+",  # Longer lowercase headlines
+            r"^where is the",  # Specific pattern for "where is the line/communication style"
+            # Standalone comments/phrases that are clearly not questions
+            r"^Think I'm",  # "Think I'm just off to kiss my husband."
         ]
         
-        # Check if it matches headline patterns AND is followed by QUESTION: or ANSWER:
+        # Check if it matches headline patterns
         if any(re.match(pattern, stripped) for pattern in headline_patterns):
             # If next line starts with QUESTION: or ANSWER:, it's likely a standalone headline
             if next_line and (next_line.strip().startswith("QUESTION:") or 
                             next_line.strip().startswith("ANSWER:")):
                 return True
-            # If it's a short line (likely a title) and previous was blank/separator
-            if len(stripped) < 100 and (not prev_line.strip() or self.is_separator(prev_line)):
-                return True
+            # If it's a short line (likely a title) and previous was blank/separator/ANSWER
+            if len(stripped) < 100:
+                prev_stripped = prev_line.strip() if prev_line else ""
+                if (not prev_stripped or 
+                    self.is_separator(prev_line) or 
+                    prev_stripped.startswith("ANSWER:")):
+                    return True
         
         return False
     
     def is_columnist_reference(self, line: str) -> bool:
         """Check if line contains columnist references"""
-        patterns = [
+        stripped = line.strip()
+        
+        # Check for lines starting with columnist names
+        start_patterns = [
             r"^Carolyn",
             r"^Hax",
             r"^Carolyn Hax",
@@ -111,8 +123,25 @@ class TrainingDataCleaner:
             r"^Nick['s]?",
             r"Carolyn Hax chat:",
         ]
-        stripped = line.strip()
-        return any(re.match(pattern, stripped, re.IGNORECASE) for pattern in patterns)
+        if any(re.match(pattern, stripped, re.IGNORECASE) for pattern in start_patterns):
+            return True
+        
+        # Also check if QUESTION: lines are about Ned (the dog) or other columnist references
+        if stripped.startswith("QUESTION:"):
+            question_text = stripped[9:].strip()  # Remove "QUESTION:" prefix
+            # Check for Ned references in questions (Ned is a dog, not relevant for training)
+            ned_patterns = [
+                r"\bNed\b",
+                r"Ned vid",
+                r"Ned video",
+                r"Ned's",
+                r"see Ned",
+                r"show Ned",
+            ]
+            if any(re.search(pattern, question_text, re.IGNORECASE) for pattern in ned_patterns):
+                return True
+        
+        return False
     
     def is_reddit_bot_boilerplate(self, lines: List[str], idx: int) -> bool:
         """Check if current line is part of Reddit bot boilerplate section"""
