@@ -40,6 +40,9 @@ class TrainingDataCleaner:
             "column_meta": [],
             "re_prefix_lines": [],
             "separators": [],
+            "meaningless_answers": [],
+            "technical_questions": [],
+            "headline_continuations": [],
         }
         
     def is_reddit_metadata(self, line: str) -> bool:
@@ -250,6 +253,124 @@ class TrainingDataCleaner:
             return True
         return False
     
+    def is_meaningless_answer(self, line: str) -> bool:
+        """Check if answer is meaningless (single word, very short, etc.)"""
+        stripped = line.strip()
+        if not stripped.startswith("ANSWER:"):
+            return False
+        
+        # Extract the answer content (after "ANSWER:")
+        answer_content = stripped[7:].strip()  # Remove "ANSWER:" prefix
+        
+        # Check for meaningless single-word answers
+        meaningless_words = ["and", "or", "but", "the", "a", "an", "it", "is", "was", "are", "were"]
+        if answer_content.lower() in meaningless_words:
+            return True
+        
+        # Check for very short answers (less than 10 characters, excluding punctuation)
+        answer_clean = re.sub(r'[^\w\s]', '', answer_content)
+        if len(answer_clean.strip()) < 10 and len(answer_content) < 20:
+            return True
+        
+        return False
+    
+    def is_technical_question(self, line: str) -> bool:
+        """Check if question is about technical issues (browser, video, etc.)"""
+        stripped = line.strip()
+        if not stripped.startswith("QUESTION:"):
+            return False
+        
+        question_text = stripped[9:].strip().lower()  # Remove "QUESTION:" prefix
+        
+        # More specific technical issue patterns (avoid false positives)
+        # These patterns indicate questions about website/browser/video technical issues
+        technical_patterns = [
+            r"\bbrowser\b.*working",  # "browser" and "working" together
+            r"not working.*browser",  # "not working" with "browser"
+            r"chrome|firefox|safari|edge.*not working",  # Specific browser + not working
+            r"video.*not playing",  # Video playback issues
+            r"not playing.*video",  # Video playback issues
+            r"refresh.*button",  # Refresh button issues
+            r"button.*works",  # Button functionality
+            r"click.*not working",  # Click functionality
+            r"website.*broken",  # Website issues
+            r"page.*loading",  # Page loading issues
+            r"link.*broken",  # Broken links
+            r"error.*page",  # Error pages
+            r"what browser",  # Direct browser questions
+            r"which browser",  # Browser selection questions
+        ]
+        
+        # Check for specific technical question patterns
+        if any(re.search(pattern, question_text) for pattern in technical_patterns):
+            return True
+        
+        # Also check for very short technical questions (likely about UI/technical issues)
+        if len(question_text) < 100:
+            short_tech_keywords = ["browser", "chrome", "firefox", "safari", "edge", "video", "button", "click"]
+            if any(keyword in question_text for keyword in short_tech_keywords):
+                return True
+        
+        return False
+    
+    def is_headline_continuation(self, line: str, prev_line: str, lines: List[str], idx: int) -> bool:
+        """Check if line is a continuation of a headline (like "click for more")"""
+        stripped = line.strip()
+        stripped_lower = stripped.lower()
+        
+        # Skip if it's a QUESTION: or ANSWER: line
+        if stripped.startswith("QUESTION:") or stripped.startswith("ANSWER:"):
+            return False
+        
+        # Look back past blank lines to find the previous QUESTION: or ANSWER:
+        prev_non_blank = None
+        for i in range(idx - 1, max(-1, idx - 10), -1):  # Look back up to 10 lines
+            if i >= 0 and lines[i].strip():
+                prev_non_blank = lines[i].strip()
+                break
+        
+        # Skip if we found a QUESTION: or ANSWER: in recent lines (it's part of that Q&A, not a headline)
+        if prev_non_blank and (prev_non_blank.startswith("QUESTION:") or prev_non_blank.startswith("ANSWER:")):
+            return False
+        
+        # Skip if line looks like it's part of a question/answer (starts with "I (", "My ", etc.)
+        # These are common question/answer continuations, not headlines
+        if re.match(r'^[A-Z][a-z]+ \([0-9]+[MF]\)', stripped):
+            return False
+        if re.match(r'^[A-Z][a-z]+ (was|is|am|are|have|had)', stripped):
+            return False
+        # Skip long lines that are clearly question/answer content, not headlines
+        if len(stripped) > 100:
+            return False
+        
+        # Common headline continuation phrases (exact matches or contained)
+        continuation_phrases = [
+            "click for more",
+            "read more",
+            "see more",
+            "continue reading",
+            "more below",
+            '"click for more"',
+            '(click for more)',
+        ]
+        
+        if any(phrase in stripped_lower for phrase in continuation_phrases):
+            return True
+        
+        # Check for quoted single-character or very short phrases (likely UI elements)
+        # But only if they're very short (1-3 characters)
+        if stripped.startswith('"') and stripped.endswith('"') and len(stripped) <= 5:
+            # Only catch very short ones like "K"
+            if len(stripped) <= 5:
+                return True
+        
+        # Check for parenthesized short phrases that are clearly UI elements
+        if stripped.startswith('(') and stripped.endswith(')') and len(stripped) < 30:
+            if any(phrase in stripped_lower for phrase in ["click", "more", "read"]):
+                return True
+        
+        return False
+    
     def analyze_file(self) -> Tuple[List[str], dict]:
         """Analyze file and return cleaned lines and issues found"""
         with open(self.input_file, "r", encoding="utf-8") as f:
@@ -324,7 +445,12 @@ class TrainingDataCleaner:
                     should_remove = True
                     issue_type = "column_meta"
             
-            # If we're in the middle of removing a column_meta Q&A pair, continue removing
+            # If we're removing a technical question, also remove its answer
+            # (Technical questions are not useful for training)
+            if should_remove and issue_type == "technical_questions":
+                in_question_to_remove = True
+            
+            # If we're in the middle of removing a Q&A pair (column_meta or technical), continue removing
             elif in_question_to_remove:
                 stripped = line.strip()
                 # Stop removing when we hit the next QUESTION:
@@ -336,17 +462,38 @@ class TrainingDataCleaner:
                         should_remove = True
                         issue_type = "column_meta"
                         in_question_to_remove = True
+                    elif self.is_technical_question(line):
+                        should_remove = True
+                        issue_type = "technical_questions"
+                        in_question_to_remove = True
                     else:
                         should_remove = False
                 else:
                     # Continue removing lines in this Q&A pair (answer and any continuation)
+                    # Use the original issue type (column_meta or technical_questions)
                     should_remove = True
-                    issue_type = "column_meta"
+                    if issue_type is None:
+                        issue_type = "technical_questions"  # Default if we lost track
             
             # Check for Re: prefix lines
             elif self.is_re_prefix(line):
                 should_remove = True
                 issue_type = "re_prefix_lines"
+            
+            # Check for meaningless answers (single word, very short)
+            elif self.is_meaningless_answer(line):
+                should_remove = True
+                issue_type = "meaningless_answers"
+            
+            # Check for technical questions (browser, video, etc.)
+            elif self.is_technical_question(line):
+                should_remove = True
+                issue_type = "technical_questions"
+            
+            # Check for headline continuations
+            elif self.is_headline_continuation(line, prev_line, lines, idx):
+                should_remove = True
+                issue_type = "headline_continuations"
             
             # Track issues
             if should_remove and issue_type:
