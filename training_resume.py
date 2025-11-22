@@ -418,6 +418,11 @@ def write_output_file(output_path, hyperparameters, captured_output):
 if ENABLE_CHECKPOINTS:
     os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
+# Create log directory for checkpoint logs
+LOG_DIR = os.environ.get("LOG_DIR", "logs")
+if ENABLE_CHECKPOINTS:
+    os.makedirs(LOG_DIR, exist_ok=True)
+
 if ENABLE_OUTPUT_TO_FILE:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -513,6 +518,25 @@ print(f"Total training steps: {resume_step + RESUME_STEPS}")
 print(f"Checkpoint interval: {CHECKPOINT_INTERVAL} steps")
 print(f"{'=' * 60}\n")
 
+# Get model and source names for checkpoint log naming
+model_name = get_model_name(model)
+source_name = get_data_source_name(data_source)
+
+# Initialize checkpoint log file
+checkpoint_log_file = None
+checkpoint_log_path = None
+if ENABLE_CHECKPOINTS:
+    timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
+    log_filename = f"resume_training_log_{model_name}_{source_name}_{timestamp}.log"
+    checkpoint_log_path = os.path.join(LOG_DIR, log_filename)
+    checkpoint_log_file = open(checkpoint_log_path, "w", encoding="utf-8")
+    checkpoint_log_file.write(f"Resume Training Log - Started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    checkpoint_log_file.write(f"Resuming from step {resume_step}\n")
+    checkpoint_log_file.write(f"Training for {RESUME_STEPS} additional steps\n")
+    checkpoint_log_file.write("=" * 80 + "\n")
+    checkpoint_log_file.flush()
+    print(f"📝 Checkpoint log: {checkpoint_log_path}")
+
 start_time = time.time()
 total_steps = resume_step + RESUME_STEPS
 
@@ -536,6 +560,22 @@ for step in range(resume_step, total_steps):
             checkpoint_path = save_checkpoint(step, model, optimizer)
             if checkpoint_path:
                 print(f"   💾 Checkpoint saved: {checkpoint_path}")
+                # Append current output to checkpoint log
+                if checkpoint_log_file:
+                    # Get all output captured so far
+                    if tee_output:
+                        log_content = tee_output.getvalue()
+                    else:
+                        # If no tee_output, we can't capture past output, but we can log current state
+                        log_content = f"\n--- Checkpoint at step {step} ---\n"
+                        log_content += f"Train loss: {losses['train']:.4f}, Val loss: {losses['val']:.4f}\n"
+                        log_content += f"Elapsed time: {elapsed:.1f}s\n"
+                        log_content += f"Steps/sec: {steps_per_sec:.2f}\n"
+                    checkpoint_log_file.write(f"\n{'='*80}\n")
+                    checkpoint_log_file.write(f"CHECKPOINT at step {step} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    checkpoint_log_file.write(f"{'='*80}\n")
+                    checkpoint_log_file.write(log_content)
+                    checkpoint_log_file.flush()
 
     # Progress indicator
     elif step > resume_step and (step - resume_step) % 25 == 0:
@@ -572,6 +612,19 @@ if ENABLE_CHECKPOINTS:
     final_checkpoint_path = save_checkpoint(total_steps, model, optimizer)
     if final_checkpoint_path:
         print(f"✅ Final checkpoint saved: {final_checkpoint_path}")
+    # Write final output to checkpoint log
+    if checkpoint_log_file:
+        if tee_output:
+            log_content = tee_output.getvalue()
+        else:
+            log_content = f"\n--- Final checkpoint at step {total_steps} ---\n"
+        checkpoint_log_file.write(f"\n{'='*80}\n")
+        checkpoint_log_file.write(f"FINAL CHECKPOINT at step {total_steps} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        checkpoint_log_file.write(f"{'='*80}\n")
+        checkpoint_log_file.write(log_content)
+        checkpoint_log_file.write(f"\nResume training completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        checkpoint_log_file.close()
+        print(f"📝 Checkpoint log saved: {checkpoint_log_path}")
 
 # Summarize each loss that appeared and the differences between them
 losses = estimate_loss()

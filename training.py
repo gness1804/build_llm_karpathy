@@ -206,6 +206,11 @@ if ENABLE_OUTPUT_TO_FILE:
 if ENABLE_CHECKPOINTS:
     os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 
+# Create log directory for checkpoint logs
+LOG_DIR = os.environ.get("LOG_DIR", "logs")
+if ENABLE_CHECKPOINTS:
+    os.makedirs(LOG_DIR, exist_ok=True)
+
 # Initialize stdout capture if output to file is enabled
 tee_output = None
 original_stdout = None
@@ -801,6 +806,19 @@ print("-" * 50)
 model_name = get_model_name(model)
 source_name = get_data_source_name(TRAINING_DATA_SOURCE)
 
+# Initialize checkpoint log file
+checkpoint_log_file = None
+checkpoint_log_path = None
+if ENABLE_CHECKPOINTS:
+    timestamp = datetime.now().strftime("%m%d%Y_%H%M%S")
+    log_filename = f"training_log_{model_name}_{source_name}_{timestamp}.log"
+    checkpoint_log_path = os.path.join(LOG_DIR, log_filename)
+    checkpoint_log_file = open(checkpoint_log_path, "w", encoding="utf-8")
+    checkpoint_log_file.write(f"Training Log - Started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    checkpoint_log_file.write("=" * 80 + "\n")
+    checkpoint_log_file.flush()
+    print(f"📝 Checkpoint log: {checkpoint_log_path}")
+
 start_time = time.time()
 
 for step in range(training_steps):
@@ -811,10 +829,12 @@ for step in range(training_steps):
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed if step > 0 else 0
         progress_pct = (step / training_steps) * 100
+        net_loss_change_since_beginning = losses['train'] - losses['train'][0]  # This is the net loss change since the beginning of the training
+        net_loss_change_since_last_checkpoint = losses['train'] - losses['train'][step - CHECKPOINT_INTERVAL]  # This is the net loss change since the last checkpoint
         # Get current learning rate for display
         current_lr = optimizer.param_groups[0]["lr"]
         print(
-            f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | LR: {current_lr:.2e} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec)"
+            f"step {step}/{training_steps} ({progress_pct:.1f}%): train loss {losses['train']:.4f}, val loss {losses['val']:.4f} | LR: {current_lr:.2e} | {elapsed:.1f}s ({steps_per_sec:.2f} steps/sec) | Net loss change since beginning: {net_loss_change_since_beginning:.4f} | Net loss change since last checkpoint: {net_loss_change_since_last_checkpoint:.4f}"
         )
 
         # Save checkpoint if enabled
@@ -824,6 +844,23 @@ for step in range(training_steps):
             )
             if checkpoint_path:
                 print(f"   💾 Checkpoint saved: {checkpoint_path}")
+                # Append current output to checkpoint log
+                if checkpoint_log_file:
+                    # Get all output captured so far
+                    if tee_output:
+                        log_content = tee_output.getvalue()
+                    else:
+                        # If no tee_output, we can't capture past output, but we can log current state
+                        log_content = f"\n--- Checkpoint at step {step} ---\n"
+                        log_content += f"Train loss: {losses['train']:.4f}, Val loss: {losses['val']:.4f}\n"
+                        log_content += f"Learning rate: {current_lr:.2e}\n"
+                        log_content += f"Elapsed time: {elapsed:.1f}s\n"
+                        log_content += f"Steps/sec: {steps_per_sec:.2f}\n"
+                    checkpoint_log_file.write(f"\n{'='*80}\n")
+                    checkpoint_log_file.write(f"CHECKPOINT at step {step} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    checkpoint_log_file.write(f"{'='*80}\n")
+                    checkpoint_log_file.write(log_content)
+                    checkpoint_log_file.flush()
 
     # Print progress more frequently in production mode to show it's not hung
     elif step > 0 and step % 25 == 0:
@@ -850,7 +887,15 @@ for step in range(training_steps):
 
     # Gradient clipping to prevent exploding gradients (especially important for fine-tuning)
     if MODEL_TYPE == "gpt2":
-        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        # For LoRA, only clip trainable parameters (LoRA adapters)
+        # Clipping frozen parameters is unnecessary and can cause issues
+        if USE_LORA:
+            trainable_params = [p for p in model.parameters() if p.requires_grad]
+            if len(trainable_params) > 0:
+                torch.nn.utils.clip_grad_norm_(trainable_params, max_norm=1.0)
+        else:
+            # For full fine-tuning, clip all parameters
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
 
     # Update parameters
     optimizer.step()
@@ -873,6 +918,20 @@ if ENABLE_CHECKPOINTS:
     )
     if final_checkpoint_path:
         print(f"✅ Final model saved: {final_checkpoint_path}")
+    # Write final output to checkpoint log
+    if checkpoint_log_file:
+        if tee_output:
+            log_content = tee_output.getvalue()
+        else:
+            log_content = f"\n--- Final checkpoint at step {training_steps} ---\n"
+            log_content += f"Final loss: {loss.item():.4f}\n"
+        checkpoint_log_file.write(f"\n{'='*80}\n")
+        checkpoint_log_file.write(f"FINAL CHECKPOINT at step {training_steps} - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        checkpoint_log_file.write(f"{'='*80}\n")
+        checkpoint_log_file.write(log_content)
+        checkpoint_log_file.write(f"\nTraining completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        checkpoint_log_file.close()
+        print(f"📝 Checkpoint log saved: {checkpoint_log_path}")
 
 # ============================================================================
 # GENERATION
