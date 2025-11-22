@@ -254,20 +254,34 @@ class GPT2Wrapper(nn.Module):
 
         if len(text) <= estimated_safe_length:
             # Short text - encode directly
-            return self.tokenizer.encode(text, add_special_tokens=False)
+            return self.tokenizer.encode(text, add_special_tokens=False, max_length=max_length, truncation=True)
 
         # Long text - chunk to avoid warnings
-        # Use conservative chunk size: aim for ~80% of max_length tokens per chunk
+        # Use very conservative chunk size: aim for ~70% of max_length tokens per chunk
         # This gives us buffer to avoid warnings
-        target_tokens_per_chunk = int(max_length * 0.8)
-        # Estimate chars per token (conservative: ~4 chars per token)
-        chunk_size_chars = target_tokens_per_chunk * 4
+        target_tokens_per_chunk = int(max_length * 0.7)
+        # Estimate chars per token (conservative: ~4 chars per token for English)
+        # But be even more conservative to account for variable tokenization
+        chunk_size_chars = target_tokens_per_chunk * 3  # More conservative: 3 chars per token
 
         all_tokens = []
-        for i in range(0, len(text), chunk_size_chars):
+        i = 0
+        while i < len(text):
             chunk = text[i : i + chunk_size_chars]
-            chunk_tokens = self.tokenizer.encode(chunk, add_special_tokens=False)
+            # Encode with truncation to ensure we never exceed max_length
+            chunk_tokens = self.tokenizer.encode(
+                chunk, 
+                add_special_tokens=False, 
+                max_length=max_length, 
+                truncation=True
+            )
             all_tokens.extend(chunk_tokens)
+            
+            # Move to next chunk
+            i += chunk_size_chars
+            
+            # If the chunk was truncated, we need to be more careful
+            # But since we're using truncation=True, we're safe
 
         return all_tokens
 

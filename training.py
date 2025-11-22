@@ -241,23 +241,21 @@ else:
     # GPT-2 specific optimizations: fine-tuning requires lower LR and larger context
     if MODEL_TYPE == "gpt2":
         # GPT-2 fine-tuning: lower learning rate, balanced context size for speed
-        batch_size = 16  # Increased from 8 since block_size is smaller
-        block_size = (
-            128  # Balanced: better than 64, much faster than 512 (4x faster than 256)
-        )
+        # Allow override via environment variables
+        batch_size = int(os.environ.get("BATCH_SIZE", "16"))  # Increased from 8 since block_size is smaller
+        block_size = int(os.environ.get("BLOCK_SIZE", "128"))  # Balanced: better than 64, much faster than 512 (4x faster than 256)
         eval_iters = 20  # Reduced for faster evaluation (was 50)
-        learning_rate = (
-            1e-5  # Much lower for fine-tuning (prevents catastrophic forgetting)
-        )
+        learning_rate = float(os.environ.get("LEARNING_RATE", "1e-5"))  # Much lower for fine-tuning (prevents catastrophic forgetting)
         print(
-            "   📌 GPT-2 fine-tuning: Using lower LR (1e-5) and balanced context (128)"
+            f"   📌 GPT-2 fine-tuning: Using LR ({learning_rate:.2e}) and context ({block_size})"
         )
     else:
         # From-scratch models can handle larger batches and higher learning rates
-        batch_size = 64  # Reduced from 64 for better M4 performance
-        block_size = 128  # Further reduced from 128 (4x less attention computation)
+        # Allow override via environment variables
+        batch_size = int(os.environ.get("BATCH_SIZE", "64"))  # Reduced from 64 for better M4 performance
+        block_size = int(os.environ.get("BLOCK_SIZE", "128"))  # Further reduced from 128 (4x less attention computation)
         eval_iters = 50  # Further reduced from 50 for faster eval
-        learning_rate = 3e-4  # Higher LR is OK for from-scratch training
+        learning_rate = float(os.environ.get("LEARNING_RATE", "3e-4"))  # Higher LR is OK for from-scratch training
 
     training_steps = (
         int(TRAINING_STEPS_OVERRIDE) if TRAINING_STEPS_OVERRIDE else 5000
