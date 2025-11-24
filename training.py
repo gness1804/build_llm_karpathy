@@ -44,8 +44,9 @@ is_test_mode = os.environ.get("TEST_MODE", "False")
 
 # LoRA configuration
 USE_LORA = os.environ.get("USE_LORA", "False").lower() == "true"
-LORA_RANK = int(os.environ.get("LORA_RANK", "8"))
-LORA_ALPHA = float(os.environ.get("LORA_ALPHA", "16.0"))
+# Increased default rank/alpha for better capacity (was 8/16, now 16/32)
+LORA_RANK = int(os.environ.get("LORA_RANK", "16"))
+LORA_ALPHA = float(os.environ.get("LORA_ALPHA", "32.0"))
 LORA_DROPOUT = float(os.environ.get("LORA_DROPOUT", "0.0"))
 
 # Model selection: "from_scratch" or "gpt2"
@@ -245,14 +246,15 @@ else:
     # Full configuration for production training (aggressively optimized for Apple Silicon)
     # GPT-2 specific optimizations: fine-tuning requires lower LR and larger context
     if MODEL_TYPE == "gpt2":
-        # GPT-2 fine-tuning: lower learning rate, balanced context size for speed
+        # GPT-2 fine-tuning: diagnostic run with stabilized hyperparameters
+        # Reduced block size (128) and increased batch size (32) to prevent gradient explosion
         # Allow override via environment variables
-        batch_size = int(os.environ.get("BATCH_SIZE", "16"))  # Increased from 8 since block_size is smaller
-        block_size = int(os.environ.get("BLOCK_SIZE", "128"))  # Balanced: better than 64, much faster than 512 (4x faster than 256)
+        batch_size = int(os.environ.get("BATCH_SIZE", "16"))  # Default 16 (user may need to reduce further for OOM)
+        block_size = int(os.environ.get("BLOCK_SIZE", "128"))  # Reduced from 256 for MPS stability and speed
         eval_iters = 20  # Reduced for faster evaluation (was 50)
-        learning_rate = float(os.environ.get("LEARNING_RATE", "1e-5"))  # Much lower for fine-tuning (prevents catastrophic forgetting)
+        learning_rate = float(os.environ.get("LEARNING_RATE", "2e-5"))  # Increased from 1e-5 for better convergence
         print(
-            f"   📌 GPT-2 fine-tuning: Using LR ({learning_rate:.2e}) and context ({block_size})"
+            f"   📌 GPT-2 fine-tuning: Using LR ({learning_rate:.2e}), batch_size={batch_size}, block_size={block_size}"
         )
     else:
         # From-scratch models can handle larger batches and higher learning rates
@@ -273,6 +275,8 @@ else:
     print(
         "🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)"
     )
+
+USE_LR_WARMUP = os.environ.get("USE_LR_WARMUP", "True").lower() == "true"
 
 # Device selection: prioritize MPS (Apple Silicon GPU) > CUDA > CPU
 if torch.cuda.is_available():
@@ -324,6 +328,15 @@ if USE_LORA:
             "lora_dropout": LORA_DROPOUT,
         }
     )
+
+# Add learning rate schedule info
+if MODEL_TYPE == "gpt2":
+    if USE_LR_WARMUP and scheduler is not None:
+        hyperparameters["lr_schedule"] = "warmup_constant"
+    else:
+        hyperparameters["lr_schedule"] = "constant"
+else:
+    hyperparameters["lr_schedule"] = "none"  # From-scratch models don't use scheduler
 
     print(f"Device: {device}")
     print(f"Model size: {n_layer} layers, {n_embd} embedding dims, {n_head} heads")
@@ -759,32 +772,35 @@ else:
     )  # AdamW optimizer
 
 # Initialize learning rate scheduler for GPT-2 fine-tuning
-# Warmup + cosine decay helps with stable fine-tuning
+# Option to use gentle warmup for stability (can be disabled via env var)
 scheduler = None
 if MODEL_TYPE == "gpt2":
-    # Warmup for first 10% of steps (prevents early instability)
-    warmup_steps = int(0.1 * training_steps)
-    # Cosine decay for remaining 90% (helps convergence)
-    decay_steps = training_steps - warmup_steps
-
-    if warmup_steps > 0 and decay_steps > 0:
-        warmup_scheduler = LinearLR(
-            optimizer, start_factor=0.1, total_iters=warmup_steps
-        )
-        decay_scheduler = CosineAnnealingLR(
-            optimizer, T_max=decay_steps, eta_min=learning_rate * 0.1
-        )
-        scheduler = SequentialLR(
-            optimizer, [warmup_scheduler, decay_scheduler], milestones=[warmup_steps]
-        )
-        print(
-            f"📈 Learning rate schedule: {warmup_steps} warmup steps, {decay_steps} decay steps"
-        )
-        print(
-            f"   LR range: {learning_rate * 0.1:.2e} → {learning_rate:.2e} → {learning_rate * 0.1:.2e}"
-        )
+    if USE_LR_WARMUP:
+        # Gentle warmup: 2% of training steps (prevents early instability)
+        # Then constant for rest (no decay to avoid premature convergence)
+        warmup_steps = max(50, int(0.02 * training_steps))  # At least 50 steps, or 2% of total
+        if warmup_steps > 0 and warmup_steps < training_steps:
+            from torch.optim.lr_scheduler import LinearLR
+            warmup_scheduler = LinearLR(
+                optimizer, start_factor=0.1, total_iters=warmup_steps
+            )
+            scheduler = warmup_scheduler
+            print(
+                f"📈 Learning rate schedule: WARMUP ({warmup_steps} steps) → CONSTANT"
+            )
+            print(
+                f"   LR: {learning_rate * 0.1:.2e} → {learning_rate:.2e} (then constant)"
+            )
+        else:
+            print(
+                f"📈 Learning rate schedule: CONSTANT (warmup disabled - too few steps)"
+            )
+            print(f"   LR: {learning_rate:.2e} (constant throughout training)")
     else:
-        print("⚠️  Training steps too few for scheduler, using constant LR")
+        print(
+            f"📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)"
+        )
+        print(f"   LR: {learning_rate:.2e} (constant throughout training)")
 
 # ============================================================================
 # TRAINING LOOP
@@ -821,16 +837,34 @@ if ENABLE_CHECKPOINTS:
 
 start_time = time.time()
 
+# Initialize loss tracking variables
+initial_train_loss = None
+last_checkpoint_train_loss = None
+
 for step in range(training_steps):
 
     # Every once in a while evaluate the loss on train and val sets
     if step % eval_interval == 0:
         losses = estimate_loss()
+        current_train_loss = losses['train'].item()  # Convert tensor to Python float
+        
+        # Store initial loss at step 0
+        if initial_train_loss is None:
+            initial_train_loss = current_train_loss
+            # Also set as last checkpoint loss so first checkpoint compares to step 0
+            last_checkpoint_train_loss = current_train_loss
+        
+        # Calculate loss changes
+        net_loss_change_since_beginning = current_train_loss - initial_train_loss
+        
+        # Calculate change since last checkpoint
+        # At step 0, this will be 0.0 (comparing to itself)
+        # At subsequent checkpoints, this compares to the previous checkpoint
+        net_loss_change_since_last_checkpoint = current_train_loss - last_checkpoint_train_loss
+        
         elapsed = time.time() - start_time
         steps_per_sec = step / elapsed if step > 0 else 0
         progress_pct = (step / training_steps) * 100
-        net_loss_change_since_beginning = losses['train'] - losses['train'][0]  # This is the net loss change since the beginning of the training
-        net_loss_change_since_last_checkpoint = losses['train'] - losses['train'][step - CHECKPOINT_INTERVAL]  # This is the net loss change since the last checkpoint
         # Get current learning rate for display
         current_lr = optimizer.param_groups[0]["lr"]
         print(
@@ -844,6 +878,8 @@ for step in range(training_steps):
             )
             if checkpoint_path:
                 print(f"   💾 Checkpoint saved: {checkpoint_path}")
+                # Update last checkpoint loss for next comparison
+                last_checkpoint_train_loss = current_train_loss
                 # Append current output to checkpoint log
                 if checkpoint_log_file:
                     # Get all output captured so far
@@ -892,7 +928,9 @@ for step in range(training_steps):
         if USE_LORA:
             trainable_params = [p for p in model.parameters() if p.requires_grad]
             if len(trainable_params) > 0:
-                torch.nn.utils.clip_grad_norm_(trainable_params, max_norm=1.0)
+                # Less aggressive clipping for LoRA (allows adapters to learn better)
+                # 2.0 is a good balance: prevents explosion but allows necessary updates
+                torch.nn.utils.clip_grad_norm_(trainable_params, max_norm=2.0)
         else:
             # For full fine-tuning, clip all parameters
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
