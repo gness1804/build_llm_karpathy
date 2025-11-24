@@ -168,25 +168,14 @@ class GPT2Wrapper(nn.Module):
     def forward(self, idx: torch.Tensor, targets: Optional[torch.Tensor] = None):
         """
         Forward pass through GPT-2 model.
-
-        Compatible interface with BigramLanguageModel:
-        - Uses 'idx' instead of 'input_ids' for consistency
-        - Uses 'targets' instead of 'labels' for consistency
-
-        Args:
-            idx: Token IDs of shape (B, T) - input token indices
-            targets: Optional target token IDs of shape (B, T) for loss computation
-
-        Returns:
-            logits: Model predictions of shape (B, T, vocab_size)
-            loss: Cross-entropy loss if targets provided, None otherwise
         """
-        # GPT-2 expects labels to be the same as input_ids for next-token prediction
-        # We shift targets to align with next-token prediction
+        # For GPT-2, labels should normally be the same as input_ids; the model
+        # handles shifting internally.
         if targets is not None:
-            outputs = self.model(input_ids=idx, labels=targets)
+            outputs = self.model(input_ids=idx, labels=idx)
         else:
             outputs = self.model(input_ids=idx)
+
         logits = outputs.logits
         loss = outputs.loss if targets is not None else None
         return logits, loss
