@@ -108,3 +108,4 @@ For a 5MB dataset with GPT-2:
 If loss doesn't improve by at least 0.3 after 2000 steps, try the alternatives above.
 
 
+
