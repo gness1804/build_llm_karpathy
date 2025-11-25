@@ -949,6 +949,12 @@ print(
     f"Total training time: {format_time(total_time)} ({training_steps/total_time:.2f} steps/sec)"
 )
 
+# NEW: run a final evaluation pass
+final_losses = estimate_loss()
+print(
+    f"Final eval - train loss {final_losses['train']:.4f}, val loss {final_losses['val']:.4f}"
+)
+
 # Save final model checkpoint
 if ENABLE_CHECKPOINTS:
     final_checkpoint_path = save_checkpoint(
@@ -978,30 +984,25 @@ if ENABLE_CHECKPOINTS:
 print("\nGenerating text...")
 print("=" * 50)
 
-# Generate text starting from a null character (index 0)
-# For GPT-2, we need to use the tokenizer's bos_token or a simple prompt
+print("\nGenerating text...")
+print("=" * 50)
+
 if MODEL_TYPE == "gpt2":
-    # GPT-2 doesn't use a null token, so we'll start with an empty sequence
-    # The tokenizer will handle this appropriately
-    context = torch.tensor([[]], dtype=torch.long).to(device)
-    if context.shape[1] == 0:
-        # If empty, add a single token (usually BOS or a space)
-        context = torch.tensor(
-            [[model.tokenizer.bos_token_id or 0]], dtype=torch.long
-        ).to(device)
+    # Use an in-domain prompt instead of an empty context
+    prompt = "QUESTION: "
+    input_ids = torch.tensor(
+        [encode(prompt)], dtype=torch.long
+    ).to(device)
+
     generated_tokens = model.generate(
-        context,
+        input_ids,
         max_new_tokens=max_new_tokens,
         temperature=generation_temperature,
         top_k=generation_top_k,
         do_sample=True,
     )
-    # GPT-2 generate returns the full sequence including input, so we extract new tokens
-    if generated_tokens.shape[1] > context.shape[1]:
-        new_tokens = generated_tokens[0, context.shape[1] :].tolist()
-    else:
-        new_tokens = generated_tokens[0].tolist()
-    generated_text = decode(new_tokens)
+
+    generated_text = decode(generated_tokens[0].tolist())
 else:
     # From-scratch model: start with null token
     context = torch.zeros((1, 1), dtype=torch.long).to(device)
