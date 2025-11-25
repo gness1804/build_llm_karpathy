@@ -1,0 +1,151 @@
+HYPERPARAMETERS
+================
+batch_size = 8
+block_size = 128
+training_steps = 2000
+eval_interval = 500
+learning_rate = 5e-06
+eval_iters = 20
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = False
+use_lora = False
+model_type = gpt2
+training_data_source = sources/training_data_final_merged.md
+gpt2_model_name = gpt2
+lr_schedule = constant
+
+OUTPUT
+======
+   📌 GPT-2 fine-tuning: Using LR (5.00e-06), batch_size=8, block_size=128
+🚀 FULL MODE: Using production hyperparameters (aggressively optimized for M4)
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)
+   LR: 5.00e-06 (constant throughout training)
+Starting training for 2000 steps...
+Batch size: 8, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/training_log_gpt2_training_data_final_merged_11242025_212417.log
+step 0/2000 (0.0%): train loss 3.6130, val loss 3.8250 | LR: 5.00e-06 | 7.2s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 25/2000 (1.2%) | 1.08 steps/sec | ETA: 30.6m
+step 50/2000 (2.5%) | 1.21 steps/sec | ETA: 26.8m
+step 75/2000 (3.8%) | 1.31 steps/sec | ETA: 24.4m
+step 100/2000 (5.0%) | 1.34 steps/sec | ETA: 23.6m
+step 125/2000 (6.2%) | 1.38 steps/sec | ETA: 22.7m
+step 150/2000 (7.5%) | 1.40 steps/sec | ETA: 22.0m
+step 175/2000 (8.8%) | 1.41 steps/sec | ETA: 21.5m
+step 200/2000 (10.0%) | 1.41 steps/sec | ETA: 21.3m
+step 225/2000 (11.2%) | 1.40 steps/sec | ETA: 21.2m
+step 250/2000 (12.5%) | 1.35 steps/sec | ETA: 21.6m
+step 275/2000 (13.8%) | 1.31 steps/sec | ETA: 22.0m
+step 300/2000 (15.0%) | 1.27 steps/sec | ETA: 22.3m
+step 325/2000 (16.2%) | 1.23 steps/sec | ETA: 22.6m
+step 350/2000 (17.5%) | 1.22 steps/sec | ETA: 22.6m
+step 375/2000 (18.8%) | 1.20 steps/sec | ETA: 22.6m
+step 400/2000 (20.0%) | 1.20 steps/sec | ETA: 22.3m
+step 425/2000 (21.2%) | 1.19 steps/sec | ETA: 22.1m
+step 450/2000 (22.5%) | 1.19 steps/sec | ETA: 21.7m
+step 475/2000 (23.8%) | 1.18 steps/sec | ETA: 21.5m
+step 500/2000 (25.0%): train loss 3.2969, val loss 3.5260 | LR: 5.00e-06 | 433.9s (1.15 steps/sec) | Net loss change since beginning: -0.3161 | Net loss change since last checkpoint: -0.3161
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step000500_11242025_213131.pt
+step 525/2000 (26.2%) | 1.14 steps/sec | ETA: 21.5m
+step 550/2000 (27.5%) | 1.14 steps/sec | ETA: 21.2m
+step 575/2000 (28.7%) | 1.14 steps/sec | ETA: 20.9m
+step 600/2000 (30.0%) | 1.14 steps/sec | ETA: 20.5m
+step 625/2000 (31.2%) | 1.14 steps/sec | ETA: 20.2m
+step 650/2000 (32.5%) | 1.14 steps/sec | ETA: 19.8m
+step 675/2000 (33.8%) | 1.14 steps/sec | ETA: 19.4m
+step 700/2000 (35.0%) | 1.14 steps/sec | ETA: 19.1m
+step 725/2000 (36.2%) | 1.13 steps/sec | ETA: 18.7m
+step 750/2000 (37.5%) | 1.13 steps/sec | ETA: 18.4m
+step 775/2000 (38.8%) | 1.13 steps/sec | ETA: 18.0m
+step 800/2000 (40.0%) | 1.13 steps/sec | ETA: 17.7m
+step 825/2000 (41.2%) | 1.13 steps/sec | ETA: 17.4m
+step 850/2000 (42.5%) | 1.13 steps/sec | ETA: 17.0m
+step 875/2000 (43.8%) | 1.13 steps/sec | ETA: 16.7m
+step 900/2000 (45.0%) | 1.12 steps/sec | ETA: 16.3m
+step 925/2000 (46.2%) | 1.11 steps/sec | ETA: 16.1m
+step 950/2000 (47.5%) | 1.11 steps/sec | ETA: 15.8m
+step 975/2000 (48.8%) | 1.11 steps/sec | ETA: 15.4m
+step 1000/2000 (50.0%): train loss 3.2385, val loss 3.4359 | LR: 5.00e-06 | 918.3s (1.09 steps/sec) | Net loss change since beginning: -0.3745 | Net loss change since last checkpoint: -0.0584
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step001000_11242025_213935.pt
+step 1025/2000 (51.2%) | 1.08 steps/sec | ETA: 15.0m
+step 1050/2000 (52.5%) | 1.08 steps/sec | ETA: 14.7m
+step 1075/2000 (53.8%) | 1.08 steps/sec | ETA: 14.3m
+step 1100/2000 (55.0%) | 1.07 steps/sec | ETA: 14.0m
+step 1125/2000 (56.2%) | 1.07 steps/sec | ETA: 13.6m
+step 1150/2000 (57.5%) | 1.07 steps/sec | ETA: 13.3m
+step 1175/2000 (58.8%) | 1.07 steps/sec | ETA: 12.9m
+step 1200/2000 (60.0%) | 1.06 steps/sec | ETA: 12.5m
+step 1225/2000 (61.3%) | 1.06 steps/sec | ETA: 12.1m
+step 1250/2000 (62.5%) | 1.06 steps/sec | ETA: 11.8m
+step 1275/2000 (63.7%) | 1.06 steps/sec | ETA: 11.4m
+step 1300/2000 (65.0%) | 1.06 steps/sec | ETA: 11.0m
+step 1325/2000 (66.2%) | 1.06 steps/sec | ETA: 10.6m
+step 1350/2000 (67.5%) | 1.06 steps/sec | ETA: 10.3m
+step 1375/2000 (68.8%) | 1.05 steps/sec | ETA: 9.9m
+step 1400/2000 (70.0%) | 1.04 steps/sec | ETA: 9.6m
+step 1425/2000 (71.2%) | 1.04 steps/sec | ETA: 9.2m
+step 1450/2000 (72.5%) | 1.04 steps/sec | ETA: 8.9m
+step 1475/2000 (73.8%) | 1.03 steps/sec | ETA: 8.5m
+step 1500/2000 (75.0%): train loss 3.1962, val loss 3.4368 | LR: 5.00e-06 | 1463.1s (1.03 steps/sec) | Net loss change since beginning: -0.4167 | Net loss change since last checkpoint: -0.0422
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step001500_11242025_214840.pt
+step 1525/2000 (76.2%) | 1.02 steps/sec | ETA: 7.7m
+step 1550/2000 (77.5%) | 1.02 steps/sec | ETA: 7.3m
+step 1575/2000 (78.8%) | 1.03 steps/sec | ETA: 6.9m
+step 1600/2000 (80.0%) | 1.03 steps/sec | ETA: 6.5m
+step 1625/2000 (81.2%) | 1.03 steps/sec | ETA: 6.1m
+step 1650/2000 (82.5%) | 1.03 steps/sec | ETA: 5.7m
+step 1675/2000 (83.8%) | 1.03 steps/sec | ETA: 5.3m
+step 1700/2000 (85.0%) | 1.03 steps/sec | ETA: 4.9m
+step 1725/2000 (86.2%) | 1.03 steps/sec | ETA: 4.5m
+step 1750/2000 (87.5%) | 1.03 steps/sec | ETA: 4.0m
+step 1775/2000 (88.8%) | 1.03 steps/sec | ETA: 3.6m
+step 1800/2000 (90.0%) | 1.03 steps/sec | ETA: 3.2m
+step 1825/2000 (91.2%) | 1.03 steps/sec | ETA: 2.8m
+step 1850/2000 (92.5%) | 1.03 steps/sec | ETA: 2.4m
+step 1875/2000 (93.8%) | 1.03 steps/sec | ETA: 2.0m
+step 1900/2000 (95.0%) | 1.03 steps/sec | ETA: 1.6m
+step 1925/2000 (96.2%) | 1.03 steps/sec | ETA: 1.2m
+step 1950/2000 (97.5%) | 1.03 steps/sec | ETA: 0.8m
+step 1975/2000 (98.8%) | 1.03 steps/sec | ETA: 0.4m
+--------------------------------------------------
+Training complete! Final loss: 3.1890
+Total training time: 32m 21s (1.03 steps/sec)
+Final eval - train loss 3.1024, val loss 3.3757
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step002000_11242025_215649.pt
+📝 Checkpoint log saved: logs/training_log_gpt2_training_data_final_merged_11242025_212417.log
+
+Generating text...
+==================================================
+
+Generating text...
+==================================================
+QUESTION: 
+I’ve been on a really bad run lately and I have been really struggling to get through it all.
+
+My girlfriend and I have been together for almost 6 years. We’ve been together for 6 months. She’s my boyfriend. She’s a good friend of ours and we’ve been together for a year or two together. I’ve tried a lot of different things to get through it and I think it’s really helpful to have her. We have always joked about it often and honestly I don’t know how I am going to get through to her in a way that feels like I’m not going to be able to keep talking to her about this. So I’m just trying to figure out how to break this cycle in a way that feels like it’s not going to work.
+
+QUESTION: 
+I’m 18 and have been dating for 6 years. I’ve been dating for 6 years and am currently in the middle of a breakup. I’m a virgin for the first time in my life, but I’m trying to find a way to be alone at this point.
+
+The only thing that I know is I’m always trying to figure out what I’re doing wrong to make myself comfortable as a virgin. I understand that it’s not something I want, but I�
+==================================================
