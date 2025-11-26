@@ -186,6 +186,9 @@ class GPT2Wrapper(nn.Module):
         max_new_tokens: int = 100,
         temperature: float = 1.0,
         top_k: int = 50,
+        top_p: float = 1.0,
+        repetition_penalty: float = 1.0,
+        no_repeat_ngram_size: int = 0,
         do_sample: bool = True,
     ) -> torch.Tensor:
         """
@@ -196,6 +199,10 @@ class GPT2Wrapper(nn.Module):
             max_new_tokens: Maximum number of tokens to generate
             temperature: Sampling temperature (higher = more random)
             top_k: Top-k sampling (only sample from top k tokens)
+            top_p: Nucleus (top-p) sampling; if < 1.0, sample from smallest set of tokens
+                   whose cumulative probability exceeds top_p
+            repetition_penalty: Penalty applied to previously generated tokens (>1.0 reduces repetition)
+            no_repeat_ngram_size: If > 0, prevents repeating n-grams of this size
             do_sample: If True, use sampling; if False, use greedy decoding
 
         Returns:
@@ -213,6 +220,9 @@ class GPT2Wrapper(nn.Module):
                 max_new_tokens=max_new_tokens,
                 temperature=temperature,
                 top_k=top_k,
+                top_p=top_p,
+                repetition_penalty=repetition_penalty,
+                no_repeat_ngram_size=no_repeat_ngram_size,
                 do_sample=do_sample,
                 pad_token_id=self.tokenizer.eos_token_id,
             )

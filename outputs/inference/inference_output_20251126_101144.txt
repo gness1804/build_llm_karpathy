@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-26 10:11:44
+Max new tokens: 300
+Prompt: QUESTION: My husband left me for a younger woman. How can I handle this? \n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ (This is something you have to accept)
+I’m sorry, but it feels like the only way out of his life was through marriage or divorce and that he could just leave her alone until she came back after years with him without having any kids at all - which sounds terrible in theory because my wife already has children while we've been together 15-20 yrs ago! He would never let anyone take care of them unless they gave their consent before giving birth anyway so no one else should be able go into childcare right now since there are lots more babies than these two parents will need if not yet ready enough!! Also when talking about childrearing/childbearing duelling... do NOT talk too much on your own as well though i am still concerned by how many days each parent spends parenting over here and what kind of time between 2 months pregnant AND 4 month old.. don't waste precious hours trying again anytime soon!!!
+
+ Thanksgiving weekend 3M / Monday morning 10F -- Moms&Childrens Thanksgiving Day Party | 5th Birthday Celebration Saturday Night FALL 2018 UPDATE : We both were very happy & had fun tonight thanks everyone who supported us 🤜🏽️ https://www… pic ”https%3A//dwzfhxW0vE8V_ZOoY5uNtUaR7rXqP6e9jbk1iT#share=twp ✘ �
+==================================================

@@ -217,7 +217,15 @@ if MODE == "inference":
     # Generation parameters
     TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.7"))
     TOP_K = int(os.environ.get("TOP_K", "50"))
-    print(f"Generation parameters: temperature={TEMPERATURE}, top_k={TOP_K}")
+    TOP_P = float(os.environ.get("TOP_P", "0.9"))
+    REPETITION_PENALTY = float(os.environ.get("REPETITION_PENALTY", "1.1"))
+    NO_REPEAT_NGRAM_SIZE = int(os.environ.get("NO_REPEAT_NGRAM_SIZE", "3"))
+    print(
+        "Generation parameters: "
+        f"temperature={TEMPERATURE}, top_k={TOP_K}, top_p={TOP_P}, "
+        f"repetition_penalty={REPETITION_PENALTY}, "
+        f"no_repeat_ngram_size={NO_REPEAT_NGRAM_SIZE}"
+    )
 
     if not PROMPT:
         if model_type == "gpt2":
@@ -233,13 +241,16 @@ if MODE == "inference":
         tokens = encode(PROMPT)
         context = torch.tensor([tokens], dtype=torch.long).to(device)
 
-    # Generate text with lower temperature for more coherent output
+    # Generate text with sampling tuned for coherence and reduced repetition
     with torch.no_grad():
         generated_tokens = model.generate(
             context,
             max_new_tokens=MAX_NEW_TOKENS,
             temperature=TEMPERATURE,
             top_k=TOP_K,
+            top_p=TOP_P,
+            repetition_penalty=REPETITION_PENALTY,
+            no_repeat_ngram_size=NO_REPEAT_NGRAM_SIZE,
             do_sample=True,
         )
 
