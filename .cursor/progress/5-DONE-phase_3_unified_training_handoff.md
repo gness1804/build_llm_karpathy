@@ -234,3 +234,5 @@ CHECKPOINT_PATH={{checkpoint_path}} python3 training.py
 4. Once working, delete the legacy files (but keep backups for reference)
 
 Good luck!
+
+<!-- DONE -->
