@@ -1,0 +1,81 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/training_data_final_merged.md
+batch_size = 8
+block_size = 128
+training_steps = 200
+start_step = 0
+learning_rate = 5e-06
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = False
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = False
+
+OUTPUT
+======
+Loading training data from: sources/training_data_final_merged.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)
+   LR: 5.00e-06 (constant throughout training)
+Starting training for 200 steps...
+Batch size: 8, Block size: 128
+Vocabulary size: 50,257 tokens
+--------------------------------------------------
+step 0/200 (0.0%): train loss 3.6130, val loss 3.8250 | LR: 5.00e-06 | 7.2s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 25/200 (12.5%) | 1.07 steps/sec | ETA: 2.7m
+step 50/200 (25.0%) | 1.27 steps/sec | ETA: 2.0m
+step 75/200 (37.5%) | 1.35 steps/sec | ETA: 1.5m
+step 100/200 (50.0%) | 1.40 steps/sec | ETA: 1.2m
+step 125/200 (62.5%) | 1.42 steps/sec | ETA: 0.9m
+step 150/200 (75.0%) | 1.44 steps/sec | ETA: 0.6m
+step 175/200 (87.5%) | 1.46 steps/sec | ETA: 0.3m
+--------------------------------------------------
+Training complete! Final loss: 3.4993
+Total training time: 2m 16s (1.47 steps/sec)
+Final eval - train loss 3.3665, val loss 3.6064
+
+Generating text...
+==================================================
+QUESTION:  How does your baby feel about yourself?
+My husband is a big believer in the family, I am a big believer in our relationship.
+I am a big believer in a life changing experience. I am a big believer in myself and what comes from this.
+I have been a loving mother for so long, I feel like I am being treated badly in our relationship.
+I have been a huge advocate for my husband so I have been really understanding and open about things.
+But now I am trying to do things differently. I am trying to be a better parent, a better husband.
+I am trying to be supportive and not a burden to my husband and my kids.
+I am trying to think more deeply about my relationship and how I can be a better parent for both of them.
+I am trying to do something about my marriage and my children.
+Thank you.
+QUESTION:  How do you handle your kids?
+I had to cancel my plans for Thanksgiving for one reason: I had to be on time for dinner with my husband. I couldn't be with them on my own time. I wanted to make sure she was okay with my decision to cancel my Thanksgiving.
+I am upset because she is not happy with how my husband is treating her.
+But since I was on Thanksgiving, my husband has been very supportive and kind. I also have been a lot more open about my family. I have started to understand that his
+==================================================

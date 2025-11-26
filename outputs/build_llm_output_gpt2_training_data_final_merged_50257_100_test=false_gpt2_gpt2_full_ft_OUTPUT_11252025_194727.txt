@@ -1,0 +1,84 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/training_data_final_merged.md
+batch_size = 8
+block_size = 128
+training_steps = 100
+start_step = 2000
+learning_rate = 5e-06
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = True
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = False
+
+OUTPUT
+======
+Loading training data from: sources/training_data_final_merged.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+Loading model state from checkpoint...
+✅ Model state loaded
+Loading optimizer state from checkpoint...
+✅ Optimizer state loaded
+📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)
+   LR: 5.00e-06 (constant throughout training)
+Starting training for 100 steps...
+Batch size: 8, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/resume_training_log_gpt2_training_data_final_merged_11252025_194557.log
+step 2000/2100 (0.0%): train loss 3.1433, val loss 3.4192 | LR: 5.00e-06 | 7.0s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 2025/2100 (25.0%) | 1.06 steps/sec | ETA: 1.2m
+step 2050/2100 (50.0%) | 1.26 steps/sec | ETA: 0.7m
+step 2075/2100 (75.0%) | 1.35 steps/sec | ETA: 0.3m
+--------------------------------------------------
+Training complete! Final loss: 3.1729
+Total training time: 1m 11s (1.40 steps/sec)
+Final eval - train loss 3.1493, val loss 3.4151
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+📝 Checkpoint log saved: logs/resume_training_log_gpt2_training_data_final_merged_11252025_194557.log
+
+Generating text...
+==================================================
+QUESTION: 
+My husband and I have been dating for a couple months. I am planning on having a child with him soon. I have been dating a guy who is going to be in our family for a bit longer. We have had a great relationship and I am very comfortable with him being my husband and my fiance. I have also been having a lot of trouble finding a job and I don't know why I feel that way.
+
+I know I am not the only one in our family to feel that way. I am also the only one who has been to a pregnancy test. I believe the pregnancy test does not give you an answer or any advice as to what to do. I don’t know how to go about deciding whether or not to go ahead with the pregnancy test.
+
+ANSWER:  “How do you tell if you are pregnant”
+
+QUESTION: 
+I (21M) have been dating my husband (22F) for 2 years now. 
+
+I’ve always thought he was the best guy in our family. I have been married for 2 years and I have been married for 3 months. I don’t think my husband is that good. When we first met he was really good at what he did. I am not sure how he got a job and maybe he doesn’t feel that way anymore.
+
+I’ve always thought he was the best guy in our family
+==================================================
