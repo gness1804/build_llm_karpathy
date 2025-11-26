@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-25 22:26:49
+Max new tokens: 300
+Prompt: QUESTION: My husband cheated on me. He just confessed yesterday. Should I stay or go? ? 
+
+==================================================
+GENERATED TEXT
+==================================================
+
+My husband cheated on me last year when he was 17. I was 17 at the time and I didn't even know it. He told me that he was being pressured into cheating, which made me feel bad. He told me that when I was 17 he never wanted me to marry him. I said no, but he also told me that he thought I was cheating on him and he was wrong. I was so angry and furious that he wouldn't give me the advice that I had. I told him that I didn't want to have kids or anything like that. He was very supportive and said that he wanted to be with me, but there was something else that was going on. I said no, he was just going to say that he could relate to me and that it would be fine together. He just shrugged it off and said that he still wanted to be with me. He said that it wasn't because of me cheating, but that I was just trying to protect him. I said that I would stay with him, but that he would take care of me if I asked him to. He started to get defensive and said that he would like to be married to me (because he doesn't want to be the one who goes to the house that night). He also said that he still wanted to be with me.
+
+I told him that I would be happy if he would stop cheating, but I was so confused and scared and didn't know if it was
+==================================================

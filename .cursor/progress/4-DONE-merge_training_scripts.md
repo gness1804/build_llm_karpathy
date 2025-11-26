@@ -338,3 +338,5 @@ After the cheaper model implements this merge, use these tests before relying on
    - Run `MODEL_TYPE=from_scratch` both fresh and resumed.
 
 If all three pass, you can safely delete the legacy scripts and continue experimentation (like your GPT‑2 fine-tuning) using the unified entrypoint.
+
+<!-- DONE -->
