@@ -17,7 +17,7 @@ PROMPT = os.environ.get("PROMPT", "")  # For inference mode
 RESUME_TRAINING_STEPS = int(os.environ.get("RESUME_TRAINING_STEPS", "5000"))
 RESUME_LEARNING_RATE = float(os.environ.get("RESUME_LEARNING_RATE", "3e-4"))
 SAVE_OUTPUT = os.environ.get("SAVE_OUTPUT", "false").lower() in ["true", "1", "yes"]
-OUTPUT_FILE = os.environ.get("OUTPUT_FILE", None)  # For inference mode
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs/inference")  # For inference mode
 
 # ============================================================================
 # DEVICE SETUP
@@ -263,16 +263,18 @@ if MODE == "inference":
     
     # Save output to file if requested
     if SAVE_OUTPUT:
-        # Generate default filename if not provided
-        if not OUTPUT_FILE:
-            from datetime import datetime
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_filename = f"inference_output_{timestamp}.txt"
-        else:
-            output_filename = OUTPUT_FILE
+        from datetime import datetime
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        
+        # Generate filename with timestamp
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_filename = f"inference_output_{timestamp}.txt"
+        output_path = os.path.join(OUTPUT_DIR, output_filename)
         
         try:
-            with open(output_filename, "w") as f:
+            with open(output_path, "w") as f:
                 f.write(f"Checkpoint: {CHECKPOINT_PATH}\n")
                 f.write(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write(f"Max new tokens: {MAX_NEW_TOKENS}\n")
@@ -283,7 +285,7 @@ if MODE == "inference":
                 f.write("=" * 50 + "\n")
                 f.write(generated_text)
                 f.write("\n" + "=" * 50 + "\n")
-            print(f"\n✅ Output saved to: {output_filename}")
+            print(f"\n✅ Output saved to: {output_path}")
         except Exception as e:
             print(f"\n⚠️  Error saving output: {e}")
 
