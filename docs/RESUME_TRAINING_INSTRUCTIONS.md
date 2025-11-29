@@ -128,4 +128,4 @@ Once you verify that the new hyperparameters improve training:
 
 ## Reference
 
-See `loss_plateau_analysis.md` for the complete diagnostic report and root cause analysis.
+See `docs/loss_plateau_analysis.md` for the complete diagnostic report and root cause analysis.

@@ -6,7 +6,7 @@ This script:
 - Generates a short sample of text BEFORE any fine-tuning
 
 Usage (from project root):
-    python3 gpt2_sanity_generate.py
+    python3 scripts/gpt2_sanity_generate.py
 """
 
 import torch

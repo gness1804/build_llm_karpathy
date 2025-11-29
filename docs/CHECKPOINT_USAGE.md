@@ -44,7 +44,7 @@ Each checkpoint contains:
 
 ## Loading and Using Checkpoints
 
-Use `load_checkpoint.py` for both inference and training resumption:
+Use `scripts/load_checkpoint.py` for both inference and training resumption:
 
 ### Inference Mode
 
@@ -54,7 +54,7 @@ Generate text using a trained model:
 CHECKPOINT_PATH=checkpoints/checkpoint_bigram_carolyn_hax_step0500_11102025_231500.pt \
 MODE=inference \
 MAX_NEW_TOKENS=500 \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 **Optional parameters:**
@@ -68,7 +68,7 @@ Generate without prompt:
 ```bash
 CHECKPOINT_PATH=checkpoints/checkpoint_bigram_carolyn_hax_step5000_11102025_231500.pt \
 MODE=inference \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 Generate with prompt:
@@ -77,7 +77,7 @@ CHECKPOINT_PATH=checkpoints/checkpoint_bigram_carolyn_hax_step5000_11102025_2315
 MODE=inference \
 PROMPT="Dear Carolyn," \
 MAX_NEW_TOKENS=500 \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 Generate on CPU (useful if GPU memory is limited):
@@ -85,7 +85,7 @@ Generate on CPU (useful if GPU memory is limited):
 CHECKPOINT_PATH=checkpoints/checkpoint_bigram_carolyn_hax_step5000_11102025_231500.pt \
 MODE=inference \
 DEVICE=cpu \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 ### Resume Training Mode
@@ -97,7 +97,7 @@ CHECKPOINT_PATH=checkpoints/checkpoint_bigram_carolyn_hax_step5000_11102025_2315
 MODE=resume \
 RESUME_TRAINING_STEPS=2000 \
 RESUME_LEARNING_RATE=1e-4 \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 **Parameters:**
@@ -205,7 +205,7 @@ ENABLE_CHECKPOINTS=true MODEL_TYPE=gpt2 TRAINING_STEPS=1000 python3 training.py
 CHECKPOINT=$(ls checkpoints/ | sort | tail -1)
 
 # Step 3: Inspect checkpoint before resuming
-CHECKPOINT_PATH=checkpoints/$CHECKPOINT MODE=resume python3 load_checkpoint.py
+CHECKPOINT_PATH=checkpoints/$CHECKPOINT MODE=resume python3 scripts/load_checkpoint.py
 
 # Step 4: Resume training (implementation coming)
 # CHECKPOINT_PATH=checkpoints/$CHECKPOINT TRAINING_DATA_SOURCE=new_data.md python3 training_resume.py
@@ -221,7 +221,7 @@ ENABLE_CHECKPOINTS=true MODEL_TYPE=gpt2 GPT2_MODEL_NAME=gpt2 TRAINING_STEPS=1000
 ENABLE_CHECKPOINTS=true MODEL_TYPE=gpt2 GPT2_MODEL_NAME=gpt2-medium TRAINING_STEPS=1000 python3 training.py
 
 # Generate with both for comparison
-CHECKPOINT_PATH=checkpoints/checkpoint_gpt2_*_gpt2_step1000*.pt MODE=inference python3 load_checkpoint.py
+CHECKPOINT_PATH=checkpoints/checkpoint_gpt2_*_gpt2_step1000*.pt MODE=inference python3 scripts/load_checkpoint.py
 
-CHECKPOINT_PATH=checkpoints/checkpoint_gpt2_*_gpt2medium_step1000*.pt MODE=inference python3 load_checkpoint.py
+CHECKPOINT_PATH=checkpoints/checkpoint_gpt2_*_gpt2medium_step1000*.pt MODE=inference python3 scripts/load_checkpoint.py
 ```

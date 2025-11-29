@@ -37,13 +37,13 @@ Remove optimizer state to reduce size by ~50% (inference only):
 
 ```bash
 # Compress a single checkpoint
-python3 compress_checkpoint.py checkpoints/checkpoint_model_step5000.pt
+python3 scripts/compress_checkpoint.py checkpoints/checkpoint_model_step5000.pt
 
 # Compress multiple checkpoints
-python3 compress_checkpoint.py "checkpoints/checkpoint_*.pt"
+python3 scripts/compress_checkpoint.py "checkpoints/checkpoint_*.pt"
 
 # Replace original (removes optimizer, saves space)
-python3 compress_checkpoint.py checkpoint.pt --replace
+python3 scripts/compress_checkpoint.py checkpoint.pt --replace
 ```
 
 This creates `checkpoint_model_step5000_compressed.pt` (~50% smaller) suitable for Git and inference.
@@ -60,8 +60,8 @@ ENABLE_CHECKPOINTS=true CHECKPOINT_INTERVAL=500 python3 training.py
 ls -lh checkpoints/ | tail -10
 
 # Step 3: Compress important ones
-python3 compress_checkpoint.py "checkpoints/checkpoint_*_step5000_*.pt"
-python3 compress_checkpoint.py "checkpoints/checkpoint_*_step10000_*.pt"
+python3 scripts/compress_checkpoint.py "checkpoints/checkpoint_*_step5000_*.pt"
+python3 scripts/compress_checkpoint.py "checkpoints/checkpoint_*_step10000_*.pt"
 
 # Step 4: Check file sizes
 ls -lh checkpoints/ | grep compressed
@@ -124,14 +124,14 @@ git commit -m "chore: save best model checkpoint (val_loss=2.15)"
 
 ## Using Compressed Checkpoints
 
-Compressed checkpoints work with `load_checkpoint.py`:
+Compressed checkpoints work with `scripts/load_checkpoint.py`:
 
 ```bash
 # Inference with compressed checkpoint
 CHECKPOINT_PATH=checkpoints/checkpoint_model_step5000_compressed.pt \
 MODE=inference \
 PROMPT="Hello" \
-python3 load_checkpoint.py
+python3 scripts/load_checkpoint.py
 ```
 
 **Limitation**: Cannot resume training from compressed checkpoints (optimizer state removed).
@@ -173,7 +173,7 @@ GitHub has a 100MB file size limit. If you encounter this:
 
 1. Compress the checkpoint:
    ```bash
-   python3 compress_checkpoint.py checkpoint.pt --replace
+   python3 scripts/compress_checkpoint.py checkpoint.pt --replace
    ```
 
 2. Or use Git LFS for larger files:
@@ -203,7 +203,7 @@ Compressed checkpoints only work for inference. For training resumption, keep th
 
 ```bash
 # Keep both
-python3 compress_checkpoint.py checkpoint.pt  # Creates _compressed.pt
+python3 scripts/compress_checkpoint.py checkpoint.pt  # Creates _compressed.pt
 # Full version: checkpoint.pt (for training)
 # Compressed: checkpoint_compressed.pt (for inference)
 ```

@@ -44,7 +44,8 @@ else:
 if not CHECKPOINT_PATH:
     print("❌ Error: CHECKPOINT_PATH environment variable not set")
     print(
-        "Usage: CHECKPOINT_PATH=/path/to/checkpoint.pt MODE=inference python3 load_checkpoint.py"
+        "Usage: CHECKPOINT_PATH=/path/to/checkpoint.pt MODE=inference "
+        "python3 scripts/load_checkpoint.py"
     )
     sys.exit(1)
 

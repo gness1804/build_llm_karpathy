@@ -65,7 +65,7 @@ If loss still doesn't drop after cleaning data, try:
 
 You can adjust it:
 ```bash
-TEMPERATURE=0.6 python3 load_checkpoint.py ...
+TEMPERATURE=0.6 python3 scripts/load_checkpoint.py ...
 ```
 
 Lower values (0.5-0.7) = more focused, less random

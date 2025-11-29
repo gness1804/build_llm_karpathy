@@ -4,8 +4,8 @@ Reduces file size by ~50% but prevents training resumption.
 Useful for keeping important checkpoints in version control.
 
 Usage:
-    python3 compress_checkpoint.py path/to/checkpoint.pt
-    python3 compress_checkpoint.py checkpoints/checkpoint_*.pt  # Glob pattern
+    python3 scripts/compress_checkpoint.py path/to/checkpoint.pt
+    python3 scripts/compress_checkpoint.py "checkpoints/checkpoint_*.pt"  # Glob pattern
 """
 
 import torch
@@ -89,12 +89,13 @@ def compress_checkpoint(checkpoint_path, output_path=None, keep_original=True):
 def main():
     if len(sys.argv) < 2:
         print(
-            "Usage: python3 compress_checkpoint.py <checkpoint_path> [--replace] [--output <path>]"
+            "Usage: python3 scripts/compress_checkpoint.py <checkpoint_path> "
+            "[--replace] [--output <path>]"
         )
         print("\nExamples:")
-        print("  python3 compress_checkpoint.py checkpoints/checkpoint_*.pt")
-        print("  python3 compress_checkpoint.py checkpoint.pt --replace")
-        print("  python3 compress_checkpoint.py checkpoint.pt --output compressed.pt")
+        print('  python3 scripts/compress_checkpoint.py "checkpoints/checkpoint_*.pt"')
+        print("  python3 scripts/compress_checkpoint.py checkpoint.pt --replace")
+        print("  python3 scripts/compress_checkpoint.py checkpoint.pt --output compressed.pt")
         sys.exit(1)
 
     checkpoint_pattern = sys.argv[1]

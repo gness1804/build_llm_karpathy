@@ -150,8 +150,8 @@ python3 training_resume.py
 - Lines 768-776: Removed warmup/cosine decay, implemented constant LR
 
 ### Documentation Created
-- `loss_plateau_analysis.md` - Complete diagnostic report and root cause analysis
-- `RESUME_TRAINING_INSTRUCTIONS.md` - Step-by-step instructions to resume training
+- `docs/loss_plateau_analysis.md` - Complete diagnostic report and root cause analysis
+- `docs/RESUME_TRAINING_INSTRUCTIONS.md` - Step-by-step instructions to resume training
 - `diagnose_training.py` - Automated diagnostic script for analyzing checkpoints
 - `IMPLEMENTATION_SUMMARY.md` - This file
 
@@ -235,8 +235,8 @@ With new settings:
 
 ## References
 
-- Root cause analysis: `loss_plateau_analysis.md`
-- Diagnostic script: `diagnose_training.py`
-- Resume instructions: `RESUME_TRAINING_INSTRUCTIONS.md`
+- Root cause analysis: `docs/loss_plateau_analysis.md`
+- Diagnostic script: `scripts/diagnose_training.py`
+- Resume instructions: `docs/RESUME_TRAINING_INSTRUCTIONS.md`
 - Training entry point: `training.py` (lines 247-276 for GPT-2 config)
 
