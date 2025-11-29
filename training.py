@@ -256,7 +256,10 @@ def main():
     if is_resume and checkpoint:
         print("Loading optimizer state from checkpoint...")
         optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
-        print("✅ Optimizer state loaded")
+        # Ensure learning rate matches current config when resuming
+        for param_group in optimizer.param_groups:
+            param_group["lr"] = config.learning_rate
+        print(f"✅ Optimizer state loaded (LR overridden to {config.learning_rate:.2e})")
 
     # Step 10: Initialize learning rate scheduler (GPT-2 only)
     scheduler = None

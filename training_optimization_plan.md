@@ -11,7 +11,7 @@ From the log file (`resume_training_log_gpt2_training_data_final_merged_11222025
 
 2. **Loss Plateauing**: 
    - Step 1500: train 6.67, val 6.71
-   - Step 2500: train 6.52, val 6.72
+   - Step 2500: train 6.52, val 6.72Snake_case: "Hello World" example
    - Minimal improvement over 1000 steps
 
 3. **Current Configuration**:
@@ -139,6 +139,8 @@ This gives a gentle start without the complexity of decay.
 2. If still plateauing, add gentle warmup (Option 2)
 3. If memory allows, try larger block size (Option 3)
 4. As last resort, try full fine-tuning (Option 5)
+
+
 
 
 

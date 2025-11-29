@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step005100_11262025_115522.pt
+Generated at: 2025-11-26 11:58:49
+Max new tokens: 300
+Prompt: QUESTION: I'm dating someone new, but my jealous ex won't leave me alone. How do I handle this? \n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ The way you describe it is kind of weird because he can’t say anything to your face and will just look at things for a second then start screaming "I don “want him! What are YOU doing?! You deserve better!"
+ALL advice given must be good, ethical advice. Joke advice or tips that serve no purpose should be removed, and users my direct-spam account/r=0_en (F21) and /u/?x[DROPPED]=https://www1.reddit\.com/.
+
+ Thankyou so much everyone who commented on the post...thankful people were able make up their own minds about what they saw in there; thank God we found out sooner than expected as well :) [Update - 8 PM] Update 2 :  This was posted by an anonymous commenter last night while she still has not told anyone else yet when her girlfriend asked if i would like some coffee with them tonight since its been three days now ... OP's response after reading all comments made yesterday morning seems pretty solid -- thanks again guys!! UPDATE 3 > Hi Redditors <3 ^^ Thanks everybody over here ,and hope these aren´re too many words left :( We have had our upsets together before today which means every time something bad happens between us both feel guilty enough . Our chemistry may vary slightly from one another during those moments though depending upon how busyy his moods go im sure other times could get worse.... If everything goes right ok
+==================================================
