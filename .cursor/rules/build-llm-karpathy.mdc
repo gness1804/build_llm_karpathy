@@ -12,6 +12,12 @@ This document provides Cursor AI with specific guidance for working with the bui
 
 This is an educational project for learning how to build Large Language Models (LLMs) from scratch using PyTorch. The implementation progresses from simple bigram models to transformer architectures with attention mechanisms.
 
+## General most important rules
+
+- NEVER create documentation in the repo root unless it's a core README file.Other documents should be created in the docs directory.
+- ALWAYS check to see if an existing document file can be used when you need to create updated documentation as opposed to creating an entirely new file. Cursor has the tendency to create too many documentation files and clutter up the project. Do everything you can to avoid this.
+
+
 ## Technology Stack
 
 - **Language**: Python 3.8+

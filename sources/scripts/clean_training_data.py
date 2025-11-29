@@ -36,6 +36,7 @@ class TrainingDataCleaner:
             "columnist_references": [],
             "reddit_bot_boilerplate": [],
             "reddit_updates": [],
+            "urls": [],
             "number_only_lines": [],
             "column_meta": [],
             "re_prefix_lines": [],
@@ -167,6 +168,9 @@ class TrainingDataCleaner:
             "anyone found to be directly messaging",
             "any sort of namecalling",
             "no referencing hateful subreddits",
+            "all advice given must be good, ethical advice",
+            "joke advice or tips that serve no purpose",
+            "direct-spam account",
         ]
         
         # Check if current line contains bot markers
@@ -214,6 +218,27 @@ class TrainingDataCleaner:
             r"reddit\.com/r/",
         ]
         return any(re.search(pattern, line) for pattern in url_patterns)
+
+    def is_junk_url_line(self, line: str) -> bool:
+        """
+        Check if a URL-containing line is mostly tracking/junk rather than useful content.
+
+        We keep most URLs for context, but strip obvious tracking domains and long
+        tracking query strings that don't help the model learn advice patterns.
+        """
+        line_lower = line.lower()
+        junk_markers = [
+            "redditgiftsquiz.com",
+            "utm_source=",
+            "utm_medium=",
+            "utm_campaign=",
+            "utm_term=",
+            "utm_content=",
+        ]
+        if any(marker in line_lower for marker in junk_markers):
+            return True
+
+        return False
     
     def is_number_only(self, line: str) -> bool:
         """Check if line is just a number"""
@@ -238,6 +263,7 @@ class TrainingDataCleaner:
             r"the column",
             r"production commitment",
             r"cartoons and daily columns",
+            r"too big a file",
         ]
         line_lower = line.lower()
         return any(pattern.lower() in line_lower for pattern in meta_patterns)
@@ -426,8 +452,10 @@ class TrainingDataCleaner:
                 should_remove = True
                 issue_type = "reddit_updates"
             
-            # URLs are now kept - they provide helpful context in answers
-            # (Removed URL removal logic per user request)
+            # Selectively remove junk/tracking URLs while keeping useful links
+            elif self.contains_url(line) and self.is_junk_url_line(line):
+                should_remove = True
+                issue_type = "urls"
             
             # Check for number-only lines
             elif self.is_number_only(line):
@@ -560,7 +588,7 @@ class TrainingDataCleaner:
             return
         
         # Create backup
-        backup_file = self.input_file.with_suffix(f".backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
+        backup_file = Path(f"backups/training_data_final_merged_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
         print(f"\n📦 Creating backup: {backup_file}")
         shutil.copy2(self.input_file, backup_file)
         
