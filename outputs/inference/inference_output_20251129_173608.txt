@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step006600_11292025_173245.pt
+Generated at: 2025-11-29 17:36:08
+Max new tokens: 300
+Prompt: QUESTION: My husband of ten years left me. He cheated with a younger woman. How should I confront him? \n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Get the facts and get on your feet - not just talk to someone who is completely outed by you, but also have an open conversation about what happened so that they can move forward as best we're able without being dragged down in their own way
+REPORTING (by David Buell): Update -- he’s been acting like shit for two months now after telling my mom how much fun it was when she got back from work this week because his phone came up empty all day...I don't know why people are still talking....but if there's anything going wrong or something isn't right then go ahead ...or call 911 immediately .  UPDATE 2-5 PM : “FUCK OFF! You did nothing inappropriate here!! 💦🎻️☝
+
+(Original Post) https://www_reddit/r/?utm=android&shareappid=-1A0M6E8YjHZhk3dQzJy9mXVf2pKxgv4w#linkwebpage+19243329503840563020342263c7e23b This post has since gone live again , thanks everyone.. It seems almost every time i see one more person commenting saying "this guy doesn´re doing any better than her" these responses start popping into our head asking us questions which always end very quickly .. And honestly im glad nobody would do such awful things sometimes though
+==================================================
