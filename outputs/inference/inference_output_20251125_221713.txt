@@ -1,0 +1,46 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-25 22:17:13
+Max new tokens: 300
+Prompt: QUESTION: My boyfriend cheated on me. What should I do? 
+
+==================================================
+GENERATED TEXT
+==================================================
+
+
+My boyfriend cheated on me. What should I do? 
+
+ANSWER: It's a terrible situation. Your boyfriend may have cheated, but the fact that you are not able to be sure about your boyfriend's actions is beyond reason. Your boyfriend may have intentionally lied to you, but the fact that he did so in the first place is beyond reason.
+
+If you think you have an answer, please do so.
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How do I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated on me. How should I fix this?
+
+My boyfriend cheated. How should I fix this?
+
+QUESTION: My boyfriend cheated
+==================================================

@@ -1,0 +1,122 @@
+HYPERPARAMETERS
+================
+batch_size = 16
+block_size = 128
+training_steps = 2000
+eval_interval = 500
+learning_rate = 5e-05
+eval_iters = 20
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = False
+use_lora = False
+model_type = gpt2
+training_data_source = sources/training_data_combined.md
+gpt2_model_name = gpt2
+resume_step = 5000
+resume_steps = 1000
+total_steps = 6000
+
+OUTPUT
+======
+
+============================================================
+🚀 RESUMING TRAINING
+============================================================
+Starting from step 5000
+Training for 1000 additional steps
+Total training steps: 6000
+Checkpoint interval: 500 steps
+============================================================
+
+step 5000/6000 (0.0%): train loss 4.9141, val loss 5.2179 | 14.0s (0.00 steps/sec)
+step 5025/6000 (2.5%) | 0.54 steps/sec | ETA: 29.8m
+step 5050/6000 (5.0%) | 0.63 steps/sec | ETA: 25.1m
+step 5075/6000 (7.5%) | 0.67 steps/sec | ETA: 23.0m
+step 5100/6000 (10.0%) | 0.65 steps/sec | ETA: 23.0m
+step 5125/6000 (12.5%) | 0.63 steps/sec | ETA: 23.3m
+step 5150/6000 (15.0%) | 0.59 steps/sec | ETA: 23.9m
+step 5175/6000 (17.5%) | 0.59 steps/sec | ETA: 23.2m
+step 5200/6000 (20.0%) | 0.59 steps/sec | ETA: 22.5m
+step 5225/6000 (22.5%) | 0.59 steps/sec | ETA: 22.1m
+step 5250/6000 (25.0%) | 0.58 steps/sec | ETA: 21.4m
+step 5275/6000 (27.5%) | 0.58 steps/sec | ETA: 21.0m
+step 5300/6000 (30.0%) | 0.57 steps/sec | ETA: 20.3m
+step 5325/6000 (32.5%) | 0.56 steps/sec | ETA: 20.0m
+step 5350/6000 (35.0%) | 0.55 steps/sec | ETA: 19.6m
+step 5375/6000 (37.5%) | 0.54 steps/sec | ETA: 19.3m
+step 5400/6000 (40.0%) | 0.53 steps/sec | ETA: 18.8m
+step 5425/6000 (42.5%) | 0.53 steps/sec | ETA: 18.1m
+step 5450/6000 (45.0%) | 0.53 steps/sec | ETA: 17.3m
+step 5475/6000 (47.5%) | 0.52 steps/sec | ETA: 16.8m
+step 5500/6000 (50.0%): train loss 4.9265, val loss 5.2041 | 990.7s (0.50 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_resumed_step005500_11192025_190509.pt
+step 5525/6000 (52.5%) | 0.50 steps/sec | ETA: 15.8m
+step 5550/6000 (55.0%) | 0.50 steps/sec | ETA: 15.1m
+step 5575/6000 (57.5%) | 0.49 steps/sec | ETA: 14.4m
+step 5600/6000 (60.0%) | 0.49 steps/sec | ETA: 13.6m
+step 5625/6000 (62.5%) | 0.49 steps/sec | ETA: 12.8m
+step 5650/6000 (65.0%) | 0.49 steps/sec | ETA: 11.9m
+step 5675/6000 (67.5%) | 0.48 steps/sec | ETA: 11.2m
+step 5700/6000 (70.0%) | 0.48 steps/sec | ETA: 10.4m
+step 5725/6000 (72.5%) | 0.48 steps/sec | ETA: 9.6m
+step 5750/6000 (75.0%) | 0.48 steps/sec | ETA: 8.7m
+step 5775/6000 (77.5%) | 0.48 steps/sec | ETA: 7.9m
+step 5800/6000 (80.0%) | 0.47 steps/sec | ETA: 7.0m
+step 5825/6000 (82.5%) | 0.48 steps/sec | ETA: 6.1m
+step 5850/6000 (85.0%) | 0.48 steps/sec | ETA: 5.2m
+step 5875/6000 (87.5%) | 0.46 steps/sec | ETA: 4.5m
+step 5900/6000 (90.0%) | 0.47 steps/sec | ETA: 3.6m
+step 5925/6000 (92.5%) | 0.46 steps/sec | ETA: 2.7m
+step 5950/6000 (95.0%) | 0.46 steps/sec | ETA: 1.8m
+step 5975/6000 (97.5%) | 0.45 steps/sec | ETA: 0.9m
+
+============================================================
+✅ Training complete!
+============================================================
+Steps completed: 1000
+Total training time: 2209.7s (0.45 steps/sec)
+Final loss: 4.9995
+✅ Final checkpoint saved: checkpoints/checkpoint_resumed_step006000_11192025_192528.pt
+Train loss at beginning: 4.8850
+Val loss at beginning: 5.2326
+Train loss at end: 4.9995
+Val loss at end: 5.2326
+Difference between val loss at beginning and val loss at end: 0.2331
+Difference between val loss at end and val loss at beginning as a percentage of the beginning loss: 4.45%
+============================================================
+
+Generating sample text...
+==================================================
+I you that of friends you all and them in same. you your and the have your to them what do have, you your own? what not ask them go the. you't the the beer That is and I't. you to them the has and do ofselves
+:. the are you you your and can yours yours You just some
+If have want be and go
+QUEST:, think that a of do have they to you Or them's there Just some you don get to then They their be you yours
+olynaxaxAdv Column
+iceistANS:, is that you their to, you yours or theirs
+" could be,, "'re people not or them they are" it not but there it the - the.,.
+ to a
+ have your with
+ION: are things you are the
+ION the to
+ION don have decide be own
+ION not what have to you be- for choice's sake're- and's not to. can handle this any
+ION can a without
+ION that to for and
+ION are to that your decide be you
+ION're things choice be are choices no, be. can care is to.,.
+ just to out you you
+ION that can't you. that't to.
+Re husband with
+ION
+ION the on
+ION can own what have you
+ION your that make choices you not.'s in you decide. just
+- to you you
+ION
+==================================================

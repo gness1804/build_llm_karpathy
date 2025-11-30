@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-26 09:27:04
+Max new tokens: 300
+Prompt: QUESTION: My daughter isn't speaking to me. She says it's complicated. What do you suggest I do?\n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ It is a matter of time before she gets the chance and will be more than willing help us out, but we need your support as well!
+I'm going through this with my sister because her mom told them that they are in danger from being intimate if their kids aren’t allowed outside while trying not communicate any boundaries or expectations (i know some people feel like i shouldn “make sure our children don´re pressured into sex). So please understand what happened here... This can only happen when someone has been controlling these relationships for too long without actually breaking up at all on purpose so no one else should have access/control over how things go down once again - especially since most adult couples would never break even after years together due ~to lacklustration~
+
+ Thankyou everyone who helped spread awareness about safe space issues which could affect future pregnancies & childbearing opportunities !!!! UPDATE 2-3(8F) Fiance Advice Threads / FAQ [UPDATE] Update 1](https://www2dnaversclub1.com/?utm_source=share&spfid=-23452760332632/) The original post was posted by Miley last night just hours ago now https:/ _^@ \\\._[.]$#_. ^^^T'M still upset bc he sent an update yesterday saying something along those lines.. And then his mum said "we've already talked" . He didn''ll talk anymore today except tell him why everything went
+==================================================

@@ -12,6 +12,12 @@ This document provides Cursor AI with specific guidance for working with the bui
 
 This is an educational project for learning how to build Large Language Models (LLMs) from scratch using PyTorch. The implementation progresses from simple bigram models to transformer architectures with attention mechanisms.
 
+## General most important rules
+
+- NEVER create documentation in the repo root unless it's a core README file.Other documents should be created in the docs directory.
+- ALWAYS check to see if an existing document file can be used when you need to create updated documentation as opposed to creating an entirely new file. Cursor has the tendency to create too many documentation files and clutter up the project. Do everything you can to avoid this.
+
+
 ## Technology Stack
 
 - **Language**: Python 3.8+
@@ -239,6 +245,11 @@ This is an educational project for learning how to build Large Language Models (
    - Use `notes.md` for conceptual explanations
    - Include visual representations of tensor operations
    - Document key learning insights
+
+4. **Documentation files**
+- Cursor agents should be judicious and sparing in creating documentation files. Historically, cursor agents have been observed to create too many documentation files that overlap too much. So if your first thought is to create three files, maybe one will do.
+- If you're creating a documentation file purely for debugging, that you don't intend to use later, please create it in a temporary folder in the repo.
+- All other documentation you create should be in a docs folder or similar, except for the few items that need to be in the repository root (such as the core @README.md). This helps to reduce clutter in the repository root and helps to keep the repository better organized.
 
 ### File Organization
 

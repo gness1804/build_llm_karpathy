@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-26 10:48:03
+Max new tokens: 300
+Prompt: QUESTION: My husband wants me to quit my job and stay home full-time, but I make more than him, and I think it's largely a matter of pride. How do you suggest I frame the issue in confronting him? \n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Don't be afraid to talk about your feelings with his family as much as possible - he is not going anywhere without them knowing they're being treated poorly by their boss (or even worse).
+Update (10/27): The post has been removed because someone else posted on reddit that this was inappropriate for her or if she had any idea how similar our relationship could become over time...I don’t know what happened here either since there are so many different things people can say when confronted like "that wasn\\e thoughtful" etc....UPDATE 2  UPDATE 3 : He responded saying something along the lines ''this woman didn “give enough credit'' & then deleted everything from Reddit once we were done talking :) Sorry guys! Update 4
+
+EDIT 6 OP added an update regarding another friend who asked whether i should work out again after seeing all these comments https://www1.redditgiftsquiz.com/advice/?s=f2d5c9b0a6cc353426ab8ef4bf2333ac&utm_source=share#axzz3BmQrhUz7MjRkYFvwVyZWXJlTqEoA+xD36iO) That comment sparked quite some reaction within other groups too , including one where users said ""maybe maybe try working at night instead?" which seemed kinder compared considering everyone does sleep every day anyway lol." Apparently neither
+==================================================

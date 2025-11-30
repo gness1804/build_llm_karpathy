@@ -1,0 +1,136 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/training_data_final_merged.md
+batch_size = 8
+block_size = 128
+training_steps = 1500
+start_step = 5100
+learning_rate = 3e-06
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = True
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = False
+
+OUTPUT
+======
+Loading training data from: sources/training_data_final_merged.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+Loading model state from checkpoint...
+✅ Model state loaded
+Loading optimizer state from checkpoint...
+✅ Optimizer state loaded (LR overridden to 3.00e-06)
+📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)
+   LR: 3.00e-06 (constant throughout training)
+Starting training for 1500 steps...
+Batch size: 8, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/resume_training_log_gpt2_training_data_final_merged_11292025_170652.log
+step 5100/6600 (0.0%): train loss 3.0971, val loss 3.3578 | LR: 3.00e-06 | 7.2s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 5125/6600 (1.7%) | 1.04 steps/sec | ETA: 23.7m
+step 5150/6600 (3.3%) | 1.21 steps/sec | ETA: 20.0m
+step 5175/6600 (5.0%) | 1.30 steps/sec | ETA: 18.2m
+step 5200/6600 (6.7%) | 1.34 steps/sec | ETA: 17.4m
+step 5225/6600 (8.3%) | 1.38 steps/sec | ETA: 16.6m
+step 5250/6600 (10.0%) | 1.40 steps/sec | ETA: 16.1m
+step 5275/6600 (11.7%) | 1.37 steps/sec | ETA: 16.1m
+step 5300/6600 (13.3%) | 1.36 steps/sec | ETA: 15.9m
+step 5325/6600 (15.0%) | 1.35 steps/sec | ETA: 15.8m
+step 5350/6600 (16.7%) | 1.33 steps/sec | ETA: 15.7m
+step 5375/6600 (18.3%) | 1.31 steps/sec | ETA: 15.6m
+step 5400/6600 (20.0%) | 1.29 steps/sec | ETA: 15.5m
+step 5425/6600 (21.7%) | 1.25 steps/sec | ETA: 15.6m
+step 5450/6600 (23.3%) | 1.23 steps/sec | ETA: 15.6m
+step 5475/6600 (25.0%) | 1.20 steps/sec | ETA: 15.6m
+step 5500/6600 (26.7%) | 1.19 steps/sec | ETA: 15.5m
+step 5525/6600 (28.3%) | 1.18 steps/sec | ETA: 15.1m
+step 5550/6600 (30.0%) | 1.18 steps/sec | ETA: 14.8m
+step 5575/6600 (31.7%) | 1.18 steps/sec | ETA: 14.5m
+step 5600/6600 (33.3%): train loss 3.1022, val loss 3.3357 | LR: 3.00e-06 | 439.2s (1.14 steps/sec) | Net loss change since beginning: 0.0051 | Net loss change since last checkpoint: 0.0051
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step005600_11292025_171411.pt
+step 5625/6600 (35.0%) | 1.13 steps/sec | ETA: 14.4m
+step 5650/6600 (36.7%) | 1.13 steps/sec | ETA: 14.1m
+step 5675/6600 (38.3%) | 1.12 steps/sec | ETA: 13.8m
+step 5700/6600 (40.0%) | 1.12 steps/sec | ETA: 13.4m
+step 5725/6600 (41.7%) | 1.12 steps/sec | ETA: 13.0m
+step 5750/6600 (43.3%) | 1.12 steps/sec | ETA: 12.7m
+step 5775/6600 (45.0%) | 1.11 steps/sec | ETA: 12.3m
+step 5800/6600 (46.7%) | 1.11 steps/sec | ETA: 12.0m
+step 5825/6600 (48.3%) | 1.11 steps/sec | ETA: 11.7m
+step 5850/6600 (50.0%) | 1.11 steps/sec | ETA: 11.3m
+step 5875/6600 (51.7%) | 1.10 steps/sec | ETA: 11.0m
+step 5900/6600 (53.3%) | 1.10 steps/sec | ETA: 10.6m
+step 5925/6600 (55.0%) | 1.09 steps/sec | ETA: 10.3m
+step 5950/6600 (56.7%) | 1.09 steps/sec | ETA: 10.0m
+step 5975/6600 (58.3%) | 1.08 steps/sec | ETA: 9.6m
+step 6000/6600 (60.0%) | 1.08 steps/sec | ETA: 9.3m
+step 6025/6600 (61.7%) | 1.07 steps/sec | ETA: 8.9m
+step 6050/6600 (63.3%) | 1.07 steps/sec | ETA: 8.6m
+step 6075/6600 (65.0%) | 1.07 steps/sec | ETA: 8.2m
+step 6100/6600 (66.7%): train loss 3.0236, val loss 3.3835 | LR: 3.00e-06 | 953.8s (1.05 steps/sec) | Net loss change since beginning: -0.0736 | Net loss change since last checkpoint: -0.0787
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step006100_11292025_172246.pt
+step 6125/6600 (68.3%) | 1.04 steps/sec | ETA: 7.6m
+step 6150/6600 (70.0%) | 1.04 steps/sec | ETA: 7.2m
+step 6175/6600 (71.7%) | 1.04 steps/sec | ETA: 6.8m
+step 6200/6600 (73.3%) | 1.03 steps/sec | ETA: 6.4m
+step 6225/6600 (75.0%) | 1.03 steps/sec | ETA: 6.1m
+step 6250/6600 (76.7%) | 1.03 steps/sec | ETA: 5.7m
+step 6275/6600 (78.3%) | 1.03 steps/sec | ETA: 5.3m
+step 6300/6600 (80.0%) | 1.02 steps/sec | ETA: 4.9m
+step 6325/6600 (81.7%) | 1.02 steps/sec | ETA: 4.5m
+step 6350/6600 (83.3%) | 1.02 steps/sec | ETA: 4.1m
+step 6375/6600 (85.0%) | 1.02 steps/sec | ETA: 3.7m
+step 6400/6600 (86.7%) | 1.02 steps/sec | ETA: 3.3m
+step 6425/6600 (88.3%) | 1.01 steps/sec | ETA: 2.9m
+step 6450/6600 (90.0%) | 1.01 steps/sec | ETA: 2.5m
+step 6475/6600 (91.7%) | 1.00 steps/sec | ETA: 2.1m
+step 6500/6600 (93.3%) | 1.00 steps/sec | ETA: 1.7m
+step 6525/6600 (95.0%) | 0.99 steps/sec | ETA: 1.3m
+step 6550/6600 (96.7%) | 0.99 steps/sec | ETA: 0.8m
+step 6575/6600 (98.3%) | 0.98 steps/sec | ETA: 0.4m
+--------------------------------------------------
+Training complete! Final loss: 2.9988
+Total training time: 25m 41s (0.97 steps/sec)
+Final eval - train loss 3.0495, val loss 3.4235
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_final_merged_step006600_11292025_173245.pt
+📝 Checkpoint log saved: logs/resume_training_log_gpt2_training_data_final_merged_11292025_170652.log
+
+Generating text...
+==================================================
+QUESTION:  I’m in love with my BF “Joey” and I’m worried that I’m not being honest with him.  I like him a lot  but it’s not always like he’s a really good person or a good guy.  This is not something I want to change. I don’t want to be a "fixer" or a "sham" when it comes to my wife.  I just want her to be happy and happy with me and I’m trying to figure out what to do about it. I don’t want to lose my BF, I just want to see him happy and happy again.
+
+ANSWER:   How can you not love your wife?  She’s not a great husband for you to be in love with, you have to be very careful and careful. It’s not like being a good husband is a bad thing.
+
+QUESTION:  I (23F) am currently struggling with a mental illness related to my boyfriend (24M)
+
+I love my boyfriend and we have been together for about 3 months now. We have been together for 6 months now. He’s really sweet, has a huge heart and is very caring. I really miss him and have done everything for him. I feel like I should give him something but I don’t know. I don’
+==================================================

@@ -1,0 +1,61 @@
+HYPERPARAMETERS
+================
+batch_size = 32
+block_size = 64
+training_steps = 10
+eval_interval = 100
+learning_rate = 0.0003
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 3
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = custom_bpe
+test_mode = True
+use_lora = True
+model_type = gpt2
+gpt2_model_name = gpt2
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+🔬 TEST MODE: Using reduced hyperparameters for fast training
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 3 layers, 128 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 49 layers
+✅ LoRA adapters applied (rank=8, alpha=16.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 126,027,656
+   Trainable (total): 1,587,848
+   Frozen (base model): 124,439,808
+   💰 LoRA savings: Training only 1.26% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 98 parameter groups (LoRA only)
+Starting training for 10 steps...
+Batch size: 32, Block size: 64
+Vocabulary size: 50,257 tokens
+--------------------------------------------------
+step 0/10 (0.0%): train loss 9.5468, val loss 9.5399 | 66.8s (0.00 steps/sec)
+--------------------------------------------------
+Training complete! Final loss: 8.6960
+Total training time: 78.9s (0.13 steps/sec)
+
+Generating text...
+==================================================
+
+On August 24, the same day former head of state Condoleeza Rice's husband, retired retired special forces veteran Col. H. H. H. Jones, retired US Army Major-Gen. Richard M. Haney, retired special forces physical therapist, retired as a peace officer and retired a retired special intelligence officer, retired as a nuclear weapon, retired as an intelligence writer and retired as a retired publicist and retired as a retired special intelligence officer, retired as a peace officer and retired as a retired retired publicist. Haney, Haney and Jones had at least 50 different retired and professional names. Haney's name changed to H. H. H. Jones, H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H. H.
+
+Also on that same day, retired special forces head of state and retired retired general for the physical therapists of the world retired former retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired retired
+==================================================

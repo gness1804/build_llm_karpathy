@@ -1,0 +1,19 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-25 22:31:54
+Max new tokens: 300
+Prompt: QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+
+==================================================
+GENERATED TEXT
+==================================================
+
+
+ANSWER: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront her?  ? 
+QUESTION: My sister-in-law, who is very religious, didn't come to our wedding. She hasn't apologized for it. Should I confront
+==================================================

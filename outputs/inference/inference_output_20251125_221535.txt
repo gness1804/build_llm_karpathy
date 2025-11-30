@@ -1,0 +1,21 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt
+Generated at: 2025-11-25 22:15:35
+Max new tokens: 300
+Prompt: QUESTION: My daughter isn't speaking to me. She says it's complicated. What do you suggest I do? ? 
+
+==================================================
+GENERATED TEXT
+==================================================
+
+QUESTION: My brother and I have been dating for a month now. We've been living together for a while, but recently broke up, and I can't seem to make it work.
+
+My brother and I have been dating for a month now. We've been living together for a while, but recently broke up, and I can't seem to make it work.   We’m starting to feel like we should move in together. Can you help me understand this? 
+
+QUESTION: My husband is getting a divorce. My husband is getting a divorce. My brother and I have been dating for a month now, but recently broke up, and I can't seem to make it work.
+
+My husband is getting a divorce. My brother and I have been dating for a month now, but recently broke up, and I can't seem to make it work.     I’m trying to figure out how I can move things along.     I’m trying to figure out how I can move things along.  
+
+QUESTION: My husband is getting a divorce. My husband is getting a divorce. My brother and I have been dating for a month now, but recently broke up, and I can't seem to make it work.
+
+My husband is getting a divorce. My brother and I have been dating for a month now, but recently broke up, and I can't
+==================================================

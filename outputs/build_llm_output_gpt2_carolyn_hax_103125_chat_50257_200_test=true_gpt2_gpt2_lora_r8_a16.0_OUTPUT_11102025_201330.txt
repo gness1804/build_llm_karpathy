@@ -1,0 +1,72 @@
+HYPERPARAMETERS
+================
+batch_size = 32
+block_size = 64
+training_steps = 200
+eval_interval = 100
+learning_rate = 0.0003
+eval_iters = 50
+n_embd = 128
+n_head = 4
+n_layer = 3
+dropout = 0.2
+max_new_tokens = 300
+device = mps
+tokenization_method = character
+test_mode = True
+use_lora = True
+model_type = gpt2
+gpt2_model_name = gpt2
+lora_rank = 8
+lora_alpha = 16.0
+lora_dropout = 0.0
+
+OUTPUT
+======
+🔬 TEST MODE: Using reduced hyperparameters for fast training
+✅ Using Apple Silicon GPU (Metal Performance Shaders)
+Device: mps
+Model size: 3 layers, 128 embedding dims, 4 heads
+🤖 Using GPT-2 model: gpt2
+🔧 Using LoRA for efficient fine-tuning
+   LoRA rank: 8, alpha: 16.0, dropout: 0.0
+📥 Loading gpt2 from HuggingFace...
+   Applied LoRA to 49 layers
+✅ LoRA adapters applied (rank=8, alpha=16.0)
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 126,027,656
+   Trainable (total): 1,587,848
+   Frozen (base model): 124,439,808
+   💰 LoRA savings: Training only 1.26% of parameters!
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+ℹ️  Using MPS without compilation (torch.compile disabled for MPS)
+✅ Optimizer initialized with 98 parameter groups (LoRA only)
+Starting training for 200 steps...
+Batch size: 32, Block size: 64
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 100 steps to checkpoints/
+--------------------------------------------------
+step 0/200 (0.0%): train loss 9.5468, val loss 9.5399 | 49.1s (0.00 steps/sec)
+step 25/200 (12.5%) | 0.35 steps/sec | ETA: 8.2m
+step 50/200 (25.0%) | 0.55 steps/sec | ETA: 4.6m
+step 75/200 (37.5%) | 0.67 steps/sec | ETA: 3.1m
+step 100/200 (50.0%): train loss 7.2295, val loss 7.4329 | 185.8s (0.54 steps/sec)
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step000100_11102025_201132.pt
+step 125/200 (62.5%) | 0.60 steps/sec | ETA: 2.1m
+step 150/200 (75.0%) | 0.64 steps/sec | ETA: 1.3m
+step 175/200 (87.5%) | 0.67 steps/sec | ETA: 0.6m
+--------------------------------------------------
+Training complete! Final loss: 6.3520
+Total training time: 4m 51s (0.69 steps/sec)
+✅ Final model saved: checkpoints/checkpoint_gpt2_carolyn_hax_103125_chat_step000200_11102025_201318.pt
+
+Generating text...
+==================================================
+ is. to.. with the people a with I the of a more-? to,, I as? I.
+ for.. a, and are are in in a a the then of is his., with. of his on in as this you this
+ me� a the, the, my his's. me have what. and and in ( to a, what but that, for to or not this I I your the he and with (?. can, husband to I my to, do,, of- the my be the that you for's, his your you me of- can to then ( a not is a his of as I-, your the the can
+ it- my
+, is with to'm that. me has, to then has a on to. a that, with for. do- this is you me it not is.. ( he to of then- in me of has to. the ( has. to do I. the of for do or's. with ( a you a- on a the it I to, what him but and like, is's what the if, if -- of to. for for of with this I's,. that you,, is is then and of the the of, his. from. and if do a of of to from or his for ( not I you it the a it of'm, out he? it., the is your, to you his
+==================================================
