@@ -58,8 +58,9 @@ ANSWER: <answer text>
 
 Requirements:
 - Stay in the domain of interpersonal relationships: romantic partners, family, friends, roommates, coworkers.
+- In generating your responses, vary the topics from question to question. We want to avoid overfitting the model on one particular topic or type of question.
 - Do NOT mention Reddit, posts, threads, upvotes, or any platform.
-- Do NOT include URLs, usernames, or emojis.
+- Do NOT include URLs, usernames, or emojis. (The exception to the URLs rule is if the URL is directly part of a question or an answer. An example of this might be a URL to a help website if the question concerns how to get help for a mental illness.)
 - The answer should be:
   - Empathetic but direct
   - Ethically sound (no revenge, harassment, or bigotry)
