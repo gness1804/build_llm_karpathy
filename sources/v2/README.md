@@ -65,6 +65,7 @@ Requirements:
   - Ethically sound (no revenge, harassment, or bigotry)
   - 1–3 short paragraphs, no more than ~250–300 words.
 - Do NOT include any explanations to me or any other metadata or meta-analysis; only output raw QUESTION/ANSWER pairs.
+- Use the following custom token between Q&A pairs: `<END_OF_SET>`. Always use this token after every Q&A set. Never use this token inside any question or answer. Just use it after a Q&A set concludes. This should help the model that trains on this data to know exactly how to separate Q and A pairs.
 
 Here are some examples of the style and format I want:
 
