@@ -1,0 +1,148 @@
+# Prompts to test the model on inference.
+
+Theme: Interpersonal relationships
+
+## Easy prompts
+
+These should be very solvable with your training data patterns if the fine tune “took.”
+
+### Easy 1 – Simple romantic miscommunication
+
+PROMPT:
+My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about something that hurt my feelings, he makes a joke or says I am “too sensitive.” He does not yell or insult me, but I leave those conversations feeling like my emotions are a nuisance. I do not want to break up over this, but I also do not want to keep swallowing my feelings just to keep the peace. How can I talk to him about this in a way that might actually change something?
+
+What to look for:
+
+Empathy toward the letter writer without demonizing the boyfriend.
+
+A clear suggestion to name the pattern and its impact.
+
+Emphasis on “I” statements, boundaries, and what is and is not acceptable.
+
+No Reddit/platform talk, no URLs.
+
+### Easy 2 – Friend not initiating
+
+PROMPT:
+I have a friend I love dearly, but I am always the one who initiates. I am the one who texts first, suggests plans, follows up. When we do hang out, it is great. She is warm and present, and I feel close to her. But if I stop initiating, we can go weeks with no contact. I am starting to feel like I am forcing the friendship to exist. Is there a way to bring this up without sounding needy, or do I just need to accept that this is how she is?
+
+What to look for:
+
+Recognition of the emotional asymmetry and how tiring it is.
+
+Advice that suggests a direct but gentle conversation, plus adjusting expectations if needed.
+
+No shaming either person, and no “just ghost her” type advice.
+
+### Easy 3 – Parent overstepping a bit
+
+PROMPT:
+I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+What to look for:
+
+Clear boundary language, maybe a script for “I love you, and also this needs to stop.”
+
+Framing mom as well meaning, but still overstepping.
+
+Suggestion that the writer can change the key rules or times mom can come by.
+
+## Medium prompts
+
+These test whether the model can handle more layered emotions and values without going off the rails.
+
+### Medium 1 – Different conflict styles
+
+PROMPT:
+My partner and I have very different conflict styles. When something is wrong, I want to talk it through fairly soon, at least enough to feel like we are on the same page. He shuts down and wants to be alone for hours or sometimes a whole day before he is ready. He says he is afraid of saying something he will regret. I understand that, but the silence makes me feel abandoned and anxious. I do not want to push him faster than he can handle, but I also cannot handle being iced out whenever something is wrong. How can we work with both of our needs here?
+
+What to look for:
+
+The model should recognize both needs as valid.
+
+It should suggest a middle ground: a quick reassurance plus more time later for deeper talk.
+
+Good use of your “meta conversation about how we argue” vibe.
+
+### Medium 2 – Value difference around ambition
+
+PROMPT:
+My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+What to look for:
+
+Respect for both value systems.
+
+Clear suggestion to talk about what “success” means to each person.
+
+Explicit permission to say “I am allowed to be content” without demonizing the wife.
+
+### Medium 3 – Friendship and big identity change
+
+PROMPT:
+A close friend of mine has recently become very religious after not being interested in faith at all for years. I am genuinely glad that she has found something that gives her meaning, but our conversations now feel like sales pitches. She keeps inviting me to services and small groups, and when I politely say no, she tells me she is “worried about my soul.” I do not want to attack her beliefs, and I do not want to lose the friendship, but I feel cornered. How can I set a boundary without sounding hostile?
+
+What to look for:
+
+Nuanced handling of religion without endorsing or attacking.
+
+A boundary like “I respect your path; I am not interested for myself.”
+
+An invitation to keep the friendship, just with clearer limits on proselytizing.
+
+## Hard prompts
+
+These test whether the model can juggle multiple people’s needs and more painful contexts, and still keep your tone.
+
+### Hard 1 – Caretaking burnout in a family system
+
+PROMPT:
+I am the oldest of three siblings, and our dad’s health has been declining for a while. I live closest, so it has slowly become “understood” that I handle almost everything: appointments, medications, paperwork, talking to doctors. My siblings always say, “Thank you so much, we really appreciate you,” but do not actually step in. When I suggest that they take specific tasks, they say they are “too busy” or “not good with that kind of thing.” I am exhausted and starting to feel resentful, but I also feel guilty, because my dad did a lot for us growing up, and I do not want to abandon him. How do I set limits without feeling like a terrible child?
+
+What to look for:
+
+Recognition that the letter writer is carrying invisible labor.
+
+Advice that includes concrete redistribution of tasks and possibly external help.
+
+Reassurance that setting limits is not abandoning dad.
+
+### Hard 2 – Partner’s grief and emotional distance
+
+PROMPT:
+My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+What to look for:
+
+Acknowledgment that partner’s grief is real and not “wrong.”
+
+Space for the letter writer’s grief about the relationship.
+
+Suggestions like offering presence, small rituals of connection, and possibly inviting outside support (counseling, grief group) without forcing it.
+
+### Hard 3 – Abusive past dynamic with someone “everyone likes”
+
+PROMPT:
+Years ago, I lived with a couple of roommates. One of them, “M,” was charming and well liked by everyone, but in private, he was controlling and manipulative with me. He would criticize what I wore, make jokes at my expense in front of others, and punish me with weeks of coldness if I pushed back. Eventually I moved out and cut off contact. Now a close friend of mine has started dating him. She is over the moon and keeps telling me how lucky she feels. I have not told her anything, because I do not want to sound bitter or plant fear based only on my experience. At the same time, it feels awful to say nothing. What, if anything, do I owe her?
+
+What to look for:
+
+Recognition that the writer is not obligated to stay silent about abuse.
+
+A careful suggestion to share her experience in a non-hysterical, grounded way.
+
+Emphasis that the friend still has autonomy and may not believe or act immediately.
+
+Clarity about protecting the writer’s own mental health and boundaries.
+
+### Hard 4 - longer prompt about friend group and growing distant.
+
+I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seem to have time for us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. /n /n I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
+
+What to look for:
+
+Observation that growing apart from friends is natural, and that you're not rejecting them.
+
+Observation that as life changes, and people enter into different life stages, their old social configurations may not remain intact, or they might evolve in different ways.
+
+General compassion towards the friends and the single people in the group, while still affirming the validity of the letter writer's choices.
