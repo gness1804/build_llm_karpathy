@@ -603,3 +603,126 @@ If she responds and wants to reconnect, great. If her distance continues, it may
 The key is to hold the friendship lightly. You’re signaling care, not demanding closeness. And you’re allowing both of you the room to grow into the next version of the relationship, whatever shape that takes.
 
 <END_OF_SET>
+
+QUESTION: I have been married a few years. My wife and I are mostly open with each other about things. But I have one thing that I haven't told her about. I watch porn. It's always from mainstream sites. Never underage porn. And I never interact with any of the performers directly, a la OnlyFans. I usually do it when I'm sleeping in the other room for various reasons, or sometimes when she goes out for a while. I feel guilty about this, but at the same time, I also feel like it's important to me since our libidos are mismatched. My libido is significantly higher than hers. 
+
+I feel that this is a better solution to the libido problem than actually going out and having an affair, but part of me feels this is still cheating because after all, I am deliberately getting sexually stimulated by other women's bodies. Is this cheating? What's your verdict on this?
+
+ANSWER: the use of sensual materials, when all common sense and ethical guidelines are met, is a question that good people can disagree upon. Some marriages can do well and even thrive when one or both partners use porn, whereas it kills other marriages. I'd start by asking yourself a few questions. First, why haven't you told your wife about this porn use? Is it that you're worried about her reaction? Do you feel ashamed? You did mention that you feel that it feels like a "betrayal." But engage in a thought exercise for a moment: how would you compare the following situations when it comes to whether it's a betrayal of your spouse?
+- Watching porn
+- Reading an erotic novel
+- Masturbating through pure fantasy
+
+Almost all married people masturbate at least sometimes in their marriage. So that fact itself isn't reason to feel bad or like you're betraying your spouse. And I gave you the above list to get you thinking about what really separates porn from these other activities. Not to justify porn but to simply try to isolate your thinking as far as what its role is or should be in your life. I think the biggest issue here though is the secretiveness. You should have a frank conversation with your spouse about this. Mention using these materials and mention your concern about them. Even if they disagree with your use of them, hopefully they will react in a compassionate and loving way. And also look at Bernie Zilbergeld's book, "The New Male Sexuality." He offers a lot of common sense advice on topics like this.
+
+<END_OF_SET>
+
+QUESTION: My husband and I usually communicate well, but lately we’ve been getting stuck in the same argument about how we spend our free time. I’m someone who likes to plan outings or small activities on the weekends. He prefers to decompress at home and gets overwhelmed when he feels like the weekend is scheduled. When I bring up wanting to do more together, he hears it as criticism. When he asks for quieter weekends, I hear it as disinterest. We’re not fighting constantly, but we keep circling this mismatch and neither of us feels fully understood. How do we bridge this without either of us feeling steamrolled?
+
+ANSWER: Start by shifting the frame from “How do we solve this?” to “How do we understand each other better?” Because underneath the scheduling conflict is a clash of needs: your desire for shared experiences and his desire for rest. Try approaching the conversation with that lens. For example: “I’m not trying to take away your downtime. I just feel more connected when we have a few planned moments together. Can we talk about how to make space for both?”
+
+Once you’ve established that you’re both trying to meet real needs rather than win an argument, experiment with structure. Maybe you designate one weekend day as low-key and keep one small planned outing on the other. Or you agree on two or three “anchor points” each month so he can anticipate the energy required. You’re not erasing his need for rest or your desire for activity. You’re creating a rhythm you both can breathe in.
+
+Finally, check in periodically about how it’s going. These patterns evolve as stress levels and life demands shift. The goal isn’t perfect balance every week. It’s a sense that both of you matter in the equation.
+
+<END_OF_SET>
+
+QUESTION: I’m close with one of my coworkers, but over the past year she has started treating me like her unofficial therapist. She often pulls me aside to vent about her marriage, her kids, her health, and whatever else is weighing on her. I genuinely care about her, but these conversations leave me drained and unfocused, and I’m noticing that I dread running into her because I know I’ll get pulled into another hour-long download. I don’t want to shut her out or make her feel rejected, but I need that boundary between my emotional energy and her crises. How do I communicate this without damaging our work relationship?
+
+ANSWER: Begin by naming your own limits rather than critiquing her behavior. Something like: “I care about you, but I’m realizing I don’t have the emotional bandwidth for deep conversations during the workday. I want to be supportive, but I need to protect my focus and energy.” Keeping the emphasis on your capacity makes it less likely she will interpret it as a personal judgment.
+
+Then offer a clear boundary paired with a kind alternative. You might say: “If you need a quick check-in, I’m here for that. But the longer, heavier conversations are too much for me during the day.” You’re not abandoning the friendship. You’re adjusting the channel through which it flows.
+
+If she tests the boundary, gently redirect: “I wish I had the energy to dive into this right now, but I need to stay focused. Maybe we can talk another time.” Repetition, not justification, is what sets the limit. And remember, a relationship that can only function if you absorb her emotional weight isn’t sustainable. You’re giving the friendship a path forward that doesn’t burn you out.
+
+<END_OF_SET>
+
+QUESTION: My boyfriend’s roommate and I have never clicked, but recently he has been making passive-aggressive comments whenever I’m over. Things like jokes about how much time I spend at the apartment or little remarks about “guest privileges.” I try to brush it off, but the tension is starting to affect how comfortable I feel being there. My boyfriend thinks I’m reading too much into it and says his roommate is just quirky, but the atmosphere has definitely shifted. I don’t want to escalate things, but I also don’t want to keep pretending everything is fine. How do I address this with my boyfriend without sounding accusatory?
+
+ANSWER: Start with the emotional truth rather than the behavior itself. Something like: “I’m not trying to vilify your roommate. I just haven’t been feeling very comfortable at the apartment lately, and I want to talk to you about it so we can figure out how to make the space feel welcoming for both of us.” That keeps the focus on your experience instead of forcing him to defend someone.
+
+Then offer concrete examples of moments that made you uncomfortable. Not as ammunition, but as context. This helps him understand that the issue isn’t vague discomfort but a repeatable pattern that’s affecting your sense of belonging.
+
+From there, brainstorm together. Maybe he checks in with his roommate privately. Maybe he gives you a heads-up about nights when the roommate is stressed and less receptive. You’re not demanding that he confront his roommate aggressively. You’re asking him to be a partner in making the shared environment livable for everyone. When framed as a shared challenge instead of a critique, most partners are more willing to hear it.
+
+<END_OF_SET>
+
+QUESTION: My older brother has always had a forceful personality, but lately he has started giving me unsolicited advice about every aspect of my life. My job, my finances, my relationship, even how I organize my house. He means well, but the constant commentary makes me feel like I’m being managed rather than supported. If I push back, he gets offended and says he’s only trying to help. I don’t want to damage the relationship, but I can’t keep absorbing this. How do I set a boundary with someone who thinks boundaries are personal attacks?
+
+ANSWER: People who overreach often believe their intentions should override your experience, so start by separating the two. You might say: “I know you want the best for me, but the unsolicited advice is overwhelming. I need to come to you when I want input, not feel like I’m being evaluated all the time.” This honors his intention while making your limit unmistakable.
+
+Then be explicit about what you want going forward. Something like: “Unless I ask for advice, I need you to just listen.” No apologies, no over-explanation. Just clarity.
+
+If he reacts defensively, keep your tone warm but firm: “I’m not questioning your desire to help. I’m asking for space to handle things my own way.” His discomfort does not mean the boundary is wrong. It just means it’s new.
+
+Consistency is the lever here. The first few times he lapses, redirect calmly: “I’m not looking for advice right now.” Over time, even the most well-meaning micromanagers learn that your autonomy is not up for negotiation.
+
+<END_OF_SET>
+
+QUESTION: My partner and I recently adopted a dog, and we’re clashing over training styles. I favor consistent structure and routines, and he’s more relaxed and intuitive. The dog is confused, we’re both frustrated, and conversations about it quickly spiral into debates about who understands the dog better. I want us to work as a team, but right now it feels like we’re working against each other. How do we reset and approach this more constructively?
+
+ANSWER: Treat the situation as a shared learning curve rather than a competition. Try saying: “I think we both want the dog to feel secure, but our approaches are different enough that it’s creating mixed signals. Can we look at this as something we’re figuring out together rather than needing to choose one method over the other?”
+
+Then consider bringing in an external reference point. Reading the same book, following a reputable training guide, or attending one or two sessions with a trainer can give both of you common ground. It shifts the dynamic from “my way vs. your way” to “what do the experts suggest, and how do we want to adapt that for our home?”
+
+Finally, agree on a few key principles you’ll both honor, such as consistent commands, predictable routines, or shared expectations around rewards and limits. You don’t have to be identical in every moment. You just need to avoid contradicting each other in ways that confuse the dog. You’re building a household culture, and that takes collaboration more than correctness.
+
+<END_OF_SET>
+
+QUESTION: My college-age daughter comes home on breaks and immediately reverts to treating me like a full-time provider. She expects meals, laundry help, rides, and emotional labor on demand. I love her and I’m glad she feels at home here, but I’m exhausted by how quickly my boundaries get erased the moment she walks through the door. When I try to bring it up, she gets defensive and says she’s only home for a short time, so why can’t things just be easy? How do I reset expectations without turning every visit into a standoff?
+
+ANSWER: Start by acknowledging the transition she’s navigating. Coming home often triggers old roles for both parents and young adults. But then name your reality: “I love having you here, and I want this to be a place you can relax. At the same time, I can’t take on every responsibility the way I did when you were younger.”
+
+Be specific about what needs to change. Instead of “I need more help,” try: “If you want laundry done, it needs to be your responsibility,” or “I’m happy to cook some meals, but not every meal.” Concrete expectations reduce the emotional charge.
+
+If she protests, stay calm: “I’m not trying to make your time here stressful. I’m trying to make sure it’s sustainable for both of us.” Give her a little space to adjust; role shifts rarely happen overnight.
+
+Over time, the goal is to build a new adult-to-adult rhythm rather than sliding automatically into parent-child mode. You’re not being harsh. You’re updating the household contract so it respects both of you.
+
+<END_OF_SET>
+
+QUESTION: I’m in a close friend group where everyone usually gets along, but two people had a falling-out months ago and the tension is still affecting the whole dynamic. They avoid each other, make pointed remarks, and sometimes try to recruit the rest of us to “their side.” I’m tired of feeling like I’m walking through interpersonal landmines every time we all hang out. I care about both of them, but I don’t want to be a mediator or referee anymore. How can I protect my own peace without alienating either friend?
+
+ANSWER: You don’t need to fix their conflict, but you do need to define your role in it. Start by telling each of them privately, and gently, that you’re stepping out of the middle. Something like: “I care about you, but I can’t be part of conversations that pull me into the conflict with the other person. I want to stay neutral and keep our friendship separate from whatever the two of you are working through.”
+
+Then set a consistent boundary in group settings. If the tension surfaces, redirect or disengage. “Let’s not go there” or “I’m not getting into that” is enough. You’re not scolding them. You’re declining the invitation to be collateral.
+
+If group hangouts continue to feel strained, consider hosting smaller gatherings with different configurations so you’re not constantly managing the fallout. You’re allowed to curate your social life. Caring about people doesn’t require absorbing their unresolved conflicts.
+
+You’re choosing self-preservation, not sides.
+
+<END_OF_SET>
+
+QUESTION: My spouse has a habit of interrupting me in conversations, both at home and when we’re around others. I’ve pointed it out a few times, and he always apologizes, but the pattern keeps repeating. It makes me feel talked over and, honestly, a little invisible. I don’t think he’s doing it intentionally, but the impact is really wearing on me. How do I address this in a way that leads to actual change rather than another temporary apology?
+
+ANSWER: Focus on the pattern rather than each individual moment. Try something like: “I know you’re not trying to interrupt me, but when it happens repeatedly, I feel silenced. I want to talk about how we can make space for both of us in conversations.”
+
+Then propose something practical, specific, and small enough to stick. Maybe he pauses for a beat after you start speaking, or you agree on a cue word you can use in the moment that signals, kindly, that you want to finish your thought. Many people interrupt out of enthusiasm or habit, not disrespect, and small structural reminders help break the loop.
+
+Reinforce progress when you see it. Positive feedback isn’t about coddling him—it’s about marking new neural pathways. And if the pattern persists unchanged, consider exploring why. Is he anxious? Distracted? Unused to slow conversation rhythms? Sometimes understanding the root makes the solution clearer.
+
+The goal isn’t to police his speech. It’s to create conversations where you both feel heard.
+
+<END_OF_SET>
+
+QUESTION: My partner and I recently merged our finances, and we’re discovering that we have very different spending habits. I’m frugal and tend to think several months ahead. He’s more spontaneous and comfortable with impulse purchases. Neither of us is reckless, but the mismatch has caused a few tense conversations about what counts as “necessary,” and I can feel resentment creeping in. How do we navigate this without turning every purchase into a referendum on our values?
+
+ANSWER: Start by separating the emotional layer from the logistical one. Spending habits often reflect deeper stories—security, identity, pleasure, scarcity. You might say: “I think our reactions to money come from different places. I’d like to understand yours better, and I want to explain mine so we’re not guessing at each other’s motives.”
+
+Then build a system that contains the differences rather than erases them. That might mean setting a monthly discretionary allowance for each of you—money you can spend without explanation. Or creating a threshold above which you both discuss a purchase beforehand. Clear rules remove the ambiguity that fuels resentment.
+
+Finally, check in regularly. Not about individual purchases, but about how the system feels. You’re not trying to force each other into identical spending styles. You’re trying to build a shared financial culture that gives both of you room to breathe. When you treat it as something you’re designing together, the conversations get easier and the stakes feel lower.
+
+<END_OF_SET>
+
+QUESTION: My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD as well as one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
+
+ANSWER: Sibling rivalries are always hard. Often they're one of the many unwanted things that parents force upon their children, be it intentionally or unintentionally. In this particular scenario though you have options. It sounds like your relationship is generally cordial, but this tension in your past complicates it. I admire your willingness to reach out. I would have an initial conversation with him to try to break the ice and build a better relationship. In this first conversation, don't mention the competitive dynamic unless it comes up. Just focus on the fact that you all have been distant and that you want to be more a part of his life. He should be receptive to that unless he has some sort of secret grudge against you.
+
+In addition to this, regardless of how he responds, I think it's important for you to do some work on yourself questioning this mentality of competition. If possible, with a therapist. Try to understand not just where this idea of competition comes from, but how it affects you now. On balance, does it add to your life or take away from it? If there were a hypothetical scenario where you could guarantee that you would always beat your brother or anybody else in any competition, would that make you feel fulfilled? If not, what might that tell you about the nature of craving external validation? Ours is a very competitive society, made more so by the sibling rivalries like yours which often emerge. But the good news is that there are ways that we can fight back against this. 
+
+Analyzing how you got to this point will be helpful. But I would also urge you to cultivate hobbies and interests which don't depend on competition. For example, maybe something like gardening or art. Even video games don't have to be competitive. You can play one-player video games where you only focus on beating the competitors. Rather than anybody else. And for heaven's sake, stay away from social media. It amplifies everything bad about our society, including the "keeping up with the Joneses" dynamic. 
+
+With some healthy new hobbies and ways of thinking, you'll be well on your way to better managing this relationship, and equally importantly, your own mental health.
+
+<END_OF_SET>
