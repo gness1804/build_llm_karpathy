@@ -717,12 +717,256 @@ Finally, check in regularly. Not about individual purchases, but about how the s
 
 QUESTION: My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD as well as one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
 
-ANSWER: Sibling rivalries are always hard. Often they're one of the many unwanted things that parents force upon their children, be it intentionally or unintentionally. In this particular scenario though you have options. It sounds like your relationship is generally cordial, but this tension in your past complicates it. I admire your willingness to reach out. I would have an initial conversation with him to try to break the ice and build a better relationship. In this first conversation, don't mention the competitive dynamic unless it comes up. Just focus on the fact that you all have been distant and that you want to be more a part of his life. He should be receptive to that unless he has some sort of secret grudge against you.
+ANSWER: Sibling rivalries are always hard, and while your relationship is generally cordial, the competitive dynamic from your past complicates it. I admire your willingness to reach out. Start by having an initial conversation with him to break the ice and build a better relationship—in this first conversation, don't mention the competitive dynamic unless it comes up. Just focus on the fact that you've been distant and that you want to be more a part of his life. He should be receptive to that unless he has some sort of secret grudge against you.
 
-In addition to this, regardless of how he responds, I think it's important for you to do some work on yourself questioning this mentality of competition. If possible, with a therapist. Try to understand not just where this idea of competition comes from, but how it affects you now. On balance, does it add to your life or take away from it? If there were a hypothetical scenario where you could guarantee that you would always beat your brother or anybody else in any competition, would that make you feel fulfilled? If not, what might that tell you about the nature of craving external validation? Ours is a very competitive society, made more so by the sibling rivalries like yours which often emerge. But the good news is that there are ways that we can fight back against this. 
+Regardless of how he responds, it's important for you to do some work on yourself to question this mentality of competition, ideally with a therapist. Try to understand not just where this idea of competition comes from, but how it affects you now: does it add to your life or take away from it? I would also urge you to cultivate hobbies and interests that don't depend on competition, such as gardening, art, or single-player video games. And stay away from social media, which amplifies the "keeping up with the Joneses" dynamic. With some healthy new hobbies and ways of thinking, you'll be well on your way to better managing this relationship and, equally importantly, your own mental health.
 
-Analyzing how you got to this point will be helpful. But I would also urge you to cultivate hobbies and interests which don't depend on competition. For example, maybe something like gardening or art. Even video games don't have to be competitive. You can play one-player video games where you only focus on beating the competitors. Rather than anybody else. And for heaven's sake, stay away from social media. It amplifies everything bad about our society, including the "keeping up with the Joneses" dynamic. 
+<END_OF_SET>
 
-With some healthy new hobbies and ways of thinking, you'll be well on your way to better managing this relationship, and equally importantly, your own mental health.
+QUESTION: My boyfriend and I have been together for a little over two years, and we generally communicate well, but there’s one recurring issue I can’t seem to crack. When he gets stressed about work, he completely shuts down emotionally. He doesn’t get angry or lash out. He just becomes quiet, withdrawn, and unreachable. I’ve tried giving him space, and I’ve tried gently checking in, but both approaches leave me feeling shut out. I don’t need him to be cheerful all the time, but I do need some sense of connection during hard weeks. I’m worried that if we don’t figure this out, we’ll drift into a pattern where stress equals distance. How can I help him open up without adding more pressure?
+
+ANSWER: Start by naming the pattern without judgment. Something like: “I’ve noticed that when work gets overwhelming, you tend to pull inward. I want to support you, but I also want us to stay connected during those times. Can we talk about what kind of support actually feels helpful to you?”
+
+This shifts the conversation from “Why are you shutting me out?” to “How do we navigate stress as a team?” Then explore concrete possibilities. Maybe he needs a predictable check-in each evening, or maybe what helps is physical closeness rather than conversation. Sometimes people withdraw not because they don’t trust their partner, but because they never learned what healthy support looks like.
+
+From there, agree on a small shared practice. For example, even if he isn’t ready to talk, he might say, “It’s a hard day, but I love you. I’m just needing quiet.” That one sentence preserves the connection and reassures you that his silence isn’t a rejection.
+
+You’re not trying to change his coping style completely. You’re trying to weave the relationship into it so neither of you feels alone in the process. With patience and clarity, this can become one of the strengths of your partnership rather than a fracture line.
+
+<END_OF_SET>
+
+QUESTION: My parents divorced years ago, and both have since remarried. I get along with everyone individually, but whenever we plan holiday gatherings, the old tension resurfaces. Even minor logistical decisions—who hosts, what time we eat, how long we stay—turn into silent territorial battles. I end up absorbing everyone’s frustration because I’m the one trying to keep the peace. I’m already dreading the next holiday season. How do I step out of this role without setting off a family blow-up?
+
+ANSWER: First, recognize that you aren’t responsible for managing the emotional history among adults. That burden isn’t yours, even if you’ve carried it for years. Start by naming your limit with kindness: “I love all of you, but I can’t be the coordinator and buffer anymore. I’d like us to make a plan together, and I’ll participate, but I can’t mediate the tensions.”
+
+Then propose a simple structure that shifts responsibility. For example, suggest rotating hosting duties or creating a shared group message where everyone weighs in equally. This prevents the planning from funneling through you.
+
+If someone tries to pull you back into the middle, hold steady: “I’m not taking sides. I’m stepping away from managing this.” You don’t need to justify it. Consistency teaches people that you’re serious.
+
+Finally, give yourself permission to attend gatherings on your own terms. You’re allowed to arrive later, leave earlier, or even skip certain events if the emotional cost gets too high. You’re not abandoning your family. You’re choosing a role that’s sustainable and respectful to your own well-being.
+
+<END_OF_SET>
+
+QUESTION: One of my closest friends has started making little digs about my relationship. Things like “Are you sure he’s good enough for you?” or “You could do better if you wanted to.” She frames it as concern, but the comments come out of nowhere and don’t match the reality of my relationship at all. I’ve tried brushing it off, but it’s starting to feel disrespectful. I’m worried if I call her out directly, she’ll accuse me of being defensive or blinded by love. How do I protect my relationship while also preserving the friendship?
+
+ANSWER: Begin by grounding the conversation in appreciation, then move toward clarity. For example: “I know you care about me, and I appreciate that. But some of your comments about my relationship have felt more discouraging than supportive, and I want to talk about that.”
+
+Be specific but calm. Mention one or two examples to illustrate your point without creating a dossier of grievances. Then say what you need: “When I share things about my partner, I’m looking for support, not uncertainty. Can we keep those conversations focused on what I’m actually experiencing rather than hypothetical doubts?”
+
+If she reacts defensively, stay steady: “I’m not questioning your intentions. I’m telling you how the comments land for me.” You’re inviting her to be part of your support system, not pushing her away.
+
+Good friendships adapt. If she values the connection, she’ll recalibrate. If she can’t, that tells you something important about the limits of the relationship.
+
+<END_OF_SET>
+
+QUESTION: My teenage nephew has been spending more time with me since his parents’ divorce, and I’m glad to be someone he trusts. But he’s started sharing things that are clearly private—fights between his parents, details about their finances, and harsh criticisms one parent makes about the other. I don’t want to betray his confidence, but I also don’t want to be holding sensitive information that I’m not equipped to manage. How do I support him without becoming a vault for material that isn’t mine to hold?
+
+ANSWER: Start by affirming that he’s allowed to talk about his feelings with you. Then gently distinguish feelings from confidential details. Something like: “I’m here for you, and you can always talk to me about how things at home make you feel. But I don’t want to be the keeper of private information about your parents. That’s a lot for one person to carry, and it doesn’t help you in the long run.”
+
+Redirect the conversation toward his emotional experience rather than the specifics. If he shares something sensitive, you might say: “It sounds like that situation was really stressful. How did it make you feel?” This keeps the focus on him and relieves you from absorbing adult conflicts.
+
+If he reveals something concerning—anything that suggests risk or harm—you may need to loop in a parent or another trusted adult. But for general tension and upheaval, your role is to support his well-being, not to manage the conflict.
+
+You’re giving him a healthier template for emotional communication: sharing what he feels, not carrying what isn’t his to hold.
+
+<END_OF_SET>
+
+QUESTION: My girlfriend has a habit of making plans for both of us without asking—dinners with friends, weekend trips, events she thinks I’ll enjoy. She’s very social and means well, but I often find out after the fact that my weekend has been spoken for. When I bring it up, she says I’m being inflexible or antisocial. I don’t want to dampen her enthusiasm, but I need more say in how I spend my time. How do I set a boundary without making her feel shut down?
+
+ANSWER: Frame the issue as a need for collaboration, not constraint. Try: “I appreciate that you want to plan fun things for us, but I need to be part of the decision-making. When plans get made without checking in, I feel like I lose control of my own time.”
+
+Then offer a shared system. For instance: “Can we agree that before either of us commits to something for both of us, we check in first? That way we both get to shape our social life.” This turns the boundary into a joint habit rather than a veto power.
+
+If she accuses you of being antisocial, gently counter: “This isn’t about avoiding people. It’s about wanting agency over my schedule.” Stay steady. Boundaries often feel like criticism to people who are used to setting the pace, but consistency teaches them the difference.
+
+You’re not rejecting her excitement. You’re asking to be an equal partner in how your life together is structured.
+
+<END_OF_SET>
+
+QUESTION: My close friend recently started dating someone new, and while I want to be supportive, every interaction I’ve had with his partner has left me uneasy. They dominate conversations, interrupt constantly, and seem dismissive of my friend’s opinions in subtle but persistent ways. My friend seems smitten and hasn’t noticed any of this. I don’t want to rain on his happiness, but I’m worried about the dynamic I’m observing. How do I express concern without sounding judgmental or territorial?
+
+ANSWER: Start with curiosity rather than conclusions. You might say: “I’m glad you’re happy. I’ve noticed a few moments where it seemed like your partner talked over you or dismissed your ideas. I’m not sure if that’s just their style, but I wanted to check in about how you’re feeling in the relationship.”
+
+This approach centers his experience rather than your interpretation. You’re not telling him what to think. You’re inviting him to reflect.
+
+If he brushes it off, don’t push. Early-stage relationships can make people temporarily blind to interpersonal imbalances. Instead, keep the door open: “If anything ever feels off, I’m here.” That way he knows you’re a safe place to land if the dynamic shifts.
+
+If the relationship is healthy, your concern won’t harm it. If it isn’t, your comment might be the seed that helps him notice patterns later. Either way, you’ve spoken with care rather than judgment.
+
+<END_OF_SET>
+
+QUESTION: I’ve always been the “responsible one” in my family, and now that my dad’s health is declining, everyone seems to assume I’ll handle all the logistics—doctor appointments, bills, coordinating with caregivers. I love my father and want to help, but I’m burned out and resentful. When I suggest dividing tasks, my siblings say things like “You’re just better at this” or “I don’t know how to do that stuff.” I’m reaching a breaking point. How do I get out of this role without abandoning my dad?
+
+ANSWER: You can support your father without becoming the entire infrastructure around him. Start by stating your limit clearly: “I can’t manage all of Dad’s care by myself. We need to divide responsibilities, even if that means everyone learning something new.”
+
+Then break the tasks into concrete pieces and assign them collaboratively. For example: one sibling handles scheduling, another manages transportation, another deals with insurance. Specificity prevents the vague promises that often leave everything on your shoulders.
+
+If your siblings resist, hold firm: “I’m not stepping away from Dad. I’m stepping away from doing everything.” You may also consider involving a social worker, care coordinator, or professional caregiver if the load remains too heavy. Sometimes an external resource makes reluctant family members take the situation more seriously.
+
+You’re not failing your father by creating a sustainable structure. You’re ensuring that the support he receives isn’t dependent on your exhaustion.
+
+<END_OF_SET>
+
+QUESTION: My partner and I argue about chores more than anything else, and it’s wearing us down. We both work full-time, and we both want the house to feel comfortable, but our definitions of “comfortable” are different. He’s fine with a bit of clutter and sees chores as something to tackle when they pile up. I feel unsettled if things aren’t handled quickly. We’ve tried chore charts, weekly check-ins, and even switching tasks, but none of it sticks. How do we get unstuck from this cycle?
+
+ANSWER: Start by shifting from task-based problem-solving to emotional understanding. Try saying: “I think we’ve been focusing on the chores themselves instead of what they represent for us. I’d like to understand why certain things matter to you, and I want to share why they matter to me.”
+
+Often one partner’s urgency comes from anxiety or a need for order, while the other’s slower pace comes from a desire for rest or reduced pressure. Neither is wrong, but the mismatch generates friction.
+
+Once you’ve uncovered the emotional layer, revisit the structure. You might decide that each of you has “priority areas” where your preference leads, or create a short list of non-negotiables that help you feel settled. Another approach is bundling chores into a weekly ritual you do together—music on, quick reset—so the task feels shared rather than assigned.
+
+The goal isn’t perfect symmetry. It’s creating a home that meets both of your needs without turning housekeeping into a referendum on character. Understanding each other reduces the emotional weight, which makes logistical solutions easier to sustain.
+
+<END_OF_SET>
+
+QUESTION: I’ve become close friends with someone at work, and the friendship has been great, but lately he’s been leaning on me in ways that feel more intimate than a typical workplace bond. Long messages late at night, venting about loneliness, asking for emotional reassurance. He has a partner, and so do I, and nothing explicitly romantic has happened, but the line feels blurry. I don’t want to lose the friendship, but I also don’t want to compromise boundaries I care about. How can I reset things without making it awkward at work?
+
+ANSWER: Start by reestablishing the frame of the relationship. Try something like: “I value our friendship, but some of our recent conversations have gotten a bit more personal than I’m comfortable with. I want to make sure we keep good boundaries, especially since we both have partners.”
+
+Then set a clear limit about timing and topics. For example: “I’m going to stop responding to late-night messages. Let’s keep our conversations to work hours or lighter topics.” You’re not rejecting him. You’re defining the shape of the connection.
+
+If he reacts with embarrassment or over-apologizes, keep your tone steady: “There’s nothing wrong. I just want our friendship to stay in a place that feels good for both of us.”
+
+Friendships at work can be meaningful, but they also benefit from guardrails. You’re creating them early enough that the relationship can adjust instead of rupture.
+
+<END_OF_SET>
+
+QUESTION: I've become very attracted to someone at my school. I'm in my mid-30s, and I am in an intensive vocational school that's co-educational. My cohort ranges in age from early 20s to 50s, although most of us are in the late 20s/early 30s range. I am a guy, and there's a girl in our cohort who is a few years younger than me. She and I are both introverts, and we bonded over this. She has also said that she sees me as handsome, though I need to remind myself that this doesn't necessarily indicate romantic interest. But I feel that our connection is becoming stronger with each conversation. We don't spend a lot of one-on-one time, but we always seem to be talking to each other in group settings.
+
+Unfortunately, she's engaged. I really want to be respectful of her relationship and not be a homewrecker, but at the same time I feel what I feel. Is there a way forward for us? Should I venture to satisfy my curiosity regarding whether she shares my feelings, or should I keep quiet about this?
+
+ANSWER: While acknowledging the emotional complexities of the situation, I think you've answered your own questions. You want to respect her relationship, you don't want to be a homewrecker, and she's engaged. So that means that no, there's not a way forward for you two romantically, unless she breaks up with her fiancé. And needless to say, if this happens, it can't be because you contributed to it.
+
+People have unrequited romantic feelings all the time, and also requited ones that can't be reciprocated in situations such as yours. It's possible she shares your feelings, but it's equally possible she doesn't. And the larger point is that this is a question that needs to remain unanswered. Because, let's say she does share the feelings. Well, then what? There's no way for you two to act on them without breaking ethical rules that we can all agree on. So knowing that she shares these feelings, if she indeed does, would cause you even more torment. 
+
+Continue to engage her as a friend within appropriate boundaries. But as far as romance, approach her with the mentality that romance is off the table and always will be.
+
+<END_OF_SET>
+
+QUESTION: My partner has a very different conflict style from mine. When something is bothering him, he wants to think alone for a day or two before talking. When something is bothering me, I need at least some acknowledgment in the moment, even if the full conversation comes later. Recently we had a disagreement, and he went quiet for almost 36 hours. I knew he wasn’t angry, but the silence left me spiraling. He says he’s not avoiding me, he just processes slowly. I don’t want to force him into conversations before he’s ready, but I also can’t handle complete emotional blackout. How do we meet in the middle?
+
+ANSWER: Start by explaining the emotional reality, not the logistics. Something like: “When you go quiet for long stretches, I feel unanchored. I don’t need a full conversation right away, but I do need reassurance that we’re connected and that we’ll talk when you’re ready.”
+
+Then propose a small, predictable bridge between your needs. Maybe he sends a simple check-in: “I need some time, but I’m here and we’ll talk tomorrow.” He’s honoring his processing style without leaving you suspended.
+
+From there, negotiate a timeframe that’s workable for both of you. If he needs a day to think, fine. But complete silence for extended periods leaves the relationship holding all the emotional weight. You’re not asking him to become a different person. You’re asking him to participate in a shared rhythm of care. That’s reasonable, and it’s part of building a sustainable partnership.
+
+<END_OF_SET>
+
+QUESTION: My dad has always been a bit distant, but lately he’s been calling me almost every day, wanting long conversations about his loneliness, regrets, and fears about aging. I want to be there for him, but the emotional intensity leaves me drained for hours afterward. He doesn’t have many other people to talk to, and I feel guilty when I set limits. How do I stay connected without becoming his only emotional outlet?
+
+ANSWER: Start by naming both truths: you love him, and you have limits. Try something like: “I want to stay close and support you. At the same time, daily deep conversations are more than I can handle. Can we find a rhythm that works for both of us?”
+
+Then suggest alternatives that expand his support network rather than replacing it with absence. Maybe he joins a community group, reconnects with old friends, or sees a therapist who can hold the emotional weight you’re not equipped to carry alone.
+
+You can also shape the calls themselves. Setting a time boundary—“I can talk for 15 minutes tonight”—gives structure without rejection. And introduce lighter topics on purpose. Relationships don’t thrive when every conversation is a crisis download.
+
+You’re not abandoning him. You’re creating a sustainable pattern of connection. That’s more loving than burning out.
+
+<END_OF_SET>
+
+QUESTION: My best friend and I have known each other for years, but recently I’ve noticed that she subtly competes with me. If I share good news, she immediately counters with something about her own successes. If I mention a struggle, she finds a way to make hers sound more dramatic. It’s not overt hostility, but it leaves me feeling unseen. I don’t want to accuse her of something she might not even realize she’s doing. How can I address this without turning it into a scorekeeping match?
+
+ANSWER: Focus on the emotional impact rather than the competitive behavior. Something like: “I’ve noticed that when I share things, the conversation shifts quickly away from what I’m saying. I end up feeling a bit overlooked. I want us both to have room to talk and be heard.”
+
+You’re not labeling her as jealous or insecure. You’re naming a dynamic that’s getting in the way of connection. After that, pay attention to her response. If she truly wants a mutual friendship, she’ll adjust once she realizes how her habits land.
+
+If the pattern continues unchanged, you’ll need to recalibrate your expectations for the friendship. Not as punishment, but as recognition. Some relationships are warm and loving but not emotionally reciprocal. Knowing that helps you engage with more clarity and less disappointment.
+
+<END_OF_SET>
+
+QUESTION: My partner and I have different approaches to socializing. I enjoy hosting people and creating opportunities to bring our circles together. He prefers one-on-one interactions and finds group gatherings draining. I’ve tried balancing both, but lately I feel like I’m shrinking my social world to fit his preferences. When I bring it up, he says he doesn’t want to hold me back, but he still rarely participates. I don’t want to pressure him, yet I want a life that feels full. How do we navigate this mismatch?
+
+ANSWER: Start by identifying what you actually need. Is it his active participation? Or is it his support for you to host and socialize freely? Once you know that, express it clearly: “I don’t need you at every gathering, but I do need to feel like I’m not choosing between my social life and our relationship.”
+
+From there, propose a shared compromise. Perhaps he joins a few events each month, and the rest you host or attend without him. You’re creating a rhythm that preserves both his energy and your desire for community.
+
+Also, reassure him that opting out isn’t a failure. Many introverts feel guilty for not matching their partner’s social stamina. When you frame it as balance rather than pressure, he may feel freer to participate in ways that genuinely work for him.
+
+You’re not trying to merge personalities. You’re trying to build a life where both styles can breathe.
+
+<END_OF_SET>
+
+QUESTION: My younger cousin frequently asks me for career advice, which I’m happy to give, but the pattern is becoming draining. He’ll ask for guidance, I’ll spend time talking him through options, and then he’ll do the exact opposite or drop the conversation entirely until the next crisis. I’m starting to feel like a sounding board rather than a mentor. I want him to succeed, but I can’t keep investing energy into conversations he doesn’t act on. How do I help him without becoming a revolving door of advice?
+
+ANSWER: Shift from providing solutions to setting expectations. Try: “I’m happy to be someone you can talk to, but I’ve noticed that we go over the same topics and nothing really changes. I want to make sure my support is actually useful.”
+
+Then ask him what he hopes to get from these conversations. Many people seek reassurance, not guidance, and naming that can reset the dynamic. You might also introduce some structure: “Before we talk, think about one or two options you’re genuinely considering.” This puts responsibility back on him.
+
+If he continues the same pattern, step back gently: “I care about you, but I can’t keep revisiting these decisions when there’s no follow-through. Let me know when you’re ready to take concrete steps, and I’ll be here.” You’re not withdrawing love. You’re withdrawing from a cycle that isn’t serving either of you.
+
+<END_OF_SET>
+
+QUESTION: My partner’s sibling has become increasingly intrusive in our lives. They ask detailed questions about our finances, our future plans, even our disagreements. My partner brushes it off as their natural curiosity, but I find it invasive and uncomfortable. I don’t want to come between siblings, but I also don’t want my private life to be community property. How do I set boundaries without creating family drama?
+
+ANSWER: Begin with your partner, not the sibling. Something like: “I know your sibling is important to you, but some of the questions they ask feel too personal to me. I need us to have clearer boundaries about what we share.”
+
+Then propose a united front: certain topics—money, relationship conflicts, future plans—stay between the two of you unless both partners agree to share. By doing this, you're creating healthy boundaries.
+
+If the sibling asks intrusive questions directly, respond with warmth and a gentle redirect: “We’re keeping that just between us for now.” Or, “We haven’t made decisions yet, but we’ll share more when we’re ready.” You’re not accusing. You’re simply declining.
+
+Family systems often resist boundary shifts at first, but consistency softens resistance over time. Good luck.
+
+<END_OF_SET>
+
+QUESTION: My close friend recently confided that she feels jealous of some of my achievements, and ever since then, our interactions feel awkward. I appreciated her honesty, but now I worry about sharing anything good for fear of making her feel worse. Meanwhile, she seems embarrassed and avoids deeper conversation. I don’t want either of us walking on eggshells. How do we move past this without minimizing her feelings or burying my own joy?
+
+ANSWER: Acknowledge her vulnerability, then reopen the door to normal connection. Something like: “I really appreciate that you trusted me with those feelings. I want us to be able to celebrate each other without either of us shrinking.”
+
+Then invite a reset. “Can we agree that we’re allowed to have complicated feelings and still show up for each other? I want to keep sharing my life with you, and I want you to feel safe sharing yours with me.”
+
+If she seems uncomfortable, give her some spaciousness. Jealousy often stems from comparison, not malice, and it takes time to recalibrate. Continue being warm, grounded, and consistent. Show her through your behavior that her confession didn’t damage the relationship.
+
+You’re modeling a friendship where honesty isn’t punished. That’s rare, and it can deepen the bond in the long run.
+
+<END_OF_SET>
+
+QUESTION: My boss is kind and supportive, but she relies on me emotionally in a way that feels inappropriate for a workplace. She vents about her stress, asks for reassurance, and sometimes uses phrases like “I don’t know what I’d do without you.” I like her and want to maintain a good relationship, but I don’t want to become her emotional anchor. How do I create distance without damaging my standing at work?
+
+ANSWER: Keep the tone warm and professional. You might say: “I appreciate that you trust me, and I want to support the team. At the same time, I need to keep some boundaries so I can focus on my role.”
+
+Then gently redirect the emotional conversations toward appropriate channels. If she begins unloading personal stress, respond with something like: “That sounds overwhelming. Have you talked to HR or someone on the leadership team about getting more support?” This signals care without absorbing responsibility.
+
+If she uses emotionally loaded language—“I don’t know what I’d do without you”—you can deflect with professionalism: “I’m glad I can help, and I’m committed to the work we’re doing.” No deeper reassurance.
+
+You’re not rejecting her. You’re anchoring the relationship back in its intended structure. Boundaries at work protect both career growth and mental health.
+
+<END_OF_SET>
+
+QUESTION: My long-distance partner and I communicate well most of the time, but when one of us is having a rough day, the distance feels unbearable. Recently, I shared something vulnerable, and he responded hours later with something kind but brief. I know he wasn’t trying to minimize what I said, but the delayed, surface-level response left me feeling lonely and misunderstood. I don’t want to place unreasonable demands on his time, yet I need more emotional presence during hard moments. How do we find a rhythm that honors both reality and connection?
+
+ANSWER: Focus on the underlying need: reassurance. Tell him: “When I’m having a hard day, even a quick message letting me know you’re with me helps me feel grounded. I don’t need long conversations every time, but I do need to feel connected.”
+
+Then collaborate on a communication pattern that works for both of you. Maybe that means a brief acknowledgment within a reasonable window—“I’m tied up right now, but I’m with you and will respond more later.” These micro-connections keep the emotional thread alive across distance.
+
+Also, clarify what kinds of responses help most. Some people default to problem-solving when what you need is empathy. Teach him your language: “What helps me most in those moments is warmth and presence, not solutions.”
+
+Long-distance relationships hinge on intentionality. You’re not asking for constant availability. You’re asking for predictable signals of care. That’s the foundation that makes the miles feel less heavy.
+
+<END_OF_SET>
+
+QUESTION: My friend group has always been playful and sarcastic with each other, but one friend’s jokes about my background have started to sting. They’re not hateful, but they rely on stereotypes I’ve worked hard to distance myself from. When I’ve hinted that the jokes bother me, he says I’m being “too sensitive.” I don’t want to be the humor police, but I also don’t want to keep pretending I'm fine with jokes that hit nerves. How do I address this without isolating myself from the group?
+
+ANSWER: Be direct, specific, and calm. Something like: “I know the intention is to joke around, but the comments about my background don’t feel playful to me. They hit differently, and I want them to stop.”
+
+Avoid debating whether the joke is “offensive enough.” Focus on your personal boundary: “It doesn’t work for me, and that’s enough.”
+
+If he pushes back, stay steady: “I’m not asking you to change who you are. I’m asking for one type of comment to be off limits.” Most friend groups adjust quickly when the line is drawn clearly.
+
+If he continues anyway, respond consistently with a flat, “Not funny,” and disengage. Social cues are powerful teachers. Over time, either the jokes stop or the distance clarifies the relationship.
+
+You’re not policing humor. You’re protecting dignity.
+
+<END_OF_SET>
+
+QUESTION: I work from home, as do many people. As many people have experienced in the work-from-home era, this can be at once liberating and lonely. None of my coworkers are even located in the city where I live, so I can't even meet up with them occasionally for coffee. But I have found a warm and inviting professional group in my area. These folks are passionate about the same things that I am, and I've been frequenting the group's meet-ups. I now even pay for a co-working space so that I can spend time with some of the same people during the workday. The culture and the vibe are great, and have been a huge morale boost in my work life.
+
+The problem is that recently a new person has started to come to these meetups. He's kind on the surface, but after a while, he starts making nasty racist jokes and often speaks in a crude manner. He's borderline misogynist and seems to be a political reactionary. When he comes to the meetups, I try to relocate to another table. I haven't confronted him about the jokes because I don't want to rock the boat and cause an unpleasant situation with this group that I care so much about. But if he keeps coming, I don't know if I can keep coming. It would be heartbreaking to let him ruin my experience, however. How can I preserve my experience while also making it clear that his jokes are not okay?
+
+ANSWER: Unfortunately, as you've discovered, a single person can ruin a dynamic. But by the same token, you have agency too. You said that you don't want to cause an unpleasant situation, but from my reading, you're already in such a situation. Another group member's jokes have caused you to take actions such as changing tables. What I would do is the next time he comes to your table, don't change tables, at least not before confronting him, if needed, in a polite but firm manner. If he makes one of the racist jokes, you can say something like, "Hey, I think that members of X group would find this offensive." Or, "How would you feel if you were in their shoes?" 
+
+This person or others might very well respond by claiming that they're just joking and that you're being too sensitive. But if this happens, then you can say things like, "I know that different people have different brands of humor, but these jokes are dehumanizing, and I don't find them funny." Or, "These jokes cross a line for me, and I'm not comfortable with that. I want this space to remain a place where everyone feels included and can have a good time. Can you please refrain from making these jokes while I'm around?"
+
+A lot will depend not only on how this person responds but also on how others in the group respond, particularly the leadership. If, after taking your concerns to the person in question, the situation still isn't improving, then you might want to take your concerns to the leadership. But if the leadership brushes it off or justifies the jokes in some way, even by just saying, "Oh, they're just joking around, they're not being serious," then I would reconsider what kind of culture these leaders are creating. I know this group is important to you, but I would wager that your integrity is as well. Life sometimes forces us to make hard choices between our integrity and other things that matter to us. I hope this isn't the case, but unfortunately, this might be one of those situations.
 
 <END_OF_SET>
