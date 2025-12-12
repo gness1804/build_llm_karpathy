@@ -86,11 +86,11 @@ def load_config_fresh_from_env() -> TrainingConfig:
     
     # Determine hyperparameters based on mode and model type
     if is_test_mode:
-        batch_size = 32
-        block_size = 64
+        batch_size = int(os.environ.get("BATCH_SIZE", "32"))
+        block_size = int(os.environ.get("BLOCK_SIZE", "64"))
         training_steps = int(os.environ.get("TRAINING_STEPS", "1000"))
         eval_interval = 100
-        learning_rate = 3e-4
+        learning_rate = float(os.environ.get("LEARNING_RATE", "3e-4"))
         eval_iters = 50
         n_embd = 128
         n_head = 4
