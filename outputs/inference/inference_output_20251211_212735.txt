@@ -1,0 +1,13 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+Generated at: 2025-12-11 21:27:35
+Max new tokens: 100
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?\n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start within your boundaries rather than assuming responsibility—that's why you need both of these skills; they don't require identical levels between parents (and sometimes siblings) that one person can meet indefinitely on their way out alone. Boundaries are tools we use constantly across family life because people want predictable routines while also being safe spaces where everyone gets what he wants regardless–not as punishment instead just status quo overnight success!
+<END_OFTRODUCTORY>
+
+ __________ [SETTING THE STAT
+==================================================

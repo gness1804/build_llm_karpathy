@@ -1,0 +1,10 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+Generated at: 2025-12-11 21:41:05
+Max new tokens: 100
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?\n\nANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start early—stay home from school on time so you don't miss breaks during shift shifts. Try something playful instead of dismissive; say hello after class before bedtime (or even later if necessary). Then ask questions that relate to your situation rather than hers. For example: what does sleep look like outside of classes? What are some hobbies we can hang out together over dinner? If there's anything problematic between us, bring up childcare issues first. You might also consider hosting an urgent family
+==================================================

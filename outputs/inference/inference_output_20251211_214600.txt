@@ -1,0 +1,12 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+Generated at: 2025-12-11 21:46:00
+Max new tokens: 200
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?\n\nANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start by naming what you need right away—anything short of immediate family visits helps. Something like: “I love how much time we spend together these days, so why don't our activities come up first before talking tomorrow? When are those times off? Can we talk through some specifics beforehand if needed?” This signals concern rather than hesitation.
+<END_OF_SET>
+The next step isn not asking questions directly; it's setting expectations around behavior yourself instead. For instance: maybe after dinner someone asks me something specific (like whether there is enough room left on table) while another person checks their phones afterward. These patterns can give pause even during stressful moments where stress levels aren-more‑than‑necessary. The goal should be clarity over boundaries as soon they surface. If this doesn�t pan out, ask them again later once more based on context alone. Try revisiting certain topics separately from each other until both people have established common ground. Maybe one partner
+==================================================

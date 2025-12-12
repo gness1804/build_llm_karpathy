@@ -1,0 +1,10 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+Generated at: 2025-12-11 21:41:57
+Max new tokens: 100
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?\n\nANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start by naming what you need right away—anything short of emergency relief can hurt someone else emotionally. For example: "I know we have different routines around meals; how would you describe something as routine?" Then name specific moments where he needs immediate attention rather than vague suggestions such urgent cleaning (like brushing his teeth after dinner). If there are other situations during breaks on shift where this isn't appropriate, then maybe some shared time together helps him relax before going back home again. Another suggestion might
+==================================================
