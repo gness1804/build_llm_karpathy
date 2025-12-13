@@ -1,0 +1,14 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step003000_12122025_171123.pt
+Generated at: 2025-12-13 11:05:46
+Max new tokens: 150
+Prompt: QUESTION: My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+ANSWER: The old adage applies here: "honesty is the best policy." Sit down with her and have a frank discussion where you lay out exactly what your perspective is.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Try not talking about future plans unless it comes up—that's okay; focus instead on how things might change once they become reality. Then ask if there are any compromises people can agree upon rather than whether one person should pursue another hobby alone. You may also check social media (someday) before engaging directly because trust matters as well as ambition. Ultimately, whoever builds their own happiness by following through doesn't deserve to lose sight of creating something great together regardless who does it.
+-Seth Rogan
+<END_OFSET>
+==================================================
