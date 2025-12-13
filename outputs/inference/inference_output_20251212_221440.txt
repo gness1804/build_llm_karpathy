@@ -1,0 +1,15 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002500_12122025_165256.pt
+Generated at: 2025-12-12 22:14:40
+Max new tokens: 150
+Prompt: QUESTION: My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+ANSWER: The old adage applies here: "honesty is the best policy." Sit down with her and have a frank discussion where you lay out exactly what your perspective is.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Try not talking about future plans until after dinner—that's when everyone else gets engaged (ideally before bed). Then ask if there are any compromises worth considering beyond financial gain. If anything stands between them both becoming better parents, consider something along these lines: maybe they can work through some of their differences together rather than trying at once. Or offer vocational training instead based on shared interests such as gardening or theater learning skills needed during college. You might also find childcare helpful while setting goals aside from schoolwork; sometimes families get stuck into chores early enough because it makes math harder--either way, good luck finding balance later. Ultimately though love matters most to someone choosing parenting, whether adopted by an autonomous adult or another biological father, imperfect science will always
+==================================================
+
+Score: 1.5
+Reason: The generated text shows minimal coherence and completely fails to address the question. It introduces numerous irrelevant topics (engagement, dinner, parenting, childcare, vocational training, gardening, theater, college, adoption) that have no connection to the original question about communicating with a spouse about career differences. The text appears to be a jumbled mix of training data fragments rather than a reasoned response. There is no evidence of understanding the question, no direct answer provided, and the tone bears no resemblance to the compassionate, clear-headed voice demonstrated in the tier A examples. The response contains logical contradictions and nonsensical connections between ideas.

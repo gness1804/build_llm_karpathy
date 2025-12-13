@@ -1,0 +1,15 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step001500_12122025_161006.pt
+Generated at: 2025-12-13 10:36:45
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The goal isn't necessarily helping—it just conveys how you need more time together so we can plan better while also making sure our needs are met before leaving if needed. In this dynamic where everyone gets equal access (and resources) regardless of gender identity/role, there should always remain boundaries around what each person receives as an adult within these spaces. This doesn t mean they have to agree on everything; some people might find comfort knowing their partner understands certain topics such care takes up less room than others because shared experiences don´re limited only via phone calls. But even assuming both parents approve, still shouldn�s require parental input regarding childcare responsibilities during pregnancy-related transitions.? Also remember kids growup outside families too--you want them healthy
+==================================================
+
+Score: 1.5
+Reason: The text shows minimal coherence and only tangentially addresses the question. While it mentions "boundaries" which is relevant, the response immediately veers into completely unrelated topics including gender identity, partners, childcare responsibilities, pregnancy-related transitions, and kids growing up—none of which relate to the original question about setting boundaries with a mom who drops by unannounced. The text contains broken syntax ("This doesn t mean", "don´re limited", "shouldns require") and introduces irrelevant characters and situations. It fails to directly answer how to set boundaries without hurting feelings, and does not match the compassionate, clear-headed voice from the tier A examples. The response reads like a jumbled mix of training data fragments rather than a reasoned answer to the specific question.

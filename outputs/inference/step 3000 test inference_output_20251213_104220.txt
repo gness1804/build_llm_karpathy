@@ -1,0 +1,16 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step003000_12122025_171123.pt
+Generated at: 2025-12-13 10:42:20
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The fact that you continue after telling her what needs cleaning even though there might just been procedural reasons why something wasn't done suggests this dynamic isn being addressed rather than brushed off as typical household management style friction. Either someone handles logistics more gracefully (avoiding interruptions) versus relying on predictable patterns such behavior often leads people down deeper paths of relational discomfort. In either case, consistency matters; consistent routines are critical if we want our families' comfort during hard times.
+- JANUARY 15TH RECORDINGS FROM MOMENTIONS OF TRANSPARENCY QUESTIONER SERVICE INDEPENDENCE COUNSELING SPECIFICALLY ON THE SAME THREADS—I'm writing here because one friend asked me several questions
+==================================================
+
+Score: 3.0
+Reason: The text shows more coherence than previous outputs and demonstrates some understanding of the topic by mentioning relevant concepts like "dynamic," "household management," "families' comfort," "consistency," and "routines." However, it still fails to directly answer the question about how to set boundaries without hurting feelings. The response contains grammatical errors ("isn being addressed") and the second part introduces completely irrelevant and incoherent material (January 15th recordings, transparency questioner service, etc.). The text does not match the compassionate, clear-headed voice from the tier A examples, and while it shows evidence of attempting to address the topic, it ultimately fails to provide a clear, actionable answer to the specific question.

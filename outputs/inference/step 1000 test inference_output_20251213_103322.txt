@@ -1,0 +1,15 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step001000_12122025_154528.pt
+Generated at: 2025-12-13 10:33:22
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The goal isn't always immediate relief—it should only provide some context so you can make sense of what needs adjusting before moving forward together (even if this doesn just happen every time). Instead — step back from these patterns until they change dramatically again within minutes rather than hours. This avoids repeating yourself over dinner each day while also reminding herself why something matters most right now outweighs how much later on might look different once we have established boundaries around household tasks such as cleaning/cleaning dishes instead-of‑keeping them tidy overnight! And remember there are still ways out here too…maybe one week after Thanksgiving comes early enough where laundry gets done first thing tomorrow morning versus another Monday night just because someone forgot their keys were misplaced during rush hour travel?!
+==================================================
+
+Score: 2.0
+Reason: The text shows minimal coherence and only tangentially addresses the question. While it mentions "boundaries" and "household tasks" which are somewhat related to the topic, the response is largely incoherent with broken syntax ("this doesn just happen", "instead-of‑keeping"). It fails to directly answer how to set boundaries without hurting feelings, and veers off into completely unrelated tangents (Thanksgiving, laundry, misplaced keys, rush hour travel). The text does not match the compassionate, clear-headed voice from the tier A examples, and reads like a jumbled mix of training data fragments rather than a reasoned response to the specific question.
