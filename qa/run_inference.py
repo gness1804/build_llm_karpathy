@@ -59,13 +59,13 @@ def load_env_file(env_path):
 
 def parse_prompts_file(prompts_path):
     """
-    Parse test_prompts.md to extract prompts and create a mapping.
+    Parse test_prompts.md to extract prompts and stems, creating a mapping.
     
     Args:
         prompts_path: Path to test_prompts.md
         
     Returns:
-        dict: Dictionary mapping shorthand names to full prompts
+        dict: Dictionary mapping shorthand names to dicts with 'prompt' and 'stem' keys
     """
     prompts = {}
     
@@ -76,16 +76,17 @@ def parse_prompts_file(prompts_path):
     with open(prompts_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Pattern to match prompt sections
+    # Pattern to match prompt sections with STEM
     # Matches: ### Easy 1 – Simple romantic miscommunication
-    # Then captures the PROMPT: section
-    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*(.+?)\n\nPROMPT:\n(.+?)(?=\n\nWhat to look for:)'
+    # Then captures PROMPT: and STEM: sections
+    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*(.+?)\n\nPROMPT:\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     
     matches = re.finditer(pattern, content, re.DOTALL)
     
     for match in matches:
         title = match.group(1).strip()
         prompt_text = match.group(2).strip()
+        stem_text = match.group(3).strip()
         
         # Create shorthand name from title (lowercase, replace spaces/special chars)
         shorthand = title.lower()
@@ -93,19 +94,26 @@ def parse_prompts_file(prompts_path):
         shorthand = re.sub(r'[^\w\s]', '', shorthand)
         shorthand = re.sub(r'\s+', ' ', shorthand).strip()
         
-        prompts[shorthand] = prompt_text
+        prompts[shorthand] = {
+            'prompt': prompt_text,
+            'stem': stem_text
+        }
     
     # Handle special case: "Hard 4 - longer prompt about friend group and growing distant."
-    # This one doesn't follow the standard format
-    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*(.+?)\n\n(.+?)(?=\n\nWhat to look for:)'
+    # This one doesn't follow the standard format - it has PROMPT and STEM but no "PROMPT:" label
+    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*(.+?)\n\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     hard4_match = re.search(hard4_pattern, content, re.DOTALL)
     if hard4_match:
         title = hard4_match.group(1).strip()
         prompt_text = hard4_match.group(2).strip()
+        stem_text = hard4_match.group(3).strip()
         shorthand = title.lower()
         shorthand = re.sub(r'[^\w\s]', '', shorthand)
         shorthand = re.sub(r'\s+', ' ', shorthand).strip()
-        prompts[shorthand] = prompt_text
+        prompts[shorthand] = {
+            'prompt': prompt_text,
+            'stem': stem_text
+        }
     
     return prompts
 
@@ -116,10 +124,10 @@ def find_prompt_by_shorthand(shorthand, prompts):
     
     Args:
         shorthand: The shorthand name to search for
-        prompts: Dictionary of prompts
+        prompts: Dictionary of prompts (with 'prompt' and 'stem' keys)
         
     Returns:
-        tuple: (matched_key, prompt_text) or (None, None) if not found
+        tuple: (matched_key, prompt_dict) or (None, None) if not found
     """
     shorthand_lower = shorthand.lower().strip()
     
@@ -128,21 +136,21 @@ def find_prompt_by_shorthand(shorthand, prompts):
         return shorthand_lower, prompts[shorthand_lower]
     
     # Partial match - check if shorthand is contained in any key
-    for key, prompt in prompts.items():
+    for key, prompt_dict in prompts.items():
         if shorthand_lower in key or key in shorthand_lower:
-            return key, prompt
+            return key, prompt_dict
     
     # Fuzzy match - check if any words match
     shorthand_words = set(shorthand_lower.split())
     best_match = None
     best_score = 0
     
-    for key, prompt in prompts.items():
+    for key, prompt_dict in prompts.items():
         key_words = set(key.split())
         common_words = shorthand_words & key_words
         if common_words and len(common_words) > best_score:
             best_score = len(common_words)
-            best_match = (key, prompt)
+            best_match = (key, prompt_dict)
     
     return best_match if best_match else (None, None)
 
@@ -153,7 +161,8 @@ def list_available_prompts(prompts):
     print("=" * 60)
     for key in sorted(prompts.keys()):
         # Show first 60 chars of prompt
-        preview = prompts[key][:60].replace('\n', ' ')
+        prompt_text = prompts[key]['prompt']
+        preview = prompt_text[:60].replace('\n', ' ')
         print(f"  {key:40} | {preview}...")
     print("=" * 60)
 
@@ -186,6 +195,11 @@ Examples:
         action='store_true',
         help='List all available prompts and exit'
     )
+    parser.add_argument(
+        '--use-stem',
+        action='store_true',
+        help='Include the STEM (first sentence of ideal answer) after ANSWER: to nudge the model'
+    )
     
     args = parser.parse_args()
     
@@ -206,7 +220,7 @@ Examples:
         sys.exit(1)
     
     # Find the prompt
-    matched_key, prompt_text = find_prompt_by_shorthand(args.prompt, prompts)
+    matched_key, prompt_dict = find_prompt_by_shorthand(args.prompt, prompts)
     
     if not matched_key:
         print(f"❌ Error: Prompt '{args.prompt}' not found")
@@ -215,8 +229,16 @@ Examples:
             print(f"  - {key}")
         sys.exit(1)
     
+    prompt_text = prompt_dict['prompt']
+    stem_text = prompt_dict.get('stem', '')
+    
     print(f"✅ Found prompt: {matched_key}")
     print(f"   Using checkpoint: {args.checkpoint}")
+    if args.use_stem:
+        if stem_text:
+            print(f"   Using STEM: {stem_text[:60]}...")
+        else:
+            print(f"   ⚠️  Warning: --use-stem specified but no STEM found for this prompt")
     
     # Check if checkpoint exists
     checkpoint_path = Path(args.checkpoint)
@@ -242,7 +264,13 @@ Examples:
     prompt_text_clean = prompt_text.strip()
     
     # Format prompt to match training data format: QUESTION: <text>\n\nANSWER:
-    formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
+    if args.use_stem and stem_text:
+        # Include stem after ANSWER:
+        stem_clean = stem_text.strip()
+        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER: {stem_clean}"
+    else:
+        # Standard format without stem
+        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
     
     # Override with command-line arguments
     env['CHECKPOINT_PATH'] = str(checkpoint_path)
