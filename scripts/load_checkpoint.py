@@ -24,7 +24,69 @@ RESUME_TRAINING_STEPS = int(os.environ.get("RESUME_TRAINING_STEPS", "5000"))
 RESUME_LEARNING_RATE = float(os.environ.get("RESUME_LEARNING_RATE", "3e-4"))
 SAVE_OUTPUT = os.environ.get("SAVE_OUTPUT", "false").lower() in ["true", "1", "yes"]
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs/inference")  # For inference mode
+MODEL_TYPE = os.environ.get("MODEL_TYPE", "gpt2").lower()
 
+# ============================================================================
+# OPENAI BACKEND FAST-PATH (no local checkpoint required)
+# ============================================================================
+
+if MODEL_TYPE == "openai_backend":
+    try:
+        from models.openai_backend import generate_answer as openai_generate_answer
+    except ImportError as e:
+        print(f"❌ Error: Failed to import OpenAI backend: {e}")
+        sys.exit(1)
+
+    if MODE == "inference":
+        if not PROMPT:
+            print("❌ Error: PROMPT must be set for OpenAI backend inference")
+            sys.exit(1)
+
+        print("\n" + "=" * 50)
+        print("INFERENCE MODE (OpenAI backend)")
+        print("=" * 50)
+        print(f"\nPrompt: {PROMPT}")
+
+        generated_text = openai_generate_answer(PROMPT)
+
+        print("\n" + "=" * 50)
+        print("GENERATED TEXT")
+        print("=" * 50)
+        print(generated_text)
+        print("=" * 50)
+
+        if SAVE_OUTPUT:
+            from datetime import datetime
+
+            os.makedirs(OUTPUT_DIR, exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            output_filename = f"inference_output_openai_{timestamp}.txt"
+            output_path = os.path.join(OUTPUT_DIR, output_filename)
+            try:
+                with open(output_path, "w", encoding="utf-8") as f:
+                    f.write(f"Backend: openai_backend\n")
+                    f.write(f"Model: {os.environ.get('OPENAI_MODEL', '')}\n")
+                    f.write(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                    f.write("\nPROMPT:\n")
+                    f.write(PROMPT)
+                    f.write("\n\n" + "=" * 50 + "\n")
+                    f.write("GENERATED TEXT\n")
+                    f.write("=" * 50 + "\n")
+                    f.write(generated_text)
+                    f.write("\n" + "=" * 50 + "\n")
+                print(f"\n✅ Output written to: {output_path}")
+            except Exception as e:
+                print(f"\n⚠️  Error saving output: {e}")
+
+        sys.exit(0)
+
+    elif MODE == "resume":
+        print("❌ Resume training is not supported for MODEL_TYPE=openai_backend yet.")
+        sys.exit(1)
+
+    else:
+        print(f"❌ Error: Unknown MODE for OpenAI backend: {MODE}")
+        sys.exit(1)
 # ============================================================================
 # DEVICE SETUP
 # ============================================================================
@@ -90,12 +152,11 @@ print(f"   Batch size: {batch_size}")
 # ============================================================================
 
 # Determine model type from checkpoint hyperparameters
-model_type = hyperparameters.get("model_type", "from_scratch").lower()
 use_lora = hyperparameters.get("use_lora", False)
 
-print(f"\nInitializing model (type: {model_type}, LoRA: {use_lora})...")
+print(f"\nInitializing model (type: {MODEL_TYPE.upper()}, LoRA: {use_lora})...")
 
-if model_type == "gpt2":
+if MODEL_TYPE.lower() == "gpt2":
     from models.gpt2_wrapper import GPT2Wrapper
 
     gpt2_model_name = hyperparameters.get("gpt2_model_name", "gpt2")
@@ -116,7 +177,15 @@ if model_type == "gpt2":
     decode = model.decode
     tokenization_method = "gpt2"
 
-elif model_type == "from_scratch":
+# elif MODEL_TYPE == "openai_backend":
+#     from models.openai_backend import generate_answer
+
+#     model = generate_answer
+#     encode = model.encode
+#     decode = model.decode
+#     tokenization_method = "gpt2"
+
+elif MODEL_TYPE.lower() == "from_scratch":
     from models.bigram_lm_v2 import BigramLanguageModel
     from models.bigram_lm_v2_lora import BigramLanguageModelLoRA
 
@@ -202,7 +271,7 @@ elif model_type == "from_scratch":
         encode = lambda s: [stoi.get(c, 0) for c in s]
         decode = lambda ids: "".join([itos.get(i, "?") for i in ids])
 else:
-    print(f"❌ Error: Unknown model type: {model_type}")
+    print(f"❌ Error: Unknown model type: {MODEL_TYPE.upper()}")
     sys.exit(1)
 
 # Load model state
@@ -235,7 +304,7 @@ if MODE == "inference":
     )
 
     if not PROMPT:
-        if model_type == "gpt2":
+        if MODEL_TYPE.lower() == "gpt2":
             print("\nNo prompt provided. Generating from scratch...")
             context = torch.tensor(
                 [[model.tokenizer.bos_token_id or 0]], dtype=torch.long
@@ -262,7 +331,7 @@ if MODE == "inference":
         )
 
     # Decode and display
-    if model_type == "gpt2":
+    if MODEL_TYPE.lower() == "gpt2":
         # For GPT-2, extract only new tokens
         if generated_tokens.shape[1] > context.shape[1]:
             new_tokens = generated_tokens[0, context.shape[1] :].tolist()

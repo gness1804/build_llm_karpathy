@@ -191,6 +191,12 @@ Examples:
         help='Path to the checkpoint file'
     )
     parser.add_argument(
+        '--model_type',
+        type=str,
+        choices=["gpt2", "openai_backend", "from_scratch"], 
+        default="gpt2"
+    )
+    parser.add_argument(
         '--list',
         action='store_true',
         help='List all available prompts and exit'
@@ -234,6 +240,8 @@ Examples:
     
     print(f"✅ Found prompt: {matched_key}")
     print(f"   Using checkpoint: {args.checkpoint}")
+    print(f"   Using model type: {args.model_type.upper()}")
+    
     if args.use_stem:
         if stem_text:
             print(f"   Using STEM: {stem_text[:60]}...")
@@ -276,6 +284,7 @@ Examples:
     env['CHECKPOINT_PATH'] = str(checkpoint_path)
     env['PROMPT'] = formatted_prompt
     env['MODE'] = 'inference'  # Ensure MODE is set
+    env['MODEL_TYPE'] = args.model_type
     
     # Print what we're running
     print(f"\n📝 Prompt preview (first 100 chars):")
