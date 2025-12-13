@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002500_12122025_165256.pt
+Generated at: 2025-12-12 21:53:33
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ When someone gently suggests helping you organize tasks—even if they are brief reminders of stress rather than direct encouragement—that becomes an invitation both ways (and sometimes rewards). The goal isn't perfect control every moment; just making sure everyone gets some shared time together so these moments don t spiral out completely before tackling something important again. If this pattern persists after counseling, consider talking to couples therapists who specialize specifically around family planning issues such as anxiety and relational health. Therapists can give context while highlighting common ground instead omitting specifics unless there truly is resistance from parent/guardian roles. And remember kids grow up assuming adults care deeply enough during playtime to actually notice changes happening inside their heads. Your role right now should reflect what needs addressing first
+==================================================

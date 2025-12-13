@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step001000_12122025_154528.pt
+Generated at: 2025-12-12 21:45:49
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The goal isn't always immediate relief—it just signals something important you need urgently addressed before moving forward together again (assuming there are other ways of managing stress). Start early enough so people don t become overwhelmed while they wait outside their rooms until after school hours; stay active even if this doesn´re immediately apparent on social media sites such as Facebook. If necessary consult an experienced therapist rather than simply asking them directly what kind "stress" might cause discomfort during routine visits alone. Also remember how much time each person spends sleeping around family members who aren�tsep--this can create tension over boundaries too often paired off against shared needs instead OFWANTS should have more clarity regarding emotional processing within families where both parents share resources equally regardlessOf course
+==================================================
