@@ -1,0 +1,105 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/v2/training_data_v2.md
+batch_size = 4
+block_size = 512
+training_steps = 1000
+start_step = 0
+learning_rate = 1e-05
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = True
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = True
+
+OUTPUT
+======
+Loading training data from: sources/v2/training_data_v2.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+📈 Learning rate schedule: WARMUP (50 steps) → CONSTANT
+   LR: 1.00e-06 → 1.00e-05 (then constant)
+Starting training for 1000 steps...
+Batch size: 4, Block size: 512
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/training_log_gpt2_training_data_v2_12112025_204326.log
+step 0/1000 (0.0%): train loss 3.1298, val loss 3.3307 | LR: 1.00e-06 | 15.6s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 25/1000 (2.5%) | 0.47 steps/sec | ETA: 34.4m
+step 50/1000 (5.0%) | 0.58 steps/sec | ETA: 27.1m
+step 75/1000 (7.5%) | 0.63 steps/sec | ETA: 24.4m
+step 100/1000 (10.0%) | 0.66 steps/sec | ETA: 22.9m
+step 125/1000 (12.5%) | 0.66 steps/sec | ETA: 22.0m
+step 150/1000 (15.0%) | 0.66 steps/sec | ETA: 21.6m
+step 175/1000 (17.5%) | 0.65 steps/sec | ETA: 21.2m
+step 200/1000 (20.0%) | 0.64 steps/sec | ETA: 20.7m
+step 225/1000 (22.5%) | 0.64 steps/sec | ETA: 20.3m
+step 250/1000 (25.0%) | 0.63 steps/sec | ETA: 20.0m
+step 275/1000 (27.5%) | 0.61 steps/sec | ETA: 19.8m
+step 300/1000 (30.0%) | 0.60 steps/sec | ETA: 19.4m
+step 325/1000 (32.5%) | 0.59 steps/sec | ETA: 18.9m
+step 350/1000 (35.0%) | 0.58 steps/sec | ETA: 18.6m
+step 375/1000 (37.5%) | 0.57 steps/sec | ETA: 18.1m
+step 400/1000 (40.0%) | 0.57 steps/sec | ETA: 17.5m
+step 425/1000 (42.5%) | 0.57 steps/sec | ETA: 16.9m
+step 450/1000 (45.0%) | 0.56 steps/sec | ETA: 16.3m
+step 475/1000 (47.5%) | 0.56 steps/sec | ETA: 15.7m
+step 500/1000 (50.0%): train loss 2.1925, val loss 2.6751 | LR: 1.00e-05 | 930.9s (0.54 steps/sec) | Net loss change since beginning: -0.9373 | Net loss change since last checkpoint: -0.9373
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step000500_12112025_205857.pt
+step 525/1000 (52.5%) | 0.53 steps/sec | ETA: 15.1m
+step 550/1000 (55.0%) | 0.52 steps/sec | ETA: 14.4m
+step 575/1000 (57.5%) | 0.52 steps/sec | ETA: 13.7m
+step 600/1000 (60.0%) | 0.51 steps/sec | ETA: 13.0m
+step 625/1000 (62.5%) | 0.51 steps/sec | ETA: 12.3m
+step 650/1000 (65.0%) | 0.51 steps/sec | ETA: 11.5m
+step 675/1000 (67.5%) | 0.50 steps/sec | ETA: 10.8m
+step 700/1000 (70.0%) | 0.50 steps/sec | ETA: 10.0m
+step 725/1000 (72.5%) | 0.49 steps/sec | ETA: 9.3m
+step 750/1000 (75.0%) | 0.49 steps/sec | ETA: 8.5m
+step 775/1000 (77.5%) | 0.49 steps/sec | ETA: 7.7m
+step 800/1000 (80.0%) | 0.49 steps/sec | ETA: 6.9m
+step 825/1000 (82.5%) | 0.49 steps/sec | ETA: 6.0m
+step 850/1000 (85.0%) | 0.48 steps/sec | ETA: 5.2m
+step 875/1000 (87.5%) | 0.48 steps/sec | ETA: 4.3m
+step 900/1000 (90.0%) | 0.48 steps/sec | ETA: 3.4m
+step 925/1000 (92.5%) | 0.48 steps/sec | ETA: 2.6m
+step 950/1000 (95.0%) | 0.48 steps/sec | ETA: 1.7m
+step 975/1000 (97.5%) | 0.48 steps/sec | ETA: 0.9m
+--------------------------------------------------
+Training complete! Final loss: 1.7544
+Total training time: 35m 1s (0.48 steps/sec)
+Final eval - train loss 1.7996, val loss 2.7385
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+📝 Checkpoint log saved: logs/training_log_gpt2_training_data_v2_12112025_204326.log
+
+Generating text...
+==================================================
+QUESTION: My boyfriend and I have been together for three years, and recently we had a new girlfriend. She's a beautiful, affable, outgoing, and kind person who always gives me a heads-up on everything that's going on around her. She's also been incredibly supportive and kind to me. She says she's always been a bit on the low end of things, but I think our relationship is on the right track. She's been open about wanting kids and has hinted she might soon have one. I am so happy she's happy with her life, but there's one issue: she's 37. She's been in our relationship for three years, and she's been living with her parents in a new apartment for the past year. The problem is, she's in such a rush to get ready for college that she's barely making ends meet. We're both 24, and we're both in our mid-30s. When we first started dating, we were thinking we were going to get into a big college-age thing, but now we're thinking of going back to being moms and having kids. We've talked to my boyfriend about it, and he's completely open to the idea. But there's one issue: he's 23. He's been married for a few years, and when he started dating his girlfriend he was 23. Now he's 23 and wants to have kids. We're both in our early 20s, and we're both in our early
+==================================================

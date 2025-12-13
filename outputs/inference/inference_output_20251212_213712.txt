@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step003000_12122025_171123.pt
+Generated at: 2025-12-12 21:37:12
+Max new tokens: 150
+Prompt: QUESTION: My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about something that hurt my feelings, he makes a joke or says I am “too sensitive.” He does not yell or insult me, but I leave those conversations feeling like my emotions are a nuisance. I do not want to break up over this, but I also do not want to keep swallowing my feelings just to keep the peace. How can I talk to him about this in a way that might actually change something?
+
+ANSWER: This is an unfortunate situation. Humor is no excuse for trivializing a loved one's feelings.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Instead of shifting blame away from your partner, you should approach it with urgency: "I understand what each person means when they share things difficult—that doesn't make them hate someone else." Frame these moments around respect rather than comparison. For example—"Maybe we agree on how much time our date nights go without breaks because…?" Or—"If she comes home late anyway, maybe skip dinner tonight so her friends don have downtime too." Focus on describing specific situations instead omitting details such as frustration levels or logistical solutions. You may need both partners' honesty while limiting his responses during interpersonal stressors (e-mailing if necessary). Another suggestion would be asking whether there are limits beyond reasonable boundaries placed on shared experiences by default. Sometimes people feel
+==================================================

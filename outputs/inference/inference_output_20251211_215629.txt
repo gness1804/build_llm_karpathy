@@ -1,0 +1,12 @@
+Checkpoint: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12112025_211856.pt
+Generated at: 2025-12-11 21:56:29
+Max new tokens: 200
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?\n\nANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start by naming what you need right away—anything short of immediate family visits can make this situation worse. For example, if someone leaves dishes on their table overnight while they are out cleaning up after themselves, don't bring them back until later because then everyone will have time to cook before dinner. Instead invite friends over so we know where everything stands together beforehand. This avoids repeating yourself every few weeks as though nothing happened during those initial hours.
+<END_OF_SET>
+The next step isn not getting evicted immediately; rather, setting an early date (after all, Thanksgiving comes around often enough). Sit down separately from coworkers who might overhear something important such as laundry list changes or shifts shift scheduling. Try brief remarks explaining why certain tasks require specific attention insteadof elaborating explanations describing how each affects morale. Then propose solutions within minutes. Something along these lines would give both of us some structure outside of stressful situations. But most importantly, encourage people to share experiences too! Shared
+==================================================

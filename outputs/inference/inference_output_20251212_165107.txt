@@ -1,0 +1,15 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002000_12122025_163118.pt
+Generated at: 2025-12-12 16:51:07
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+STEM:
+It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start early—stay present during shifts so you don't miss opportunities as people venting are rarer than pauses on social media (like yours truly were). Then ask questions directly related either personally–what happened while we slept/used medication, what time of day each meal changed how much energy went through our brains; whether there was urgent cleaning done before meals began versus delayed until after dinner because this triggers stress responses later if needed. This communicates both caregiving style vs relational one-on‑one interaction where everyone gets equal weight behind their backs rather then being treated similarly across cultures. Most importantly though…you need to respect boundaries yourself too! Be specific enough within reasonable limits instead ogle someone temporarily refusing service based solely on gender identity alone
+==================================================

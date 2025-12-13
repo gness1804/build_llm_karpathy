@@ -1,0 +1,14 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step001000_12122025_154528.pt
+Generated at: 2025-12-12 15:56:51
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start early—quietly invite family members out every once-in‑a while (even if they are nearby), stay connected during shifts so you have time together outside of shift settings before we change situations on your watchlist! This minimizes stress levels too much as friends can catch up later instead OF COURSE YOU DO IT IN A SLEEPING MOMENT AND NOT WHEN UPLOADSIZE FORWARD ON SOMETHINGS TO CONVERT INTO OTHER FUN CATS OVER TIME; this also allows me room within our schedule because that's what keeps us productive overall after all these years. <END_OFTRODUCT>
+
+ "The fundamental problem here isn't just his sense patterns" versus normative expectations…itís how he interpre
+==================================================

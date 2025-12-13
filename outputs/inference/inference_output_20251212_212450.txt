@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002000_12122025_163118.pt
+Generated at: 2025-12-12 21:24:50
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The fact that you are interrupting someone while they finish tasks suggests something deeper than just an occasional check-in—it signals concern over their progress rather then frustration as some sort of order maintenance pattern emerges from under them (assuming this isn't intentional). And given how often these interactions land uncomfortably during working hours, even minor infractions can damage morale overall if done right! In short; keep redirects toward yourself instead OF providing reassurance regarding what needs addressing first thing tomorrow morning.  This doesn64t require intrusive behavior on purpose either, however. By continuing gently after each interaction regardless whether there's any response back, both mothers gain perspective through context so neither mother gets sucked down again until next time. Ultimately, though, having one more
+==================================================

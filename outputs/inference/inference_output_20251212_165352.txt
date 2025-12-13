@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002000_12122025_163118.pt
+Generated at: 2025-12-12 16:53:52
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ Start from basics—your intention isn't personal abuse; your intent matters too. If you don share what happened between them, escalate quickly (not casually)—stay calm while they explain why this doesn´t feel right/necessary. Try something along these lines instead of asking if there are any boundaries that aren-unnerving anymore: "I know we can handle logistics on our terms sometimes." Then ask questions such as whether their behavior resembles yours personally rather than needing constant reassurance through polite channels. You might also consider suggesting couples counseling where both partners share common ground regarding coping styles so neither partner gets sucked down emotionally during therapy sessions. This will give each other more room–both ways. Ultimately, whoever initiates needs support regardless of how much autonomy
+==================================================

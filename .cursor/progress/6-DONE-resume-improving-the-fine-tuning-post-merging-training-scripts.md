@@ -31,3 +31,5 @@ python3 training.py
 My most recent checkpoint is `checkpoints/checkpoint_gpt2_training_data_final_merged_step002100_11252025_194715.pt`.
 
 Again, I went through a lot of trial and error with other agents dealing with problems like gibberish output. I had to fix some critical bugs and tweak some hyperparameters, but now things are working much better. But now I want to optimize further to improve the output from what we see in these output logs. Can you help me make some optimizations so that we can continue to train our model to output strong, intelligent text?
+
+<!-- DONE -->

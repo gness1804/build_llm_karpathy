@@ -1,0 +1,134 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/v2/training_data_v2.md
+batch_size = 8
+block_size = 128
+training_steps = 1500
+start_step = 6600
+learning_rate = 3e-06
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = True
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = False
+
+OUTPUT
+======
+Loading training data from: sources/v2/training_data_v2.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+Loading model state from checkpoint...
+✅ Model state loaded
+Loading optimizer state from checkpoint...
+✅ Optimizer state loaded (LR overridden to 3.00e-06)
+📈 Learning rate schedule: CONSTANT (warmup disabled via USE_LR_WARMUP=False)
+   LR: 3.00e-06 (constant throughout training)
+Starting training for 1500 steps...
+Batch size: 8, Block size: 128
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/resume_training_log_gpt2_training_data_v2_12112025_163541.log
+step 6600/8100 (0.0%): train loss 3.1312, val loss 3.2891 | LR: 3.00e-06 | 8.1s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 6625/8100 (1.7%) | 0.97 steps/sec | ETA: 25.4m
+step 6650/8100 (3.3%) | 1.19 steps/sec | ETA: 20.3m
+step 6675/8100 (5.0%) | 1.29 steps/sec | ETA: 18.4m
+step 6700/8100 (6.7%) | 1.36 steps/sec | ETA: 17.2m
+step 6725/8100 (8.3%) | 1.40 steps/sec | ETA: 16.3m
+step 6750/8100 (10.0%) | 1.43 steps/sec | ETA: 15.7m
+step 6775/8100 (11.7%) | 1.45 steps/sec | ETA: 15.2m
+step 6800/8100 (13.3%) | 1.47 steps/sec | ETA: 14.7m
+step 6825/8100 (15.0%) | 1.48 steps/sec | ETA: 14.3m
+step 6850/8100 (16.7%) | 1.49 steps/sec | ETA: 14.0m
+step 6875/8100 (18.3%) | 1.49 steps/sec | ETA: 13.7m
+step 6900/8100 (20.0%) | 1.49 steps/sec | ETA: 13.4m
+step 6925/8100 (21.7%) | 1.50 steps/sec | ETA: 13.1m
+step 6950/8100 (23.3%) | 1.50 steps/sec | ETA: 12.8m
+step 6975/8100 (25.0%) | 1.49 steps/sec | ETA: 12.5m
+step 7000/8100 (26.7%) | 1.49 steps/sec | ETA: 12.3m
+step 7025/8100 (28.3%) | 1.49 steps/sec | ETA: 12.1m
+step 7050/8100 (30.0%) | 1.48 steps/sec | ETA: 11.8m
+step 7075/8100 (31.7%) | 1.48 steps/sec | ETA: 11.6m
+step 7100/8100 (33.3%): train loss 2.7089, val loss 2.8113 | LR: 3.00e-06 | 347.1s (1.44 steps/sec) | Net loss change since beginning: -0.4224 | Net loss change since last checkpoint: -0.4224
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step007100_12112025_164128.pt
+step 7125/8100 (35.0%) | 1.43 steps/sec | ETA: 11.4m
+step 7150/8100 (36.7%) | 1.43 steps/sec | ETA: 11.1m
+step 7175/8100 (38.3%) | 1.43 steps/sec | ETA: 10.8m
+step 7200/8100 (40.0%) | 1.43 steps/sec | ETA: 10.5m
+step 7225/8100 (41.7%) | 1.42 steps/sec | ETA: 10.2m
+step 7250/8100 (43.3%) | 1.42 steps/sec | ETA: 10.0m
+step 7275/8100 (45.0%) | 1.42 steps/sec | ETA: 9.7m
+step 7300/8100 (46.7%) | 1.42 steps/sec | ETA: 9.4m
+step 7325/8100 (48.3%) | 1.41 steps/sec | ETA: 9.1m
+step 7350/8100 (50.0%) | 1.40 steps/sec | ETA: 8.9m
+step 7375/8100 (51.7%) | 1.40 steps/sec | ETA: 8.7m
+step 7400/8100 (53.3%) | 1.39 steps/sec | ETA: 8.4m
+step 7425/8100 (55.0%) | 1.39 steps/sec | ETA: 8.1m
+step 7450/8100 (56.7%) | 1.39 steps/sec | ETA: 7.8m
+step 7475/8100 (58.3%) | 1.38 steps/sec | ETA: 7.5m
+step 7500/8100 (60.0%) | 1.38 steps/sec | ETA: 7.2m
+step 7525/8100 (61.7%) | 1.38 steps/sec | ETA: 6.9m
+step 7550/8100 (63.3%) | 1.38 steps/sec | ETA: 6.7m
+step 7575/8100 (65.0%) | 1.38 steps/sec | ETA: 6.4m
+step 7600/8100 (66.7%): train loss 2.4628, val loss 2.7930 | LR: 3.00e-06 | 735.5s (1.36 steps/sec) | Net loss change since beginning: -0.6684 | Net loss change since last checkpoint: -0.2461
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step007600_12112025_164756.pt
+step 7625/8100 (68.3%) | 1.35 steps/sec | ETA: 5.8m
+step 7650/8100 (70.0%) | 1.35 steps/sec | ETA: 5.6m
+step 7675/8100 (71.7%) | 1.35 steps/sec | ETA: 5.3m
+step 7700/8100 (73.3%) | 1.35 steps/sec | ETA: 5.0m
+step 7725/8100 (75.0%) | 1.34 steps/sec | ETA: 4.6m
+step 7750/8100 (76.7%) | 1.34 steps/sec | ETA: 4.3m
+step 7775/8100 (78.3%) | 1.34 steps/sec | ETA: 4.0m
+step 7800/8100 (80.0%) | 1.34 steps/sec | ETA: 3.7m
+step 7825/8100 (81.7%) | 1.34 steps/sec | ETA: 3.4m
+step 7850/8100 (83.3%) | 1.34 steps/sec | ETA: 3.1m
+step 7875/8100 (85.0%) | 1.33 steps/sec | ETA: 2.8m
+step 7900/8100 (86.7%) | 1.33 steps/sec | ETA: 2.5m
+step 7925/8100 (88.3%) | 1.33 steps/sec | ETA: 2.2m
+step 7950/8100 (90.0%) | 1.33 steps/sec | ETA: 1.9m
+step 7975/8100 (91.7%) | 1.33 steps/sec | ETA: 1.6m
+step 8000/8100 (93.3%) | 1.33 steps/sec | ETA: 1.3m
+step 8025/8100 (95.0%) | 1.33 steps/sec | ETA: 0.9m
+step 8050/8100 (96.7%) | 1.32 steps/sec | ETA: 0.6m
+step 8075/8100 (98.3%) | 1.32 steps/sec | ETA: 0.3m
+--------------------------------------------------
+Training complete! Final loss: 2.4083
+Total training time: 18m 53s (1.32 steps/sec)
+Final eval - train loss 2.3663, val loss 2.7464
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_v2_step008100_12112025_165445.pt
+📝 Checkpoint log saved: logs/resume_training_log_gpt2_training_data_v2_12112025_163541.log
+
+Generating text...
+==================================================
+QUESTION:  I’ve been married for two years, and I’ve noticed that my husband tends to give me a hard time. His family is very close to him, even though they’re not in the same orbit as me. I’ve noticed that his family usually gets along well with me, even if he’s not in the same orbit as them. I’ve also noticed that he tends to take our shifts well. Sometimes I feel like he’s always at my side when I’m in the middle of something important. I’m worried that if we do go out together, he might find that I don’t appreciate it enough. I’m worried that his family might pressure me into not doing something that benefits them, or that I might be overreacting because we’re in a similar orbit. How do I change our relationship without losing my trust?
+
+ANSWER: Start by asking yourself the following: “Why don’t you stay with him?” Then ask yourself why you’re in a different orbit. He may be in a similar orbit, or he may be in a different orbit because he is more close to the family. You’re not trying to change his orbit, but asking yourself whether he’s comfortable with your decision.
+
+If he says “I understand that you’re not in the same orbit as them
+==================================================

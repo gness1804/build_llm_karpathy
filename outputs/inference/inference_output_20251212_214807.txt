@@ -1,0 +1,12 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step001500_12122025_161006.pt
+Generated at: 2025-12-12 21:48:07
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The fact that you've been singled out as being overly-social while also feeling neglected suggests this pattern isn't sustainable—you need both people around who are engaged in shared activities (like cooking) so they can have time together before making decisions on how much of their day each person shares alone. Your role right now should reflect these boundaries rather than try something new every single evening; maybe one night after dinner someone will catch up once again just because there wasn anything left over from earlier meals! If anything changes during those first few hours where everyone seems more focused on tidying down then some sort "share" becomes unnecessary unless somebody else participates too--that might indicate stress levels aren�t keeping pace either. Also remember moms often exaggerate emotional responses
+==================================================

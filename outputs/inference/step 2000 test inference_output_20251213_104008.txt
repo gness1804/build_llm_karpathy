@@ -1,0 +1,15 @@
+Checkpoint: /Users/grahamnessler/Desktop/build_llm_karpathy/checkpoints/checkpoint_gpt2_training_data_v2_step002000_12122025_163118.pt
+Generated at: 2025-12-13 10:40:08
+Max new tokens: 150
+Prompt: QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
+
+==================================================
+GENERATED TEXT
+==================================================
+ The fact that you are interrupting someone gently suggests something deeper than just wanting reassurance—it signals concern rather then frustration over what might otherwise be handled privately. In this dynamic, boundaries often come before solutions because they require context instead of intentionality (e-mail). And while acknowledging how important family dynamics can sometimes be, never assuming control simply requires showing up early enough so everyone knows exactly where everything needs being done safely. Your role right now isn't helping maintain order on Thanksgiving morning; its creating opportunities both ways through shared routines as we navigate these emotional shifts together.
+==================================================
+
+Score: 2.5
+Reason: The text shows slightly more coherence than previous outputs and mentions relevant concepts like "boundaries" and "family dynamics," but it still fails to directly answer the question about how to set boundaries without hurting feelings. The response introduces irrelevant topics (Thanksgiving morning, e-mail) and contains grammatical errors ("rather then" should be "rather than", "its" should be "it's"). The text is still largely incoherent and doesn't provide a clear, actionable answer. It does not match the compassionate, clear-headed voice from the tier A examples, and reads more like a jumbled collection of related concepts rather than a reasoned response to the specific question.

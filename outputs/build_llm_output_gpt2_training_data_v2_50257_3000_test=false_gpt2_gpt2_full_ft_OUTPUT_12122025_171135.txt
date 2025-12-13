@@ -1,0 +1,197 @@
+HYPERPARAMETERS
+================
+model_type = gpt2
+use_lora = False
+training_data_source = sources/v2/training_data_v2.md
+batch_size = 4
+block_size = 512
+training_steps = 3000
+start_step = 0
+learning_rate = 1e-05
+n_embd = 256
+n_head = 4
+n_layer = 4
+dropout = 0.2
+gpt2_model_name = gpt2
+tokenization_method = character
+custom_vocab_size = None
+enable_checkpoints = True
+checkpoint_interval = 500
+checkpoint_dir = checkpoints
+log_dir = logs
+enable_output_to_file = True
+output_dir = outputs
+test_mode = False
+eval_interval = 500
+eval_iters = 20
+max_new_tokens = 300
+generation_temperature = 0.7
+generation_top_k = 50
+device = mps
+use_lr_warmup = True
+
+OUTPUT
+======
+Loading training data from: sources/v2/training_data_v2.md
+🤖 Using GPT-2 model: gpt2
+📥 Loading gpt2 from HuggingFace...
+✅ Model loaded with 124,439,808 parameters
+📊 Parameter Statistics:
+   Model: gpt2
+   Total parameters: 124,439,808
+   Trainable parameters: 124,439,808
+   💡 Tip: Use USE_LORA=True for efficient fine-tuning (90-99% fewer parameters)
+Model device: mps:0
+✅ Model successfully moved to Apple Silicon GPU (MPS)
+📈 Learning rate schedule: WARMUP (60 steps) → CONSTANT
+   LR: 1.00e-06 → 1.00e-05 (then constant)
+Starting training for 3000 steps...
+Batch size: 4, Block size: 512
+Vocabulary size: 50,257 tokens
+Checkpoints enabled: saving every 500 steps to checkpoints/
+--------------------------------------------------
+📝 Checkpoint log: logs/training_log_gpt2_training_data_v2_12122025_150735.log
+step 0/3000 (0.0%): train loss 3.1324, val loss 3.2614 | LR: 1.00e-06 | 14.6s (0.00 steps/sec) | Net loss change since beginning: 0.0000 | Net loss change since last checkpoint: 0.0000
+step 25/3000 (0.8%) | 0.51 steps/sec | ETA: 98.1m
+step 50/3000 (1.7%) | 0.61 steps/sec | ETA: 80.9m
+step 75/3000 (2.5%) | 0.65 steps/sec | ETA: 74.7m
+step 100/3000 (3.3%) | 0.66 steps/sec | ETA: 73.0m
+step 125/3000 (4.2%) | 0.65 steps/sec | ETA: 73.3m
+step 150/3000 (5.0%) | 0.64 steps/sec | ETA: 74.6m
+step 175/3000 (5.8%) | 0.62 steps/sec | ETA: 75.5m
+step 200/3000 (6.7%) | 0.62 steps/sec | ETA: 75.4m
+step 225/3000 (7.5%) | 0.61 steps/sec | ETA: 75.4m
+step 250/3000 (8.3%) | 0.60 steps/sec | ETA: 75.9m
+step 275/3000 (9.2%) | 0.59 steps/sec | ETA: 77.3m
+step 300/3000 (10.0%) | 0.57 steps/sec | ETA: 79.0m
+step 325/3000 (10.8%) | 0.55 steps/sec | ETA: 81.1m
+step 350/3000 (11.7%) | 0.54 steps/sec | ETA: 82.2m
+step 375/3000 (12.5%) | 0.53 steps/sec | ETA: 82.0m
+step 400/3000 (13.3%) | 0.53 steps/sec | ETA: 81.8m
+step 425/3000 (14.2%) | 0.52 steps/sec | ETA: 82.7m
+step 450/3000 (15.0%) | 0.51 steps/sec | ETA: 82.9m
+step 475/3000 (15.8%) | 0.51 steps/sec | ETA: 82.9m
+step 500/3000 (16.7%): train loss 2.2125, val loss 2.5317 | LR: 1.00e-05 | 1020.0s (0.49 steps/sec) | Net loss change since beginning: -0.9199 | Net loss change since last checkpoint: -0.9199
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step000500_12122025_152435.pt
+step 525/3000 (17.5%) | 0.48 steps/sec | ETA: 86.7m
+step 550/3000 (18.3%) | 0.47 steps/sec | ETA: 87.7m
+step 575/3000 (19.2%) | 0.46 steps/sec | ETA: 87.1m
+step 600/3000 (20.0%) | 0.46 steps/sec | ETA: 86.6m
+step 625/3000 (20.8%) | 0.46 steps/sec | ETA: 86.3m
+step 650/3000 (21.7%) | 0.46 steps/sec | ETA: 85.8m
+step 675/3000 (22.5%) | 0.45 steps/sec | ETA: 85.2m
+step 700/3000 (23.3%) | 0.46 steps/sec | ETA: 84.1m
+step 725/3000 (24.2%) | 0.46 steps/sec | ETA: 82.8m
+step 750/3000 (25.0%) | 0.46 steps/sec | ETA: 81.7m
+step 775/3000 (25.8%) | 0.46 steps/sec | ETA: 80.5m
+step 800/3000 (26.7%) | 0.46 steps/sec | ETA: 79.6m
+step 825/3000 (27.5%) | 0.46 steps/sec | ETA: 78.6m
+step 850/3000 (28.3%) | 0.46 steps/sec | ETA: 77.6m
+step 875/3000 (29.2%) | 0.46 steps/sec | ETA: 76.7m
+step 900/3000 (30.0%) | 0.46 steps/sec | ETA: 76.2m
+step 925/3000 (30.8%) | 0.46 steps/sec | ETA: 75.5m
+step 950/3000 (31.7%) | 0.45 steps/sec | ETA: 75.9m
+step 975/3000 (32.5%) | 0.45 steps/sec | ETA: 75.4m
+step 1000/3000 (33.3%): train loss 1.6340, val loss 2.4207 | LR: 1.00e-05 | 2272.5s (0.44 steps/sec) | Net loss change since beginning: -1.4984 | Net loss change since last checkpoint: -0.5785
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step001000_12122025_154528.pt
+step 1025/3000 (34.2%) | 0.44 steps/sec | ETA: 75.4m
+step 1050/3000 (35.0%) | 0.44 steps/sec | ETA: 74.5m
+step 1075/3000 (35.8%) | 0.44 steps/sec | ETA: 73.7m
+step 1100/3000 (36.7%) | 0.43 steps/sec | ETA: 73.4m
+step 1125/3000 (37.5%) | 0.43 steps/sec | ETA: 72.6m
+step 1150/3000 (38.3%) | 0.43 steps/sec | ETA: 71.7m
+step 1175/3000 (39.2%) | 0.43 steps/sec | ETA: 70.8m
+step 1200/3000 (40.0%) | 0.43 steps/sec | ETA: 70.1m
+step 1225/3000 (40.8%) | 0.41 steps/sec | ETA: 72.2m
+step 1250/3000 (41.7%) | 0.41 steps/sec | ETA: 71.4m
+step 1275/3000 (42.5%) | 0.41 steps/sec | ETA: 70.6m
+step 1300/3000 (43.3%) | 0.41 steps/sec | ETA: 69.7m
+step 1325/3000 (44.2%) | 0.40 steps/sec | ETA: 69.2m
+step 1350/3000 (45.0%) | 0.40 steps/sec | ETA: 68.1m
+step 1375/3000 (45.8%) | 0.40 steps/sec | ETA: 67.3m
+step 1400/3000 (46.7%) | 0.40 steps/sec | ETA: 66.4m
+step 1425/3000 (47.5%) | 0.40 steps/sec | ETA: 65.6m
+step 1450/3000 (48.3%) | 0.40 steps/sec | ETA: 64.4m
+step 1475/3000 (49.2%) | 0.40 steps/sec | ETA: 63.3m
+step 1500/3000 (50.0%): train loss 1.2167, val loss 2.2583 | LR: 1.00e-05 | 3750.9s (0.40 steps/sec) | Net loss change since beginning: -1.9156 | Net loss change since last checkpoint: -0.4173
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step001500_12122025_161006.pt
+step 1525/3000 (50.8%) | 0.40 steps/sec | ETA: 61.4m
+step 1550/3000 (51.7%) | 0.40 steps/sec | ETA: 60.2m
+step 1575/3000 (52.5%) | 0.40 steps/sec | ETA: 59.1m
+step 1600/3000 (53.3%) | 0.40 steps/sec | ETA: 58.0m
+step 1625/3000 (54.2%) | 0.40 steps/sec | ETA: 56.9m
+step 1650/3000 (55.0%) | 0.40 steps/sec | ETA: 55.7m
+step 1675/3000 (55.8%) | 0.40 steps/sec | ETA: 54.7m
+step 1700/3000 (56.7%) | 0.40 steps/sec | ETA: 53.5m
+step 1725/3000 (57.5%) | 0.41 steps/sec | ETA: 52.4m
+step 1750/3000 (58.3%) | 0.41 steps/sec | ETA: 51.3m
+step 1775/3000 (59.2%) | 0.41 steps/sec | ETA: 50.2m
+step 1800/3000 (60.0%) | 0.41 steps/sec | ETA: 49.1m
+step 1825/3000 (60.8%) | 0.41 steps/sec | ETA: 48.1m
+step 1850/3000 (61.7%) | 0.41 steps/sec | ETA: 47.0m
+step 1875/3000 (62.5%) | 0.41 steps/sec | ETA: 45.8m
+step 1900/3000 (63.3%) | 0.41 steps/sec | ETA: 44.8m
+step 1925/3000 (64.2%) | 0.39 steps/sec | ETA: 45.4m
+step 1950/3000 (65.0%) | 0.40 steps/sec | ETA: 44.1m
+step 1975/3000 (65.8%) | 0.40 steps/sec | ETA: 42.8m
+step 2000/3000 (66.7%): train loss 0.8412, val loss 2.2566 | LR: 1.00e-05 | 5023.2s (0.40 steps/sec) | Net loss change since beginning: -2.2912 | Net loss change since last checkpoint: -0.3755
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step002000_12122025_163118.pt
+step 2025/3000 (67.5%) | 0.40 steps/sec | ETA: 40.8m
+step 2050/3000 (68.3%) | 0.40 steps/sec | ETA: 39.6m
+step 2075/3000 (69.2%) | 0.40 steps/sec | ETA: 38.5m
+step 2100/3000 (70.0%) | 0.40 steps/sec | ETA: 37.3m
+step 2125/3000 (70.8%) | 0.40 steps/sec | ETA: 36.2m
+step 2150/3000 (71.7%) | 0.40 steps/sec | ETA: 35.1m
+step 2175/3000 (72.5%) | 0.40 steps/sec | ETA: 34.0m
+step 2200/3000 (73.3%) | 0.40 steps/sec | ETA: 32.9m
+step 2225/3000 (74.2%) | 0.41 steps/sec | ETA: 31.9m
+step 2250/3000 (75.0%) | 0.41 steps/sec | ETA: 30.8m
+step 2275/3000 (75.8%) | 0.41 steps/sec | ETA: 29.8m
+step 2300/3000 (76.7%) | 0.41 steps/sec | ETA: 28.7m
+step 2325/3000 (77.5%) | 0.41 steps/sec | ETA: 27.7m
+step 2350/3000 (78.3%) | 0.40 steps/sec | ETA: 26.8m
+step 2375/3000 (79.2%) | 0.40 steps/sec | ETA: 25.8m
+step 2400/3000 (80.0%) | 0.40 steps/sec | ETA: 24.7m
+step 2425/3000 (80.8%) | 0.40 steps/sec | ETA: 23.7m
+step 2450/3000 (81.7%) | 0.40 steps/sec | ETA: 22.8m
+step 2475/3000 (82.5%) | 0.40 steps/sec | ETA: 22.1m
+step 2500/3000 (83.3%): train loss 0.6275, val loss 2.2967 | LR: 1.00e-05 | 6321.2s (0.40 steps/sec) | Net loss change since beginning: -2.5049 | Net loss change since last checkpoint: -0.2137
+   💾 Checkpoint saved: checkpoints/checkpoint_gpt2_training_data_v2_step002500_12122025_165256.pt
+step 2525/3000 (84.2%) | 0.39 steps/sec | ETA: 20.2m
+step 2550/3000 (85.0%) | 0.39 steps/sec | ETA: 19.1m
+step 2575/3000 (85.8%) | 0.39 steps/sec | ETA: 18.0m
+step 2600/3000 (86.7%) | 0.39 steps/sec | ETA: 16.9m
+step 2625/3000 (87.5%) | 0.40 steps/sec | ETA: 15.8m
+step 2650/3000 (88.3%) | 0.40 steps/sec | ETA: 14.7m
+step 2675/3000 (89.2%) | 0.40 steps/sec | ETA: 13.7m
+step 2700/3000 (90.0%) | 0.40 steps/sec | ETA: 12.6m
+step 2725/3000 (90.8%) | 0.40 steps/sec | ETA: 11.5m
+step 2750/3000 (91.7%) | 0.40 steps/sec | ETA: 10.5m
+step 2775/3000 (92.5%) | 0.40 steps/sec | ETA: 9.4m
+step 2800/3000 (93.3%) | 0.40 steps/sec | ETA: 8.3m
+step 2825/3000 (94.2%) | 0.40 steps/sec | ETA: 7.3m
+step 2850/3000 (95.0%) | 0.40 steps/sec | ETA: 6.2m
+step 2875/3000 (95.8%) | 0.40 steps/sec | ETA: 5.2m
+step 2900/3000 (96.7%) | 0.40 steps/sec | ETA: 4.1m
+step 2925/3000 (97.5%) | 0.40 steps/sec | ETA: 3.1m
+step 2950/3000 (98.3%) | 0.40 steps/sec | ETA: 2.1m
+step 2975/3000 (99.2%) | 0.40 steps/sec | ETA: 1.0m
+--------------------------------------------------
+Training complete! Final loss: 0.7725
+Total training time: 2h 3m 26s (0.41 steps/sec)
+Final eval - train loss 0.4723, val loss 2.2059
+✅ Final model saved: checkpoints/checkpoint_gpt2_training_data_v2_step003000_12122025_171123.pt
+📝 Checkpoint log saved: logs/training_log_gpt2_training_data_v2_12122025_150735.log
+
+Generating text...
+==================================================
+QUESTION: ANSWER: 
+
+Your grandmother and I have always been very competitive. She was the one who first introduced me to your auntie, and I inherited a large chunk of her fortune from her father. My mother inherited much more than I had, and I struggled to find enough money to pay for college. My father even went as far as to claim that I was the one buying his father's car. My sister made the heartbreaking but necessary decision to stay home with him, as did many people in her position. She did not end it with him. She went on to marry a wonderful man she had a wonderful child with. And there was always one more woman to go around.
+
+Unfortunately, things are gettingtermering for me and my sister. It seems like every few years, something catastrophic happens that leaves us in a position to no longer be a part of the natural evolution of the family. For instance, my younger sister has developed a habit of criticizing my father about things that I didn't do during our entire childhood. These remarks are completely out of character for a teenager, and I don't want to frame this in that way. Nevertheless, I still get irritated when my sister makes crude and crude remarks about my father. It really hurts to stand by and say nothing while my father makes crude and cruel remarks about my sister?
+
+ANSWER: 
+
+The fundamental question is whether you want to be a part of this strange family that routinely insults and
+==================================================
