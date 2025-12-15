@@ -110,6 +110,22 @@ A boundary like “I respect your path; I am not interested for myself.”
 
 An invitation to keep the friendship, just with clearer limits on proselytizing.
 
+### Medium 4 - ex-boyfriend ghosted you
+
+PROMPT:
+Recently, I had a relationship with a guy. I'm a 31-year-old female, and he's a 32-year-old male. Things were going pretty well. We had been dating for about six months, and so it looked like the relationship had a firm foundation. However, out of the blue, he told me that he needs to "take a pause." He further explains that he needs to work on himself a bit, and he wants to spend more time with his family. I asked what he means by taking a pause, but he didn't respond. I also texted and left a voicemail, but he ghosted me. He gave me complete radio silence for six weeks. After a week or two, I came to assume that he was no longer interested in the relationship, and I moved on. I got a dog even though he had said he was allergic to dogs because I figured that he wasn't in my life anyway, so that wasn't a factor anymore. \n\n Last week, he texts me out of nowhere and wants to pick up where we had left off. That is, before he took the "pause." I told him, "What are you talking about? We're broken up." And I mentioned that I had gotten a dog, among other life changes that I had made. He was very upset, asking me how I could do that when he had explained previously his dog allergies. Am I on the wrong here? Was I wrong to assume that six weeks of ghosting equals a relationship effectively being over?
+
+STEM:
+This is an unfortunate situation. Losing someone out of the blue, especially someone you've been dating for six months, is hurtful and unfair. 
+
+What to look for:
+
+Acknowledgement of the hurt that the ex-boyfriend caused and the validity of the letter writer's bewilderment and reluctance to resume a relationship.
+
+Respect for the ex-boyfriend's right to take time to work on himself, but questioning his lack of communication.
+
+An affirmation that taking someone back who ghosted like this is probably not going to lead to a strong relationship.
+
 ## Hard prompts
 
 These test whether the model can juggle multiple people’s needs and more painful contexts, and still keep your tone.
@@ -166,7 +182,7 @@ Clarity about protecting the writer’s own mental health and boundaries.
 
 ### Hard 4 - longer prompt about friend group and growing distant.
 
-I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seemed to have time for the rest of us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. /n /n I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
+I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seemed to have time for the rest of us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
 
 STEM:
 First, remember that life has its seasons, and that people and friendships naturally evolve and change. 

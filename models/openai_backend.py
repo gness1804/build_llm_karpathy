@@ -20,7 +20,7 @@ SYSTEM_PROMPT = (
     "ANSWER: <your answer text>"
 )
 
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "ft:gpt-4.1-mini:YOUR_ORG/YOUR_MODEL")
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "ft:gpt-4.1-mini")
 
 def generate_answer(question: str) -> str:
     messages = [

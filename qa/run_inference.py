@@ -221,8 +221,8 @@ Examples:
         print("❌ Error: --prompt is required (use --list to see available prompts)")
         sys.exit(1)
     
-    if not args.checkpoint:
-        print("❌ Error: --checkpoint is required")
+    if not args.checkpoint and args.model_type not in ["gpt2", "openai_backend"]:
+        print("❌ Error: --checkpoint is required when not using a built-in model type")
         sys.exit(1)
     
     # Find the prompt
@@ -239,7 +239,8 @@ Examples:
     stem_text = prompt_dict.get('stem', '')
     
     print(f"✅ Found prompt: {matched_key}")
-    print(f"   Using checkpoint: {args.checkpoint}")
+    if args.checkpoint:
+        print(f"   Using checkpoint: {args.checkpoint}")
     print(f"   Using model type: {args.model_type.upper()}")
     
     if args.use_stem:
@@ -248,14 +249,16 @@ Examples:
         else:
             print(f"   ⚠️  Warning: --use-stem specified but no STEM found for this prompt")
     
-    # Check if checkpoint exists
-    checkpoint_path = Path(args.checkpoint)
-    if not checkpoint_path.is_absolute():
-        checkpoint_path = PROJECT_ROOT / checkpoint_path
-    
-    if not checkpoint_path.exists():
-        print(f"❌ Error: Checkpoint not found at {checkpoint_path}")
-        sys.exit(1)
+    # Check if checkpoint exists (only if provided)
+    checkpoint_path = None
+    if args.checkpoint:
+        checkpoint_path = Path(args.checkpoint)
+        if not checkpoint_path.is_absolute():
+            checkpoint_path = PROJECT_ROOT / checkpoint_path
+        
+        if not checkpoint_path.exists():
+            print(f"❌ Error: Checkpoint not found at {checkpoint_path}")
+            sys.exit(1)
     
     # Load .env file
     env_path = SCRIPT_DIR / '.env'
@@ -281,18 +284,20 @@ Examples:
         formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
     
     # Override with command-line arguments
-    env['CHECKPOINT_PATH'] = str(checkpoint_path)
+    if checkpoint_path:
+        env['CHECKPOINT_PATH'] = str(checkpoint_path)
     env['PROMPT'] = formatted_prompt
     env['MODE'] = 'inference'  # Ensure MODE is set
     env['MODEL_TYPE'] = args.model_type
     
     # Print what we're running
-    print(f"\n📝 Prompt preview (first 100 chars):")
+    print(f"\n📏 Prompt preview (first 100 chars):")
     print(f"   {prompt_text_clean[:100]}...")
     print(f"\n📋 Full formatted prompt (first 150 chars):")
     print(f"   {formatted_prompt[:150]}...")
     print(f"\n🚀 Running inference...")
-    print(f"   Checkpoint: {checkpoint_path}")
+    if checkpoint_path:
+        print(f"   Checkpoint: {checkpoint_path}")
     print(f"   Environment variables from .env: {', '.join(env_vars.keys())}")
     
     # Run the inference script
