@@ -1,0 +1,16 @@
+QUESTION: I was in what I thought was a long-term, loving relationship for over a year. My partner, "J", and I shared a lot of interests, got along mostly well, and overall really connected. We had even started talking about marriage, although only semi-seriously. But then J goes on a business trip for two weeks. On his last day, he calls me and says that he needs to take some time for himself. I thought, This is odd, but if he needs his space for a while and to recharge, then I'm all for it. But after this conversation, he dropped off the face of the earth. No phone calls, no texts, no e-mails. I called and texted him multiple times to try to understand what's going on, but I was continually met with silence. 
+
+After two agonizing months of no contact from him at all, he calls me out of the blue one evening. He says that he wants to pick up where we left off. I'm incensed. I gave him a piece of my mind and let him know that it's not acceptable to ghost your partner like that, especially given the level of commitment that I thought we had had. We had a big fight, and I told him that I never wanted to see him again. (I should note that I did ask him whether something tragic or drastic had happened, such as one of his parents passing away, and he said no, there was nothing like that. He didn't give a real explanation.) But now looking back, I feel guilty. Did I overreact?
+
+ANSWER: Anyone who invests a year in a relationship, openly discusses marriage, and then gets cut off without warning would be shaken. A year together is a major emotional investment. When someone disappears at that stage, people often experience a kind of emotional disorientation—guilt, shame, confusion, and, very often, self-doubt. But it’s important to remember that he was the one who chose to walk out, and his choice reflects on him, not on your worth. You weren’t being overly dramatic. You were responding like any person would when a trusted partner suddenly vanishes.
+
+A year together signals seriousness for most people. By that point, ending things by text already feels too abrupt and impersonal, let alone disappearing entirely. Ghosting after that level of intimacy isn’t a momentary lapse in judgment. It’s a deep breakdown in basic relational responsibility.
+
+If he reaches out again hoping to reopen the conversation, you can keep your response simple:
+"I'm not interested in revisiting this. You disappeared for two months without explanation, and I can't overlook that. I've moved on. I wish you well, but I'm not available for further contact."
+
+That isn't punishment. It’s a boundary.
+
+It’s also worth remembering that two months is a sixth of your entire relationship and longer than many relationships last in total. You deserve someone who honors your time and your presence instead of leaving for an extended period and returning only when it’s convenient for him. If working through all of this brings up self-doubt or lingering guilt, a therapist can be a helpful partner in making sense of what happened—not because you did anything wrong, but because experiences like this can shake your sense of stability. A good therapist can help you internalize that this rupture was about his avoidance, not your value, and sometimes hearing that clearly and consistently is the best medicine as you move forward.
+
+<END_OF_SET>
