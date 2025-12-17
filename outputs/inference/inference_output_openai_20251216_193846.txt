@@ -1,0 +1,16 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-16 19:38:46
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Begin by naming both truths: “I know you are grieving, and I want to support you. At the same time, I feel distant from you, and I miss the connection we had.” Grief can make people withdraw, but it does not relieve them of the responsibility to communicate with their partners. Your hurt is real and valid.
+
+Then ask a gentle but direct question: “What do you need from me right now? And how can we stay connected even as you process this loss?” Some people need space; others need more closeness. The only way to know is to ask. You might also suggest counseling, not as a threat, but as a resource. “I think it might help us both to talk to someone about
+==================================================

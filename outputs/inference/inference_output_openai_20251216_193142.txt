@@ -1,0 +1,20 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-16 19:31:42
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: You are not alone in feeling this way. Grief can create emotional chasms in relationships, and the person who is not grieving often ends up grieving the loss of the relationship as it was. Your partner may be overwhelmed by his own sorrow, guilt, or shock, and may not know how to hold space for your feelings as well. But your hurt is real and legitimate.
+
+Start by naming the dynamic gently: “I know you are going through a lot, and I want to support you. At the same time, I feel like we have drifted apart, and I miss you. I need to understand how we can stay connected while you are grieving.” This is not pressure; it is an invitation to co-create a path forward.
+
+Then offer concrete ways to stay connected that do not require him to articulate his grief before he is ready. This might mean scheduling a weekly walk, a regular dinner date, or a brief check-in where the focus is not on his sibling but on your relationship. You are not asking him to shorten his grief. You are asking him to help you both navigate the distance it has created.
+
+If he continues to shut down or if the distance grows, consider suggesting couples counseling. Many people find it easier to talk about grief and relational strain in a structured setting. You are not trying to fix him. You are trying to keep your partnership alive during one of its most difficult seasons.
+==================================================
