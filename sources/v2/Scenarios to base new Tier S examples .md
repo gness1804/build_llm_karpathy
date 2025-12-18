@@ -160,3 +160,9 @@ My boyfriend is still in regular contact with his ex-girlfriend. He is her confi
 I want to ask him to stop being her confidant and to stop telling her about our relationship. They can remain friends, just not with such intimate conversations. He absolutely refuses any boundaries because “I am not going to let you pick my friends.”
 
 Should I just exit this situation? For context, he and I are on and off because of this, and he usually dates her again when we are off.
+
+# Son who cut off contact with parents now wants to be at his mother's funeral.
+
+Our son cut off contact with my wife and me about four years ago. After he started therapy, he suddenly started talking about his childhood in a way that we couldn’t understand. He said we had been emotionally abusive and eventually said that he needed to “go no contact” for his mental health. He also didn’t allow us to see his children, our grandchildren, to whom we were very close — especially my wife. I was very angry and my wife was heartbroken. Maybe there’s more we could have done, but we truly felt we tried everything to heal the distance between us. He has struggled with depression for years, and before he ended contact, we helped pay for his therapy and medication.
+
+Tragically, my wife died suddenly from a heart condition. The funeral is next week and he wants to come. Given everything he put her through, I don’t want him there. I don’t think he deserves to be there. My sister says, “family is family,” but I’m not so sure about that.
