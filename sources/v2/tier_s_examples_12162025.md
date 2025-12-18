@@ -47,4 +47,18 @@ Such a conversation might be hard, but if your brother is open-minded and willin
 
 <END_OF_SET>
 
-QUESTION: 
+QUESTION: I recently ended things with my girlfriend, and now I regret having done so. It's always easy to idealize somebody after a breakup, but in this case, she really was the total package: kind, compassionate, very smart, seemed to really love me. So why did I let her go? Because of family pressure. 
+
+Our family has always placed a heavy emphasis on academic achievement. In my immediate family alone, there are two doctors, a lawyer, and an accountant. I myself am a professor at a mid-sized regional university. I was raised to believe in the value of education. Unfortunately, in our case, this too often veered into perfectionism. And even worse, into mistreatment or dismissal of others who didn't meet our lofty academic standards. 
+
+My ex is a social worker with "only" an undergrad degree from a state school. She also had always done well in school, but it wasn't her life. She cared more about bettering the world and about other passions such as the arts. That's a major reason why I fell for her, but it's also why my family never truly accepted her. Sometimes they paid lip service to accepting her, but more often they would make snarky comments behind her back about how she didn't measure up or how she wasn't "Yale material." Those comments affected me more than I thought. Last month, I found myself telling her that we just weren't a good fit. I never really explained why, but she was smart enough to figure it out. She said something to the effect of, "Well, if you think you're too good for me, then I never want to see you again." Which I deserved.
+
+I sorely regret ending things. Is there a way back into her life? Or even failing that, should I simply reach out to her to apologize? It's been a few weeks, and we haven't talked since that conversation. We didn't live together or have kids or anything, so it was a relatively easy split logistically. But emotionally, I'm still tied up in knots. Help?
+
+ANSWER: You were clearly caught between a woman you loved and a family that possesses a narrow definition of success in life. And now you regret having listened to your family rather than honoring your own feelings and those of the person that you were with. It was an awful situation, and I'm sorry I had to go through it. But it seems like a hard lesson in what not to do when faced with conflict between family expectations and what your heart is telling you.
+
+I would not attempt further contact with her. You ended things. She made it clear she didn't want to interact with you anymore. And even if you didn't respect her life choices back then, back during the relationship, you should at least respect her choice now to end contact with you. If per chance she does reach out to you, Which would probably be for logistical reasons rather than any interest in renewing their relationship, do not attempt to win her back. You can tell her something like, "I'm so sorry for how I treated you. I don't expect you to forgive me, and I certainly don't expect you to take me back. But I just wanted to express that I feel awful for having treated you so poorly. You didn't deserve that, and I didn't deserve you."
+
+In the more likely event that she doesn't reach out, don't reach out to her. You seem wracked with guilt and feeling a need to apologize to her. But reaching out would probably do more harm than good, especially since she expressed the wish to not see you again. And she would likely take an unsolicited apology as an empty gesture meant more to comfort you than to sincerely atone for the mistakes that you made. Guilt can be a useful signal to us to do better. Now that you're more aware of how others' opinions can sway you and of some of your own blind spots, you'll be better equipped to handle such a situation in a similar relationship. Let this person go. Do better next time.
+
+<END_OF_SET>
