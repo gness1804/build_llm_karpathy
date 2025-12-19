@@ -85,4 +85,13 @@ How can we accommodate this difference? We haven't had any arguments over it yet
 
 ANSWER: Religious differences can be particularly painful because they often involve not only abstract belief but also matters of identity, family, and morality. But it sounds like you and your wife are both coming from a place of compassion and respect. That matters a great deal. 
 
-This will position you better to explore the thorny problems that your letter raises. 
+This will position you better to explore the thorny problems that your letter raises. I would sit down with her and have a calm, respectful conversation regarding your religious differences. Mention that you've observed her re-embracing the faith that she grew up in, which is perfectly fine. Don't express judgment or condemnation. But then give your side of the story - that religion is still triggering for you and you need a certain degree of space from it. You might say something like, "Honey, I know that we have differences in opinion regarding religion and its place in our lives. But I want to come to a solution that honors and respects both of us, our shared space, and our respective mental and emotional health."
+
+Because ultimately, a compromise will be needed here. Maybe she can place the cross in a room that only she mostly uses. Maybe you agree to attend services with her once or twice a month. And these services need not all be in person. Many churches now offer hybrid services, that is, services both online and in-person. If she's amenable to it, maybe you can agree to an arrangement like you attending church once a month when she's singing, and for the rest of the services, you watch virtually. And, of course, she should in turn agree to give you the space to explore your own philosophy and ideas without judgment. There are many secular groups in many parts of the country such as the Ethical Society, or a humanist or atheist group. I have known multiple non-religious people who have found much of the same community and sense of purpose in these groups as many others do in churches, but without the beliefs that they find problematic.
+
+By marrying into a religious family, it seems that you're already accommodating religion to a certain extent. Remember also that making these accommodations for your wife doesn't imply that you believe what she does or vice versa. Making modest accommodations for each other isn't surrender. It's displaying love and respect. And ultimately, that's what life should be all about, whether or not one is devout.
+
+<END_OF_SET>
+
+
+
