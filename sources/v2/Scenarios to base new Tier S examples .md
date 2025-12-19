@@ -161,8 +161,74 @@ I want to ask him to stop being her confidant and to stop telling her about our 
 
 Should I just exit this situation? For context, he and I are on and off because of this, and he usually dates her again when we are off.
 
-# Son who cut off contact with parents now wants to be at his mother's funeral.
+## Son who cut off contact with parents now wants to be at his mother's funeral.
 
 Our son cut off contact with my wife and me about four years ago. After he started therapy, he suddenly started talking about his childhood in a way that we couldn’t understand. He said we had been emotionally abusive and eventually said that he needed to “go no contact” for his mental health. He also didn’t allow us to see his children, our grandchildren, to whom we were very close — especially my wife. I was very angry and my wife was heartbroken. Maybe there’s more we could have done, but we truly felt we tried everything to heal the distance between us. He has struggled with depression for years, and before he ended contact, we helped pay for his therapy and medication.
 
 Tragically, my wife died suddenly from a heart condition. The funeral is next week and he wants to come. Given everything he put her through, I don’t want him there. I don’t think he deserves to be there. My sister says, “family is family,” but I’m not so sure about that.
+
+## Husband is Scrooge during holidays because of past trauma. Wife resents this.
+
+Is it fair for my husband, who doesn’t enjoy gifting and major holiday celebrations, to spoil them for me? He grew up in a family that argued 24/7, relentlessly. That was their primary style of communication, even on birthdays and special holidays, and everything came with a price tag.
+
+I’m the opposite when it comes to entertaining, decorating, and the joy of finding creative, thoughtful presents for family and friends. He is more of an introvert. We’re well off, but entertaining is too much effort and gift giving is a waste of money to him. Instead, he buys one big birthday and Christmas gift for himself every year.
+
+Even though I try to make the most of each holiday on my own terms, it is still a deeply disappointing, inwardly lonely experience. To me, his outlook is incredibly selfish and narcissistic. I’m well aware that he may be incapable of change, but how do I rationally cope with my ongoing resentment toward his insensitivity?
+
+## Friend wants letter writer to censor themselves on Facebook because of political disagreements.
+
+I have a friend who is on the opposite side of politics from me. She sent me this message: “After seeing your vile and disgusting lies on Facebook I have no desire to be friends with anyone on the left.”
+
+We have never approached any private political conversation as we recognize there is no convincing each other to change our thinking. We agree to disagree, but she wants me to censor what I post on Facebook on her behalf. I think she should pause notifications of my posts if she doesn’t agree. I don’t think it’s fair of her to make these demands as she is the only friend who can’t endure my daily assault with reposts. They are not directed personally at her. She rarely posts anything and if she does, she doesn’t tag me. If she doesn’t like what I post, then she shouldn’t bother reading them.
+
+This is the second time she has gotten so mad that she wouldn’t speak to me for at least a year. The first time (20 years ago) was when I didn’t realize that she had tucked a beaded necklace that she made inside something meaningless. I didn’t realize and gave the odd present to Goodwill.
+
+What’s your take on all this?
+
+## Long-lost friend calls two or three times a day. Letter writer wants to reduce this.
+
+I have a buddy that I reconnected with after more than 10 years. I’ve known him 40 years. He lives in another state about seven hours away. I enjoy chatting with him and we cut up a lot.
+
+The problem is he calls two to three times a day. He is 80 years old in good health, very active and a single guy.
+
+He did lose his wife about two years ago, but he has lots of friends and family in the same city.
+
+It drives me nuts for him to call so much. I’ve tried not answering and suggested texting is better for me. To no end, he calls two to three times a day. Telling him once a day at most is okay would make him mad. What do I do?
+
+## Fiance's texts with coworker cross a line.
+
+My boyfriend of four years and I moved in together and got engaged. Things were going very well initially — everything I had hoped.
+
+However, I had been a little suspicious of his co-worker “Missy.” I confronted him and he confessed they had feelings for each other but nothing happened. I believe nothing physical happened, but it’s clear from texts he showed me that he emotionally cheated.
+
+Missy has moved to another state, and he has agreed not to reach out to her again. But I am deeply hurt that he “fell” for someone else while we were beginning our life together. He proposed to me during this time and I feel deeply betrayed. He says I am overreacting and that crushes like his happen in long-term relationships. Am I overreacting?
+
+## Quandary over what to write in the annual holiday Christmas card in light of an impending divorce.
+
+My quandary is about Christmas cards. I am separated from my husband of 25 years, and while it’s mostly amicable, I feel disingenuous including him on the card this year. Our divorce will be final less than a month after Christmas. I am also going back to my maiden name so I thought it might be a good way to announce that as well. We share four children (and a cat) who I’d like to include. Any ideas on wording that is classy or funny to express this new family identity that doesn’t skew weird or inappropriate?
+
+## Well-off couple struggles with how to keep gifts to adult children equitable.
+
+My wife and I have three children in their 20s. We paid for their college educations; they have no debt.
+
+Each has their own unique ambitions. My oldest child has a professional job, the youngest just graduated college and is still figuring out his path. My middle child will go to law school, and I plan to pay for it, for many reasons, but one of which is that I have plenty of money.
+
+Other situations may arise, like perhaps advancing another child’s funds to purchase a house or something similar.
+
+To sort of keep it fair, I was thinking that every time I make a tuition payment, I would also make a monetary gift to the other children.
+
+Is this reasonable and if so, should I not advertise it to the law student? All the kids have a trust fund, so they will all inherit plenty of money at some point.
+
+Rich problems, I know, but thanks all the same.
+
+## Cultural and interpersonal conflicts with mother.
+
+I’m in my mid-40s and have a tween daughter. I recently got divorced after being married to a White guy — who my family didn’t approve of — for 20 years. My dad sadly passed away, and my mom has been living with my sibling for the last several years. She didn’t want to live with me because of my ex, but now that I’m divorced she’s wanting to do all the things with me — move in, go on vacations, etc.
+
+My daughter and mom can’t communicate well because of the language barrier and because my mom is hard of hearing. My mom puts in no effort to engage with her. I understand that after my dad’s passing she had to leave everything behind to move to a foreign country. However, she has quite a harsh tongue, criticizes liberally and hardly ever compliments anyone.
+
+Post-divorce, I’m trying to do the best for my daughter and maintain the strong bond between us as she’s stepping into her teen years. I honestly do not want my mom to move in with me or go on all the vacations with me, but I understand my sibling can use a break. I’ve tried to be honest and speak openly with my family, but they say, “Mom will help you out with cooking, etc. since you are already overburdened with parenting and working a job.”
+
+Being the youngest in the family, I didn’t learn how to build healthy boundaries. When I try to explain this situation to my family, I’m met with words that make me feel guilty, like, “You can’t even take care of your own mom?” Or, “What kind of a daughter are you?” Or, “Selfish!”
+
+How do I handle this situation?
