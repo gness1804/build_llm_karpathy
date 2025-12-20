@@ -1,13 +1,28 @@
 # Scenarios to base new Tier S examples on.
 
-Instructions: for each example, turn it into a gold tier S Q&A example.
+These are real questions that I found in various sources, namely in online newspapers. I've included just the questions, not the answers. It'll be your job to generate the answers, as well as to change the questions to make them more "Tier S"-like.
+
+Instructions: for each example, turn it into a gold "Tier S" Q&A example.
 1. Take the original question and rewrite it using my voice.
-2. Create an answer to the question that also expresses my columnist voice and insight.
+2. Create an answer to the question that also expresses my columnist voice and insight in my strongest style.
 
 Again, both question and answer should be "gold."
-Format the questions and answers into a JSONL document that's ready for uploading to fine-tune a model.
+Format the questions and answers into a human-readable question-and-answer format as follows:
 
-(NOTE: many of these examples are from Carolyn Hax or other copyrighted material. But rewriting them in my own words and style should solve this problem.)
+```markdown
+QUESTION: <the question>
+ANSWER: <the answer>
+
+<END OF SET>
+```
+
+No metadata, titles, or any other data should appear in your response aside from the exact question-answer-end-of-set format above.
+
+This should be text that can easily be copied and pasted into a Markdown document. Later on, I will combine these with other Q&A sets and then create a new training document in the JSON-L format to feed into the model. But right now, let's just create the markdown.
+
+Please output the results in batches of 10. Obviously, for the last batch, if it's less than 10, just output however many there are left.
+
+(NOTE: many of these examples are from Carolyn Hax columns or other copyrighted material. But rewriting them in my own words and style, and maybe changing a few minor details while keeping the core question intact, should solve this problem.)
 
 ## Daughter wants nothing to do with planning abusive of mother's funeral.
 

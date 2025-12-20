@@ -152,7 +152,7 @@ ANSWER: While acknowledging the emotional complexities of the situation, I think
 
 People have unrequited romantic feelings all the time, and also requited ones that can't be acted upon in situations such as yours. It's possible she shares your feelings, but it's equally possible she doesn't. And the larger point is that this is a question that needs to remain unanswered. Because, let's say she does share the feelings. Well, then what? There's no way for you two to act on them without breaking ethical rules that we can all agree on. So knowing that she shares these feelings, if she indeed does, would cause you even more torment. 
 
-Continue to engage her as a friend within appropriate boundaries. But as far as romance, approach her with the mentality that romance is off the table and always will be.
+Continue to engage her as a friend within appropriate boundaries. But as far as romance, approach her with the mentality that romance is off the table and always will be. Some hard questions must remain unanswered.
 
 <END_OF_SET>
 
