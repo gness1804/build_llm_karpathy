@@ -42,22 +42,6 @@ Advice that suggests a direct but gentle conversation, plus adjusting expectatio
 
 No shaming either person, and no “just ghost her” type advice.
 
-### Easy 3 – Parent overstepping a bit
-
-PROMPT:
-I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
-
-STEM:
-It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
-
-What to look for:
-
-Clear boundary language, maybe a script for “I love you, and also this needs to stop.”
-
-Framing mom as well meaning, but still overstepping.
-
-Suggestion that the writer can change the key rules or times mom can come by.
-
 ## Medium prompts
 
 These test whether the model can handle more layered emotions and values without going off the rails.

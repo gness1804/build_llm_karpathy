@@ -1,10 +1,10 @@
-QUESTION: My mother was abusive throughout my childhood. Emotionally, verbally, and at times physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
+QUESTION: My mother was abusive throughout my childhood. Emotionally, verbally, sometimes physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
 
 ANSWER: No one is obligated to perform grief on demand. And no one is required to honor someone who caused them harm simply because that person has died. Death does not retroactively transform abuse into love, nor does it impose new moral debts on the people who were hurt.
 
 What you’re describing is not indifference. It’s emotional exhaustion and self-protection after a long history of pain. For many people who grew up with abuse, numbness is not a failure to grieve. It’s the nervous system finally standing down after years of vigilance. That response deserves respect, not judgment.
 
-Your sister’s anger is understandable, but it does not override your experience. People who endured different degrees or forms of abuse often arrive at different conclusions about what they owe, if anything, to the person who harmed them. Some need ritual. Some need distance. Some need silence. None of these responses are morally superior to the others.
+Your sister’s anger is understandable, but it does not override your experience. People who endured different degrees or forms of abuse often arrive at different conclusions about what they owe, if anything, to the person who harmed them. Some need rituals. Some need distance. Some need silence. None of these responses are morally superior to the others.
 
 You can acknowledge your sister’s grief without sacrificing your own wellbeing. That might sound like: “I understand that this loss is painful for you, and I respect your need to mourn in your own way. I’m not able to participate, and that boundary is about my own health, not a judgment of you.”
 
@@ -21,7 +21,7 @@ Relatives often invoke regret as a way of pressing people into tolerating mistre
 
 It’s important to be clear about what this choice is and isn’t. You are not excluding your father to punish him. You are choosing not to expose yourself to a situation that history suggests will be painful. That distinction matters.
 
-If reconciliation were genuinely possible, it would begin with accountability and repair, not an invitation. You are allowed to decide that your wedding is not the place for unfinished business.
+If reconciliation were genuinely possible, it would begin with accountability and repair, not an invitation. You are allowed to decide that your wedding is no place for unfinished business.
 
 You can hold this boundary calmly and without debate. “This is what I need in order to feel present and protected on my wedding day” is a complete explanation. Anyone who cannot accept that is asking you to prioritize appearances over wellbeing.
 
@@ -49,7 +49,7 @@ The crucial distinction here is between reconciliation and access. Reconciliatio
 
 It is reasonable to say that relationships with your children will be shaped by how you are treated. That is not leverage. It is reality. When someone consistently undermines or disrespects a parent, they undermine the family unit as a whole.
 
-Your husband’s role matters. Supporting you does not necessarily mean cutting off his parents. It does mean respecting the boundaries you need in order to feel safe and supported, especially during a physically and emotionally demanding time.
+Your husband’s role matters. Supporting you does not necessarily mean cutting off his parents. It does mean respecting the boundaries you need to feel safe and supported, especially during a physically and emotionally demanding time.
 
 Twins will require enough of you. You are not obligated to carry unresolved family conflict alongside that responsibility.
 
@@ -97,7 +97,7 @@ You are not unforgiving for refusing to pretend that nothing happened.
 OVERSAMPLE_WEIGHT: 2
 <END_OF_SET>
 
-QUESTION: I’m estranged from a sibling, and my parents keep pushing us to “make peace.” They say it’s breaking their hearts. What do I do?
+QUESTION: I’m estranged from a sibling, and my parents keep pushing us to “make peace.” They say it’s breaking their hearts. What should I do?
 
 ANSWER: Parents often want resolution because conflict threatens their sense of family cohesion. That desire is understandable, but peace imposed from above rarely heals what’s broken below.
 
@@ -124,7 +124,7 @@ ANSWER: Wanting to be there for someone during a painful chapter of their life d
 
 Your inclination to pull back appears to be a conflict between wanting to be there for your friend and the need to protect your own time and mental health. Sacrificing the latter in the name of your love and concern for your friend isn't really tenable for either of you. That doesn’t make you uncaring. It means you have limits. When those limits are ignored for long enough, even the most generous people begin to feel resentment, dread, and withdrawal. Those feelings are signals, not moral failures.
 
-Pulling back does not have to look like abandonment. It can look like recalibration. You might say something like: “I care about you and I want to support you, but I don’t have the capacity for long nightly calls anymore. Can we find a different way to stay connected that works for both of us?” That opens the door to adjustment rather than rupture. And if she presses you on why you're pulling back, you can explain to her that while you absolutely want to continue to be there for her, the long calls are draining you emotionally. Say that in order to be fully present for her and be the best friend that you can be, you have to take care of yourself, too. And this requires less frequent and less lengthy discussions of divorce-related matters. 
+Pulling back does not have to look like abandonment. It can look like recalibration. You might say something like: “I care about you and I want to support you, but I don’t have the capacity for long nightly calls anymore. Can we find a different way to stay connected that works for both of us?” That opens the door to adjustment rather than rupture. And if she presses you on why you're pulling back, you can explain to her that while you absolutely want to continue to be there for her, the long calls are draining you emotionally. Say that to be fully present for her and be the best friend that you can be, you have to take care of yourself, too. And this requires less frequent and less lengthy discussions of divorce-related matters. 
 
 Being a good friend does not require sacrificing your own emotional health. Care that is sustainable is ultimately more loving than care that quietly burns out.
 
@@ -133,17 +133,17 @@ OVERSAMPLE_WEIGHT: 4
 
 QUESTION: I’ve been married for 20 years and recently realized I’m deeply unhappy. There’s no abuse, no infidelity, just a growing sense that we became roommates. Is it selfish to consider leaving?
 
-ANSWER: Long-term unhappiness does not require dramatic justification to be legitimate. Many marriages unravel quietly, not through betrayal or cruelty, but through emotional erosion and disconnection over time. There are many reasons why most marriages eventually end before the death of one of the spouses. But the slow, mundane distancing that you describe as a common one.
+ANSWER: Long-term unhappiness does not require dramatic justification to be legitimate. Many marriages unravel quietly, not through betrayal or cruelty, but through emotional erosion and disconnection over time. There are many reasons why most marriages eventually end before the death of one of the spouses. But the slow, mundane distancing that you describe is a common one.
 
-Recognizing this can bring a particular kind of guilt, especially when nothing “bad enough” seems to have happened. But the absence of abuse does not obligate you to ignore your own inner life. Wanting more emotional presence, intimacy, or meaning is not selfish by default. When you've been living under the same roof as somebody for many years, but you don't feel the same strong connection that you once did, that can be very uncomfortable and guilt-inducing. Society tells us that marriage is forever, and that once in love, always in love. But as you and countless others have experienced, reality is usually different than that.
+Recognizing this can bring a particular kind of guilt, especially when nothing “bad enough” seems to have happened. But the absence of abuse does not obligate you to ignore your own inner life. Wanting more emotional presence, intimacy, or meaning is not selfish by default. When you've been living under the same roof as somebody for many years, but you don't feel the same strong connection that you once did, that can be very uncomfortable and guilt-inducing. Society tells us that marriage is forever, and that once in love, always in love. But as you and countless others have experienced, reality is usually different.
 
-At the same time, awareness is not the same as certainty. Before making irreversible decisions, it’s worth exploring whether the unhappiness reflects neglect that could be addressed or a deeper incompatibility that cannot. That exploration might include honest conversation, counseling, or simply allowing yourself to name what you’ve been avoiding. Also you might try a "free writing session" in which you write down anything and everything that comes to mind with respect to your marriage. Free writing involves letting go of any inhibitions and writing whatever comes to your mind, however silly or scary it might seem. Writers often find this useful for brainstorming, but it can also be applied to trying to figure out interpersonal situations as well, especially since we usually heavily self-censor when it comes to thinking about delicate emotional topics. Resolve to never let anyone see the result of the free-writing. You can even destroy the document after you write it. Hopefully this, along with simple unstructured reflection, will help you understand more where you want to go with respect to your marriage. 
+At the same time, awareness is not the same as certainty. Before making irreversible decisions, it’s worth exploring whether the unhappiness reflects neglect that could be addressed or a deeper incompatibility that cannot. That exploration might include honest conversation, counseling, or simply allowing yourself to name what you’ve been avoiding. Also you might try a "free writing session" in which you write down anything and everything that comes to mind with respect to your marriage. Free writing involves letting go of any inhibitions and writing whatever comes to your mind, however silly or scary it might seem. Writers often find this useful for brainstorming, but it can also be applied to trying to figure out interpersonal situations as well, especially since we usually heavily self-censor when it comes to thinking about delicate emotional topics. Resolve to never let anyone see the result of the free-writing. You can even destroy the document after writing it. Hopefully this, along with simple unstructured reflection, will help you understand more where you want to go with respect to your marriage. 
 
-If you feel that it's worth trying to save the marriage, and that the underlying problems can be solved within the marriage, then you might say something to your spouse like: "Honey, we've grown apart over the last few years, and I'm sure you've noticed it too. I realize that we're different people than we were when we first got married. But I want us to be closer again. What do you think is missing, and how could we both work towards fixing it?"
+If you feel that it's worth trying to save the marriage, and that the underlying problems can be solved within the marriage, then you might say something to your spouse like: "Honey, we've grown apart over the last few years, and I'm sure you've noticed it too. I realize that we are different people than when we first married. But I want us to be closer again. What do you think is missing, and how could we both work towards fixing it?"
 
-But if you decide after this reflection that ending the marriage is the best course of action, then do it. Hopefully you and your husband have an amicable enough relationship that a divorce would be relatively smooth. Also, you don't mention if you have children. But even if you do, divorce in an unhappy marriage is a better alternative to modeling an unhappy relationship to your children.
+But if you decide after this reflection that ending the marriage is the best course of action, do it. Hopefully you and your husband have an amicable enough relationship that a divorce would be relatively smooth. Also, you don't mention if you have children. But even if you do, divorce in an unhappy marriage is a better alternative to modeling an unhappy relationship to your children.
 
-There is no moral virtue in endurance for its own sake. The ethical question isn’t whether you’re allowed to want more, but how to proceed with honesty and care for both yourself and your spouse. Sometimes the most courageous and loving thing you can do is to walk away. 
+There is no moral virtue in endurance for its own sake. The ethical question isn’t whether you’re allowed to want more, but how to proceed with honesty and care for both yourself and your spouse. Sometimes the most courageous and loving thing you can do is walk away. 
 
 OVERSAMPLE_WEIGHT: 4
 <END_OF_SET>
@@ -171,9 +171,9 @@ ANSWER: Humor that repeatedly lands at one person’s expense stops being harmle
 
 The common sense, reasonable-person rule of thumb regarding jokes at someone else's expense is that when the target of the joke expresses discomfort or explicitly asks the teller of the joke to stop, then the teller must stop immediately. He must never tell any more of these jokes. Your partner evidently has not learned this rule, or he doesn't care. He's also gaslighting you by causing you to question your own legitimate feelings of hurt. What a decent and reasonable person would do if he were in your partner's shoes is not tell any more of the jokes, even if he personally couldn't understand why you find them offensive. The fact that they hurt you is itself enough of a reason to stop telling the jokes.
 
-The fact that your partner hasn't done this suggests that there probably isn't much hope for this relationship. But if you want to make one last-ditch effort, you might use the following script as a template. "[Partner], You've told a lot of jokes lately where I've been the butt of them. I've told you that I don't appreciate it. And when you brush me off by saying I'm too sensitive, it communicates to me that you don't truly care about my feelings. You might find the jokes funny, but I don't. When you tell them it makes me feel hurt and humiliated. Please stop." 
+The fact that your partner hasn't done this suggests that there probably isn't much hope for this relationship. But if you want to make one last-ditch effort, you might use the following script as a template. "[Partner], You've told a lot of jokes lately that I have been the butt of. I've told you that I don't appreciate it. And when you brush me off by saying I'm too sensitive, it communicates to me that you don't truly care about my feelings. You might find the jokes funny, but I don't. When you tell them it makes me feel hurt and humiliated. Please stop." 
 
-While I'm not usually a fan of "tests," in this case whether your partner continues telling the jokes after that point will tell you all you need to know about whether to stay with him. If he keeps telling the jokes, then get out of that relationship as quickly as possible. You deserve better than someone who will treat you in a mean-spirited fashion and then criticize you when you express hurt at this treatment.
+While I'm not usually a fan of "tests" in relationships, in this case whether your partner continues telling the jokes after that point will tell you all you need to know about whether to stay with him. If he keeps telling jokes, get out of that relationship as quickly as possible. You deserve better than someone who will treat you in a mean-spirited fashion and then criticize you when you express hurt at this treatment.
 
 Life is hard enough without your own partner putting you down and then not even taking responsibility for it. A partner who respects you will care more about how their words land than about defending their sense of humor.
 
@@ -184,13 +184,13 @@ OVERSAMPLE_WEIGHT: 4
 
 QUESTION: I feel guilty for being relieved after ending a relationship. Does that mean I never really loved them?
 
-ANSWER: Relief after a breakup does not invalidate the love you felt. Often it reflects the lifting of a burden that had became unbearable over time.
+ANSWER: Relief after a breakup does not invalidate the love you felt. Often it reflects the lifting of a burden that had become unbearable over time.
 
-Your letter is sparse on context, so it's unclear what the circumstances are. But many, many people feel relief after a relationship ends. Some people feel this way because they were smothered in a codependent relationship, or one in which they had to bear more than their share of the emotional and/or household labor. Others feel relief because disagreements with their partner had surpassed their emotional pain threshold. There are also cases of abuse and infidelity, in which case it's definitely a relief to leave the relationship. Or there are much more mundane cases in which neither spouse did anything "wrong," but the relationship just lost its luster over time and became more of a burden than a joy.
+Your letter is sparse in context, so it's unclear what the underlying circumstances are. But many, many people feel relief after a relationship ends. Some people feel this way because they were smothered in a codependent relationship, or one in which they had to bear more than their share of the emotional and/or household labor. Others feel relief because disagreements with their partner had surpassed their emotional pain threshold. There are also cases of abuse and infidelity, in which case it's definitely a relief to leave the relationship. Or there are much more mundane cases in which neither spouse did anything "wrong," but the relationship just lost its luster over time and became more of a burden than a joy.
 
 I'm not implying that any of these things were true of your own relationship. Rather, the preceding paragraph is an attempt to illustrate how common it is for people to feel relieved after a relationship ends. It's perfectly normal and doesn't make you a bad person, nor does it mean that you didn't love your partner. Love evolves and changes over time. Sometimes people fall out of love, while at other times love evolves into something that no longer fits well within the space of the relationship in which it started. You can deeply love someone but still come to realize that for any of the reasons listed above, or any number of others, the relationship just isn't right. Leaving a relationship in that circumstance often does feel like a relief, even as it's also heartbreaking. These two things can be true at the same time.
 
-You don’t need to rewrite your history to justify your present emotions. Mixed feelings are common after loss, particularly when love and strain coexisted for a long time. In the case of my own parents, they were married for over 30 years and there was clearly a lot of love between them. But for a variety of reasons, the relationship fell apart. After an intense grieving period, my mother felt a lot of relief at being able to live a new life on her own terms. I think even today she still loves my dad in some way, but also feels that the divorce was the right thing to do.
+You don’t need to rewrite your history to justify your present emotions. Mixed feelings are common after loss, particularly when love and strain coexisted for a long time. In my parents' case, they were married for over 30 years and there was clearly a lot of love between them. But for various reasons, the relationship fell apart. After an intense grieving period, my mother felt a lot of relief at being able to live a new life on her own terms. I think even today she still loves my dad in some way, but also feels that the divorce was the right thing to do.
 
 Emotions are signals, and your relief is telling you that something about that relationship wasn't right. It isn't telling you anything about whether or not you loved your partner. A chapter of your life has ended, but that doesn't mean that you didn't have a lot of love for the co-author of that chapter.
 
@@ -212,7 +212,7 @@ OVERSAMPLE_WEIGHT: 4
 
 QUESTION: I discovered that my partner reads my private messages “out of concern.” They say they’re just trying to protect the relationship. How serious is this?
 
-ANSWER: Reading private messages without consent is a serious breach of trust, regardless of the motivation offered. Concern does not justify surveillance. When a partner violates trust and privacy in this manner, one often feels frustration, disappointment, and anger. It conveys that the partner who read the messages doesn't see their partner as an equal and doesn't respect their autonomy.
+ANSWER: Reading private messages without consent is a serious breach of trust, regardless of the motivation offered. Concern does not justify surveillance. When a partner violates trust and privacy in this manner, one often feels frustration, disappointment, and anger. It conveys that the partner who reads the messages doesn't see their partner as an equal and doesn't respect their autonomy.
 
 It's unclear from your message what your partner thinks that they need to protect the relationship from. Do they suspect infidelity? Is there some other situation in your life that they're concerned about, but they're expressing this concern by violating your privacy? Regardless, this behavior is never justified. Healthy relationships rely on mutual respect for autonomy and privacy. When one partner monitors the other, it often reflects insecurity or a need for control rather than genuine care.
 
@@ -225,144 +225,90 @@ Protection that requires violation of privacy is not protection; it's snooping.
 OVERSAMPLE_WEIGHT: 3
 <END_OF_SET>
 
-QUESTION: I feel resentful that I’m always the “responsible one” in my family. Everyone relies on me, but no one seems to notice the cost. How do I change this?
-
-ANSWER: Being dependable often becomes an invisible role. Over time, people come to expect your competence without acknowledging the toll it takes. When that happens, resentment is not a character flaw. It’s information.
-
-Changing this dynamic usually requires discomfort. It means saying no more often, allowing others to feel disappointed, and tolerating the anxiety that comes with stepping back.
-
-You don’t need a dramatic announcement. Small, consistent boundary-setting is often more effective. When you stop over-functioning, others are forced to recalibrate.
-
-Responsibility is admirable. It should not require self-erasure.
-
-OVERSAMPLE_WEIGHT: 7
-<END_OF_SET>
-
 <!-- Batch 3  -->
 
 QUESTION: My partner says I’m “too independent” and that it makes him feel unnecessary. I don’t see independence as a flaw, but he seems genuinely hurt. How do I respond without apologizing for who I am?
 
-ANSWER: Independence is not a character defect, and it is not the opposite of intimacy. For many people, it is a hard-earned strength that reflects resilience, self-trust, and a stable sense of identity. It’s understandable that you don’t want to apologize for that.
+ANSWER: Independence is not a character defect, nor does it automatically render one's partner "unnecessary." For many people, it is a hard-earned strength that reflects resilience, self-trust, and a stable sense of identity. It’s understandable that you don’t want to apologize for that. Nor should you.
 
-At the same time, your partner’s feelings are worth taking seriously, even if they don’t require you to change who you are. Feeling “unnecessary” often reflects a fear of being unneeded or replaceable, not an indictment of your behavior. That fear deserves empathy, but it does not justify asking you to become smaller or less capable.
+This behavior on the part of your partner could reflect a controlling nature or it could simply mean that he is insecure about something. Men in our society are socialized to feel a strong need to be useful. If they perceive that this is no longer the case, it often causes anxiety and insecurity, which can be expressed in multiple ways, including criticizing a partner for supposedly being too independent. On the other hand, controlling partners often try to make their partners dependent on them. Does your partner engage in any other controlling behaviors?
 
-The task here is to separate reassurance from self-erasure. You can affirm the relationship without disowning your independence. You might say something like: “I value you and choose you. My independence isn’t about pushing you away; it’s about being whole as a person. I want us to be partners, not dependencies.”
+If this is a case of a controlling partner, you should seek the exit as soon as possible. But if it's just insecurity that's causing your partner to react this way, then there are ways to work with him to address this. You can affirm the relationship without disowning your independence. You might say something like: “I value you and choose you. My independence isn’t about pushing you away; it’s about being whole as a person. I want us to be partners, rather than one of us depending on the other.” 
 
-If that reassurance doesn’t land, the issue may not be your independence at all. It may be a mismatch in expectations about what closeness should look like. A healthy relationship makes room for two complete people standing side by side, not one person shrinking so the other can feel essential.
+If this is reflective of a fear of being unneeded or replaceable, then that fear deserves empathy, but it does not justify asking you to become smaller or less capable. Independence is not a zero-sum game. One partner's independence does not depend on the other losing it.
 
-OVERSAMPLE_WEIGHT: 8
+If your reassurance doesn’t land, the issue may not be your independence at all. It may be a mismatch in expectations about what closeness should look like. A healthy relationship makes room for two complete people standing side by side, not one person shrinking so the other can feel essential. Reassuring someone you love shouldn't come at the cost of making yourself smaller.
+
+OVERSAMPLE_WEIGHT: 3
 <END_OF_SET>
 
 QUESTION: My adult daughter constantly asks for financial help but dismisses my advice and resents any boundaries I try to set. I feel used and guilty at the same time. What’s the right response?
 
-ANSWER: This is an emotionally fraught position to be in. Wanting to help your child doesn’t disappear just because they’re grown, and guilt often rushes in the moment you consider pulling back. But generosity that consistently leaves you feeling used is a signal that something is out of balance.
+ANSWER: This is an emotionally fraught position to be in. Wanting to help your child doesn’t go away just because they’re grown, and guilt often rushes in the moment you consider pulling back. But generosity that consistently leaves you feeling used is a signal that something is out of balance. In interacting with an adult child, there need to be clear boundaries on each side, especially when it comes to financial matters. A lack of boundaries or violation of them is usually a recipe for trouble in the relationship.
 
-When financial support is offered without mutual respect or clear limits, it often becomes entangled with resentment on both sides. Money starts standing in for connection, approval, or control, and none of those dynamics serve either person well.
+You say "financial help," but you don't fully specify what this means. Is it just advice, or is it also money in the form of a loan or a gift? If it's the latter in particular, then guilt is no reason to justify being taken advantage of financially. Because that's what happens when people asking for money (or even just advice) don't observe boundaries. When financial support is offered without mutual respect or clear limits, it often becomes entangled with resentment on both sides. Money starts standing in for connection, approval, or control, and this is typically toxic for a relationship over time.
 
-Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without harming the relationship. You might say: “I care about you, but I’m no longer comfortable providing financial support under these conditions.” That statement is not punitive. It’s honest.
+Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without harming the relationship or your retirement funds. You might say: “I care about you, but I’m no longer comfortable providing financial support under these conditions.” That statement is not punitive. It’s honest.
 
 Your daughter may be angry, and that will be painful. But guilt alone is not a reason to continue a pattern that leaves you resentful and her dependent. Boundaries, while uncomfortable, often create the possibility for a healthier adult relationship over time.
 
-OVERSAMPLE_WEIGHT: 7
+OVERSAMPLE_WEIGHT: 3
 <END_OF_SET>
 
 QUESTION: My spouse keeps forgiving a family member who repeatedly disrespects me. I feel like my feelings always come second. Is this a marriage problem or a family problem?
 
-ANSWER: When a spouse repeatedly prioritizes a family member’s behavior over their partner’s wellbeing, it stops being just a family issue and becomes a marital one. Partnership implies a baseline commitment to protecting each other from harm, especially when that harm is ongoing and predictable.
+ANSWER: When a spouse repeatedly prioritizes a family member over their partner’s wellbeing, it stops being just a family issue and becomes a marital one. Partnership implies a baseline commitment to protecting each other from harm, especially when that harm is ongoing and predictable.
 
-Forgiveness can be meaningful, but forgiveness that bypasses accountability often turns into enablement. Your spouse may believe they’re being peacemaking or generous, but the effect is that you’re left exposed and unsupported.
+Forgiveness on its own does not justify a lack of accountability or enforcement of boundaries. You can forgive someone, but still stand up to them if they keep engaging in problematic behavior. Your letter implies that your husband is not standing up to the family member who keeps treating you poorly. This is a big problem and very common. For various reasons, people in marriages or other long-term relationships often choose their own relatives over their spouse or partner. This is often the case even when their relative is disrespecting or otherwise mistreating the spouse or partner. But protecting a family member that's mistreating one's spouse is never okay.
 
-This is worth addressing directly, not as an accusation but as a statement of need. Something like: “I need to know that you will take my side when someone treats me poorly.” That’s not a demand for loyalty at all costs. It’s a request for basic partnership.
+When someone refuses to protect their spouse from harm caused by a family member, then it becomes a marital problem, first and foremost. And that's where the repair should start, within the marriage. This is worth addressing directly, not as an accusation but as a statement of need. Something like: “I need to know that you will take my side when someone treats me poorly.” You don't mention if you brought this up to your spouse before, but even if you have, it's worth bringing up again because, clearly, the problem is still there.
 
-Marriage isn’t about reflexively choosing sides. It is about consistently choosing care. If that care is missing, the problem isn’t external.
+Forgiveness can be meaningful, but forgiveness that bypasses accountability often turns into enablement. Your spouse may believe they’re being peacemaking or generous, but the effect is that you’re left exposed and unsupported. You're left understandably wondering if your spouse cares more about you or about protecting the feelings of the family member who is harming you.
 
-OVERSAMPLE_WEIGHT: 8
-<END_OF_SET>
+Bottom line: Don't stand for mistreatment. You deserve much better than that.
 
-QUESTION: I feel jealous of my partner’s close friendship with someone they once dated, even though they insist it’s purely platonic. I don’t want to be controlling. What’s reasonable?
-
-ANSWER: Jealousy often carries a bad reputation, but it’s not inherently irrational. In many cases, it’s a signal that something feels unclear or destabilizing, not that you want to control your partner.
-
-The goal here isn’t prohibition or blind trust. It’s clarity. You’re allowed to ask questions about boundaries, emotional intimacy, and how this friendship fits into the life you’re building together. Wanting that information doesn’t make you possessive. It makes you invested.
-
-At the same time, your partner is entitled to friendships, even complicated ones, as long as they are handled with transparency and care. What’s unreasonable is dismissing your discomfort outright or framing it as a flaw in your character.
-
-Reasonableness lives in the space between silent resentment and rigid control. Honest conversation belongs there.
-
-OVERSAMPLE_WEIGHT: 7
+OVERSAMPLE_WEIGHT: 3
 <END_OF_SET>
 
 QUESTION: My coworkers often interrupt or talk over me in meetings. When I try to assert myself, I’m labeled “difficult.” How do I handle this without damaging my reputation?
 
-ANSWER: Being interrupted repeatedly is not a personal failure. It’s a structural problem that often affects certain people more than others, regardless of competence or preparation. The frustration you feel is justified.
+ANSWER: Interruption is one of the worst conversational habits. In our extrovert-worshipping society, conversation can often seem to be tantamount to a contact sport in which the person who's willing to interrupt the most often gets the most floor time. And since you're talking about a workplace specifically, there are added dimensions to this problem. A workplace should have more explicit and implicit expectations that all voices are listened to. When this doesn't happen, it leaves those who are frequently interrupted feeling like their voices don't matter. Being interrupted repeatedly is not a personal failure. It’s a structural and social problem that often affects certain people more than others, regardless of competence or preparation. The frustration you feel is justified.
 
-Direct confrontation can carry professional risks, which makes this especially tricky. One effective approach is calm persistence rather than escalation. Simple statements like “I’d like to finish my thought” or “I wasn’t done yet” assert presence without turning the moment into a confrontation.
+I myself have suffered from being interrupted a lot, both at workplaces and in other settings. Over time, I've learned strategies that enable me to speak up for myself without appearing overly confrontational. I try to say things like, "excuse me, I wasn't finished talking," or "can you please let me finish what I was saying?" In American workplaces, people are socialized to want to appear as "team players." Which is why you fear reputational damage for calling out these interruptions. But it's possible to maintain a reputation as a good member of the team while still standing up for your own right to express your full idea when you're speaking in a meeting.
 
-If the pattern continues, it may be appropriate to document specific instances and raise the issue with a manager, framing it as a collaboration problem rather than a grievance. That helps protect your credibility while naming the issue.
+For instance, if you maintain calm and composure while standing up for yourself when you're being interrupted, using phrases like I suggested above, then the risk of you appearing as someone who is "difficult" will be reduced. That being said, it is important to note that there's also a gender component to all this. You don't tell me which gender you identify with or which gender others identify you as. But if others identify you as female, then unfortunately, you're in good company with respect to constantly being interrupted. Women face a double bind at work because if they speak up too little, they're seen as not being a team player or not caring about what happens on a particular project. But if they speak up “too much,” they're seen as being too aggressive. This can also often damage them professionally. So if you're a woman, unfortunately, your task is particularly difficult, but it's not impossible.
 
-Wanting to be heard is not being difficult. It’s asking for basic professional respect.
+If the pattern continues, it may be appropriate to document specific instances and raise the issue with a manager, framing it as a collaboration problem rather than a grievance. That helps protect your credibility while naming the issue. And if you've noticed other colleagues also being interrupted during meetings, which is likely, you can bring them up as well. Don't mention them by name, but say something like, "I have also noticed that other colleagues of mine are also often being interrupted at our meetings. I want our workplace to be an environment where everybody can feel free to express their full and complete opinions on work-related matters. I think that doing this will help us be the best team that we can be." 
 
-OVERSAMPLE_WEIGHT: 6
+Wanting to be heard is not “being difficult.” It’s asking for basic professional respect.
+
+OVERSAMPLE_WEIGHT: 4
 <END_OF_SET>
 
 QUESTION: I’m considering ending a friendship because our political views have diverged dramatically. We can’t talk without it becoming tense. Is that shallow?
 
-ANSWER: Political differences often reflect deeper values about power, responsibility, and empathy. When those values diverge sharply, conversation can become exhausting rather than enriching.
+ANSWER: Political differences often reflect deeper values about power, responsibility, and empathy. And the place of outsiders and historically marginalized groups in our society. When those values diverge sharply, conversation can become exhausting rather than enriching. Especially in the current political climate, "agreeing to disagree" can be hard to accept when it seems like every issue is a battle between diametrically opposed values. And in the age of social media, we know much more about the political opinions of even neighbors and friends of friends than most of us would want to know. Just this year I learned that a spouse of a relative seems to see the opposite political party as being gleeful at a deadly natural disaster that happened in our state. Such revelations really do reveal sharply different values. Given all this, I don't think you're shallow to question ending the friendship. 
 
-Ending or distancing a friendship over this is not inherently shallow. It’s a recognition that mutual understanding may no longer be possible. That said, not every disagreement requires severance. The deciding factor is whether respect remains intact.
+That said, ending the friendship may or may not be the best move, depending on circumstances. When the subject of conversation isn't politics, do the two of you generally have amicable and pleasant discussions? And notwithstanding what I said about agreeing to disagree above, have you ever explicitly asked your friend to keep politics off the table in your discussions, knowing that the two of you aren't going to agree and that it will only cause hurt feelings? Your sentence, "we can't talk without it becoming tense," seems to imply that politics often comes up in your conversations. If so, does one of you almost always raise the topic? If it's you, then you can simply not bring it up anymore. If it's her, you can politely ask your friend to not bring it up. Say something like, “I care a lot about you and our friendship, but I've noticed that every time we discuss politics, our conversations get tense and difficult. While I don't want to shy away from discussing difficult issues on principle, I just feel that in our friendship discussing politics does way more harm than good. Neither of us is going to persuade the other of their view, and it's very difficult to discuss this topic without lots of negative emotions coming up. Would you agree to just stay away from the subject from now on and talk about things that aren't as difficult?”
 
-If interactions consistently leave you feeling drained, defensive, or unseen, it’s reasonable to step back. You don’t owe perpetual engagement at the cost of your own peace.
+If after this conversation she still keeps bringing up politics, then that sends you a signal that your friend is willing to put their own political interest and passions above your feelings. In that case, ending the friendship or drastically reducing the amount of time that you talk with her would be an entirely appropriate response. Ending or distancing a friendship over this is not inherently shallow. It’s a recognition that mutual understanding may no longer be possible.
 
-Compatibility matters in friendships too, even when the incompatibility emerges later.
+Many friendships can withstand political differences, but many others cannot. The question of which of these applies to your friendship will be determined by whether the two of you are able to come to a mutually satisfactory agreement about discussing politics and then actually stick to it. Because the status quo isn't sustainable.
 
-OVERSAMPLE_WEIGHT: 6
+It's not weak or "shallow" of somebody to request that a difficult topic be kept out of conversations. In fact, it takes a strong person to make such a request and risk the ire of the other person or even the end of the friendship. Bottom line: you don’t owe perpetual engagement at the cost of your own peace.
+
+OVERSAMPLE_WEIGHT: 4
 <END_OF_SET>
 
-QUESTION: My partner apologizes frequently but never changes their behavior. I’m starting to doubt the sincerity of those apologies. Am I being unfair?
+QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
 
-ANSWER: An apology without behavioral change eventually stops functioning as repair. Over time, it becomes a way to reset the conflict without addressing its cause.
+ANSWER: It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that. When a parent oversteps reasonable boundaries in an adult child's life, it can leave the adult child feeling a range of emotions. You want to be able to feel that your space is yours, but you also don't want to hurt your mother's feelings, especially since you know that she means well. It's a painful dilemma.
 
-You’re not unfair for noticing this pattern. Trust is built when words and actions align, and eroded when they repeatedly don’t. Sincerity isn’t measured by tone or frequency, but by follow-through.
+Unfortunately, there are very few, if any, cases in which setting boundaries doesn't risk hurting someone's feelings. When boundaries need to be set with someone, almost by definition, you're asking them to get outside of their comfort zone and to rethink old assumptions that they had had, often unconsciously. When setting a boundary with your mom, you want to strike a tone of loving but firm.
 
-It’s reasonable to say: “I hear your apologies, but I need to see change for them to matter.” How your partner responds to that will tell you far more than another apology ever could.
+You might say something to the effect of, "Mom, I love you, and I really do enjoy having you over. But when you come over, I want it to be for a visit where we're both present and can enjoy each other's company. I know that you mean well in coming over and performing chores and leaving food, but it undermines my own sense of independence and sense that my space really is my own. Moving forward, can we both agree that the key that I gave you should be only used for emergencies, and that any other times when you come over, it should not be a surprise?" 
 
-Accountability is something you observe over time, not something you infer from words alone.
+Relationships between parents and adult children often involve recalibration. This is one of those times. With love and patience, You will be able to strengthen and re-calibrate your relationship towards more autonomy for you.
 
-OVERSAMPLE_WEIGHT: 8
+OVERSAMPLE_WEIGHT: 3
 <END_OF_SET>
-
-QUESTION: I feel obligated to stay in touch with extended family members I don’t like because “that’s just how family works.” Is that true?
-
-ANSWER: Family obligation is often treated as absolute, but in reality it’s negotiated constantly. Being related does not guarantee compatibility, emotional safety, or closeness.
-
-You are allowed to decide how much access people have to you, even if they share your last name. Limiting contact is not a declaration of hatred. It’s often a form of self-preservation.
-
-When contact becomes purely obligatory, it usually stops being nourishing. Relationships thrive on choice, not coercion.
-
-Family can be meaningful without being limitless.
-
-OVERSAMPLE_WEIGHT: 6
-<END_OF_SET>
-
-QUESTION: My partner says they need constant reassurance to feel secure. I care about them, but I’m exhausted. Is this something love should fix?
-
-ANSWER: Love can offer reassurance, but it cannot replace internal security. When one partner becomes responsible for managing the other’s anxiety, the relationship often becomes strained and imbalanced.
-
-You can be supportive without becoming the sole stabilizing force. It’s fair to say: “I care about you, but I can’t provide constant reassurance.” That boundary protects both of you, even if it initially feels uncomfortable.
-
-If reassurance needs continue to escalate, that may point to work that can’t be done entirely within the relationship. Love is necessary, but it is not sufficient for everything.
-
-OVERSAMPLE_WEIGHT: 7
-<END_OF_SET>
-
-QUESTION: I feel like I’m always the one apologizing in my relationship, even when I’m not sure I did anything wrong. What does that mean?
-
-ANSWER: Frequent, unilateral apologizing often reflects an imbalance of emotional responsibility. Over time, it can erode self-trust and quietly teach one person to absorb conflict regardless of fault.
-
-Apologies should arise from reflection, not reflex. If you’re apologizing primarily to keep the peace, it’s worth asking what conflict costs you and why you feel responsible for resolving it alone.
-
-A relationship where only one person repairs is not sustainable. Mutual accountability matters as much as harmony.
-
-OVERSAMPLE_WEIGHT: 7
-<END_OF_SET>
-
