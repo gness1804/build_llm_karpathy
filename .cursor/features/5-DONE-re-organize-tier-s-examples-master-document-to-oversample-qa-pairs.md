@@ -17,3 +17,5 @@ The script should take all of the QA pairs in the input Markdown document that I
 Finally, the script should NEVER alter the content of any of the QA pairs. Not even changing a letter or a word, let alone an entire sentence. The sole job of the script is purely mechanical rather than editorial. So each QA pair should be treated as immutable. The script's only job is to duplicate the QA pairs as appropriate and then randomize the order in a new output document.
 
 Please let me know if you have any questions before we begin.
+
+<!-- DONE -->
