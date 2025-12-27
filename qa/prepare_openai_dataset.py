@@ -11,6 +11,8 @@ sys.path.insert(0, str(project_root))
 
 from models.prompts import ADVICE_COLUMNIST_SYSTEM_PROMPT
 
+DEFAULT_OUTPUT_PATH = "sources/v2/v_2_1/canonical/openai_finetune_YYYYMMDD_HHMMSS.jsonl"
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -25,7 +27,7 @@ def main():
         '-o', '--output',
         type=str,
         default=None,
-        help='Path to the output JSONL file (default: sources/v2/openai_finetune_YYYYMMDD_HHMMSS.jsonl)'
+        help=f'Path to the output JSONL file (default: {DEFAULT_OUTPUT_PATH})'
     )
     
     args = parser.parse_args()
