@@ -22,7 +22,7 @@ MAX_NEW_TOKENS = int(os.environ.get("MAX_NEW_TOKENS", "300"))
 PROMPT = os.environ.get("PROMPT", "")  # For inference mode
 RESUME_TRAINING_STEPS = int(os.environ.get("RESUME_TRAINING_STEPS", "5000"))
 RESUME_LEARNING_RATE = float(os.environ.get("RESUME_LEARNING_RATE", "3e-4"))
-SAVE_OUTPUT = os.environ.get("SAVE_OUTPUT", "false").lower() in ["true", "1", "yes"]
+SAVE_OUTPUT = os.environ.get("SAVE_OUTPUT", "False").lower() in ["true", "1", "yes", "True"]
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "outputs/inference")  # For inference mode
 MODEL_TYPE = os.environ.get("MODEL_TYPE", "gpt2").lower()
 

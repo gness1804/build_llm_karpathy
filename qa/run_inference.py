@@ -238,6 +238,17 @@ Examples:
         action='store_true',
         help='Treat --prompt as direct prompt text, bypassing shorthand lookup'
     )
+    parser.add_argument(
+        '--save-output',
+        action='store_true',
+        help='Save the output to a file'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=str,
+        default='outputs/inference',
+        help='Directory to save the output to'
+    )
     
     args = parser.parse_args()
     
@@ -337,6 +348,10 @@ Examples:
     env['PROMPT'] = formatted_prompt
     env['MODE'] = 'inference'  # Ensure MODE is set
     env['MODEL_TYPE'] = args.model_type
+    if args.save_output:
+        env['SAVE_OUTPUT'] = 'True'
+    if args.output_dir:
+        env['OUTPUT_DIR'] = str(args.output_dir)
     
     # Print what we're running
     print(f"\n📏 Prompt preview (first 100 chars):")

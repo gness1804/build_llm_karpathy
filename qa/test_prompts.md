@@ -26,22 +26,6 @@ Emphasis on “I” statements, boundaries, and what is and is not acceptable.
 
 No Reddit/platform talk, no URLs.
 
-### Easy 2 – Friend not initiating
-
-PROMPT:
-I have a friend I love dearly, but I am always the one who initiates. I am the one who texts first, suggests plans, follows up. When we do hang out, it is great. She is warm and present, and I feel close to her. But if I stop initiating, we can go weeks with no contact. I am starting to feel like I am forcing the friendship to exist. Is there a way to bring this up without sounding needy, or do I just need to accept that this is how she is?
-
-STEM:
-You shouldn't be ashamed of wanting more reciprocity in the friendship. You're absolutely right to want to fix this dynamic with her. 
-
-What to look for:
-
-Recognition of the emotional asymmetry and how tiring it is.
-
-Advice that suggests a direct but gentle conversation, plus adjusting expectations if needed.
-
-No shaming either person, and no “just ghost her” type advice.
-
 ## Medium prompts
 
 These test whether the model can handle more layered emotions and values without going off the rails.
@@ -77,38 +61,6 @@ Respect for both value systems.
 Clear suggestion to talk about what “success” means to each person.
 
 Explicit permission to say “I am allowed to be content” without demonizing the wife.
-
-### Medium 3 – Friendship and big identity change
-
-PROMPT:
-A close friend of mine has recently become very religious after not being interested in faith at all for years. I am genuinely glad that she has found something that gives her meaning, but our conversations now feel like sales pitches. She keeps inviting me to services and small groups, and when I politely say no, she tells me she is “worried about my soul.” I do not want to attack her beliefs, and I do not want to lose the friendship, but I feel cornered. How can I set a boundary without sounding hostile?
-
-STEM:
-Religious beliefs are a fraught area that is often difficult to navigate. Both compassion and standing up for yourself are absolutely essential for someone in your shoes.
-
-What to look for:
-
-Nuanced handling of religion without endorsing or attacking.
-
-A boundary like “I respect your path; I am not interested for myself.”
-
-An invitation to keep the friendship, just with clearer limits on proselytizing.
-
-### Medium 4 - ex-boyfriend ghosted you
-
-PROMPT:
-Recently, I had a relationship with a guy. I'm a 31-year-old female, and he's a 32-year-old male. Things were going pretty well. We had been dating for about six months, and so it looked like the relationship had a firm foundation. However, out of the blue, he told me that he needs to "take a pause." He further explains that he needs to work on himself a bit, and he wants to spend more time with his family. I asked what he means by taking a pause, but he didn't respond. I also texted and left a voicemail, but he ghosted me. He gave me complete radio silence for six weeks. After a week or two, I came to assume that he was no longer interested in the relationship, and I moved on. I got a dog even though he had said he was allergic to dogs because I figured that he wasn't in my life anyway, so that wasn't a factor anymore. \n\n Last week, he texts me out of nowhere and wants to pick up where we had left off. That is, before he took the "pause." I told him, "What are you talking about? We're broken up." And I mentioned that I had gotten a dog, among other life changes that I had made. He was very upset, asking me how I could do that when he had explained previously his dog allergies. Am I on the wrong here? Was I wrong to assume that six weeks of ghosting equals a relationship effectively being over?
-
-STEM:
-This is an unfortunate situation. Losing someone out of the blue, especially someone you've been dating for six months, is hurtful and unfair. 
-
-What to look for:
-
-Acknowledgement of the hurt that the ex-boyfriend caused and the validity of the letter writer's bewilderment and reluctance to resume a relationship.
-
-Respect for the ex-boyfriend's right to take time to work on himself, but questioning his lack of communication.
-
-An affirmation that taking someone back who ghosted like this is probably not going to lead to a strong relationship.
 
 ## Hard prompts
 
