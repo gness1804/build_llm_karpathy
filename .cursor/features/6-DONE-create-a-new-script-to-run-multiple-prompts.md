@@ -11,3 +11,5 @@ Now can you create a script that runs inference against multiple prompts? The ne
 This new script should also create a second document, `outputs/inference/results-{timestamp}.md`. This new results file will be a table of all the prompts with the resulting score and a timestamp of when the prompt was run. Below this table, there should be the average for each prompt.It should simply be the average of all the runs of a specific prompt.
 
 The purpose of this script is to help better benchmark different models that I've created via fine-tune.
+
+<!-- DONE -->
