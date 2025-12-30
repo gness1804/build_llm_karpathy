@@ -1,0 +1,28 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2025-12-29 20:48:12
+Temperature: 0.2
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re describing is a deeply painful and confusing experience—feeling as though the person you love has become someone else, while also carrying your own grief and loneliness. Your partner’s withdrawal and silence are common responses to profound loss, but that doesn’t make it easier for you to bear. It’s important to acknowledge that both of you are navigating this tragedy in your own ways, and both of your feelings are valid.
+
+Supporting him doesn’t mean you have to set aside your own pain. You might find it helpful to gently express to him, not just that you notice his distance, but also how it affects you. This isn’t about pressing him for answers or forcing him to open up before he’s ready, but about sharing your experience honestly. Sometimes, knowing that someone else is also struggling can create a quiet bridge between two people who feel separated by grief.
+
+At the same time, it’s okay to seek support for yourself outside the relationship—whether through friends, support groups, or counseling—so you don’t carry this burden alone. Grief can isolate, and having a space where your feelings are seen and held can help you maintain your own emotional well-being.
+
+If your partner continues to retreat, it might be worth inviting him to small, low-pressure moments together—whether that’s a walk, a shared meal, or simply sitting in the same room without expectation. These moments can sometimes open a door to connection without words.
+
+Ultimately, grief can reshape relationships in unexpected ways, and there may be no quick or neat resolution. Holding space for both your partner's silence and your own need for connection is a difficult balance, but it's one that honors the complexity of loss and love.
+==================================================
+
+Score: 9.0
+Reason: This is an excellent response that closely matches the ideal voice from the reference file. It demonstrates sophisticated compassion, clear-headedness, and empathy. The response effectively acknowledges that the partner's grief is real and not "wrong," and it provides meaningful space for the letter writer's grief about the relationship. It suggests outside support (friends, support groups, counseling) without forcing it, and importantly, it explicitly mentions "small, low-pressure moments together—whether that's a walk, a shared meal, or simply sitting in the same room without expectation," which addresses the "small rituals of connection" criterion from the test prompt. The voice is nuanced, well-developed, and shows deep understanding of the complexity. It maintains second person throughout, stays on topic, and provides practical advice. This is a very strong answer that effectively addresses all the key criteria with the right voice and depth.
