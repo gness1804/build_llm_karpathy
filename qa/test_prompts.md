@@ -24,9 +24,31 @@ Empathy toward the letter writer without demonizing the boyfriend.
 
 A clear suggestion to name the pattern and its impact.
 
-Emphasis on “I” statements, boundaries, and what is and is not acceptable.
+Emphasis on boundaries, and what is and is not acceptable.
 
 No Reddit/platform talk, no URLs.
+
+### Easy 2 - burnout with how a partner is handling unemployment
+
+SHORTHAND: partner unemployment burnout
+
+PROMPT:
+Like many people in this difficult economy, my partner was laid off this year. As you can imagine, it's a stressful time for us. We're now currently living on one income, so we've had to cut back on things like eating out and entertainment. But on top of the financial stress, my partner is handling his job situation poorly. At first, after the initial shock wore off, he was applying for jobs regularly and even got a couple of interviews. These didn't go anywhere. But lately, he seems to have lost a lot of the drive that he once had. Now he's applying to maybe one job a month, if that. He spends the rest of his time playing video games and talking about how unfair the world is. When I try to talk to him about looking for jobs or trying to do improve his morale through means such as going out and meeting people, he brushes me off or shuts down. It seems like his unemployment situation has crushed him, and it's dragging us both down. I don't want to leave him because I love him, and because leaving him would really seem like I'm kicking him when he's down. But this situation also isn't sustainable. His negativity and avoidance of reality is rubbing off onto me and harming our relationship. How can I through to him, and how can we improve the situation?
+
+STEM:
+This is a very hard situation. What your partner is facing is soul-crushing to so many people. That being said, 
+
+What to look for:
+
+Acknowledgement of both partners' pain.
+
+Criticize the unemployed partner's problematic behaviors without demonizing the partner himself or blaming him for his predicament.
+
+Suggest that the letter writer talk to their partner and propose compromises, such as:
+- He will apply for N number of jobs every two weeks
+- The couple will have regular check-ins to see how he is doing
+
+Nuanced view acknowledging the pain that unemployment causes and the strain that it causes in relationships without justifying the partner's behavior.
 
 ## Medium prompts
 
