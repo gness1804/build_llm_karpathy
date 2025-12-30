@@ -1,0 +1,26 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-30 12:01:33
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: You are right that grief does not follow a schedule, and you are also right that this has changed your relationship in a fundamental way. The fact that you feel like you lost your partner is not a sign of impatience or misunderstanding; it is a real emotional truth. What you are experiencing is called “secondary grief”—mourning the changes in a loved one who is themselves grieving.
+
+The first step is to name that reality for yourself. You can support your partner and also acknowledge that his grief has had collateral damage. Those are not contradictory impulses; they are both part of the truth. When you talk to him, you might say something like: “I know you are going through a lot, and I want to be here for you. At the same time, I feel distant from you and I miss the way we used to connect. Can we talk about how to bridge that gap?”
+
+Try to approach the conversation with curiosity rather than accusation. His withdrawal is painful, but it is not necessarily a choice. People grieve in different ways—some become more emotional, others become more closed off. You might also encourage him to seek professional support if he is not already doing so. Sometimes people withdraw because they are overwhelmed by emotions they do not know how to process.
+
+At the same time, make sure you are taking care of yourself. You can support a grieving partner without becoming his sole emotional caretaker. Consider individual therapy for yourself, not because there is something wrong with you, but because secondary grief is a heavy burden to carry alone. You are not asking too much by wanting your partner back. You are simply asking for a path forward that honors the fact that both of you are changed by this loss.
+==================================================
+
+Score: 8.0
+Reason: This response directly addresses the question and maintains second person throughout. It effectively acknowledges that the partner's grief is real and not "wrong," and it provides meaningful space for the letter writer's grief about the relationship, with particularly strong recognition of "secondary grief." It suggests outside support (professional support, individual therapy) without forcing it, and provides concrete communication scripts. The voice is clear-headed and shows good reasoning, with better depth than the first response. However, it doesn't explicitly mention "small rituals of connection" as suggested in the test prompt criteria. While it's a meaningful answer that addresses the question well, it doesn't fully match the ideal voice's sophisticated blend of warmth, compassion, and insight.
