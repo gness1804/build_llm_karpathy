@@ -1,0 +1,21 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v3:CsXJxRvh
+Generated at: 2025-12-30 11:27:58
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like your wife is trying to express her admiration for your abilities, but it’s coming across as criticism. She may be projecting her own values onto you, assuming that what drives her should drive you too. But your contentment with your life is valid, and it’s important to communicate that to her.
+
+You might say something like, “I really appreciate how ambitious and driven you are. I admire that about you. But I’m happy with the balance I’ve found in my life. I’m not trying to be complacent or lazy. I just have different priorities than you do, and that’s okay.” This way, you’re affirming her values without sacrificing your own.
+
+If she continues to push, you could try to understand where she’s coming from. Is she worried about your financial security? Is she concerned that you’re not fulfilling your potential? If so, you can address those concerns directly. But if she’s just projecting her own values onto you, it’s important to set boundaries and assert your own autonomy.
+==================================================
