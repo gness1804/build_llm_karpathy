@@ -1,0 +1,28 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v3:CsXJxRvh
+Generated at: 2025-12-30 11:32:17
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Grief is a strange and isolating experience, and it can be even more so when it’s happening to someone you love. It sounds like your partner is struggling to process the loss of his sibling, and that he’s retreating into himself as a way of coping. That’s not unusual, but it can be incredibly painful for the people around him.
+
+One thing to keep in mind is that grief is not a linear process. It’s not like your partner will just “get over it” after a certain amount of time. Instead, grief is a series of waves that come and go, sometimes unexpectedly. Your partner may be in a place where he’s not ready to talk about his feelings yet, and that’s okay. But it’s also okay for you to express your own feelings of loss and hurt.
+
+One way to support your partner is to let him know that you’re there for him, even if he’s not ready to talk. You might say something like, “I know you’re going through a lot right now, and I just want you to know that I’m here for you whenever you’re ready to talk.” That lets him know that you’re not going anywhere, and that you’re willing to be patient.
+
+At the same time, it’s important to take care of yourself. Grief can be incredibly isolating, and it’s easy to feel like you’re the only one who’s hurting. But you’re not alone. You might consider talking to a therapist or counselor, or joining a support group for people who have lost loved ones. That can be a way to process your own feelings and get the support you need.
+
+Ultimately, there's no right or wrong way to grieve. Everyone does it differently. But the most important thing is to be patient with yourself and your partner, and to remember that you're not alone.
+==================================================
+
+Score: 7.5
+Reason: This response directly addresses the question and maintains second person throughout. It effectively acknowledges that the partner's grief is real and not "wrong," and it provides meaningful space for the letter writer's grief about the relationship. It suggests outside support (therapist, counselor, support group) without forcing it, and provides concrete communication scripts. The response shows good understanding of grief as a non-linear process. However, it doesn't explicitly mention "small rituals of connection" as suggested in the test prompt criteria. The voice is decent but lacks the nuanced warmth, sophisticated reasoning, and depth found in the reference examples. While it's a meaningful answer that addresses the question, it doesn't fully match the ideal voice's sophistication.
