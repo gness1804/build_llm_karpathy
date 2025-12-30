@@ -16,8 +16,8 @@ def generate_answer(question: str) -> str:
     resp = client.chat.completions.create(
         model=OPENAI_MODEL,
         messages=messages,
-        temperature=0.3, # TODO: Make this a parameter
-        top_p=0.9, # TODO: Make this a parameter    
-        max_tokens=700, # TODO: Make this a parameter
+        temperature=float(os.environ.get("TEMPERATURE", 0.3)),
+        top_p=float(os.environ.get("TOP_P", 0.9)),    
+        max_tokens=int(os.environ.get("MAX_NEW_TOKENS", 700)),
     )
     return resp.choices[0].message.content.strip()
