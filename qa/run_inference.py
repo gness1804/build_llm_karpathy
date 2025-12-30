@@ -67,6 +67,7 @@ def load_env_file(env_path):
 def parse_prompts_file(prompts_path):
     """
     Parse test_prompts.md to extract prompts and stems, creating a mapping.
+    Uses explicit SHORTHAND values from the file instead of generating from titles.
     
     Args:
         prompts_path: Path to test_prompts.md
@@ -83,40 +84,44 @@ def parse_prompts_file(prompts_path):
     with open(prompts_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Pattern to match prompt sections with STEM
-    # Matches: ### Easy 1 – Simple romantic miscommunication
-    # Then captures PROMPT: and STEM: sections
-    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*(.+?)\n\nPROMPT:\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
+    # Pattern to match prompt sections with explicit SHORTHAND
+    # Matches: ### Easy 1 – Title
+    #         SHORTHAND: explicit shorthand
+    #         PROMPT:
+    #         <prompt text>
+    #         STEM:
+    #         <stem text>
+    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*.+?\n\nSHORTHAND:\s*(.+?)\n\nPROMPT:\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     
     matches = re.finditer(pattern, content, re.DOTALL)
     
     for match in matches:
-        title = match.group(1).strip()
+        shorthand_raw = match.group(1).strip()
         prompt_text = match.group(2).strip()
         stem_text = match.group(3).strip()
         
-        # Create shorthand name from title (lowercase, replace spaces/special chars)
-        shorthand = title.lower()
-        # Remove special characters and normalize spaces
-        shorthand = re.sub(r'[^\w\s]', '', shorthand)
-        shorthand = re.sub(r'\s+', ' ', shorthand).strip()
+        # Normalize shorthand to lowercase and clean up whitespace
+        shorthand = shorthand_raw.lower().strip()
+        shorthand = re.sub(r'\s+', ' ', shorthand)
         
         prompts[shorthand] = {
             'prompt': prompt_text,
             'stem': stem_text
         }
     
-    # Handle special case: "Hard 4 - longer prompt about friend group and growing distant."
-    # This one doesn't follow the standard format - it has PROMPT and STEM but no "PROMPT:" label
-    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*(.+?)\n\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
+    # Handle special case: "Hard 4" which doesn't have "PROMPT:" label
+    # Format: SHORTHAND: ...\n\n<prompt text>\n\nSTEM: ...
+    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*.+?\n\nSHORTHAND:\s*(.+?)\n\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     hard4_match = re.search(hard4_pattern, content, re.DOTALL)
     if hard4_match:
-        title = hard4_match.group(1).strip()
+        shorthand_raw = hard4_match.group(1).strip()
         prompt_text = hard4_match.group(2).strip()
         stem_text = hard4_match.group(3).strip()
-        shorthand = title.lower()
-        shorthand = re.sub(r'[^\w\s]', '', shorthand)
-        shorthand = re.sub(r'\s+', ' ', shorthand).strip()
+        
+        # Normalize shorthand to lowercase and clean up whitespace
+        shorthand = shorthand_raw.lower().strip()
+        shorthand = re.sub(r'\s+', ' ', shorthand)
+        
         prompts[shorthand] = {
             'prompt': prompt_text,
             'stem': stem_text
@@ -174,15 +179,15 @@ def find_prompt_by_shorthand(shorthand, prompts, strict=False):
 
 
 def list_available_prompts(prompts):
-    """Print all available prompts."""
-    print("\nAvailable prompts:")
-    print("=" * 60)
-    for key in sorted(prompts.keys()):
+    """Print all available prompts with their explicit shorthands."""
+    print("\nAvailable prompts (use these shorthands with --prompt):")
+    print("=" * 80)
+    for shorthand in sorted(prompts.keys()):
         # Show first 60 chars of prompt
-        prompt_text = prompts[key]['prompt']
+        prompt_text = prompts[shorthand]['prompt']
         preview = prompt_text[:60].replace('\n', ' ')
-        print(f"  {key:40} | {preview}...")
-    print("=" * 60)
+        print(f"  Shorthand: {shorthand:50} | {preview}...")
+    print("=" * 80)
 
 
 def main():

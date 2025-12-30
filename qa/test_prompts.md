@@ -10,6 +10,8 @@ These should be very solvable with your training data patterns if the fine tune 
 
 ### Easy 1 – Simple romantic miscommunication
 
+SHORTHAND: simple romantic miscommunication
+
 PROMPT:
 My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about something that hurt my feelings, he makes a joke or says I am “too sensitive.” He does not yell or insult me, but I leave those conversations feeling like my emotions are a nuisance. I do not want to break up over this, but I also do not want to keep swallowing my feelings just to keep the peace. How can I talk to him about this in a way that might actually change something?
 
@@ -32,6 +34,8 @@ These test whether the model can handle more layered emotions and values without
 
 ### Medium 1 – Different conflict styles
 
+SHORTHAND: different conflict styles
+
 PROMPT:
 My partner and I have very different conflict styles. When something is wrong, I want to talk it through fairly soon, at least enough to feel like we are on the same page. He shuts down and wants to be alone for hours or sometimes a whole day before he is ready. He says he is afraid of saying something he will regret. I understand that, but the silence makes me feel abandoned and anxious. I do not want to push him faster than he can handle, but I also cannot handle being iced out whenever something is wrong. How can we work with both of our needs here?
 
@@ -47,6 +51,8 @@ It should suggest a middle ground: a quick reassurance plus more time later for 
 Good use of your “meta conversation about how we argue” vibe.
 
 ### Medium 2 – Value difference around ambition
+
+SHORTHAND: value difference around ambition
 
 PROMPT:
 My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
@@ -68,6 +74,8 @@ These test whether the model can juggle multiple people’s needs and more painf
 
 ### Hard 1 – Caretaking burnout in a family system
 
+SHORTHAND: caretaking burnout in a family system
+
 PROMPT:
 I am the oldest of three siblings, and our dad’s health has been declining for a while. I live closest, so it has slowly become “understood” that I handle almost everything: appointments, medications, paperwork, talking to doctors. My siblings always say, “Thank you so much, we really appreciate you,” but do not actually step in. When I suggest that they take specific tasks, they say they are “too busy” or “not good with that kind of thing.” I am exhausted and starting to feel resentful, but I also feel guilty, because my dad did a lot for us growing up, and I do not want to abandon him. How do I set limits without feeling like a terrible child?
 
@@ -83,6 +91,8 @@ Advice that includes concrete redistribution of tasks and possibly external help
 Reassurance that setting limits is not abandoning dad.
 
 ### Hard 2 – Partner’s grief and emotional distance
+
+SHORTHAND: partners grief and emotional distance
 
 PROMPT:
 My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
@@ -100,6 +110,8 @@ Suggestions like offering presence, small rituals of connection, and possibly in
 
 ### Hard 3 – Abusive past dynamic with someone “everyone likes”
 
+SHORTHAND: abusive past dynamic with someone everyone likes
+
 PROMPT:
 Years ago, I lived with a couple of roommates. One of them, “M,” was charming and well liked by everyone, but in private, he was controlling and manipulative with me. He would criticize what I wore, make jokes at my expense in front of others, and punish me with weeks of coldness if I pushed back. Eventually I moved out and cut off contact. Now a close friend of mine has started dating him. She is over the moon and keeps telling me how lucky she feels. I have not told her anything, because I do not want to sound bitter or plant fear based only on my experience. At the same time, it feels awful to say nothing. What, if anything, do I owe her?
 
@@ -116,7 +128,9 @@ Emphasis that the friend still has autonomy and may not believe or act immediate
 
 Clarity about protecting the writer’s own mental health and boundaries.
 
-### Hard 4 - longer prompt about friend group and growing distant.
+### Hard 4 - Friend group and growing distant.
+
+SHORTHAND: friend group and growing distant
 
 I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seemed to have time for the rest of us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
 
