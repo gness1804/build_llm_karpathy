@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v2:CsD4kFIr
+Generated at: 2025-12-30 13:13:49
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your letter doesn't fully capture the situation. You say you're happy with your life, but you also say that her comments have "lately" started happening. This implies that there's been a change recently. And, of course, her comments are about a sensitive subject: your choice of work. So it's entirely understandable that you feel "criticized and looked down on." I imagine that this is very hurtful. After all, you feel that you're working in a job that "pays the bills and leaves [you] time for hobbies, friends, and family." That's a perfectly valid reason for choosing a job, and it reflects a valid life philosophy: work enough to support yourself, but don't let work consume your life. You didn't say how long you've been in your current job, but I imagine that over the years you've developed a strong sense of fulfillment in your job and in the lifestyle that it affords you. Her comments, then, would seem to imply that all of this is wrong, or that you are somehow less than she is, or less than what you should be. This would be hurtful even if you and your spouse were completely different people. But given that you seem to have a more stable and home-oriented personality, and she has a more career-driven personality, her imposing her values on you would be especially painful and seem especially wrong.
+
+So how to communicate this to her? Start by affirming her ambition, since you do respect it: “I love and admire how driven you are in your career.” Then state your own position clearly: “I am happy with the work-life balance that my job affords me, and I don’t want to feel like I have to justify my choices.” Describe the impact of her comments without accusing her: “When you say I ‘could be doing more,’ it feels like my current life isn’t enough, and that hurts.” Then anchor the conversation in mutual respect: “We have different definitions of success, and that’s okay. I’m not asking you to shrink your ambitions. I just want my choices to be respected, too.” If she continues to push after this conversation, then you might consider counseling to work on this issue. But start with the above-mentioned affirmation of her values, statement of your own position, and call for mutual respect.
+==================================================

@@ -90,6 +90,25 @@ Clear suggestion to talk about what “success” means to each person.
 
 Explicit permission to say “I am allowed to be content” without demonizing the wife.
 
+### Medium 3 - religious differences among friends.
+
+SHORTHAND: religious differences among friends
+
+PROMPT:
+I have been friends with Steve for a long time. We met at work, and we hang out often. The problem is that he has recently joined a new church. He's become very aggressive in asking me to attend and in trying to explain to me the 'glories of God.' I respect his belief, but I have no wish to join his church. I've informed him of this, but he persists. What can I say to him to convince him that I am not interested without ruining the friendship?
+
+STEM:
+When it comes to proselytization, it's important to set firm boundaries if you're not interested in joining the religion.
+
+What to look for:
+
+Respect for Steve's religion while emphasizing that he should have equal respect for the letter writer's beliefs.
+
+An understanding of why proselytization offends many people and why it's inappropriate of Steve to continue this behavior after the letter writer clearly states he's not interested.
+
+Care for their friendship while acknowledging that if Steve doesn't stand down soon, the letter writer might be best served by ending the friendship. This doesn't make him a bad friend, it just means that the friendship is no longer a good fit.
+
+
 ## Hard prompts
 
 These test whether the model can juggle multiple people’s needs and more painful contexts, and still keep your tone.
