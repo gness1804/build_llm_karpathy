@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 13:03:37
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I was in what I thought was a long-term, loving relationship for over a year. My partner, "J", and I shared a lot of interests, got along mostly well, and overall really connected. We had even started talking about marriage, although only semi-seriously. But then J goes on a business trip for two weeks. On his last day, he calls me and says that he needs to take some time for himself. I thought, This is odd, but if he needs his space for a while and to recharge, then I'm all for it. But after this conversation, he dropped off the face of the earth. No calls, texts, e-mails. I called and texted him multiple times to try to understand what's going on, but I was continually met with silence.\n\nAfter two agonizing months of no contact from him at all, he calls me out of the blue one evening. He says he wants to pick up where we left off. I'm incensed. I gave him a piece of my mind and let him know that it's not acceptable to ghost your partner like that, especially given the level of commitment that I thought we had had. We had a big fight, and I told him that I never wanted to see him again. (I should note that I did ask him whether something tragic or drastic had happened, such as one of his parents passing away, and he said no, there was nothing like that. He didn't give a real explanation.) But now looking back, I feel guilty. Did I overreact?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings in this situation are completely understandable. Being in a relationship where you share connection and even talk about a future together naturally builds an expectation of mutual respect and communication. For J to disappear without any explanation for two months, especially when you reached out multiple times seeking clarity, is deeply hurtful and confusing. Ghosting someone you care about, particularly at a point when the relationship felt serious, is a breach of trust and consideration.
+
+Your anger and frustration when he finally reappeared are valid responses to being treated with such disregard. You were left in an emotional limbo, without closure or understanding, and it’s natural to want to protect yourself from further pain by setting boundaries. Asking whether something serious had happened was a compassionate attempt to understand, and when that was met with silence or vague answers, it’s reasonable that your patience wore thin.
+
+Feeling guilty afterward is a common reaction when emotions run high, but it’s important to recognize that your response was a way of asserting your dignity and self-respect. You did not overreact; you responded to a situation where your partner’s behavior was neglectful and hurtful. It’s also okay to acknowledge that sometimes people’s actions reveal incompatibilities or a lack of commitment that can’t be fixed by forgiveness alone.
+
+If you find yourself reflecting on this, it might help to focus on what you need from a partner in terms of communication and respect, and how you want to be treated moving forward. Your feelings and boundaries matter, and honoring them is a form of self-care rather than overreaction. Whatever you decide about this relationship, your experience highlights the importance of mutual accountability and honesty in any partnership.
+==================================================
