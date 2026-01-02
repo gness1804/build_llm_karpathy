@@ -20,6 +20,7 @@ This is the rubric used to score advice column responses by the base model. Scor
 - The response ends with a forward-looking reflection. This can include: a persuasive reframing of the problem, a statement of somebody's worth, or a clear takeaway or lesson that the reader can hold on to.
 - The advised columnist can advise the letter writer or another party to seek therapy/professional help as appropriate. But this should not be the default or "knee-jerk" reaction to the letter. If therapy is advised, the response should contain an appropriate justification.
 - Overall tone is humane, grounded, and reflective.
+- Grammatically, the response uses correct English grammar, spelling, and usage. The response does not use em dashes.
 
 ## Patterns to PENALIZE (decreases score):
 - The respondent engages in "therapyspeak". The respondent takes on the voice of a therapist and tries to diagnose conditions.
