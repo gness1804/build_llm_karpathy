@@ -244,6 +244,11 @@ Examples:
         help='Treat --prompt as direct prompt text, bypassing shorthand lookup'
     )
     parser.add_argument(
+        '--instruction',
+        type=str,
+        help='Optional extra instruction text to send along with the prompt (e.g., a system-level directive)'
+    )
+    parser.add_argument(
         '--save-output',
         action='store_true',
         help='Save the output to a file'
@@ -256,6 +261,7 @@ Examples:
     )
     
     args = parser.parse_args()
+    instruction_text = (args.instruction or '').strip()
     
     # Load prompts
     prompts_path = SCRIPT_DIR / 'test_prompts.md'
@@ -337,15 +343,18 @@ Examples:
     
     # Clean the prompt text (strip any extra whitespace)
     prompt_text_clean = prompt_text.strip()
-    
-    # Format prompt to match training data format: QUESTION: <text>\n\nANSWER:
+
+    # Base question/answer format that matches the training data idea
     if args.use_stem and stem_text:
-        # Include stem after ANSWER:
         stem_clean = stem_text.strip()
-        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER: {stem_clean}"
+        base_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER: {stem_clean}"
     else:
-        # Standard format without stem
-        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
+        base_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
+
+    if instruction_text:
+        formatted_prompt = f"INSTRUCTION: {instruction_text}\n\n{base_prompt}"
+    else:
+        formatted_prompt = base_prompt
     
     # Override with command-line arguments
     if checkpoint_path:
@@ -357,8 +366,14 @@ Examples:
         env['SAVE_OUTPUT'] = 'True'
     if args.output_dir:
         env['OUTPUT_DIR'] = str(args.output_dir)
+    if instruction_text:
+        env['INSTRUCTION'] = instruction_text
     
     # Print what we're running
+    if instruction_text:
+        instr_preview = instruction_text.replace('\n', ' ')
+        print(f"\n🧭 Instruction preview (first 120 chars):")
+        print(f"   {instr_preview[:120]}...")
     print(f"\n📏 Prompt preview (first 100 chars):")
     print(f"   {prompt_text_clean[:100]}...")
     print(f"\n📋 Full formatted prompt (first 150 chars):")

@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 16:12:29
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My brother has a good friend who he seems to have a love-hate relationship with. The friend is less "conventionally successful" than my brother. For instance, while my brother has multiple advanced degrees and a six-figure job, the friend has "only" a bachelor's degree and a job that pays tens of thousands of dollars less than my brother's. (I say "only" a bachelor's degree not to minimize that achievement, but just to try to create more context, hence the quotes around the word.) My brother also has a group of tech friends that he hangs out with (he works in the tech industry), and I think he gets a lot out of being around people who he sees as closer to his success level. My brother is also married, for what it's worth, while his friend is in what the friend himself admits is a dead marriage. Long story, but for our purposes, it's another status mismatch between the two.\n\nMy brother pays lip service to not caring about these superficial factors, but his actions tell a different story. My brother always talks about hanging out with the friend begrudgingly, as if it's a chore or obligation he has to do, like going to the supermarket. And my brother is always trying to postpone or shorten their gatherings. The friend never seems to mind. Whether that's out of otherworldly emotional restraint and perspective, or desperation, or something else, I'm not sure. The friend has always struggled socially, while my brother, even though he's had his own issues, has generally done better.\n\nIs it wrong of me to consider talking to my brother about this? I mean, his friendships really should be his business, but it hurts to see him treating his friend like this. Is that my place to talk with him about this? Or is this something I should just let go?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s understandable that you feel concerned when you see your brother treating his friend in a way that feels dismissive or begrudging. When someone we care about behaves in a way that seems unkind or unfair, it naturally stirs up a desire to intervene or speak up. Your impulse to protect the dignity of the friend and to encourage your brother toward more respectful behavior comes from a place of empathy and care.
+
+At the same time, friendships are deeply personal and often complicated. Your brother’s feelings and choices about who he spends time with, and how, are ultimately his to navigate. Even if his behavior feels hurtful or disappointing, it’s possible that he’s wrestling with his own insecurities, social needs, or conflicting feelings about this friendship. Sometimes people maintain connections that are messy or uncomfortable for reasons that aren’t immediately clear to outside observers.
+
+If you decide to bring this up with your brother, it might help to approach the conversation gently and from your own perspective, rather than as a judgment of his behavior. You could share what you’ve noticed and how it makes you feel—perhaps expressing concern for both him and his friend—without assuming you know his motivations or telling him what to do. This can open a space for honest dialogue without putting him on the defensive.
+
+However, if you sense that your brother is unlikely to respond well, or if this feels like a boundary you’re hesitant to cross, it’s also okay to step back. Sometimes the most compassionate thing we can do is to accept that others will make their own choices, even when we wish they were different. You might find other ways to support the friend directly, if that feels appropriate and welcomed.
+
+In the end, there’s no perfect answer here. Your feelings are valid, and your care for both your brother and his friend is clear. Whether you speak up or hold your peace, what matters most is that you act in a way that feels honest and respectful to your own values and relationships.
+==================================================
