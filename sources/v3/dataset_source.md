@@ -724,23 +724,38 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+Growing up, my sister was always the favorite child. There are two of us, and she's the older one by two and a half years. Consistently, as we went through school and then started our adult lives, our parents would pay more attention to her than to me. Let's call her Rosie. My parents would praise Rosie's grades much more than mine, even though we usually brought home similar report cards throughout our schooling. Rosie also participated in several sports, including swimming, while I leaned towards more academically oriented extracurriculars. Our parents attended almost every one of her athletic events and would give her high praise, even when she or her team didn't do well. By contrast, whenever I would win an academic bowl or a forensics tournament, our parents might give an off-handed "good job" at best. Usually they didn't even seem to notice. 
+
+This is continued into adulthood. When Rosie's first child was born a few years ago, her parents were overjoyed. As one might expect at the birth of a first grandchild, or really any grandchild. They showered her with presents and praise and offered to do whatever she needed when it came to babysitting, etc. (We live only about an hour away from our parents.) But now, I'm expecting my first child, and our parents seem almost like they don't care. They congratulated me at first when I told them the news, but they haven't bestowed anywhere near the attention on me that they did on Rosie during her pregnancy. I shudder to think what will happen once my child is born. I fear that my parents will replicate their dysfunctional favoritism to the next generation, such that my children might start to feel resentful or less than because of their grandparents' behavior. My husband and I have sworn that we would never do that to our children, that we would treat them equally and not engage in favoritism. So we certainly don’t want the grandparents replicating their mistakes with the next generation. 
+
+Do you think I should keep grandparents at bay after our children are born? Rosie and I already have a fairly distant relationship, mostly because of what happened as children. I don't want my children to grow up feeling that their worth is any less than anybody else's just because their grandparents can't figure out how to treat children equally. But I do want them to have a meaningful and rich relationship with their grandparents, especially since my own relationship with mine was mine. How should we handle this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+One practical approach is to set boundaries that protect your child from neglect or favoritism without completely shutting out the grandparents. For example, you might limit visits or interactions if you notice your child being ignored or treated unfairly, or you might arrange visits in ways that encourage positive, one-on-one time rather than comparisons. You could also gently but firmly communicate your expectations to your parents, emphasizing the importance of equal attention and respect for your child’s milestones and needs.
+
+It’s also worth preparing your child, as they grow, to understand that family dynamics can be complicated and that their worth is not defined by anyone’s uneven attention or approval. This kind of emotional resilience can be nurtured through your own consistent love and validation.
+
+Given your already distant relationship with Rosie, it may be helpful to keep your focus on your immediate family’s well-being rather than trying to change the entire family dynamic. Your husband and you setting a different example for your children is a powerful way to break the cycle.
+
+Ultimately, keeping grandparents “at bay” doesn’t have to mean exclusion but rather thoughtful management of their involvement. Your child’s emotional safety and sense of being valued can guide how much space you allow for the grandparents in their life. It’s a delicate balance, and it’s okay for your approach to evolve over time as you learn what works best for your family.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+- Displays empathy towards the letter writer and her children.
+- Suggests ways to set boundaries with the letter writer's parents.
 Weaknesses:
-- ...
-- ...
+- The response's useful suggestion that the letter writer could "gently but firmly communicate your expectations to your parents, emphasizing the importance of equal attention and respect for your child’s milestones and needs" would be strengthened by a specific script that the letter writer could use with their parents.
+- The response does not adequately name the harm caused by the letter-writer's parents' actions.
+- Displays a lack of moral conviction. For example, in this scenario, depending on how the grandparents act, a legitimate action by the letter writer might be to cut off contact between the children and their grandparents. The letter doesn't acknowledge this possibility but rather seems overly optimistic about the grandparents learning to treat their grandchildren more equitably.
 
 OUTPUT: 
-[My Tier S response]
+I think that most parents worry about the perpetuation of dysfunctional patterns onto their own children. This is especially true when the issue is parental favoritism. Favoritism can create emotional scars and ruptures that last a lifetime. It teaches children that some are more worthy of love than others and it erodes sibling bonds by pitting children against each other in a brutal contest for parental favor. It can also harm the favored child by creating a sense of entitlement and a sense that actions don't have consequences or, at least, consequences that are as severe as for other people. I've seen this a lot in my own life. But I'm sure you intuitively know all this already. In your case, it seems like you're torn between the hope of keeping your parents in your future kids' lives while not wanting them to be negatively affected by what your parents inflicted on you. That's a tough place to be in. But I also worry that you're reacting to problems that haven't happened yet, however likely it seems that they will in the future. 
+
+I would take the approach of "trust but verify." Assume good intentions from the grandparents until you see evidence otherwise. At the same time, don't be naive. Try to be there as much as you can when the grandparents are over so that you can observe how they interact with your kids. If you observe problematic behavior, intervene. Pull your parents aside and say something like: “Mom and Dad, my children and I love you. But when we see you exercising favoritism for Rosie's children over mine, such as [Examples A and B], it sends the wrong message to both sets of children. Can you work on treating all of your grandchildren more equally in the future?”
+
+If they won't play ball, limit your children's interaction with your parents. And if this keeps happening, you might want to make the hard decision to keep your children separate from their grandparents until the grandparents express a genuine wish to treat their grandchildren more fairly, and then you see evidence of this. It would be heartbreaking to have to explain to your children why they don't get to see their grandparents very often. But the emotional harm that your grandparents will cause if they play the same favoritism game with their grandchildren outweighs this concern. Ultimately, you might have to end up doing for your parents what they failed to do for you and your sister: modeling an equitable approach to children. Love alone can't justify knowingly subjecting your children to cruel and arbitrary treatment.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -812,23 +827,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm 15. My parents are going through a nasty divorce. I won't bore you with the details, but they are using me as a go-between. My father is living in an apartment with his new girlfriend, so cliche. And I'm at home with my mother. Since the court hasn't ruled yet, our family is working out visitation practices on the fly. For example, I spent last weekend with my dad, and he also got to see me Wednesday and Thursday of the week before that. There's no rhyme or reason to it. 
+
+But that's small potatoes compared with the main problem. My parents don't seem to be capable of speaking to each other unless they are yelling. My mother will often ask me to “tell your father that I will be dropping off his clothes at such-and-such time.” My father might tell me something like, “Ask your mother why she won't set our court date yet and also why she's being such a bitch.” I’m sorry to use that word, but it's important for context. They are also constantly bad-mouthing each other to me behind their backs and clearly want me to side with one over the other. This is devastating to me.
+
+I don't want to be my parents' messenger pigeon. I want them both to love me equally, and I want to have a good relationship with both. I don't want to have to choose between them. Is this going to be my life for the rest of their days, or is there some way out of this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+What you are going through is deeply painful, and it’s completely understandable that you feel caught in the middle and overwhelmed. Being asked to carry messages between your parents, especially when they speak to each other with anger and disrespect, puts you in an impossible position. It’s not your job to be their messenger or to manage their conflict. This kind of dynamic often leaves children feeling torn, anxious, and burdened with adult problems they never asked for.
+
+Your parents’ behavior—yelling at each other, speaking harshly, and trying to get you to take sides—is harmful to you. It puts you in the middle of their conflict and creates a stressful environment where you may feel pressured to choose loyalty to one parent over the other. This is unfair to you and can damage your relationships with both of them. It’s important to recognize that their actions are causing you real harm, even if they don’t intend it.
+
+You have every right to set boundaries to protect yourself emotionally. One practical step is to gently but firmly let each parent know that you cannot be their messenger. You might say something like, “I want to have a good relationship with both of you, but it’s really hard for me to pass messages back and forth. Please talk to each other directly about these things.” This statement clearly communicates your feelings and your boundary without blaming either parent. It also puts the responsibility for communication back on them, where it belongs.
+
+It’s also worth considering that your parents’ inability to communicate calmly and respectfully is a problem they need to address themselves. If they are open to it, they might benefit from professional help to manage their divorce process more constructively. While it’s not your responsibility to fix their relationship, encouraging them to seek support could improve the situation for everyone, including you.
+
+You asked if this is going to be your life forever. While the current situation is very difficult, it doesn’t have to define your entire relationship with your parents. Over time, as the divorce settles and they find healthier ways to communicate, the pressure on you can lessen. Meanwhile, protecting your own emotional well-being by setting boundaries and refusing to be the go-between is a crucial step. Remember that your worth is not tied to their conflict, and you deserve to be loved and respected by both parents without being forced to choose sides.
+
+Holding onto your desire for a good relationship with both your mother and father is a powerful and hopeful stance. It shows your strength and your capacity for love even in a tough situation. Keep that hope alive, and take care of yourself as you navigate this challenging time.
 
 EVALUATION:
-Score: [score]
+Score: 9.5
 
 Strengths:
-- ...
-- ...
+- Does an excellent job of naming the harm of the parent's actions to the letter writer.
+- Does a good job of displaying the boundaries that the letter writer might set with their parents.
+- Contains a specific script that the letter writer might say to their parents to try to address the problems.
+- Favors depth over brevity.
+- Does a very good job of affirming the letter writer's self-worth and autonomy, which is crucial feedback for such a young letter writer.
 Weaknesses:
-- ...
-- ...
+- Even though the letter is compassionate and empathetic towards the child, and implies that the situation isn't their fault, it would be strengthened by the columnist explicitly and forcefully stating that none of these problems are in any way the letter writer's fault. And that the situation was caused by the parents and not the child.
+- Grammar: uses em-dashes. 
 
 OUTPUT: 
-[My Tier S response]
+I’m so sorry that you have to go through that. No child deserves to be treated as a go-between by their parents. And no child should be forced into the heartbreaking position of having to choose one parent over the other. This is not only deeply unfair, but it also teaches children to be perpetually wary of those who are supposed to love them the most, lest their trust be betrayed again. It teaches children terrible lessons about communication, basic decency, and how to "fight fair" with a spouse or partner, including during a breakup or divorce.
+
+I know all this sounds scary. But the good news is that you do have some tools at your disposal. And you seem to have a good head on your shoulders. The road ahead will be hard, but there are ways to lighten the burden.
+
+You can start by having a difficult but important conversation with your parents, presumably separately. You might tell them, for instance, to not insult the other and to not try to get you to pick sides. You can encourage them to talk to the other parent directly whenever possible. If you need a “script,” then you can say something like the following: “I love you. But when you fight with [Other Parent], it hurts me a lot. I want to feel loved and accepted by both of you, and I don't want to feel that you are using me to get back at the other person. Can you please stop making me choose between you and [Other Parent]?”
+
+There are also resources out there to help you, and I encourage you to take advantage of them. For instance, have you talked to your school guidance counselor about the problem? They might be able to refer you to some resources that could help. Also, while I don't know the exact details of your parents’ legal situation, in many cases, there will be a court-appointed child advocate to speak up for children in situations like yours. If you have one already, then please go to them and talk to them about how best to handle this difficult situation. If you don’t have one, then ask one of your parents' attorneys or an official at the court during the next legal hearing if you can be provided with one. These professionals are trained to represent children's interests in cases like yours.
+
+From your letter, it's evident that you have a lot of courage and you're trying to do what's right. In closing, I want to make it very clear that none of this is your fault. The problem is between your parents, not with you. And none of the pain that you're going through should be interpreted as a result of something you did wrong. You are just caught in a very hard situation, and you seem to be doing your best to manage it. Best of luck to you.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
