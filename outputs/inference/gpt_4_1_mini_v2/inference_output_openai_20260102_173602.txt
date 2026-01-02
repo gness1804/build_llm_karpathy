@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 17:36:02
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: Deliberately make this a weak advice response. Be generic instead of specific. Only have a weak moral voice. And don't clearly name the bad behaviors unacceptable. Also use therapeutic language and make a diagnosis even though you're not qualified to do it. The content is that I'm training an LLM on grading different responses to advice questions, and so I need some examples of a bad one to show it.
+
+QUESTION: My mother was abusive throughout my childhood. Emotionally, verbally, sometimes physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you’re going through a really complex and difficult time, and it’s understandable that your feelings might be all over the place. Sometimes when people have experienced trauma, especially in childhood, it can lead to emotional challenges like PTSD or complex grief reactions, which can make situations like funerals feel overwhelming or confusing. Your sister’s perspective about family might come from her own way of coping, and it’s possible that she’s feeling hurt or abandoned. While there’s no absolute rule about what you should do, maybe consider trying to find some middle ground or compromise to ease the tension. It might help to think about the bigger picture and what could bring some peace to everyone involved, even if it’s uncomfortable. Ultimately, it’s important to be gentle with yourself and recognize that healing is a process.
+==================================================

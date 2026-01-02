@@ -940,23 +940,43 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm male, 40 years old, work in tech. For a few years now, I've been attending a professional meetup of other tech enthusiasts and professionals. We meet a few times a month and engage in activities such as discussing technical books, delivering presentations, but mostly just hanging out and coding. My first year in the group, I met another guy, let's call him John. John and I seemed to be fast friends. We were both interested in the same types of technology and seemed to have compatible personalities. I was a bit further along in tech than he was, so I sort of took on a mentorship role. But over time, he's learned a lot too. More importantly, we've hung out a lot outside of tech, doing things like movie nights, going bowling together, and meeting up for coffee. We even write each other Christmas cards. 
+
+The problem is that over time, this friendship has gotten to be one-sided. Over the last year or two, I'm virtually always the only one to initiate. I'm always the one to suggest going out for coffee or going to see a movie or having lunch. And this is also the case in deeper aspects of the friendship. For instance, he has a disabled adult nephew. I often come over and perform basic tasks, such as helping to prepare meals or simply just talking to the nephew, which considerably eases the burden on the rest of the family. This isn't to toot my own horn, but just to establish context. But when it comes to reciprocity, John's nowhere to be found. My wife is on disability, and I have a niece who's been struggling with a nasty eating disorder and has had to live at home instead of leaving town for college. When I ask John to do simple things, such as drive me to my niece's medical appointment when my car is in the shop, or to just simply come over and help with my family the same way I help with his, he's nowhere to be found. He's always making excuses such as “I'm too tired” or “I have to work tomorrow.” Oh and also when I ran a marathon last year, he was nowhere to be found - either in encouraging me before the race when I was going through grueling training or in going to see the actual event. But when his local hockey league plays games, I'm almost always there. I realize that everybody has an outside life, but after years of this, you start to wonder. 
+
+It's gotten to a point where this is one-sided and exhausting. None of my other friends are like this. I feel guilty complaining about this and I don't want to hurt John's feelings. That's why I haven't brought this up before. But this isn't sustainable. What should I do? 
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your feelings of exhaustion and frustration are completely understandable. You’ve been generous not only with your time and energy but also with your emotional investment, stepping in to help with John’s family and showing up for his interests. Yet, when you need support or simple gestures of reciprocity, he’s consistently absent or unavailable.
+
+It’s clear you value the friendship and want to preserve it without causing harm or discomfort. Bringing this up gently but honestly could be a way forward. You might choose a moment when you’re both relaxed and share how you’ve been feeling.
+
+If John is receptive, this conversation could open the door to greater awareness on his part and possibly a more balanced friendship. If he responds defensively or dismissively, that in itself is telling. It may mean that the friendship, as it currently stands, isn’t meeting your needs or reflecting the mutual respect and care you deserve.
+
+Feeling guilty about these feelings is common, but it’s worth remembering that friendships thrive on reciprocity and respect, not obligation or endurance alone. Your kindness is a strength, but it’s also a resource that needs to be replenished. Taking care of yourself in this situation is not only fair but necessary.
 
 EVALUATION:
-Score: [score]
+Score: 5.5
 
 Strengths:
-- ...
-- ...
+- Does offer a way to handle the situation.
+- Approaches the situation with empathy.
+- Avoids therapeutic language.
 Weaknesses:
-- ...
-- ...
+- Does not clearly name the harm caused by the friend or its effects.
+- Does not offer a script that the letter writer might say to John.
+- Does not clearly specify a boundary that the letter writer could set if the problem process.
+- Mentions the letter-writer's guilt but doesn't explicitly name it as a secondary harm.
+- The language is mostly bland and generic. It lacks a strong human or moral voice.
 
 OUTPUT: 
-[My Tier S response]
+A friendship where one person does all the giving becomes unsustainable over time. When such arrangements persist for years, people often feel taken advantage of and even like they're being used. You understandably want reciprocity, but he seems to not be delivering. Lack of reciprocity can destroy a friendship like death by a thousand cuts. It can also cause lasting feelings of distrust that might spill over into other relationships in a person's life. And in your case, you don't want to hurt your friend's feelings, but you also have come to feel that the situation is untenable. 
+
+The reality, though, is that sometimes you have to risk hurting someone's feelings to stand up for yourself. While every person and every relationship is different, most people do agree that there needs to be a degree of reciprocity in a friendship, especially with respect to the big things, such as family caregiving or supporting the other person in a big life event. If a friendship stops being a two-way street, then it risks becoming a burden or even a dependency. And this is something that most people don't want.
+
+I recommend having a conversation with John where you respectfully but firmly lay out the problem and your boundaries. You could say something like, "Hey John, I really like having you as a friend and hanging out with you, but I've noticed that I initiate almost all of our hangouts and that you haven't come to important things of mine, such as helping out with family or coming to my marathon, whereas I have tried to do those things for you as much as I can. How can we fix this?"
+
+If he responds amicably, then it's just a matter of nudging the balance in a more equitable direction, probably over time. The challenge in this case will be to try to make things more equitable without falling into the trap of “bean counting.” And if this happy outcome does come to pass, then you can ignore the rest of this letter. But if his response is unfriendly, such as being defensive or stonewalling, or even just apathetic (which can be just as hostile in its own way) then you might want to reconsider how you've been investing your time. In this case, you might have to decide whether his companionship is worth the emotional and logistical stress of him relying on you for important things, but not being able to do the same yourself. Retaining a friendship with someone you care about isn't worth it if the friendship is drastically one-sided and you're carrying all of the burden. Sometimes doing the hard thing and ending a friendship and hurting the other person's feelings is necessary to shift your time investment to people who have your back as well.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1028,23 +1048,34 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My mother was abusive throughout my childhood. Emotionally, verbally, sometimes physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re going through a really complex and difficult time, and it’s understandable that your feelings might be all over the place. Sometimes when people have experienced trauma, especially in childhood, it can lead to emotional challenges like PTSD or complex grief reactions, which can make situations like funerals feel overwhelming or confusing. Your sister’s perspective about family might come from her own way of coping, and it’s possible that she’s feeling hurt or abandoned. While there’s no absolute rule about what you should do, maybe consider trying to find some middle ground or compromise to ease the tension. It might help to think about the bigger picture and what could bring some peace to everyone involved, even if it’s uncomfortable. Ultimately, it’s important to be gentle with yourself and recognize that healing is a process.
 
 EVALUATION:
-Score: [score]
+Score: 2.5
 
 Strengths:
-- ...
-- ...
+- Expresses empathy towards the letter writer.
 Weaknesses:
-- ...
-- ...
+- Uses explicitly therapeutic language and tries to diagnose the letter writer's problem.
+- Very short and superficial. Prioritizes brevity over a thorough and careful analysis of the situation.
+- Uses clichés ("healing is a process")
+- No clear moral voice. Does not properly name the harm caused or its effects.
+- Responds can appear to condone the abuse, or at least downplay it. ("It might help to think about the bigger picture and what could bring some peace to everyone involved, even if it’s uncomfortable")
+- Response is very wishy-washy rather than advising clear boundaries that the letter writer can set in this very difficult situation.
 
 OUTPUT: 
-[My Tier S response]
+No one is obligated to perform grief on demand. And no one is required to honor someone who caused them harm simply because that person has died. Death does not retroactively transform abuse into love, nor does it impose new moral debts on the people who were hurt.
+
+What you’re describing is not indifference. It’s emotional exhaustion and self-protection after a long history of pain. For many people who grew up with abuse, numbness is not a failure to grieve. It’s the nervous system finally standing down after years of vigilance. That response deserves respect, not judgment.
+
+Your sister’s anger is understandable, but it does not override your experience. People who endured different degrees or forms of abuse often arrive at different conclusions about what they owe, if anything, to the person who harmed them. Some need rituals. Some need distance. Some need silence. None of these responses are morally superior to the others.
+
+You can acknowledge your sister’s grief without sacrificing your own wellbeing. That might sound like: “I understand that this loss is painful for you, and I respect your need to mourn in your own way. I’m not able to participate, and that boundary is about my own health, not a judgment of you.”
+
+Funerals are for the living. But they are not for everyone. Protecting yourself now is not cruelty. It’s honesty, practiced late but carefully.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 

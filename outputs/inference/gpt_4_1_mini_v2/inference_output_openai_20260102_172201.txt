@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 17:22:01
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I'm male, 40 years old, work in tech. For a few years now, I've been attending a professional meetup of other tech enthusiasts and professionals. We meet a few times a month and engage in activities such as discussing technical books, delivering presentations, but mostly just hanging out and coding. My first year in the group, I met another guy, let's call him John. John and I seemed to be fast friends. We were both interested in the same types of technology and seemed to have compatible personalities. I was a bit further along in tech than he was, so I sort of took on a mentorship role. But over time, he's learned a lot too. More importantly, we've hung out a lot outside of tech, doing things like movie nights, going bowling together, and meeting up for coffee. We even write each other Christmas cards. \n\nThe problem is that over time, this friendship has gotten to be one-sided. Over the last year or two, I'm virtually always the only one to initiate. I'm always the one to suggest going out for coffee or going to see a movie or having lunch. And this is also the case in deeper aspects of the friendship. For instance, he has a disabled adult nephew. I often come over and perform basic tasks, such as helping to prepare meals or simply just talking to the nephew, which considerably eases the burden on the rest of the family. This isn't to toot my own horn, but just to establish context. But when it comes to reciprocity, John's nowhere to be found. My wife is on disability, and I have a niece who's been struggling with a nasty eating disorder and has had to live at home instead of leaving town for college. When I ask John to do simple things, such as drive me to my niece's medical appointment when my car is in the shop, or to just simply come over and help with my family the same way I help with his, he's nowhere to be found. He's always making excuses such as “I'm too tired” or “I have to work tomorrow.” Oh and also when I ran a marathon last year, he was nowhere to be found - either in encouraging me before the race when I was going through grueling training or in going to see the actual event. But when his local hockey league plays games, I'm almost always there. I realize that everybody has an outside life, but after years of this, you start to wonder. \n\nIt's gotten to a point where this is one-sided and exhausting. None of my other friends are like this. I feel guilty complaining about this and I don't want to hurt John's feelings. That's why I haven't brought this up before. But this isn't sustainable. What should I do?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings of exhaustion and frustration are completely understandable. Friendship, at its core, is a mutual exchange of care and support, and when that balance tips heavily to one side for a prolonged time, it’s natural to feel depleted and question the relationship. You’ve been generous not only with your time and energy but also with your emotional investment, stepping in to help with John’s family and showing up for his interests. Yet, when you need support or simple gestures of reciprocity, he’s consistently absent or unavailable.
+
+It’s important to recognize that your generosity doesn’t obligate you to continue in a dynamic that leaves you feeling drained and unappreciated. At the same time, it’s clear you value the friendship and want to preserve it without causing harm or discomfort. Bringing this up gently but honestly could be a way forward. You might choose a moment when you’re both relaxed and share how you’ve been feeling—not as an accusation but as a personal experience: how the one-sidedness affects you, how you’ve noticed the pattern, and how it’s become difficult to sustain.
+
+If John is receptive, this conversation could open the door to greater awareness on his part and possibly a more balanced friendship. If he responds defensively or dismissively, that in itself is telling. It may mean that the friendship, as it currently stands, isn’t meeting your needs or reflecting the mutual respect and care you deserve.
+
+In that case, it’s okay to recalibrate your expectations and the energy you invest. You might choose to step back a bit, focusing on relationships where support flows both ways. That doesn’t mean cutting John out abruptly or harshly, but rather protecting your own well-being by not overextending yourself in a relationship that feels one-sided.
+
+Feeling guilty about these feelings is common, but it’s worth remembering that friendships thrive on reciprocity and respect, not obligation or endurance alone. Your kindness is a strength, but it’s also a resource that needs to be replenished. Taking care of yourself in this situation is not only fair but necessary.
+==================================================
