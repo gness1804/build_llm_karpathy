@@ -1,0 +1,24 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-30 12:01:26
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Begin by naming what you feel: “I know you are grieving, and I want to support you. At the same time, I feel distant from you, and I miss the connection we had.” You are not asking him to speed up his grief or perform emotional labor for you. You are simply stating that the relationship has shifted and that the shift has consequences.
+
+Then ask gentle, open-ended questions: “What has been helping you? What feels hard right now?” Many people in deep grief withdraw because they do not know how to ask for support. Your questions can open a door, but only if they are offered without pressure.
+
+At the same time, set a boundary around your own need for connection. This is not a demand for emotional reciprocity. It is a request for the relationship to remain a two-way street: "I don't need you to share everything with me, but I do need to feel like we are still in this life together." Grief can isolate people, but relationships can be lifelines if both partners are willing to reach across the distance.
+==================================================
+
+Score: 7.5
+Reason: This response directly addresses the question and maintains second person throughout. It effectively acknowledges that the partner's grief is real and not "wrong," and it provides meaningful space for the letter writer's grief about the relationship. It offers concrete suggestions for offering presence (gentle, open-ended questions) and provides practical communication scripts. However, the response is somewhat short and doesn't explicitly mention "small rituals of connection" or outside support (counseling, grief group) as suggested in the test prompt criteria. The voice is clear and direct, showing good reasoning, but lacks the depth and nuanced warmth found in ideal examples. While it's a meaningful answer that addresses the question, it doesn't fully match the ideal voice's sophistication.

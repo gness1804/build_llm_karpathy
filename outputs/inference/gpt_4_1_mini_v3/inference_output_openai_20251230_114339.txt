@@ -1,0 +1,28 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v3:CsXJxRvh
+Generated at: 2025-12-30 11:43:39
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: Like many people in this difficult economy, my partner was laid off this year. As you can imagine, it's a stressful time for us. We're now currently living on one income, so we've had to cut back on things like eating out and entertainment. But on top of the financial stress, my partner is handling his job situation poorly. At first, after the initial shock wore off, he was applying for jobs regularly and even got a couple of interviews. These didn't go anywhere. But lately, he seems to have lost a lot of the drive that he once had. Now he's applying to maybe one job a month, if that. He spends the rest of his time playing video games and talking about how unfair the world is. When I try to talk to him about looking for jobs or trying to do improve his morale through means such as going out and meeting people, he brushes me off or shuts down. It seems like his unemployment situation has crushed him, and it's dragging us both down. I don't want to leave him because I love him, and because leaving him would really seem like I'm kicking him when he's down. But this situation also isn't sustainable. His negativity and avoidance of reality is rubbing off onto me and harming our relationship. How can I through to him, and how can we improve the situation?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: I'm sorry to hear about the difficult situation you and your partner are facing. It's understandable that his job loss has been a blow to his confidence and motivation, but it's also clear that his current behavior is having a negative impact on both of you.
+
+One thing to keep in mind is that while you want to be supportive, you also need to set boundaries for your own well-being. It's not your responsibility to fix his job situation or to be his therapist. You can encourage him to seek professional help if he seems to be struggling with depression or anxiety, but ultimately, he has to take responsibility for his own recovery.
+
+In terms of practical steps, it might be helpful to sit down together and come up with a plan for job searching that feels manageable for him. This could include setting specific goals for the number of applications he submits each week, or identifying networking events or job fairs to attend. You could also suggest that he reach out to a career counselor or job placement agency for additional support.
+
+At the same time, it's important to find ways to maintain your own sense of connection and joy outside of the job search. This could mean scheduling regular date nights or activities that you both enjoy, or finding ways to stay connected with friends and family. Remember that your relationship is about more than just the job situation, and that you both deserve to feel happy and fulfilled.
+
+Ultimately, the key is to approach the situation with empathy and patience, while also being clear about your own needs and boundaries. It's a difficult balance to strike, but with open communication and a willingness to work together, you can get through this challenging time.
+==================================================
+
+Score: 7.0
+Reason: This response directly addresses the question and maintains second person throughout. It acknowledges both partners' pain and provides a nuanced view that acknowledges the pain of unemployment without justifying the partner's problematic behavior. It suggests setting boundaries and provides practical steps (setting specific goals for job applications, suggesting career counseling). The response criticizes the problematic behaviors without demonizing the partner. However, it doesn't explicitly mention the "regular check-ins" suggested in the test prompt criteria, and it's somewhat generic and lacks the depth and sophisticated reasoning found in ideal examples. The voice is decent but lacks the nuanced warmth, compassion, and developed insight of the reference examples. While it's a meaningful answer that addresses the question, it doesn't fully match the ideal voice's sophistication and depth.

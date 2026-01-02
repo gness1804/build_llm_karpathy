@@ -1,0 +1,24 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v2:CsD4kFIr
+Generated at: 2025-12-29 20:23:11
+Temperature: 0.2
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Six months after a sudden death, many people are still in the thick of grief. Some begin to heal sooner, while others remain deeply affected for much longer. Your partner’s withdrawal may be a way of coping, especially if he feels overwhelmed by loss or uncertain about how to express his pain. At the same time, you are clearly experiencing your own sense of loss—both of the person he cared about and of the partner he used to know. That double burden is real and deserves acknowledgment.
+
+The hardest part of this letter is that there is no easy or elegant solution. You cannot “fix” his grief, nor should you try to. What you can do is create a space where both of you feel allowed to struggle. Start by naming the situation gently: “I know you’re going through a lot, and I want to be here for you. At the same time, I feel like I’m losing you, and that’s painful. Can we talk about how to support each other better?” That opens the door to conversation without pressing him to share before he’s ready.
+
+You might also suggest professional support, not as a punishment or a last resort, but as a tool for both of you. A grief counselor can help your partner process what he's feeling, and a couples therapist can help you navigate the changes together. Sometimes the best way to be present for someone else is to get clear on how to be present for yourself.
+==================================================
+
+Score: 8.5
+Reason: This is a very strong answer that closely matches the ideal voice from the reference file. It demonstrates sophisticated compassion, clear-headedness, and empathy. The response effectively acknowledges that the partner's grief is real and not "wrong," and it provides meaningful space for the letter writer's grief about the relationship ("you are clearly experiencing your own sense of loss—both of the person he cared about and of the partner he used to know"). It suggests outside support (grief counselor, couples therapist) without forcing it, and offers concrete communication scripts. The voice is nuanced, well-developed, and shows deep understanding of the complexity. It maintains second person throughout, stays on topic, and provides practical advice. The only minor gap is that it doesn't explicitly mention "small rituals of connection" as suggested in the test prompt criteria, but this is a very strong answer that effectively addresses the question with the right voice and depth.

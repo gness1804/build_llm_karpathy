@@ -1,0 +1,20 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2025-12-16 18:10:20
+
+PROMPT:
+QUESTION: I am the oldest of three siblings, and our dad’s health has been declining for a while. I live closest, so it has slowly become “understood” that I handle almost everything: appointments, medications, paperwork, talking to doctors. My siblings always say, “Thank you so much, we really appreciate you,” but do not actually step in. When I suggest that they take specific tasks, they say they are “too busy” or “not good with that kind of thing.” I am exhausted and starting to feel resentful, but I also feel guilty, because my dad did a lot for us growing up, and I do not want to abandon him. How do I set limits without feeling like a terrible child?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s completely understandable to feel exhausted and resentful when you’re carrying such a heavy load alone, especially when your siblings are not stepping up in a meaningful way. First, recognize that setting limits is not abandoning your dad—it’s a way to ensure you can continue to provide care sustainably without burning out. Your dad’s well-being matters, but so does your own.
+
+Start by having an honest conversation with your siblings. Share how overwhelmed you feel and explain that while you appreciate their words of thanks, you need their active help to manage this together. Be specific about tasks they can realistically handle, even if small—such as managing a particular appointment, handling paperwork, or checking in regularly by phone. If they say they’re “not good” at certain things, ask if they’d be willing to learn or if there are other ways they can contribute.
+
+Set clear boundaries by deciding what you can reasonably do without sacrificing your own health and well-being. For example, you might say, “I can handle Dad’s medications and doctor visits, but I need you to take care of the insurance paperwork.” If they continue to decline, it’s okay to say no to additional responsibilities and to seek outside help, such as professional caregiving services or support groups.
+
+Remember, feeling guilty is natural, but guilt should not drive you to exhaustion. Taking care of yourself enables you to be there for your dad longer and more effectively. You are not a terrible child—you are a loving and responsible one who needs support. Reaching out for help and setting boundaries is an act of strength and care.
+==================================================

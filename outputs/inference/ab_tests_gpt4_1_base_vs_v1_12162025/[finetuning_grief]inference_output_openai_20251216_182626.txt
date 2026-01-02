@@ -1,0 +1,20 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-16 18:26:26
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Begin by naming what you feel: “I know you are grieving, and I want to support you. At the same time, I feel distant from you, and I miss the connection we had.” Grief can make people withdraw, but it does not excuse leaving a partner in the dark. Your feelings matter.
+
+Then ask a gentle but direct question: “What do you need from me right now? And how can we stay connected even as you process this loss?” Some people need space, others need closeness. He may not know what he needs until he reflects on it. You might suggest small rituals of connection: a nightly check-in, a weekly walk, or even couples therapy. Therapy is not a sign of failure; it is a way to learn how to hold grief and relationship together.
+
+Also ask if he is talking to anyone else about his grief—a friend, a therapist, a support group. Some people withdraw from partners because they feel partners cannot bear the weight of their sorrow. If he has other outlets, he may be better able to return to the relationship emotionally. If he has none, encourage him to find one.
+
+You are not asking him to hurry his grief. You are asking him to grieve in a way that does not leave you emotionally abandoned. That is a reasonable request in any partnership.
+==================================================

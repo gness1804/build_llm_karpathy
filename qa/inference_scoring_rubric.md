@@ -7,7 +7,7 @@ Scores can be defined in increments of 0.5. For example, valid scores would be 2
 The prompts that I am using for inference come from `qa/test_prompts.md`. A script that is running inference against one of these prompts is `qa/run_inference.py`. Each time that the @run_inference.py file is run, it will use one of the prompts from the other file along with an optional "stem" to help nudge the model towards a good answer. The script will run an inference against the model and then spit out the answer. It's your job to evaluate this answer.
 
 An ideal answer will:
-- Match the voice and tone of the answers in the file `sources/v2/tier_a_examples.md`. 
+- Match the voice and tone of the answers in the file `sources/v2/v_2_1/tier_s_examples_created_by_me.md`. 
 - Directly answer the question posed to it.
 - Stay on topic; don't veer off into other unrelated subjects.
 - Keep the second person tone.
@@ -19,9 +19,9 @@ Here's a rough rubric for how to score a prompt's response to an inference run:
 - Score of 0 to 2: little to no coherence. Does not address the topic, or only addresses it tangentially. Includes lots of contradictions.
 - 3 to 4: more coherence than 0-2, but still suffers serious problems with staying on topic and introducing irrelevant characters or situations. Does not reflect the "ideal answer" voice.
 - 5 to 6: it is in the middle between total incoherence and perfection. You can start to see a semblance of a coherent response, but it still doesn't really stay on topic. It's evident that the model is doing a good job of memorizing training data, but not doing a good job of actually reasoning to answer the question posed to it.
-- 7 to 8: here, the model is doing a much better job of directly answering the question. You can see a passable answer that does address the question in a meaningful way. There still might be some contradictions and unrelated material, and the answer fails to fully match the voice that we're shooting for. But unlike the lower-scoring answers, a 7-9 does show evidence of seriously attempting to answer the original question.
+- 7 to 8: here, the model is doing a much better job of directly answering the question. You can see a passable answer that does address the question in a meaningful way. There still might be some contradictions and unrelated material, and the answer fails to fully match the voice that we're shooting for. But unlike the lower-scoring answers, a 7-8 does show evidence of seriously attempting to answer the original question.
 - 9: almost there! A strong answer that mostly mimics the ideal voice, but still falls a little short.
-- 10: this is perfect or virtually perfect. It answers the question flawlessly or nearly flawlessly. It matches the ideal voice from the tier_a_examples file. This is "gold."
+- 10: this is perfect or virtually perfect. It answers the question flawlessly or nearly flawlessly. It matches the ideal voice from the above-referenced file. This is "gold."
 
 ## Process
 

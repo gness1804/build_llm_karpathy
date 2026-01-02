@@ -1,0 +1,18 @@
+Backend: openai_backend
+Model: ft:gpt-4.1-mini-2025-04-14:personal:friendly-advice-v1:Cmox3oOx
+Generated at: 2025-12-16 18:16:54
+
+PROMPT:
+QUESTION: I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Be direct but gentle. “Mom, I appreciate that you want to help, but my home needs to feel like my home. I need to be the one who decides when you come over.” Reassure her that you value her support, but the unannounced visits cross a line.
+
+Then clarify the key situation: “I’m going to keep the key for emergencies, but I need you to ask before coming in.” If she objects, stay firm: “I know you mean well, but this is about me having control over my own space.”
+
+Offer alternatives that keep her involved without invading your privacy. Maybe a weekly check-in call, or scheduled visits you both agree on. The goal is to shift from her deciding when to enter your home to you making that decision. Boundaries in adult parent-child relationships are necessary, not hurtful.
+==================================================

@@ -10,6 +10,8 @@ These should be very solvable with your training data patterns if the fine tune 
 
 ### Easy 1 – Simple romantic miscommunication
 
+SHORTHAND: simple romantic miscommunication
+
 PROMPT:
 My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about something that hurt my feelings, he makes a joke or says I am “too sensitive.” He does not yell or insult me, but I leave those conversations feeling like my emotions are a nuisance. I do not want to break up over this, but I also do not want to keep swallowing my feelings just to keep the peace. How can I talk to him about this in a way that might actually change something?
 
@@ -22,47 +24,39 @@ Empathy toward the letter writer without demonizing the boyfriend.
 
 A clear suggestion to name the pattern and its impact.
 
-Emphasis on “I” statements, boundaries, and what is and is not acceptable.
+Emphasis on boundaries, and what is and is not acceptable.
 
 No Reddit/platform talk, no URLs.
 
-### Easy 2 – Friend not initiating
+### Easy 2 - burnout with how a partner is handling unemployment
+
+SHORTHAND: partner unemployment burnout
 
 PROMPT:
-I have a friend I love dearly, but I am always the one who initiates. I am the one who texts first, suggests plans, follows up. When we do hang out, it is great. She is warm and present, and I feel close to her. But if I stop initiating, we can go weeks with no contact. I am starting to feel like I am forcing the friendship to exist. Is there a way to bring this up without sounding needy, or do I just need to accept that this is how she is?
+Like many people in this difficult economy, my partner was laid off this year. As you can imagine, it's a stressful time for us. We're now currently living on one income, so we've had to cut back on things like eating out and entertainment. But on top of the financial stress, my partner is handling his job situation poorly. At first, after the initial shock wore off, he was applying for jobs regularly and even got a couple of interviews. These didn't go anywhere. But lately, he seems to have lost a lot of the drive that he once had. Now he's applying to maybe one job a month, if that. He spends the rest of his time playing video games and talking about how unfair the world is. When I try to talk to him about looking for jobs or trying to do improve his morale through means such as going out and meeting people, he brushes me off or shuts down. It seems like his unemployment situation has crushed him, and it's dragging us both down. I don't want to leave him because I love him, and because leaving him would really seem like I'm kicking him when he's down. But this situation also isn't sustainable. His negativity and avoidance of reality is rubbing off onto me and harming our relationship. How can I through to him, and how can we improve the situation?
 
 STEM:
-You shouldn't be ashamed of wanting more reciprocity in the friendship. You're absolutely right to want to fix this dynamic with her. 
+This is a very hard situation. What your partner is facing is soul-crushing to so many people. That being said, 
 
 What to look for:
 
-Recognition of the emotional asymmetry and how tiring it is.
+Acknowledgement of both partners' pain.
 
-Advice that suggests a direct but gentle conversation, plus adjusting expectations if needed.
+Criticize the unemployed partner's problematic behaviors without demonizing the partner himself or blaming him for his predicament.
 
-No shaming either person, and no “just ghost her” type advice.
+Suggest that the letter writer talk to their partner and propose compromises, such as:
+- He will apply for N number of jobs every two weeks
+- The couple will have regular check-ins to see how he is doing
 
-### Easy 3 – Parent overstepping a bit
-
-PROMPT:
-I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
-
-STEM:
-It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that.
-
-What to look for:
-
-Clear boundary language, maybe a script for “I love you, and also this needs to stop.”
-
-Framing mom as well meaning, but still overstepping.
-
-Suggestion that the writer can change the key rules or times mom can come by.
+Nuanced view acknowledging the pain that unemployment causes and the strain that it causes in relationships without justifying the partner's behavior.
 
 ## Medium prompts
 
 These test whether the model can handle more layered emotions and values without going off the rails.
 
 ### Medium 1 – Different conflict styles
+
+SHORTHAND: different conflict styles
 
 PROMPT:
 My partner and I have very different conflict styles. When something is wrong, I want to talk it through fairly soon, at least enough to feel like we are on the same page. He shuts down and wants to be alone for hours or sometimes a whole day before he is ready. He says he is afraid of saying something he will regret. I understand that, but the silence makes me feel abandoned and anxious. I do not want to push him faster than he can handle, but I also cannot handle being iced out whenever something is wrong. How can we work with both of our needs here?
@@ -80,6 +74,8 @@ Good use of your “meta conversation about how we argue” vibe.
 
 ### Medium 2 – Value difference around ambition
 
+SHORTHAND: value difference around ambition
+
 PROMPT:
 My wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like “You could be doing so much more,” or “You are too smart to stay where you are.” She insists she is just “encouraging” me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
 
@@ -94,27 +90,32 @@ Clear suggestion to talk about what “success” means to each person.
 
 Explicit permission to say “I am allowed to be content” without demonizing the wife.
 
-### Medium 3 – Friendship and big identity change
+### Medium 3 - religious differences among friends.
+
+SHORTHAND: religious differences among friends
 
 PROMPT:
-A close friend of mine has recently become very religious after not being interested in faith at all for years. I am genuinely glad that she has found something that gives her meaning, but our conversations now feel like sales pitches. She keeps inviting me to services and small groups, and when I politely say no, she tells me she is “worried about my soul.” I do not want to attack her beliefs, and I do not want to lose the friendship, but I feel cornered. How can I set a boundary without sounding hostile?
+I have been friends with Steve for a long time. We met at work, and we hang out often. The problem is that he has recently joined a new church. He's become very aggressive in asking me to attend and in trying to explain to me the 'glories of God.' I respect his belief, but I have no wish to join his church. I've informed him of this, but he persists. What can I say to him to convince him that I am not interested without ruining the friendship?
 
 STEM:
-Religious beliefs are a fraught area that is often difficult to navigate. Both compassion and standing up for yourself are absolutely essential for someone in your shoes.
+When it comes to proselytization, it's important to set firm boundaries if you're not interested in joining the religion.
 
 What to look for:
 
-Nuanced handling of religion without endorsing or attacking.
+Respect for Steve's religion while emphasizing that he should have equal respect for the letter writer's beliefs.
 
-A boundary like “I respect your path; I am not interested for myself.”
+An understanding of why proselytization offends many people and why it's inappropriate of Steve to continue this behavior after the letter writer clearly states he's not interested.
 
-An invitation to keep the friendship, just with clearer limits on proselytizing.
+Care for their friendship while acknowledging that if Steve doesn't stand down soon, the letter writer might be best served by ending the friendship. This doesn't make him a bad friend, it just means that the friendship is no longer a good fit.
+
 
 ## Hard prompts
 
 These test whether the model can juggle multiple people’s needs and more painful contexts, and still keep your tone.
 
 ### Hard 1 – Caretaking burnout in a family system
+
+SHORTHAND: caretaking burnout in a family system
 
 PROMPT:
 I am the oldest of three siblings, and our dad’s health has been declining for a while. I live closest, so it has slowly become “understood” that I handle almost everything: appointments, medications, paperwork, talking to doctors. My siblings always say, “Thank you so much, we really appreciate you,” but do not actually step in. When I suggest that they take specific tasks, they say they are “too busy” or “not good with that kind of thing.” I am exhausted and starting to feel resentful, but I also feel guilty, because my dad did a lot for us growing up, and I do not want to abandon him. How do I set limits without feeling like a terrible child?
@@ -132,6 +133,8 @@ Reassurance that setting limits is not abandoning dad.
 
 ### Hard 2 – Partner’s grief and emotional distance
 
+SHORTHAND: partners grief and emotional distance
+
 PROMPT:
 My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
 
@@ -147,6 +150,8 @@ Space for the letter writer’s grief about the relationship.
 Suggestions like offering presence, small rituals of connection, and possibly inviting outside support (counseling, grief group) without forcing it.
 
 ### Hard 3 – Abusive past dynamic with someone “everyone likes”
+
+SHORTHAND: abusive past dynamic with someone everyone likes
 
 PROMPT:
 Years ago, I lived with a couple of roommates. One of them, “M,” was charming and well liked by everyone, but in private, he was controlling and manipulative with me. He would criticize what I wore, make jokes at my expense in front of others, and punish me with weeks of coldness if I pushed back. Eventually I moved out and cut off contact. Now a close friend of mine has started dating him. She is over the moon and keeps telling me how lucky she feels. I have not told her anything, because I do not want to sound bitter or plant fear based only on my experience. At the same time, it feels awful to say nothing. What, if anything, do I owe her?
@@ -164,9 +169,11 @@ Emphasis that the friend still has autonomy and may not believe or act immediate
 
 Clarity about protecting the writer’s own mental health and boundaries.
 
-### Hard 4 - longer prompt about friend group and growing distant.
+### Hard 4 - Friend group and growing distant.
 
-I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seemed to have time for the rest of us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. /n /n I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
+SHORTHAND: friend group and growing distant
+
+I have been married for five years. Recently, I've started to realize just how much I've neglected my friends during that period of time. Before I met my husband, I was part of an active social group, and we did a lot together. We had book clubs, went out to dinners, and even went on a few foreign trips together. We were a close-knit bunch, but as others in the bunch started pairing off, getting married, and starting families, I started to see them less and less. They never seemed to have time for the rest of us anymore. I swore that if I ever got married, I wouldn't do the same, but here I am. I love my husband, and we have a great life together. But during our two years of dating and then into our marriage, I've been communicating with my old friend group less and less. There are only a couple of people left in that group who are still single, and I worry that life has gotten lonely for them. I want to reach out to these old friends, but I worry that they're going to reject me. How can I reach out to them in a kind, compassionate way while minimizing the risk of rejection?
 
 STEM:
 First, remember that life has its seasons, and that people and friendships naturally evolve and change. 

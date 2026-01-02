@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2025-12-29 20:48:22
+Temperature: 0.2
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner’s sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says “fine” and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re describing is a profound and painful shift in your relationship, and it’s completely understandable to feel as though you’ve lost the partner you knew, even though he is still physically present. Grief can change people in ways that ripple through their closest relationships, often creating a kind of emotional distance that feels isolating for both parties.
+
+Your partner’s retreat into silence and long hours at work may be his way of coping, even if it leaves you feeling shut out. When he says he’s “fine” and moves on, it might be his way of protecting himself from having to confront or share feelings he isn’t ready or able to express. This doesn’t mean he doesn’t care about you or your pain; it may simply mean he’s overwhelmed or unsure how to connect while carrying his own grief.
+
+At the same time, your hurt is real and deserves acknowledgment. It’s important to find ways to hold space for your feelings without expecting your partner to fix them or necessarily respond in the way you hope. This might mean seeking support outside the relationship—friends, family, or a counselor—where you can speak openly about your experience of loss and loneliness.
+
+When you do engage with your partner, gentle honesty can be a bridge. You might say something like, “I see you’re going through a lot, and I want to be here for you. I also want to share that I’m feeling distant and sad, and I miss how we used to connect.” This kind of sharing invites connection without pressuring him to respond immediately or in a particular way.
+
+Grief rarely follows a neat timeline, and sometimes it reshapes relationships in ways that require patience and adjustment. It’s okay to grieve the changes in your partnership alongside your partner’s grief for his sibling. Both experiences can coexist, and both deserve care.
+
+Ultimately, honoring your own needs might mean setting gentle boundaries around what you can give emotionally right now, while remaining open to the possibility that your partner may find his way back to you in time. This is a difficult and tender space to hold, and it’s okay to acknowledge how hard it is. You’re not alone in this, even if it feels that way.
+==================================================

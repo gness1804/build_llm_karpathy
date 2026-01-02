@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """
-Script to run inference on prompts from test_prompts.md
+Script to run inference on prompts from test_prompts.md or direct prompt text
 
 Usage:
+    # Using shorthand reference from test_prompts.md
     qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt'
     qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'path/to/checkpoint1.pt'
+    
+    # Using direct prompt text (auto-detected for long prompts or those with newlines)
+    qa/run_inference.py --prompt 'My husband left me. He left me for a much younger woman.' --model_type openai_backend
+    
+    # Explicitly force direct prompt mode
+    qa/run_inference.py --prompt 'Short text' --direct-prompt --model_type openai_backend
 """
 
 import os
@@ -60,6 +67,7 @@ def load_env_file(env_path):
 def parse_prompts_file(prompts_path):
     """
     Parse test_prompts.md to extract prompts and stems, creating a mapping.
+    Uses explicit SHORTHAND values from the file instead of generating from titles.
     
     Args:
         prompts_path: Path to test_prompts.md
@@ -76,40 +84,44 @@ def parse_prompts_file(prompts_path):
     with open(prompts_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Pattern to match prompt sections with STEM
-    # Matches: ### Easy 1 – Simple romantic miscommunication
-    # Then captures PROMPT: and STEM: sections
-    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*(.+?)\n\nPROMPT:\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
+    # Pattern to match prompt sections with explicit SHORTHAND
+    # Matches: ### Easy 1 – Title
+    #         SHORTHAND: explicit shorthand
+    #         PROMPT:
+    #         <prompt text>
+    #         STEM:
+    #         <stem text>
+    pattern = r'###\s+(?:Easy|Medium|Hard)\s+\d+\s*[–-]\s*.+?\n\nSHORTHAND:\s*(.+?)\n\nPROMPT:\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     
     matches = re.finditer(pattern, content, re.DOTALL)
     
     for match in matches:
-        title = match.group(1).strip()
+        shorthand_raw = match.group(1).strip()
         prompt_text = match.group(2).strip()
         stem_text = match.group(3).strip()
         
-        # Create shorthand name from title (lowercase, replace spaces/special chars)
-        shorthand = title.lower()
-        # Remove special characters and normalize spaces
-        shorthand = re.sub(r'[^\w\s]', '', shorthand)
-        shorthand = re.sub(r'\s+', ' ', shorthand).strip()
+        # Normalize shorthand to lowercase and clean up whitespace
+        shorthand = shorthand_raw.lower().strip()
+        shorthand = re.sub(r'\s+', ' ', shorthand)
         
         prompts[shorthand] = {
             'prompt': prompt_text,
             'stem': stem_text
         }
     
-    # Handle special case: "Hard 4 - longer prompt about friend group and growing distant."
-    # This one doesn't follow the standard format - it has PROMPT and STEM but no "PROMPT:" label
-    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*(.+?)\n\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
+    # Handle special case: "Hard 4" which doesn't have "PROMPT:" label
+    # Format: SHORTHAND: ...\n\n<prompt text>\n\nSTEM: ...
+    hard4_pattern = r'###\s+Hard\s+4\s*[–-]\s*.+?\n\nSHORTHAND:\s*(.+?)\n\n(.+?)\n\nSTEM:\n(.+?)(?=\n\nWhat to look for:)'
     hard4_match = re.search(hard4_pattern, content, re.DOTALL)
     if hard4_match:
-        title = hard4_match.group(1).strip()
+        shorthand_raw = hard4_match.group(1).strip()
         prompt_text = hard4_match.group(2).strip()
         stem_text = hard4_match.group(3).strip()
-        shorthand = title.lower()
-        shorthand = re.sub(r'[^\w\s]', '', shorthand)
-        shorthand = re.sub(r'\s+', ' ', shorthand).strip()
+        
+        # Normalize shorthand to lowercase and clean up whitespace
+        shorthand = shorthand_raw.lower().strip()
+        shorthand = re.sub(r'\s+', ' ', shorthand)
+        
         prompts[shorthand] = {
             'prompt': prompt_text,
             'stem': stem_text
@@ -118,13 +130,14 @@ def parse_prompts_file(prompts_path):
     return prompts
 
 
-def find_prompt_by_shorthand(shorthand, prompts):
+def find_prompt_by_shorthand(shorthand, prompts, strict=False):
     """
     Find a prompt by shorthand name (fuzzy matching).
     
     Args:
         shorthand: The shorthand name to search for
         prompts: Dictionary of prompts (with 'prompt' and 'stem' keys)
+        strict: If True, only do exact matching (no fuzzy matching)
         
     Returns:
         tuple: (matched_key, prompt_dict) or (None, None) if not found
@@ -135,36 +148,46 @@ def find_prompt_by_shorthand(shorthand, prompts):
     if shorthand_lower in prompts:
         return shorthand_lower, prompts[shorthand_lower]
     
-    # Partial match - check if shorthand is contained in any key
-    for key, prompt_dict in prompts.items():
-        if shorthand_lower in key or key in shorthand_lower:
-            return key, prompt_dict
+    # If strict mode, only do exact match
+    if strict:
+        return None, None
     
-    # Fuzzy match - check if any words match
-    shorthand_words = set(shorthand_lower.split())
-    best_match = None
-    best_score = 0
+    # For non-strict mode, only do substring matching if the input is short
+    # (to avoid matching long prompts that happen to contain shorthand words)
+    if len(shorthand_lower) <= 100:
+        # Partial match - check if shorthand is contained in any key (but only for short inputs)
+        for key, prompt_dict in prompts.items():
+            if shorthand_lower in key or key in shorthand_lower:
+                return key, prompt_dict
+        
+        # Fuzzy match - check if any words match (only for short inputs)
+        shorthand_words = set(shorthand_lower.split())
+        best_match = None
+        best_score = 0
+        
+        for key, prompt_dict in prompts.items():
+            key_words = set(key.split())
+            common_words = shorthand_words & key_words
+            if common_words and len(common_words) > best_score:
+                best_score = len(common_words)
+                best_match = (key, prompt_dict)
+        
+        return best_match if best_match else (None, None)
     
-    for key, prompt_dict in prompts.items():
-        key_words = set(key.split())
-        common_words = shorthand_words & key_words
-        if common_words and len(common_words) > best_score:
-            best_score = len(common_words)
-            best_match = (key, prompt_dict)
-    
-    return best_match if best_match else (None, None)
+    # If input is long, don't do fuzzy matching
+    return None, None
 
 
 def list_available_prompts(prompts):
-    """Print all available prompts."""
-    print("\nAvailable prompts:")
-    print("=" * 60)
-    for key in sorted(prompts.keys()):
+    """Print all available prompts with their explicit shorthands."""
+    print("\nAvailable prompts (use these shorthands with --prompt):")
+    print("=" * 80)
+    for shorthand in sorted(prompts.keys()):
         # Show first 60 chars of prompt
-        prompt_text = prompts[key]['prompt']
+        prompt_text = prompts[shorthand]['prompt']
         preview = prompt_text[:60].replace('\n', ' ')
-        print(f"  {key:40} | {preview}...")
-    print("=" * 60)
+        print(f"  Shorthand: {shorthand:50} | {preview}...")
+    print("=" * 80)
 
 
 def main():
@@ -173,22 +196,37 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
+  # Using shorthand references from test_prompts.md
   qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt'
   qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'checkpoints/model.pt'
   qa/run_inference.py --prompt 'value difference around ambition' --checkpoint 'checkpoints/model.pt'
+  
+  # Using direct prompt text (auto-detected for long prompts or those with newlines)
+  qa/run_inference.py --prompt 'My husband left me. He left me for a much younger woman.' --model_type openai_backend
+  qa/run_inference.py --prompt 'What are my options?' --checkpoint 'checkpoints/model.pt'
+  
+  # Explicitly force direct prompt mode (bypasses shorthand lookup)
+  qa/run_inference.py --prompt 'Short text' --direct-prompt --model_type openai_backend
+  
   qa/run_inference.py --list  # List all available prompts
         """
     )
     parser.add_argument(
         '--prompt',
         type=str,
-        help='Shorthand name of the prompt to run (e.g., "parent overstepping")'
+        help='Shorthand name of the prompt to run (e.g., "parent overstepping") or a full prompt text. Long prompts (>200 chars) or prompts with newlines are automatically treated as direct prompts.'
     )
     parser.add_argument(
         '--checkpoint',
         type=str,
         required=False,
         help='Path to the checkpoint file'
+    )
+    parser.add_argument(
+        '--model_type',
+        type=str,
+        choices=["gpt2", "openai_backend", "from_scratch"], 
+        default="gpt2"
     )
     parser.add_argument(
         '--list',
@@ -199,6 +237,22 @@ Examples:
         '--use-stem',
         action='store_true',
         help='Include the STEM (first sentence of ideal answer) after ANSWER: to nudge the model'
+    )
+    parser.add_argument(
+        '--direct-prompt',
+        action='store_true',
+        help='Treat --prompt as direct prompt text, bypassing shorthand lookup'
+    )
+    parser.add_argument(
+        '--save-output',
+        action='store_true',
+        help='Save the output to a file'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=str,
+        default='outputs/inference',
+        help='Directory to save the output to'
     )
     
     args = parser.parse_args()
@@ -215,39 +269,60 @@ Examples:
         print("❌ Error: --prompt is required (use --list to see available prompts)")
         sys.exit(1)
     
-    if not args.checkpoint:
-        print("❌ Error: --checkpoint is required")
+    if not args.checkpoint and args.model_type not in ["gpt2", "openai_backend"]:
+        print("❌ Error: --checkpoint is required when not using a built-in model type")
         sys.exit(1)
     
-    # Find the prompt
-    matched_key, prompt_dict = find_prompt_by_shorthand(args.prompt, prompts)
+    # Determine if we should treat this as a direct prompt
+    # Heuristics: if --direct-prompt flag is set, or prompt is very long, or contains newlines
+    is_direct_prompt = args.direct_prompt
+    if not is_direct_prompt:
+        # Auto-detect: long prompts (> 200 chars) or prompts with newlines are likely direct prompts
+        if len(args.prompt) > 200 or '\n' in args.prompt:
+            is_direct_prompt = True
+            print(f"💡 Detected long prompt or newlines - treating as direct prompt text")
     
-    if not matched_key:
-        print(f"❌ Error: Prompt '{args.prompt}' not found")
-        print("\nAvailable prompts:")
-        for key in sorted(prompts.keys()):
-            print(f"  - {key}")
-        sys.exit(1)
+    # Try to find the prompt as a shorthand reference (unless it's a direct prompt)
+    if is_direct_prompt:
+        # Treat as direct prompt text
+        prompt_text = args.prompt
+        stem_text = ''
+        print(f"✅ Using direct prompt text")
+    else:
+        # Try shorthand lookup with strict matching for longer inputs
+        strict_mode = len(args.prompt) > 50  # Use strict mode for inputs longer than 50 chars
+        matched_key, prompt_dict = find_prompt_by_shorthand(args.prompt, prompts, strict=strict_mode)
+        
+        if matched_key:
+            # Found as shorthand reference
+            prompt_text = prompt_dict['prompt']
+            stem_text = prompt_dict.get('stem', '')
+            print(f"✅ Found prompt: {matched_key}")
+        else:
+            # Not found in shorthand, treat as direct prompt text
+            prompt_text = args.prompt
+            stem_text = ''
+            print(f"✅ Using direct prompt text (not found in shorthand references)")
+    if args.checkpoint:
+        print(f"   Using checkpoint: {args.checkpoint}")
+    print(f"   Using model type: {args.model_type.upper()}")
     
-    prompt_text = prompt_dict['prompt']
-    stem_text = prompt_dict.get('stem', '')
-    
-    print(f"✅ Found prompt: {matched_key}")
-    print(f"   Using checkpoint: {args.checkpoint}")
     if args.use_stem:
         if stem_text:
             print(f"   Using STEM: {stem_text[:60]}...")
         else:
             print(f"   ⚠️  Warning: --use-stem specified but no STEM found for this prompt")
     
-    # Check if checkpoint exists
-    checkpoint_path = Path(args.checkpoint)
-    if not checkpoint_path.is_absolute():
-        checkpoint_path = PROJECT_ROOT / checkpoint_path
-    
-    if not checkpoint_path.exists():
-        print(f"❌ Error: Checkpoint not found at {checkpoint_path}")
-        sys.exit(1)
+    # Check if checkpoint exists (only if provided)
+    checkpoint_path = None
+    if args.checkpoint:
+        checkpoint_path = Path(args.checkpoint)
+        if not checkpoint_path.is_absolute():
+            checkpoint_path = PROJECT_ROOT / checkpoint_path
+        
+        if not checkpoint_path.exists():
+            print(f"❌ Error: Checkpoint not found at {checkpoint_path}")
+            sys.exit(1)
     
     # Load .env file
     env_path = SCRIPT_DIR / '.env'
@@ -273,17 +348,24 @@ Examples:
         formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
     
     # Override with command-line arguments
-    env['CHECKPOINT_PATH'] = str(checkpoint_path)
+    if checkpoint_path:
+        env['CHECKPOINT_PATH'] = str(checkpoint_path)
     env['PROMPT'] = formatted_prompt
     env['MODE'] = 'inference'  # Ensure MODE is set
+    env['MODEL_TYPE'] = args.model_type
+    if args.save_output:
+        env['SAVE_OUTPUT'] = 'True'
+    if args.output_dir:
+        env['OUTPUT_DIR'] = str(args.output_dir)
     
     # Print what we're running
-    print(f"\n📝 Prompt preview (first 100 chars):")
+    print(f"\n📏 Prompt preview (first 100 chars):")
     print(f"   {prompt_text_clean[:100]}...")
     print(f"\n📋 Full formatted prompt (first 150 chars):")
     print(f"   {formatted_prompt[:150]}...")
     print(f"\n🚀 Running inference...")
-    print(f"   Checkpoint: {checkpoint_path}")
+    if checkpoint_path:
+        print(f"   Checkpoint: {checkpoint_path}")
     print(f"   Environment variables from .env: {', '.join(env_vars.keys())}")
     
     # Run the inference script

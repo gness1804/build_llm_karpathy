@@ -1,0 +1,35 @@
+💡 Detected long prompt or newlines - treating as direct prompt text
+✅ Using direct prompt text
+   Using model type: OPENAI_BACKEND
+
+📏 Prompt preview (first 100 chars):
+   My boyfriend and I have been together for almost a year. We get along well, but I have one recurring...
+
+📋 Full formatted prompt (first 150 chars):
+   QUESTION: My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about someth...
+
+🚀 Running inference...
+   Environment variables from .env: 
+
+==================================================
+INFERENCE MODE (OpenAI backend)
+==================================================
+
+Prompt: QUESTION: My boyfriend and I have been together for almost a year. We get along well, but I have one recurring complaint. When I tell him about something that hurt my feelings, he makes a joke or says I am “too sensitive.” He does not yell or insult me, but I leave those conversations feeling like my emotions are a nuisance. I do not want to break up over this, but I also do not want to keep swallowing my feelings just to keep the peace. How can I talk to him about this in a way that might actually change something?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Start by naming the pattern without judgment. For example: “When I bring up something that hurt my feelings, sometimes you joke about it or say I’m being too sensitive. I know you probably don’t mean to dismiss me, but that’s how it feels.”
+
+Then explain the impact: “When my feelings are minimized, I stop wanting to share them with you. That creates distance between us, and I don’t want that.”
+
+Finally, offer a concrete alternative: “If I tell you something that hurt me, can you try to respond as if it matters, even if it seems small to you? I’m not asking you to solve it. I’m just asking you to show that my feelings are safe with you.”
+
+He may slip up, but if he cares and if the relationship is strong, you should see gradual improvement. If you don't, or if he reacts by saying there's no "right" way to handle feelings or that you're asking him to walk on eggshells, those are signs that this might be a fundamental incompatibility. Emotional safety is not about being shielded from all feedback. It's about having your feelings heard and respected, especially by someone who isn't obligated to do so but chooses to do so because they love you.
+==================================================
+
+Score: 9.5
+Reason: This is an excellent response that closely matches the ideal voice from the reference file. It directly answers the question with practical, concrete advice (naming the pattern, explaining impact, offering alternatives). The response maintains second person throughout, shows empathy without demonizing the boyfriend, and stays completely on topic. The voice demonstrates the right combination of compassion, clear-headedness, and empathy. It addresses all the criteria from the test prompt: empathy toward the letter writer, clear suggestions using "I" statements, and appropriate boundaries. The only minor consideration is that it could be slightly more conversational in a few places, but overall this is a very strong, nearly flawless answer that effectively emulates the ideal voice.
