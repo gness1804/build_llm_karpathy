@@ -391,23 +391,42 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I recently ended things with my girlfriend, and now I regret having done so. It's always easy to idealize somebody after a breakup, but in this case, she really was the total package: kind, compassionate, very smart, and seemed to really love me. So why did I let her go? Because of family pressure. 
+
+Our family has always focused on academic achievement. In my immediate family alone, there are two doctors, a lawyer, and an accountant. I myself am a professor at a mid-sized regional university. I was raised to believe in the value of education. Unfortunately, in our case, this too often veered into perfectionism. And even worse, into mistreatment or dismissal of others who didn't meet our lofty academic standards. 
+
+My ex is a social worker with "only" an undergrad degree from a state school. She also had always done well in school, but it wasn't her life. She cared more about improving the world and other passions like art. That's a major reason why I fell for her, but it's also why my family never truly accepted her. Sometimes they paid lip service to accepting her, but more often they would make snarky comments behind her back about how she didn't measure up or how she wasn't "Yale material." Those comments affected me more than I thought. Last month, I found myself telling her that we just weren't a good fit. I never really explained why, but she was smart enough to figure it out. She said something to the effect of, "Well, if you think you're too good for me, then I never want to see you again." Which I deserved.
+
+I sorely regret ending things. Is there a way back into her life? Or even failing that, should I simply reach out to her to apologize? It's been a few weeks, and we haven't talked since that conversation. We didn't live together or have kids or anything, so it was a relatively easy split logistically. But emotionally, I'm still tied in knots. Help?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your regret and emotional turmoil are understandable, especially given the way family pressures influenced your decision. It sounds like your breakup wasn’t just about your feelings for her, but also about navigating the weight of expectations that didn’t align with your relationship. That kind of conflict can leave a deep ache, and it’s natural to question whether things might have been different.
+
+If you’re considering reaching out, it’s important to approach this with honesty and humility. A sincere apology that acknowledges the role your family’s attitudes played—and how that affected your actions—could be meaningful. It might help her understand where you were coming from, even if it doesn’t erase the hurt. But be prepared that she may have her own boundaries now, and her response might not be what you hope for.
+
+As for trying to rekindle the relationship, that depends on many factors: whether she’s open to reconnecting, whether the underlying issues—like family pressure and your own feelings about it—can be addressed, and whether both of you want to invest in rebuilding trust. Sometimes, the passage of time and clear communication can open doors, but it’s also possible that the break has created distance that’s hard to bridge.
+
+Regardless of what happens with her, this moment offers a chance for reflection on what you value and how you want to navigate family expectations moving forward. Your regret signals that your feelings for her were real and meaningful, and honoring that truth—whether together or apart—can guide you toward greater clarity and peace. Taking small, thoughtful steps, like reaching out with a genuine apology, can be a way to start untangling those knots. But be gentle with yourself and with her as you do so.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+- Tries to empathize with the letter writer.
+- Avoids using therapeutic language or prescribing a treatment plan.
 Weaknesses:
-- ...
-- ...
+- Lacks a clear moral voice. Equivocates a bit. 
+- Tries too hard to be neutral rather than directly calling out the harm.
+- Tone is a bit too generic and bland.
+- The response lacks a clear boundary to be set.
+- Grammar: uses em-dashes. 
 
 OUTPUT: 
-[My Tier S response]
+You were clearly caught between a woman you loved and a family that possesses a narrow definition of success in life. And now you regret having listened to your family rather than honoring your own feelings and those of the person that you were with. It was an awful situation, and I'm sorry you had to go through it. But it seems like a hard lesson in what not to do when faced with conflict between family expectations and what your heart is telling you.
+
+I would not attempt further contact with her. You ended things. She made it clear she didn't want to interact with you anymore. And even though you didn't respect her life choices during the relationship, you should at least respect her choice now to end contact with you. If by chance she does reach out to you, which would probably be for logistical reasons rather than any interest in renewing your relationship, do not attempt to win her back. You can tell her something like, "I'm so sorry for how I treated you. I don't expect you to forgive me, and I certainly don't expect you to take me back. But I just wanted to express that I feel awful for having treated you so poorly. You didn't deserve that, and I didn't deserve you." And mean it.
+
+If she doesn't reach out, don't reach out to her. You seem wracked with guilt and a strong need to apologize to her. But reaching out would probably do more harm than good, especially since she expressed the wish to not see you again. And she would likely take an unsolicited apology as an empty gesture meant more to comfort you than to sincerely atone for the mistakes that you made and the hurt that you caused. Guilt can be a useful signal to us to do better. Now that you're more aware of how others' opinions can sway you and of some of your own blind spots, you'll be better equipped for future relationships. Let this person go. Do better next time.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -479,23 +498,44 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My wife and I are facing a quandary concerning faith. When we met, we were at a somewhat different place regarding religion, but we felt that we were basically compatible. Long story short, she believes in God, I don't, but we both have the same basic values. I let her know of my leanings early on, and she was always accepting. She comes from a very religious family, but questions many aspects of organized religions, particularly the one that she was raised in. We went through a rough patch with her parents accepting me because of the religious issues, but we moved beyond that.
+
+Now, however, we seem to be moving in opposite directions. If you can imagine a 0-to-10 scale with respect to warmth towards religion, with 0 being completely cold to religion and 10 being extremely accepting, as of this time a year ago, I was probably about a 4 while she was a 6 or 7. But now she's probably an 8 or a 9, while I'm a 2. For a variety of reasons, not least of which is the current political climate in this country, I'm feeling even more turned off by religion than I was a year or two ago. But at the same time, she's interested in re-exploring the faith she grew up in. She's even singing in a church choir and has been for a few months. Recently, I saw a cross which had been banished to our garage, now in our guest bedroom on the bed.
+
+How can we accommodate this difference? We haven't had any arguments over it yet, but I feel that there's some tension. I want to respect her faith and her own spiritual decisions, but my allergic reaction to religion makes that difficult. How can we both coexist under the same roof with different attitudes towards religion?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you and your wife are navigating a deeply personal and evolving part of your relationship, and that can bring up a mix of emotions—curiosity, discomfort, hope, and perhaps even some unease. It’s clear that you both care about each other and want to honor each other’s experiences, even as your paths diverge in this area. The fact that you’ve maintained respect and openness so far is a meaningful foundation.
+
+Living with differing views on something as intimate as faith can feel like walking a delicate line. Your feelings of being “allergic” to religion are valid and important to acknowledge, just as her renewed interest and participation in her faith community are significant to her. It’s natural for tension to arise when something so central to identity and values shifts, even if it’s subtle or unspoken.
+
+One way to approach this might be to create small, intentional spaces where each of you can express what this part of your lives means without fear of judgment or pressure. This doesn’t mean you need to agree or even fully understand each other’s perspectives, but simply that you recognize the importance of these feelings and choices. It’s also okay to set gentle boundaries around what feels comfortable for you, while remaining curious about what brings her joy and meaning.
+
+Remember, coexistence doesn’t require uniformity. Sometimes, it’s about holding two different truths in the same space and allowing each other the freedom to explore and grow. This might mean accepting that some days feel more challenging than others, and that’s part of the ongoing dance of partnership.
+
+Your awareness of the tension before it escalates is a strength. It opens the door to ongoing conversations—ones that don’t have to solve everything but can deepen your understanding of each other’s inner worlds. In time, you may find new ways to support each other that honor both your boundaries and your connection.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+- Response tries to address both sides of the issue in a meaningful way.
+- Affirms the letter writer's struggle without being condescending.
 Weaknesses:
-- ...
-- ...
+- Language is overly therapeutic.
+- Lacks the moral clarity and decisiveness of the best responses. Language is overly wishy-washy.
+- Uses cliched language such as "the ongoing dance of partnership."
+- The response mentions "gentle boundaries," but doesn't offer any specificity as to which boundaries to set and why.
+- Grammar: uses em-dashes. 
 
 OUTPUT: 
-[My Tier S response]
+Religious differences can be particularly painful because they often involve not only abstract belief but also matters of identity, family, and morality. And when one feels that a fragile equilibrium in their life is disrupted, it's often unsettling. Particularly when that fragile equilibrium was perceived to protect them from something that's long been triggering. But it sounds like you and your wife are both coming from a place of compassion and respect. That matters a great deal. 
+
+This will position you better to explore the thorny issues your letter raises. I would sit down with her and have a calm, respectful conversation regarding your religious differences. Mention that you've observed her re-embracing the faith that she grew up in. Don't express judgment or condemnation. Then give your side of the story--that religion is still triggering for you and you need a certain degree of space from it. You might even remind her of one or two examples, if you can keep from turning it into a laundry list of grievances. You might say something like, "Honey, I know that we have differences in opinion regarding religion and its place in our lives. But I want us to come to a solution that honors and respects both of us, our shared space, and our respective mental and emotional health. What are your suggestions?"
+
+Such a conversation is important because ultimately, a compromise will be needed here. Maybe she can place the cross in a room that only she mostly uses. Maybe you agree to attend services with her once or twice a month when her choir is singing. And these services need not all be in person. Many churches now offer hybrid services; that is, services both online and in-person. If she's amenable to it, maybe you can agree to an arrangement like you attending church once a month when she's singing, and for the rest of the services, you watch virtually. This could be a way of supporting her without being in the triggering environment as much. And, of course, she should agree to give you the space to explore your own philosophy and ideas without judgment. There are many secular groups in many parts of the country such as the Ethical Society, humanist groups, and atheist groups. I have known multiple non-religious people who have found much of the same community and sense of purpose in these groups as many others do in churches, but without the beliefs or rituals that they find problematic.
+
+By marrying into a religious family, apparently you're already accommodating religion to a certain extent. Remember also that making these accommodations for your wife doesn't imply that you believe what she does or vice versa. Making modest accommodations for each other isn't surrender. It's displaying love and respect. And ultimately, that's what life should be all about, whether or not one is devout.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -567,23 +607,52 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My dad and I have a complex relationship. Growing up, my household was fairly traditional. He was the main breadwinner, my mother stayed at home during most of my childhood, and he had very traditional attitudes about who should be in charge of the household. On the plus side, he provided for us well financially. He was able to give three kids a materially comfortable childhood and then send all of those kids to college without them owing a dime in debt, all with a mostly non-working spouse. An achievement that neither I nor most others in my generation would be able to replicate. And he was always there for my sports practices and taught me a lot about work ethic. On the negative side of the ledger, he had serious problems with anger. He was unable to control his anger, and that frequently made the house a terrifying place to live in. He never physically abused us aside from spanking, which is seen as abuse in some quarters. But he would often erupt at the smallest provocation and would do things like destroy my toy planes that he and I had built together when I was a small child. He made it clear that we should live in fear of him. All of us, including my mom, walked on eggshells. 
+
+Now I'm in my 40s. I don't have kids of my own partly due to my own difficult childhood. But I am married, and I try every day to treat my spouse and others differently than my father treated us. Now my father is in his mid-70s. Given his family's historical longevity, he has maybe ten years left. Perhaps add one or three for modern medical advances that weren't around when his own parents were in their last years. My dilemma is whether I should confront him about what happened long ago. I feel that confronting him might give me a sense of closure if I make clear that what he did wasn't okay, and that he should at least acknowledge it, if not apologize for it. And I worry that if I don't talk to him about it within the next few years, then I will forever lose my chance to do so and forever regret it. Another part of me says that I probably wouldn't get an apology from him anyway, and that pursuing one is just a recipe for emotional disappointment. That would compound the pain he inflicted even more. What should I do?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation is deeply nuanced, and your feelings about it are entirely valid. You carry the weight of a childhood shaped by both provision and fear, love and anger, and now you face the difficult question of whether to revisit those old wounds with your father.
+
+On one hand, confronting him could be a way to reclaim your story, to speak your truth, and to seek acknowledgment for the pain you endured. That acknowledgment might help you find some measure of peace or closure, especially given the limited time you anticipate having with him. It’s natural to want to express how those experiences affected you and to hear his perspective, if only to understand or to feel seen.
+
+On the other hand, you’re right to consider the possibility that he may not respond in the way you hope. If he is unable or unwilling to recognize the harm he caused, or if he reacts defensively, that could reopen wounds rather than heal them. The risk of disappointment is real, and it’s important to weigh whether you’re prepared for that outcome.
+
+There is no one-size-fits-all answer here, but a few reflections might help you decide:
+
+1. What is your primary goal in having this conversation? Is it to be heard, to understand him, to offer forgiveness, or to seek an apology? Clarifying your own intentions can guide how you approach it.
+
+2. How do you imagine the conversation unfolding? Are you prepared for the possibility that it might not go as you hope? Sometimes writing a letter first, even if you don’t send it, can help clarify your feelings and what you want to say.
+
+3. Consider your emotional safety. If you think the conversation could cause you significant distress or reopen trauma without support, it might be wise to seek support from trusted friends or a counselor before proceeding.
+
+4. Remember that closure doesn’t always come from others. Sometimes it comes from within, through your own reflection and the way you choose to live your life now.
+
+Ultimately, the choice to confront your father is deeply personal. If you decide to proceed, approaching the conversation with compassion for both yourself and him—acknowledging the complexity of his character and your shared history—might create space for something meaningful, even if it falls short of an apology.
+
+If you decide not to confront him, that too is a valid choice. Protecting your peace and focusing on the life and relationships you nurture now can be a powerful form of healing.
+
+Whatever you choose, it’s clear you have a thoughtful and caring heart, and that you are committed to breaking cycles and creating a different experience in your own family. That commitment itself is a profound way of honoring your past and shaping your future.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+- Does a decent job of affirming the letter writer's pain and complex emotions.
+- Does include a good concrete suggestion to write a letter to the father without sending it, which is also what the model response does.
+- Exhibits a degree of nuance in approaching the situation and respects the dignity of both the letter writer and his father.
 Weaknesses:
-- ...
-- ...
+- Offers a "laundry list" of solutions which comes across as generic and screams "An LLM wrote this".
+- Does not adequately name the harm that the letter-writer's father caused, which weakens the response's moral voice.
+- Grammar: uses em-dashes. 
+- The ending lacks a clear moral "punch."
 
 OUTPUT: 
-[My Tier S response]
+When somebody you love hurts you deeply, it often leaves scars that last for a long time. Many people feel the need to try to close these wounds by confronting the person who caused them. But in any situation, not just this one, conditioning healing or closure upon somebody else's approval or apology is setting ourselves up for painful disappointment.
+
+A recurring theme in this and other advice columns is boundaries. That is, setting appropriate boundaries for people who cause harm, be it intentional or otherwise. In your particular case, though, the tragedy is that children can't really set boundaries in the same way that adults can. They lack the power to do so. So your father's constant violations of reasonable boundaries in your household, against you and your siblings and your mother, happened apparently unimpeded. At this point, the boundary that you now have the power to set is with your own expectations. I would not recommend reaching out to him if the purpose is to gain an apology or otherwise get closure from him. Considering he's not reached out to you about this in all these years, all these decades, it's unlikely he'll be receptive to your message now. Confronting him directly would likely reopen old wounds without giving you what you want.
+
+I would recommend a more introspective approach. Write him a letter you know he will never read because you will never give it to him. In this letter, don't pull punches. Don't hold back. Tell him exactly how his actions make you feel, how they hurt you, and what you want from him now. In many cases, people find that this exercise enables them to defuse a lot of pain and emotional tension, and it reduces their urge to confront the person for real. And if you aren't already, you might also consider working with a therapist to help you process some of these issues. Your dad's treatment of you was definitely not okay, but you don't need to compound the pain by hoping for a closure that probably will never come. Your past self deserved better, and you deserve better now.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
