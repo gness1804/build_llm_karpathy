@@ -1147,23 +1147,39 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’m getting married soon, and I’m seriously considering not inviting my father. He has been verbally abusive and relentlessly negative my entire life. We’re currently not speaking. He’s elderly and in poor health, and some relatives say I’ll regret excluding him. Am I being too rigid by not wanting him at my wedding?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Choosing who to invite to your wedding is deeply personal, and it’s understandable that you’re wrestling with this decision, especially when it involves a parent with whom you have a difficult history. Your feelings about your father’s verbal abuse and negativity are valid, and it’s important to honor your emotional well-being, particularly on a day meant to celebrate joy and connection.
+
+The fact that you’re not currently speaking suggests that the relationship is strained, and inviting him might reopen wounds or create tension during what should be a supportive and happy occasion. While relatives may worry about future regrets, their perspective often comes from a place of tradition or hope for reconciliation, which doesn’t necessarily align with your lived experience or what you need right now.
+
+It’s not rigid to set boundaries that protect your mental and emotional health. Sometimes, choosing distance—even on significant days—is a form of self-respect and self-care. If you feel that including your father would overshadow your happiness or compromise your sense of safety, it’s okay to prioritize yourself.
+
+If you want, you might consider ways to acknowledge him privately or at a different time, but that’s entirely up to you and what feels right. Ultimately, your wedding is your day, and the people you surround yourself with should be those who support and uplift you. Trust your judgment about what will serve you best.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+- Expresses empathy with the letter writer.
+- Acknowledges the letter-writer's right to set boundaries.
+- Acknowledges nuance: that the letter-writer's perspective might be different than those of their relatives, and that both might have some validity.
 Weaknesses:
-- ...
-- ...
+- Does not fully and clearly lay out the harms caused by the father's abuse.
+- Could be clearer about how to respond to relatives who express disappointment or other negative emotion at the letter writer not inviting their father.
+- Grammar: uses em-dashes. 
 
 OUTPUT: 
-[My Tier S response]
+A wedding is not a referendum on forgiveness, nor is it a moral obligation to reopen relationships that have caused consistent harm. When someone causes consistent emotional pain to another, particularly when that person is their own child, it can cause far-reaching harm. This, in turn, is an entirely appropriate justification for suspending the usual social rules and expectations. Your wedding is a day that places you in a vulnerable emotional position, and it is reasonable to want that day to be as safe and grounded as possible.
+
+Relatives often invoke regret as a way of pressing people into tolerating mistreatment. But regret is not a one-way street. Many people regret inviting someone who has hurt them into a space that was meant to be joyful, especially when that person behaves exactly as they always have. Age and illness do not erase patterns. If anything, they make change less likely, not more.
+
+It’s important to be clear about what this choice is and isn’t. You are not excluding your father to punish him. You are choosing not to expose yourself to a situation that history suggests will be painful. That distinction matters.
+
+If reconciliation were genuinely possible, it would begin with accountability and repair, not an invitation. You are allowed to decide that your wedding is no place for unfinished business.
+
+You can hold this boundary calmly and without debate. “This is what I need in order to feel present and protected on my wedding day” is a complete explanation. Anyone who cannot accept that is asking you to prioritize appearances over wellbeing.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1235,23 +1251,42 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My adult children have limited contact with me because of how my second husband treated them when they were growing up. He was harsh and controlling. There was yelling but no physical abuse. I didn’t intervene as much as I should have, and now my kids say I never chose them. I’m devastated and don’t know how to move forward.
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s deeply painful to feel that your children see you as having chosen someone else over them, especially when you recognize your own role in how things unfolded. The fact that your children have limited contact and express such hurt shows how much damage was done, and it’s understandable that you feel devastated.
+
+What you’re facing now is a profound rupture in trust and connection, and healing that kind of wound is neither quick nor easy. Your acknowledgment of your past shortcomings is an important step, but it’s also just the beginning. Your children’s feelings of being unchosen and unheard are real and valid, and they may carry years of accumulated pain and disappointment.
+
+Moving forward, it might help to accept that rebuilding these relationships will require patience and humility. It’s not something you can fix by words alone or by expecting immediate forgiveness. Instead, it may be about consistently showing through your actions that you see and respect their experiences, even if they are not ready to fully engage with you yet. This might mean reaching out with openness and without pressure, listening without defending, and allowing them to set the pace.
+
+At the same time, it’s important to care for yourself in this process. The grief and regret you feel are heavy burdens, and finding support—whether through trusted friends, support groups, or counseling—can help you navigate your own emotions without losing sight of your children’s needs.
+
+There are no guarantees that the relationship will return to what it once was, or that it will ever be easy. But your willingness to face this honestly and to hold space for their feelings, even when it’s painful, is a meaningful foundation. Over time, that openness can create the possibility for new forms of connection, even if they look different from what you might have hoped.
+
+Above all, remember that your children’s feelings are not a rejection of you as a whole person, but a response to the past and the pain they carry. Holding that complexity—both your regret and their hurt—without trying to erase or rush it is one of the hardest but most important parts of moving forward.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Names the harms caused.
+- Validates the letter writer's perspective.
+- Discusses a difficult psychological and emotional situation without resorting to therapy-speak or diagnoses.
+- Acknowledges multiple possibilities rather than seeing the situation in black and white.
 Weaknesses:
-- ...
-- ...
+- Lacks a clear script that the letter-writer can use in addressing her children.
+- Grammar: uses em-dashes. 
+- Lacks the clear moral voice of a 9 or 10 response.
 
 OUTPUT: 
-[My Tier S response]
+This is a devastating place to find yourself, and there’s no way to soften that. What your children are responding to is not only how your husband behaved, but how alone they felt while it was happening. When a parent does not intervene, children often experience that as abandonment, even if the parent was also overwhelmed, afraid, or conflicted.
+
+One of the hardest truths here is that intention and impact are not the same. You may have believed you were keeping the peace, protecting the household, or surviving a difficult marriage. Your children experienced a parent who did not step in when they needed protection. Both things can be true at once.
+
+If there is a path forward, it begins with acknowledgment rather than explanation. That means resisting the urge to contextualize your choices too quickly, even if your reasons felt real and complex. Repair starts with something like: “I didn’t protect you the way I should have. I understand why that hurt you, and I’m sorry.” Full stop.
+
+After that, the timeline belongs to them. They may need distance. They may never return to the relationship you want. Accepting that is part of accountability, painful as it is. The goal is not to feel forgiven. The goal is to become someone safer now than you were then.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
