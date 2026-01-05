@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-04 22:04:09
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: I feel guilty for being relieved after ending a relationship. Does that mean I never really loved them?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Feeling relief after ending a relationship is more common than you might think, and it doesn’t erase the love you once had. Relationships are complex and layered; love isn’t a single, unchanging emotion but a mix of feelings that can evolve, deepen, or fade over time. Relief often signals that something in the relationship was weighing on you—perhaps unmet needs, unresolved conflicts, or a mismatch in values or priorities. That relief is your mind and heart recognizing a release from tension or pain, not a negation of the affection or care you felt.
+
+It’s important to separate the idea of love from the idea of a healthy, sustainable relationship. You can love someone deeply and still know that the relationship isn’t right for you or that it no longer serves your well-being. Love doesn’t obligate you to stay in a situation that compromises your happiness or growth. Ending a relationship can be an act of respect for both yourself and the other person, even if it’s painful.
+
+If you want to speak to yourself with kindness in this moment, you might say: “I loved them in the way I could at that time, and I honored that love by choosing what felt right for me now.” This acknowledges your past feelings without trapping you in guilt or confusion.
+
+Takeaway: Love and relief can coexist because ending a relationship is often about honoring your whole self—not just your feelings, but your needs and boundaries too. Feeling relief doesn’t mean you never loved; it means you cared enough to choose a better path forward.
+==================================================

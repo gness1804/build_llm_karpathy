@@ -2082,23 +2082,41 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner frequently jokes at my expense in social settings. When I ask him to stop, he says I’m too sensitive. Am I?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re feeling hurt and dismissed, which is completely understandable. When someone you care about repeatedly makes jokes at your expense, especially in front of others, it can feel undermining and disrespectful. Your feelings are valid, and wanting your partner to stop isn’t about being “too sensitive” — it’s about wanting to be treated with kindness and respect.
+
+When your partner responds by calling you “too sensitive,” it shifts the focus away from his behavior and onto your feelings, which can be a way to avoid taking responsibility. This kind of response can leave you feeling isolated or doubting yourself, which isn’t fair or healthy in a relationship.
+
+It might help to have a calm conversation with him outside of social settings, explaining how these jokes affect you emotionally and why you want them to stop. If he continues to dismiss your feelings or refuses to change, that’s a sign of a deeper issue in how he respects your boundaries.
+
+Ultimately, you deserve to be with someone who values your feelings and treats you with care, especially in public. Your sensitivity is not the problem here—your partner’s unwillingness to respect your feelings is.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+- Good insights about the partner deflecting from his own shortcomings to avoid taking responsibility for hurting you.
+- Sensible advice and analysis of the situation.
 Weaknesses:
-- ...
-- ...
+- Does not lay out the impact of the harm in as much detail as a top-tier example. Moral voice could be strengthened.
+- Does not offer a script that the letter writer can use in standing up to their partner.
+- Does not pursue the argument to its logical conclusion: that if the partner refuses to stop telling the jokes after clearly being told that they hurt the letter writer, then the letter writer should leave the partner.
+- Lacks a strong takeaway at the end.
 
 OUTPUT: 
-[My Tier S response]
+Humor that repeatedly lands at one person’s expense stops being harmless, especially when concerns are dismissed rather than addressed. Being told you’re “too sensitive” often serves to deflect responsibility rather than resolve the issue. Cowards everywhere use humor as a shield to say something without owning it. And when the person perpetrating this problem is doing it to their partner, then that's a particularly cruel and cowardly act. It conveys the message that the person telling the joke cares little about their partner's feelings and cares more about themself. This can make the target of the joke feel humiliated, dehumanized, and unloved.
+
+The common sense, reasonable-person rule of thumb regarding jokes at someone else's expense is that when the target of the joke expresses discomfort or explicitly asks the teller of the joke to stop, then the teller must stop immediately and never again tell any more of the jokes. Your partner evidently has not learned this rule, or he doesn't care. He's also gaslighting you by causing you to question your own legitimate feelings of hurt. What a decent and reasonable person would do if he were in your partner's shoes is not tell any more of the jokes, even if he personally couldn't understand why you find them offensive. The fact that they hurt you is itself enough of a reason to stop telling the jokes.
+
+The fact that your partner hasn't done this suggests that there probably isn't much hope for this relationship. But if you want to make one last-ditch effort, you might use the following script as a template. "[Partner], You've told a lot of jokes lately that I have been the butt of. I've told you that I don't appreciate it. And when you brush me off by saying I'm too sensitive, it communicates to me that you don't truly care about my feelings. You might find the jokes funny, but I don't. When you tell them it makes me feel hurt and humiliated. Please stop." 
+
+While I'm not usually a fan of "tests" in relationships, in this case whether your partner continues telling the jokes after that point will tell you all you need to know about whether to stay with him. If he keeps telling jokes, get out of that relationship as quickly as possible. You deserve better than someone who will treat you in a mean-spirited fashion and then criticize you when you express hurt at this mistreatment.
+
+Life is hard enough without your own partner putting you down and then not even taking responsibility for it. A partner who respects you will care more about how their words land than about defending their sense of humor.
+
+You are not obligated to tolerate being the punchline to "keep the peace" in your relationship. Asking for basic respect is not fragility. It is a reasonable boundary.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -2170,23 +2188,38 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I feel guilty for being relieved after ending a relationship. Does that mean I never really loved them?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Feeling relief after ending a relationship is more common than you might think, and it doesn’t erase the love you once had. Relationships are complex and layered; love isn’t a single, unchanging emotion but a mix of feelings that can evolve, deepen, or fade over time. Relief often signals that something in the relationship was weighing on you—perhaps unmet needs, unresolved conflicts, or a mismatch in values or priorities. That relief is your mind and heart recognizing a release from tension or pain, not a negation of the affection or care you felt.
+
+It’s important to separate the idea of love from the idea of a healthy, sustainable relationship. You can love someone deeply and still know that the relationship isn’t right for you or that it no longer serves your well-being. Love doesn’t obligate you to stay in a situation that compromises your happiness or growth. Ending a relationship can be an act of respect for both yourself and the other person, even if it’s painful.
+
+If you want to speak to yourself with kindness in this moment, you might say: “I loved them in the way I could at that time, and I honored that love by choosing what felt right for me now.” This acknowledges your past feelings without trapping you in guilt or confusion.
+
+Takeaway: Love and relief can coexist because ending a relationship is often about honoring your whole self—not just your feelings, but your needs and boundaries too. Feeling relief doesn’t mean you never loved; it means you cared enough to choose a better path forward.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Offers a complex, nuanced take on a complex emotional topic.
+- Offers real insights into emotion and psychology without engaging in therapyspeak or trying to diagnose anything. 
+- Offers an insightful script for the letter writer to use.
 Weaknesses:
-- ...
-- ...
+- The last paragraph's wording feels a bit too generic, especially the first word ("Takeaway:")
+- Lacks that one missing layer of nuance that the strongest examples have.
 
 OUTPUT: 
-[My Tier S response]
+Relief after a breakup does not invalidate the love you felt. Often it reflects the lifting of a burden that had become unbearable over time.
+
+Your letter is sparse in context, so it's unclear what the underlying circumstances are. But many, many people feel relief after a relationship ends. Some people feel this way because they were smothered in a codependent relationship, or one in which they had to bear more than their share of the emotional and/or household labor. Others feel relief because disagreements with their partner had surpassed their emotional pain threshold. There are also cases of abuse and infidelity, in which case it's definitely a relief to leave the relationship. Or there are much more mundane cases in which neither spouse did anything "wrong," but the relationship just lost its luster over time and became more of a burden than a joy.
+
+I'm not implying that any of these things were true of your own relationship. Rather, the preceding paragraph is an attempt to illustrate how common it is for people to feel relieved after a relationship ends. It's perfectly normal and doesn't make you a bad person, nor does it mean that you didn't love your partner. Love evolves and changes over time. Sometimes people fall out of love, while at other times love evolves into something that no longer fits well within the space of the relationship in which it started. You can deeply love someone but still come to realize that for any of the reasons listed above, or any number of others, the relationship just isn't right. Leaving a relationship in that circumstance often does feel like a relief, even as it's also heartbreaking. These two things can be true at the same time.
+
+You don’t need to rewrite your history to justify your present emotions. Mixed feelings are common after loss, particularly when love and strain coexisted for a long time. In my parents' case, they were married for over 30 years and there was clearly a lot of love between them. But for various reasons, the relationship fell apart. After an intense grieving period, my mother felt a lot of relief at being able to live a new life on her own terms. I think even today she still loves my dad in some way, but also feels that the divorce was the right thing to do.
+
+Emotions are signals, and your relief is telling you that something about that relationship wasn't right. It isn't telling you anything about whether or not you loved your partner. A chapter of your life has ended, but that doesn't mean that you didn't have a lot of love for the co-author of that chapter.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -2258,23 +2291,35 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My parents expect me to visit every holiday, even though doing so leaves me anxious and depleted. I feel trapped between obligation and self-care.
 
 DRAFT_RESPONSE:
-[Base model answer]
+Feeling torn between family expectations and your own well-being is a deeply familiar and difficult place to be. Holidays often come with a heavy weight of tradition and obligation, but it’s important to remember that your emotional health matters just as much as anyone else’s desire for your presence. When you find yourself anxious and depleted after visits, that’s a clear signal—not a failing on your part, but a boundary that needs attention.
+
+You might try a conversation that acknowledges your parents’ hopes while honestly sharing your experience. For example, you could say: “I love you and want to spend time together, but I’ve noticed that the full holiday visits leave me feeling overwhelmed. I’m hoping we can find a way to celebrate that feels good for all of us.” This opens the door to collaboration rather than confrontation.
+
+Consider offering alternatives that reduce the pressure: shorter visits, meeting on a different day, or even creating new traditions that don’t require full-day commitments. If your parents resist, it’s okay to gently but firmly hold your ground. You don’t owe anyone your presence at the cost of your peace.
+
+The takeaway here is that honoring your needs is not selfish—it’s necessary. Relationships thrive when they’re nourished by respect for everyone’s limits, not just by fulfilling expectations. You deserve holidays that leave you feeling connected, not drained. Finding that balance is a form of care, both for yourself and for your family.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Offers a good script for the letter writer to say to their parents.
+- Presents reasonable and insightful boundaries that the letter-writer can set.
 Weaknesses:
-- ...
-- ...
+- Might have gone into a bit more detail about how a child can renegotiate relationships with traditions and with their parents.
+- Could have gone into more depth about the weight of tradition and its relevance to the problem here.
 
 OUTPUT: 
-[My Tier S response]
+Traditions have a special place in our culture and can often bring great happiness. But they are not automatically healthy. When a tradition consistently leaves one person anxious or depleted, it deserves reevaluation. Because a tradition that is continued to the detriment of one or more of the participants ceases to be a reaffirmation of connection and love. Rather, it becomes a burden and often a source of resentment.
+
+The outsized importance of traditions in our culture, particularly around the holidays, can often mask the complex emotions and stress often associated with them. And as you and countless others have seen, traditions often come with heavy expectations. Many of our traditions also involve substantial emotional labor. Not only with the holidays, but also think of things like planning a wedding, trying to create an invite list for your child's birthday party that doesn't hurt anyone's feelings, and also some faith traditions where devotees engage in a variety of rituals and often have to master complex subject matter. In light of all this, traditions can often be exhausting, even when we treasure them.
+
+The good news is that you are allowed to renegotiate expectations as an adult, even if doing so disappoints others. Choosing not to attend every gathering is not a rejection of your family; it’s an acknowledgment of your limits. You might explain to your parents that while you love seeing them and visiting for holidays, you're not able to attend for every holiday. You could, for instance, say that you're coming to see them for Christmas, but you have other plans for Thanksgiving. If they press you for details on why you're not going to see them for every holiday, you don't need to provide an exhaustive explanation. It's enough to say: “This is what I can manage right now. I love you and enjoy being with you, but I need to find space for myself as well.” 
+
+Self-care is not selfishness with better branding. It is maintenance.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 

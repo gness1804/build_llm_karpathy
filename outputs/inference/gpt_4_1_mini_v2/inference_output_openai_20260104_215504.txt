@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-04 21:55:04
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner frequently jokes at my expense in social settings. When I ask him to stop, he says I’m too sensitive. Am I?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you’re feeling hurt and dismissed, which is completely understandable. When someone you care about repeatedly makes jokes at your expense, especially in front of others, it can feel undermining and disrespectful. Your feelings are valid, and wanting your partner to stop isn’t about being “too sensitive” — it’s about wanting to be treated with kindness and respect.
+
+When your partner responds by calling you “too sensitive,” it shifts the focus away from his behavior and onto your feelings, which can be a way to avoid taking responsibility. This kind of response can leave you feeling isolated or doubting yourself, which isn’t fair or healthy in a relationship.
+
+It might help to have a calm conversation with him outside of social settings, explaining how these jokes affect you emotionally and why you want them to stop. If he continues to dismiss your feelings or refuses to change, that’s a sign of a deeper issue in how he respects your boundaries.
+
+Ultimately, you deserve to be with someone who values your feelings and treats you with care, especially in public. Your sensitivity is not the problem here—your partner’s unwillingness to respect your feelings is.
+==================================================
