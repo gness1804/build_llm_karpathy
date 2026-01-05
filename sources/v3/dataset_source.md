@@ -1358,23 +1358,40 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband’s parents are openly hostile toward me and have questioned our marriage. I’ve opted out of seeing them. Now I’m pregnant with twins, and they suddenly want access. Am I wrong to keep my distance?
 
 DRAFT_RESPONSE:
-[Base model answer]
+You are not wrong to keep your distance. When someone has been openly hostile and questioned the foundation of your marriage, it’s understandable to protect yourself, especially during such a vulnerable and significant time as pregnancy. Your well-being and the well-being of your twins are paramount, and that includes emotional safety.
+
+It’s natural for your husband’s parents to want to be involved, but their past behavior has set a tone that makes engagement complicated. Their sudden interest now, after a period of estrangement, may feel unsettling or even conditional, which can be hurtful. You have every right to set boundaries that feel safe and respectful to you.
+
+If your husband is willing and able, he might serve as a bridge to manage their involvement in a way that doesn’t compromise your peace of mind. But ultimately, it’s your choice how and when to allow them into your life. Protecting yourself and your growing family from hostility is not just reasonable—it’s a form of self-care.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+- Displays empathy towards the letter writer's situation.
+- Tries to understand the perspectives of all sides.
 Weaknesses:
-- ...
-- ...
+- Is not direct enough in naming the harm.
+- Lacks a script to use towards the husband's parents.
+- Mentions setting boundaries, but isn't specific enough as to what those boundaries might look like.
 
 OUTPUT: 
-[My Tier S response]
+You are not wrong to protect yourself, and by extension your children, from people who have shown you sustained disrespect. Hostility towards a son or daughter's spouse does not only create a rift; it can also poison the target's sense of self-worth and undermine their marriage. And it also reverberates to the next generation as well. Relationships with your children will be shaped by how you are treated. When someone consistently undermines or disrespects a parent, they undermine the family unit as a whole.
+
+Your instinct to distance yourself from them is spot-on. Pregnancy does not obligate you to reopen relationships that were harmful before it began.
+
+The crucial distinction here is between reconciliation and access. Reconciliation requires accountability and changed behavior. Access requires only opportunity. What your in-laws are asking for sounds like the latter without offering the former. But they don't get to choose the easy route to access their future grandchildren after years of poor treatment of you.
+
+Your husband’s role matters. Supporting you does not necessarily mean cutting off his parents. It does mean respecting the boundaries you need to feel safe and supported, especially during a physically and emotionally demanding time. Such boundaries might include restricting or cutting off his parents' access to your future children until they start treating you with respect. 
+
+If possible, both you and your husband should have a talk with his parents about the harm that their past treatment of you has caused and the need for this to change. "We love you and look forward to having you in our children's lives, but the way that you've treated [Letter Writer] is not acceptable. [Cite examples A and B.] If you want to play an active role in your grandchildren's lives, it starts with modeling respectful treatment towards your daughter-in-law. We ask that you change your behavior towards her moving forward to be more respectful and inclusive."
+
+Then follow up your words with actions as needed. Boundaries are meaningless unless they're enforced. If they refuse to treat you better, then make clear that they're not going to be able to have much contact with their grandchildren. As heartbreaking as it is to limit children's access to their grandparents, the fundamental need for them to respect you and the future effects of their disrespect on your future children, if their behavior remains unchanged, outweigh this concern.
+
+Twins will require enough of you. You are not obligated to carry unresolved family conflict alongside that responsibility.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1446,23 +1463,41 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’m 21 and interested in a man who is 13 years older than me. He says he’s attracted to me but hesitant because he doesn’t want to “take advantage of my youth.” I don’t know what to make of that.
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable that you feel uncertain about his hesitation, especially when he expresses attraction but also concern about the age difference. When someone says they don’t want to “take advantage” of youth, it often reflects an awareness of the power imbalance that can come with significant age gaps. This isn’t just about numbers; it’s about life experience, emotional maturity, and the potential for one person to have more influence or control in the relationship, even unintentionally.
+
+His hesitation suggests he’s trying to be careful and respectful, which is a positive sign. However, it’s important for you to consider how you feel about the age difference and whether you feel equal and comfortable in this dynamic. Sometimes, people use phrases like “taking advantage” to signal their own doubts or boundaries, but it can also be a way to avoid difficult conversations about what they really want or fear.
+
+A clear and honest conversation could help here. You might say something like, “I appreciate that you’re thoughtful about our age difference. I want to understand what you mean when you say you don’t want to take advantage of my youth, so we can be sure we’re both comfortable and respectful of each other.” This invites him to explain his feelings more fully and opens the door for you to share your perspective.
+
+Ultimately, your feelings and boundaries matter just as much as his. If you decide to pursue this connection, keep paying attention to whether the relationship feels balanced and respectful over time. Age gaps can work when both people are honest and mindful, but they also require ongoing reflection about power and consent. Remember, it’s okay to step back or set limits if something doesn’t feel right, even if the other person seems well-intentioned.
+
+The takeaway here is that attraction alone isn’t enough to ensure a healthy relationship—mutual respect, clear communication, and awareness of how differences affect the dynamic are key. You deserve a connection where you feel valued as an equal, not just for your youth.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+- Offers a script for the letter writer to use.
+- Respect the dignity of both the letter writer and her prospective boyfriend.
+- Response is thorough rather than shallow.
 Weaknesses:
-- ...
-- ...
+- The proposed boundaries could be named a little more specifically.
+- Uses em dashes.
+- The moral voice could be a bit stronger.
 
 OUTPUT: 
-[My Tier S response]
+His hesitation itself is not a red flag. In fact, it suggests that he’s thinking seriously about power, timing, and responsibility rather than ignoring them. But at the same time, be careful. Age gaps in relationships are not inherently wrong, but they do introduce the potential for abuse, particularly if the woman is the younger partner. Historically, it's been common for older men to take advantage of younger women in relationships because these men tend to have more power as well as more life experience and knowledge of the world. Your potential boyfriend is sending you a good signal by proactively raising this issue, but it's still wise to be cautious.
+
+What matters is not your age alone, but whether both of you feel free to slow down, to take a serious look at the situation, and to discuss these difficult matters as equals. At the end of the day, romantic relationships have to be equal partnerships, or they devolve into domination and subservience. In your case, if there's any asymmetry in how the two of you talk about the question of whether to have a relationship in the first place, these asymmetries are going to reappear again and again during an actual relationship. And asymmetries in relationships tend to only grow over time. So your first task should be to take an honest look, by yourself, at whether you feel comfortable addressing the age gap and its potential implications with him or not. And if it's the latter, why? There's no right or wrong answer to this question, but the purpose of asking it is to get that all-important green light from your gut before moving forward. Because if your gut is giving you a yellow or red light, then I would end things right now.
+
+His concern may reflect care rather than ambivalence. At the same time, attraction alone does not resolve these questions. If this relationship were to move forward, it should do so slowly and transparently, with space for you to articulate your needs and expectations clearly. You should also clarify with him what he means by trying to "take advantage of [your] youth". You might say something like, "I really respect the fact that you proactively raised a concern about moving forward with this relationship due to the age gap, but I need to know more. What exactly did you mean when you mentioned 'taking advantage of my youth'? I need to know so that we can both be on the same page and decide what the best next step is."
+
+Listen carefully to what he says. If he seems to hedge or if he remains stuck in hesitation, that may simply mean he is not available for the kind of relationship you want right now. That can be disappointing without being anyone’s fault.
+
+Sometimes care expresses itself not through action, but through restraint.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1534,23 +1569,36 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My sister resents me for being more academically successful. She says I make her feel inferior, even when I try to downplay my achievements. I feel like I’m walking on eggshells.
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear that your sister’s feelings of resentment are causing tension between you, and that you’re caught in a difficult spot trying to be sensitive without sacrificing your own sense of self. When someone feels overshadowed, especially within a family, it can stir up complex emotions like jealousy and insecurity. Your sister’s reaction—feeling inferior despite your efforts to downplay your achievements—suggests that the issue runs deeper than just your success; it’s about how she sees herself in relation to you.
+
+It’s important to recognize that you are not responsible for managing her self-worth, nor should you have to minimize your accomplishments to protect her feelings. At the same time, understanding her perspective can help you navigate this strained dynamic with care. You might consider having an honest but gentle conversation where you acknowledge her feelings without taking blame for them. For example, you could say, “I’m sorry that my success makes you feel this way. That’s not my intention, and I want us to have a good relationship.”
+
+Setting boundaries around how you discuss your achievements can also be helpful. You might decide to share less about your academic life if it consistently causes pain, but this should be your choice, not an obligation. It’s okay to protect your own emotional well-being while being mindful of hers.
+
+Ultimately, sibling relationships often carry complicated emotions that don’t resolve quickly or neatly. Your worth isn’t diminished by her struggles, and her feelings don’t have to overshadow your own. Holding space for both realities—your success and her insecurities—can help you find a balance that respects both of you. Over time, this balance might allow your relationship to grow beyond the current tension.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Includes a script for the letter writer to use.
+- Names the complex dynamics and the harms caused.
+- Does not engage in therapyspeak.
 Weaknesses:
-- ...
-- ...
+- Ending is a bit equivocal.
+- Lacks the deep nuance of the model response.
 
 OUTPUT: 
-[My Tier S response]
+It’s deeply tiring to feel as though you have to manage someone else’s self-esteem, especially when the comparison at issue is not one you created or invited. Walking on eggshells around a sibling can quietly drain a relationship of warmth and ease, until what’s left is mostly vigilance and guilt. That’s not a fair position to put you in.
+
+It’s very likely that your sister’s resentment has far more to do with her own unresolved feelings about her life and choices than with anything you are doing now. Even when people insist otherwise, success itself is rarely the real problem. The problem is often the painful story they tell themselves about what that success says about them. You can be compassionate about that without accepting responsibility for fixing it. Downplaying your achievements, speaking smaller, or constantly reassuring her may feel kind in the moment, but over time it tends to reinforce the very dynamic you’re trying to escape. It quietly teaches that your presence is something to be managed rather than welcomed.
+
+What is reasonable is to draw a clear but calm boundary. You might say something like, “I care about you, and I don’t see my accomplishments as a judgment of you. I don’t want to feel like I have to apologize for my life in order to be close to you.” That frames the issue honestly without attacking her character or dismissing her feelings. After that, the next move is hers. She may need time, distance, or help of her own to work through this.
+
+If the resentment continues to surface as hostility or punishment, it’s also appropriate to limit how much of your inner life you share with her, at least for now. That’s not cruelty. It’s self-protection. Healthy adult relationships make room for difference without turning it into a moral failing. You are allowed to be proud of your work and still be a loving sister. If she cannot tolerate both at once, that is painful, but it is not something you can solve by shrinking yourself.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
