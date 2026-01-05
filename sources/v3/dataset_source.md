@@ -1670,23 +1670,45 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’m estranged from a sibling, and my parents keep pushing us to “make peace.” They say it’s breaking their hearts. What should I do?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable that your parents are upset about the estrangement, and it’s important to consider their feelings. Here are some steps you might take:
+
+1. Reflect on your reasons for the estrangement and whether reconciliation is possible.
+2. Communicate openly with your parents about your feelings and boundaries.
+3. Consider reaching out to your sibling if you feel ready.
+4. Seek family counseling or mediation to facilitate dialogue.
+5. Prioritize your emotional well-being throughout the process.
+
+Remember, every family situation is different, so take the approach that feels right for you.
 
 EVALUATION:
-Score: [score]
+Score: 2.5
 
 Strengths:
-- ...
-- ...
+- Tries to treat everyone involved with dignity and respect.
 Weaknesses:
-- ...
-- ...
+- Very generic advice. No nuance and little specificity.
+- This consists of a laundry list of solutions, which is a classic tell for something written by an LLM.
+- No human voice.
+- Short and superficial.
+- Not much moral voice: seems to prioritize appeasing the parents and family harmony over the substantive issues here, especially potential harms caused by the sibling.
 
 OUTPUT: 
-[My Tier S response]
+Parents often want resolution because conflict threatens their sense of family cohesion. That desire is understandable, but peace imposed from above rarely heals what’s broken below.
+
+Without more context, it's hard to know exactly what advice to give. What exactly happened to cause the estrangement? If it's a matter of abuse, then certainly you have no obligation to reconcile, whether to "make peace" or for any other reason. (In this context, "abuse" can be defined as bullying or other forms of physical and/or verbal attacks, especially on a consistent basis.) When abuse has taken place, you're absolutely within your rights to keep distance and to restrict or completely halt any sort of communication with your sibling. Family ties and your parents' expectations don't justify damaging your mental health by allowing an abusive sibling into your life.
+
+If the problem is less serious than abuse, then the situation becomes a bit more nuanced. I have known situations of sibling estrangement that weren't caused by abuse, but rather by personality differences, a history of sibling rivalry, or some other complicated factor where one really can't "blame" either side for the estrangement. If the issue falls into this category and you feel a genuine desire to reconnect with your sibling, then I would encourage you to reach out. Say something like, "[Sibling], I know that we've been a bit distant from each other because of [X]. But I would like for us to be closer. How can we work together to build a stronger relationship?"
+
+The wording of your letter, however, implies that you're either hesitant or opposed to reaching out to your sibling. And if this is the case, then you're under no obligation to do so. Once we become adults, our relationships with other members of our family of origin become strictly voluntary. In this respect, it's a bit like if you had a good friend you'd grown apart from over time, either because of a falling out or because your lives and interests diverged. In that case, you'd be well within your rights to decide not to try to rekindle the friendship. 
+
+If reconciliation were possible, it would require willingness and accountability on both sides. Pressure cannot substitute for repair. You can empathize with your parents’ sadness without sacrificing your own boundaries.
+
+It’s fair to say to them: “I understand this is hard for you. But I’m not willing to reconnect under pressure or pretense. If I do decide to reconnect with [Sibling], then it will be on my own timeline and for my own reasons.” That response is honest without being cruel.
+
+Sometimes the most loving choice is to stop pretending a relationship exists when it doesn’t.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1758,23 +1780,35 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My best friend is going through a divorce and calls me almost every night to vent. At first I wanted to be there for her, but it’s been months now, and every conversation turns into a two-hour monologue about her ex. I’m emotionally exhausted and starting to dread her calls. Am I a bad friend if I pull back?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your desire to support your friend during a painful time is deeply compassionate, and it’s clear you care about her well-being. At the same time, your feelings of exhaustion and dread are important signals—not signs of failure or inadequacy as a friend, but reminders that your own emotional resources have limits. Friendship is a two-way street, and it’s natural for support to ebb and flow rather than be a constant, one-sided drain.
+
+You might consider gently setting boundaries that protect your energy while still showing you care. For example, you could say something like, “I want to be here for you, but I’m finding it hard to keep up with long calls every night. Maybe we can check in a few times a week instead?” Or, “I’m worried I’m not the best person to help you process this all the time. Have you thought about talking with someone who can give you more focused support?” These scripts acknowledge your limits without shutting her out.
+
+It’s also worth reflecting on what you need from the friendship. If the dynamic feels unbalanced and draining, that’s a valid experience. Pulling back doesn’t make you a bad friend—it makes you a human being with boundaries. Sometimes, stepping back can create space for both people to breathe and recalibrate the relationship.
+
+The takeaway here is that caring for others doesn’t require sacrificing your own well-being. True friendship can survive—and even deepen—when honesty about limits replaces silent endurance. Your kindness is real, and so is your need for balance. Holding both truths with respect is the kindest act you can offer yourself and your friend.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Offers appropriate boundaries that the letter writer could set with her friend.
+- Offers a good script for the letter writer to use.
 Weaknesses:
-- ...
-- ...
+- Could emphasize the letter writer's internal conflict a bit more.
+- Wording of the ideal response is a bit more forceful while retaining the compassion for the friend.
 
 OUTPUT: 
-[My Tier S response]
+Wanting to be there for someone during a painful chapter of their life does not mean you are required to absorb their pain indefinitely. There is a difference between being supportive and being smothered.
+
+Your inclination to pull back appears to be a conflict between wanting to be there for your friend and the need to protect your own time and mental health. Sacrificing the latter in the name of your love and concern for your friend isn't really tenable for either of you. That doesn’t make you uncaring. It means you have limits. When those limits are ignored for long enough, even the most generous people begin to feel resentment, dread, and withdrawal. Those feelings are signals, not moral failures.
+
+Pulling back does not have to look like abandonment. It can look like recalibration. You might say something like: “I care about you and I want to support you, but I don’t have the capacity for long nightly calls anymore. Can we find a different way to stay connected that works for both of us?” That opens the door to adjustment rather than rupture. And if she presses you on why you're pulling back, you can explain to her that while you absolutely want to continue to be there for her, the long calls are draining you emotionally. Say that to be fully present for her and be the best friend that you can be, you have to take care of yourself, too. And this requires less frequent and less lengthy discussions of divorce-related matters. 
+
+Being a good friend does not require sacrificing your own emotional health. Care that is sustainable is ultimately more loving than care that quietly burns out.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
