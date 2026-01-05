@@ -1792,7 +1792,7 @@ It’s also worth reflecting on what you need from the friendship. If the dynami
 The takeaway here is that caring for others doesn’t require sacrificing your own well-being. True friendship can survive—and even deepen—when honesty about limits replaces silent endurance. Your kindness is real, and so is your need for balance. Holding both truths with respect is the kindest act you can offer yourself and your friend.
 
 EVALUATION:
-Score: 8.5
+Score: 9.0
 
 Strengths:
 - Offers appropriate boundaries that the letter writer could set with her friend.
@@ -1880,23 +1880,39 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’ve been married for 20 years and recently realized I’m deeply unhappy. There’s no abuse, no infidelity, just a growing sense that we became roommates. Is it selfish to consider leaving?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s completely understandable to feel unhappy in a long-term marriage, especially when the relationship starts to feel more like a roommate situation than a partnership. After 20 years, it’s natural for dynamics to shift, and sometimes people grow apart or change in ways that make the relationship feel less fulfilling. Considering leaving isn’t necessarily selfish—it can be a way of acknowledging your own needs and seeking a life that feels more meaningful to you.
+
+That said, before making any big decisions, it might be helpful to reflect on what specifically feels missing or unsatisfying. Sometimes, couples can find ways to reconnect or bring new energy into their relationship through honest conversations, shared activities, or even counseling. If those efforts don’t lead to meaningful change, then it’s reasonable to think about what’s best for your well-being in the long run.
+
+Ultimately, your feelings are valid, and it’s important to take them seriously. Whether you choose to work on the marriage or move on, the key is to be thoughtful and compassionate with yourself and your partner as you navigate this challenging time.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+- Advice is thoughtful, compassionate, and clearly tries to respect the dignity of both parties.
+- Avoids the temptation to engage in therapyspeak.
 Weaknesses:
-- ...
-- ...
+- A bit on the short side; does not deeply delve into the complicated emotional dynamics involved.
+- Lacks a script that the letter writer can use.
+- The advice is a bit cliched, especially at the end. It does not end with a "punch."
+- Lacks the specificity of a top-tier response.
 
 OUTPUT: 
-[My Tier S response]
+Long-term unhappiness does not require dramatic justification to be legitimate. Many marriages unravel quietly, not through betrayal or cruelty, but through emotional erosion and disconnection over time. There are many reasons why most marriages eventually end before the death of one of the spouses. But the slow, mundane distancing that you describe is a common one.
+
+Recognizing this can bring a particular kind of guilt, especially when nothing “bad enough” seems to have happened. But the absence of abuse does not obligate you to ignore your own inner life. Wanting more emotional presence, intimacy, or meaning is not selfish by default. When you've been living under the same roof as somebody for many years, but you don't feel the same strong connection that you once did, that can be very uncomfortable and guilt-inducing. Society tells us that marriage is forever, and that once in love, always in love. But as you and countless others have experienced, reality is often different.
+
+At the same time, however, awareness is not the same as certainty. Before making irreversible decisions, it’s worth exploring whether the unhappiness reflects neglect that could be addressed or a deeper incompatibility that cannot. That exploration might include honest conversation, counseling, or simply allowing yourself to name what you’ve been avoiding. Also you might try a "free writing session" in which you write down anything and everything that comes to mind with respect to your marriage. Free writing involves letting go of any inhibitions and writing whatever comes to your mind, however silly or scary it might seem. Writers often find this useful for brainstorming, but it can also be applied to trying to figure out interpersonal situations as well, especially since we usually heavily self-censor when it comes to thinking about delicate emotional topics. Resolve to never let anyone, especially your husband, see the result of the free-writing; this will provide much more psychological space to fully express yourself. You can even destroy the document right after writing it. Hopefully this, along with some unstructured reflection, will help you understand more where you want to go with respect to your marriage. 
+
+If you feel that it's worth trying to save the marriage, and that the underlying problems can be solved within the marriage, then you might say something to your spouse like: "Honey, we've grown apart over the last few years, and I'm sure you've noticed it too. I realize that we are different people than when we first married. But I want us to be closer again. What do you think is missing, and how could we both work towards fixing it?"
+
+But if you decide after this reflection that ending the marriage is the best course of action, do it. Hopefully you and your husband have an amicable enough relationship that a divorce would be relatively smooth. Also, you don't mention if you have children. But even if you do, divorce in the case of an unhappy marriage is a better alternative to modeling an unhappy relationship for your children.
+
+There is no moral virtue in endurance for its own sake. The ethical question isn’t whether you’re allowed to want more, but how to proceed with honesty and care for both yourself and your spouse. Sometimes the most courageous and loving thing you can do is walk away.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -1968,23 +1984,33 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My adult son rarely calls or visits. When I bring it up, he says he’s busy. I feel rejected and don’t know how to respond without pushing him further away.
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable to feel hurt when your son doesn’t call or visit often. People get busy with their own lives, and sometimes that means less contact. You might try telling him how you feel in a calm way, so he knows without feeling pressured. Maybe finding a time that works for both of you could help. It’s important to be patient and give him space while also expressing your feelings.
 
 EVALUATION:
-Score: [score]
+Score: 5.0
 
 Strengths:
-- ...
-- ...
+- Does not drift into therapyspeak or try to diagnose a particular condition.
 Weaknesses:
-- ...
-- ...
+- Way too short. Lacks nuance and depth.
+- Little moral voice or columnist voice.
+- Needs much more specific advice. Too generic and bland.
 
 OUTPUT: 
-[My Tier S response]
+Distance from adult children can feel like a quiet, ongoing loss. It often triggers questions about what went wrong or what could have been done differently. Those feelings are real and deeply human. Parents usually operate on the implicit, unspoken assumption that when their children grow up, they will stay in close contact. Or at least that they will make a regular effort to call and visit. When this proves not to be the case, after children grow up and start their adult lives, this can create feelings of rejection, even though the reason for the reduced contact might simply be that the adult child is very busy with their own life.
+
+Your question doesn't mention important facts such as: How old your adult son is, whether he has a family of his own, or whether anything specific happened that might have triggered this distancing, as opposed to it just being the result of him having a lot on his plate. All these factors matter. And many adult children simply get wrapped up in their lives and contacting their parents often falls by the wayside, especially if they have children of their own. Today's cultural norms also matter. The communication expectations of yesteryear have broken down, as asynchronous communication and "Irish goodbyes" have replaced the synchronous variety. At the same time, young families and young adults are particularly overwhelmed these days with all the stresses of daily life, the uncertain economy, the influence of social media, the impossible expectations around child-rearing, and so many other things. So it's entirely possible that his relative silence is simply a byproduct of these forces, rather than anything you or his other parent specifically did.
+
+What creates space for reconnection is signaling that the relationship is safe and non-demanding. Next time you talk to him about a visit, and he mentions being busy, you can say something like: “I miss you and enjoy hearing from you whenever you have time." That's it. Don't propose a time to meet or talk or even say something like, "I would like to catch up sometime." 
+
+The trick is to strike a balance between expressing your wish to reconnect without crossing the line into pressure. Pressure rarely produces closeness. When adult children feel obligated to manage a parent’s disappointment, they often retreat further. 
+
+That doesn’t mean suppressing your feelings entirely. It means expressing them without making them your child’s responsibility.
+
+Sometimes the most loving thing a parent can do is leave the door open and trust that their child will walk through it when they’re able.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
