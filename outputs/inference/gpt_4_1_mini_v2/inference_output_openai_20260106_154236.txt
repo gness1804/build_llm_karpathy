@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 15:42:36
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I'm expecting my first baby in a few months, and I'm struggling with a decision I never thought I'd face. I always assumed I would stay home with my kids, at least during the early years—that's how I was raised. My mom stayed home throughout our entire childhoods. But now that I'm actually pregnant, I realize I don't want to leave my job. I work in HR at a midsize company, and while the work is challenging, it's also predictable and I find it fulfilling. It also doesn't make financial sense right now because I bring in roughly 60% of our family's income—my husband is a schoolteacher. Most of my friends either don't have kids yet or are stay-at-home moms, so I don't have great models for working motherhood. My coworkers who are moms seem frazzled and complain about their kids all the time, which scares me. Is it even possible to be a happy working mom, or am I letting money make a decision for me that should be moral or emotional?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re facing is a deeply personal and complex crossroads, and it’s completely understandable to feel unsettled by it. The image you grew up with—your mom staying home—provides a meaningful example, but it’s also just one way of many to approach parenting and work. Your feelings of fulfillment and financial responsibility are important parts of who you are, and they deserve to be honored alongside your hopes and fears about motherhood.
+
+It’s worth acknowledging that the idea of a “happy working mom” isn’t a fixed category or a simple yes-or-no question. Many women find joy, purpose, and satisfaction in balancing work and family, even if it’s not without challenges. The frazzled moms you see at work might be expressing their struggles in a way that feels overwhelming, but that doesn’t mean every working mother’s experience is the same. Your own experience will be shaped by your personality, your support system, your workplace flexibility, and your family’s unique dynamics.
+
+Money is a practical factor, but it’s not the only one, nor does it have to be the sole driver of your decision. It’s okay to weigh emotional and moral considerations alongside financial realities. What matters most is what feels sustainable and authentic for you and your family. If staying in your job feels like a source of identity and stability, that’s a valid and valuable choice. If you find that your priorities shift after the baby arrives, that’s also okay—decisions can evolve over time.
+
+You might find it helpful to seek out a broader range of perspectives—perhaps from working moms who seem to manage their roles in ways that resonate with you, or from communities where working motherhood is normalized and supported. Sometimes, hearing stories that reflect your own hopes can ease the fear of the unknown.
+
+Ultimately, there is no single “right” way to be a mother, and no shame in choosing a path that honors both your professional life and your family’s needs. Trusting yourself to navigate this new chapter with openness and flexibility will serve you well, even when the road feels uncertain.
+==================================================

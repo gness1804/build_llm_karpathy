@@ -1,0 +1,29 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 15:45:28
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: My husband and I recently discovered that our 17-year-old is depressed and has contemplated suicide. I found out by going through their phone after noticing they seemed "off" and didn't want to talk to me. Our teen feels betrayed and angry that I went through their phone. We took them to their pediatrician for an evaluation, and they refused to talk at all or to consider antidepressant or nonmedical interventions. We went to a therapist twice and they refused to speak at all. I've tried drawing them out, waiting patiently, explaining how suicide cannot be undone and we will get through this together, but nothing seems to get through. They did confirm that there was no event that triggered this—they're just sad. They said talking to their friends helps. But I don't know what to do. I'm barely sleeping and every time they're out of sight I'm wondering if they're okay. I asked if they'd see a different therapist and got completely shut down. How do we continue in this liminal space where our teen is suffering but refusing help?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re facing is profoundly painful and disorienting, and it’s clear how deeply you care for your teen. When a young person is struggling with depression and suicidal thoughts, the impulse to protect them can feel overwhelming—and yet, the very acts that come from love, like checking their phone, can fracture trust. Your teen’s anger and sense of betrayal are real and valid, even as your intentions were rooted in concern. This tension between wanting to keep them safe and respecting their autonomy is one of the hardest balances to strike.
+
+Your teen’s refusal to engage with therapy or medication is a signal that they are not ready to open up in the ways adults hope. It’s painful to witness silence and withdrawal when you want to reach in. The fact that talking to friends helps them suggests that connection matters deeply, but it may not be the kind of connection they’re willing to have with you right now. That doesn’t mean your role is diminished—it means it’s shifting.
+
+In this liminal space, what might help is to step back from pushing for immediate solutions and instead focus on creating a steady, nonjudgmental presence. You might say something like, “I’m here whenever you want to talk, no pressure, no expectations. I love you and I’m not going anywhere.” This kind of message, repeated gently over time, can help rebuild trust without making your teen feel cornered.
+
+At the same time, it’s important to take care of yourself. Your sleepless nights and constant worry are signs that you need support, too. Consider reaching out to support groups for parents of teens with depression or talking with a counselor yourself—not to fix your teen, but to find ways to sustain your own strength and clarity.
+
+If safety becomes an immediate concern—if you believe your teen is at imminent risk—don’t hesitate to seek emergency help. But outside of crisis moments, patience and presence, even in silence, can be the most powerful form of care.
+
+Takeaway: When a young person is hurting and shutting down, love sometimes means holding space without demands, showing up consistently, and protecting your own well-being so you can be a steady anchor through the storm. The path forward is rarely quick or neat, but your enduring presence is a lifeline.
+==================================================

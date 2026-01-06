@@ -4942,23 +4942,46 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My wife comes from a large, close-knit family, while I come from a much smaller family. Sometimes it seems like I have lived through "My Big Fat Greek Wedding." But movie references aside, this has resulted in cultural adaptations for both of us. Geography also shapes our interactions with our respective families, especially around the holidays. Her family is mostly local. Most live within an hour's driving radius. By contrast, my family is very spread out. By "spread out", I mean that I need to get on a plane to see three of my four immediate family members. And there's no destination I can go to where I will be within 200 miles of more than one of my immediate family members. As you can imagine, this means we spend most holidays with her family. It just makes logistical sense, especially because traveling over the holidays is such a nightmare. But at the same time, I feel that this is a bit inequitable. I grew up assuming that my wife and I would alternate families to visit for the holidays, as a lot of people do. For instance, we see her family for Thanksgiving, I see hers for Christmas, then do it the reverse the following year. But the distance makes this impractical. I also have limited time off from work, and we like to travel outside of the holidays for leisure purposes as well. How can we heed logistical realities while making things fairer?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you and your wife are navigating a complex situation where geography, family size, and traditions all intersect, making holiday plans feel more complicated than they might for other couples. It’s understandable that you feel the current arrangement leans more toward her family, especially since spending most holidays with one side can create a sense of imbalance over time.
+
+Given the travel challenges and limited time off, alternating holidays in the traditional way might not be realistic, but there are still ways to create a sense of fairness and inclusion. One approach could be to have a conversation with your wife about what “fair” means to both of you beyond just the holidays themselves. For example, could you plan visits to your family at other meaningful times during the year, even if they don’t fall on major holidays? This might help you feel more connected without the stress of holiday travel.
+
+Another possibility is to explore ways to involve your family in the holidays you spend with her family, whether through virtual calls, sharing photos, or even inviting some of your family to join if feasible. This could help blend the traditions and make the holidays feel more inclusive.
+
+Ultimately, it’s important to acknowledge that perfect equity might be hard to achieve given the circumstances, but striving for a balance that respects both your needs and feelings is key. Keeping the conversation open and flexible as your lives and work schedules evolve can help you find solutions that feel right for both of you.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Clearly empathetic and nonjudgmental.
+
+Correctly identifies that strict holiday alternation may not be realistic.
+
+Encourages conversation about fairness rather than rigid rules.
+
 Weaknesses:
-- ...
-- ...
+Overly vague and noncommittal.
+
+Avoids naming the emotional cost of persistent inequity.
+
+Relies on generic “open communication” framing.
+
+Lacks concrete reframing of fairness beyond logistics.
 
 OUTPUT: 
-[My Tier S response]
+Short of a couple or more of your family members moving, there isn't really a way to do it without working around the geography. There are a great many families that can't simply do the one-side-for-Thanksgiving/other-for-Christmas pattern that you mentioned. For instance, some relatives have limited mobility. Some relatives have much smaller houses to support family gatherings than others. And as in your situation, geography is often a major factor. So I'd say the first step for you would be to step back from the script that you've been trying to follow and recognize the diversity of experiences out there. There's no one-size-fits-all model for the holidays.
+
+The mistake here is treating fairness as calendar math rather than as felt experience. What matters is not whether every holiday is split evenly, but whether you feel seen and valued in the arrangement you’ve landed in. Right now, it sounds like the logistics generally make sense given the constraints, but the emotional balance does not. That deserves attention.
+
+Instead of trying to force holiday parity, talk with your wife about what would make you feel more anchored to your family life. That might mean committing to a long-distance visit every other year at Christmas, creating a “non-calendar” holiday with your family that everyone treats as sacred, or consciously shifting some leisure travel toward family time in certain years. None of these are perfect solutions, but they acknowledge that your family matters too.
+
+You might say something like, “I understand why we spend most holidays with your family. I’m not trying to upend that. But I also don’t want to slowly lose my connection to my own family. Can we think together about how to protect that?”
+
+These situations are challenging at first, but they are definitely workable. Holidays don't always have to be when the traditional calendar says they should be. And they don't have to follow a particular script. So go enjoy your Festivus or your Pre-Christmas. I am sure they will be as wonderful and memorable as the traditional holidays.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5030,23 +5053,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm expecting my first baby in a few months, and I'm struggling with a decision I never thought I'd face. I always assumed I would stay home with my kids, at least during the early years—that's how I was raised. My mom stayed home throughout our entire childhoods. But now that I'm actually pregnant, I realize I don't want to leave my job. I work in HR at a midsize company, and while the work is challenging, it's also predictable and I find it fulfilling. It also doesn't make financial sense right now because I bring in roughly 60% of our family's income—my husband is a schoolteacher. Most of my friends either don't have kids yet or are stay-at-home moms, so I don't have great models for working motherhood. My coworkers who are moms seem frazzled and complain about their kids all the time, which scares me. Is it even possible to be a happy working mom, or am I letting money make a decision for me that should be moral or emotional?
 
 DRAFT_RESPONSE:
-[Base model answer]
+What you’re facing is a deeply personal and complex crossroads, and it’s completely understandable to feel unsettled by it. The image you grew up with—your mom staying home—provides a meaningful example, but it’s also just one way of many to approach parenting and work. Your feelings of fulfillment and financial responsibility are important parts of who you are, and they deserve to be honored alongside your hopes and fears about motherhood.
+
+It’s worth acknowledging that the idea of a “happy working mom” isn’t a fixed category or a simple yes-or-no question. Many women find joy, purpose, and satisfaction in balancing work and family, even if it’s not without challenges. The frazzled moms you see at work might be expressing their struggles in a way that feels overwhelming, but that doesn’t mean every working mother’s experience is the same. Your own experience will be shaped by your personality, your support system, your workplace flexibility, and your family’s unique dynamics.
+
+Money is a practical factor, but it’s not the only one, nor does it have to be the sole driver of your decision. It’s okay to weigh emotional and moral considerations alongside financial realities. What matters most is what feels sustainable and authentic for you and your family. If staying in your job feels like a source of identity and stability, that’s a valid and valuable choice. If you find that your priorities shift after the baby arrives, that’s also okay—decisions can evolve over time.
+
+You might find it helpful to seek out a broader range of perspectives—perhaps from working moms who seem to manage their roles in ways that resonate with you, or from communities where working motherhood is normalized and supported. Sometimes, hearing stories that reflect your own hopes can ease the fear of the unknown.
+
+Ultimately, there is no single “right” way to be a mother, and no shame in choosing a path that honors both your professional life and your family’s needs. Trusting yourself to navigate this new chapter with openness and flexibility will serve you well, even when the road feels uncertain.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Warm, validating, and non-alarmist.
+
+Normalizes ambivalence without shaming.
+
+Avoids rigid moral framing.
+
 Weaknesses:
-- ...
-- ...
+Slightly generic and cautious.
+
+Does not clearly dismantle the false moral framing of the dilemma.
+
+Ends without a strong moral landing.
 
 OUTPUT: 
-[My Tier S response]
+Yes, it is absolutely possible to be a happy working mother. More importantly, there is nothing morally suspect about wanting to keep a job that you find fulfilling and that materially supports your family.
+
+A lot of your distress seems to come from the idea that this decision should be primarily moral or emotional, rather than practical. That’s a false dichotomy. Providing stability, maintaining a sense of self, and contributing meaningfully to your household are not morally neutral factors. They matter.
+
+It’s also worth questioning the model you’re implicitly measuring yourself against. Your mother’s path worked for her, in a different economy, with different expectations and constraints. That doesn’t make it a universal template. And the frazzled coworkers you see venting are not proof that working motherhood is miserable. People complain at work because work is where complaining is socially permitted, and a place where the emotional stakes are generally a lot lower than with family.
+
+Instead of asking whether you’re “letting money decide,” ask whether the life you’re imagining is sustainable and honest for you. You bring in the lion's share of the income. You like your work. You don’t want to leave. Those aren’t trivial facts; they’re the foundation of a workable plan.
+
+Give yourself permission to decide provisionally. Many women reassess after the baby arrives. Some scale back, some don’t. That flexibility is a strength, not a failure of conviction.
+
+There is no virtue in martyrdom here. A parent who feels grounded and respected is a better parent than one who gave up a meaningful life out of guilt.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5118,23 +5166,52 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband and I recently discovered that our 17-year-old is depressed and has contemplated suicide. I found out by going through their phone after noticing they seemed "off" and didn't want to talk to me. Our teen feels betrayed and angry that I went through their phone. We took them to their pediatrician for an evaluation, and they refused to talk at all or to consider antidepressant or nonmedical interventions. We went to a therapist twice and they refused to speak at all. I've tried drawing them out, waiting patiently, explaining how suicide cannot be undone and we will get through this together, but nothing seems to get through. They did confirm that there was no event that triggered this—they're just sad. They said talking to their friends helps. But I don't know what to do. I'm barely sleeping and every time they're out of sight I'm wondering if they're okay. I asked if they'd see a different therapist and got completely shut down. How do we continue in this liminal space where our teen is suffering but refusing help?
 
 DRAFT_RESPONSE:
-[Base model answer]
+What you’re facing is profoundly painful and disorienting, and it’s clear how deeply you care for your teen. When a young person is struggling with depression and suicidal thoughts, the impulse to protect them can feel overwhelming—and yet, the very acts that come from love, like checking their phone, can fracture trust. Your teen’s anger and sense of betrayal are real and valid, even as your intentions were rooted in concern. This tension between wanting to keep them safe and respecting their autonomy is one of the hardest balances to strike.
+
+Your teen’s refusal to engage with therapy or medication is a signal that they are not ready to open up in the ways adults hope. It’s painful to witness silence and withdrawal when you want to reach in. The fact that talking to friends helps them suggests that connection matters deeply, but it may not be the kind of connection they’re willing to have with you right now. That doesn’t mean your role is diminished—it means it’s shifting.
+
+In this liminal space, what might help is to step back from pushing for immediate solutions and instead focus on creating a steady, nonjudgmental presence. You might say something like, “I’m here whenever you want to talk, no pressure, no expectations. I love you and I’m not going anywhere.” This kind of message, repeated gently over time, can help rebuild trust without making your teen feel cornered.
+
+At the same time, it’s important to take care of yourself. Your sleepless nights and constant worry are signs that you need support, too. Consider reaching out to support groups for parents of teens with depression or talking with a counselor yourself—not to fix your teen, but to find ways to sustain your own strength and clarity.
+
+If safety becomes an immediate concern—if you believe your teen is at imminent risk—don’t hesitate to seek emergency help. But outside of crisis moments, patience and presence, even in silence, can be the most powerful form of care.
+
+Takeaway: When a young person is hurting and shutting down, love sometimes means holding space without demands, showing up consistently, and protecting your own well-being so you can be a steady anchor through the storm. The path forward is rarely quick or neat, but your enduring presence is a lifeline.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+Strong empathy for the parents’ fear.
+
+Acknowledges breach of trust without demonizing the parents.
+
+Encourages parental self-support.
+
 Weaknesses:
-- ...
-- ...
+Slips into therapyspeak (“liminal space,” “hold space”).
+
+Uses an explicit “Takeaway,” which reads as LLM-like.
+
+Overly diffuse and gentle given the seriousness of the risk.
+
+Avoids firm guidance about safety and parental authority.
 
 OUTPUT: 
-[My Tier S response]
+What you’re living with right now is terrifying, and nothing about your reaction is irrational. When a child is depressed and talking about suicide, a parent’s nervous system never fully stands down. That’s not pathology; that’s love under strain.
+
+Your teen’s anger about the phone snooping is real, but it doesn’t outweigh the reason you looked. You acted because you sensed danger, and you were right. You can apologize for the method without apologizing for caring about their safety. Both things can be true at the same time.
+
+Right now, the goal is not to make your teen talk or to force insight. The goal is to keep them alive and to keep a relationship intact enough that help remains possible later. Their refusal to engage doesn’t mean nothing is working; it means they are not ready to accept adult forms of help yet.
+
+You might say something like, “I know I broke your trust, and I’m sorry for that. I did it because I was scared of losing you. I won’t push you to talk, but I need to know you’re safe. That’s my job.”
+
+At the same time, you and your husband should get professional guidance for yourselves, not to diagnose your child, but to help you make grounded decisions in a situation where fear can distort judgment. Looping in the school counselor is also appropriate. This is not a betrayal; it’s building a wider net.
+
+This may be a long, quiet road. Presence, consistency, and safety matter more than eloquence right now. You are not failing because your teen won’t open up. You are parenting in an impossibly hard moment.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5206,23 +5283,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm getting married next year and I want to wear my grandmother's wedding gown. She got married in 1970 and her dress is a stunning floor-length fuchsia A-line gown with a square neckline—she hated white as much as I do. My grandmother is having it dry cleaned and says it's still in perfect condition. My future mother-in-law thought it was wonderful that I'd be wearing my grandmother's gown until she saw a picture of it. Now she insists that it couldn't be a wedding gown since brides only wore white back then, even though the picture is clearly of my grandparents on their wedding day. She can't let it go and keeps saying what a mistake it will be to be married in "that dreary old pink dress" and that I'll miss the fun of picking my own special gown. My mom also suggested I wear something more traditional like she did, and offered me her white gown, but I hate it—it's poufy and over the top with tulle and beading. My fiancé says I should wear what makes me happy, which is my grandmother's dress. With both moms objecting, is this a stupid hill to die on?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your grandmother’s gown carries a rare and beautiful kind of meaning—one that goes beyond fabric and style. It’s a tangible link to family history, a statement about your values, and a reflection of your own taste and identity. The fact that it’s not white, and that you both dislike the traditional white dress, is part of what makes it so special. It’s a choice that honors your grandmother’s spirit and your own authenticity.
+
+The objections from your future mother-in-law and your mother seem less about the dress itself and more about their ideas of what a wedding “should” look like. Their insistence on tradition, especially when it clashes with your genuine feelings, can feel dismissive and controlling. It’s understandable that they want to be part of your wedding experience, but their resistance risks overshadowing your day and your autonomy.
+
+When they say you’ll “miss the fun” of picking your own gown, they’re framing your choice as a loss rather than a gain. You can respond with something clear and grounded, such as: “I appreciate your concern, but this dress is my choice because it feels right for me. Wearing it connects me to my grandmother and reflects who I am. I hope you can support me in that.” If they persist, you might add, “I want this day to be joyful for everyone, but it’s important that I feel like myself.”
+
+Your fiancé’s support is a vital anchor here. It’s a reminder that your wedding is ultimately about the two of you, not about meeting others’ expectations. You don’t have to make this a battleground, but you also don’t have to give up what matters to you just to avoid conflict. Sometimes standing firm on something that feels deeply meaningful is not only worth it—it’s necessary.
+
+Choosing to wear your grandmother’s gown is a way of weaving your family’s story into your own, and that is a powerful, beautiful thing. It’s not about being stubborn; it’s about honoring your truth and the love that brought you to this moment. That kind of clarity and courage is the foundation of a marriage worth celebrating.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Clear affirmation of autonomy.
+
+Provides a usable boundary-setting script.
+
+Correctly centers the couple, not the parents.
+
 Weaknesses:
-- ...
-- ...
+Slightly combative tone toward the mothers.
+
+Leans into historical correction rather than emotional framing.
+
+Risks escalating the conflict unnecessarily.
 
 OUTPUT: 
-[My Tier S response]
+No, this is not a stupid hill to die on. It's your wedding, and you should wear what makes you happy. Your future mother-in-law's opinion about what you should wear on your wedding day is just that: an opinion, not a requirement. When somebody tries to take away another person's autonomy and force their own arbitrary choices upon them, it can create profound discomfort and resentment. It can make the person feel like their voice doesn't matter. This is absolutely the right hill to die on, in part because it's a preview of problems that you will face again and again in this family if you don't stand up for yourself early on.
+
+Your grandmother’s dress isn’t a placeholder for a “real” gown. It is your real gown, precisely because you chose it intentionally and because it carries meaning that aligns with who you are. The objections you’re hearing aren’t really about pink versus white; they’re about control, tradition, and the discomfort some parents feel when adult children don’t replicate their choices.
+
+You don’t need to argue history or convince anyone that your dress is legitimate. You just need to stop debating it. A calm, closed statement works best here: “I appreciate your input, but I’ve decided to wear my grandmother’s dress. I’m not discussing this further.”
+
+If the pressure continues, your fiancé should take the lead with his mother. This isn’t about winning an argument; it’s about setting a precedent. A marriage works better when the couple presents a united front on decisions that are not up for committee approval. 
+
+This is actually a good test of how you'll handle future boundary issues with your in-laws. If you (or your soon-to-be-husband) give in on something as personal as your wedding dress to avoid conflict, you're setting a pattern of letting them dictate your choices. Set a better precedent: with respect for their opinions, but with firm boundaries about what's yours to decide. Wear the pink dress, and have a beautiful wedding.
+
+P.S.: Kudos to your husband for offering the common-sense opinion of "your wedding, your choice." He sounds like a keeper.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5294,23 +5396,40 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD and one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like the competition between you and your brother has been a long-standing part of your relationship, shaped by your upbringing and the ways you both measure success. Wanting to change that dynamic is a positive step, even if it feels challenging. One way to start might be by focusing on shared experiences that don’t revolve around comparison or winning. When you spend time together, you could try to engage in activities that highlight cooperation or simply enjoying each other’s company without keeping score. It might also help to be mindful of your own feelings during these interactions and gently remind yourself that your worth isn’t tied to how you perform against him. Over time, small shifts in how you relate during these moments could open up space for a different kind of connection. It’s understandable that old patterns resurface, but with patience and intention, you might find ways to build a relationship that feels less competitive and more supportive.
 
 EVALUATION:
-Score: [score]
+Score: 4.0
 
 Strengths:
-- ...
-- ...
+Gentle and nonjudgmental.
+
+Encourages self-reflection.
+
 Weaknesses:
-- ...
-- ...
+Extremely vague and generic.
+
+Slips into therapyspeak and self-help tropes.
+
+Over-pathologizes normal sibling dynamics.
+
+Offers no concrete guidance for changing the relationship.
 
 OUTPUT: 
-[My Tier S response]
+What you’re describing isn’t unusual for siblings raised in a household where achievement was the main currency of love. Even decades later, those dynamics can snap back into place the moment you’re together, especially in situations that invite comparison.
+
+The first thing to notice is that your brother isn’t actually doing anything wrong. He isn’t gloating or trying to humiliate you. The pain you’re feeling is old, and it’s being reactivated by familiar conditions. That matters, because it tells you where change is most likely to be effective.
+
+If you want to shift the relationship, start by changing the context rather than the content. Spend time together in ways that don’t revolve around performance or winning. That might mean opting out of competitive games or suggesting activities where there is no scorekeeping at all. This isn’t avoidance; it’s choosing conditions that allow a different version of the relationship to emerge.
+
+If you want to name the issue directly, keep it simple and non-accusatory: “I’d like us to have a closer relationship, and sometimes our old competitive dynamic gets in the way for me. I’m not blaming you—I just want to find ways to spend time together that feel better.”
+
+You may also need to accept that some of this work is internal. Your brother’s success doesn’t diminish your own, but unlearning that reflex takes time. The goal isn’t to erase comparison entirely; it’s to stop letting it dictate how close you’re allowed to feel.
+
+Repair here is possible, but it will come from small, deliberate shifts rather than one big conversation.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
