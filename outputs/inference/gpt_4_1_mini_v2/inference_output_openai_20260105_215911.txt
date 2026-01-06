@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 21:59:11
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-medium quality response that meets the following criteria: Empathetic but generic, lacks clarity or depth, feels \LLM-like\. Lacks a distinctive human voice. Responses in this range are usually short and are rather shallow, rather than fully engaging with the complex issues that are present in advice column problems.
+
+QUESTION: My wife and I have been married about 15 years. For the first few years, our sex life was great. We were, as the saying goes, "f***ing like bunnies". But as the years wore on, especially once we had kids, we hit a rough spot in the bedroom. Since we had our second and final child, my wife only wants sex once every few weeks, and sometimes once every few months. When we do have sex, I almost always have to initiate, and she's just not as, shall we say, vigorous as was the case before. I love my wife and want to respect her preferences, but at the same time, I feel that my sexual needs are no longer being met. Am I doomed to spend the rest of my days in a sexually unsatisfying marriage, or is there hope for us?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s understandable to feel concerned when your sex life changes, especially after many years and having children. Many couples experience shifts in intimacy over time, and it’s common for desire to fluctuate. It might help to have open conversations with your wife about how you’re feeling and listen to her perspective as well. Sometimes, finding ways to reconnect emotionally can also improve physical intimacy. Couples therapy could be an option if you feel stuck, but ultimately, relationships evolve, and it’s possible to find a new balance that works for both of you.
+==================================================

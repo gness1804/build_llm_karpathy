@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 22:03:52
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Medium quality response that meets the following criteria: Generally solid advice with minor softness, vagueness, or missed opportunities for specificity. Some of the moral clarity of a 9-10 response may be missing. The response might be fairly described as "pulling its punches" in places.
+
+QUESTION: My husband has a habit of criticizing me when I do something wrong, or when he thinks I do something wrong. This behavior has unfortunately been escalating in recent months. It started even before our wedding. For instance, he would remark upon my having chosen the "wrong" dress rather than telling a white lie that he liked the dress. Also, he would say things like, "You must be so glad you found me given how you were living before." Like most people in love, I brushed off these red flags, thinking that he would change after the wedding. But alas, things only got worse from there. Now that we've been married several years and have two kids, he started insulting me in front of the kids. He also tries to make me believe things that I know aren't true. For instance, by repeating lies to me, such as accusing me of losing our house keys, when in fact he's the one who misplaced them. They were found in the pocket of his suit jacket, for goodness sake!\n\nMy husband is mostly a wonderful man and a good father, and I dread the prospect of becoming a single mother, so I don't want to lose him. I've tried talking with him about the insults, but he always brushes me off. Is there a way that I can address this to salvage the marriage? Or do you think I should seek the exit?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you’re in a really difficult and painful situation, and it’s understandable that you want to find a way to preserve your marriage while also protecting yourself and your children. Your husband’s pattern of criticism, insults, and attempts to distort the truth are concerning, especially as they’ve escalated over time and now happen in front of your kids. These behaviors can be damaging not only to you but also to the emotional well-being of your family.
+
+You’ve already tried talking to him, which is an important first step, but it’s frustrating when those conversations don’t lead to change. Sometimes, when someone brushes off concerns like this, it can be a sign that they don’t fully recognize the impact of their behavior or aren’t ready to take responsibility for it. It might help to approach the conversation again, perhaps choosing a calm moment when you can express how his words affect you and the family, focusing on specific examples without blaming. However, if he continues to dismiss your feelings or the behavior persists, it’s important to consider what that means for your own well-being.
+
+Since you mention that he is a good father and mostly a wonderful man, it’s clear there are positive aspects to your relationship. But it’s also okay to acknowledge that some patterns are harmful and need to be addressed seriously. You might consider seeking support outside the marriage, such as couples counseling or individual therapy, which could provide a space for both of you to explore these issues more deeply. If your husband isn’t willing to participate, individual counseling can still help you find clarity and strength in deciding what’s best for you and your children.
+
+Ultimately, deciding whether to stay or leave is deeply personal and complex. It’s worth reflecting on whether the relationship can be a source of safety and respect for you moving forward. Protecting yourself and your children emotionally and physically is paramount, and sometimes that means setting firm boundaries or even stepping away if the harmful behavior continues. You don’t have to make this decision alone—lean on trusted friends, family, or professionals who can support you as you navigate this challenging time.
+==================================================

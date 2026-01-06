@@ -3555,23 +3555,46 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My wife and I have been married about 15 years. For the first few years, our sex life was great. We were, as the saying goes, "f***ing like bunnies". But as the years wore on, especially once we had kids, we hit a rough spot in the bedroom. Since we had our second and final child, my wife only wants sex once every few weeks, and sometimes once every few months. When we do have sex, I almost always have to initiate, and she's just not as, shall we say, vigorous as was the case before. I love my wife and want to respect her preferences, but at the same time, I feel that my sexual needs are no longer being met. Am I doomed to spend the rest of my days in a sexually unsatisfying marriage, or is there hope for us?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable to feel concerned when your sex life changes, especially after many years and having children. Many couples experience shifts in intimacy over time, and it’s common for desire to fluctuate. It might help to have open conversations with your wife about how you’re feeling and listen to her perspective as well. Sometimes, finding ways to reconnect emotionally can also improve physical intimacy. Couples therapy could be an option if you feel stuck, but ultimately, relationships evolve, and it’s possible to find a new balance that works for both of you.
 
 EVALUATION:
-Score: [score]
+Score: 5.5
 
 Strengths:
-- ...
-- ...
+
+Calm, nonjudgmental tone
+
+Normalizes change over time
+
+Avoids blaming either partner
+
 Weaknesses:
-- ...
-- ...
+
+Extremely generic and interchangeable
+
+Avoids the core question about long-term sexual dissatisfaction
+
+No moral clarity about unmet needs being legitimate
+
+No concrete guidance or framing
+
+Uses therapy-lite language (“open conversations,” “reconnect emotionally”) without substance
+
+Fails to address resentment, grief, or fear about the future
 
 OUTPUT: 
-[My Tier S response]
+What you’re describing is painfully common, and that doesn’t make it any easier to live with. A long-term drop in sexual intimacy can quietly reshape a marriage, especially when one partner still desires a level of closeness that the other no longer seems able or willing to meet. Loving your wife and respecting her preferences does not cancel out your own needs, and it’s important to say that clearly.
+
+One hard truth is that sexual desire often changes after children, but it doesn’t always change in the same direction or at the same pace for both partners. When sex becomes infrequent, obligatory, or emotionally thin, the higher-desire partner can start to feel unwanted, lonely, or ashamed for wanting more. Those feelings don’t make you shallow or entitled. They make you human. What does become dangerous over time is silence, because unspoken disappointment tends to harden into resentment.
+
+You are not doomed, but hope here requires honesty rather than optimism. A meaningful conversation isn’t just about frequency or technique. It’s about whether your wife still experiences sex as a source of connection, pleasure, or desire at all, and whether she’s interested in rebuilding that part of the relationship. You might say something like, “I love you, and I don’t want sex to feel like an obligation. But I also can’t pretend that going months without intimacy doesn’t affect me. I need to know whether this is something you want to work on together.”
+
+That conversation may be uncomfortable, and it may surface grief on both sides. If your wife feels touched-out, exhausted, or disconnected from her own sexuality, that deserves compassion. But compassion does not mean accepting an indefinite status quo that leaves you quietly unhappy. A marriage can survive many things, but long-term erotic neglect without acknowledgment is not one of them.
+
+Whether the path forward involves medical consultation, couples counseling, renegotiated expectations, or difficult decisions about compatibility, the first step is naming the problem honestly. You are not wrong to want a marriage that includes mutual desire, not just mutual respect. Wanting that does not make you disloyal. It means you’re taking your relationship seriously.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -3643,23 +3666,56 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband has a habit of criticizing me when I do something wrong, or when he thinks I do something wrong. This behavior has unfortunately been escalating in recent months. It started even before our wedding. For instance, he would remark upon my having chosen the "wrong" dress rather than telling a white lie that he liked the dress. Also, he would say things like, "You must be so glad you found me given how you were living before." Like most people in love, I brushed off these red flags, thinking that he would change after the wedding. But alas, things only got worse from there. Now that we've been married several years and have two kids, he started insulting me in front of the kids. He also tries to make me believe things that I know aren't true. For instance, by repeating lies to me, such as accusing me of losing our house keys, when in fact he's the one who misplaced them. They were found in the pocket of his suit jacket, for goodness sake!
+
+My husband is mostly a wonderful man and a good father, and I dread the prospect of becoming a single mother, so I don't want to lose him. I've tried talking with him about the insults, but he always brushes me off. Is there a way that I can address this to salvage the marriage? Or do you think I should seek the exit?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re in a really difficult and painful situation, and it’s understandable that you want to find a way to preserve your marriage while also protecting yourself and your children. Your husband’s pattern of criticism, insults, and attempts to distort the truth are concerning, especially as they’ve escalated over time and now happen in front of your kids. These behaviors can be damaging not only to you but also to the emotional well-being of your family.
+
+You’ve already tried talking to him, which is an important first step, but it’s frustrating when those conversations don’t lead to change. Sometimes, when someone brushes off concerns like this, it can be a sign that they don’t fully recognize the impact of their behavior or aren’t ready to take responsibility for it. It might help to approach the conversation again, perhaps choosing a calm moment when you can express how his words affect you and the family, focusing on specific examples without blaming. However, if he continues to dismiss your feelings or the behavior persists, it’s important to consider what that means for your own well-being.
+
+Since you mention that he is a good father and mostly a wonderful man, it’s clear there are positive aspects to your relationship. But it’s also okay to acknowledge that some patterns are harmful and need to be addressed seriously. You might consider seeking support outside the marriage, such as couples counseling or individual therapy, which could provide a space for both of you to explore these issues more deeply. If your husband isn’t willing to participate, individual counseling can still help you find clarity and strength in deciding what’s best for you and your children.
+
+Ultimately, deciding whether to stay or leave is deeply personal and complex. It’s worth reflecting on whether the relationship can be a source of safety and respect for you moving forward. Protecting yourself and your children emotionally and physically is paramount, and sometimes that means setting firm boundaries or even stepping away if the harmful behavior continues. You don’t have to make this decision alone—lean on trusted friends, family, or professionals who can support you as you navigate this challenging time.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+
+Recognizes the behavior as concerning
+
+Validates emotional pain
+
+Mentions impact on children
+
+Does not rush immediately to “leave”
+
 Weaknesses:
-- ...
-- ...
+
+Too hesitant given the severity of the behavior
+
+Avoids naming emotional abuse and gaslighting
+
+Overuses therapeutic framing without boundaries
+
+Places too much burden on the writer to “try again”
+
+Does not clearly state what is unacceptable
+
+Fails to prioritize the children’s psychological safety strongly enough
 
 OUTPUT: 
-[My Tier S response]
+What you’re describing goes well beyond ordinary marital conflict. Persistent criticism, public humiliation, and telling you things you know are false in order to make you doubt your own memory are not quirks or communication issues. They are forms of emotional harm. When this behavior happens in front of your children, it also teaches them damaging lessons about power, truth, and what love looks like.
+
+It’s especially painful that you noticed these patterns before the wedding and hoped they would fade. Many people do. But the escalation you describe suggests that this isn’t a misunderstanding—it’s a dynamic that has been reinforced over time. The fact that he dismisses your attempts to address it is another serious signal. Someone who wants to change listens when they are told they are causing harm.
+
+You are right to feel torn. Wanting to preserve your family and avoid single parenthood is understandable. But it’s important to be honest about the cost of staying as things are. Children who grow up watching one parent belittle the other often absorb that behavior as normal, either by replicating it or by internalizing it. Protecting them emotionally matters just as much as keeping the household intact.
+
+If there is any chance of salvaging this marriage, it will require a firm boundary, not another gentle appeal. That might sound like: “I will not accept being insulted or undermined, especially in front of our children. If this continues, I will take steps to protect myself and them.” This isn’t a threat. It’s a statement of reality. If he is willing to take responsibility and engage seriously in counseling with the explicit goal of changing this behavior, that may be worth exploring. If he isn’t, that tells you something important.
+
+Loving someone does not obligate you to endure ongoing harm. And staying “for the kids” only works if the home is a place of safety and respect. You don’t need to decide everything today. But it is appropriate to stop minimizing what’s happening and start prioritizing your dignity and your children’s emotional health. Those are not negotiable needs.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -3731,23 +3787,62 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm engaged to be married to a wonderful man. We met online about a year and a half ago. When he proposed, I was truly over the moon. This has been a fairytale story, except for one major aspect: my extremely religious sister doesn't approve of him. Why? It boils down to the fact that he's divorced. In our religious tradition, if you enter into marriage with somebody, even if the marriage itself was not in this tradition, and you then divorce, our church has to find a reason why the divorce is invalid to permit the person to marry a second time within this church. It's called an annulment. My fiance has been willing to go quite far for my family with regards to religion, including even getting baptized, albeit not in our same denomination. But very reasonably, he's decided not to do an annulment on the grounds that it would be an unacceptable intrusion into his private life. And he's right. We don't need priests digging into his past life.
+
+But this refusal to do the annulment is a deal-breaker for my sister, who will only attend my wedding if the annulment happens and if my fiance gets baptized into the "right" sect. It's looking like a real possibility that my sister will skip the wedding. I really want her there, and I've tried to explain this to her and get her to understand that even though she may not agree with the wedding or with my choice of a partner, she needs to attend because that's what sisters who love their sisters do. I am politically liberal, but if she were to marry someone who's a huge Trump supporter and conservative, I wouldn't hesitate to attend. (She is single now.) Because again that's what sisters do.
+
+Is there a way that I can approach the topic that I haven't thought of that might help come around to seeing reason, or should I just deal with not having my beloved sister at the wedding? (Oh, and one thing I forgot to mention, I encouraged her to see a priest to discuss this matter in the hope that he would tell her something along the lines of: "Yes, go to the wedding because you love your sister and it's the right thing to do. It's not anything that will undermine your faith or commitment to God." But she won't go, and my husband suspects the reason is because she knows that the priest will probably say something along these lines.)
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re in a really tough spot, caught between your sister’s deeply held religious convictions and your own commitment to your fiancé and your future together. Your sister’s stance is clearly rooted in her faith and the rules she follows, and that makes it hard for her to accept your fiancé as he is, especially without the annulment and baptism in her preferred denomination. At the same time, it’s understandable that you want your sister to be part of such an important moment in your life.
+
+You’ve already tried some thoughtful approaches—explaining the importance of family support and encouraging her to seek guidance from a priest. It’s unfortunate she hasn’t been willing to take that step, but it might be that she feels caught between loyalty to her faith and her love for you, and that’s a difficult place to be.
+
+One thing you might consider is having a calm, open conversation with her where you acknowledge her feelings and beliefs without trying to change them, while also expressing how much her presence means to you.
+
+Ultimately, though, it’s possible that your sister may not come around, and you may have to prepare yourself for the reality of her absence. That doesn’t mean she loves you any less, but it does mean that her boundaries and beliefs are different from yours. It’s okay to grieve that loss while still moving forward with your life and your marriage. Your fiancé’s willingness to engage with your family’s faith to some extent shows his respect for you, and that’s a strong foundation to build on.
+
+In the end, you can only control your own actions and feelings, not your sister’s. Holding space for her perspective while standing firm in your own choices might be the most balanced path forward.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+
+Calm and empathetic
+
+Acknowledges competing values
+
+Encourages acceptance of sister’s choice
+
+Avoids attacking religion directly
+
 Weaknesses:
-- ...
-- ...
+
+Overly deferential to rigid belief
+
+Avoids moral clarity about coercion
+
+Fails to name the intrusion into the fiancé’s autonomy
+
+No concrete boundary or script
+
+Leans too hard on “holding space” language
+
+Leaves the letter writer emotionally stranded
 
 OUTPUT: 
-[My Tier S response]
+This situation hurts because it asks you to choose between two things that matter deeply to you: your sister and your future with the person you love. It’s also painful because you’ve already bent in significant ways, while your sister’s position remains rigid. At some point, compromise stops being mutual and starts becoming coercive.
+
+It’s worth naming clearly what’s happening here. Your sister is not simply declining to attend your wedding. She is attempting to condition her presence on your fiancé submitting to an invasive religious process that he does not believe in and has every right to refuse. Asking a divorced adult to subject their past life to clerical scrutiny as the price of family acceptance is not a small request. It’s a profound intrusion into personal autonomy. You are right to be uneasy about it.
+
+You’ve already taken reasonable steps: explaining your values, emphasizing love and family, even encouraging her to seek guidance within her own faith. Her refusal to do so suggests that this is less about spiritual uncertainty and more about maintaining control over the situation. You cannot reason someone out of a position they are using to exert leverage.
+
+At this point, the most honest approach may be to stop arguing theology and speak plainly about boundaries. You might say, “I love you, and I want you at my wedding. But I will not pressure my fiancé to undergo an annulment or convert in order to earn your approval. If you choose not to attend, that will be painful for me, but the responsibility for that choice will be yours.” That makes the stakes clear without attacking her faith.
+
+It’s also important to grieve what you may not get. You can love your sister and still be deeply disappointed by her choice. If she does not attend, that absence will say something about her priorities, not about the legitimacy of your marriage. Surround yourself with people who are able to celebrate your commitment without conditions.
+
+You are not wrong to want your sister’s support. But you are also not wrong to refuse to sacrifice your partner’s dignity in order to secure it. Sometimes the most self-respecting choice is to move forward with joy and let others decide whether they are willing to meet you there.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
