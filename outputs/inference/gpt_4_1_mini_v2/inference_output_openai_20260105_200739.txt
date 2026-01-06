@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 20:07:39
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Medium quality response that meets the following criteria: Generally solid advice with minor softness, vagueness, or missed opportunities for specificity. Some of the moral clarity of a 9-10 response may be missing. The response might be fairly described as "pulling its punches" in places.
+
+QUESTION: I’m considering ending a friendship because our political views have diverged dramatically. We can’t talk without it becoming tense. Is that shallow?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s understandable to feel conflicted about ending a friendship over political differences. Friendships often involve shared values and mutual respect, so when those start to feel compromised, it can create tension. While some might see ending a friendship over politics as shallow, it’s also important to recognize that political beliefs can be deeply tied to a person’s identity and worldview. If conversations consistently lead to discomfort or conflict, it’s reasonable to consider whether the friendship still brings you positive connection. Before making a final decision, you might try setting boundaries around political discussions or focusing on other aspects of your relationship. Ultimately, preserving your own peace of mind is important, and sometimes that means stepping back from relationships that feel more draining than supportive.
+==================================================

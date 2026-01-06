@@ -2798,23 +2798,32 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’m considering ending a friendship because our political views have diverged dramatically. We can’t talk without it becoming tense. Is that shallow?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable to feel conflicted about ending a friendship over political differences. Friendships often involve shared values and mutual respect, so when those start to feel compromised, it can create tension. While some might see ending a friendship over politics as shallow, it’s also important to recognize that political beliefs can be deeply tied to a person’s identity and worldview. If conversations consistently lead to discomfort or conflict, it’s reasonable to consider whether the friendship still brings you positive connection. Before making a final decision, you might try setting boundaries around political discussions or focusing on other aspects of your relationship. Ultimately, preserving your own peace of mind is important, and sometimes that means stepping back from relationships that feel more draining than supportive.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+- Recognizes that political disagreements often go deeper than just "shallow" disagreements over candidates or policies.
 Weaknesses:
-- ...
-- ...
+- Lacks a script that the letter writer can use.
+- Answer is too brief and doesn't adequately engage with the complex problems raised by the letter.
+- Gestures at setting boundaries, but offers few specifics.
+- Fails to delve into specific issues, such as who raises the topic of politics in conversations. Is it always the friend or sometimes also the letter-writer? 
 
 OUTPUT: 
-[My Tier S response]
+Political differences often reflect deeper values about power, responsibility, and empathy. And the place of outsiders and historically marginalized groups in our society. When those values diverge sharply, conversation can become exhausting rather than enriching. Especially in the current political climate, "agreeing to disagree" can be hard to accept when it seems like every issue is a battle between diametrically opposed values. And in the age of social media, we know much more about the political opinions of even neighbors and friends of friends than most of us would want to know. Just this year I learned that a spouse of a relative seems to see the opposite political party as being gleeful at a deadly natural disaster that happened in our state. Such revelations really do reveal sharply different values. Given all this, I don't think you're shallow to question ending the friendship. 
+
+That said, ending the friendship may or may not be the best move, depending on circumstances. When the subject of conversation isn't politics, do the two of you generally have amicable and pleasant discussions? And notwithstanding what I said about agreeing to disagree above, have you ever explicitly asked your friend to keep politics off the table in your discussions, knowing that the two of you aren't going to agree and that it will only cause hurt feelings? Your sentence, "we can't talk without it becoming tense," seems to imply that politics often comes up in your conversations. If so, does one of you almost always raise the topic? If it's you, then you can simply not bring it up anymore. If it's her, you can politely ask your friend to not bring it up. Say something like, “I care a lot about you and our friendship, but I've noticed that every time we discuss politics, our conversations get tense and difficult. While I don't want to shy away from discussing difficult issues on principle, I just feel that in our friendship discussing politics does way more harm than good. Neither of us is going to persuade the other of their view, and it's very difficult to discuss this topic without lots of negative emotions coming up. Would you agree to just stay away from the subject from now on and talk about things that aren't as difficult?”
+
+If after this conversation she still keeps bringing up politics, then that sends you a signal that your friend is willing to put their own political interests and passions above your feelings. In that case, ending the friendship or drastically reducing the amount of time that you talk with her would be an entirely appropriate response. Ending or distancing a friendship over this is not inherently shallow. It’s a recognition that mutual understanding may no longer be possible.
+
+Many friendships can withstand political differences, but many others cannot. The question of which of these applies to your friendship will be determined by whether the two of you are able to come to a mutually satisfactory agreement about discussing politics and then actually stick to it. Because the status quo isn't sustainable.
+
+It's not weak or "shallow" of somebody to request that a difficult topic be kept out of conversations. In fact, it takes a strong person to make such a request and risk the ire of the other person or even the end of the friendship. Bottom line: you don’t owe perpetual engagement at the cost of your own peace.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -2886,23 +2895,37 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear you appreciate your mom’s intentions, but you also need your home to feel like your own sanctuary. When someone crosses that boundary—even with good intentions—it can feel unsettling and diminish your sense of autonomy. Since your gentle hints haven’t landed, a more direct but compassionate conversation might be the kindest way forward.
+
+You could start by acknowledging her care: “Mom, I really appreciate how much you want to help and how thoughtful you are to drop off food or tidy up.” Then gently express your feelings: “At the same time, I’m trying to get used to living on my own and having my own space, and it feels a bit strange when you come by without letting me know first.” Framing it around your own experience rather than her behavior can help avoid making her feel criticized.
+
+You might suggest a simple arrangement: “Could we agree that you call or text before coming over, so I can make sure it’s a good time? That way I can also be there to visit with you.” This invites her to be part of your life on your terms, rather than feeling shut out.
+
+It’s normal for parents to struggle with adjusting to their adult children’s independence, and it may take a few conversations for her to fully understand. If she does feel hurt, gently reassure her that your need for boundaries doesn’t mean you love or value her any less—it’s about you growing into your own adult life.
+
+Ultimately, your home is your personal space, and setting boundaries is a way of caring for yourself. Approaching this with kindness and clarity can help preserve your relationship while honoring your needs.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+- Offers a realistic view that getting the mother to change her behavior might be a process.
+- Offers a script for the letter writer to use with his mother.
+- Keeps kindness and empathy front and center.
 Weaknesses:
-- ...
-- ...
+- Could be more specific in laying out which competing forces outweigh the others. For instance, the best responses acknowledge that while avoiding hurting your mom's feelings is a real and important goal, it's very difficult to set boundaries without hurting feelings. And therefore, reasonable and kindly expressed boundaries override the need to protect the other person's feelings at all costs. This response is missing that kind of reasoning.
 
 OUTPUT: 
-[My Tier S response]
+It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that. When a parent oversteps reasonable boundaries in an adult child's life, it can leave the adult child feeling a range of emotions. You want to be able to feel that your space is yours, but you also don't want to hurt your mother's feelings, especially since you know that she means well. It's a painful dilemma.
+
+Unfortunately, there are very few, if any, cases in which setting boundaries doesn't risk hurting someone's feelings. When boundaries need to be set with someone, then almost by definition, you're asking them to get outside of their comfort zone and to rethink old assumptions that they had held, often unconsciously. You're pushing back on something that somebody else is doing, and very often they're going to take it personally.
+
+When setting a boundary with your mom on this matter, you want to strike a tone of loving but firm. You might say something to the effect of, "Mom, I love you, and I really do enjoy having you over. But when you come over, I want it to be for a visit where we're both present and can enjoy each other's company. I know that you mean well in coming over while I'm gone and performing chores and leaving food, but it undermines my own sense of independence and sense that my space really is my own. Moving forward, can we both agree that the key that I gave you should be only used for emergencies, and that any other times when you come over, you need to ask me first?" 
+
+Relationships between parents and adult children often involve recalibration. This is one of those times. With love and patience, you will be able to strengthen and re-calibrate your relationship with your mother so that it preserves your closeness while also respecting your own autonomy.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
