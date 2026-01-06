@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 21:23:57
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My best friend recently got back together with her ex-boyfriend, who I know was emotionally abusive to her. She cut off her other best friend for telling her to leave him, and now she's threatening to cut me off too over a trivial political disagreement we had. I'm trying to be a safe presence for her like people advised, but it's getting harder as she keeps ghosting me or being cold and distant. How do I handle this without losing my friend completely, and how do I stop feeling terrible about it?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s deeply painful to watch someone you care about return to a relationship that you believe is harmful, especially when that person starts to push away others who are trying to support them. Your friend’s decision to reunite with someone who was emotionally abusive—and to cut off those who voiced concern—puts you in a very difficult position. It’s understandable that you want to be a safe presence for her, but it’s also important to recognize the limits of what you can do.
+
+When someone is caught in a painful or confusing situation, they may react by withdrawing or lashing out, even at those who care about them. This can feel like rejection, but it often reflects their own struggle rather than a true reflection of your value as a friend. That said, it’s not fair or healthy for you to be treated coldly or threatened over disagreements, especially when you’re trying to be supportive.
+
+You might consider gently setting boundaries that protect your well-being while leaving the door open for connection. For example, you could let her know that you care about her and want to be there, but that you also need respect and kindness in your interactions. If she continues to distance herself or behave harshly, it’s okay to step back and give her space. Sometimes, the best way to be a safe presence is to show that you respect yourself enough not to accept mistreatment.
+
+Feeling terrible about this is a natural response to losing closeness with someone you love. Try to remind yourself that your feelings reflect your care and empathy, not failure. You’re not responsible for her choices or for fixing her situation. It’s okay to grieve the friendship as it changes, and to seek support from others who can hold you through that.
+
+Ultimately, friendships can be complicated and sometimes painful, especially when one person is navigating difficult personal challenges. Holding onto hope for reconciliation is natural, but so is honoring your own emotional health. You can be a compassionate friend without sacrificing your own sense of safety and dignity.
+==================================================

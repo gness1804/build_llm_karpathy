@@ -3197,23 +3197,51 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband and I are facing a dilemma over how to respond to a problem with how his family treats his brother. We both have long suspected that my husband's brother is gay. At one point, the brother even came to my husband asking for advice on how to come out of the closet. However, in large part because of their family's attitudes, the brother has never actually come out to them. From time to time, I overhear some of my husband's family, particularly my father-in-law, make offensive and cruel remarks about gay people. I don't know if the father-in-law suspects that one of his sons is gay or not, but regardless, this creates an alienating environment for us and obviously especially for the brother.
+
+Our dilemma is on how to respond to this, if at all. I would like for us, or at least for my husband, to bring this up with his father and to make clear that we don't approve of these cruel remarks. My husband has made it clear that even though he strongly disapproves of the anti-gay remarks, he wants to preserve his relationship with his father and doesn't want to intervene. I tend to feel that since it's his family, he should have more of a say on how to engage with them. But it really hurts to stand by and say nothing while my husband's father creates such an intolerant environment. Do you think that we should just let this go or do you feel that it's worth risking our relationship with his father to try to improve the situation?
 
 DRAFT_RESPONSE:
-[Base model answer]
+This is a deeply painful and complex situation, and your feelings of hurt and frustration are entirely understandable. When a family environment feels alienating or hostile—especially around something as personal and vulnerable as sexual identity—it can create a heavy emotional burden for everyone involved, including your husband and his brother.
+
+Your husband’s desire to maintain his relationship with his father while disapproving of the hurtful remarks reflects a common and difficult balancing act: wanting to protect family bonds but also wanting to stand against intolerance. It’s important to recognize that this tension is not a simple matter of choosing between silence and confrontation. It’s a negotiation of values, safety, and emotional survival.
+
+You are right to feel that the environment created by these remarks is harmful, and it’s reasonable to want to address that harm. At the same time, your husband’s hesitation suggests that he may be weighing the potential consequences of speaking up—perhaps fearing that confrontation could lead to estrangement or deepen the family’s divisions. His perspective deserves respect, even as you hold your own.
+
+One way forward might be to explore together what “engaging” with his father could look like in a way that feels authentic but also manageable. It doesn’t have to be an all-or-nothing confrontation. Sometimes, small, steady expressions of disapproval or gentle challenges to harmful remarks can open a door without closing the relationship. Your husband might find a way to communicate his feelings that feels less risky or more aligned with his style and comfort level.
+
+It’s also worth considering the impact on the brother, who remains in a vulnerable position. Supporting him—whether through private conversations, creating safe spaces, or simply being a consistent source of acceptance—can be a powerful form of resistance to the family’s intolerance.
+
+Ultimately, there is no perfect answer here. You and your husband will need to navigate this together, balancing your values, your emotional needs, and the realities of your family dynamics. It’s okay to acknowledge that some situations resist quick fixes and that protecting your own well-being is a valid part of the equation. If the environment remains intolerant and unchanged, it’s also okay to set boundaries around your involvement or presence in those family interactions.
+
+Your desire for a kinder, more accepting family space is both compassionate and courageous. Finding a path that honors that desire while respecting your husband’s approach will take time, patience, and ongoing conversation.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+- Empathetic and emotionally attuned
+- Recognizes the tension between values and family preservation
+- Avoids simplistic “just confront him” advice
+- Acknowledges the brother’s vulnerability
+
 Weaknesses:
-- ...
-- ...
+- Too abstract and cautious given the moral stakes
+- Lacks clear moral clarity about the harm of silence
+- Over-relies on “there is no perfect answer”
+- Does not sufficiently center the brother’s safety and dignity
+- Avoids giving a concrete boundary or decision framework
 
 OUTPUT: 
-[My Tier S response]
+This is a painful situation precisely because it sits at the intersection of loyalty, safety, and moral responsibility. You’re not imagining the harm here. Repeated anti-gay remarks do real damage, even when no one is “officially” out, and especially when someone in the family is quietly absorbing those messages about who they are allowed to be. Silence in these situations is not neutral. It often functions as permission.
+
+At the same time, your husband’s hesitation deserves to be understood rather than dismissed. He is weighing the very real possibility that confronting his father could permanently damage their relationship. That fear is not cowardice. It’s a recognition of how entrenched these attitudes can be and how costly it can be to challenge them. Still, preserving a relationship at any cost is not the same thing as preserving it wisely.
+
+One important distinction may help you move forward: this does not have to be framed as “outing” the brother or issuing an ultimatum. It can be framed as setting a boundary around behavior. Your husband can make it clear, privately and calmly, that disparaging remarks about gay people are not acceptable in his presence. He does not need to argue theology or change his father’s worldview. He only needs to say, in effect, “When you speak this way, it harms people I love, and I won’t pretend it’s okay.”
+
+That kind of boundary may still provoke backlash. There is no guarantee it won’t. But it shifts the cost away from the most vulnerable person in the room. Right now, that cost is being paid by a brother who is likely already carrying a great deal of fear and isolation. Protecting him does not require heroics, but it does require choosing discomfort over complicity.
+
+Finally, regardless of what your husband decides to do with his father, it matters enormously that his brother knows where you both stand. Even quiet, private expressions of support can be lifesaving in an environment like this. You cannot control whether the family becomes more tolerant. But you can make sure that no one is left wondering whether cruelty is being silently endorsed. That clarity alone can make a profound difference.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -3285,23 +3313,58 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My wife and I are expecting our first child, a daughter. As you might imagine, we're over the moon about being new parents and nurturing and loving this new human. Nevertheless, my wife and I are engaged in a nasty recurring argument over whether to baptize our future daughter. My wife came from a fairly secular family but experienced trauma in her early adulthood, including a sexual assault. She found an on-campus religious community that provided tremendous support to her in her healing. And after college she has continued to attend church in that same denomination. She's been a part of this denomination for about 15 years at this point, and I have nothing against her doing this. Obviously she's an autonomous adult, and we don't have to agree on religion. But in my case, I'm an atheist who had some very bad experiences with religion growing up, including multiple attempts to proselytize me. I also had a friend who was abused by a priest. And so for me, organized religion is the root of much evil with corporate greed being the root of most of the rest.
+
+My wife wants to baptize our daughter in her denomination because she wants to pass on to her child the deep connection that she has to her faith. And also, I suspect, because she feels that on some level being part of this religious community might shield her daughter from the trauma that she went through as a younger woman. But for me, I worry that baptizing our daughter in this religion would essentially brainwash and indoctrinate her. I fear our daughter wanting to marry young and then becoming obedient to her husband due to our church's teachings. The denomination is one of the more conservative ones, and I don't agree with most of their teachings. I want our daughter to be a strong young woman, not a slave to her future husband because of religious brainwashing. Should I just give in and let her get indoctrinated, or should I fight harder for her to not be baptized?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation is deeply complex and touches on some of the most intimate aspects of identity, belief, and parenting. It’s clear that both you and your wife want what’s best for your daughter, but you have very different visions of what that looks like. Your wife’s connection to her faith is a source of healing and community for her, and she hopes to share that with your child. Your concerns come from a place of protecting your daughter’s autonomy and ensuring she grows up with the freedom to think critically and make her own choices, especially given your experiences with religion.
+
+This is not a question with an easy or universally “right” answer. Baptism, in many traditions, is not just a religious rite but a symbolic act that can shape a child’s early identity and the expectations placed on her. Your worry about the potential for restrictive gender roles and obedience is valid, especially if the denomination’s teachings lean conservative in ways you find troubling. At the same time, your wife’s desire to pass on something that has brought her comfort and community is also understandable.
+
+Rather than framing this as a battle to win or lose, it might help to explore together what baptism means to each of you and what you hope your daughter’s upbringing will look like. Could there be ways to honor your wife’s faith and community involvement without making baptism a defining or mandatory step for your daughter? For example, some families choose to wait until their child is older to decide about baptism or religious commitment, allowing the child to explore and choose for themselves when they are ready. Others find ways to participate in community life without formal rites.
+
+It’s also worth considering how you both might support your daughter in developing critical thinking and personal strength, regardless of religious affiliation. Open conversations about faith, values, and autonomy can be part of her upbringing even if she is baptized. Your involvement and modeling of respect for her autonomy will be crucial.
+
+If the conversation feels stuck or charged, it might help to take a pause and revisit it with fresh perspectives over time. Sometimes, the pressure of making a decision before the child arrives can amplify fears and anxieties. Your daughter’s identity and beliefs will evolve over many years, and your partnership in parenting can create a space where she feels loved and supported no matter what path she chooses.
+
+Ultimately, this is a negotiation of values and hopes, not just about baptism but about the kind of family life you want to build together. It’s okay to hold your concerns firmly while also acknowledging your wife’s meaningful connection to her faith. Finding a middle ground that respects both of your perspectives may not be simple, but it can be a foundation for the kind of parenting partnership that nurtures your daughter’s strength and freedom.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+
+Thoughtful and balanced
+
+Takes both partners’ histories seriously
+
+Avoids caricaturing either side
+
+Suggests delay and compromise
+
 Weaknesses:
-- ...
-- ...
+
+Too gentle toward a very real power struggle
+
+Avoids naming the father’s fear of indoctrination as legitimate
+
+Overuses “explore together” language without grounding
+
+Does not sufficiently separate symbolic ritual from upbringing control
 
 OUTPUT: 
-[My Tier S response]
+It seems like you're falling into a trap that many religious and secular people alike fall into: framing a problem as a strict black-and-white either/or matter. Fundamentally, it seems to me that both you and your wife are coming from a place of love, and your differences are rooted in very different life experiences with religion. Your wife’s desire to baptize your daughter is tied to healing, community, and survival. Your resistance is tied to coercion, harm, and a deep fear of repeating patterns you’ve already seen damage people you care about. Your wife's healing experiences with faith are legitimate, but your fear of indoctrination is just as legitimate. 
+
+I don't know how much you've talked to your wife about this, but if you haven't, I would suggest first having an open and frank discussion with her about religion in general and what it means to each of you. Frame this in a way that respects her beliefs and life experiences while also reminding her that yours are just as valid, and agree to temporarily stay away from the subject of your daughter's potential baptism. This might help you two to find some common ground, rather than framing the issue of the baptism as a spiritual steel cage match.  
+
+Then, return to the subject of the baptism. There might be multiple ways to skin this cat that respect both of your viewpoints and beliefs. For instance, might you agree to having the daughter baptized in a liberal denomination? Many of the more liberal denominations have a much more laissez-faire attitude about personal and intimate matters--and gender roles--than the more conservative churches. These denominations also tend to give members a lot more leeway in terms of participating in their own spiritual journey rather than having everything handed down to them from on high. Also, more than a single ritual, such as baptism, what shapes a child far more is the day-to-day environment they grow up in: what ideas are encouraged, what questions are allowed, and whether dissent is respected. You can insist, clearly and non-negotiably, that your daughter will be raised with exposure to multiple perspectives, that no doctrine will be presented as unquestionable truth, and that her autonomy will be protected as she matures.
+
+I will also point out that there are avenues for secular people to meet and discuss their views. Depending on the geographical area where you and your wife live, there might be an abundance of these options or not very many. Some of them include secular and atheist groups and secular humanist groups. If there are such groups in your area, one compromise would be to take your child to your wife's church one week and to your secular group the next. This would help expose her to different perspectives rather than having her get the same perspective week after week.
+
+One can allow a symbolic rite while drawing firm lines around teaching, gender expectations, and moral authority. If those lines cannot be agreed upon, then delaying baptism until your daughter is old enough to express her own wishes is also a principled position, not a rejection of your wife’s faith.
+
+Indeed, don't forget to keep in mind the bigger picture of what your daughter herself might eventually want. Hopefully you and your wife would both agree that when your daughter is old enough to do so, she should be the one to determine her future path, be it a religious path or a secular one. So I think it makes sense to expose her to a mixture of religious and secular viewpoints. The exact contours of this will, of course, be up to you and your wife and eventually up to her. But by coming from a place of compassion and love, you will put her in a position to be well-equipped to make her own faith decision when the time comes. If you can reach a shared commitment to protecting your daughter’s autonomy, curiosity, and safety, then the question of baptism becomes less existential and more practical. And if you can’t reach that shared ground, it’s a sign that this conversation needs more time, not more pressure.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -3373,23 +3436,54 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My best friend recently got back together with her ex-boyfriend, who I know was emotionally abusive to her. She cut off her other best friend for telling her to leave him, and now she's threatening to cut me off too over a trivial political disagreement we had. I'm trying to be a safe presence for her like people advised, but it's getting harder as she keeps ghosting me or being cold and distant. How do I handle this without losing my friend completely, and how do I stop feeling terrible about it?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s deeply painful to watch someone you care about return to a relationship that you believe is harmful, especially when that person starts to push away others who are trying to support them. Your friend’s decision to reunite with someone who was emotionally abusive—and to cut off those who voiced concern—puts you in a very difficult position. It’s understandable that you want to be a safe presence for her, but it’s also important to recognize the limits of what you can do.
+
+When someone is caught in a painful or confusing situation, they may react by withdrawing or lashing out, even at those who care about them. This can feel like rejection, but it often reflects their own struggle rather than a true reflection of your value as a friend. That said, it’s not fair or healthy for you to be treated coldly or threatened over disagreements, especially when you’re trying to be supportive.
+
+You might consider gently setting boundaries that protect your well-being while leaving the door open for connection. For example, you could let her know that you care about her and want to be there, but that you also need respect and kindness in your interactions. If she continues to distance herself or behave harshly, it’s okay to step back and give her space. Sometimes, the best way to be a safe presence is to show that you respect yourself enough not to accept mistreatment.
+
+Feeling terrible about this is a natural response to losing closeness with someone you love. Try to remind yourself that your feelings reflect your care and empathy, not failure. You’re not responsible for her choices or for fixing her situation. It’s okay to grieve the friendship as it changes, and to seek support from others who can hold you through that.
+
+Ultimately, friendships can be complicated and sometimes painful, especially when one person is navigating difficult personal challenges. Holding onto hope for reconciliation is natural, but so is honoring your own emotional health. You can be a compassionate friend without sacrificing your own sense of safety and dignity.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+
+Compassionate and validating
+
+Recognizes limits of responsibility
+
+Encourages boundaries
+
+Avoids blaming the letter writer
+
 Weaknesses:
-- ...
-- ...
+
+Too evenly weighted between “be patient” and “protect yourself”
+
+Understates the emotional cost of staying available
+
+Lacks guidance on guilt and self-blame
+
+Does not explicitly name coercive dynamics
 
 OUTPUT: 
-[My Tier S response]
+Watching someone you love return to a partner who harmed them is heartbreaking, and it becomes even more painful when your concern is treated as betrayal. You’re trying to stay present without enabling harm, and that is a narrow, exhausting line to walk. The fact that it’s getting harder does not mean you’re failing. It means the situation itself is eroding the space for a healthy friendship.
+
+It’s important to understand what’s likely happening here. When someone re-enters an emotionally abusive relationship, outside voices often start to feel dangerous to them, even when those voices are loving. Cutting off friends who express concern can be a way of reducing internal conflict or proving loyalty to the partner. That doesn’t make it acceptable, but it does explain why your attempts to be “safe” aren’t being rewarded with closeness.
+
+Being a safe presence does not mean absorbing unlimited coldness, ghosting, or emotional whiplash. It means keeping the door open without standing in the doorway indefinitely. You are allowed to say, explicitly or implicitly, “I care about you, but I can’t keep reaching out if I’m met with distance or threats.” That’s not abandonment. It’s honesty.
+
+The guilt you’re feeling is also very common. Many people internalize the idea that if they just say the right thing or stay long enough, the other person will come back to themselves. But your friend’s choices are not a referendum on your loyalty or compassion. You didn’t cause her to return to this relationship, and you can’t rescue her from it on your own.
+
+One way forward is to step back slightly while leaving a clear signal of care: let her know you’re there if she wants connection that doesn’t involve punishing you for disagreement, and then redirect your energy toward relationships that can meet you with warmth and respect. If she returns later, you can decide then what you’re willing to offer.
+
+Losing emotional closeness, even temporarily, hurts. You’re allowed to grieve that without blaming yourself. Caring deeply does not obligate you to accept harm in return. Sometimes the most compassionate choice for both people is to stop trying to hold something together that currently can’t be held.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
