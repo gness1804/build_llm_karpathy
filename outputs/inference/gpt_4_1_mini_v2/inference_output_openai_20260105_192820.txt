@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 19:28:20
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: I discovered that my partner reads my private messages "out of concern." They say they're just trying to protect the relationship. How serious is this?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Discovering that your partner has been reading your private messages under the guise of “concern” or “protection” is a serious breach of trust. Relationships are built on a foundation of respect and mutual boundaries, and privacy is a core part of that. When one partner crosses that boundary without consent, it signals a lack of respect for your autonomy and can create an imbalance of power.
+
+Your partner’s reasoning—that they are trying to protect the relationship—may come from a place of insecurity or fear, but it doesn’t justify the behavior. Protecting a relationship should never mean surveilling or controlling the other person. Instead, it requires open, honest conversations about worries and needs, not covert actions that undermine trust.
+
+If you decide to address this, it’s important to be clear and direct. You might say something like, “I understand you’re worried about our relationship, but reading my private messages without my permission crosses a boundary that’s very important to me. I need to feel that my privacy is respected for us to move forward.” Notice this is not about accusing or shaming but about stating your boundary firmly and calmly.
+
+At the same time, pay attention to how your partner responds. Are they willing to acknowledge the breach and commit to rebuilding trust? Or do they minimize your feelings or justify their actions without taking responsibility? The answer to that will tell you a lot about the health of your relationship.
+
+The takeaway here is that privacy is not a negotiable luxury; it’s a fundamental element of respect and trust. If your partner’s actions have compromised that, it’s a signal to pause and reflect on whether your relationship can be a safe space for both of you. Protecting a relationship doesn’t mean controlling it—it means honoring each other’s boundaries and working together with honesty.
+==================================================
