@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 20:46:37
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-level quality response that meets the following criteria: Minimizes harm, over-generalizes, significant therapyspeak, or structural failures. May not answer the question at all and may veer off into unrelated topics. Responses in this range might also promote political or religious agendas.
+
+QUESTION: My husband and I have been married for 10 years, and while it's mostly been a good marriage with the usual ups and downs, a toxic dynamic has evolved where both of us rush to blame the other during arguments. For example, last week our cat escaped and my youngest child and I spent several hours looking for her before a neighbor thankfully found and returned her. The relief of having her back should have been the end of it, but instead the incident sparked a painful argument about whose "fault" it was—-my husband blamed me for leaving the door open when I went out to tend to our plants (I was only outside for a few minutes), while I blamed him because the only reason I went out to water the plants was that he had neglected to do it after saying he would take care of them. The argument was unproductive, as almost all our arguments are. We've been in couples therapy but haven't made much progress, in part because my husband doesn't take therapy seriously. How can we overcome this blame dynamic and develop a better marital relationship?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you and your husband are caught in a cycle that many couples experience, where blame becomes a default response during conflicts. This pattern can be exhausting and damaging over time. While therapy is a good step, it’s important that both partners are genuinely committed to the process for it to be effective. Sometimes, external factors like stress, fatigue, or unresolved personal issues can fuel these arguments, so it might help to consider whether there are broader pressures affecting your relationship. Reflecting on your own communication styles and emotional triggers can also be insightful. Remember, every relationship has its challenges, and working through them often requires patience, empathy, and sometimes a willingness to accept imperfections in both yourself and your partner. If therapy hasn’t helped so far, you might explore different approaches or therapists who specialize in couples work. Ultimately, fostering a sense of shared responsibility rather than blame can create a more supportive environment for both of you.
+==================================================

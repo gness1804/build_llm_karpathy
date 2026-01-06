@@ -2997,23 +2997,30 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband and I have been married for 10 years, and while it's mostly been a good marriage with the usual ups and downs, a toxic dynamic has evolved where both of us rush to blame the other during arguments. For example, last week our cat escaped and my youngest child and I spent several hours looking for her before a neighbor thankfully found and returned her. The relief of having her back should have been the end of it, but instead the incident sparked a painful argument about whose "fault" it was—-my husband blamed me for leaving the door open when I went out to tend to our plants (I was only outside for a few minutes), while I blamed him because the only reason I went out to water the plants was that he had neglected to do it after saying he would take care of them. The argument was unproductive, as almost all our arguments are. We've been in couples therapy but haven't made much progress, in part because my husband doesn't take therapy seriously. How can we overcome this blame dynamic and develop a better marital relationship?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you and your husband are caught in a cycle that many couples experience, where blame becomes a default response during conflicts. This pattern can be exhausting and damaging over time. While therapy is a good step, it’s important that both partners are genuinely committed to the process for it to be effective. Sometimes, external factors like stress, fatigue, or unresolved personal issues can fuel these arguments, so it might help to consider whether there are broader pressures affecting your relationship. Reflecting on your own communication styles and emotional triggers can also be insightful. Remember, every relationship has its challenges, and working through them often requires patience, empathy, and sometimes a willingness to accept imperfections in both yourself and your partner. If therapy hasn’t helped so far, you might explore different approaches or therapists who specialize in couples work. Ultimately, fostering a sense of shared responsibility rather than blame can create a more supportive environment for both of you.
 
 EVALUATION:
-Score: [score]
+Score: 5.5
 
 Strengths:
-- ...
-- ...
+- Avoids the trap of therapyspeak. 
 Weaknesses:
-- ...
-- ...
+- Advice appears too generic and clichéd. 
+- Response does not go into enough detail about the problems involved.
+- Points out that both partners need to be committed to therapy for it to be effective, but offers no advice on helping the letter writer's husband get there.
+- Fails to tease out what's really behind the dynamic of blame and what can help dismantle it.
 
 OUTPUT: 
-[My Tier S response]
+This is a common problem, so you're hardly alone in facing this. Your husband's reluctance to take therapy seriously is discouraging, but there are other approaches you can take. During a moment when both of you are calm, approach him and say something like, "Honey, I've noticed that when we fight, we often blame each other for problems, and this doesn't resolve anything. It just results in hurt feelings for both of us. What do you think we can do to address this?"
+
+Much will depend on how he responds. If he doesn't respond well, particularly after repeated attempts to address this amicably, then you might want to consider solo therapy to explore any underlying problems behind this pattern. But if he is open to engaging with you, try this exercise: the next time you have an argument and one of you starts blaming the other, get out a piece of paper and each of you write down possible solutions, with a rule that nobody can write anything blaming the other partner; just focus on solutions. Blame is a dynamic that tends to be self-reinforcing: the more you resort to blame, the more it feels natural, but the good news is that it works the other way as well: the less you engage in blame over time, the less it becomes the default way of "solving" problems. 
+
+To help reinforce more positive new habits, I'd suggest also having a weekly check-in where you talk with your partner about how resolving the problem is going. Were there fewer incidents of blaming this past week than the week before? If so, count that as a win. You can expect your progress to be zig-zaggy, but if you work at it long enough, there's a good chance that the overall trend line will be positive. And the mere act of discussing blame in a "meta" fashion should help the two of you to detach from it and to see it from a more objective perspective. That is, to see blame as a complex and negative dynamic, rather than simply being in the mindset of trying to score points against the other.
+
+Over time, this work should help change this difficult dynamic while also solving the original problems more quickly. I would also recommend reading John Gottman's book, "The 7 Principles for Making Marriage Work," which contains excellent advice about the blame game and other marital challenges.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -3085,23 +3092,40 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+Like so many others, my teenage daughter is struggling with an eating disorder. In her case, she's lost so many pounds in the last few weeks that she barely resembles her old self. She's obsessed with the idea that she's fat, but in reality, she's dangerously underweight. Making matters worse, my husband seems to not take her situation seriously enough. While I fear for her life if she doesn't get treatment soon, my husband often brushes off the subject when I talk to him about it. He says things like, "Oh, she's just going through a phase," or "Maybe she just doesn't like the food that you cook." I think that my daughter is overhearing this and it might be encouraging her to starve herself even more.
+
+I've always been the non-confrontational type, which I fear has contributed to my daughter getting into the mess that she's in. So I'm not really sure how to confront my husband about this. What do you suggest?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your concern for your daughter is deeply understandable, and the urgency you feel is real and justified. When a young person is caught in the grip of an eating disorder, it’s not just a phase or a matter of food preference—it’s a serious health crisis that demands attention and care. Your husband’s minimization, whether intentional or not, risks leaving your daughter feeling unseen and unsupported at a moment when she needs a united front most.
+
+It’s important to approach your husband not with blame, but with clarity about the stakes. You might say something like, “I know you want to believe this is temporary, but I’m genuinely scared for her health. I’ve noticed she’s lost so much weight that she looks very different, and I’m worried this isn’t just about food she doesn’t like. When you say it’s a phase, I worry she hears that and feels like she doesn’t need help.” This kind of statement grounds your feelings in observable facts and the impact of his words, rather than accusing him of wrongdoing.
+
+You could also invite him to join you in learning more about eating disorders—perhaps by reading reputable resources together or speaking with a healthcare professional. Sometimes, people minimize what they don’t understand. Bringing him into the conversation as a partner rather than an adversary can help shift his perspective.
+
+At the same time, it’s crucial to set boundaries around your daughter’s care. If your husband continues to dismiss the seriousness, you may need to take the lead in seeking professional help—whether that means making appointments with doctors, therapists, or nutritionists who specialize in eating disorders. Your daughter’s health and safety must come first, even if it means making difficult decisions without full agreement at home.
+
+The takeaway here is that protecting your daughter’s well-being requires both clear communication and decisive action. Your voice matters, and so does your willingness to stand firm in the face of denial. This is not about winning an argument with your husband but about safeguarding your child’s life. When the stakes are this high, the courage to speak up and act is the most profound form of love you can offer.
 
 EVALUATION:
-Score: [score]
+Score: 8.5
 
 Strengths:
-- ...
-- ...
+- Articulates the harms clearly.
+- Strong moral voice
+- Good script to use with the husband that explains the problem with his behavior without blame. 
 Weaknesses:
-- ...
-- ...
+- Would be strengthened by naming some specific resources that the parents could read regarding eating disorders.
+- Again, uses the word "takeaway" in the final paragraph. This sounds more like "stage directions" rather than simply stating what the takeaway is, without having to name the fact that it's a takeaway.
 
 OUTPUT: 
-[My Tier S response]
+As you noted, this is a life-or-death situation. What I would do is urgently get both your daughter and husband educated on the serious problem of eating disorders, "tout de suite." First, if you haven't already, inform your daughter of the following resources: the 24/7 eating disorder hotline (866-932-1264) and the National Association of Anorexia Nervosa and Associated Disorders (ANAD) Helpline (888-375-7767). I would also insist that both your daughter and your husband visit the website of the National Eating Disorders Association, particularly their helpful article "Busting The Myths About Eating Disorders" (https://www.nationaleatingdisorders.org/busting-myths-about-eating-disorders/). 
+
+The immediate problem, of course, is helping your daughter to get healthy and overcome the disorder, and to learn the skills needed to prevent relapses in the future. This starts with a conversation with her primary care physician and also her therapist, if she has one. But I suspect you're doing most of this already. What you wrote to me about was really a problem of attitudes and education on the part of your husband. In addition to showing him the above-mentioned resources, I would have a serious conversation with him about how his attitudes might be harming his daughter. There is also some underlying sexism and misogyny in his remarks, particularly about what he said about the food that you cook. But educating him on eating disorders is the first priority. Then you can have a longer discussion with him (ideally also with a couples therapist) addressing some of these problematic assumptions that he seems to have about you and about gender roles.
+
+You might tell your husband something like: "When you are dismissive of our daughter's eating disorder, you unintentionally make the problem worse. You're encouraging her to not take the problem seriously rather than confronting it as the life-threatening challenge that it is. I know that you also love our daughter and want her to get well, but these comments are achieving the opposite. Can you agree to read some of these articles and resources [see the examples above] and try to educate yourself more about eating disorders?"
+
+Finally, by all means, whenever your husband makes one of these remarks and there's even the possibility that your daughter could have been around, seek her out at your first opportunity and emphasize to her that what her father said was wrong. Tell her the facts in a calm manner, not to demonize her father but rather to show that his harmful views aren't correct. Facts and sincere affirmation are the best antidotes to misguided and harmful ignorance.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
