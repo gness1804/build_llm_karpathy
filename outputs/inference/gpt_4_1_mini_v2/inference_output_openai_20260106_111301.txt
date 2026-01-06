@@ -1,0 +1,29 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 11:13:01
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: I'm 28 years old (female), and my boyfriend is 33. We get along well and he's a great guy, loves me, loves my dog, wants kids, is usually pretty low maintenance. The problem is, well, I suppose a common one. It's a new time and in many cases, women are working and earning more than men. We are a textbook example of this. Although in our case, I am the only one earning anything at all! I just finished grad school last year and I have a really good, promising job in the finance industry. Nothing like those Wolf of Wall Street financiers but still a good, sustainable job. My boyfriend, by contrast, has always been a bit of a dreamer. He dropped out of college once, then finished a couple years later after volunteering in several cities in America and earning very little money. I met him during his second college stint when I was finishing up college myself. We had a period of long distance but long story short, decided it was worth it, stuck out the long distance, and then started living together after he was able to move back to our town. He also got a master's degree somewhere along the way but isn't using it. He says he wants to change the world and has big plans to end world hunger and improve global education.\n\nPart of why I fell in love with him was that idealism. But honestly, the situation is starting to become untenable. As I mentioned, he doesn't work right now. He's in a volunteer gig and he sometimes picks up shifts as an Uber driver. But that's hardly what he went to grad school to do. When I urge him to help pay at least a respectable portion of the rent, he keeps talking to me about how his dreams are so important and how so many people in third-world countries are living so much worse than us. So you shouldn't be complaining. I get and understand that there are lots of people who have it worse off than us. But that's still no excuse in my view for what he's doing. As I alluded to earlier, I'm interested in starting a family soon, but can't imagine doing it with him until he does a 180 with his life. And when I have mentioned kids around him, he seems at best ambivalent. What should I do? Stay or go?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your situation is layered with hope, frustration, and a very real tension between ideals and practical realities. You fell in love with a man whose dreams inspired you, but now those dreams seem to be standing in the way of the partnership you want—one where both people contribute, share responsibilities, and move forward together. It’s important to recognize that love and admiration for someone’s ideals don’t automatically translate into a sustainable relationship, especially when the balance of effort and commitment feels so uneven.
+
+Your boyfriend’s focus on lofty goals and volunteer work is admirable in theory, but it’s also fair for you to expect a partner to meet you halfway in the day-to-day demands of life. Financial contribution is just one measure of that; emotional investment, shared planning for the future, and mutual respect for each other’s needs matter just as much. When he dismisses your concerns by comparing your situation to those worse off, he’s sidestepping the core issue: your relationship and your life together. That kind of deflection can feel invalidating and stall any real progress.
+
+You mentioned wanting children soon, which adds urgency and clarity to what you need from a partner. Ambivalence about starting a family is a significant signal—this is not a small difference in values or timing. It’s a fundamental question about whether your visions for the future align. If he’s not ready or willing to engage with that conversation seriously, it’s a red flag.
+
+Here’s a practical approach you might consider: Have a candid conversation where you lay out your needs clearly and calmly. For example, you could say, “I love you and believe in your dreams, but I need to feel like we’re building a life together where both of us are contributing. I’m ready to start a family, and I need to know if that’s something you want too, and if you’re willing to take steps toward a more stable and shared future.” If he responds with openness and a plan, that’s a hopeful sign. If he retreats into idealism without addressing your concerns, it’s a signal to reassess.
+
+Ultimately, staying or going isn’t about punishing him or giving up on love—it’s about honoring your own worth and the life you want to build. You deserve a partner who meets you with both heart and action, who respects your contributions, and who shares your vision for the future. If that balance can’t be found, stepping away is not failure; it’s an act of self-respect and clarity.
+
+Takeaway: Love is not just about shared dreams—it’s about shared realities. When the gap between the two becomes too wide, the kindest thing you can do for yourself and your partner is to face that truth honestly, and choose the path that honors your needs and your future.
+==================================================

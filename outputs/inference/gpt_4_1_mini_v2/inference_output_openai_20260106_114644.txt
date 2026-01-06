@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 11:46:44
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-medium quality response that meets the following criteria: Empathetic but generic, lacks clarity or depth, feels "LLM-like". Lacks a distinctive human voice.  Responses in this range are usually short and are rather shallow, rather than fully engaging with the complex issues that are present in advice column problems.
+
+QUESTION: I'm 27 and my boyfriend is 30; we've been together for three years and living together for 1.5 years. We get along well and are managing financially, but the problem is with his parents. They're in their late 60s, living on limited income (his father is retired from the military, his mother was a teacher until she quit due to osteoarthritis), but despite their modest pensions, they've made extremely inadvisable financial decisions—luxury cruises, expensive restaurants they can't afford. They're emotionally manipulative, constantly playing on the fact that he's their only child to get him to spend money on them and go into debt. He can't seem to resist, and I think part of it is his sense of duty carried over from when he was in the military—he feels he owes his parents for raising him and wants to give back. They're taking advantage of this. I've tried talking to him about this multiple times, but he always says that his duty to his parents supersedes everything else. I love him and don't want to leave, but I also don't want us to go broke because he can't say no to his parents. Is there any hope for us?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you’re in a tough spot, feeling caught between your love for your boyfriend and the financial strain his parents’ demands are causing. It’s understandable that his sense of duty makes it hard for him to set boundaries with his parents. Many people struggle with balancing family obligations and their own financial well-being. You’ve tried talking to him, which is important, but it might take time for him to see the impact this is having on your relationship. Maybe continuing to have open conversations and gently encouraging him to find a way to support his parents without risking your future together could help. Relationships often require patience and compromise, so there could be hope if you both keep working on this together.
+==================================================

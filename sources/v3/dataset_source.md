@@ -4376,23 +4376,53 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm black, and my partner is white. We've been dating for about three years. We get along great, and even though we have a few minor issues, I really see a future with my partner. (If it matters, I'm a woman, and he's a man.) But the problem is his family, particularly his parents. His parents have made it clear that they don't approve of us as a couple. They are polite to me when I interact with them, but reading between the lines, I can see that they're not happy. There's a lot of tension, and my partner reports to me that when I'm not present, they make racist remarks behind my back. This is causing a lot of tension. 
+
+I love my partner and don't want to end this relationship, but I don't think that I can live through decades of hostile relatives. Even though the parents are the worst offenders, some other members of his extended family have expressed similar racist sentiments, so the problem won't end after his parents pass. And I know it's terrible to frame it that way, but the views they expressed are pretty awful, too. We've been talking about getting married, but neither of us has proposed. But given the attitudes of his family, it's hard to envision either a marriage or a long-term, unmarried partnership with him. Is there a way forward for us? Or should I end the relationship now before there's a proposal?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation is deeply challenging, and it’s understandable that you’re feeling torn between your love for your partner and the reality of his family’s hostility. It’s a painful position to be in, especially when the people closest to your partner hold views that are hurtful and unacceptable. The fact that your partner shares what his family says behind your back is important—it shows some level of honesty and perhaps discomfort on his part, but it also raises questions about how he is handling the situation.
+
+One key consideration is how your partner responds to his family’s behavior. Does he stand up to them or try to set boundaries around their racism? Or does he avoid conflict and let their attitudes slide? His willingness and ability to support you and confront his family’s prejudice will likely be crucial in determining whether you can build a future together that doesn’t leave you feeling isolated or disrespected.
+
+It’s also worth reflecting on what you need to feel safe and valued in a relationship. Living with ongoing hostility from family members can be exhausting and damaging over time. If your partner’s family remains a source of pain and your partner is unable or unwilling to address it meaningfully, that will be a heavy burden to carry.
+
+At the same time, ending a relationship solely because of family disapproval is a deeply personal decision. Some couples find ways to navigate difficult family dynamics, sometimes by limiting contact or creating their own supportive networks. Others find that the strain is too great and choose to part ways.
+
+You might consider having a very candid conversation with your partner about the future you both want and how you envision handling his family’s attitudes. It’s important that he understands the impact this has on you and that you both agree on how to approach it together. If he is committed to standing with you and working to change or at least manage the family dynamics, that could be a hopeful sign.
+
+Ultimately, there’s no simple answer, and it’s okay to take your time before making any decisions about proposals or marriage. Your feelings and well-being deserve to be at the center of this. Whatever you decide, it’s important that you feel respected, supported, and safe in your relationship.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Clearly empathetic and validating of the letter writer’s pain.
+
+Correctly identifies the partner’s response to racism as the central variable.
+
+Avoids minimizing the harm or suggesting the writer simply “tough it out.”
+
 Weaknesses:
-- ...
-- ...
+Too cautious and noncommittal given the severity of racism involved.
+
+Does not clearly name racist behavior as unacceptable rather than merely “hurtful.”
+
+Lacks concrete boundaries or decision criteria for moving forward.
+
+Puts too much weight on abstract reflection instead of moral clarity about what a livable future requires.
 
 OUTPUT: 
-[My Tier S response]
+Racism from a partner’s family is not a “minor relationship challenge.” It is a serious, ongoing harm, and you are right to be thinking about whether you can live with it long-term. Decades of hostility, even when it’s polite on the surface, wear people down. Love alone does not neutralize that.
+
+The most important factor here is not whether his parents will ever change. You cannot control that. The question is whether your partner is willing to fully, consistently, and publicly stand with you. That means more than quietly disagreeing with his parents or relaying their comments to you after the fact. It means confronting racist remarks when they happen, setting boundaries with his family, and being prepared to accept real consequences if they refuse to stop.
+
+You might ask him something very direct, such as:
+“I need to know what you will do when your parents make racist remarks about me. Not how you feel about it, but what actions you are willing to take. Because I cannot build a life where I’m tolerated rather than defended.”
+
+If his answer centers on discomfort, avoidance, or hoping things will improve with time, that’s important information. It suggests that, in moments of conflict, you may be left carrying the burden alone. If, on the other hand, he is clear that he will challenge them, limit contact if necessary, and put your safety and dignity first, then there may be a path forward, even if it’s a difficult one.
+
+You are not obligated to marry into hostility to prove your commitment. Wanting a future where you are respected is not asking too much. If the price of staying is enduring racism with no meaningful protection from your partner, it is reasonable to walk away before the stakes get higher.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4464,23 +4494,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My daughter just came out to my husband and me. It happened relatively undramatically. We were all sitting around the kitchen table, eating dinner, and she mentioned that she had something to tell us. She said that her friend, who we will call Chloe, is actually her girlfriend, and that she's been pretty sure that she is gay for some time. She's 16. She says that while she's been attracted to other girls aside from Chloe, Chloe is the first one to actually reciprocate. And she says she's never been attracted to any boys.
+
+My husband and I paused for a moment, not out of disapproval, but because we simply didn't know how to respond. Finally, we both said something about how we love her and that she's glad and that we're glad that she has enough trust in us to confide in us about this. Neither my husband nor I are homophobic. We have both long supported gay rights, and we've both been close to people who are gay. My husband even bought a small pride flag for her room. The problem though is how do we go about actually relating to her? While my husband and I are honestly elated that we won't have to deal with any teen pregnancy scares, we're also unsure about how we as straight people can truly relate to her experiences. We know that, when it comes to dating and relationships, gay and straight people have many things in common, more so than what divides them. But being gay in our still substantially homophobic society is an experience that neither my husband and I have ever known firsthand. Do you have any suggestions or resources on how to connect with her on this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your openness and love in this moment are a strong foundation for your daughter’s sense of safety and acceptance, which is invaluable. It’s natural to feel uncertain about how to relate to her experience when it’s different from your own, especially given the unique challenges that can come with being gay in a society that still carries prejudice. The fact that you recognize both the common ground in relationships and the distinct realities she may face shows a thoughtful and compassionate approach.
+
+One way to connect more deeply is simply to keep the lines of communication open, allowing her to share her feelings and experiences at her own pace, without pressure or expectation. You don’t have to fully understand everything she’s going through to be a supportive presence. Sometimes, just listening and acknowledging her feelings can mean more than any advice or shared experience.
+
+It might also help to educate yourselves together, not as a way to “fix” or “manage” her identity, but to better understand the social context she navigates. There are many books, documentaries, and online resources created by and for LGBTQ+ youth and their families that can offer insight into the emotional landscape she might be experiencing. Engaging with these materials can help you empathize with her perspective and show her that you’re making an effort to understand her world.
+
+Consider connecting with local or online support groups for parents of LGBTQ+ teens. These communities often provide a space to share questions, fears, and successes with others who are on a similar journey. Your daughter might also appreciate knowing that you’re seeking out these resources, as it demonstrates your commitment to supporting her authentically.
+
+Above all, maintaining your unconditional love and acceptance will be the most meaningful way to relate to her. Your willingness to embrace her identity without judgment creates a space where she can grow into herself with confidence and trust in her family. It’s okay to acknowledge that you don’t have all the answers — your presence, respect, and care are what truly matter.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+Warm, affirming, and supportive.
+
+Avoids panic, moralizing, or pathologizing the daughter’s identity.
+
+Encourages listening and education without overstepping.
+
 Weaknesses:
-- ...
-- ...
+Somewhat generic and cautious.
+
+Does not fully leverage the parents’ already strong instincts.
+
+Lacks the columnist’s firmer reassurance and concrete framing.
 
 OUTPUT: 
-[My Tier S response]
+About three-quarters of the battle has already been won. Your daughter trusted you with something deeply personal, and you responded with love, acceptance, and steadiness. Sadly, many teenagers don’t get that. She’s very lucky.
+
+When it comes to “relating” to her, start with what you already know. The excitement of a first relationship, the intensity of a first love, the vulnerability of being seen and chosen for the first time—those experiences are universal. You probably remember what it felt like to have a crush or a relationship at her age. That emotional terrain hasn’t changed just because the genders involved are different.
+
+Where your experiences diverge is in the social context. Being gay in a still-unevenly accepting world brings risks and pressures that you didn’t have to navigate as straight teenagers. You don’t need firsthand experience to be helpful here. What matters is that you take her concerns seriously, believe her when she describes what she’s dealing with, and stay curious rather than defensive.
+
+Be proactive without being intrusive. Initiate conversations, but don’t interrogate. Let her know that you’re open to meeting her girlfriend, that her relationship is welcome in your home, and that you’re available if things get confusing or painful. At the same time, give her room to have her own experiences and make her own mistakes, just as you would with a straight child.
+
+Above all, keep doing what you’re already doing: offering love without conditions, guidance without control, and support without panic. That combination does more to equip a teenager for the world than any perfect set of words ever could.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4552,23 +4607,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm 28 years old (female), and my boyfriend is 33. We get along well and he's a great guy, loves me, loves my dog, wants kids, is usually pretty low maintenance. The problem is, well, I suppose a common one. It's a new time and in many cases, women are working and earning more than men. We are a textbook example of this. Although in our case, I am the only one earning anything at all! I just finished grad school last year and I have a really good, promising job in the finance industry. Nothing like those Wolf of Wall Street financiers but still a good, sustainable job. My boyfriend, by contrast, has always been a bit of a dreamer. He dropped out of college once, then finished a couple years later after volunteering in several cities in America and earning very little money. I met him during his second college stint when I was finishing up college myself. We had a period of long distance but long story short, decided it was worth it, stuck out the long distance, and then started living together after he was able to move back to our town. He also got a master's degree somewhere along the way but isn't using it. He says he wants to change the world and has big plans to end world hunger and improve global education.
+
+Part of why I fell in love with him was that idealism. But honestly, the situation is starting to become untenable. As I mentioned, he doesn't work right now. He's in a volunteer gig and he sometimes picks up shifts as an Uber driver. But that's hardly what he went to grad school to do. When I urge him to help pay at least a respectable portion of the rent, he keeps talking to me about how his dreams are so important and how so many people in third-world countries are living so much worse than us. So you shouldn't be complaining. I get and understand that there are lots of people who have it worse off than us. But that's still no excuse in my view for what he's doing. As I alluded to earlier, I'm interested in starting a family soon, but can't imagine doing it with him until he does a 180 with his life. And when I have mentioned kids around him, he seems at best ambivalent. What should I do? Stay or go?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation is layered with hope, frustration, and a very real tension between ideals and practical realities. You fell in love with a man whose dreams inspired you, but now those dreams seem to be standing in the way of the partnership you want—one where both people contribute, share responsibilities, and move forward together. It’s important to recognize that love and admiration for someone’s ideals don’t automatically translate into a sustainable relationship, especially when the balance of effort and commitment feels so uneven.
+
+Your boyfriend’s focus on lofty goals and volunteer work is admirable in theory, but it’s also fair for you to expect a partner to meet you halfway in the day-to-day demands of life. Financial contribution is just one measure of that; emotional investment, shared planning for the future, and mutual respect for each other’s needs matter just as much. When he dismisses your concerns by comparing your situation to those worse off, he’s sidestepping the core issue: your relationship and your life together. That kind of deflection can feel invalidating and stall any real progress.
+
+You mentioned wanting children soon, which adds urgency and clarity to what you need from a partner. Ambivalence about starting a family is a significant signal—this is not a small difference in values or timing. It’s a fundamental question about whether your visions for the future align. If he’s not ready or willing to engage with that conversation seriously, it’s a red flag.
+
+Here’s a practical approach you might consider: Have a candid conversation where you lay out your needs clearly and calmly. For example, you could say, “I love you and believe in your dreams, but I need to feel like we’re building a life together where both of us are contributing. I’m ready to start a family, and I need to know if that’s something you want too, and if you’re willing to take steps toward a more stable and shared future.” If he responds with openness and a plan, that’s a hopeful sign. If he retreats into idealism without addressing your concerns, it’s a signal to reassess.
+
+Ultimately, staying or going isn’t about punishing him or giving up on love—it’s about honoring your own worth and the life you want to build. You deserve a partner who meets you with both heart and action, who respects your contributions, and who shares your vision for the future. If that balance can’t be found, stepping away is not failure; it’s an act of self-respect and clarity.
+
+Takeaway: Love is not just about shared dreams—it’s about shared realities. When the gap between the two becomes too wide, the kindest thing you can do for yourself and your partner is to face that truth honestly, and choose the path that honors your needs and your future.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Acknowledges the tension between ideals and practical realities.
+
+Validates the letter writer’s frustration without shaming either party.
+
+Encourages direct conversation about future alignment.
+
 Weaknesses:
-- ...
-- ...
+Too hesitant about naming incompatibility when it’s already clear.
+
+Overemphasizes process when the outcome is likely settled.
+
+Softens the boyfriend’s deflection rather than calling it what it is.
 
 OUTPUT: 
-[My Tier S response]
+I think you’ve probably answered your own question. You’ve raised the issue, and instead of engaging with it, he deflects by invoking his dreams and the suffering of others. That doesn’t make him noble; it makes him unavailable as a partner in the life you want to build.
+
+You have a demanding career and clear goals, including starting a family. He has had years, education, and opportunity, and still chooses a life that leaves you carrying the financial and emotional load. His ambivalence about children isn’t a minor difference in timing. It’s a fundamental mismatch.
+
+You’ve already invested years in this relationship, and I don’t doubt that there’s real love between you. But love doesn’t erase the consequences of incompatible priorities. Ask yourself honestly: would ending this relationship be more painful than giving up your hope for children, stability, and a partner who pulls his weight?
+
+You’re not wrong for wanting a shared future that includes both ideals and responsibility. If he cannot or will not move toward that, then staying means shrinking your life to accommodate his. Ending the relationship would be heartbreaking, but it may also be the clearest and kindest choice for both of you.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4640,23 +4720,41 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm 27 and my boyfriend is 30; we've been together for three years and living together for 1.5 years. We get along well and are managing financially, but the problem is with his parents. They're in their late 60s, living on limited income (his father is retired from the military, his mother was a teacher until she quit due to osteoarthritis), but despite their modest pensions, they've made extremely inadvisable financial decisions—luxury cruises, expensive restaurants they can't afford. They're emotionally manipulative, constantly playing on the fact that he's their only child to get him to spend money on them and go into debt. He can't seem to resist, and I think part of it is his sense of duty carried over from when he was in the military—he feels he owes his parents for raising him and wants to give back. They're taking advantage of this. I've tried talking to him about this multiple times, but he always says that his duty to his parents supersedes everything else. I love him and don't want to leave, but I also don't want us to go broke because he can't say no to his parents. Is there any hope for us?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re in a tough spot, feeling caught between your love for your boyfriend and the financial strain his parents’ demands are causing. It’s understandable that his sense of duty makes it hard for him to set boundaries with his parents. Many people struggle with balancing family obligations and their own financial well-being. You’ve tried talking to him, which is important, but it might take time for him to see the impact this is having on your relationship. Maybe continuing to have open conversations and gently encouraging him to find a way to support his parents without risking your future together could help. Relationships often require patience and compromise, so there could be hope if you both keep working on this together.
 
 EVALUATION:
-Score: [score]
+Score: 4.5
 
 Strengths:
-- ...
-- ...
+Recognizes emotional difficulty of the situation.
+
+Acknowledges family obligation as a real force.
+
 Weaknesses:
-- ...
-- ...
+Extremely vague and overly neutral.
+
+Fails to name manipulation or financial risk clearly.
+
+Offers no boundaries, criteria, or decision framework.
+
+Minimizes urgency and long-term consequences.
 
 OUTPUT: 
-[My Tier S response]
+This isn’t just about money. It’s about whether your boyfriend can separate loyalty from self-destruction and obligation from exploitation.
+
+His parents’ financial choices are not your responsibility, and they are not his responsibility either. They are adults making repeated, voluntary decisions, and then leaning on their only child to absorb the fallout. That’s not duty; that’s manipulation, even if it’s dressed up in guilt and gratitude.
+
+The bigger problem is that when you raise legitimate concerns, he shuts the conversation down by declaring his parents come first, full stop. That leaves no room for a shared future. A partnership cannot survive if one person’s primary allegiance is permanently elsewhere.
+
+You might say something like:
+“I’m not asking you to abandon your parents. I’m asking whether there is room in your life for a future with me that isn’t financially jeopardized by their choices.”
+
+If he cannot imagine setting limits, budgeting help instead of bailouts, or protecting your joint finances, then love alone will not fix this. Going broke together to avoid his parents’ displeasure is not a viable life plan.
+
+There may be hope only if he is willing to confront this pattern directly. If he isn’t, then the most painful truth may also be the clearest one: you are not choosing between love and money. You are choosing between a shared future and one where you are permanently subsidizing someone else’s inability to say no.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4728,23 +4826,51 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband has always been particular about cleanliness, but since he started a high-stress job, it's gotten much worse. When he's on his way home, I can feel my whole body tense up. I rush around cleaning counters, vacuuming, putting away dishes, making sure no toys are out—all before he walks through the door. If anything is out of place when he arrives, he immediately starts straightening and cleaning, often before even saying hello. I've adapted to his standards over the years, and we're both tidy now, but I feel like I'm living under constant pressure to keep things perfect so he doesn't spiral into cleaning mode. Our kids are experiencing the stress too, and it's getting to them. It's exhausting, and I hate that I sometimes dread his return because of the energy shift it brings. We've talked about it many times, but not much has changed. He refuses counseling and says he'll "work on it," but I don't see real progress. How can I support him without losing my peace or turning our home into a stress zone for everyone?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you’re carrying a heavy emotional load, trying to manage both your husband’s heightened need for order and the ripple effects it has on your own well-being and your children’s sense of calm. Living under that kind of pressure—where the home feels like a minefield of potential triggers—can be deeply wearing, and it’s understandable that you dread the energy shift when he comes home.
+
+Your husband’s increased need for cleanliness seems tied to the stress of his job, and while he acknowledges the issue, his refusal to seek counseling limits the avenues for meaningful change. This leaves you in a difficult position: wanting to support him but also needing to protect your own peace and the emotional safety of your family.
+
+One way to approach this might be to gently recalibrate expectations around what “clean” means in your home, ideally in a way that feels manageable and less fraught for everyone. This could involve setting clear, shared standards that are realistic rather than perfectionistic, and perhaps agreeing on specific times or spaces where tidying happens, so it doesn’t feel like an ongoing, urgent demand. For example, focusing on communal areas before he arrives but allowing some flexibility in others might ease the pressure.
+
+It’s also important to carve out moments where the household atmosphere isn’t dominated by the tension around cleanliness—times when the focus is on connection rather than order. This might mean creating rituals or routines that help everyone decompress and feel safe, even if the environment isn’t perfectly tidy.
+
+Since your husband has said he’ll “work on it” but hasn’t shown real progress, it may be worth exploring with him what “working on it” looks like from his perspective. Sometimes, people need to identify small, concrete steps they’re willing to take, rather than vague promises. Encouraging him to reflect on how his behavior affects the family might open a door to more tangible change, especially if framed around shared goals like reducing stress for everyone rather than just meeting cleanliness standards.
+
+At the same time, it’s crucial to honor your own limits. If the current dynamic is eroding your peace and impacting your children, it’s okay to set boundaries around what you can and cannot do to accommodate his needs. This might mean accepting that some messiness is part of life, even if it triggers his discomfort, and communicating that calmly but firmly.
+
+Ultimately, your home should be a place where all family members feel safe and supported, not just a spotless environment. Balancing your husband’s needs with your own and your children’s well-being is complex, and there may not be a perfect solution. But by focusing on realistic expectations, open dialogue about impact, and protecting your own emotional space, you can begin to shift the dynamic toward something more sustainable and less stressful for everyone.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+Accurately conveys the emotional burden on the writer.
+
+Notes impact on children and household atmosphere.
+
+Avoids blaming the writer.
+
 Weaknesses:
-- ...
-- ...
+Too gentle given the level of disruption.
+
+Avoids naming the husband’s behavior as a serious problem.
+
+Lacks firm boundaries and overuses abstract language.
 
 OUTPUT: 
-[My Tier S response]
+His anxious behavior is affecting your entire family. The fact that you’re pre-cleaning to avoid triggering him is a sign that his needs have expanded beyond reasonable boundaries. You can’t make him get help, but you can decide how much of your life you’re willing to organize around his anxiety.
+
+Start with a direct conversation when you’re both calm:
+“I love you, and I can see that your need for order is tied to stress from work. But when you come home and immediately start cleaning without even greeting us, it makes me and the kids feel less important than a clean counter. I’m also spending a lot of energy trying to prevent your reactions, and that isn’t sustainable for me.”
+
+Then propose specific, limited changes. For example: he agrees to greet the family and spend a few minutes connecting before addressing any mess, and you agree to maintain reasonable tidiness without the frantic pre-cleaning ritual. These are not cures. They are stopgaps to reduce harm.
+
+But be clear with yourself: these adjustments are temporary at best. If he continues to refuse professional help while his behavior affects you and your children, that refusal becomes a choice with consequences. You are allowed to protect your peace and your children’s emotional safety, even if that makes him uncomfortable.
+
+You’re not asking for perfection. You’re asking for a home that doesn’t feel like a pressure cooker. That’s a reasonable expectation.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 

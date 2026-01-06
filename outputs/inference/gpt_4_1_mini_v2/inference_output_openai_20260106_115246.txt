@@ -1,0 +1,29 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 11:52:46
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My husband has always been particular about cleanliness, but since he started a high-stress job, it's gotten much worse. When he's on his way home, I can feel my whole body tense up. I rush around cleaning counters, vacuuming, putting away dishes, making sure no toys are out—all before he walks through the door. If anything is out of place when he arrives, he immediately starts straightening and cleaning, often before even saying hello. I've adapted to his standards over the years, and we're both tidy now, but I feel like I'm living under constant pressure to keep things perfect so he doesn't spiral into cleaning mode. Our kids are experiencing the stress too, and it's getting to them. It's exhausting, and I hate that I sometimes dread his return because of the energy shift it brings. We've talked about it many times, but not much has changed. He refuses counseling and says he'll "work on it," but I don't see real progress. How can I support him without losing my peace or turning our home into a stress zone for everyone?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you’re carrying a heavy emotional load, trying to manage both your husband’s heightened need for order and the ripple effects it has on your own well-being and your children’s sense of calm. Living under that kind of pressure—where the home feels like a minefield of potential triggers—can be deeply wearing, and it’s understandable that you dread the energy shift when he comes home.
+
+Your husband’s increased need for cleanliness seems tied to the stress of his job, and while he acknowledges the issue, his refusal to seek counseling limits the avenues for meaningful change. This leaves you in a difficult position: wanting to support him but also needing to protect your own peace and the emotional safety of your family.
+
+One way to approach this might be to gently recalibrate expectations around what “clean” means in your home, ideally in a way that feels manageable and less fraught for everyone. This could involve setting clear, shared standards that are realistic rather than perfectionistic, and perhaps agreeing on specific times or spaces where tidying happens, so it doesn’t feel like an ongoing, urgent demand. For example, focusing on communal areas before he arrives but allowing some flexibility in others might ease the pressure.
+
+It’s also important to carve out moments where the household atmosphere isn’t dominated by the tension around cleanliness—times when the focus is on connection rather than order. This might mean creating rituals or routines that help everyone decompress and feel safe, even if the environment isn’t perfectly tidy.
+
+Since your husband has said he’ll “work on it” but hasn’t shown real progress, it may be worth exploring with him what “working on it” looks like from his perspective. Sometimes, people need to identify small, concrete steps they’re willing to take, rather than vague promises. Encouraging him to reflect on how his behavior affects the family might open a door to more tangible change, especially if framed around shared goals like reducing stress for everyone rather than just meeting cleanliness standards.
+
+At the same time, it’s crucial to honor your own limits. If the current dynamic is eroding your peace and impacting your children, it’s okay to set boundaries around what you can and cannot do to accommodate his needs. This might mean accepting that some messiness is part of life, even if it triggers his discomfort, and communicating that calmly but firmly.
+
+Ultimately, your home should be a place where all family members feel safe and supported, not just a spotless environment. Balancing your husband’s needs with your own and your children’s well-being is complex, and there may not be a perfect solution. But by focusing on realistic expectations, open dialogue about impact, and protecting your own emotional space, you can begin to shift the dynamic toward something more sustainable and less stressful for everyone.
+==================================================
