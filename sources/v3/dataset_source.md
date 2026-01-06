@@ -3914,23 +3914,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm on the autism spectrum and my partner is also neurodivergent, albeit differently. This has been a source of connection, but also a source of struggle. For example, they frequently express frustration when I'm not reading their social cues in the way that they expect me to. They also get irritated if I leave the room because they're cooking a certain thing, or if I'm focusing on obsessive interest, as we autists are known for. I do try to communicate my needs to them, and they seem receptive to it. But often it seems like we're getting nowhere. Our brains are wired too differently. Any recommendations on how to bridge the gap?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you and your partner share a deep understanding of what it means to experience the world through neurodivergent perspectives, which is a meaningful foundation. Yet, as you’ve noticed, even with that shared experience, the ways your minds work can lead to misunderstandings and frustration. This is not uncommon in any relationship, but the particular nuances of neurodivergence can make the gaps feel especially wide or confusing.
+
+One thing to hold onto is that your differences don’t have to be a barrier, but they do require ongoing patience and creativity. Since your partner gets frustrated when social cues aren’t picked up as expected, it might help to develop some explicit “translation” strategies together. For example, you could agree on clear signals or phrases that communicate feelings or needs without relying on subtle cues. This can reduce the guesswork and the frustration on both sides.
+
+When it comes to moments like leaving the room during cooking or focusing on your interests, it might be useful to explore what those moments mean emotionally for your partner. Is it about feeling left out, worried about the cooking process, or something else? Understanding the underlying feelings can open the door to solutions that respect both your need for space or focus and their need for connection or reassurance. Perhaps setting small check-in routines during those times could help—something brief and predictable that reassures them without pulling you away from what you’re engaged in.
+
+You mention that you try to communicate your needs and that your partner is receptive, which is a positive sign. Still, if it feels like you’re going in circles, it might be worth stepping back together and acknowledging that this is a long-term process, not a quick fix. Sometimes, it helps to approach these challenges as shared puzzles rather than problems to be solved immediately. This mindset can reduce pressure and foster teamwork.
+
+Finally, consider whether there are external supports that might help—whether that’s a counselor experienced with neurodivergent couples, a support group, or trusted friends who understand your dynamic. Having a space where both of you can express yourselves and be heard without judgment can be invaluable.
+
+Your relationship is clearly important to both of you, and navigating these differences with kindness and curiosity, even when it’s hard, is a testament to that. There may not be a perfect formula, but with time, mutual respect, and some practical adjustments, you can find ways to bridge those gaps that honor both your unique ways of being.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Shows genuine empathy and avoids blame.
+
+Correctly rejects mind-reading as a reasonable expectation.
+
+Recognizes that shared neurodivergence does not equal automatic compatibility.
+
+Maintains a calm, respectful tone throughout.
+
 Weaknesses:
-- ...
-- ...
+Slightly overly explanatory at times, drifting toward conceptual framing rather than editorial clarity.
+
+Hesitates to name limits with firm moral confidence; it explains why things are hard more than it clarifies what is reasonable.
+
+Lacks a concrete script or boundary statement the letter writer could actually use.
 
 OUTPUT: 
-[My Tier S response]
+What you’re describing is not a failure of effort or goodwill. It’s a collision between two nervous systems that process the world differently, even though both fall under the broad umbrella of neurodivergence. Shared neurodivergence can create deep understanding, but it does not guarantee compatibility in day-to-day functioning. That’s an important distinction, and one that often takes couples a long time to accept.
+
+A recurring problem in your letter is the expectation that needs should be inferred rather than stated. When your partner becomes frustrated that you are not reading social cues, that frustration may be understandable, but it is also unrealistic. Mind-reading is not a reasonable standard in any relationship, and it is especially counterproductive in a neurodivergent one. If your partner needs reassurance, presence, or help during specific moments, the most workable path forward is explicit communication rather than implied signals. This is not a moral failure on your part; it is a structural reality of how your brain works.
+
+At the same time, it’s worth naming that your partner’s irritation when you leave the room or focus on an obsessive interest likely isn’t about the behavior itself. It’s often about what that behavior means to them: feeling abandoned, ignored, or deprioritized. That doesn’t mean you should stop meeting your own sensory or cognitive needs, but it does suggest that the two of you may benefit from negotiated agreements rather than reactive conflict. For example, brief check-ins, advance explanations, or time-limited accommodations can reduce friction without demanding self-erasure.
+
+The most important shift here is moving away from the idea that you should “bridge the gap” by trying harder to be different. What you actually need is a shared framework that accepts difference as permanent and designs around it. If these conversations keep looping without progress, working with a counselor who understands neurodivergent relationships may help translate needs into concrete agreements. Not to fix either of you, but to help you build something workable.
+
+Compatibility isn’t about identical wiring. It’s about whether two people can build a life that respects both sets of needs without chronic resentment. That’s the real question to keep in view.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4002,23 +4029,56 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I are both liberal, but most of my family is strongly conservative, as in hardcore Trump-loving conservative. As you can imagine, we've had our share of disagreements, but we've found ways to agree to disagree. We just try not to discuss politics, and we have a rule to never talk to each other on the day of a major election, like the midterms or a presidential election. This has worked reasonably well for us and has managed to keep us in relatively close contact.
+
+The problem is that my partner, who's an outspoken activist in our local Democratic Party, refuses to come to family events. He came to our Easter celebration one year and was visibly upset by some of the things my parents said about Trump and immigrants. Even though I 100% agree with my partner that those things were wrong, it's still important for me to spend time with my family. Lately, my partner will make excuses for not coming to family events. He'll say he's too tired or he'll say that it's too long of a drive (they live 3 hours away, but my husband routinely makes drives longer than that for work and to go to his video game conventions.) 
+
+My family has asked why he's not coming, and I have to fudge it or come up with half-true excuses. They're smart people, and they've started to suspect the real reason for his not coming. I've tried to talk to him about it, but again he's always evasive. Should I sit down with him and ask him point-blank to please tell me the truth so we can clear the air? Or should I respect his opinions as a fellow adult and just drop the matter?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation reflects a delicate balancing act between honoring your partner’s feelings and maintaining your connection with your family. It’s clear that your partner’s discomfort at family gatherings stems from genuine distress over the political attitudes expressed there, which he finds hurtful and perhaps alienating. At the same time, your desire to spend time with your family is understandable and important to you.
+
+The fact that your partner has become evasive about his reasons for not attending suggests that there’s some tension or unresolved feelings beneath the surface. When someone avoids direct conversation about something that matters, it often means they are struggling with how to express their feelings or fear conflict. This pattern can create distance and misunderstandings, which doesn’t serve either of you well.
+
+Sitting down with him for an honest, compassionate conversation could be a meaningful step. Inviting him to share his feelings openly, without judgment or pressure, might help him feel safe enough to be truthful. You can express that you want to understand his perspective better, not to challenge or change it, but to find a way forward that respects both of your needs. Emphasizing that you value his emotional well-being and want to support him, while also explaining why family time matters to you, can create a space for mutual empathy.
+
+At the same time, it’s important to recognize that your partner, as an adult, has the right to set boundaries around what he can handle emotionally. If he ultimately decides that attending family events is too painful or harmful for him, that is his choice to make. Your role then becomes one of navigating how to maintain your family relationships in a way that doesn’t betray your partner’s trust or force him into uncomfortable situations.
+
+This might mean finding compromises—perhaps attending some events without him, or creating new traditions that feel safer for both of you. It also means being honest with your family to the extent you feel comfortable, without feeling obligated to protect your partner’s privacy at the cost of your own integrity.
+
+There may not be a perfect solution here, and some discomfort might remain. But opening the door to candid dialogue, grounded in respect and care, is a step toward clarity. It can help you both understand each other better and decide how to honor your values and relationships moving forward.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Correctly reframes the issue as avoidance and honesty, not ideology.
+
+Identifies triangulation and emotional labor with clarity.
+
+Validates both the partner’s boundary and the letter writer’s frustration.
+
+Avoids political advocacy while still acknowledging moral discomfort.
+
 Weaknesses:
-- ...
-- ...
+Stops just short of clear moral adjudication. It explains the problem well but softens the conclusion.
+
+Lacks a crisp boundary statement that centers the letter writer’s needs as non-negotiable.
+
+Slightly repetitive in explaining why silence is harmful rather than asserting that it is unacceptable.
 
 OUTPUT: 
-[My Tier S response]
+This situation isn’t really about politics. It’s about avoidance, honesty, and the growing strain of carrying someone else’s silence on your back.
+
+Your partner has every right to find your family’s views upsetting, especially if those views include rhetoric about immigrants or other groups that he finds morally unacceptable. Choosing not to subject himself to that environment may be a reasonable boundary for him. What becomes problematic is not his absence, but his refusal to be honest about why he’s absent, leaving you to absorb the discomfort, deflect questions, and manage the fallout alone.
+
+That puts you in an unfair position. You end up triangulated between your partner and your family, smoothing over tensions you didn’t create and telling partial truths to protect a choice you didn’t make. Over time, that erodes trust and intimacy in your relationship, not because of ideological differences, but because avoidance replaces clarity.
+
+Yes, it would be appropriate to sit down with him and ask for a direct conversation. Not to pressure him into attending family events, and not to debate politics, but to understand what he’s willing and unwilling to do going forward, and what role he expects you to play in that choice. You might say something like, “I respect that being around my family is hard for you. What’s becoming hard for me is having to explain your absence without knowing how honest I’m allowed to be. I need us to talk about this directly.”
+
+It’s also important to accept that the likely outcome is not full agreement. He may decide that he simply will not attend certain events. You may decide that maintaining those family ties matters enough to attend alone. That can be workable, but only if it’s named openly and handled as a shared decision rather than an ongoing evasion.
+
+Dropping the matter entirely would not be respectful to you. Respecting your partner’s autonomy does not require you to carry the emotional and social costs of his silence. Clear agreements beat quiet resentment every time.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4090,23 +4150,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm going through a nasty divorce. My husband and I were married for about 20 years, and the marriage unraveled for a variety of reasons. Yes, there was infidelity, but that honestly wasn't the biggest part of it. The infidelity was really a symptom rather than a cause of what broke us up. Effectively, we just weren't communicating well, and we realized that we would be happier with other people.
+
+The specific problem that I am writing to you about is our families' very different opinions about divorce and their impacts on me. Not to be stereotypical, but my family is from the West Coast, and they have a more relaxed attitude towards things like divorce. Obviously they don't like divorce, but they accept that it's sometimes necessary when a marriage has run its course or otherwise is damaged beyond repair. They're being very compassionate and graceful towards me and even towards him. My soon-to-be ex-husband's family, on the other hand, is much more religious and conservative. They feel that divorce is a sin and that he must stay in the marriage at all costs. Perhaps owing to the fact that their religious tradition is more than a little patriarchal, they've been venting most of their anger on me rather than him. Even though he's the one who cheated. They've been making snide remarks towards me about how I didn't cut it as a wife and mother. And they even called me a few times and half cajoled me, half insulted me into trying to reconsider ending the marriage.
+
+Now I know that after the divorce, I will have less reason to interact with them. But the fact that I have three children with my husband means that they won't be out of our lives entirely. At least until the kids grow up. And that's assuming the children decide to cut ties with them, which is unlikely because our daughter in particular is close to one of her uncles and those cousins. Obviously, once our children become adults, they'll have every right to make their own independent decisions on whether to maintain ties with these soon-to-be former relatives. But I fear that keeping these relatives in our lives for the children's sake is just going to mean that the insults and other poor behavior will continue. How can I respect my children's wishes to choose their own relationship with their in-laws while protecting myself from their vitriol?
 
 DRAFT_RESPONSE:
-[Base model answer]
+I'm sorry you're going through such a difficult time. It sounds really painful to be caught between your own family’s support and your soon-to-be ex-husband’s family’s criticism. Navigating family dynamics during a divorce is always complicated, especially when children are involved. Here are some ideas that might help:
+
+1. Set clear boundaries with your ex-husband’s family about what kind of behavior you will and won’t accept.
+2. Talk to your children about how you feel and encourage open communication so they can understand your perspective.
+3. Consider limiting your direct interactions with his family to minimize exposure to their negativity.
+4. Support your children’s relationships with their relatives while also protecting your own emotional health.
+5. Seek out support from friends, family, or support groups who understand what you’re going through.
+
+Remember, it’s okay to prioritize your well-being even as you try to keep peace for the sake of your children. It’s a tough balance, but taking care of yourself is important too.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Correctly identifies scapegoating and gendered blame dynamics.
+
+Shows strong empathy for the letter writer’s position.
+
+Recognizes the distinction between the parent’s dignity and the children’s relationships.
+
 Weaknesses:
-- ...
-- ...
+Leans noticeably into sociological explanation, which distances it from the reader’s immediate decision-making.
+
+Provides fewer concrete boundaries or scripts than the situation warrants.
+
+The tone risks sounding analytical rather than grounded in lived reality.
 
 OUTPUT: 
-[My Tier S response]
+What makes this situation especially painful is that you’re being asked to absorb moral judgment and hostility at a moment when you are already navigating loss, change, and responsibility for your children. The fact that your ex-husband’s family is directing their anger at you, rather than at him, is not accidental. In many conservative or patriarchal family systems, blame flows toward the woman who is perceived as having failed in her role, regardless of the facts. That context matters, because it means reasoning with them is unlikely to change their behavior.
+
+You are correct that their presence in your children’s lives complicates matters. Your children have the right to form their own relationships with extended family, and those relationships may be meaningful and sustaining for them. At the same time, you are not obligated to serve as a receptacle for contempt in order to facilitate those bonds. Protecting your children does not require sacrificing your own dignity.
+
+A useful distinction here is between your relationship with your former in-laws and your children’s relationships with them. You can support the latter while placing firm boundaries around the former. That may mean limiting direct contact, refusing conversations that turn insulting, or redirecting communication through your ex-husband when possible. You are allowed to say, calmly and without justification, “I’m not willing to be spoken to this way,” and to disengage if the behavior continues.
+
+It may also be necessary, as your children grow older, to help them understand these dynamics in age-appropriate ways. Not by vilifying their relatives, but by modeling that love does not require tolerating mistreatment. That lesson will serve them far beyond this divorce.
+
+You cannot make your ex-husband’s family compassionate or fair. What you can do is decide how much access they have to you, and under what conditions. Drawing those boundaries is not vindictive. It is a form of self-respect, and it teaches your children something vital about how to handle unjust treatment with clarity rather than submission.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -4178,23 +4265,46 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm a 37-year-old man, and I live with my long-term partner. No kids. My brother and I are not close. He lives just a 3-hour drive away, and we routinely make drives longer than that for various reasons, but we only see him maybe once every couple of years. And this includes Christmases and Thanksgivings. We are not actively hostile. We get along relatively well, and we have a few things in common. But we really are at the level of at most casual friends. I have co-workers who I'm closer to than my brother. I want to reconcile with him, but I really don't know how. Do you have any strategies for trying to connect with a semi-estranged but not hostile sibling?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you have a complicated but not outright negative relationship with your brother, which can make reaching out feel both hopeful and uncertain. Since you’re not actively hostile but more distant, a gentle approach might work best. You could start by trying to create more frequent, low-pressure contact—maybe sending a casual message or sharing something that reminded you of him, just to open a line of communication without expectations. Sometimes, small gestures like this can gradually build a bridge.
+
+If you do get a chance to meet in person, consider suggesting an activity you both enjoy or something new to experience together, which might help create shared memories beyond the usual family gatherings. It’s also okay to acknowledge that your relationship might not become very close, but that doesn’t mean it can’t improve or become more meaningful in its own way.
+
+Keep in mind that reconciliation is a two-way street, so it’s important to be patient and open to where things naturally lead. If your brother is receptive, you might find opportunities to deepen your connection over time. If not, it’s also okay to accept the relationship as it is and focus on what feels right for you.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Captures the emotional ambiguity of quiet estrangement very well.
+
+Avoids blame and melodrama.
+
+Encourages agency without pressure.
+
+Uses a tone that feels humane and realistic.
+
 Weaknesses:
-- ...
-- ...
+Hesitates to articulate the emotional risk of reaching out more clearly.
+
+Lacks a stronger framing around self-protection if the attempt fails.
+
+Could more explicitly validate grief alongside hope.
 
 OUTPUT: 
-[My Tier S response]
+One of the hardest kinds of estrangement is the quiet, unremarkable kind. There’s no blow-up, no single incident to point to, no obvious villain. Just years of drift, habit, and low expectations. That makes it harder to know how to intervene, because nothing is technically “wrong,” even though something is clearly missing.
+
+The first thing to accept is that you may never get a clear explanation for why the relationship settled where it did. Siblings can grow apart for reasons as mundane as mismatched temperaments, unspoken resentments, or simply falling into different adult lives. That doesn’t mean reconciliation is impossible, but it does mean you should approach it without the expectation of a dramatic clearing of the air.
+
+If you want to try to reconnect, the most effective move is usually a direct but low-stakes invitation. Not a post-mortem of the past, and not a speech about what should have been, but something simple and honest. A message like, “I’ve been thinking about how little we see each other, and I’d like that to change if you’re open to it,” does two things at once. It signals care, and it gives him room to respond without feeling accused.
+
+After that, pay attention not just to what he says, but to what he does. If he engages, even haltingly, you can build from there with shared activities or regular check-ins. If he remains distant or unresponsive, that’s information too. Reconciliation requires willingness on both sides. You can open the door, but you can’t drag someone through it.
+
+Making the three-hour drive yourself, as you suggested, can be a meaningful gesture, especially if you frame it as wanting to meet him where he is, literally and figuratively. Just be careful not to over-invest emotionally before you know whether the effort is mutual.
+
+Sometimes the most realistic outcome isn’t a close sibling bond, but a warmer, more intentional version of the relationship you already have. That can still be worthwhile. The key is to act from curiosity rather than obligation, and to let his response guide how much of yourself you continue to offer.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
