@@ -245,6 +245,7 @@ Examples:
     )
     parser.add_argument(
         '--instruction',
+        '--instructions',
         type=str,
         help='Optional extra instruction text to send along with the prompt (e.g., a system-level directive)'
     )
