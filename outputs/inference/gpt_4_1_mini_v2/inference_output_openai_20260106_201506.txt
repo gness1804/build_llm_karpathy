@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 20:15:06
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I've been married for a few years. My wife and I are mostly open with each other about things. But I have one thing that I haven't told her about. I watch porn. It's always from mainstream sites. Never underage porn. And I never interact with any of the performers directly, a la OnlyFans. I usually do it when I'm sleeping in the other room for various reasons, or sometimes when she goes out for a while. I feel guilty about this, but at the same time, I also feel like it's important to me since our libidos are mismatched. My libido is significantly higher than hers.\n\nI feel that this is a better solution to the libido problem than actually going out and having an affair, but part of me feels this is still cheating because after all, I am deliberately getting sexually stimulated by other women's bodies. Is this cheating? What's your verdict on this?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your question touches on a deeply personal and often complex area of relationships—how to navigate differences in sexual desire and the boundaries around individual behaviors like watching pornography. It’s clear you’ve thought carefully about your actions and their impact on your marriage, which is an important starting point.
+
+Whether watching porn counts as cheating isn’t a question with a universal answer; it depends largely on the agreements and understandings between you and your wife. Some couples consider any sexual stimulation outside the relationship to be a breach of trust, while others see it as a private matter that doesn’t diminish their commitment. The fact that you haven’t shared this with her suggests there’s some discomfort or uncertainty about how she might feel, which is worth reflecting on.
+
+Your choice to watch porn rather than seek physical intimacy elsewhere shows a desire to avoid harm and maintain fidelity in a traditional sense. That intention is significant. At the same time, the secrecy and the guilt you’re experiencing indicate that this behavior is causing you internal conflict, which can weigh on your emotional well-being and the health of your relationship.
+
+The mismatch in libido is a common challenge in partnerships, and it often requires ongoing, honest conversations about needs, boundaries, and compromises. Bringing this topic into the open with your wife—when you feel ready—could help both of you understand each other better and explore solutions together. This might include negotiating what forms of sexual expression feel acceptable, seeking ways to connect physically that honor both your desires, or even consulting a counselor who specializes in sexual intimacy if that feels like a safe option.
+
+Ultimately, the question of whether watching porn is cheating isn’t just about the act itself but about the impact on trust, honesty, and mutual respect in your marriage. If this behavior is something you feel compelled to hide, it may be a sign that your relationship needs a space for more candid dialogue about sexuality and boundaries. That kind of openness can be difficult but also deeply healing.
+
+In the meantime, be gentle with yourself as you navigate these feelings. Sexual desire is a natural part of being human, and finding a path that honors both your needs and your commitment to your wife is a delicate balance. There’s no perfect answer, but your willingness to reflect on this thoughtfully is a meaningful step.
+==================================================

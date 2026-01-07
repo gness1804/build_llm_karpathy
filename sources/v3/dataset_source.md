@@ -6321,23 +6321,66 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I are friends with two other couples. The six of us have been close for over a decade, or so I thought. 
+
+Before one couple got married last year, the other woman hosted a bachelorette party for the bride, to which I was invited. There was also a bachelor party for the groom, but my partner wasn't invited. This year, the other couple is getting married, and I just received the bachelorette invite from the bride. The groom is having a bachelor party, to which my partner is apparently not invited.
+Both grooms are entitled to invite whomever they want to their bachelor parties. I know that. And, of course, the male partners do not all have to be as close to one another as the three women are. But I really don't get the bachelor party thing because, when we are all together, my partner very much seems to be part of the guys' close circle. They've known him around the same amount of time they've known each other.
+
+At this point, it's not about the invite as much as whether there's something I don't know that explains why they're not including my partner. I'm hurt, but I'm also just baffled: Of the six of us, why is he the only one left out of things?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable that you feel hurt and confused by your partner being excluded from the bachelor parties, especially given the long-standing friendship among all six of you. When a close-knit group starts to show signs of division or exclusion, it naturally raises questions and stirs feelings of uncertainty.
+
+You’ve already acknowledged that the grooms have the right to invite whomever they choose, and that the male partners don’t necessarily have to be equally close. Yet, your observation that your partner seems integrated with the guys when you’re all together adds a layer of complexity. This suggests that the exclusion might not be about a lack of connection or friendship on the surface.
+
+Sometimes, social dynamics within groups shift in subtle ways that aren’t immediately clear. There could be personal reasons, unspoken tensions, or misunderstandings that you’re not aware of. It’s also possible that the bachelor parties are being planned with a particular vibe or history in mind that doesn’t include your partner, even if that feels unfair or puzzling to you.
+
+If you feel comfortable, the most direct way to gain clarity is to have an open and gentle conversation with one or both of the grooms or perhaps the other male friends. Express your feelings without accusation—share that you’re puzzled and hurt because your partner has been left out despite the long friendship and apparent closeness. Sometimes, bringing the issue into the light can reveal misunderstandings or assumptions that can be addressed.
+
+At the same time, it’s important to prepare for the possibility that you might not get a fully satisfying explanation. People’s social choices aren’t always transparent or fair, and sometimes exclusion happens without a clear or justifiable reason. If that’s the case, it’s worth reflecting on what this means for your group’s dynamics and your own boundaries around inclusion and respect.
+
+Your feelings are valid, and it’s okay to seek understanding. But also remember that your partner’s value and your relationship aren’t defined by these invitations. How you both navigate this together—whether by addressing it directly, accepting the situation, or reconsidering the closeness of these friendships—will be what truly matters in the long run.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+It correctly validates the letter writer’s feelings of confusion and hurt without dismissing them.
+
+It avoids overt therapyspeak and does not pathologize anyone.
+
+It acknowledges the social reality that invitations are discretionary while still recognizing that patterns of exclusion matter.
+
+It suggests direct communication as a way to gain clarity, which is appropriate in principle.
+
 Weaknesses:
-- ...
-- ...
+Excessive hedging and equivocation. The response repeatedly softens its own conclusions (“might,” “could be,” “it’s possible”) to the point that it avoids taking a clear stance.
+
+LLM-style vagueness. Phrases like “social dynamics shift in subtle ways” and “reflecting on what this means” sound polished but say very little.
+
+No moral center. The response never directly names the core issue: persistent exclusion of one partner in a long-standing friend group is hurtful and socially meaningful, not just “puzzling.”
+
+Missed opportunity for specificity. There is no concrete framing for how to think about the exclusion beyond “talk about it” or “reflect.”
+
+Emotional flattening. The response treats the situation as abstract group dynamics rather than as something that reasonably calls into question how close or reciprocal these friendships really are.
+
+LLM tic: The final paragraph drifts into generic reassurance about “what truly matters in the long run,” which is a classic high-level wrap-up that doesn’t add substance.
 
 OUTPUT: 
-[My Tier S response]
+What’s bothering you here isn’t etiquette. It’s pattern.
+
+A one-off exclusion might be chalked up to logistics or personal history. But when the same person is left out of the same kind of event twice, across two separate weddings, it’s reasonable to wonder whether your partner is actually seen as part of the inner circle in the way you thought he was. That doesn’t mean anyone is being malicious, but it does mean the group may not be as symmetrical or as close as it appears when you’re all together.
+
+It’s also important to notice that this isn’t just about your partner’s feelings. You’re being asked, implicitly, to participate in celebrations that highlight his exclusion. That’s uncomfortable because it puts you in a position of quietly accepting a dynamic that doesn’t sit right with you.
+
+Before assuming there’s some hidden explanation or interpersonal drama, the most grounded next step is to ask a simple, non-accusatory question of one of the grooms or brides you’re closest to. Not to demand an invitation, but to understand the reality of the social landscape. Something like:
+“I want to ask you something directly. Both times there’s been a bachelor party, my partner wasn’t included, and I’m trying to understand whether that reflects how the group sees him. If there’s a reason, I’d rather know than keep guessing.”
+
+That conversation may confirm your fears, or it may reveal a benign explanation. Either way, clarity is better than quietly carrying hurt and confusion.
+
+If it turns out that your partner simply isn’t regarded as part of that inner circle, the task then becomes adjusting your expectations. You don’t need to confront anyone or blow up the friendships, but you also don’t have to pretend the group is something it isn’t. Longstanding friendships sometimes evolve unevenly, and noticing that isn’t petty or disloyal. It’s honest.
+
+The key is this: you’re not wrong to pay attention to patterns, and you’re not obligated to minimize something that feels exclusionary just to keep the peace.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6409,23 +6452,58 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+One of my coworkers is very friendly and has made a point of inviting me to various after-work activities. I’ve turned down the invitations every time, partly because I’m introverted and partly because I like keeping a clear line between my work life and my personal time. He never gets pushy or inappropriate, but he is persistent. Even after several polite nos, he keeps asking as though I might suddenly change my mind. I don’t want to embarrass him or make things awkward at work, but I also don’t want to spend the rest of the year repeating myself. How can I shut this down kindly but firmly?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you value your boundaries and want to maintain a comfortable, professional relationship with your coworker, which is entirely reasonable. His persistence, even if well-intentioned, is putting you in a difficult spot where you feel pressured to keep declining, and that can be exhausting.
+
+A way to address this kindly but firmly is to acknowledge his friendliness while clearly stating your preference. You might say something like, “I really appreciate your invitations and that you want to include me, but I’m someone who prefers to keep my work and personal life separate. I hope you understand that I won’t be joining after-work activities, but I’m glad to work with you during the day.” This kind of response expresses gratitude and respect but also sets a clear boundary.
+
+If he continues to ask, you can gently but more directly reiterate your position without feeling the need to justify it further. Sometimes, people persist because they don’t realize their invitations are causing discomfort or because they hope the answer will change. Your clarity helps remove that uncertainty.
+
+Remember, you don’t owe anyone your personal time, and maintaining your boundaries is a form of self-respect that benefits both you and your workplace dynamic. It’s okay if this feels a bit awkward at first; over time, your coworker will likely come to accept your preference and respect it.
 
 EVALUATION:
-Score: [score]
+Score: 7
 
 Strengths:
-- ...
-- ...
+Clearly affirms the writer’s right to boundaries.
+
+Provides a usable script.
+
+Avoids therapyspeak and diagnosis.
+
+Tone is polite and professional.
+
 Weaknesses:
-- ...
-- ...
+Overly padded with reassurance.
+
+Treats persistence as benign confusion without acknowledging its impact.
+
+Uses softening language that encourages further negotiation.
+
+Fails to explain why polite refusals haven’t worked.
+
+Ends with generalized reassurance rather than authority.
 
 OUTPUT: 
-[My Tier S response]
+When polite refusals don’t work, it usually means the other person is interpreting them as situational rather than final. In other words, he’s hearing “not this time” instead of “this isn’t something I do.”
+
+Regardless of whether his persistence comes from friendliness or social obliviousness, you don’t need to keep performing courtesy in hopes that he eventually gets the message. What he needs now is clarity, not encouragement.
+
+Something like this is sufficient:
+“I appreciate the invitations, but I don’t socialize outside of work. That’s a personal boundary for me, and it’s not going to change. I wanted to be clear so you don’t feel like you need to keep asking.”
+
+This works because it removes ambiguity. You’re not rejecting him. You’re describing a rule that applies consistently.
+
+If he asks again, keep your response brief and steady:
+“As I mentioned before, I don’t do after-work hangouts.”
+
+No apologies. No explanations. Repetition without emotional padding is often the fastest way to reset expectations.
+
+Only if he continues after that does this become a workplace issue rather than a social one, at which point HR may be appropriate. But most people adjust once they understand the boundary is real.
+
+Handled this way, the working relationship doesn’t need to suffer. In fact, many people find clarity easier to respect than endless politeness that quietly breeds resentment.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6497,23 +6575,63 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I was very fortunate that my parents raised me to appreciate simplicity and avoid greed and excess.
+
+Now I’m in love with a wonderful woman whose family lives what I consider a toxic lifestyle. Examples: They serve too much food for parties and holidays — more than can be eaten not just on that day, but on several days; they exchange so many useless gifts at every giving occasion (Christmas, birthdays, Mother’s Day, Father’s Day, etc.); their closets are stuffed with more clothing and shoes than you could wear in a lifetime; their home is overflowing with furniture, tchotchkes and other useless things.
+
+Since we’ve gotten more serious, I’ve mentioned just a couple of times to my girlfriend how damaging her parents’ and siblings’ lifestyle is. Recently, she snapped at me to let up on being “so judgmental” about her family.
+
+I always thought we were on the same wavelength, since she herself lives pretty simply. Now I’m afraid her more minimalist lifestyle is because she’s just starting out, and she’ll eventually adopt her family’s behavior as she gets more successful.
+
+I love her and don’t want to break up, but I’d hate to marry and raise children with someone who would expect to live like that.
+
+It seems like a sore subject, and I don’t want to harp on it, but I do need some reassurance. How should I ask about this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear you deeply value simplicity and have been shaped by a meaningful set of principles around consumption and lifestyle. Your concern about how your girlfriend’s family’s habits might influence her future choices is understandable, especially as you imagine a shared life together. At the same time, it’s important to recognize that people often differentiate themselves from their families in significant ways, even when those families have very different values or habits.
+
+Your girlfriend’s reaction to feeling judged suggests that this topic touches on something sensitive for her—perhaps loyalty to her family, or a desire to assert her own identity apart from them. It might help to approach the conversation not as a critique of her family, but as an exploration of your shared values and hopes for the future. Instead of focusing on what her family does, you could gently ask her how she envisions your life together in terms of lifestyle, possessions, and celebrations. What does “living simply” mean to her now, and how might that evolve? What are her priorities when it comes to home, gifts, and gatherings?
+
+This kind of dialogue can open space for mutual understanding without putting her on the defensive. It also invites her to express her own perspective, which may be more nuanced than you realize. People’s relationships with their families’ habits are often complex, and your girlfriend might already be navigating her own boundaries with those patterns.
+
+Ultimately, the question is about compatibility and shared vision, not about judging her family’s choices. If you can both speak openly about what matters most to you in your life together, you’ll gain clarity about whether your values align in a way that feels sustainable and respectful. It’s okay to acknowledge that this is a tricky subject, and it may take time and patience to explore it without conflict. Your desire to understand and be understood is a good foundation to build on.
 
 EVALUATION:
-Score: [score]
+Score: 5.5
 
 Strengths:
-- ...
-- ...
+Encourages discussion of shared values rather than direct confrontation.
+
+Maintains a calm, non-hostile tone.
+
+Acknowledges sensitivity around family loyalty.
+
 Weaknesses:
-- ...
-- ...
+- The response does not call out the letter writer for their own blind spots. For example, for being judgmental towards his girlfriend's family. 
+- The letter is way too equivocal in its response. It also fails to acknowledge nuance. For instance, the letter writer dismisses his girlfriend's family as having a "toxic lifestyle" when in fact the reasons for their supposed excesses may be things like cultural tradition or maybe one or both of the parents was raised in poverty and wants to make sure that their children got everything that they needed and they may have lovingly overcompensated. The letter seems to suppose a moral equivalence between the letter writer and his girlfriend, when in reality the letter writer is being extremely judgmental and is probably ill-informed about the full picture.
+- Along the same lines, the letter has little in the way of a moral core or voice.
+- Fails to challenge the letter writer’s framing or assumptions.
+- Overuses soft language (“might help,” “could gently ask”) to the point of evasiveness.
+- Feels more like mediation than advice.
+
 
 OUTPUT: 
-[My Tier S response]
+Right now, the problem isn’t your girlfriend’s family. It’s the way you’re talking about them.
+
+Describing their lifestyle as “toxic” is a moral judgment, not a neutral observation. And it’s one that collapses a lot of possible explanations into a single, unflattering narrative. Excess can come from insecurity, cultural tradition, joy, generosity, or a history of deprivation. You don’t actually know which story applies here, but you’ve already decided what it means.
+
+That’s likely why your girlfriend snapped. You weren’t just expressing concern about your future. You were asking her to agree with your contempt for people she loves.
+
+If what you truly care about is how you want to live, then the conversation needs to shift away from her family entirely. The only relevant question is whether the two of you share compatible values around money, possessions, and child-rearing.
+
+A better way to ask might sound like this:
+“When I picture my future, I imagine a fairly simple life. I want to be intentional about money, gifts, and what we bring into our home. How do you see that part of our life together?”
+
+That invites her perspective without demanding she repudiate her parents.
+
+If it turns out that she does aspire to a very different lifestyle, that’s important information. But you won’t get honest answers by leading with judgment. Compatibility is about shared direction, not moral superiority.
+
+If you want reassurance, earn it by approaching this with humility rather than verdicts.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6585,23 +6703,74 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I've been married for a few years. My wife and I are mostly open with each other about things. But I have one thing that I haven't told her about. I watch porn. It's always from mainstream sites. Never underage porn. And I never interact with any of the performers directly, a la OnlyFans. I usually do it when I'm sleeping in the other room for various reasons, or sometimes when she goes out for a while. I feel guilty about this, but at the same time, I also feel like it's important to me since our libidos are mismatched. My libido is significantly higher than hers.
+
+I feel that this is a better solution to the libido problem than actually going out and having an affair, but part of me feels this is still cheating because after all, I am deliberately getting sexually stimulated by other women's bodies. Is this cheating? What's your verdict on this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your question touches on a deeply personal and often complex area of relationships—how to navigate differences in sexual desire and the boundaries around individual behaviors like watching pornography. It’s clear you’ve thought carefully about your actions and their impact on your marriage, which is an important starting point.
+
+Whether watching porn counts as cheating isn’t a question with a universal answer; it depends largely on the agreements and understandings between you and your wife. Some couples consider any sexual stimulation outside the relationship to be a breach of trust, while others see it as a private matter that doesn’t diminish their commitment. The fact that you haven’t shared this with her suggests there’s some discomfort or uncertainty about how she might feel, which is worth reflecting on.
+
+Your choice to watch porn rather than seek physical intimacy elsewhere shows a desire to avoid harm and maintain fidelity in a traditional sense. That intention is significant. At the same time, the secrecy and the guilt you’re experiencing indicate that this behavior is causing you internal conflict, which can weigh on your emotional well-being and the health of your relationship.
+
+The mismatch in libido is a common challenge in partnerships, and it often requires ongoing, honest conversations about needs, boundaries, and compromises. Bringing this topic into the open with your wife—when you feel ready—could help both of you understand each other better and explore solutions together. This might include negotiating what forms of sexual expression feel acceptable, seeking ways to connect physically that honor both your desires, or even consulting a counselor who specializes in sexual intimacy if that feels like a safe option.
+
+Ultimately, the question of whether watching porn is cheating isn’t just about the act itself but about the impact on trust, honesty, and mutual respect in your marriage. If this behavior is something you feel compelled to hide, it may be a sign that your relationship needs a space for more candid dialogue about sexuality and boundaries. That kind of openness can be difficult but also deeply healing.
+
+In the meantime, be gentle with yourself as you navigate these feelings. Sexual desire is a natural part of being human, and finding a path that honors both your needs and your commitment to your wife is a delicate balance. There’s no perfect answer, but your willingness to reflect on this thoughtfully is a meaningful step.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Maintains a non-hysterical, non-shaming tone around porn.
+
+Correctly frames the key issue as something couples define together rather than a universal moral rule.
+
+Identifies secrecy and guilt as more destabilizing than porn use itself.
+
+Encourages communication instead of defaulting to either confession panic or concealment.
+
 Weaknesses:
-- ...
-- ...
+Too “therapy-office” in cadence and phrasing. Expressions like “deeply personal,” “worth reflecting on,” and “deeply healing” feel templated rather than deliberate.
+
+Overuses LLM-favorite intensifiers, especially the word “deeply,” in a way that signals pattern repetition rather than intentional voice.
+
+Excessive hedging. The response keeps circling “there’s no universal answer” without establishing a firm moral center around honesty and consent.
+
+Lacks concrete guidance. It does not provide a clear decision framework for whether to disclose or how to initiate the conversation.
+
+The suggestion of counseling feels premature and somewhat evasive, given that the core issue is boundaries and trust rather than pathology.
+
+Does not meaningfully engage the ethical discomfort raised by the letter writer about sexual attention being directed toward other people’s bodies.
 
 OUTPUT: 
-[My Tier S response]
+You’re asking two different questions at once: “Is porn cheating?” and “Am I doing something in secret that would hurt my spouse if she knew?” The second question is usually the one that matters.
+
+There is no universal verdict on porn. Some couples treat it like a private solo activity, no different than fantasizing. Other couples treat it as a line you do not cross. What makes it “cheating” in the way that actually damages marriages is not that a stranger exists on a screen. It’s the combination of secrecy, sexual energy diverted into something your partner would reasonably object to, and a growing sense that you’re living a parallel life.
+
+Right now, you are in the danger zone because you’re hiding it. That does not make you a monster. It does mean you are gambling with trust.
+
+So here’s the grown-up way to think about it. Ask yourself:
+
+If your wife found out tomorrow, would she feel mildly annoyed, or would she feel betrayed and humiliated?
+
+Are you using porn occasionally as release, or is it becoming your default sexual outlet because the mismatch is going unaddressed?
+
+Are you seeking porn that is ethically sketchy, compulsive, or escalating in ways you do not like?
+
+If the honest answer to the first question is “she’d feel betrayed,” then “but it’s better than an affair” is not a defense. That’s like saying, “I only broke one of the vows.” Your marriage is not a courtroom where you’re trying to get the least severe sentence. It’s an agreement between two people who are supposed to be on the same side.
+
+That doesn’t mean you have to confess with theatrical guilt, either. What you need is a conversation about libido mismatch and what each of you considers acceptable solo sexuality. You can keep it simple and direct:
+
+“Hey, I want to talk about something awkward because I don’t want secrets between us. Our libidos are mismatched, and I’ve been handling that on my own sometimes. I’d like us to agree on what’s okay and what isn’t, including whether porn is on or off the table. I’m not trying to pressure you. I’m trying to protect our trust.”
+
+Then stop talking and listen. If she says, “Absolutely not,” you have your answer: you either honor that boundary, or you renegotiate the marriage in a bigger way. If she says, “Maybe, but only if…,” then you have a path forward that does not require sneaking around.
+
+One more thing: do not let porn become the substitute for intimacy conversations you are avoiding. A libido mismatch is common, but it still needs daylight. That might mean scheduling sex, broadening what “sex” includes, making room for affection that does not feel like a demand, and yes, sometimes accepting that one partner masturbates. None of that requires shame. It does require honesty.
+
+You’re not asking because you want permission. You’re asking because you can feel the trust issue lurking underneath. Take that seriously now, while it’s still fixable.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
