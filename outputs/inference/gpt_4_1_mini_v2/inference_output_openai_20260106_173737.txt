@@ -1,0 +1,31 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 17:37:37
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear moral landing or concluding insight, without labeling it as a takeaway.
+
+QUESTION: I'm a single man in my early thirties. I live alone. I have a decent job and a few good friends, but I feel that there's one giant gap in my life: a woman-shaped gap. I'm a straight man, and I yearn for a partner. In therapy, I often struggle with the shame, frustration, and sense of inadequacy that comes with being a single man, at least for me. My therapist has suggested some useful exercises, such as conducting a mock trial where the defense is defending my being single and the prosecution is advocating for being partnered. This helps, but the core feelings of hollowness, personal failure, and jealousy remain. Every time I see on Facebook that another of my friends or acquaintances is getting engaged, I want to throw up. I feel bad because I should be happy for them, but instead I keep thinking about my own situation.\n\nIn terms of meeting people, I've tried all the usual routes: online dating, joining organizations/meetups, even going to bars. I've given each of these a good-faith effort, but nothing has materialized. When I do meet women from online dating sites, there's either a fundamental incompatibility (e.g. they're much more religious than me) or they flake out early on or they're simply not interested after one date. Am I doomed to die alone? How can I come to terms with my singleness in the short term and increase my chances of being in a good relationship in the long term?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings of emptiness and frustration are deeply human and understandable. The yearning for connection, especially romantic connection, is a powerful part of life, and it’s painful when it feels out of reach. It’s important to acknowledge that your sense of shame and inadequacy, while very real to you, are not objective truths. Being single is not a mark of failure, even if it feels that way in moments of comparison or loneliness.
+
+You’ve done the hard work of trying multiple avenues to meet people, and that effort deserves recognition. The fact that you’ve encountered incompatibility or disinterest is not a reflection on your worth; it’s simply part of the unpredictable and often frustrating nature of human relationships. Compatibility is a two-way street, and sometimes the right match takes time and patience to find.
+
+When you see friends getting engaged or coupled up, it’s natural to feel a pang of jealousy or sadness. Instead of pushing those feelings away or judging yourself for them, try this: the next time you scroll through social media and feel that surge of discomfort, pause and say quietly to yourself, “I see this feeling, and it’s okay to feel this way.” You might add, “Their happiness doesn’t diminish my own potential for happiness.” This small act of acknowledgment can soften the sting and create space for a more compassionate inner dialogue.
+
+In the short term, consider shifting some focus toward nurturing the parts of your life that bring you meaning and joy outside of romance. This doesn’t mean distracting yourself from your desire for a partner but rather enriching your sense of self and your life’s fullness. When you engage deeply with your interests, friendships, and personal growth, you become a more grounded and attractive presence—not because you’re trying to be, but because you’re living authentically.
+
+For the long term, it might help to clarify what you truly want in a partner and relationship beyond the broad desire to “not be alone.” What values, qualities, and ways of relating matter most to you? Sometimes, refining this vision can guide your choices and interactions more effectively than casting a wide net. When you meet someone new, you might try a simple script like: “I’m really interested in getting to know you better to see if we share important values and enjoy each other’s company. What about you?” This kind of openness invites genuine connection without pressure.
+
+Finally, remember that being single is not a permanent sentence unless you choose it to be. Life’s paths are rarely linear or predictable. Many people find meaningful partnerships later than they expect, and some find fulfillment in ways that don’t fit traditional scripts. Your worth is not contingent on your relationship status, and your capacity for love and connection remains intact, regardless of your current circumstances.
+
+The moral clarity here is that your longing is valid, but it need not define your self-worth or your life’s narrative. You are whole as you are, and that wholeness is the foundation from which any relationship—romantic or otherwise—can grow.
+==================================================

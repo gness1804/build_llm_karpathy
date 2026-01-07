@@ -5501,23 +5501,60 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm a single man in my early thirties. I live alone. I have a decent job and a few good friends, but I feel that there's one giant gap in my life: a woman-shaped gap. I'm a straight man, and I yearn for a partner. In therapy, I often struggle with the shame, frustration, and sense of inadequacy that comes with being a single man, at least for me. My therapist has suggested some useful exercises, such as conducting a mock trial where the defense is defending my being single and the prosecution is advocating for being partnered. This helps, but the core feelings of hollowness, personal failure, and jealousy remain. Every time I see on Facebook that another of my friends or acquaintances is getting engaged, I want to throw up. I feel bad because I should be happy for them, but instead I keep thinking about my own situation.
+
+In terms of meeting people, I've tried all the usual routes: online dating, joining organizations/meetups, even going to bars. I've given each of these a good-faith effort, but nothing has materialized. When I do meet women from online dating sites, there's either a fundamental incompatibility (e.g. they're much more religious than me) or they flake out early on or they're simply not interested after one date. Am I doomed to die alone? How can I come to terms with my singleness in the short term and increase my chances of being in a good relationship in the long term? 
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your feelings of emptiness and frustration are deeply human and understandable. The yearning for connection, especially romantic connection, is a powerful part of life, and it’s painful when it feels out of reach. It’s important to acknowledge that your sense of shame and inadequacy, while very real to you, are not objective truths. Being single is not a mark of failure, even if it feels that way in moments of comparison or loneliness.
+
+You’ve done the hard work of trying multiple avenues to meet people, and that effort deserves recognition. The fact that you’ve encountered incompatibility or disinterest is not a reflection on your worth; it’s simply part of the unpredictable and often frustrating nature of human relationships. Compatibility is a two-way street, and sometimes the right match takes time and patience to find.
+
+When you see friends getting engaged or coupled up, it’s natural to feel a pang of jealousy or sadness. Instead of pushing those feelings away or judging yourself for them, try this: the next time you scroll through social media and feel that surge of discomfort, pause and say quietly to yourself, “I see this feeling, and it’s okay to feel this way.” You might add, “Their happiness doesn’t diminish my own potential for happiness.” This small act of acknowledgment can soften the sting and create space for a more compassionate inner dialogue.
+
+In the short term, consider shifting some focus toward nurturing the parts of your life that bring you meaning and joy outside of romance. This doesn’t mean distracting yourself from your desire for a partner but rather enriching your sense of self and your life’s fullness. When you engage deeply with your interests, friendships, and personal growth, you become a more grounded and attractive presence—not because you’re trying to be, but because you’re living authentically.
+
+For the long term, it might help to clarify what you truly want in a partner and relationship beyond the broad desire to “not be alone.” What values, qualities, and ways of relating matter most to you? Sometimes, refining this vision can guide your choices and interactions more effectively than casting a wide net. When you meet someone new, you might try a simple script like: “I’m really interested in getting to know you better to see if we share important values and enjoy each other’s company. What about you?” This kind of openness invites genuine connection without pressure.
+
+Finally, remember that being single is not a permanent sentence unless you choose it to be. Life’s paths are rarely linear or predictable. Many people find meaningful partnerships later than they expect, and some find fulfillment in ways that don’t fit traditional scripts. Your worth is not contingent on your relationship status, and your capacity for love and connection remains intact, regardless of your current circumstances.
+
+The moral clarity here is that your longing is valid, but it need not define your self-worth or your life’s narrative. You are whole as you are, and that wholeness is the foundation from which any relationship—romantic or otherwise—can grow.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Compassionate and non-shaming toward the letter writer.
+
+Avoids misogyny, entitlement, or bitterness framing.
+
+Acknowledges both emotional pain and effort already expended.
+
+Encourages self-worth independent of relationship status.
+
 Weaknesses:
-- ...
-- ...
+Overuses generic emotional language, including “deeply” and other intensifiers that dilute impact.
+
+Leans too heavily on self-soothing and affirmation, bordering on therapyspeak.
+
+Avoids confronting the hard truth that wanting a partner is not something to be “talked away.”
+
+Offers many reframes but little structural clarity about what can and cannot be controlled.
+
+Ending drifts into platitude territory rather than a grounded moral landing.
 
 OUTPUT: 
-[My Tier S response]
+You’re describing something very specific and very human: not abstract loneliness, but the ache of wanting a partner and not having one, despite trying. There’s no way to make that painless, and pretending otherwise often makes people feel more isolated rather than less.
+
+It’s important to say this plainly: wanting a romantic relationship is not a character flaw, a failure of therapy, or a sign that you’re insufficient as a person. For some people, partnership is a core desire, not an optional bonus. You can work on self-compassion and still grieve the absence of something you genuinely want. Those two things are not in conflict.
+
+At the same time, there’s a difference between longing and self-indictment. When every engagement announcement becomes evidence that something is wrong with you, the pain compounds. That doesn’t mean you should suppress jealousy or force gratitude. It means noticing when comparison turns into a story about your worth and gently refusing to let that story run the show.
+
+As for the practical side: you’re already doing most of what’s within your control. Dating involves timing, luck, and mutual interest, and no amount of effort guarantees results. What is still in your control is how narrowly you define success. Right now, it sounds like “being partnered” has become a referendum on your entire life. That’s an unfair burden to place on one outcome.
+
+In the short term, the task isn’t to make peace with being single forever. It’s to loosen the grip of the belief that your life is on hold until someone chooses you. In the long term, the best predictor of a healthy relationship isn’t relentless striving, but staying connected to a life that feels worth sharing when the opportunity arises.
+
+You are not broken for wanting love. And you are not failing because it hasn’t happened yet.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5589,23 +5626,49 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My husband and I have been married five years and we have two young children. My husband's job requires him to travel frequently—he's gone about two weeks out of every month. When he's home, he's often exhausted and wants to relax, which means I'm still doing most of the childcare and household management even when he's here. I work full-time too, and I'm burning out. I've tried talking to him about it, but he says his job is demanding and he needs downtime when he's home. I understand that, but I also need a break, and I feel like I'm doing everything alone. We can't afford for him to change jobs right now, but something has to give. How do we find balance when his career requires so much travel?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your situation is one many parents face, and it’s deeply challenging to carry the weight of both work and home life without feeling seen or supported. Your husband’s demanding job and need for rest are real, but so is your exhaustion and the unfair burden you’re shouldering. This isn’t about who works harder or deserves more downtime—it’s about partnership and shared responsibility, especially when children and a household depend on both of you.
+
+When you’ve already tried talking and feel unheard, it’s time to be very specific about what you need and what you’re willing to accept. Instead of general conversations about feeling overwhelmed, try a clear, concrete proposal. For example, say: “When you’re home, I need you to take on these specific tasks—like bedtime routines, meal prep, or laundry—so I can rest or focus on my work. If you’re too tired for everything, let’s pick the most important things together.” Naming exact duties removes ambiguity and gives him a clear way to contribute.
+
+Also, consider scheduling a family meeting where you both map out the week’s demands and divide responsibilities in advance. This can help prevent exhaustion from creeping in unnoticed and create a shared sense of accountability. If childcare or household help is financially out of reach, look for small ways to lighten the load—maybe swapping childcare with a trusted friend or family member occasionally, or simplifying routines to reduce daily stress.
+
+It’s important to acknowledge that your husband’s need for downtime is valid, but it should not come at the cost of your well-being or the family’s functioning. Rest is a shared resource in a partnership, not an individual entitlement. If the current pattern continues, it risks breeding resentment and deep fatigue that neither of you can afford.
+
+Ultimately, balance in a marriage where one partner travels extensively is not about perfect equality every day but about mutual respect and intentional effort to support each other’s needs. You deserve to be heard and helped, not just understood. When rest and responsibility are fairly distributed, your partnership can withstand the strain of demanding careers and parenting. If that balance feels impossible now, it’s a signal to keep pushing for change—because enduring this alone is neither sustainable nor fair.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Clearly validates the letter writer’s exhaustion.
+
+Correctly reframes the issue as partnership rather than individual weakness.
+
+Encourages specificity rather than vague complaints.
+
 Weaknesses:
-- ...
-- ...
+Uses familiar LLM phrasing and emotional generalities.
+
+Over-explains fairness instead of firmly naming inequity.
+
+Slight tendency to soften the husband’s responsibility by emphasizing mutual stress.
 
 OUTPUT: 
-[My Tier S response]
+You’re not upset because your husband travels. You’re upset because when he’s home, the workload still isn’t shared in a way that allows you to recover. That distinction matters.
+
+Yes, his job is demanding. But so is parenting two young children while working full-time. Right now, his need for rest is being treated as a priority, while yours is being treated as optional. That’s not a sustainable model for a marriage, even if the travel itself is unavoidable.
+
+This conversation will go better if you move away from general burnout language and toward concrete expectations. Something like:
+“When you’re gone, I handle everything. When you’re home, I still need you to actively parent so I can rest too. Downtime can’t belong to only one of us.”
+
+From there, get specific. If he needs decompression time, fine. But it should be balanced with you getting uninterrupted time as well. That might mean he takes full responsibility for the kids on Saturday mornings, or handles bedtime every night he’s home. The details matter less than the principle: rest must be shared.
+
+You should also talk honestly about how long this arrangement is expected to last. If this level of travel is temporary, you can treat it as a strain you’re jointly managing. If it’s indefinite, then you’re not just asking for tweaks. You’re deciding whether this is a life you can live in the long run.
+
+Burnout isn’t a personal failing. It’s a signal that the system you’re in needs adjustment. A partnership that survives demanding careers does so because both people are willing to rebalance when one person is carrying too much.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5677,23 +5740,56 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I'm the mother of two kids, a son age 15 and a daughter age 13. My son has expressed a strong interest in being a physician, a goal that I support because he has a genuine love for medicine—he's been interested in it from a very young age and has loved his hospital shadowing experiences. The problem is that he's so focused on school and grades that he isn't doing any extracurriculars. I worry that now that he's in high school, not having extracurriculars will hurt his chances of getting into a good college and eventually medical school, even if he maintains his excellent grades. I don't like the "extracurricular arms race" that high school has become, but I recognize we have to work within the system as it exists. I've repeatedly encouraged him to find an extracurricular he likes, even suggesting the Science Club since science is his favorite subject, but he always says he's focused on schoolwork and that Science Club would be redundant since he already studies science outside of school. I want him to forge his own path, but I also don't want him to make choices that could hurt his chances of getting into medical school or another professional or graduate school. How can I strike a balance between providing sound parental advice and giving him the autonomy he needs to make his own choices?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your concern is both understandable and deeply caring. You want to support your son’s passion for medicine while also helping him navigate the realities of college admissions, which often value a well-rounded profile. The tension between honoring his autonomy and guiding him through a system that rewards more than just grades is a delicate one.
+
+First, it’s important to acknowledge that your son’s dedication to academics is a strength, not a weakness. His focus on schoolwork reflects discipline and commitment—qualities that will serve him well in medicine. However, colleges and medical schools often look for evidence of broader engagement: leadership, teamwork, perseverance in different contexts, and the ability to balance multiple commitments. These aren’t just boxes to check; they speak to the kind of person he is beyond the classroom.
+
+Rather than framing extracurriculars as a necessary “add-on” to impress admissions committees, try shifting the conversation toward exploration and personal growth. You might say something like: “I see how much you love science and how hard you work in school. Sometimes, activities outside of class can help you discover new interests or develop skills that will make you an even stronger candidate—and a more fulfilled person. What if we looked for something that feels different from schoolwork, something that excites you or challenges you in a new way?”
+
+If he resists traditional clubs, consider alternatives that align with his interests but don’t feel like schoolwork. Volunteering at a hospital, joining a youth mentorship program, or even starting a small project related to health education could be meaningful. You might offer to help him find opportunities that fit his schedule and energy level, emphasizing that this is about his growth, not just college applications.
+
+It’s also worth having an honest conversation about the realities of medical school admissions, but without pressure or fear. You could say: “I want to be upfront about how competitive medical school can be. Grades are crucial, but so is showing that you’re engaged in your community and can handle responsibilities beyond academics. I trust you to make your own choices, but I want to make sure you have all the information to decide what’s best for you.”
+
+Ultimately, your son’s path will be his own, and your role is to provide a steady, informed presence—offering guidance without taking over. It’s okay to hold space for his focus on academics while gently encouraging him to consider the broader picture. The balance lies in respecting his passion and discipline, while inviting him to step outside his comfort zone in ways that feel authentic.
+
+In the end, the most important thing is that he learns to make decisions grounded in both self-awareness and a realistic understanding of the world he’s entering. That kind of wisdom will serve him far beyond any application form.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Thoughtful and supportive of both parental concern and child autonomy.
+
+Accurately explains admissions realities without alarmism.
+
+Encourages reframing extracurriculars as growth rather than résumé padding.
+
 Weaknesses:
-- ...
-- ...
+Overlong and somewhat repetitive.
+
+Uses generalized admissions logic instead of prioritizing decision clarity.
+
+Misses an opportunity to normalize a narrower but intentional path.
 
 OUTPUT: 
-[My Tier S response]
+I agree with you about the extracurricular arms race: it's unfortunate that these activities have too often become boxes to check rather than enriching experiences, but you're right that we need to work within the system. I would also add that the system still rewards participation beyond grades. Both can be true at the same time.
+
+What’s important to notice is that your son isn’t avoiding responsibility or drifting aimlessly. He’s deeply engaged in something he cares about and is already gaining exposure to medicine through shadowing. That’s not nothing. In fact, many admissions committees care far more about sustained, authentic interest than a long list of unrelated clubs.
+
+A good first step is to talk to his guidance counselor (and encourage him to do the same) to understand what extracurricular as well as academic portfolios look like for recent graduates who got into good colleges; you can also talk to other parents and look at reputable websites (avoid sources like U.S. News and World Report, which exaggerate prestige factors). Being armed with facts helps reduce over-worrying. 
+
+You can tell him that you admire his work ethic and his focus, but also explain to him that you're trying to prepare him for the realities of college and medical school admissions. The reality is that most good colleges and certainly most good medical schools will look for service or leadership activities outside of the classroom as a significant factor in admissions decisions. You can say something like: “I want you to know how this system works so you can make informed choices. I trust you, but I don’t want you to be surprised later.”
+
+My own brother serves as a cautionary tale. He had virtually perfect grades and a 1600 SAT score (this was back when that was the maximum possible score) yet didn't get into Yale, and we think that his lack of extracurriculars was a major factor. So you need to be realistic with your son. But by the same token, "extracurriculars" doesn't necessarily have to mean school-sponsored activities. Volunteering in a health-related setting, tutoring younger students, or continuing structured clinical exposure can all serve the same purpose without forcing him into something he finds redundant or that he does grudgingly just to check a box.
+
+Also remember that the fact that your son is a teenager means that he's in a developmental stage where the opinions of his peers also matter a lot. Does your son have friends in extracurriculars who've had good experiences? You can also emphasize the social aspect of these activities, especially if your son struggles socially. Remind him that these organizations are good ways to make friends and can be enriching beyond just a line on a resume. 
+
+Autonomy doesn’t mean lack of guidance; it means having information and support while retaining agency. If he later decides to add an outside-of-school activity to his life grade, great. If he doesn’t, he’ll still be making a conscious decision rather than a blind one.
+
+Your job isn’t to optimize his résumé. It’s to help him understand the terrain well enough to choose his own path through it.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -5765,23 +5861,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My wife and I have been married for eight years, and we have a good relationship overall. But there's one recurring issue: she's very close with her group of college friends, and they have a group chat where they're constantly messaging. The problem is that they often share very personal details about their lives, including things about their relationships and sex lives. My wife participates in these conversations and sometimes shares details about our relationship that I'm not comfortable with. When I've asked her to keep our private life private, she says I'm being too sensitive and that this is just how her friend group communicates. But I feel like my privacy is being violated, and I don't want our intimate details discussed in a group chat. How do we resolve this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear that you value the privacy of your relationship deeply, and that’s a completely reasonable and important boundary to have. At the same time, your wife’s connection with her friends and the way they communicate is a significant part of her social life, and it sounds like this group chat is a space where she feels comfortable sharing and connecting. The tension arises because these two needs—your desire for privacy and her desire for openness with her friends—are coming into conflict.
+
+The first step is to acknowledge that both perspectives have validity. Your discomfort isn’t about being “too sensitive” but about feeling exposed in a way that undermines your sense of safety and trust. Meanwhile, your wife’s sharing is part of how she maintains close friendships, which are important to her well-being.
+
+Resolving this will require a conversation where you both listen carefully and without judgment. You might try to explain what it feels like for you when private details are shared—how it affects your trust and your sense of respect in the relationship—without framing it as an attack on her or her friends. At the same time, invite her to explain what these conversations mean to her and why she feels the need to share.
+
+From there, you can explore practical compromises. For example, she might agree to avoid sharing certain types of intimate details or to check in with you before discussing specific topics. You might also consider whether there are particular boundaries around what is off-limits versus what feels okay to share. It’s not about policing her friendships but about protecting the intimacy you both share.
+
+If this feels difficult to navigate on your own, it can be helpful to set aside time to revisit the conversation regularly, as feelings and boundaries can evolve. Ultimately, the goal is to find a balance where your privacy is respected and your wife’s friendships remain meaningful, without either side feeling dismissed or controlled.
+
+If the pattern persists and your concerns continue to be minimized, it’s worth reflecting on how this dynamic affects your trust and emotional safety in the relationship. Your feelings deserve to be taken seriously, and a healthy partnership involves mutual respect for each other’s boundaries—even when they require some adjustment or discomfort.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Validates the letter writer’s discomfort.
+
+Avoids vilifying the wife or her friendships.
+
+Encourages dialogue rather than ultimatums.
+
 Weaknesses:
-- ...
-- ...
+Overuses balancing language that blurs the boundary violation.
+
+Minimizes the seriousness of repeated dismissal (“too sensitive”).
+
+Slips toward therapyspeak and generic conflict-resolution framing.
 
 OUTPUT: 
-[My Tier S response]
+Your feelings are completely valid: you have a right to privacy in your relationship, and your wife sharing intimate details about your life without your consent is a boundary violation. The fact that she's dismissing your concerns as being "too sensitive" is also problematic. Your comfort level matters, and a good partner should respect that, even if they don't fully understand it.
+
+Your wife’s closeness with her friends is not the problem. The problem is that she’s prioritizing that closeness over your sense of privacy, and then dismissing your discomfort rather than taking it seriously. When someone tells you that a boundary violation doesn’t count because *they* don’t find it important, the issue isn’t communication style. It’s respect.
+
+You need to have a clear conversation about boundaries: "I understand that your friend group is close and shares a lot with each other. But when you share details about our relationship, especially intimate ones, it makes me feel like my privacy isn't being respected. I'm not asking you to stop being close with your friends, but I am asking you to keep our private life private. Can we agree on what's off-limits?" Be specific about what you consider private; maybe it's anything about your sex life, or maybe it's details about arguments or personal struggles. The key is that you both need to agree on what's okay to share and what isn't, and then stick to that agreement.
+
+If she continues to dismiss your concerns or refuses to change her behavior, that's a bigger issue. It suggests she doesn't respect your boundaries or your right to privacy. You might need to consider couples counseling to work through this, because trust and respect for boundaries are fundamental to a healthy relationship. Your wife's friendships are important, but they shouldn't come at the expense of your comfort and privacy in your own marriage.
+
+A marriage can survive differing social styles. It can’t thrive when one partner’s boundaries are repeatedly dismissed. This is worth taking seriously now, before resentment sets in deeper.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
