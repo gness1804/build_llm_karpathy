@@ -903,7 +903,7 @@ QUESTION: I’ve become close friends with someone at work, and the friendship h
 
 ANSWER: Start by reestablishing the frame of the relationship. Try something like: “I value our friendship, but some of our recent conversations have gotten a bit more personal than I’m comfortable with. I want to make sure we keep good boundaries, especially since we both have partners.”
 
-Lonely people often are keen to reach out to others, and at times, this drive can override the usual social boundaries. Emotional affairs usually begin as friendships of the type that you describe. I take you at your word that nothing romantic has happened, but as you also alluded to, it can be a slippery slope. It's best for everyone concerned to put a kibosh on this possibility now, rather than later.
+Lonely people often are keen to reach out to others, and at times, this drive can override the usual social boundaries. It can also spell trouble for relationships. Emotional affairs usually begin as friendships of the type that you describe. I take you at your word that nothing romantic has happened, but as you also alluded to, it can be a slippery slope. It's best for everyone concerned to put a kibosh on this possibility now, rather than later.
 
 That's why it's so important to set a clear limit about timing and topics. For example: “I’m going to stop responding to late-night messages. I'm also not comfortable discussing sensitive or intimate emotional topics. Let’s keep our conversations to work hours and to lighter topics.” You’re not rejecting him. You’re defining the shape of the connection.
 

@@ -6842,23 +6842,56 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I recently merged our finances, and we’re discovering that we have very different spending habits. I’m frugal and tend to think months ahead. He’s more spontaneous and comfortable with impulse purchases. Neither of us is reckless, but the mismatch has caused a few tense conversations about what counts as “necessary,” and I can feel resentment creeping in. How do we navigate this without turning every purchase into a referendum on our values?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s a common and understandable challenge when two people with different approaches to money come together, especially when finances become shared. Money often carries emotional weight and can symbolize deeper values, security, and trust, so it’s no surprise that differing spending habits can stir tension.
+
+First, it’s important to recognize that neither of your approaches is inherently right or wrong—they simply reflect different perspectives and priorities. Your forward-thinking frugality offers stability and planning, while his spontaneity can bring joy and flexibility. Both have value, and the goal isn’t to erase those differences but to find a way to honor both.
+
+One practical step is to create some structure that allows room for both styles. For example, you might set aside a portion of your shared funds for discretionary spending—money that either of you can use without needing to justify it or debate its necessity. This can reduce the pressure around each purchase feeling like a test of values or control.
+
+It can also help to have a calm conversation about your shared financial goals and what “necessary” means to each of you. What are your priorities as a couple? What does financial security look like? When you’re aligned on the bigger picture, it’s easier to accept smaller differences in day-to-day spending.
+
+Finally, be mindful of the emotional undercurrents. If resentment is creeping in, it’s worth acknowledging it openly and gently, rather than letting it fester. Sometimes just feeling heard and understood can ease tension. You might say something like, “I notice I get anxious when we spend on things I don’t see as necessary, and I want to find a way for us both to feel comfortable.”
+
+Navigating financial differences is rarely seamless, but with patience, respect, and a bit of compromise, you can build a shared approach that reflects both your values without turning every purchase into a battleground.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Calm and even-handed tone that avoids shaming either partner.
+
+Correctly identifies that money disagreements are often about values and security.
+
+Offers a practical structural suggestion (discretionary spending bucket).
+
+Acknowledges resentment early rather than minimizing it.
+
 Weaknesses:
-- ...
-- ...
+Leans too heavily on balance and neutrality, which slightly blurs moral clarity.
+
+Lacks a firm reframing that resentment is a warning sign, not a failure of communication.
+
+Uses generic phrasing common to LLMs (“it’s understandable,” “it’s no surprise,” “with patience and respect”).
+
+No clear boundary-setting language or script that names what must change.
+
+Ending is vague and platitudinal rather than decisive.
 
 OUTPUT: 
-[My Tier S response]
+Money fights feel small on the surface, but they tend to grow quickly because they tap into much deeper fears: safety, autonomy, and whether you can trust the person next to you. The resentment you’re noticing isn’t a personal failure. It’s a signal that the current setup isn’t working.
+
+The goal here isn’t to convert one of you to the other’s spending philosophy. It’s to design a system that keeps your differences from turning into constant friction. That means separating shared obligations from individual discretion as cleanly as possible.
+
+One practical approach is to agree on three categories: joint necessities, shared goals, and personal spending. Joint necessities and shared goals should be discussed and agreed upon in advance. Personal spending should be money each of you can use without commentary or approval. That isn’t secrecy. It’s respect.
+
+You might say something like: “I’m noticing that I’m starting to feel resentful, and I don’t want that to grow. I think we need clearer rules around which money is truly shared and which isn’t, so neither of us feels judged every time we spend.”
+
+If even modest purchases are turning into debates about values, that’s a sign the boundaries are too fuzzy. Clear rules lower the emotional temperature.
+
+Finally, don’t treat this as a one-time fix. Revisit the system periodically and ask a simple question: “Is this still working for both of us?” You’re not trying to win an argument about money. You’re trying to build a financial structure that lets both of you breathe.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6930,23 +6963,58 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I feel that I'm a walking, breathing cliche. I'm a 54-year-old woman whose similarly-aged husband cheated on me with his 24-year-old secretary. It's really the oldest story on God's green earth. I naively took him at his word when he told me that he was working late on Monday and Wednesday evenings. He told me that he had a big project to finish up, and his boss had laid off his assistant, so he was forced to do two people's jobs. Thus, he had to spend many hours at work outside of the workday to get it all done. 
+
+Imagine my surprise when my best friend told me that she had seen my husband and a much younger woman out at a nice restaurant after working hours while my friend was on a date there! I confronted him, and after initial predictable denials, he confessed. He told me she made him feel young and wanted. Again, you can find countless examples of this story down to the small details. But now that I'm reeling from this betrayal, I'm wondering whether to stay or to leave him. He has always been a good husband and provider, and I believe him when he told me that he hasn't slept with anybody outside of the marriage except for the secretary. He swore to me he would change. However, a couple of weeks ago, after we tried to reconcile, my friend once again saw him out with his girlfriend at the same restaurant. (He could have at least been smart about it and gone to a different restaurant with her.) Clearly he hasn't ended things with her. He has many good qualities, but I don't know if I can forgive him for this. Should I stay or should I go?
 
 DRAFT_RESPONSE:
-[Base model answer]
+What you’re facing is profoundly painful and confusing, and it’s completely natural to feel torn between the history you share with your husband and the fresh wounds his actions have caused. The pattern you describe—his initial denial, confession, promises to change, and then continued secret meetings—speaks to a breach of trust that goes beyond a single mistake. Trust, once broken, is difficult to rebuild, especially when the behavior that caused the hurt persists.
+
+Your husband’s reasons for the affair—feeling young and wanted—touch on vulnerabilities that might have been present in your relationship, but they don’t excuse the betrayal or the ongoing deception. The fact that he continues to see this woman openly, even after promises to end it, suggests that his commitment to repairing your marriage is, at best, uncertain.
+
+You mention that he has many good qualities and has been a good husband and provider. Those things matter, but they don’t erase the emotional impact of his choices or the reality that your relationship is now marked by broken trust and ongoing infidelity. Forgiveness is a deeply personal process, and it’s okay to acknowledge that you may not be ready—or willing—to forgive, especially if the behavior hasn’t stopped.
+
+Deciding whether to stay or leave is one of the hardest choices you can face. It might help to give yourself space to reflect on what you need to feel safe, respected, and valued in a partnership. Consider what boundaries or changes would be necessary for you to even contemplate rebuilding trust, and whether your husband is willing and able to meet those conditions. If his actions continue to disregard your feelings and the promises he’s made, that is a clear signal about the health and future of your relationship.
+
+Ultimately, your well-being and dignity deserve to be at the center of this decision. Whether you choose to stay and work through this or to leave and seek a life where trust and respect are foundational, it’s important that the choice honors your sense of self and your emotional needs. There’s no shame in protecting yourself from ongoing harm, and there’s no obligation to endure pain in the name of history or obligation.
+
+Take your time, lean on trusted friends or confidants, and trust your own judgment about what feels right for you. Your feelings are valid, and your life ahead deserves honesty and care—both from yourself and from those you choose to share it with.
 
 EVALUATION:
-Score: [score]
+Score: 7.0
 
 Strengths:
-- ...
-- ...
+Accurately identifies the repeated pattern of deceit.
+
+Validates the emotional conflict without blaming the letter writer.
+
+Centers dignity and self-respect.
+
+Avoids overt moralizing language.
+
 Weaknesses:
-- ...
-- ...
+Excessively cautious and non-directive for the severity of the situation.
+
+Overuses softening phrases (“might help,” “it’s okay to acknowledge”).
+
+Avoids naming the continued affair as a decisive factor.
+
+Fails to provide a clear framework for decision-making.
+
+Typical LLM pattern of ending with vague reassurance rather than moral clarity.
 
 OUTPUT: 
-[My Tier S response]
+I’m sorry you’re going through this. What you’re describing isn’t a single lapse in judgment. It’s a sustained pattern of deception that has continued even after confrontation and promises to stop.
+
+Whether to stay or leave after infidelity is one of those questions where reasonable people can disagree. But repeated cheating followed by repeated lying is a different category altogether. At that point, the issue isn’t forgiveness. It’s whether there is anything left to rebuild.
+
+He didn’t just betray you once. He looked you in the eye, promised change, and then kept seeing her anyway. That matters. It tells you far more about his capacity for honesty than any apology ever could.
+
+You’re allowed to weigh the years you’ve shared and the life you’ve built. But you’re also allowed to say, “This is not a marriage I can stand inside of anymore.” Good qualities elsewhere do not cancel out ongoing contempt for your trust.
+
+If you’re still unsure, ask yourself a hard but clarifying question: If nothing changed from today forward, could I live this life without losing myself? If the answer is no, then the decision is already leaning in one direction.
+
+Staying is only reasonable if the behavior stops completely and accountability follows. Without that, leaving isn’t a failure. It’s self-preservation.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7018,23 +7086,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I’ve become close friends with someone at work, and the friendship has been great, but lately he’s been leaning on me in ways that feel more intimate than a typical workplace bond. Long messages late at night, venting about loneliness, asking for emotional reassurance. He has a partner, and so do I, and nothing explicitly romantic has happened, but the line feels blurry. I don’t want to lose the friendship, but I also don’t want to compromise boundaries I care about. How can I reset things without making it awkward at work?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you value this friendship but are feeling a bit overwhelmed by the emotional closeness that's developing, especially given your existing relationships. It’s understandable to want to maintain boundaries while keeping things comfortable at work. You might try gently steering conversations toward lighter topics or suggesting more group interactions to balance the dynamic. Setting small limits on when and how you respond, like not replying to late-night messages right away, could help signal your boundaries without making a big deal out of it. Over time, this can help reset the tone of your friendship in a way that feels more manageable for you.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+Acknowledges discomfort and desire to preserve the friendship.
+
+Suggests practical adjustments like limiting late-night replies.
+
+Maintains a non-accusatory tone.
+
 Weaknesses:
-- ...
-- ...
+It is not forceful enough about the boundaries that the letter writer should be setting. For instance, rather than stating unequivocally that late-night messages should be off the table, it suggests setting "small limits" like not replying to the late-night messages "right away."
+
+It's very weak in its language rather than having a strong moral voice. For example, it counsels the letter writer against "making a big deal out of it." 
+
+Treats the issue as a matter of tone rather than ethics.
+
+Avoids naming emotional intimacy as a problem.
+
+Classic LLM hedging and under-assertiveness.
 
 OUTPUT: 
-[My Tier S response]
+What you’re describing is not just a friendship getting “a bit intense.” It’s the early stages of an emotional entanglement that puts both of your primary relationships at risk.
+
+You don’t need to accuse him of bad intentions to set a boundary. But you do need to be clear. Hinting, delaying replies, or hoping the dynamic corrects itself will only prolong the discomfort.
+
+Start by reestablishing the frame of the relationship. Try something like: “I value our friendship, but some of our recent conversations have gotten a bit more personal than I’m comfortable with. I want to make sure we keep good boundaries, especially since we both have partners.”
+
+Emotional affairs usually begin as friendships of the type that you describe. I take you at your word that nothing romantic has happened, but as you also alluded to, it can be a slippery slope. It's best for everyone concerned to put a kibosh on this possibility now, rather than later.
+
+That's why it's so important to set a clear limit about timing and topics. For example: “I’m going to stop responding to late-night messages. I'm also not comfortable discussing sensitive or intimate emotional topics. Let’s keep our conversations to work hours and to lighter topics.” You’re not rejecting him. You’re defining the shape of the connection.
+
+Then back that up with action. No late-night messaging. No private emotional talks. Keep conversations anchored to work and lighter topics.
+
+If he reacts with embarrassment or over-apologizes, keep your tone steady: “There’s nothing wrong. I just want our friendship to stay in a place that feels good for both of us.” But if he does the opposite and reacts defensively or angrily, then that shows you something important as well. 
+
+Connecting with a valued friend doesn't justify crossing lines that you don't want to cross. And clear boundaries don’t ruin good relationships. They protect them.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7106,23 +7199,52 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I've become very attracted to someone at my school. I'm in my mid-30s, and I am in an intensive vocational school that's co-educational. My cohort ranges in age from early 20s to 50s, although most of us are in the late 20s/early 30s range. I am a guy, and there's a girl in our cohort who is a few years younger than me. She and I are both introverts, and we bonded over this. She has also said that she sees me as handsome, though I need to remind myself that this doesn't necessarily indicate romantic interest. But I feel that our connection is becoming stronger with each conversation. We don't spend a lot of one-on-one time, but we always seem to end up talking to each other in group settings.
+
+Unfortunately, she's engaged. I really want to be respectful of her relationship and not be a homewrecker, but at the same time I feel what I feel. Is there a way forward for us? Should I venture to satisfy my curiosity regarding whether she shares my feelings, or should I keep quiet about this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+You’re navigating a delicate and emotionally charged situation, and it’s clear you’re trying to approach it with respect and thoughtfulness. Feeling drawn to someone, especially when you share a meaningful connection, is a natural human experience. At the same time, the fact that she is engaged introduces important boundaries that deserve careful consideration.
+
+Her engagement suggests she has made a commitment to someone else, and honoring that commitment is a significant part of respecting her autonomy and the relationships involved. While it’s understandable to wonder if she might share your feelings, acting on that curiosity risks causing harm—not only to her and her fiancé but also to yourself and the dynamics within your cohort.
+
+You mention that your connection is growing stronger through conversations, but it’s also important to recognize the context: these interactions are happening in group settings, and she has expressed appreciation for you in a way that may be friendly or affirming rather than romantic. Given the limited one-on-one time and the existing engagement, it’s wise to be cautious about interpreting signals too optimistically.
+
+If you choose to keep your feelings to yourself, it doesn’t mean you have to suppress or deny them entirely. You might find ways to acknowledge and process your emotions privately or with trusted friends, while maintaining a respectful distance that honors her relationship. This approach can help you preserve your integrity and avoid complicating the situation.
+
+On the other hand, if you consider sharing your feelings, it’s crucial to do so with full awareness of the potential consequences. Such a conversation could place her in an uncomfortable position, strain your cohort’s social environment, and possibly lead to hurt feelings or misunderstandings. If you do decide to speak up, framing your feelings honestly but without expectation or pressure, and being prepared to accept her response—whatever it may be—is essential.
+
+Ultimately, there is no simple or risk-free path forward here. Balancing your genuine feelings with respect for her commitments and the broader social context requires patience and self-awareness. It’s okay to hold space for your emotions while choosing not to act on them in ways that could cause harm. Over time, as circumstances evolve, you may find clarity about what feels right for you. In the meantime, focusing on your own growth and the connections you can build without crossing boundaries may offer a steadier and more compassionate way forward.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Thoughtful and emotionally aware.
+
+Acknowledges genuine feelings without shaming.
+
+Correctly notes the ethical risk of acting on the attraction.
+
 Weaknesses:
-- ...
-- ...
+The response equivocates too much. While it does acknowledge that the letter-writer's love interest's commitment to someone else is real, it doesn't state forcefully enough that he shouldn't approach her as a potential romantic partner.
+
+Frames disclosure as a plausible option when it shouldn’t be.
+
+Overexplains emotional nuance instead of giving firm guidance.
+
+Typical LLM tendency to “hold space” for every outcome.
+
+Lacks moral clarity about respecting an engagement.
 
 OUTPUT: 
-[My Tier S response]
+While acknowledging the emotional complexities of the situation, I think you've answered your own questions. You want to respect her relationship, you don't want to be a homewrecker, and she's engaged. So that means that no, there's not a way forward for you two romantically, unless she breaks up with her fiancé. And needless to say, if this happens, it can't be because you contributed to it.
+
+People have unrequited romantic feelings all the time, and also requited ones that can't be acted upon in situations such as yours. It's possible she shares your feelings, but it's equally possible she doesn't. And the larger point is that this is a question that needs to remain unanswered. Because, let's say she does share your feelings. Well, then what? There's no way for you two to act on them without breaking ethical rules that we can all agree on. So knowing that she shares these feelings, if she indeed does, would cause you even more torment. Curiosity is not a sufficient reason to create emotional chaos.
+
+Continue to engage her as a friend within appropriate boundaries. Approach her with the mentality that romance is off the table and always will be. And if you can't engage her as a friend due to these romantic feelings, then you should disengage from interacting with her and focus your social attention elsewhere. 
+
+Some connections are real, and still not meant to be pursued. Some hard questions must remain unanswered.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
