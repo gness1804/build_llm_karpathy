@@ -5974,23 +5974,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My girlfriend and I have been together for two years, and we're both in our late 20s. She just got offered her dream job, but it's in a city about 500 miles away. She wants to take it, and she's asked me to move with her. I have a good job here that I enjoy, my family lives nearby, and I've built a life in this city. I love her and I want to support her career, but I'm not sure I'm ready to uproot my entire life. She's hurt that I'm hesitating and says it shows I'm not committed to our future. How do we figure this out?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your girlfriend’s dream job is a big deal, and it’s natural she wants you by her side. But your hesitation isn’t a sign of a lack of commitment—it’s a reflection of the very real sacrifices and upheavals involved in moving across the country. Commitment doesn’t mean abandoning your own life and values on a whim; it means wrestling honestly with what you’re willing and able to give up, and what you need to preserve.
+
+The core issue here is not just geography but respect for each other’s autonomy and life choices. She’s asking you to make a major change for her, and that’s fair to want in a partnership. But it’s equally fair for you to want her to understand the weight of that request. If you move, you’ll be leaving behind your job, your family, and the community you’ve built. That’s not a small ask, and it’s not something to be brushed aside or framed as a lack of love.
+
+You can affirm your support for her dream without surrendering your own needs. A way to say this might be: “I’m proud of you and want to support your career, but moving 500 miles away means a lot for my life too. I need us to figure out how we can both feel respected and secure in this decision, not just one of us making a sacrifice.” That sets a boundary that your life matters here, not just hers.
+
+If she insists that your reluctance means you’re not committed, that’s a red flag. Love isn’t about proving loyalty by giving up everything; it’s about building a shared future where both people’s lives are honored. If she can’t hold space for your concerns, it’s worth asking what kind of partnership she wants—and whether it’s one where you can both thrive.
+
+This moment is a test of whether your relationship can handle complexity and compromise, or if it demands a kind of allegiance that erases individual needs. Supporting someone doesn’t mean losing yourself. If you can’t find a way forward that respects both your lives, it’s better to acknowledge that now than to build a future on resentment or unspoken sacrifices.
 
 EVALUATION:
-Score: [score]
+Score: 8.0
 
 Strengths:
-- ...
-- ...
+Demonstrates solid moral clarity without shaming either partner.
+
+Correctly reframes “hesitation” as distinct from lack of commitment.
+
+Includes a concrete script that is realistic and usable.
+
+Avoids therapyspeak and diagnosis.
+
+Maintains a calm, humane tone throughout.
+
 Weaknesses:
-- ...
-- ...
+Slight overuse of abstract framing (“test of whether your relationship can handle complexity”) that softens the moral landing.
+
+Final paragraph leans toward generalized wisdom rather than a crisp, earned conclusion.
+
+Does not fully name the risk of resentment if the move happens under pressure.
+
+Could be slightly more decisive in validating the letter writer’s right to say no without apology.
 
 OUTPUT: 
-[My Tier S response]
+This is a major life decision, and it deserves honest conversation rather than guilt or pressure. Your girlfriend’s excitement and disappointment are understandable. A dream job matters. But moving 500 miles for a partner is a serious ask, not a simple gesture of loyalty, and it’s reasonable to take that request seriously instead of rushing to prove commitment.
+
+The core issue here isn’t just geography. It’s whether you’re allowed to weigh your own life with the same seriousness she’s giving hers. You have a job you value, family nearby, and a community you’ve built. Those things don’t become trivial just because someone you love has an opportunity elsewhere. Supporting her career doesn’t require you to erase your own.
+
+You might say something like: “I’m proud of you and I want to support what you’re building. But moving would mean giving up a lot of what anchors my life right now. I need us to talk honestly about whether there’s a path forward that respects both of us, not just one of us making a sacrifice.”
+
+If she continues to frame your hesitation as a referendum on your commitment, that’s worth paying attention to. Healthy partnerships leave room for deliberation around life-altering decisions. They don’t turn them into loyalty tests. This moment isn’t about proving love. It’s about figuring out whether your visions of a shared future genuinely align, or whether they’re beginning to pull in different directions. Either answer is painful, but clarity now is far kinder than resentment later.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6062,23 +6089,52 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I have been together for three years, and we're talking about moving in together. The issue is pets. I have two cats that I've had for years, and they're like family to me. My partner is allergic to cats and doesn't really like them anyway. They've suggested I rehome my cats before we move in together, but I can't imagine giving them up. My partner says it's not fair to expect them to live with animals they're allergic to and don't want, but I feel like asking me to give up my pets is asking me to give up part of my family. How do we resolve this?
 
 DRAFT_RESPONSE:
-[Base model answer]
+This is a crossroads where love and loyalty collide, and it’s clear your partner’s allergy and discomfort with cats is not a trivial matter, but neither is your bond with your pets. Your cats are not just animals; they’re part of your life’s fabric, and asking you to rehome them is asking you to sever a meaningful relationship. That’s a heavy request, and it’s reasonable for you to resist it.
+
+Your partner’s concern about allergies and their dislike of cats is valid, too. Allergies can be more than a nuisance—they can affect health and quality of life. But the way your partner framed the demand—“rehome your cats or no moving in”—is a hard boundary that leaves little room for compromise or respect for your attachments.
+
+The core issue here is respect for each other’s needs and boundaries without forcing one person to sacrifice a fundamental part of themselves. It’s not unfair for your partner to want a home free of allergens, but it’s also not fair to expect you to abandon your cats, who are family to you.
+
+A conversation that starts with “I hear that your allergies make living with cats difficult, and I love my cats deeply and cannot imagine giving them up” sets a tone of mutual respect. From there, you might explore practical steps: improving ventilation, creating cat-free zones, using air purifiers, or even consulting an allergist for possible treatments. If your partner’s allergies are severe, you might consider whether living together immediately is wise or if there’s a way to test the situation gradually.
+
+If your partner remains unwilling to accommodate your cats or explore compromises, that’s a red flag about how they value your life and attachments. A relationship that demands you erase a part of yourself to move forward is not a partnership but a conditional arrangement.
+
+Ultimately, love isn’t about erasing what makes us whole. It’s about finding ways to hold each other’s realities without asking for impossible sacrifices. If you can’t find a way to live together that honors both your partner’s health and your cats’ place in your life, it’s worth questioning whether cohabitation is the right next step. Your cats are family, and any partner who truly respects you will see that, not as an obstacle, but as part of the package.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Validates both sides’ stated concerns.
+
+Recognizes pets as emotionally significant rather than trivial.
+
+Attempts to explore compromise rather than defaulting to extremes.
+
+Avoids overt therapyspeak.
+
 Weaknesses:
-- ...
-- ...
+Equivocates way too much! Doesn't recognize the fundamental incompatibility of the partners or how the letter writer's partner's inflexible attitude realistically means there's little chance for their relationship to work, at least if the letter writer is to retain their integrity and their very meaningful relationships with their cats.
+
+Treats “compromise” as morally equivalent even when one option involves irreversible harm.
+
+Overemphasizes logistical fixes at the expense of values and integrity.
+
+Fails to clearly name the partner’s demand as fundamentally incompatible with the letter writer’s core attachments.
+
+Ends without sufficient moral clarity.
 
 OUTPUT: 
-[My Tier S response]
+This is a fundamental incompatibility that needs to be faced honestly before you move in together. Your partner is right that it’s not fair to expect someone to live with animals they’re allergic to. But you’re also right that asking you to rehome pets you’ve had for years is not a neutral compromise. It’s a demand that asks you to give up a relationship that matters deeply to you. In my view, that makes it a deal-breaker unless something genuinely changes.
+
+Before drawing that conclusion, it’s worth clarifying the allergy question. Has your partner actually explored medical options, such as allergy treatment or management strategies? For some people, cat allergies can be mitigated, though there are no guarantees. If the allergy is severe and unmanageable, then the reality is stark: either you don’t live together, or you give up your cats. And before choosing, you need to be honest with yourself about what you could live with long-term. If rehoming your cats would leave you resentful or grief-stricken, then it is not a viable solution. It would poison the relationship, and it would permanently disrupt your cats’ lives.
+
+More broadly, this isn’t just about allergies. You see your cats as family. Your partner “doesn’t really like them anyway.” Even if the allergy could be managed, that mismatch matters. Big decisions built on wishful thinking tend to fail quietly and painfully. One partner feels coerced; the other feels blamed for asking.
+
+Sometimes the most respectful choice is to admit that love alone doesn’t bridge every gap. Living separately or ending the relationship may be far more humane than forcing one of you to sacrifice something fundamental. Compatibility isn’t about who’s right. It’s about whether the life you’re trying to build allows both people to keep their integrity.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -6150,23 +6206,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My younger sister has taken up this strange new habit of commenting on my appearance every time we see each other. It’s always framed as concern about my health or “just trying to be honest,” but the comments land hard and linger with me for days. I’ve already tried gently telling her that these remarks don’t feel supportive, yet she insists she’s doing it out of love and that I’m being overly sensitive. I’m starting to dread family gatherings because I never know what she’ll say next. She isn’t trying to be cruel, but the pattern is wearing me down. How do I set a boundary she will actually respect?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your sister’s “concern” about your appearance isn’t just a quirk or a misguided attempt at honesty—it’s a boundary violation dressed up as care. When someone repeatedly makes comments that cause discomfort, regardless of their intent, it’s not a matter of sensitivity on your part but of respect on theirs. You’ve already tried the gentle approach, and it’s clear she’s not hearing you. That means it’s time to be firmer and more explicit about what you will and won’t accept.
+
+You might say something like, “I know you think you’re helping, but when you comment on my appearance, it doesn’t feel supportive—it feels intrusive. I’m asking you to stop making those remarks when we’re together.” This statement is direct, clear, and leaves little room for argument. If she pushes back with “I’m just being honest” or “I’m concerned,” you can respond, “I appreciate your concern, but this is about how I feel, and I need you to respect that.”
+
+If she continues, you have every right to limit your exposure to her comments. That might mean stepping away during conversations, changing the subject firmly, or even leaving family gatherings early if the pattern persists. Protecting your emotional well-being is not negotiable.
+
+The core issue here is respect for your autonomy and feelings. Love doesn’t look like repeated criticism disguised as concern. It looks like honoring the boundaries someone sets, even when it’s uncomfortable. Your sister’s insistence on “honesty” at your expense is a form of control, not care. You don’t have to accept that dynamic, and setting a firm boundary is the clearest way to reclaim your space and peace.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Correctly identifies the behavior as a boundary violation.
+
+Provides a clear, usable script.
+
+Maintains firmness without cruelty.
+
+Avoids diagnosis and overt therapyspeak.
+
+Emphasizes follow-through, not just verbal boundaries.
+
 Weaknesses:
-- ...
-- ...
+Overly confident labeling (“form of control”) risks escalation.
+
+Does not sufficiently explore why the behavior may have started.
+
+Misses an opportunity to frame the boundary as informational rather than punitive.
+
+Slightly heavy-handed in tone for a family context.
 
 OUTPUT: 
-[My Tier S response]
+First, it’s worth noticing that you describe this as a relatively new pattern. That doesn’t excuse the behavior, but it may help you understand it. You could start by asking, calmly and privately, whether something has changed for her that’s prompting these comments. That conversation may not resolve the issue, but it can clarify whether this is anxiety, projection, or simply a habit she hasn’t examined.
+
+That said, curiosity doesn’t replace boundaries. You’ve already tried explaining how her remarks land, and she’s responded by dismissing your feelings. At that point, the problem is no longer misunderstanding. It’s refusal to respect a limit.
+
+The next step is to remove the debate entirely. Instead of asking her to see things differently, state the boundary as a fact: “I’m not discussing my body or appearance with you. If you bring it up again, I’ll end the conversation.” Say it calmly, without justification or argument. You’re not asking her to agree. You’re telling her what you will do.
+
+Then follow through consistently. If she comments again, disengage immediately. Change rooms. Leave early. Keep it brief and predictable. This isn’t punishment. It’s information. Some people only adjust their behavior once they understand that certain topics reliably end the interaction.
+
+Love doesn’t require tolerating repeated discomfort. If she wants closeness, she has to participate in it respectfully. Protecting your well-being is not overreacting. It’s the minimum standard for an adult relationship.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 

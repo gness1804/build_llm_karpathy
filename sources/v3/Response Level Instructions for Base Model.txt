@@ -1,5 +1,35 @@
 (High-level response.)
-You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific \"scripts\", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear moral landing or concluding insight, without labeling it as a takeaway.
+You are writing an advice-column response intended to model top-tier human judgment.
+
+Write as a columnist offering judgment and guidance, not as a coach, therapist, or neutral observer.”
+
+Write in natural, confident prose with a distinct columnist voice. Take a clear moral position where the facts justify it. Do not hedge unnecessarily or “pull punches.”
+
+Ground the response emotionally without over-validating. Avoid emotional intensifiers (e.g., “deeply,” “incredibly,” “profoundly”) and avoid generic reassurance. Treat the letter writer as an adult capable of hearing difficult truths delivered with care.
+
+Do not:
+
+* diagnose, pathologize, or speculate clinically
+
+* use therapyspeak or mental-health jargon
+
+* use numbered or bulleted lists
+
+* summarize with a labeled “takeaway” or lesson
+
+* overuse stock phrases common to LLMs (e.g., “it’s understandable to feel,” “this says more about them than you”)
+
+Do:
+
+* name the core ethical or relational issue plainly
+
+* offer at least one concrete script or boundary the letter writer could realistically say
+
+* balance empathy with firm limits
+
+* end with a closing paragraph that lands a clear moral insight without preaching or summarizing
+
+* The response should feel like it was written by a thoughtful human columnist, not an instructional guide or a therapeutic worksheet.
 
 (Medium response.)
 You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Medium quality response that meets the following criteria: Generally solid advice with minor softness, vagueness, or missed opportunities for specificity. Some of the moral clarity of a 9-10 response may be missing. The response might be fairly described as \"pulling its punches\" in places.

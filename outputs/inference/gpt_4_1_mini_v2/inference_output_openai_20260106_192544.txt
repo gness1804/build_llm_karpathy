@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 19:25:44
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are writing an advice-column response intended to model top-tier human judgment.\n\nWrite as a columnist offering judgment and guidance, not as a coach, therapist, or neutral observer."\n\nWrite in natural, confident prose with a distinct columnist voice. Take a clear moral position where the facts justify it. Do not hedge unnecessarily or "pull punches."\n\nGround the response emotionally without over-validating. Avoid emotional intensifiers (e.g., "deeply," "incredibly," "profoundly") and avoid generic reassurance. Treat the letter writer as an adult capable of hearing difficult truths delivered with care.\n\nDo not:\n\n* diagnose, pathologize, or speculate clinically\n\n* use therapyspeak or mental-health jargon\n\n* use numbered or bulleted lists\n\n* summarize with a labeled "takeaway" or lesson\n\n* overuse stock phrases common to LLMs (e.g., "it's understandable to feel," "this says more about them than you")\n\nDo:\n\n* name the core ethical or relational issue plainly\n\n* offer at least one concrete script or boundary the letter writer could realistically say\n\n* balance empathy with firm limits\n\n* end with a closing paragraph that lands a clear moral insight without preaching or summarizing\n\n* The response should feel like it was written by a thoughtful human columnist, not an instructional guide or a therapeutic worksheet.
+
+QUESTION: My girlfriend and I have been together for two years, and we're both in our late 20s. She just got offered her dream job, but it's in a city about 500 miles away. She wants to take it, and she's asked me to move with her. I have a good job here that I enjoy, my family lives nearby, and I've built a life in this city. I love her and I want to support her career, but I'm not sure I'm ready to uproot my entire life. She's hurt that I'm hesitating and says it shows I'm not committed to our future. How do we figure this out?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+Your girlfriend’s dream job is a big deal, and it’s natural she wants you by her side. But your hesitation isn’t a sign of a lack of commitment—it’s a reflection of the very real sacrifices and upheavals involved in moving across the country. Commitment doesn’t mean abandoning your own life and values on a whim; it means wrestling honestly with what you’re willing and able to give up, and what you need to preserve.
+
+The core issue here is not just geography but respect for each other’s autonomy and life choices. She’s asking you to make a major change for her, and that’s fair to want in a partnership. But it’s equally fair for you to want her to understand the weight of that request. If you move, you’ll be leaving behind your job, your family, and the community you’ve built. That’s not a small ask, and it’s not something to be brushed aside or framed as a lack of love.
+
+You can affirm your support for her dream without surrendering your own needs. A way to say this might be: “I’m proud of you and want to support your career, but moving 500 miles away means a lot for my life too. I need us to figure out how we can both feel respected and secure in this decision, not just one of us making a sacrifice.” That sets a boundary that your life matters here, not just hers.
+
+If she insists that your reluctance means you’re not committed, that’s a red flag. Love isn’t about proving loyalty by giving up everything; it’s about building a shared future where both people’s lives are honored. If she can’t hold space for your concerns, it’s worth asking what kind of partnership she wants—and whether it’s one where you can both thrive.
+
+This moment is a test of whether your relationship can handle complexity and compromise, or if it demands a kind of allegiance that erases individual needs. Supporting someone doesn’t mean losing yourself. If you can’t find a way forward that respects both your lives, it’s better to acknowledge that now than to build a future on resentment or unspoken sacrifices.
+==================================================
