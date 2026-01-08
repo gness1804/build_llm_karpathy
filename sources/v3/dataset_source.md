@@ -7316,23 +7316,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I have different approaches to socializing. I enjoy hosting people and creating opportunities to bring our circles together. He prefers one-on-one interactions and finds group gatherings draining. I’ve tried balancing both, but lately I feel like I’m shrinking my social world to fit his preferences. When I bring it up, he says he doesn’t want to hold me back, but he still rarely participates. I don’t want to pressure him, yet I want a life that feels full. How do we navigate this mismatch?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It sounds like you and your partner have different social needs, which is pretty common in relationships. You enjoy the energy of group gatherings and mixing social circles, while he prefers more intimate, one-on-one time. Finding a balance that respects both of your preferences can be tricky but not impossible.
+
+One thing to consider is setting some clear boundaries and expectations around social events. Maybe you can agree on a certain number of group gatherings that you host or attend, and he can choose which ones he feels up to joining without feeling pressured. At the same time, you might also carve out time for smaller, more personal interactions that suit his style, so he doesn’t feel overwhelmed.
+
+It’s important that you don’t feel like you have to shrink your social life just to accommodate him. Your need for a fulfilling social life is valid, and it’s okay to pursue that even if he’s not always involved. You might want to explore ways to maintain your social connections independently, while also finding moments to connect with him in ways that feel comfortable for both of you.
+
+Keep the conversation open and honest, but try to avoid framing it as a problem he needs to fix. Instead, focus on how you both can support each other’s needs. Over time, you may find a rhythm that works, even if it’s not perfect. Relationships often require some compromise, but it’s important that both partners feel their needs are recognized and respected.
 
 EVALUATION:
-Score: [score]
+Score: 6.5
 
 Strengths:
-- ...
-- ...
+Accurately identifies the core mismatch in social needs
+
+Validates the letter writer’s desire for a fuller social life
+
+Encourages open communication without shaming either partner
+
 Weaknesses:
-- ...
-- ...
+Overly generic “balance” framing that avoids taking a clear stance
+
+Relies on vague reassurance rather than concrete guidance
+
+Avoids naming the emotional cost to the letter writer
+
+Uses standard LLM compromise language without prioritization
+
+No clear boundary-setting language or scripts
 
 OUTPUT: 
-[My Tier S response]
+Start by identifying what you actually need. Is it his active participation? Or is it his support for you to host and socialize freely? Once you know that, express it clearly: “I don’t need you at every gathering, but I do need to feel like I’m not choosing between my social life and our relationship.”
+
+From there, propose a shared compromise. Perhaps he joins a few events each month, and the rest you host or attend without him. You’re creating a rhythm that preserves both his energy and your desire for community. This is one of those problems where there's ample room for compromise, even though it may not feel like it all the time. 
+
+It’s also worth asking whether there are ways to make larger gatherings more comfortable for him. Many people who find groups draining do better when there’s structure. Games, small breakout conversations, or giving him a clear role can lower the social friction. Games in particular typically have a clear structure, specific rules, and are often turn-based, unlike conversational free-for-alls, which can make games much less stressful to introverts than a large group conversation. I'm not saying to turn all of your social evenings into game nights. But introverts appreciate a bit of structure and more often than not respond well to it.
+
+Reassure him that opting out isn’t a failure. Many people with lower social stamina feel guilty for not matching their partner’s energy. When you frame this as balance rather than pressure, he may feel freer to participate in ways that genuinely work for him. Over time, familiarity with a few people can also make gatherings feel less daunting.
+
+You’re not trying to merge personalities. You’re trying to build a life where both styles can breathe.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7404,23 +7429,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My younger sister and I used to be close, but ever since she joined a very tight-knit religious community, our relationship has grown strained. She’s kind and still reaches out, but conversations feel scripted, and she gently critiques my choices in ways she never used to. She keeps inviting me to events that feel more like recruitment than connection. I miss who we were to each other, but I also want to respect her path. How do I keep the relationship alive without feeling pressured to participate in a belief system that isn’t mine?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Your sister’s shift into a close-knit religious community has clearly altered the dynamic between you in ways that feel uncomfortable and unfamiliar. What you’re describing—the scripted conversations, the gentle critiques, the invitations that feel less like genuine connection and more like recruitment—are all signs that your sister’s new identity is reshaping how she relates to you. This isn’t just about different beliefs; it’s about how those beliefs are being used as a yardstick to measure your choices and, by extension, your worth in her eyes.
+
+You’re right to want to honor her path without sacrificing your own integrity or feeling like you’re being pulled into a framework you don’t share. That balance is delicate but necessary. It’s important to make clear that your respect for her doesn’t require you to participate in her religious activities or accept her critiques as valid assessments of your life. You can say something like, “I appreciate that your faith is important to you, and I want to support you as my sister. But I need our time together to be about us, not about my beliefs or choices. When our conversations turn to judgment or recruitment, it makes me pull away.”
+
+That kind of boundary is firm but not hostile. It invites her to meet you where you are, rather than expecting you to meet her where she is. If she values your relationship, she will have to reckon with the fact that her new community’s influence can’t be the lens through which she views you. If she can’t or won’t do that, then the strain you feel is a reflection of a deeper incompatibility in how you relate, not a failure on your part.
+
+You can’t force her to change or to separate her faith from her relationship with you. But you can insist that your relationship be a space where you both are free to be yourselves without pressure or judgment. That may mean fewer invitations to events that feel like recruitment, and more conversations about shared memories, mutual interests, or simply checking in without an agenda.
+
+The moral truth here is that love between siblings isn’t unconditional in the sense of tolerating pressure or disrespect. It requires a mutual willingness to accept difference without weaponizing it. If your sister’s new path demands that you conform or be corrected, then what you’re left with isn’t a relationship but a battleground. Protecting your own boundaries is not rejection—it’s the only way to keep the door open for the kind of connection you both once had, or at least to preserve your own sense of self in the process.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Clearly names the pressure and recruitment dynamic
+
+Affirms the letter writer’s right to boundaries
+
+Includes a usable boundary script
+
+Avoids demonizing the sister
+
 Weaknesses:
-- ...
-- ...
+Slightly overlong and repetitive in places
+
+Leans into abstract moral framing instead of tightening focus
+
+Some generalized commentary that could be sharper and more direct
 
 OUTPUT: 
-[My Tier S response]
+Start by affirming the bond you want to preserve. Something like: “I love you, and I want us to stay close. But I need to be honest: I feel pressured when our conversations center on your community or when invitations sound like recruitment.”
+
+Proselytizing, by its nature, can feel dismissive of personal choice and often carries an assumption that the devotee's beliefs are superior to the other person's. While most people who proselytize are acting out of good intentions, the approach frequently comes across as forceful and unwelcome, and ultimately often only succeeds in imposing distance. I'm sure your sister means well, but the pressure on you to participate is clearly taking a toll on your relationship.
+
+That's why boundaries are especially essential in these types of situations. And this starts by clarifying what type of relationship you want to have with your sister moving forward. “I’m happy to hear about your life, but I’m not comfortable attending events tied to your group. I want to connect as siblings, not as someone being evaluated or guided.” If she persists (which she likely will), you could also say, "I respect the path that you've chosen, but it isn't my path and never will be. I want to pursue my own path, on my own terms. My beliefs are just as valid as yours, and I want us to engage with each other as equals, rather than as one person trying to convert the other."
+
+Expect some awkwardness. But this is the type of unambiguous language you need to use to make clear to her that she should stop the recruitment pitches in her interactions with you.
+
+Also expect resistance and some "backsliding" on her part (sorry). But if you continue to convey your own needs and wishes in a kind, loving, but firm and decisive manner, that will increase the chance that she will come around to halting the preaching and engaging with you as a sibling again.
+
+You’re not rejecting her faith. You’re shaping a version of the relationship that both of you can inhabit with honesty. The connection can evolve, but only if it’s grounded in mutual respect rather than quiet discomfort or the continual replay of asymmetrical power dynamics.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7492,23 +7544,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My boyfriend and I have very different levels of political engagement. I attend rallies, donate, and stay active in local organizing. He supports my involvement but has little interest in participating himself, saying he prefers to “keep politics out of daily life.” Lately I’m feeling a sense of mismatch, like our values align in theory but not in practice. I’m worried that this will become a deeper divide over time. How do I talk about this without sounding self-righteous?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s understandable to feel a growing distance when something as important to you as political engagement feels so differently experienced by your partner. Your concern about sounding self-righteous shows your care for how you come across, which is a good sign that you want this conversation to be constructive rather than confrontational.
+
+When you bring this up, it might help to focus on your feelings and the impact this difference has on your connection, rather than on the rightness or wrongness of either approach. For example, you could say something like, “I really value how involved I am in these causes, and sometimes I feel a bit alone in that because I don’t see you participating in the same way. I’m curious about how you see this part of my life and what it means for us.” This invites him to share his perspective without feeling judged.
+
+It’s also worth acknowledging that people engage with their values in different ways, and that your boyfriend’s choice to keep politics out of daily life might come from a place of needing balance or avoiding burnout. That doesn’t mean your values don’t align, but it does mean your expressions of those values look different.
+
+If you want to bridge the gap, you might explore small ways he could be involved that feel manageable for him, or find ways to support each other’s approaches without expecting them to mirror one another. At the same time, it’s okay to recognize that this difference might remain a tension in your relationship, and that’s something only time and ongoing conversation can clarify.
+
+Ultimately, the goal is to understand each other better and find respect for your different ways of living out shared values, rather than to convince or convert. Approaching the conversation with curiosity and openness, rather than judgment, will help keep it from feeling self-righteous and instead make it a genuine dialogue.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+Maintains a respectful tone
+
+Encourages dialogue rather than confrontation
+
+Acknowledges different modes of value expression
+
 Weaknesses:
-- ...
-- ...
+Overly cautious and neutral for a values-based conflict
+
+Uses classic LLM phrasing about “curiosity and openness”
+
+Avoids naming the moral hierarchy anxiety driving the issue
+
+Fails to give the letter writer emotional grounding or clarity
 
 OUTPUT: 
-[My Tier S response]
+Short answer: you probably can’t avoid sounding a little self-righteous, because political engagement is emotionally and morally charged. Even asking how he lives his values invites comparison, whether you intend it or not. That doesn’t mean you shouldn’t talk about it. It just means you should be honest about what you’re really asking.
+
+You can start with something like: “I know we agree on many issues, but civic engagement is a big part of how I live my values. I want to understand how you think about expressing yours.” Frame this as curiosity rather than judgment. He needs to feel that your motivations are to be able to understand him better, rather than goading him into becoming more politically active. Because if he starts to sense the latter, he'll probably shut down.
+
+Along these same lines, avoid framing involvement as a moral hierarchy. Instead, describe the emotional impact: “When I’m deeply engaged in something meaningful and you’re neutral, I sometimes feel alone. I want to understand where you’re coming from, not judge it.” And then give him space to explain his own perspective. 
+
+From there, look for overlapping ground rather than identical action. Maybe he won’t march in the streets, but he might support you in smaller ways: researching issues, helping with logistics, or simply being a sounding board. Even handing out water bottles to protesters at a march in mid-summer is a very valuable but often overlooked contribution. And these activities still allow him to keep politics mostly out of his daily life while still finding small ways to contribute to the causes you both seem to care about. Meaningful alignment doesn’t require carbon-copy activism or the loud forms of engagement that are often held up as superior to quieter forms. Maybe your boyfriend is more of a “behind-the-scenes” type of guy. What matters is whether you can respect each other’s choices without resentment building underneath.
+
+The goal isn’t to convert him. It’s understanding whether this difference can live comfortably inside the relationship, or whether it will keep pulling you apart.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7580,23 +7657,48 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner and I have been together for a few years, and we’ve always talked about wanting kids “someday.” Recently, I’ve felt that desire growing stronger, but when I brought it up more concretely, he hesitated. Not a firm no, but a real uncertainty. He says he needs more time to think about what he wants his life to look like. I don’t want to pressure him into parenthood, but I also don’t want to put my own timeline on hold indefinitely. How do we talk about something this big without turning it into an ultimatum?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear that this is a deeply important and sensitive topic for both of you, and it’s understandable that you want to honor your own feelings while also respecting your partner’s need for time and clarity. When it comes to something as life-altering as deciding whether and when to have children, there is rarely a neat or quick resolution, and that uncertainty can be painful.
+
+One way to approach this is to create space for ongoing, open conversations rather than expecting a definitive answer right away. You might express to your partner how your feelings have evolved and why this timing feels significant to you, without framing it as a demand or deadline. At the same time, invite him to share what’s behind his hesitation—what fears, hopes, or uncertainties he’s wrestling with. Sometimes, understanding the deeper emotions or practical concerns can help both of you feel more connected and less pressured.
+
+It’s also okay to acknowledge that your timelines might not align perfectly, and that’s a real tension to sit with. You don’t have to decide immediately what that means for your relationship, but it’s fair to be honest about your own needs and boundaries. If you feel your desire for children is growing urgent, it’s reasonable to say that you need to keep that in mind as you both move forward.
+
+Ultimately, this is a conversation about shared values and life goals, and it’s worth revisiting periodically as you both gain clarity. It’s not about ultimatums, but about mutual respect and honesty—recognizing that sometimes love means holding space for uncertainty, and sometimes it means making difficult choices about what you need to thrive.
 
 EVALUATION:
-Score: [score]
+Score: 5.5
 
 Strengths:
-- ...
-- ...
+Acknowledges emotional sensitivity
+
+Avoids pressuring language
+
+Recognizes the stakes
+
 Weaknesses:
-- ...
-- ...
+The response equivocates too much, which is unfortunate for such a high-stakes topic. There's too much neutrality/false equivalence rather than recognizing this as a non-compromisable issue.
+
+Treats uncertainty as neutral rather than consequential
+
+Avoids naming that timelines matter
+
+Typical LLM hedging around “ongoing conversations”
 
 OUTPUT: 
-[My Tier S response]
+This is a common but challenging situation. When partners differ on the all-important issue of whether or not to have kids, there are only a few outcomes that are possible. 1. Either one of the partners genuinely changes their mind, in which case the pair either become parents (fertility or adoption processes allowing) or they don’t, with each partner fully on board. 2. Or one of the two partners gives in without truly changing their mind, which leads to either one partner being in a parental role that they didn't truly want or one partner feeling resentful about losing their chance at parenthood. 3. The final possibility is that both partners, recognizing the irreconcilability of their differences, are honest with themselves and each other and break up. I doubt that you or your partner want option number 2. That leaves the two of you to figure out whether you're truly on the same page about having kids (or whether there's a reasonable chance of that in the near-ish future) or whether it might be time to part ways.
+
+That being said, of course, this doesn't imply that you should rush the decision. Parenthood is such a huge responsibility that hesitation and reflection is a completely natural and, in many cases, necessary course of action. After a certain point, though, a non-answer becomes an answer. Not making a decision is the decision. I would suggest that the two of you have an open, honest conversation about your potential timeline for having children. Not so you can pressure him into becoming a parent or give him an ultimatum, but rather to remind him that the two of you don't have forever to make this decision, and after a certain point, if you truly want children and he doesn’t, then the relationship will no longer be tenable. After all, this isn't one of those situations where you can compromise. Either you have at least one child with your partner, or you don't. There’s no “half a child.” 
+
+I know that still sounds like an ultimatum, but you can begin by grounding the conversation in openness rather than urgency. Try saying: “I’m feeling a clearer sense of what I want, and I need to understand where you are so we can navigate this together.” This signals that you’re not demanding a decision on the spot but it also implies that you are not willing to wait this out indefinitely.
+
+Then dig into what “uncertainty” means for him. Is he unsure about the timing? His readiness? The idea of parenthood itself? Uncertainty has many shades, and clarity will help both of you understand whether you’re facing hesitation or a deeper ambivalence. After all, sometimes ambivalence reflects genuine uncertainty about something, whereas other times it's really a “no” in nicer clothing. You need to figure out which one it is, and if it's the former, what is the core cause of the uncertainty?
+
+At the same time, articulate your own timeline without apology. You’re not issuing an ultimatum by acknowledging that your desires matter. You’re simply saying: “I can’t stay indefinitely in a holding pattern. I want to explore this with you in a way that respects both of our needs.” Without naming a specific time in the future by which he needs to make his decision, you're clearly communicating to him that the status quo of uncertainty cannot continue forever.
+
+Finally, agree on a structured follow-up—a real check-in a few weeks or months down the line. “Sweetheart, I know that we've talked about having kids at some point, and I know that last time we checked in you were hesitant. But has your stance changed at all since the last time that we talked?” Big decisions often require reflection, but they also require momentum. You’re not rushing him. You’re creating a shared path forward. But you're also gently letting him know that at a certain point, there will be a fork in the road, and that he will need to decide which of the two paths to take.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
@@ -7668,1077 +7770,50 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+My partner recently disclosed that he’s been feeling lost about his career, and now he wants to explore a totally different field. I want to be supportive, but I’m anxious—this could mean years of retraining, financial instability, and a major shift in our future plans. I don’t want to discourage him, but I also don’t want to ignore the practical impact on our shared life. How do I support his growth without sidelining my own needs?
 
 DRAFT_RESPONSE:
-[Base model answer]
+It’s clear you care deeply about your partner’s well-being and growth, and you’re also mindful of the very real practical implications this change could bring to your shared life. This is a delicate balance to navigate, and it’s understandable to feel anxious about the uncertainty ahead.
+
+Supporting someone through a major career shift doesn’t mean you have to set aside your own needs or concerns. Your feelings are valid and important, and they deserve to be part of the conversation. What might help is creating a space where both of you can openly share hopes, fears, and expectations—not just about the career change itself, but about how it will affect your relationship, finances, and future plans. This isn’t about convincing or persuading, but about mutual understanding and honest dialogue.
+
+You might consider exploring together what this transition would realistically look like: timelines, financial adjustments, and potential compromises. This can help ground the dream in practical terms and give both of you a clearer sense of what to expect. At the same time, acknowledging the emotional weight of this change—both the excitement and the anxiety—can foster empathy and connection.
+
+It’s also worth reflecting on your own boundaries and what you need to feel secure and respected during this time. Supporting your partner’s growth doesn’t mean you have to sacrifice your sense of stability or your voice in decisions that affect both of you.
+
+Ultimately, this kind of shift can be an opportunity for both of you to grow—not just individually, but as a couple—if approached with openness and care. But it’s okay if you find that the uncertainty feels overwhelming or incompatible with your own needs. Honesty with yourself and your partner about that is just as important as encouragement.
+
+There’s no perfect answer here, only the ongoing work of navigating change together, with compassion for each other’s hopes and limits.
 
 EVALUATION:
-Score: [score]
+Score: 6.0
 
 Strengths:
-- ...
-- ...
+Validates both emotional and practical concerns
+
+Encourages joint discussion
+
+Avoids discouraging growth
+
 Weaknesses:
-- ...
-- ...
+Too abstract and non-directive
+
+Overuses generalized reassurance
+
+Lacks concrete framing for shared decision-making
+
+Avoids naming financial and lifestyle impacts directly
 
 OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+Career changes are rarely just about work. They often reflect deeper questions about identity, meaning, or long-standing dissatisfaction. You want to validate your partner's explorations of this new field, but you're also understandably concerned about its implications for both of your lives. Underlying all of this is the uncertainty surrounding what will happen over the next few years, both in his professional life and by extension, in your lives more generally.
 
-INPUT:
-You are revising an advice-column response using the following rubric.
+You should convey to him both of these things: validation but also concern over the uncertainty. Begin by validating the courage it takes to consider a big change: “I admire that you’re thinking deeply about your future.” Then shift into partnership mode: “Let’s talk about what this might mean for us, both emotionally and practically.”
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
+Career changes often involve complex emotions. So if he is eager to share the reasons for his career change, such as excitement over the possibility of a fresh start or frustrations in his current career, then hear him out. Simply listening will probably mean a lot to him, and it would also make it more likely for him to listen to you in turn when you express your concerns. It's also important to keep in mind cognitive biases. Even for the most sober-minded and careful people, the prospect of a career change often leads to distorted thinking where we romanticize our prospective new career with respect to the career that we're in now. But you can help to gently "reel him in" when he does this without coming across as though you're trying to crush his dreams.
 
-*Core Criteria:*
+If he doesn't volunteer this information, ask questions that clarify the scope: What draws him to the new field? What steps would he need to take? What timeline is realistic? How much, realistically, would retraining cost? This isn’t interrogation; it’s co-planning. 
 
-Moral clarity:
+Career changes are multi-stage processes, and the two of you might work together to decide upon a phased approach to this transition. One in which the first steps would be somewhat experimental and relatively easily reversed. He can start by simply researching the new field, which is probably what he's doing now. This can involve talking to established professionals in this field, reading articles and websites, etc. And if he's able to, he can shadow professionals in the field as well. The next step might involve more commitment, such as part-time classes, depending on the target career. If the field he's aspiring to is one with a very rigid and pre-set course of study, such as the law, then he might sit in on one or two classes if he's able to. This approach could allow him to test the path before making a full leap.
 
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
-[Original question]
-
-DRAFT_RESPONSE:
-[Base model answer]
-
-EVALUATION:
-Score: [score]
-
-Strengths:
-- ...
-- ...
-Weaknesses:
-- ...
-- ...
-
-OUTPUT: 
-[My Tier S response]
+All in all, you’re not denying him growth. You’re ensuring that your relationship with him is woven into his career change decision rather than left behind.
 </END_EXAMPLE>

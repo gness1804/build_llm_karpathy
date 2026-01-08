@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 17:24:21
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My boyfriend and I have very different levels of political engagement. I attend rallies, donate, and stay active in local organizing. He supports my involvement but has little interest in participating himself, saying he prefers to "keep politics out of daily life." Lately I'm feeling a sense of mismatch, like our values align in theory but not in practice. I'm worried that this will become a deeper divide over time. How do I talk about this without sounding self-righteous?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s understandable to feel a growing distance when something as important to you as political engagement feels so differently experienced by your partner. Your concern about sounding self-righteous shows your care for how you come across, which is a good sign that you want this conversation to be constructive rather than confrontational.
+
+When you bring this up, it might help to focus on your feelings and the impact this difference has on your connection, rather than on the rightness or wrongness of either approach. For example, you could say something like, “I really value how involved I am in these causes, and sometimes I feel a bit alone in that because I don’t see you participating in the same way. I’m curious about how you see this part of my life and what it means for us.” This invites him to share his perspective without feeling judged.
+
+It’s also worth acknowledging that people engage with their values in different ways, and that your boyfriend’s choice to keep politics out of daily life might come from a place of needing balance or avoiding burnout. That doesn’t mean your values don’t align, but it does mean your expressions of those values look different.
+
+If you want to bridge the gap, you might explore small ways he could be involved that feel manageable for him, or find ways to support each other’s approaches without expecting them to mirror one another. At the same time, it’s okay to recognize that this difference might remain a tension in your relationship, and that’s something only time and ongoing conversation can clarify.
+
+Ultimately, the goal is to understand each other better and find respect for your different ways of living out shared values, rather than to convince or convert. Approaching the conversation with curiosity and openness, rather than judgment, will help keep it from feeling self-righteous and instead make it a genuine dialogue.
+==================================================

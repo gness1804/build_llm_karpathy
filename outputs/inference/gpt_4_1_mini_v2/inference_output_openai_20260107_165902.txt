@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 16:59:02
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Medium quality response that meets the following criteria: Generally solid advice with minor softness, vagueness, or missed opportunities for specificity. Some of the moral clarity of a 9-10 response may be missing. The response might be fairly described as "pulling its punches" in places.
+
+QUESTION: My partner and I have different approaches to socializing. I enjoy hosting people and creating opportunities to bring our circles together. He prefers one-on-one interactions and finds group gatherings draining. I've tried balancing both, but lately I feel like I'm shrinking my social world to fit his preferences. When I bring it up, he says he doesn't want to hold me back, but he still rarely participates. I don't want to pressure him, yet I want a life that feels full. How do we navigate this mismatch?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you and your partner have different social needs, which is pretty common in relationships. You enjoy the energy of group gatherings and mixing social circles, while he prefers more intimate, one-on-one time. Finding a balance that respects both of your preferences can be tricky but not impossible.
+
+One thing to consider is setting some clear boundaries and expectations around social events. Maybe you can agree on a certain number of group gatherings that you host or attend, and he can choose which ones he feels up to joining without feeling pressured. At the same time, you might also carve out time for smaller, more personal interactions that suit his style, so he doesn’t feel overwhelmed.
+
+It’s important that you don’t feel like you have to shrink your social life just to accommodate him. Your need for a fulfilling social life is valid, and it’s okay to pursue that even if he’s not always involved. You might want to explore ways to maintain your social connections independently, while also finding moments to connect with him in ways that feel comfortable for both of you.
+
+Keep the conversation open and honest, but try to avoid framing it as a problem he needs to fix. Instead, focus on how you both can support each other’s needs. Over time, you may find a rhythm that works, even if it’s not perfect. Relationships often require some compromise, but it’s important that both partners feel their needs are recognized and respected.
+==================================================
