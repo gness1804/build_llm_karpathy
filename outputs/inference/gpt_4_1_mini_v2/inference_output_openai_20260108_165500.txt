@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-08 16:55:00
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I'm in a close friend group where everyone usually gets along, but two people had a falling-out months ago and the tension is still affecting the whole dynamic. They avoid each other, make pointed remarks, and sometimes try to recruit the rest of us to "their side." I'm tired of feeling like I'm walking through interpersonal landmines every time we all hang out. I care about both, but I don't want to be a mediator or referee anymore. How can I protect my own peace without alienating either friend?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s deeply draining to be caught in the middle of a conflict between people you care about, especially when it lingers and colors the atmosphere of your shared social space. Your desire to protect your own peace without alienating either friend is both understandable and important.
+
+First, it’s okay to acknowledge your limits. You are not responsible for resolving their conflict, nor is it your job to manage their feelings or alliances. Setting boundaries around your role in this dynamic can help preserve your energy and emotional well-being. For example, you might gently but firmly decline to engage in conversations that feel like recruiting efforts or taking sides. You can say something like, “I really want to enjoy our time together without getting involved in this disagreement.”
+
+Second, consider creating some space for yourself within the group context. This might mean spending time with smaller subsets of the group where the tension is less palpable, or even taking breaks from group gatherings when the atmosphere feels too charged. This isn’t about abandoning your friends but about honoring your need for calm and safety.
+
+Third, when you do engage with both friends, try to keep your interactions with each person separate and authentic, rather than trying to bridge the divide. Sometimes, maintaining individual relationships without forcing a group cohesion can be a way to stay connected without being pulled into conflict.
+
+Lastly, it’s worth reflecting on whether the group dynamic as a whole is still a healthy space for you. Friendships and social circles evolve, and sometimes the healthiest choice is to step back or redefine your involvement. Protecting your peace doesn’t mean you care any less; it means you’re recognizing what you need to thrive emotionally.
+
+In all of this, compassion for yourself and for your friends can coexist with clear boundaries. You can care deeply without carrying the weight of their unresolved conflict. It’s a difficult balance, but honoring your own well-being is a vital part of sustaining any relationship.
+==================================================
