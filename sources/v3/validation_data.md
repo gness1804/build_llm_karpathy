@@ -933,7 +933,6 @@ Lacks a clear rule for future information sharing.
 Uses em dashes to soften accountability.
 
 OUTPUT: 
-
 Sharing someone else’s private information without permission is not a misunderstanding. It’s a breach of trust. Intentions don’t override that, and “trying to help people understand” does not make it acceptable.
 
 The fact that you've already confronted her and made clear what the problem is, and that she doesn't seem willing or able to change her behavior, indicates a larger issue. You will have to make clear to her the gravity of the situation, and if necessary, stop sharing sensitive personal information with her if the behavior continues.
@@ -1014,23 +1013,389 @@ Focus and restraint:
 - Keeps dignity of all parties in view.
 
 QUESTION:
-[Original question]
+I feel pressured to reconcile with a parent who has never acknowledged the harm they caused. Other family members say I should “move on.” Am I being unforgiving?
 
 DRAFT_RESPONSE:
-[Base model answer]
+Feeling pressured to reconcile with a parent who has not acknowledged the harm they caused is a deeply personal and complex situation. It’s important to recognize that forgiveness and reconciliation are not the same thing, and neither is owed simply because others suggest it. Forgiveness, if it happens, is a process that often requires acknowledgment and accountability from the person who caused harm. Without that, reconciliation can feel one-sided and may reopen wounds rather than heal them.
+
+When family members say you should "move on," they might be seeking peace or closure for themselves, but their perspective doesn’t invalidate your experience or feelings. Being unwilling to reconcile under these circumstances doesn’t mean you are unforgiving; it may mean you are protecting your emotional well-being and honoring your own boundaries.
+
+You have the right to decide what kind of relationship, if any, is healthy for you. It’s okay to take the time you need to process your feelings and to set limits on interactions that feel unsafe or damaging. Choosing distance or even ending contact can be a legitimate and sometimes necessary choice when harm remains unacknowledged.
+
+Ultimately, your feelings and needs matter. You don’t have to rush toward reconciliation or forgiveness to satisfy others’ expectations. It’s okay to prioritize your healing and to seek support from people who respect your experience and decisions.
 
 EVALUATION:
-Score: [score]
+Score: 7.5
 
 Strengths:
-- ...
-- ...
+Correctly distinguishes forgiveness from reconciliation.
+
+Validates boundaries without shaming.
+
+Avoids clinical language and diagnosis.
+
+Centers the letter writer’s agency.
+
 Weaknesses:
-- ...
-- ...
+Still abstract and generalized.
+
+Avoids naming the power imbalance and long-term harm directly.
+
+Soft moral framing where firmness is warranted.
+
+Ends with reassurance instead of a clear ethical anchor.
 
 OUTPUT: 
-[My Tier S response]
+Forgiveness without accountability is not healing. It’s erasure. Moving on does not require reopening relationships that remain unsafe or unresolved.
+
+Often, the pressure to “move on” reflects other people’s discomfort with conflict rather than a genuine concern for your wellbeing. Distance and unresolved tension make them uneasy, so reconciliation gets framed as maturity and refusal as stubbornness. That doesn’t make their advice wise or fair.
+
+You are allowed to let go of anger without granting access. Those are separate decisions. Reconciliation, if it ever happens, must be built on recognition of harm and changed behavior. Without that, distance is a reasonable form of self-protection.
+
+You are not unforgiving for refusing to pretend that nothing happened.
+</END_EXAMPLE>
+<BEGIN_EXAMPLE>
+
+INPUT:
+You are revising an advice-column response using the following rubric.
+
+RUBRIC:
+*Purpose:*
+Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
+
+*Core Criteria:*
+
+Moral clarity:
+
+- Names harmful behavior when warranted.
+
+- Avoids false neutrality or excessive hedging.
+
+- Does not shame, moralize, or catastrophize.
+
+Empathy without therapyspeak:
+
+- Validates feelings plainly and directly, and in clear language.
+
+- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
+
+- Does not position the columnist as a therapist
+
+- Does not prescribe a plan of treatment.
+
+Respect for agency and boundaries:
+
+- Centers the letter writer’s right to set limits.
+
+- Suggests appropriate boundaries that fit the specific situation.
+
+- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
+
+Specificity and usefulness:
+
+- Goes beyond general reassurance.
+
+- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
+
+- Offer concrete framing and next steps when appropriate.
+
+- Avoids vague platitudes.
+
+- Avoids clichéd or pop psychology responses, such as using "I" statements.
+
+Tone and voice:
+
+- Calm, grounded, and humane.
+
+- Direct but not harsh.
+
+- Secular, evidence-informed.
+
+- No proselytizing or political advocacy.
+
+- No bigotry or stereotyping.
+
+Focus and restraint:
+
+- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
+
+- Does not escalate unnecessarily.
+
+- Keeps dignity of all parties in view.
+
+QUESTION:
+I've been dating my boyfriend for about six months, and things are going well overall. But there's one issue that's been bothering me: he's still very close with his ex-girlfriend. They text regularly, hang out one-on-one, and he even invited her to a party at his place recently. When I asked him about it, he said they're just friends and that their relationship was never that serious anyway. I trust him, but it still makes me uncomfortable. I've never stayed friends with my exes, so I don't really understand how that works. Am I being unreasonable? Should I ask him to cut back on the friendship, or is this something I need to work on?
+
+DRAFT_RESPONSE:
+Your feelings of discomfort are completely valid. When a partner maintains a close friendship with an ex, especially involving regular one-on-one time and social invitations, it can naturally stir up uncertainty or insecurity, even if there’s trust in their intentions. It’s important to recognize that people have different ways of relating to past partners—some can transition into genuine friendships, while others find that too difficult or uncomfortable. Neither approach is inherently right or wrong; it’s about what feels respectful and safe within your current relationship.
+
+What matters most is how this dynamic affects you and your sense of security. Since you’ve already expressed your feelings and heard his perspective, the next step might be to have a deeper conversation about boundaries and mutual respect. This doesn’t mean demanding he end the friendship outright, but rather exploring what would help you feel more comfortable—whether that’s less frequent one-on-one hangouts, more transparency about their interactions, or clearer signals that your relationship is the priority.
+
+At the same time, it’s worth reflecting on whether your discomfort stems from personal boundaries or from comparisons or fears that might not be fully grounded in the present reality. Sometimes, working through those feelings internally can help you approach the situation with more clarity and calm.
+
+Ultimately, a healthy relationship involves both partners feeling heard and respected. If his closeness with his ex consistently undermines your trust or peace of mind, that’s a significant issue to address. But if you can find a balance that honors your feelings and his friendships, it can be an opportunity to deepen your understanding of each other’s needs and build a stronger foundation.
+
+EVALUATION:
+Score: 7.0
+
+Strengths:
+Normalizes discomfort without accusing the boyfriend of wrongdoing.
+
+Correctly notes that ex-friendships vary by person.
+
+Encourages conversation over demands.
+
+Maintains a calm, non-reactive tone.
+
+Weaknesses:
+Excessive hedging and neutrality.
+
+Overuse of LLM filler such as “what matters most” and “worth reflecting on.”
+
+Avoids clearly naming boundary misalignment.
+
+Lacks concrete guidance for evaluating his response.
+
+Ends without a firm takeaway.
+
+OUTPUT: 
+Whether exes can be friends is highly individual and not universal. The question isn't whether it's normal or appropriate to be friends with an ex in the abstract, but whether this particular friendship is appropriate and respectful of your current relationship. And it’s reasonable to feel uneasy when an ex remains woven into someone’s daily emotional and social life.
+
+Before you ask him to change anything, you need to understand what's really going on. Have a calm conversation: "I trust you, but I'm feeling uncomfortable with how close you are with your ex. Can you help me understand what this friendship means to you now?" 
+
+Pay attention to his response. Does he dismiss your feelings? Does he get defensive? Or does he listen and try to help you understand? A partner who cares about your feelings will want to address your discomfort, even if they don't agree that there's a problem. You might find that there are reasonable boundaries you can both agree on: maybe group hangouts are fine, but one-on-one dinners feel too intimate. Or maybe you can all hang out together so you can see their dynamic for yourself. 
+
+But regardless of whether any such accommodations are made, the larger question is whether or not you feel sidelined and how he reacts to that. You’re not asking him to erase his past. You’re asking whether there’s room for your comfort in the present. That’s a reasonable question in any committed relationship.
+</END_EXAMPLE>
+<BEGIN_EXAMPLE>
+
+INPUT:
+You are revising an advice-column response using the following rubric.
+
+RUBRIC:
+*Purpose:*
+Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
+
+*Core Criteria:*
+
+Moral clarity:
+
+- Names harmful behavior when warranted.
+
+- Avoids false neutrality or excessive hedging.
+
+- Does not shame, moralize, or catastrophize.
+
+Empathy without therapyspeak:
+
+- Validates feelings plainly and directly, and in clear language.
+
+- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
+
+- Does not position the columnist as a therapist
+
+- Does not prescribe a plan of treatment.
+
+Respect for agency and boundaries:
+
+- Centers the letter writer’s right to set limits.
+
+- Suggests appropriate boundaries that fit the specific situation.
+
+- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
+
+Specificity and usefulness:
+
+- Goes beyond general reassurance.
+
+- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
+
+- Offer concrete framing and next steps when appropriate.
+
+- Avoids vague platitudes.
+
+- Avoids clichéd or pop psychology responses, such as using "I" statements.
+
+Tone and voice:
+
+- Calm, grounded, and humane.
+
+- Direct but not harsh.
+
+- Secular, evidence-informed.
+
+- No proselytizing or political advocacy.
+
+- No bigotry or stereotyping.
+
+Focus and restraint:
+
+- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
+
+- Does not escalate unnecessarily.
+
+- Keeps dignity of all parties in view.
+
+QUESTION:
+I've been in a serious relationship for a few years now. Things have been going really well between us. I mean, we have our issues like every couple, but overall, things are great. I love him, he loves me, we both love each other's families. The problem is that he's expressed interest in opening up the relationship. I'm not enthused about the idea. Although I don't consider myself particularly religious or traditional, I do think that intimate relationships should be one-on-one. No judgment towards anybody else, but that's how I want my own life to be. He says that he wants to explore other people outside the relationship but remain committed to me. He cited several examples of our friends who have done it and he emphasizes that I would always remain his primary partner. He also said that I can meet any and all of his other partners and that he would be above board about everything. I have no reason to think he's seeing someone behind my back. He's always been honest. But I don't really feel comfortable with an open relationship. I've expressed this, but he keeps bringing it up. Is there hope for us?
+
+DRAFT_RESPONSE:
+It sounds like you and your partner have built a strong foundation together, with love and mutual respect, which is something to hold onto. The fact that he’s been honest and open about his feelings is a positive sign, but it’s also clear that this idea of opening the relationship is causing you discomfort, and that’s important to acknowledge.
+
+Your feelings about wanting a one-on-one intimate relationship are valid and deeply personal. It’s not about being traditional or judgmental; it’s about what feels right and safe for you emotionally. When one partner wants something that challenges the other’s core values or boundaries, it can create a real tension that isn’t easily resolved by simply agreeing to try.
+
+Your partner’s desire to explore other connections while maintaining commitment to you suggests he’s trying to balance his needs with the relationship, but it’s crucial that this balance doesn’t come at the expense of your comfort or sense of security. If you’ve expressed your feelings clearly and he continues to bring it up, it might be a sign that your visions for the relationship are diverging in a way that requires deeper conversation.
+
+Is there hope? That depends on whether both of you can find a way to respect each other’s needs without pressure or resentment. Sometimes that means setting firm boundaries that both partners can live with, and other times it means recognizing that your paths might be different. It’s okay to want something different from your partner, and it’s okay to say that certain arrangements don’t work for you.
+
+You might consider having a calm, honest conversation where you both explore what this desire to open the relationship means for him, and what it means for you to feel secure and valued. If you can’t find common ground, it’s worth reflecting on whether staying together in this dynamic will truly honor both of your needs.
+
+Ultimately, relationships thrive on mutual respect and shared understanding, not just love alone. Your discomfort is a signal that deserves attention, and your partner’s persistence is a signal that he’s wrestling with his own needs. Navig
+
+EVALUATION:
+Score: 7.0
+
+Strengths:
+Validates both partners’ perspectives.
+
+Avoids moralizing about monogamy or polyamory.
+
+Acknowledges that honesty does not equal compatibility.
+
+Maintains a respectful tone.
+
+Weaknesses:
+Too equivocal about a non-negotiable issue.
+
+Overuses LLM phrases like “it depends” and “worth exploring.”
+
+Avoids naming this as a fundamental incompatibility.
+
+Does not clearly empower the letter writer to hold a firm boundary.
+
+Em dashes soften what should be direct statements.
+
+OUTPUT: 
+Polyamorous relationships are increasingly common nowadays, but both partners have to genuinely want them. You can’t compromise on monogamy any more than you can compromise on whether to have children. 
+
+I think you have the right approach by being non-judgmental, but also by knowing what you want personally. Since he has mentioned a non-monogamous relationship multiple times even though you've expressed not wanting to pursue this, this seems like a fundamental incompatibility issue. And repeatedly pushing a boundary doesn’t make it negotiable. It just puts pressure on you to do something you really don't want to do.
+
+You need to make sure there is zero ambiguity and that he knows that remaining in a relationship with you or exploring polyamory are mutually exclusive options. I would have one more conversation with him on the subject: “I love you and want to be with you, but I don’t want an open relationship. If that’s something you need, then we want different lives.” 
+
+If he chooses to stay, it has to be with full acceptance, not quiet resentment. And if he can’t, the pain of ending things now will be far less than the damage caused by forcing yourself into a relationship structure you don’t want.
+</END_EXAMPLE>
+<BEGIN_EXAMPLE>
+
+INPUT:
+You are revising an advice-column response using the following rubric.
+
+RUBRIC:
+*Purpose:*
+Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
+
+*Core Criteria:*
+
+Moral clarity:
+
+- Names harmful behavior when warranted.
+
+- Avoids false neutrality or excessive hedging.
+
+- Does not shame, moralize, or catastrophize.
+
+Empathy without therapyspeak:
+
+- Validates feelings plainly and directly, and in clear language.
+
+- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
+
+- Does not position the columnist as a therapist
+
+- Does not prescribe a plan of treatment.
+
+Respect for agency and boundaries:
+
+- Centers the letter writer’s right to set limits.
+
+- Suggests appropriate boundaries that fit the specific situation.
+
+- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
+
+Specificity and usefulness:
+
+- Goes beyond general reassurance.
+
+- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
+
+- Offer concrete framing and next steps when appropriate.
+
+- Avoids vague platitudes.
+
+- Avoids clichéd or pop psychology responses, such as using "I" statements.
+
+Tone and voice:
+
+- Calm, grounded, and humane.
+
+- Direct but not harsh.
+
+- Secular, evidence-informed.
+
+- No proselytizing or political advocacy.
+
+- No bigotry or stereotyping.
+
+Focus and restraint:
+
+- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
+
+- Does not escalate unnecessarily.
+
+- Keeps dignity of all parties in view.
+
+QUESTION:
+My girlfriend and I have been dating for two years, and we're both in our late 20s. I've always known I wanted kids—it's been a life goal of mine for as long as I can remember. When we first started dating, she said she wasn't sure about kids, which I thought meant she was open to the possibility. But recently, she's been more firm about it, saying she doesn't think she wants children and that she's pretty certain about that. I love her and I can see a future with her, but I can't imagine my life without being a parent. I've tried to talk to her about it, but she gets defensive and says I'm pressuring her. I don't want to pressure her, but I also don't want to waste either of our time if we're fundamentally incompatible on this. How do we navigate this?
+
+DRAFT_RESPONSE:
+This is a deeply important and sensitive crossroads in your relationship, and it’s clear you care about both your girlfriend and your own future in a thoughtful way. Wanting children is a profound and often non-negotiable part of many people’s life plans, and it’s equally valid for someone else to feel certain that parenting isn’t right for them. When those desires don’t align, it can create a painful tension because it touches on core values and visions for the future.
+
+Your girlfriend’s growing certainty about not wanting kids is something to take seriously, not as a phase or uncertainty, but as a genuine part of who she is. At the same time, your desire to be a parent is not something to set aside lightly or hope will change. The fact that conversations about this topic lead her to feel pressured suggests that the way you’re approaching it might unintentionally make her feel cornered, even if your intention is the opposite. This is a delicate balance—expressing your needs honestly without making her feel judged or forced.
+
+One way to navigate this is to create space for both of you to share your feelings without trying to persuade or defend. You might say something like, “I want to understand how you feel about this without making you uncomfortable, and I also want to share why having children is so important to me.” This kind of dialogue can help reduce defensiveness and foster mutual respect, even if it doesn’t immediately resolve the difference.
+
+At the same time, it’s important to acknowledge that some differences—especially about fundamental life goals like parenting—may not be bridgeable. If your visions for the future remain at odds, it’s okay to recognize that this might mean reconsidering the relationship’s long-term viability. That doesn’t diminish the love or connection you share; it simply honors the reality that both of you deserve to live lives aligned with your deepest values.
+
+Ultimately, this is a moment for honest reflection and compassionate communication. You both deserve clarity about where you stand, even if that clarity leads to difficult decisions. Taking the time to listen deeply to each other, without pressure or expectation, can help you find the path that respects both your needs and hers.
+
+EVALUATION:
+Score: 7.0
+
+Strengths:
+Recognizes the seriousness of the issue.
+
+Avoids pressuring either party to change.
+
+Encourages honest dialogue.
+
+Acknowledges that love alone is not enough.
+
+Weaknesses:
+The response is too equivocal. It doesn't clearly address the fact that the question of whether to have children is not compromisable.
+
+Frames the issue as something to “navigate” rather than decide.
+
+Avoids stating plainly that this cannot be compromised.
+
+Ends with reflection instead of resolution.
+
+OUTPUT: 
+This is one of those fundamental incompatibilities that can't be compromised on: you can't have half a kid, and and no one should become a parent out of obligation or give it up out of fear of loss. Your girlfriend’s growing certainty deserves to be taken at face value, not treated as temporary hesitation. And your desire to be a parent isn’t something you should quietly set aside and hope will fade.
+
+You need to have one more direct, honest conversation. Frame it not as pressure, but as clarity: "I love you, but having children is a non-negotiable life goal for me. I need to know whether our futures truly align."
+
+Give her space to answer without pressure, but take the answer seriously. 
+
+If the lives that you want are fundamentally different--and this would definitely be the case if you both come to opposite conclusions about having children--then there's no path forward together, only apart. The kindest outcome may be accepting that this relationship can’t carry both of you where you want to go.
 </END_EXAMPLE>
 <BEGIN_EXAMPLE>
 
