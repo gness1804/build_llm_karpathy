@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 19:38:29
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My girlfriend and I have been together for a year, and we're both in our early 30s. She's great in so many ways, but there's one thing that's really bothering me: she's constantly on her phone when we're together. We'll be having dinner, and she'll be scrolling through social media. We'll be watching a movie, and she'll be texting. Even when we're having what I think is an important conversation, she'll pick up her phone to check notifications. I've mentioned it a few times, and she'll put it away for a little while, but then she's right back to it. I feel like I'm competing with her phone for attention, and it's making me feel unimportant. Am I overreacting, or is this a legitimate concern?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings are absolutely valid, and this is a concern worth addressing. When someone you care about frequently turns their attention to their phone during shared moments, it can create a sense of distance and make you feel sidelined. It’s not just about the phone itself, but what it represents: a lack of presence and engagement in your time together. You’re not overreacting by feeling unimportant; your experience reflects a genuine need for connection and respect in the relationship.
+
+That said, it’s also helpful to consider what might be driving her behavior. Phones can be a source of distraction, habit, or even a way to manage stress or boredom. Sometimes people don’t realize how much their phone use affects those around them, especially if it’s become an automatic response. Since you’ve already brought it up and seen only temporary changes, it might be worth having a deeper conversation about how her phone use impacts you emotionally. Try to share your feelings without blame—focus on how it makes you feel rather than accusing her of wrongdoing.
+
+At the same time, it’s important to observe how she responds to this conversation. Is she willing to reflect on her habits and make a sustained effort to be more present? Or does she dismiss your concerns or revert quickly to the same pattern? The way she engages with your feelings will say a lot about how she values your connection.
+
+Ultimately, relationships thrive on mutual respect and attentiveness. If this issue continues to leave you feeling neglected, it’s okay to reconsider how it fits into your overall happiness and needs. You deserve to feel seen and prioritized, and a partner who can share their attention with you—not just their phone.
+==================================================
