@@ -39,73 +39,6 @@ That isn't punishment. It’s a boundary.
 It’s also worth remembering that two months is a sixth of your entire relationship and longer than many relationships last in total. You deserve someone who honors your time and your presence instead of leaving for an extended period and returning only when it’s convenient for him. If working through all of this brings up self-doubt or lingering guilt, a therapist can be a helpful partner in making sense of what happened; not because you did anything wrong, but because experiences like this can shake your sense of stability. A good therapist can help you internalize that this rupture was about his avoidance, not your value, and sometimes hearing that clearly and consistently is the best medicine as you move forward.
 <END_OF_SET>
 
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My boyfriend of a year and a half broke up with me last month. Like most breakups, it wasn't pleasant. Our issues were multiple: we didn't see eye-to-eye on finances. He was more religious than me and was becoming dissatisfied that I didn't want to convert to his faith. I didn't get along well with parts of his family and a few other things. I realize that you and most advice columnists would probably see these as a big deal, and I mean they are, I admit that. But the frustrating thing is, when it was just the two of us watching Netflix or eating dinner or just talking, it felt magical. During those moments, I felt that we really did have a long-term future together. But I suppose the cliché is true: love alone isn't enough.
 
@@ -122,20 +55,20 @@ Feeling “right” or “wrong” about your emotions is a delicate matter; you
 
 In the end, closure might not look like a neat explanation or a final conversation. It might instead be about finding a way to live with the unanswered parts and to honor the meaningful moments you shared, even as you move toward new chapters in your life.
 
-EVALUATION:
-Score: 5.5
+SCORE: 5.5
 
-Strengths:
+STRENGTHS:
 - Advice columnist clearly expresses empathy towards the pain of a letter writer.
 - Advice columnist engages with the question at hand.
 - The columnist does not prescribe a plan of treatment or use overly therapeutic language.
-Weaknesses:
+
+WEAKNESSES:
 - This response is too vague. It mostly seeks to validate the letter-writer's feelings without suggesting concrete advice.
 - The wording is too generic and a bit too clichéd.
 - The tone was overly cautious rather than being direct.
-- The letter equivocates too much.
+- The response equivocates too much.
 
-OUTPUT: 
+REVISED_RESPONSE: 
 The hardest breakups, and the ones that often leave us with the most questions, are usually the ones where nobody did anything “wrong.” When a relationship ends this way, it’s common to feel blindsided, especially after investing a year and a half of your life. Wanting a fuller explanation isn’t a sign that you’re stuck or unreasonable; it’s a very human attempt to make sense of a meaningful loss.
 
 The desire for closure is rooted in a powerful need to create a narrative around painful events. Without one, it’s easy to get caught in a loop of unanswered questions and imagined alternatives. But people process breakups differently. Some want to talk everything through, while others need distance to move on. Neither approach is inherently wrong, but when those needs don’t align, there often isn’t a satisfying middle ground. In situations like this, unless there’s some unusual or unresolved circumstance, continuing to press for answers usually prolongs the pain rather than easing it.
@@ -146,74 +79,6 @@ Instead of anchoring your healing to an explanation he may never be willing or a
 
 What you're going through is common, but I know that doesn't make it hurt any less. If you find yourself stuck in self-doubt or rumination, a therapist can be a helpful partner in sorting through those feelings. Learning to let your own understanding, rather than someone else’s explanation, carry the weight of your healing is not only less emotionally risky; it’s also far more empowering.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My brother has a good friend who he seems to have a love-hate relationship with. The friend is less "conventionally successful" than my brother. For instance, while my brother has multiple advanced degrees and a six-figure job, the friend has "only" a bachelor's degree and a job that pays tens of thousands of dollars less than my brother's. (I say "only" a bachelor's degree not to minimize that achievement, but just to try to create more context, hence the quotes around the word.) My brother also has a group of tech friends that he hangs out with (he works in the tech industry), and I think he gets a lot out of being around people who he sees as closer to his success level. My brother is also married, for what it's worth, while his friend is in what the friend himself admits is a dead marriage. Long story, but for our purposes, it's another status mismatch between the two.
@@ -232,94 +97,27 @@ If you decide to bring this up with your brother, it might help to approach the 
 However, if you sense that your brother is unlikely to respond well, or if this feels like a boundary you’re hesitant to cross, it’s also okay to step back. Sometimes the most compassionate thing we can do is to accept that others will make their own choices, even when we wish they were different. You might find other ways to support the friend directly, if that feels appropriate and welcomed.
 
 In the end, there’s no perfect answer here. Your feelings are valid, and your care for both your brother and his friend is clear. Whether you speak up or hold your peace, what matters most is that you act in a way that feels honest and respectful to your own values and relationships.
-EVALUATION:
-Score: 7.5
 
-Strengths:
+SCORE: 7.5
+
+STRENGTHS:
 - Uses clear, direct language.
 - Adopts a thoughtful approach towards the brother with respect to the core problem rather than an absolutist approach.
-Weaknesses:
+
+WEAKNESSES:
 - Lacks a "script" to use to address the brother
 - Grammar: presence of em dashes.
 - Does not name the harm explicitly enough.
 - Lacks the moral clarity of the best responses.
 - Uses the word "deeply".
 
-OUTPUT: 
+REVISED_RESPONSE: 
 It must be quite painful to see your own brother engaging in actions that harm others. You clearly care about the friend and your brother. So you're not wrong to feel hurt even though your brother's actions aren't directed at you. You don't mention that there's been any outright abuse in this friendship. Had there been, the case for intervention would have been a slam dunk. Assuming no abuse, this is a tough nut to crack. You want your brother to treat his friend better, but you also don't want to get involved in his life. You respect his autonomy as I'm sure you would want him to respect yours. But yet you also see him engaging in actions that violate your moral compass.
 
 But that being said, I think this issue is more complex than just your brother's autonomy vs. compassion. This is a situation where you don't have to speak up right away, unprovoked (again, if there was abuse, then the advice would be very different). But the next time the topic of the friend comes up, and especially if your brother says something dismissive towards him, then you might want to speak up. You might say something like the following: "[Brother], I know that your friendships are your own business, but as your sister and as a friend, I can't help but notice that you've been treating your friend a bit dismissively. This conveys to the friend that you don't think that he's worthy of your time. Would you like to be treated like that?"
 
 Such a conversation might be hard, but if your brother is open-minded and willing to reconsider his attitudes, then that will help far more people than just his friend. Being reminded of where we're falling short when it comes to compassion and empathy can help us grow in ways that benefit us all. And if he pushes back or chooses not to engage, you can still take some peace in knowing that you spoke up in a way that was measured, compassionate, and aligned with your values. Sometimes doing that is all that’s within our control, and sometimes that’s enough.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I recently ended things with my girlfriend, and now I regret having done so. It's always easy to idealize somebody after a breakup, but in this case, she really was the total package: kind, compassionate, very smart, and seemed to really love me. So why did I let her go? Because of family pressure. 
@@ -359,74 +157,6 @@ I would not attempt further contact with her. You ended things. She made it clea
 
 If she doesn't reach out, don't reach out to her. You seem wracked with guilt and a strong need to apologize to her. But reaching out would probably do more harm than good, especially since she expressed the wish to not see you again. And she would likely take an unsolicited apology as an empty gesture meant more to comfort you than to sincerely atone for the mistakes that you made and the hurt that you caused. Guilt can be a useful signal to us to do better. Now that you're more aware of how others' opinions can sway you and of some of your own blind spots, you'll be better equipped for future relationships. Let this person go. Do better next time.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My wife and I are facing a quandary concerning faith. When we met, we were at a somewhat different place regarding religion, but we felt that we were basically compatible. Long story short, she believes in God, I don't, but we both have the same basic values. I let her know of my leanings early on, and she was always accepting. She comes from a very religious family, but questions many aspects of organized religions, particularly the one that she was raised in. We went through a rough patch with her parents accepting me because of the religious issues, but we moved beyond that.
@@ -469,74 +199,6 @@ Such a conversation is important because ultimately, a compromise will be needed
 
 By marrying into a religious family, apparently you're already accommodating religion to a certain extent. Remember also that making these accommodations for your wife doesn't imply that you believe what she does or vice versa. Making modest accommodations for each other isn't surrender. It's displaying love and respect. And ultimately, that's what life should be all about, whether or not one is devout.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My dad and I have a complex relationship. Growing up, my household was fairly traditional. He was the main breadwinner, my mother stayed at home during most of my childhood, and he had very traditional attitudes about who should be in charge of the household. On the plus side, he provided for us well financially. He was able to give three kids a materially comfortable childhood and then send all of those kids to college without them owing a dime in debt, all with a mostly non-working spouse. An achievement that neither I nor most others in my generation would be able to replicate. And he was always there for my sports practices and taught me a lot about work ethic. On the negative side of the ledger, he had serious problems with anger. He was unable to control his anger, and that frequently made the house a terrifying place to live in. He never physically abused us aside from spanking, which is seen as abuse in some quarters. But he would often erupt at the smallest provocation and would do things like destroy my toy planes that he and I had built together when I was a small child. He made it clear that we should live in fear of him. All of us, including my mom, walked on eggshells. 
@@ -588,74 +250,6 @@ A recurring theme in this and other advice columns is boundaries. That is, setti
 I would recommend a more introspective approach. Write him a letter you know he will never read because you will never give it to him. In this letter, don't pull punches. Don't hold back. Tell him exactly how his actions make you feel, how they hurt you, and what you want from him now. In many cases, people find that this exercise enables them to defuse a lot of pain and emotional tension, and it reduces their urge to confront the person for real. And if you aren't already, you might also consider working with a therapist to help you process some of these issues. Your dad's treatment of you was definitely not okay, but you don't need to compound the pain by hoping for a closure that probably will never come. Your past self deserved better, and you deserve better now.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 Growing up, my sister was always the favorite child. There are two of us, and she's the older one by two and a half years. Consistently, as we went through school and then started our adult lives, our parents would pay more attention to her than to me. Let's call her Rosie. My parents would praise Rosie's grades much more than mine, even though we usually brought home similar report cards throughout our schooling. Rosie also participated in several sports, including swimming, while I leaned towards more academically oriented extracurriculars. Our parents attended almost every one of her athletic events and would give her high praise, even when she or her team didn't do well. By contrast, whenever I would win an academic bowl or a forensics tournament, our parents might give an off-handed "good job" at best. Usually they didn't even seem to notice. 
 
@@ -690,74 +284,6 @@ I would take the approach of "trust but verify." Assume good intentions from the
 
 If they won't play ball, limit your children's interaction with your parents. And if this keeps happening, you might want to make the hard decision to keep your children separate from their grandparents until the grandparents express a genuine wish to treat their grandchildren more fairly, and then you see evidence of this. It would be heartbreaking to have to explain to your children why they don't get to see their grandparents very often. But the emotional harm that your grandparents will cause if they play the same favoritism game with their grandchildren outweighs this concern. Ultimately, you might have to end up doing for your parents what they failed to do for you and your sister: modeling an equitable approach to children. Love alone can't justify knowingly subjecting your children to cruel and arbitrary treatment.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm 15. My parents are going through a nasty divorce. I won't bore you with the details, but they are using me as a go-between. My father is living in an apartment with his new girlfriend, so cliche. And I'm at home with my mother. Since the court hasn't ruled yet, our family is working out visitation practices on the fly. For example, I spent last weekend with my dad, and he also got to see me Wednesday and Thursday of the week before that. There's no rhyme or reason to it. 
@@ -805,74 +331,6 @@ There are also resources out there to help you, and I encourage you to take adva
 From your letter, it's evident that you have a lot of courage and you're trying to do what's right. In closing, I want to make it very clear that none of this is your fault. The problem is between your parents, not with you. And none of the pain that you're going through should be interpreted as a result of something you did wrong. You are just caught in a very hard situation, and you seem to be doing your best to manage it. Best of luck to you.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 I'm male, 40 years old, work in tech. For a few years now, I've been attending a professional meetup of other tech enthusiasts and professionals. We meet a few times a month and engage in activities such as discussing technical books, delivering presentations, but mostly just hanging out and coding. My first year in the group, I met another guy, let's call him John. John and I seemed to be fast friends. We were both interested in the same types of technology and seemed to have compatible personalities. I was a bit further along in tech than he was, so I sort of took on a mentorship role. But over time, he's learned a lot too. More importantly, we've hung out a lot outside of tech, doing things like movie nights, going bowling together, and meeting up for coffee. We even write each other Christmas cards. 
 
@@ -913,74 +371,6 @@ I recommend having a conversation with John where you respectfully but firmly la
 If he responds amicably, then it's just a matter of nudging the balance in a more equitable direction, probably over time. The challenge in this case will be to try to make things more equitable without falling into the trap of “bean counting.” And if this happy outcome does come to pass, then you can ignore the rest of this letter. But if his response is unfriendly, such as being defensive or stonewalling, or even just apathetic (which can be just as hostile in its own way) then you might want to reconsider how you've been investing your time. In this case, you might have to decide whether his companionship is worth the emotional and logistical stress of him relying on you for important things, but not being able to do the same yourself. Retaining a friendship with someone you care about isn't worth it if the friendship is drastically one-sided and you're carrying all of the burden. Sometimes doing the hard thing and ending a friendship and hurting the other person's feelings is necessary to shift your time investment to people who have your back as well.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My mother was abusive throughout my childhood. Emotionally, verbally, sometimes physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
 
@@ -1011,74 +401,6 @@ You can acknowledge your sister’s grief without sacrificing your own wellbeing
 
 Funerals are for the living. But they are not for everyone. Protecting yourself now is not cruelty. It’s honesty, practiced late but carefully.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I’m getting married soon, and I’m seriously considering not inviting my father. He has been verbally abusive and relentlessly negative my entire life. We’re currently not speaking. He’s elderly and in poor health, and some relatives say I’ll regret excluding him. Am I being too rigid by not wanting him at my wedding?
@@ -1115,74 +437,6 @@ If reconciliation were genuinely possible, it would begin with accountability an
 
 You can hold this boundary calmly and without debate. “This is what I need in order to feel present and protected on my wedding day” is a complete explanation. Anyone who cannot accept that is asking you to prioritize appearances over wellbeing.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My adult children have limited contact with me because of how my second husband treated them when they were growing up. He was harsh and controlling. There was yelling but no physical abuse. I didn’t intervene as much as I should have, and now my kids say I never chose them. I’m devastated and don’t know how to move forward.
