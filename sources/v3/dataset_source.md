@@ -880,23 +880,31 @@ You might try having a calm conversation with her about what you’re able to of
 
 Ultimately, finding a balance between compassion and self-care is key. You don’t have to solve all her problems, and it’s okay to say no when you need to. Over time, this might encourage her to take more responsibility, but it’s a process that may take patience. If the situation feels overwhelming, seeking outside support for yourself, like talking to trusted friends or a counselor, could also be helpful.
 
+SCORE: 7.5
+
 STRENGTHS:
-- Respects the dignity of both the mother and the daughter.
-- Avoids falling into therapyspeak.
+- Acknowledges the emotional bind of guilt and obligation without indulging it.
+- Avoids diagnosing or psychologizing either party.
+- Clearly reframes financial support as a boundary issue rather than a moral failing.
+- Introduces the idea that money can distort relationships if left undefined.
+- Provides a concrete script that models firmness without cruelty.
 
 WEAKNESSES:
-- Does not lay out, specifically enough, what the boundaries should be with a daughter.
-- Language is a bit equivocal and lacks moral "punch."
-- Lacks a script for the letter writer to use.
+- The opening paragraphs are slightly longer than necessary before arriving at actionable guidance.
+- Some repetition around the concept of boundaries could be tightened.
+- The distinction between advice and financial support could be clarified more quickly to sharpen focus.
+- Moral clarity is present but could be expressed a bit more directly earlier in the response.
 
 REVISED_RESPONSE:
-This is an emotionally fraught position to be in. Wanting to help your child doesn’t go away just because they’re grown, and guilt often rushes in the moment you consider pulling back. But generosity that consistently leaves you feeling used is a signal that something is out of balance. In interacting with an adult child, there need to be clear boundaries on each side, especially when it comes to financial matters. A lack of boundaries or violation of them is usually a recipe for trouble in the relationship.
+This is an emotionally fraught position to be in. Wanting to help your child doesn’t disappear just because they’re grown, and guilt often rushes in the moment you consider pulling back. But generosity that consistently leaves you feeling used is a signal that something is out of balance. In an adult parent–child relationship, especially where money is involved, boundaries are not optional. Without them, resentment is almost inevitable.
 
-You say "financial help," but you don't fully specify what this means. Is it just advice, or is it also money in the form of a loan or a gift? If it's the latter in particular, then guilt is no reason to justify being taken advantage of financially. Because that's what happens when people asking for money (or even just advice) don't observe boundaries. When financial support is offered without mutual respect or clear limits, it often becomes entangled with resentment on both sides. Money starts standing in for connection, approval, or control, and this is typically toxic for a relationship over time.
+You mention “financial help,” but that term can cover a lot of ground. There is an important difference between offering advice and providing money, whether as a loan or a gift. If money is changing hands while your limits are being dismissed, guilt alone is not a good enough reason to continue. When financial support is offered without mutual respect or clear conditions, it often becomes tangled up with unspoken expectations, resentment, or control. Over time, that corrodes the relationship rather than preserving it.
 
-Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without harming the relationship or your retirement funds. You might say: “I care about you, but I’m no longer comfortable providing financial support under these conditions.” That statement is not punitive. It’s honest.
+Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without damaging the relationship or your own financial security. You might say something like: “I care about you, but I’m no longer willing to provide financial support under these circumstances. I’m happy to talk things through, but I won’t keep giving money while my boundaries are ignored.”
 
-Your daughter may be angry, and that will be painful. But guilt alone is not a reason to continue a pattern that leaves you resentful and her dependent. Boundaries, while uncomfortable, often create the possibility for a healthier adult relationship over time.
+That isn’t punishment. It’s honesty.
+
+Your daughter may react with anger or accusations, and that will hurt. But guilt is not a reliable guide for long-term decisions, especially when it keeps you locked in a pattern that leaves you resentful and her dependent. Clear boundaries are uncomfortable in the short term, but they are often the only way to make room for a healthier adult relationship over time.
 <END_OF_SET>
 
 QUESTION:
