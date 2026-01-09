@@ -12,9 +12,7 @@ Feeling guilty afterward is a common reaction when emotions run high, but it’s
 
 If you find yourself reflecting on this, it might help to focus on what you need from a partner in terms of communication and respect, and how you want to be treated moving forward. Your feelings and boundaries matter, and honoring them is a form of self-care rather than overreaction. Whatever you decide about this relationship, your experience highlights the importance of mutual accountability and honesty in any partnership.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Describes patterns of behavior without adopting clinical or therapeutic language.
@@ -22,13 +20,11 @@ STRENGTHS:
 - Condemns the bad behavior involved without moralizing or shaming.
 - Directly names the harm caused by the other party's actions.
 
-
 WEAKNESSES:
 - Lacks a "script" or suggested verbatim statement or question for the letter writer to pose to the other party.
 - Some of the wording is overly vague and general, particularly the last paragraph.
 - The response is a bit vague on boundaries. It spends too much time reaffirming the letter writer's actions and feelings rather than recommending specific boundaries that she can set towards this partner or potential future partners.
 - Uses the word "deeply" which is an LLM tell as LLMs often overuse it.
-
 
 REVISED_RESPONSE:
 Anyone who invests a year in a relationship, openly discusses marriage, and then gets cut off without warning would be shaken. A year together is a major emotional investment. When someone disappears at that stage, people often experience a kind of emotional disorientation: guilt, shame, confusion, and, very often, self-doubt. But it’s important to remember that he was the one who chose to walk out, and his choice reflects on him, not on your worth. You weren’t being overly dramatic. You were responding like any person would when a trusted partner suddenly vanishes.
@@ -44,14 +40,12 @@ It’s also worth remembering that two months is a sixth of your entire relation
 
 <END_OF_SET>
 
-
 QUESTION:
 My boyfriend of a year and a half broke up with me last month. Like most breakups, it wasn't pleasant. Our issues were multiple: we didn't see eye-to-eye on finances. He was more religious than me and was becoming dissatisfied that I didn't want to convert to his faith. I didn't get along well with parts of his family and a few other things. I realize that you and most advice columnists would probably see these as a big deal, and I mean they are, I admit that. But the frustrating thing is, when it was just the two of us watching Netflix or eating dinner or just talking, it felt magical. During those moments, I felt that we really did have a long-term future together. But I suppose the cliché is true: love alone isn't enough.
 
 At least he had the courage to end things in person. We went to our favorite restaurant, and as we were finishing dinner, he told me he had something to tell me. He explained that while he loves me and I will always have a part of his heart, at our core we just aren't compatible. He cited some issues I mentioned above. I was very hurt, but I acknowledged his right to end things. After all, all relationships have to be mutual.
 
 After that dinner, I moved out, and I've been living with my sister until I can find a place to live alone again. The reason I'm writing to you is that I still really want closure, but he doesn't seem interested. I want to know what I could have done differently, and I have some questions for him concerning how we might have been able to resolve some of our differences, like in terms of finance and family. I feel that he did not fully explain his reasons for ending things, and I didn't get closure as a result. I feel he left me hanging when it came to some of the particulars. Am I right to feel this way? Is there a way that I can get closure from him, or should I just drop this?
-
 
 DRAFT_RESPONSE:
 Your feelings of wanting closure are understandable, especially after a relationship that held moments of deep connection and hope for the future. It’s quite natural to seek clarity about what went wrong or what might have been different, particularly when the reasons given feel incomplete or leave lingering questions. At the same time, closure is a complex and personal experience that doesn’t always come from the other person involved. Sometimes, it arises from within, through reflection and time, rather than from further conversations.
@@ -62,22 +56,18 @@ Feeling “right” or “wrong” about your emotions is a delicate matter; you
 
 In the end, closure might not look like a neat explanation or a final conversation. It might instead be about finding a way to live with the unanswered parts and to honor the meaningful moments you shared, even as you move toward new chapters in your life.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Advice columnist clearly expresses empathy towards the pain of a letter writer.
 - Advice columnist engages with the question at hand.
 - The columnist does not prescribe a plan of treatment or use overly therapeutic language.
 
-
 WEAKNESSES:
 - This response is too vague. It mostly seeks to validate the letter-writer's feelings without suggesting concrete advice.
 - The wording is too generic and a bit too clichéd.
 - The tone was overly cautious rather than being direct.
 - The response equivocates too much.
-
 
 REVISED_RESPONSE:
 The hardest breakups, and the ones that often leave us with the most questions, are usually the ones where nobody did anything “wrong.” When a relationship ends this way, it’s common to feel blindsided, especially after investing a year and a half of your life. Wanting a fuller explanation isn’t a sign that you’re stuck or unreasonable; it’s a very human attempt to make sense of a meaningful loss.
@@ -92,14 +82,12 @@ What you're going through is common, but I know that doesn't make it hurt any le
 
 <END_OF_SET>
 
-
 QUESTION:
 My brother has a good friend who he seems to have a love-hate relationship with. The friend is less "conventionally successful" than my brother. For instance, while my brother has multiple advanced degrees and a six-figure job, the friend has "only" a bachelor's degree and a job that pays tens of thousands of dollars less than my brother's. (I say "only" a bachelor's degree not to minimize that achievement, but just to try to create more context, hence the quotes around the word.) My brother also has a group of tech friends that he hangs out with (he works in the tech industry), and I think he gets a lot out of being around people who he sees as closer to his success level. My brother is also married, for what it's worth, while his friend is in what the friend himself admits is a dead marriage. Long story, but for our purposes, it's another status mismatch between the two.
 
 My brother pays lip service to not caring about these superficial factors, but his actions tell a different story. My brother always talks about hanging out with the friend begrudgingly, as if it's a chore or obligation he has to do, like going to the supermarket. And my brother is always trying to postpone or shorten their gatherings. The friend never seems to mind. Whether that's out of otherworldly emotional restraint and perspective, or desperation, or something else, I'm not sure. The friend has always struggled socially, while my brother, even though he's had his own issues, has generally done better.
 
 Is it wrong of me to consider talking to my brother about this? I mean, his friendships really should be his business, but it hurts to see him treating his friend like this. Is that my place to talk with him about this? Or is this something I should just let go?
-
 
 DRAFT_RESPONSE:
 It’s understandable that you feel concerned when you see your brother treating his friend in a way that feels dismissive or begrudging. When someone we care about behaves in a way that seems unkind or unfair, it naturally stirs up a desire to intervene or speak up. Your impulse to protect the dignity of the friend and to encourage your brother toward more respectful behavior comes from a place of empathy and care.
@@ -112,14 +100,11 @@ However, if you sense that your brother is unlikely to respond well, or if this 
 
 In the end, there’s no perfect answer here. Your feelings are valid, and your care for both your brother and his friend is clear. Whether you speak up or hold your peace, what matters most is that you act in a way that feels honest and respectful to your own values and relationships.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Uses clear, direct language.
 - Adopts a thoughtful approach towards the brother with respect to the core problem rather than an absolutist approach.
-
 
 WEAKNESSES:
 - Lacks a "script" to use to address the brother
@@ -127,7 +112,6 @@ WEAKNESSES:
 - Does not name the harm explicitly enough.
 - Lacks the moral clarity of the best responses.
 - Uses the word "deeply".
-
 
 REVISED_RESPONSE:
 It must be quite painful to see your own brother engaging in actions that harm others. You clearly care about the friend and your brother. So you're not wrong to feel hurt even though your brother's actions aren't directed at you. You don't mention that there's been any outright abuse in this friendship. Had there been, the case for intervention would have been a slam dunk. Assuming no abuse, this is a tough nut to crack. You want your brother to treat his friend better, but you also don't want to get involved in his life. You respect his autonomy as I'm sure you would want him to respect yours. But yet you also see him engaging in actions that violate your moral compass.
@@ -138,7 +122,6 @@ Such a conversation might be hard, but if your brother is open-minded and willin
 
 <END_OF_SET>
 
-
 QUESTION:
 I recently ended things with my girlfriend, and now I regret having done so. It's always easy to idealize somebody after a breakup, but in this case, she really was the total package: kind, compassionate, very smart, and seemed to really love me. So why did I let her go? Because of family pressure. 
 
@@ -147,7 +130,6 @@ Our family has always focused on academic achievement. In my immediate family al
 My ex is a social worker with "only" an undergrad degree from a state school. She also had always done well in school, but it wasn't her life. She cared more about improving the world and other passions like art. That's a major reason why I fell for her, but it's also why my family never truly accepted her. Sometimes they paid lip service to accepting her, but more often they would make snarky comments behind her back about how she didn't measure up or how she wasn't "Yale material." Those comments affected me more than I thought. Last month, I found myself telling her that we just weren't a good fit. I never really explained why, but she was smart enough to figure it out. She said something to the effect of, "Well, if you think you're too good for me, then I never want to see you again." Which I deserved.
 
 I sorely regret ending things. Is there a way back into her life? Or even failing that, should I simply reach out to her to apologize? It's been a few weeks, and we haven't talked since that conversation. We didn't live together or have kids or anything, so it was a relatively easy split logistically. But emotionally, I'm still tied in knots. Help?
-
 
 DRAFT_RESPONSE:
 Your regret and emotional turmoil are understandable, especially given the way family pressures influenced your decision. It sounds like your breakup wasn’t just about your feelings for her, but also about navigating the weight of expectations that didn’t align with your relationship. That kind of conflict can leave a deep ache, and it’s natural to question whether things might have been different.
@@ -158,14 +140,11 @@ As for trying to rekindle the relationship, that depends on many factors: whethe
 
 Regardless of what happens with her, this moment offers a chance for reflection on what you value and how you want to navigate family expectations moving forward. Your regret signals that your feelings for her were real and meaningful, and honoring that truth—whether together or apart—can guide you toward greater clarity and peace. Taking small, thoughtful steps, like reaching out with a genuine apology, can be a way to start untangling those knots. But be gentle with yourself and with her as you do so.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Tries to empathize with the letter writer.
 - Avoids using therapeutic language or prescribing a treatment plan.
-
 
 WEAKNESSES:
 - Lacks a clear moral voice. Equivocates a bit. 
@@ -174,16 +153,13 @@ WEAKNESSES:
 - The response lacks a clear boundary to be set.
 - Grammar: uses em-dashes. 
 
-
 REVISED_RESPONSE:
 You were clearly caught between a woman you loved and a family that possesses a narrow definition of success in life. And now you regret having listened to your family rather than honoring your own feelings and those of the person that you were with. It was an awful situation, and I'm sorry you had to go through it. But it seems like a hard lesson in what not to do when faced with conflict between family expectations and what your heart is telling you.
 
 I would not attempt further contact with her. You ended things. She made it clear she didn't want to interact with you anymore. And even though you didn't respect her life choices during the relationship, you should at least respect her choice now to end contact with you. If by chance she does reach out to you, which would probably be for logistical reasons rather than any interest in renewing your relationship, do not attempt to win her back. You can tell her something like, "I'm so sorry for how I treated you. I don't expect you to forgive me, and I certainly don't expect you to take me back. But I just wanted to express that I feel awful for having treated you so poorly. You didn't deserve that, and I didn't deserve you." And mean it.
 
 If she doesn't reach out, don't reach out to her. You seem wracked with guilt and a strong need to apologize to her. But reaching out would probably do more harm than good, especially since she expressed the wish to not see you again. And she would likely take an unsolicited apology as an empty gesture meant more to comfort you than to sincerely atone for the mistakes that you made and the hurt that you caused. Guilt can be a useful signal to us to do better. Now that you're more aware of how others' opinions can sway you and of some of your own blind spots, you'll be better equipped for future relationships. Let this person go. Do better next time.
-
 <END_OF_SET>
-
 
 QUESTION:
 My wife and I are facing a quandary concerning faith. When we met, we were at a somewhat different place regarding religion, but we felt that we were basically compatible. Long story short, she believes in God, I don't, but we both have the same basic values. I let her know of my leanings early on, and she was always accepting. She comes from a very religious family, but questions many aspects of organized religions, particularly the one that she was raised in. We went through a rough patch with her parents accepting me because of the religious issues, but we moved beyond that.
@@ -191,7 +167,6 @@ My wife and I are facing a quandary concerning faith. When we met, we were at a 
 Now, however, we seem to be moving in opposite directions. If you can imagine a 0-to-10 scale with respect to warmth towards religion, with 0 being completely cold to religion and 10 being extremely accepting, as of this time a year ago, I was probably about a 4 while she was a 6 or 7. But now she's probably an 8 or a 9, while I'm a 2. For a variety of reasons, not least of which is the current political climate in this country, I'm feeling even more turned off by religion than I was a year or two ago. But at the same time, she's interested in re-exploring the faith she grew up in. She's even singing in a church choir and has been for a few months. Recently, I saw a cross which had been banished to our garage, now in our guest bedroom on the bed.
 
 How can we accommodate this difference? We haven't had any arguments over it yet, but I feel that there's some tension. I want to respect her faith and her own spiritual decisions, but my allergic reaction to religion makes that difficult. How can we both coexist under the same roof with different attitudes towards religion?
-
 
 DRAFT_RESPONSE:
 It sounds like you and your wife are navigating a deeply personal and evolving part of your relationship, and that can bring up a mix of emotions—curiosity, discomfort, hope, and perhaps even some unease. It’s clear that you both care about each other and want to honor each other’s experiences, even as your paths diverge in this area. The fact that you’ve maintained respect and openness so far is a meaningful foundation.
@@ -204,14 +179,11 @@ Remember, coexistence doesn’t require uniformity. Sometimes, it’s about hold
 
 Your awareness of the tension before it escalates is a strength. It opens the door to ongoing conversations—ones that don’t have to solve everything but can deepen your understanding of each other’s inner worlds. In time, you may find new ways to support each other that honor both your boundaries and your connection.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Response tries to address both sides of the issue in a meaningful way.
 - Affirms the letter writer's struggle without being condescending.
-
 
 WEAKNESSES:
 - Language is overly therapeutic.
@@ -221,7 +193,6 @@ WEAKNESSES:
 - Grammar: uses em-dashes. 
 - Uses the word "deeply", which is indicative of an LLM-type response.
 
-
 REVISED_RESPONSE:
 Religious differences can be particularly painful because they often involve not only abstract belief but also matters of identity, family, and morality. And when one feels that a fragile equilibrium in their life is disrupted, it's often unsettling. Particularly when that fragile equilibrium was perceived to protect them from something that's long been triggering. But it sounds like you and your wife are both coming from a place of compassion and respect. That matters a great deal. 
 
@@ -230,15 +201,12 @@ This will position you better to explore the thorny issues your letter raises. I
 Such a conversation is important because ultimately, a compromise will be needed here. Maybe she can place the cross in a room that only she mostly uses. Maybe you agree to attend services with her once or twice a month when her choir is singing. And these services need not all be in person. Many churches now offer hybrid services; that is, services both online and in-person. If she's amenable to it, maybe you can agree to an arrangement like you attending church once a month when she's singing, and for the rest of the services, you watch virtually. This could be a way of supporting her without being in the triggering environment as much. And, of course, she should agree to give you the space to explore your own philosophy and ideas without judgment. There are many secular groups in many parts of the country such as the Ethical Society, humanist groups, and atheist groups. I have known multiple non-religious people who have found much of the same community and sense of purpose in these groups as many others do in churches, but without the beliefs or rituals that they find problematic.
 
 By marrying into a religious family, apparently you're already accommodating religion to a certain extent. Remember also that making these accommodations for your wife doesn't imply that you believe what she does or vice versa. Making modest accommodations for each other isn't surrender. It's displaying love and respect. And ultimately, that's what life should be all about, whether or not one is devout.
-
 <END_OF_SET>
-
 
 QUESTION:
 My dad and I have a complex relationship. Growing up, my household was fairly traditional. He was the main breadwinner, my mother stayed at home during most of my childhood, and he had very traditional attitudes about who should be in charge of the household. On the plus side, he provided for us well financially. He was able to give three kids a materially comfortable childhood and then send all of those kids to college without them owing a dime in debt, all with a mostly non-working spouse. An achievement that neither I nor most others in my generation would be able to replicate. And he was always there for my sports practices and taught me a lot about work ethic. On the negative side of the ledger, he had serious problems with anger. He was unable to control his anger, and that frequently made the house a terrifying place to live in. He never physically abused us aside from spanking, which is seen as abuse in some quarters. But he would often erupt at the smallest provocation and would do things like destroy my toy planes that he and I had built together when I was a small child. He made it clear that we should live in fear of him. All of us, including my mom, walked on eggshells. 
 
 Now I'm in my 40s. I don't have kids of my own partly due to my own difficult childhood. But I am married, and I try every day to treat my spouse and others differently than my father treated us. Now my father is in his mid-70s. Given his family's historical longevity, he has maybe ten years left. Perhaps add one or three for modern medical advances that weren't around when his own parents were in their last years. My dilemma is whether I should confront him about what happened long ago. I feel that confronting him might give me a sense of closure if I make clear that what he did wasn't okay, and that he should at least acknowledge it, if not apologize for it. And I worry that if I don't talk to him about it within the next few years, then I will forever lose my chance to do so and forever regret it. Another part of me says that I probably wouldn't get an apology from him anyway, and that pursuing one is just a recipe for emotional disappointment. That would compound the pain he inflicted even more. What should I do?
-
 
 DRAFT_RESPONSE:
 Your situation is deeply nuanced, and your feelings about it are entirely valid. You carry the weight of a childhood shaped by both provision and fear, love and anger, and now you face the difficult question of whether to revisit those old wounds with your father.
@@ -263,15 +231,12 @@ If you decide not to confront him, that too is a valid choice. Protecting your p
 
 Whatever you choose, it’s clear you have a thoughtful and caring heart, and that you are committed to breaking cycles and creating a different experience in your own family. That commitment itself is a profound way of honoring your past and shaping your future.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Does a decent job of affirming the letter writer's pain and complex emotions.
 - Does include a good concrete suggestion to write a letter to the father without sending it, which is also what the model response does.
 - Exhibits a degree of nuance in approaching the situation and respects the dignity of both the letter writer and his father.
-
 
 WEAKNESSES:
 - Offers a "laundry list" of solutions which comes across as generic and screams "An LLM wrote this".
@@ -280,16 +245,13 @@ WEAKNESSES:
 - The ending lacks a clear moral "punch."
 - Uses the word "deeply" in the response. This is overused by LLMs and is a classic LLM tell.
 
-
 REVISED_RESPONSE:
 When somebody you love hurts you profoundly, it often leaves scars that last for a long time. Many people feel the need to try to close these wounds by confronting the person who caused them. But in any situation, not just this one, conditioning healing or closure upon somebody else's approval or apology is setting ourselves up for painful disappointment.
 
 A recurring theme in this and other advice columns is boundaries. That is, setting appropriate boundaries for people who cause harm, be it intentional or otherwise. In your particular case, though, the tragedy is that children can't really set boundaries in the same way that adults can. They lack the power to do so. So your father's constant violations of reasonable boundaries in your household, against you and your siblings and your mother, happened apparently unimpeded. At this point, the boundary that you now have the power to set is with your own expectations. I would not recommend reaching out to him if the purpose is to gain an apology or otherwise get closure from him. Considering he's not reached out to you about this in all these years, all these decades, it's unlikely he'll be receptive to your message now. Confronting him directly would likely reopen old wounds without giving you what you want.
 
 I would recommend a more introspective approach. Write him a letter you know he will never read because you will never give it to him. In this letter, don't pull punches. Don't hold back. Tell him exactly how his actions make you feel, how they hurt you, and what you want from him now. In many cases, people find that this exercise enables them to defuse a lot of pain and emotional tension, and it reduces their urge to confront the person for real. And if you aren't already, you might also consider working with a therapist to help you process some of these issues. Your dad's treatment of you was definitely not okay, but you don't need to compound the pain by hoping for a closure that probably will never come. Your past self deserved better, and you deserve better now.
-
 <END_OF_SET>
-
 
 QUESTION:
 Growing up, my sister was always the favorite child. There are two of us, and she's the older one by two and a half years. Consistently, as we went through school and then started our adult lives, our parents would pay more attention to her than to me. Let's call her Rosie. My parents would praise Rosie's grades much more than mine, even though we usually brought home similar report cards throughout our schooling. Rosie also participated in several sports, including swimming, while I leaned towards more academically oriented extracurriculars. Our parents attended almost every one of her athletic events and would give her high praise, even when she or her team didn't do well. By contrast, whenever I would win an academic bowl or a forensics tournament, our parents might give an off-handed "good job" at best. Usually they didn't even seem to notice. 
@@ -297,7 +259,6 @@ Growing up, my sister was always the favorite child. There are two of us, and sh
 This is continued into adulthood. When Rosie's first child was born a few years ago, her parents were overjoyed. As one might expect at the birth of a first grandchild, or really any grandchild. They showered her with presents and praise and offered to do whatever she needed when it came to babysitting, etc. (We live only about an hour away from our parents.) But now, I'm expecting my first child, and our parents seem almost like they don't care. They congratulated me at first when I told them the news, but they haven't bestowed anywhere near the attention on me that they did on Rosie during her pregnancy. I shudder to think what will happen once my child is born. I fear that my parents will replicate their dysfunctional favoritism to the next generation, such that my children might start to feel resentful or less than because of their grandparents' behavior. My husband and I have sworn that we would never do that to our children, that we would treat them equally and not engage in favoritism. So we certainly don’t want the grandparents replicating their mistakes with the next generation. 
 
 Do you think I should keep grandparents at bay after our children are born? Rosie and I already have a fairly distant relationship, mostly because of what happened as children. I don't want my children to grow up feeling that their worth is any less than anybody else's just because their grandparents can't figure out how to treat children equally. But I do want them to have a meaningful and rich relationship with their grandparents, especially since my own relationship with mine was mine. How should we handle this?
-
 
 DRAFT_RESPONSE:
 One practical approach is to set boundaries that protect your child from neglect or favoritism without completely shutting out the grandparents. For example, you might limit visits or interactions if you notice your child being ignored or treated unfairly, or you might arrange visits in ways that encourage positive, one-on-one time rather than comparisons. You could also gently but firmly communicate your expectations to your parents, emphasizing the importance of equal attention and respect for your child’s milestones and needs.
@@ -308,20 +269,16 @@ Given your already distant relationship with Rosie, it may be helpful to keep yo
 
 Ultimately, keeping grandparents “at bay” doesn’t have to mean exclusion but rather thoughtful management of their involvement. Your child’s emotional safety and sense of being valued can guide how much space you allow for the grandparents in their life. It’s a delicate balance, and it’s okay for your approach to evolve over time as you learn what works best for your family.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Displays empathy towards the letter writer and her children.
 - Suggests ways to set boundaries with the letter writer's parents.
 
-
 WEAKNESSES:
 - The response's useful suggestion that the letter writer could "gently but firmly communicate your expectations to your parents, emphasizing the importance of equal attention and respect for your child’s milestones and needs" would be strengthened by a specific script that the letter writer could use with their parents.
 - The response does not adequately name the harm caused by the letter-writer's parents' actions.
 - Displays a lack of moral conviction. For example, in this scenario, depending on how the grandparents act, a legitimate action by the letter writer might be to cut off contact between the children and their grandparents. The letter doesn't acknowledge this possibility but rather seems overly optimistic about the grandparents learning to treat their grandchildren more equitably.
-
 
 REVISED_RESPONSE:
 I think that most parents worry about the perpetuation of dysfunctional patterns onto their own children. This is especially true when the issue is parental favoritism. Favoritism can create emotional scars and ruptures that last a lifetime. It teaches children that some are more worthy of love than others and it erodes sibling bonds by pitting children against each other in a brutal contest for parental favor. It can also harm the favored child by creating a sense of entitlement and a sense that actions don't have consequences or, at least, consequences that are as severe as for other people. I've seen this a lot in my own life. But I'm sure you intuitively know all this already. In your case, it seems like you're torn between the hope of keeping your parents in your future kids' lives while not wanting them to be negatively affected by what your parents inflicted on you. That's a tough place to be in. But I also worry that you're reacting to problems that haven't happened yet, however likely it seems that they will in the future. 
@@ -329,9 +286,7 @@ I think that most parents worry about the perpetuation of dysfunctional patterns
 I would take the approach of "trust but verify." Assume good intentions from the grandparents until you see evidence otherwise. At the same time, don't be naive. Try to be there as much as you can when the grandparents are over so that you can observe how they interact with your kids. If you observe problematic behavior, intervene. Pull your parents aside and say something like: “Mom and Dad, my children and I love you. But when we see you exercising favoritism for Rosie's children over mine, such as [Examples A and B], it sends the wrong message to both sets of children. Can you work on treating all of your grandchildren more equally in the future?”
 
 If they won't play ball, limit your children's interaction with your parents. And if this keeps happening, you might want to make the hard decision to keep your children separate from their grandparents until the grandparents express a genuine wish to treat their grandchildren more fairly, and then you see evidence of this. It would be heartbreaking to have to explain to your children why they don't get to see their grandparents very often. But the emotional harm that your grandparents will cause if they play the same favoritism game with their grandchildren outweighs this concern. Ultimately, you might have to end up doing for your parents what they failed to do for you and your sister: modeling an equitable approach to children. Love alone can't justify knowingly subjecting your children to cruel and arbitrary treatment.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm 15. My parents are going through a nasty divorce. I won't bore you with the details, but they are using me as a go-between. My father is living in an apartment with his new girlfriend, so cliche. And I'm at home with my mother. Since the court hasn't ruled yet, our family is working out visitation practices on the fly. For example, I spent last weekend with my dad, and he also got to see me Wednesday and Thursday of the week before that. There's no rhyme or reason to it. 
@@ -339,7 +294,6 @@ I'm 15. My parents are going through a nasty divorce. I won't bore you with the 
 But that's small potatoes compared with the main problem. My parents don't seem to be capable of speaking to each other unless they are yelling. My mother will often ask me to “tell your father that I will be dropping off his clothes at such-and-such time.” My father might tell me something like, “Ask your mother why she won't set our court date yet and also why she's being such a bitch.” I’m sorry to use that word, but it's important for context. They are also constantly bad-mouthing each other to me behind their backs and clearly want me to side with one over the other. This is devastating to me.
 
 I don't want to be my parents' messenger pigeon. I want them both to love me equally, and I want to have a good relationship with both. I don't want to have to choose between them. Is this going to be my life for the rest of their days, or is there some way out of this?
-
 
 DRAFT_RESPONSE:
 What you are going through is deeply painful, and it’s completely understandable that you feel caught in the middle and overwhelmed. Being asked to carry messages between your parents, especially when they speak to each other with anger and disrespect, puts you in an impossible position. It’s not your job to be their messenger or to manage their conflict. This kind of dynamic often leaves children feeling torn, anxious, and burdened with adult problems they never asked for.
@@ -354,9 +308,7 @@ You asked if this is going to be your life forever. While the current situation 
 
 Holding onto your desire for a good relationship with both your mother and father is a powerful and hopeful stance. It shows your strength and your capacity for love even in a tough situation. Keep that hope alive, and take care of yourself as you navigate this challenging time.
 
-
 SCORE: 9.5
-
 
 STRENGTHS:
 - Does an excellent job of naming the harm of the parent's actions to the letter writer.
@@ -365,12 +317,10 @@ STRENGTHS:
 - Favors depth over brevity.
 - Does a very good job of affirming the letter writer's self-worth and autonomy, which is crucial feedback for such a young letter writer.
 
-
 WEAKNESSES:
 - Even though the letter is compassionate and empathetic towards the child, and implies that the situation isn't their fault, it would be strengthened by the columnist explicitly and forcefully stating that none of these problems are in any way the letter writer's fault. And that the situation was caused by the parents and not the child.
 - Grammar: uses em-dashes. 
 - Uses the word "deeply", which is an LLM towel.
-
 
 REVISED_RESPONSE:
 I’m so sorry that you have to go through that. No child deserves to be treated as a go-between by their parents. And no child should be forced into the heartbreaking position of having to choose one parent over the other. This is not only grossly unfair, but it also teaches children to be perpetually wary of those who are supposed to love them the most, lest their trust be betrayed again. It teaches children terrible lessons about communication, basic decency, and how to "fight fair" with a spouse or partner, including during a breakup or divorce.
@@ -382,9 +332,7 @@ You can start by having a difficult but important conversation with your parents
 There are also resources out there to help you, and I encourage you to take advantage of them. For instance, have you talked to your school guidance counselor about the problem? They might be able to refer you to some resources that could help. Also, while I don't know the exact details of your parents’ legal situation, in many cases, there will be a court-appointed child advocate to speak up for children in situations like yours. If you have one already, then please go to them and talk to them about how best to handle this difficult situation. If you don’t have one, then ask one of your parents' attorneys or an official at the court during the next legal hearing if you can be provided with one. These professionals are trained to represent children's interests in cases like yours.
 
 From your letter, it's evident that you have a lot of courage and you're trying to do what's right. In closing, I want to make it very clear that none of this is your fault. The problem is between your parents, not with you. And none of the pain that you're going through should be interpreted as a result of something you did wrong. You are just caught in a very hard situation, and you seem to be doing your best to manage it. Best of luck to you.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm male, 40 years old, work in tech. For a few years now, I've been attending a professional meetup of other tech enthusiasts and professionals. We meet a few times a month and engage in activities such as discussing technical books, delivering presentations, but mostly just hanging out and coding. My first year in the group, I met another guy, let's call him John. John and I seemed to be fast friends. We were both interested in the same types of technology and seemed to have compatible personalities. I was a bit further along in tech than he was, so I sort of took on a mentorship role. But over time, he's learned a lot too. More importantly, we've hung out a lot outside of tech, doing things like movie nights, going bowling together, and meeting up for coffee. We even write each other Christmas cards. 
@@ -392,7 +340,6 @@ I'm male, 40 years old, work in tech. For a few years now, I've been attending a
 The problem is that over time, this friendship has gotten to be one-sided. Over the last year or two, I'm virtually always the only one to initiate. I'm always the one to suggest going out for coffee or going to see a movie or having lunch. And this is also the case in deeper aspects of the friendship. For instance, he has a disabled adult nephew. I often come over and perform basic tasks, such as helping to prepare meals or simply just talking to the nephew, which considerably eases the burden on the rest of the family. This isn't to toot my own horn, but just to establish context. But when it comes to reciprocity, John's nowhere to be found. My wife is on disability, and I have a niece who's been struggling with a nasty eating disorder and has had to live at home instead of leaving town for college. When I ask John to do simple things, such as drive me to my niece's medical appointment when my car is in the shop, or to just simply come over and help with my family the same way I help with his, he's nowhere to be found. He's always making excuses such as “I'm too tired” or “I have to work tomorrow.” Oh and also when I ran a marathon last year, he was nowhere to be found - either in encouraging me before the race when I was going through grueling training or in going to see the actual event. But when his local hockey league plays games, I'm almost always there. I realize that everybody has an outside life, but after years of this, you start to wonder. 
 
 It's gotten to a point where this is one-sided and exhausting. None of my other friends are like this. I feel guilty complaining about this and I don't want to hurt John's feelings. That's why I haven't brought this up before. But this isn't sustainable. What should I do? 
-
 
 DRAFT_RESPONSE:
 Your feelings of exhaustion and frustration are completely understandable. You’ve been generous not only with your time and energy but also with your emotional investment, stepping in to help with John’s family and showing up for his interests. Yet, when you need support or simple gestures of reciprocity, he’s consistently absent or unavailable.
@@ -403,15 +350,12 @@ If John is receptive, this conversation could open the door to greater awareness
 
 Feeling guilty about these feelings is common, but it’s worth remembering that friendships thrive on reciprocity and respect, not obligation or endurance alone. Your kindness is a strength, but it’s also a resource that needs to be replenished. Taking care of yourself in this situation is not only fair but necessary.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Does offer a way to handle the situation.
 - Approaches the situation with empathy.
 - Avoids therapeutic language.
-
 
 WEAKNESSES:
 - Does not clearly name the harm caused by the friend or its effects.
@@ -419,7 +363,6 @@ WEAKNESSES:
 - Does not clearly specify a boundary that the letter writer could set if the problem process.
 - Mentions the letter-writer's guilt but doesn't explicitly name it as a secondary harm.
 - The language is mostly bland and generic. It lacks a strong human or moral voice.
-
 
 REVISED_RESPONSE:
 A friendship where one person does all the giving becomes unsustainable over time. When such arrangements persist for years, people often feel taken advantage of and even like they're being used. You understandably want reciprocity, but he seems to not be delivering. Lack of reciprocity can destroy a friendship like death by a thousand cuts. It can also cause lasting feelings of distrust that might spill over into other relationships in a person's life. And in your case, you don't want to hurt your friend's feelings, but you also have come to feel that the situation is untenable. 
@@ -429,24 +372,18 @@ The reality, though, is that sometimes you have to risk hurting someone's feelin
 I recommend having a conversation with John where you respectfully but firmly lay out the problem and your boundaries. You could say something like, "Hey John, I really like having you as a friend and hanging out with you, but I've noticed that I initiate almost all of our hangouts and that you haven't come to important things of mine, such as helping out with family or coming to my marathon, whereas I have tried to do those things for you as much as I can. How can we fix this?"
 
 If he responds amicably, then it's just a matter of nudging the balance in a more equitable direction, probably over time. The challenge in this case will be to try to make things more equitable without falling into the trap of “bean counting.” And if this happy outcome does come to pass, then you can ignore the rest of this letter. But if his response is unfriendly, such as being defensive or stonewalling, or even just apathetic (which can be just as hostile in its own way) then you might want to reconsider how you've been investing your time. In this case, you might have to decide whether his companionship is worth the emotional and logistical stress of him relying on you for important things, but not being able to do the same yourself. Retaining a friendship with someone you care about isn't worth it if the friendship is drastically one-sided and you're carrying all of the burden. Sometimes doing the hard thing and ending a friendship and hurting the other person's feelings is necessary to shift your time investment to people who have your back as well.
-
 <END_OF_SET>
-
 
 QUESTION:
 My mother was abusive throughout my childhood. Emotionally, verbally, sometimes physically. I cut contact with her years ago, and that distance has been necessary for my mental health. Recently, she died. My sister, who was also abused but to a lesser degree, is now furious with me because I refuse to help plan the funeral or attend it. She says that “family is family” and that I’m being cruel by refusing to participate. I feel numb more than anything else. Am I obligated to show up just because she’s dead?
 
-
 DRAFT_RESPONSE:
 It sounds like you’re going through a really complex and difficult time, and it’s understandable that your feelings might be all over the place. Sometimes when people have experienced trauma, especially in childhood, it can lead to emotional challenges like PTSD or complex grief reactions, which can make situations like funerals feel overwhelming or confusing. Your sister’s perspective about family might come from her own way of coping, and it’s possible that she’s feeling hurt or abandoned. While there’s no absolute rule about what you should do, maybe consider trying to find some middle ground or compromise to ease the tension. It might help to think about the bigger picture and what could bring some peace to everyone involved, even if it’s uncomfortable. Ultimately, it’s important to be gentle with yourself and recognize that healing is a process.
 
-
 SCORE: 2.5
-
 
 STRENGTHS:
 - Expresses empathy towards the letter writer.
-
 
 WEAKNESSES:
 - Uses explicitly therapeutic language and tries to diagnose the letter writer's problem.
@@ -455,7 +392,6 @@ WEAKNESSES:
 - No clear moral voice. Does not properly name the harm caused or its effects.
 - Responds can appear to condone the abuse, or at least downplay it. ("It might help to think about the bigger picture and what could bring some peace to everyone involved, even if it’s uncomfortable")
 - Response is very wishy-washy rather than advising clear boundaries that the letter writer can set in this very difficult situation.
-
 
 REVISED_RESPONSE:
 No one is obligated to perform grief on demand. And no one is required to honor someone who caused them harm simply because that person has died. Death does not retroactively transform abuse into love, nor does it impose new moral debts on the people who were hurt.
@@ -467,13 +403,10 @@ Your sister’s anger is understandable, but it does not override your experienc
 You can acknowledge your sister’s grief without sacrificing your own wellbeing. That might sound like: “I understand that this loss is painful for you, and I respect your need to mourn in your own way. I’m not able to participate, and that boundary is about my own health, not a judgment of you.”
 
 Funerals are for the living. But they are not for everyone. Protecting yourself now is not cruelty. It’s honesty, practiced late but carefully.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’m getting married soon, and I’m seriously considering not inviting my father. He has been verbally abusive and relentlessly negative my entire life. We’re currently not speaking. He’s elderly and in poor health, and some relatives say I’ll regret excluding him. Am I being too rigid by not wanting him at my wedding?
-
 
 DRAFT_RESPONSE:
 Choosing who to invite to your wedding is deeply personal, and it’s understandable that you’re wrestling with this decision, especially when it involves a parent with whom you have a difficult history. Your feelings about your father’s verbal abuse and negativity are valid, and it’s important to honor your emotional well-being, particularly on a day meant to celebrate joy and connection.
@@ -484,21 +417,17 @@ It’s not rigid to set boundaries that protect your mental and emotional health
 
 If you want, you might consider ways to acknowledge him privately or at a different time, but that’s entirely up to you and what feels right. Ultimately, your wedding is your day, and the people you surround yourself with should be those who support and uplift you. Trust your judgment about what will serve you best.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Expresses empathy with the letter writer.
 - Acknowledges the letter-writer's right to set boundaries.
 - Acknowledges nuance: that the letter-writer's perspective might be different than those of their relatives, and that both might have some validity.
 
-
 WEAKNESSES:
 - Does not fully and clearly lay out the harms caused by the father's abuse.
 - Could be clearer about how to respond to relatives who express disappointment or other negative emotion at the letter writer not inviting their father.
 - Grammar: uses em-dashes. 
-
 
 REVISED_RESPONSE:
 A wedding is not a referendum on forgiveness, nor is it a moral obligation to reopen relationships that have caused consistent harm. When someone causes consistent emotional pain to another, particularly when that person is their own child, it can cause far-reaching harm. This, in turn, is an entirely appropriate justification for suspending the usual social rules and expectations. Your wedding is a day that places you in a vulnerable emotional position, and it is reasonable to want that day to be as safe and grounded as possible.
@@ -510,13 +439,10 @@ It’s important to be clear about what this choice is and isn’t. You are not 
 If reconciliation were genuinely possible, it would begin with accountability and repair, not an invitation. You are allowed to decide that your wedding is no place for unfinished business.
 
 You can hold this boundary calmly and without debate. “This is what I need in order to feel present and protected on my wedding day” is a complete explanation. Anyone who cannot accept that is asking you to prioritize appearances over wellbeing.
-
 <END_OF_SET>
-
 
 QUESTION:
 My adult children have limited contact with me because of how my second husband treated them when they were growing up. He was harsh and controlling. There was yelling but no physical abuse. I didn’t intervene as much as I should have, and now my kids say I never chose them. I’m devastated and don’t know how to move forward.
-
 
 DRAFT_RESPONSE:
 It’s deeply painful to feel that your children see you as having chosen someone else over them, especially when you recognize your own role in how things unfolded. The fact that your children have limited contact and express such hurt shows how much damage was done, and it’s understandable that you feel devastated.
@@ -531,9 +457,7 @@ There are no guarantees that the relationship will return to what it once was, o
 
 Above all, remember that your children’s feelings are not a rejection of you as a whole person, but a response to the past and the pain they carry. Holding that complexity—both your regret and their hurt—without trying to erase or rush it is one of the hardest but most important parts of moving forward.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Names the harms caused.
@@ -541,12 +465,10 @@ STRENGTHS:
 - Discusses a difficult psychological and emotional situation without resorting to therapy-speak or diagnoses.
 - Acknowledges multiple possibilities rather than seeing the situation in black and white.
 
-
 WEAKNESSES:
 - Lacks a clear script that the letter-writer can use in addressing her children.
 - Grammar: uses em-dashes. 
 - Lacks the clear moral voice of a 9 or 10 response.
-
 
 REVISED_RESPONSE:
 This is a devastating place to find yourself, and there’s no way to soften that. What your children are responding to is not only how your husband behaved, but how alone they felt while it was happening. When a parent does not intervene, children often experience that as abandonment, even if the parent was also overwhelmed, afraid, or conflicted.
@@ -556,13 +478,10 @@ One of the hardest truths here is that intention and impact are not the same. Yo
 If there is a path forward, it begins with acknowledgment rather than explanation. That means resisting the urge to contextualize your choices too quickly, even if your reasons felt real and complex. Repair starts with something like: “I didn’t protect you the way I should have. I understand why that hurt you, and I’m sorry.” Full stop.
 
 After that, the timeline belongs to them. They may need distance. They may never return to the relationship you want. Accepting that is part of accountability, painful as it is. The goal is not to feel forgiven. The goal is to become someone safer now than you were then.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband’s parents are openly hostile toward me and have questioned our marriage. I’ve opted out of seeing them. Now I’m pregnant with twins, and they suddenly want access. Am I wrong to keep my distance?
-
 
 DRAFT_RESPONSE:
 You are not wrong to keep your distance. When someone has been openly hostile and questioned the foundation of your marriage, it’s understandable to protect yourself, especially during such a vulnerable and significant time as pregnancy. Your well-being and the well-being of your twins are paramount, and that includes emotional safety.
@@ -571,20 +490,16 @@ It’s natural for your husband’s parents to want to be involved, but their pa
 
 If your husband is willing and able, he might serve as a bridge to manage their involvement in a way that doesn’t compromise your peace of mind. But ultimately, it’s your choice how and when to allow them into your life. Protecting yourself and your growing family from hostility is not just reasonable—it’s a form of self-care.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Displays empathy towards the letter writer's situation.
 - Tries to understand the perspectives of all sides.
 
-
 WEAKNESSES:
 - Is not direct enough in naming the harm.
 - Lacks a script to use towards the husband's parents.
 - Mentions setting boundaries, but isn't specific enough as to what those boundaries might look like.
-
 
 REVISED_RESPONSE:
 You are not wrong to protect yourself, and by extension your children, from people who have shown you sustained disrespect. Hostility towards a son or daughter's spouse does not only create a rift; it can also poison the target's sense of self-worth and undermine their marriage. And it also reverberates to the next generation as well. Relationships with your children will be shaped by how you are treated. When someone consistently undermines or disrespects a parent, they undermine the family unit as a whole.
@@ -600,13 +515,10 @@ If possible, both you and your husband should have a talk with his parents about
 Then follow up your words with actions as needed. Boundaries are meaningless unless they're enforced. If they refuse to treat you better, then make clear that they're not going to be able to have much contact with their grandchildren. As heartbreaking as it is to limit children's access to their grandparents, the fundamental need for them to respect you and the future effects of their disrespect on your future children, if their behavior remains unchanged, outweigh this concern.
 
 Twins will require enough of you. You are not obligated to carry unresolved family conflict alongside that responsibility.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’m 21 and interested in a man who is 13 years older than me. He says he’s attracted to me but hesitant because he doesn’t want to “take advantage of my youth.” I don’t know what to make of that.
-
 
 DRAFT_RESPONSE:
 It’s understandable that you feel uncertain about his hesitation, especially when he expresses attraction but also concern about the age difference. When someone says they don’t want to “take advantage” of youth, it often reflects an awareness of the power imbalance that can come with significant age gaps. This isn’t just about numbers; it’s about life experience, emotional maturity, and the potential for one person to have more influence or control in the relationship, even unintentionally.
@@ -619,21 +531,17 @@ Ultimately, your feelings and boundaries matter just as much as his. If you deci
 
 The takeaway here is that attraction alone isn’t enough to ensure a healthy relationship—mutual respect, clear communication, and awareness of how differences affect the dynamic are key. You deserve a connection where you feel valued as an equal, not just for your youth.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Offers a script for the letter writer to use.
 - Respect the dignity of both the letter writer and her prospective boyfriend.
 - Response is thorough rather than shallow.
 
-
 WEAKNESSES:
 - The proposed boundaries could be named a little more specifically.
 - Uses em dashes.
 - The moral voice could be a bit stronger.
-
 
 REVISED_RESPONSE:
 His hesitation itself is not a red flag. In fact, it suggests that he’s thinking seriously about power, timing, and responsibility rather than ignoring them. But at the same time, be careful. Age gaps in relationships are not inherently wrong, but they do introduce the potential for abuse, particularly if the woman is the younger partner. Historically, it's been common for older men to take advantage of younger women in relationships because these men tend to have more power as well as more life experience and knowledge of the world. Your potential boyfriend is sending you a good signal by proactively raising this issue, but it's still wise to be cautious.
@@ -645,13 +553,10 @@ His concern may reflect care rather than ambivalence. At the same time, attracti
 Listen carefully to what he says. If he seems to hedge or if he remains stuck in hesitation, that may simply mean he is not available for the kind of relationship you want right now. That can be disappointing without being anyone’s fault.
 
 Sometimes care expresses itself not through action, but through restraint.
-
 <END_OF_SET>
-
 
 QUESTION:
 My sister resents me for being more academically successful. She says I make her feel inferior, even when I try to downplay my achievements. I feel like I’m walking on eggshells.
-
 
 DRAFT_RESPONSE:
 It’s clear that your sister’s feelings of resentment are causing tension between you, and that you’re caught in a difficult spot trying to be sensitive without sacrificing your own sense of self. When someone feels overshadowed, especially within a family, it can stir up complex emotions like jealousy and insecurity. Your sister’s reaction—feeling inferior despite your efforts to downplay your achievements—suggests that the issue runs deeper than just your success; it’s about how she sees herself in relation to you.
@@ -662,20 +567,16 @@ Setting boundaries around how you discuss your achievements can also be helpful.
 
 Ultimately, sibling relationships often carry complicated emotions that don’t resolve quickly or neatly. Your worth isn’t diminished by her struggles, and her feelings don’t have to overshadow your own. Holding space for both realities—your success and her insecurities—can help you find a balance that respects both of you. Over time, this balance might allow your relationship to grow beyond the current tension.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Includes a script for the letter writer to use.
 - Names the complex dynamics and the harms caused.
 - Does not engage in therapyspeak.
 
-
 WEAKNESSES:
 - Ending is a bit equivocal.
 - Lacks the deep nuance of the model response.
-
 
 REVISED_RESPONSE:
 It’s deeply tiring to feel as though you have to manage someone else’s self-esteem, especially when the comparison at issue is not one you created or invited. Walking on eggshells around a sibling can quietly drain a relationship of warmth and ease, until what’s left is mostly vigilance and guilt. That’s not a fair position to put you in.
@@ -685,13 +586,10 @@ It’s very likely that your sister’s resentment has far more to do with her o
 What is reasonable is to draw a clear but calm boundary. You might say something like, “I care about you, and I don’t see my accomplishments as a judgment of you. I don’t want to feel like I have to apologize for my life in order to be close to you.” That frames the issue honestly without attacking her character or dismissing her feelings. After that, the next move is hers. She may need time, distance, or help of her own to work through this.
 
 If the resentment continues to surface as hostility or punishment, it’s also appropriate to limit how much of your inner life you share with her, at least for now. That’s not cruelty. It’s self-protection. Healthy adult relationships make room for difference without turning it into a moral failing. You are allowed to be proud of your work and still be a loving sister. If she cannot tolerate both at once, that is painful, but it is not something you can solve by shrinking yourself.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’m estranged from a sibling, and my parents keep pushing us to “make peace.” They say it’s breaking their hearts. What should I do?
-
 
 DRAFT_RESPONSE:
 It’s understandable that your parents are upset about the estrangement, and it’s important to consider their feelings. Here are some steps you might take:
@@ -704,13 +602,10 @@ It’s understandable that your parents are upset about the estrangement, and it
 
 Remember, every family situation is different, so take the approach that feels right for you.
 
-
 SCORE: 2.5
-
 
 STRENGTHS:
 - Tries to treat everyone involved with dignity and respect.
-
 
 WEAKNESSES:
 - Very generic advice. No nuance and little specificity.
@@ -718,7 +613,6 @@ WEAKNESSES:
 - No human voice.
 - Short and superficial.
 - Not much moral voice: seems to prioritize appeasing the parents and family harmony over the substantive issues here, especially potential harms caused by the sibling.
-
 
 REVISED_RESPONSE:
 Parents often want resolution because conflict threatens their sense of family cohesion. That desire is understandable, but peace imposed from above rarely heals what’s broken below.
@@ -734,13 +628,10 @@ If reconciliation were possible, it would require willingness and accountability
 It’s fair to say to them: “I understand this is hard for you. But I’m not willing to reconnect under pressure or pretense. If I do decide to reconnect with [Sibling], then it will be on my own timeline and for my own reasons.” That response is honest without being cruel.
 
 Sometimes the most loving choice is to stop pretending a relationship exists when it doesn’t.
-
 <END_OF_SET>
-
 
 QUESTION:
 My best friend is going through a divorce and calls me almost every night to vent. At first I wanted to be there for her, but it’s been months now, and every conversation turns into a two-hour monologue about her ex. I’m emotionally exhausted and starting to dread her calls. Am I a bad friend if I pull back?
-
 
 DRAFT_RESPONSE:
 Your desire to support your friend during a painful time is deeply compassionate, and it’s clear you care about her well-being. At the same time, your feelings of exhaustion and dread are important signals—not signs of failure or inadequacy as a friend, but reminders that your own emotional resources have limits. Friendship is a two-way street, and it’s natural for support to ebb and flow rather than be a constant, one-sided drain.
@@ -751,19 +642,15 @@ It’s also worth reflecting on what you need from the friendship. If the dynami
 
 The takeaway here is that caring for others doesn’t require sacrificing your own well-being. True friendship can survive—and even deepen—when honesty about limits replaces silent endurance. Your kindness is real, and so is your need for balance. Holding both truths with respect is the kindest act you can offer yourself and your friend.
 
-
 SCORE: 9.0
-
 
 STRENGTHS:
 - Offers appropriate boundaries that the letter writer could set with her friend.
 - Offers a good script for the letter writer to use.
 
-
 WEAKNESSES:
 - Could emphasize the letter writer's internal conflict a bit more.
 - Wording of the ideal response is a bit more forceful while retaining the compassion for the friend.
-
 
 REVISED_RESPONSE:
 Wanting to be there for someone during a painful chapter of their life does not mean you are required to absorb their pain indefinitely. There is a difference between being supportive and being smothered.
@@ -773,13 +660,10 @@ Your inclination to pull back appears to be a conflict between wanting to be the
 Pulling back does not have to look like abandonment. It can look like recalibration. You might say something like: “I care about you and I want to support you, but I don’t have the capacity for long nightly calls anymore. Can we find a different way to stay connected that works for both of us?” That opens the door to adjustment rather than rupture. And if she presses you on why you're pulling back, you can explain to her that while you absolutely want to continue to be there for her, the long calls are draining you emotionally. Say that to be fully present for her and be the best friend that you can be, you have to take care of yourself, too. And this requires less frequent and less lengthy discussions of divorce-related matters. 
 
 Being a good friend does not require sacrificing your own emotional health. Care that is sustainable is ultimately more loving than care that quietly burns out.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’ve been married for 20 years and recently realized I’m deeply unhappy. There’s no abuse, no infidelity, just a growing sense that we became roommates. Is it selfish to consider leaving?
-
 
 DRAFT_RESPONSE:
 It’s completely understandable to feel unhappy in a long-term marriage, especially when the relationship starts to feel more like a roommate situation than a partnership. After 20 years, it’s natural for dynamics to shift, and sometimes people grow apart or change in ways that make the relationship feel less fulfilling. Considering leaving isn’t necessarily selfish—it can be a way of acknowledging your own needs and seeking a life that feels more meaningful to you.
@@ -788,21 +672,17 @@ That said, before making any big decisions, it might be helpful to reflect on wh
 
 Ultimately, your feelings are valid, and it’s important to take them seriously. Whether you choose to work on the marriage or move on, the key is to be thoughtful and compassionate with yourself and your partner as you navigate this challenging time.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Advice is thoughtful, compassionate, and clearly tries to respect the dignity of both parties.
 - Avoids the temptation to engage in therapyspeak.
-
 
 WEAKNESSES:
 - A bit on the short side; does not deeply delve into the complicated emotional dynamics involved.
 - Lacks a script that the letter writer can use.
 - The advice is a bit cliched, especially at the end. It does not end with a "punch."
 - Lacks the specificity of a top-tier response.
-
 
 REVISED_RESPONSE:
 Long-term unhappiness does not require dramatic justification to be legitimate. Many marriages unravel quietly, not through betrayal or cruelty, but through emotional erosion and disconnection over time. There are many reasons why most marriages eventually end before the death of one of the spouses. But the slow, mundane distancing that you describe is a common one.
@@ -816,30 +696,23 @@ If you feel that it's worth trying to save the marriage, and that the underlying
 But if you decide after this reflection that ending the marriage is the best course of action, do it. Hopefully you and your husband have an amicable enough relationship that a divorce would be relatively smooth. Also, you don't mention if you have children. But even if you do, divorce in the case of an unhappy marriage is a better alternative to modeling an unhappy relationship for your children.
 
 There is no moral virtue in endurance for its own sake. The ethical question isn’t whether you’re allowed to want more, but how to proceed with honesty and care for both yourself and your spouse. Sometimes the most courageous and loving thing you can do is walk away.
-
 <END_OF_SET>
-
 
 QUESTION:
 My adult son rarely calls or visits. When I bring it up, he says he’s busy. I feel rejected and don’t know how to respond without pushing him further away.
 
-
 DRAFT_RESPONSE:
 It’s understandable to feel hurt when your son doesn’t call or visit often. People get busy with their own lives, and sometimes that means less contact. You might try telling him how you feel in a calm way, so he knows without feeling pressured. Maybe finding a time that works for both of you could help. It’s important to be patient and give him space while also expressing your feelings.
 
-
 SCORE: 5.0
-
 
 STRENGTHS:
 - Does not drift into therapyspeak or try to diagnose a particular condition.
-
 
 WEAKNESSES:
 - Way too short. Lacks nuance and depth.
 - Little moral voice or columnist voice.
 - Needs much more specific advice. Too generic and bland.
-
 
 REVISED_RESPONSE:
 Distance from adult children can feel like a quiet, ongoing loss. It often triggers questions about what went wrong or what could have been done differently. Those feelings are real and deeply human. Parents usually operate on the implicit, unspoken assumption that when their children grow up, they will stay in close contact. Or at least that they will make a regular effort to call and visit. When this proves not to be the case, after children grow up and start their adult lives, this can create feelings of rejection, even though the reason for the reduced contact might simply be that the adult child is very busy with their own life.
@@ -853,13 +726,10 @@ The trick is to strike a balance between expressing your wish to reconnect witho
 That doesn’t mean suppressing your feelings entirely. It means expressing them without making them your child’s responsibility.
 
 Sometimes the most loving thing a parent can do is leave the door open and trust that their child will walk through it when they’re able.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner frequently jokes at my expense in social settings. When I ask him to stop, he says I’m too sensitive. Am I?
-
 
 DRAFT_RESPONSE:
 It sounds like you’re feeling hurt and dismissed, which is completely understandable. When someone you care about repeatedly makes jokes at your expense, especially in front of others, it can feel undermining and disrespectful. Your feelings are valid, and wanting your partner to stop isn’t about being “too sensitive” — it’s about wanting to be treated with kindness and respect.
@@ -870,21 +740,17 @@ It might help to have a calm conversation with him outside of social settings, e
 
 Ultimately, you deserve to be with someone who values your feelings and treats you with care, especially in public. Your sensitivity is not the problem here—your partner’s unwillingness to respect your feelings is.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Good insights about the partner deflecting from his own shortcomings to avoid taking responsibility for hurting you.
 - Sensible advice and analysis of the situation.
-
 
 WEAKNESSES:
 - Does not lay out the impact of the harm in as much detail as a top-tier example. Moral voice could be strengthened.
 - Does not offer a script that the letter writer can use in standing up to their partner.
 - Does not pursue the argument to its logical conclusion: that if the partner refuses to stop telling the jokes after clearly being told that they hurt the letter writer, then the letter writer should leave the partner.
 - Lacks a strong takeaway at the end.
-
 
 REVISED_RESPONSE:
 Humor that repeatedly lands at one person’s expense stops being harmless, especially when concerns are dismissed rather than addressed. Being told you’re “too sensitive” often serves to deflect responsibility rather than resolve the issue. Cowards everywhere use humor as a shield to say something without owning it. And when the person perpetrating this problem is doing it to their partner, then that's a particularly cruel and cowardly act. It conveys the message that the person telling the joke cares little about their partner's feelings and cares more about themself. This can make the target of the joke feel humiliated, dehumanized, and unloved.
@@ -898,13 +764,10 @@ While I'm not usually a fan of "tests" in relationships, in this case whether yo
 Life is hard enough without your own partner putting you down and then not even taking responsibility for it. A partner who respects you will care more about how their words land than about defending their sense of humor.
 
 You are not obligated to tolerate being the punchline to "keep the peace" in your relationship. Asking for basic respect is not fragility. It is a reasonable boundary.
-
 <END_OF_SET>
-
 
 QUESTION:
 I feel guilty for being relieved after ending a relationship. Does that mean I never really loved them?
-
 
 DRAFT_RESPONSE:
 Feeling relief after ending a relationship is more common than you might think, and it doesn’t erase the love you once had. Relationships are complex and layered; love isn’t a single, unchanging emotion but a mix of feelings that can evolve, deepen, or fade over time. Relief often signals that something in the relationship was weighing on you—perhaps unmet needs, unresolved conflicts, or a mismatch in values or priorities. That relief is your mind and heart recognizing a release from tension or pain, not a negation of the affection or care you felt.
@@ -915,20 +778,16 @@ If you want to speak to yourself with kindness in this moment, you might say: �
 
 Takeaway: Love and relief can coexist because ending a relationship is often about honoring your whole self—not just your feelings, but your needs and boundaries too. Feeling relief doesn’t mean you never loved; it means you cared enough to choose a better path forward.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Offers a complex, nuanced take on a complex emotional topic.
 - Offers real insights into emotion and psychology without engaging in therapyspeak or trying to diagnose anything. 
 - Offers an insightful script for the letter writer to use.
 
-
 WEAKNESSES:
 - The last paragraph's wording feels a bit too generic, especially the first word ("Takeaway:")
 - Lacks that one missing layer of nuance that the strongest examples have.
-
 
 REVISED_RESPONSE:
 Relief after a breakup does not invalidate the love you felt. Often it reflects the lifting of a burden that had become unbearable over time.
@@ -940,13 +799,10 @@ I'm not implying that any of these things were true of your own relationship. Ra
 You don’t need to rewrite your history to justify your present emotions. Mixed feelings are common after loss, particularly when love and strain coexisted for a long time. In my parents' case, they were married for over 30 years and there was clearly a lot of love between them. But for various reasons, the relationship fell apart. After an intense grieving period, my mother felt a lot of relief at being able to live a new life on her own terms. I think even today she still loves my dad in some way, but also feels that the divorce was the right thing to do.
 
 Emotions are signals, and your relief is telling you that something about that relationship wasn't right. It isn't telling you anything about whether or not you loved your partner. A chapter of your life has ended, but that doesn't mean that you didn't have a lot of love for the co-author of that chapter.
-
 <END_OF_SET>
-
 
 QUESTION:
 My parents expect me to visit every holiday, even though doing so leaves me anxious and depleted. I feel trapped between obligation and self-care.
-
 
 DRAFT_RESPONSE:
 Feeling torn between family expectations and your own well-being is a deeply familiar and difficult place to be. Holidays often come with a heavy weight of tradition and obligation, but it’s important to remember that your emotional health matters just as much as anyone else’s desire for your presence. When you find yourself anxious and depleted after visits, that’s a clear signal—not a failing on your part, but a boundary that needs attention.
@@ -957,19 +813,15 @@ Consider offering alternatives that reduce the pressure: shorter visits, meeting
 
 The takeaway here is that honoring your needs is not selfish—it’s necessary. Relationships thrive when they’re nourished by respect for everyone’s limits, not just by fulfilling expectations. You deserve holidays that leave you feeling connected, not drained. Finding that balance is a form of care, both for yourself and for your family.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Offers a good script for the letter writer to say to their parents.
 - Presents reasonable and insightful boundaries that the letter-writer can set.
 
-
 WEAKNESSES:
 - Might have gone into a bit more detail about how a child can renegotiate relationships with traditions and with their parents.
 - Could have gone into more depth about the weight of tradition and its relevance to the problem here.
-
 
 REVISED_RESPONSE:
 Traditions have a special place in our culture and can often bring great happiness. But they are not automatically healthy. When a tradition consistently leaves one person anxious or depleted, it deserves reevaluation. Because a tradition that is continued to the detriment of one or more of the participants ceases to be a reaffirmation of connection and love. Rather, it becomes a burden and often a source of resentment.
@@ -979,13 +831,10 @@ The outsized importance of traditions in our culture, particularly around the ho
 The good news is that you are allowed to renegotiate expectations as an adult, even if doing so disappoints others. Choosing not to attend every gathering is not a rejection of your family; it’s an acknowledgment of your limits. You might explain to your parents that while you love seeing them and visiting for holidays, you're not able to attend for every holiday. You could, for instance, say that you're coming to see them for Christmas, but you have other plans for Thanksgiving. If they press you for details on why you're not going to see them for every holiday, you don't need to provide an exhaustive explanation. It's enough to say: “This is what I can manage right now. I love you and enjoy being with you, but I need to find space for myself as well.” 
 
 Self-care is not selfishness with better branding. It is maintenance.
-
 <END_OF_SET>
-
 
 QUESTION:
 I discovered that my partner reads my private messages “out of concern.” They say they’re just trying to protect the relationship. How serious is this?
-
 
 DRAFT_RESPONSE:
 Discovering that your partner has been reading your private messages under the guise of “concern” or “protection” is a serious breach of trust. Relationships are built on a foundation of respect and mutual boundaries, and privacy is a core part of that. When one partner crosses that boundary without consent, it signals a lack of respect for your autonomy and can create an imbalance of power.
@@ -998,20 +847,16 @@ At the same time, pay attention to how your partner responds. Are they willing t
 
 The takeaway here is that privacy is not a negotiable luxury; it’s a fundamental element of respect and trust. If your partner’s actions have compromised that, it’s a signal to pause and reflect on whether your relationship can be a safe space for both of you. Protecting a relationship doesn’t mean controlling it—it means honoring each other’s boundaries and working together with honesty.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Strong moral voice.
 - Offers a clear and sensible script for the letter writer to use.
 
-
 WEAKNESSES:
 - Could be a little more explicit about the harms.
 - Uses em dashes
 - Uses the word "takeaway" in the final paragraph. The actual takeaway would be stronger without this word explicitly spelled out.
-
 
 REVISED_RESPONSE:
 Reading private messages without consent is a serious breach of trust, regardless of the motivation offered. Concern does not justify surveillance. When a partner violates trust and privacy in this manner, one often feels frustration, disappointment, and anger. It conveys that the partner who reads the messages doesn't see their partner as an equal and doesn't respect their autonomy.
@@ -1023,13 +868,10 @@ This behavior deserves to be addressed directly and taken seriously. You might s
 If your partner minimizes it, refuses to stop, or reframes it as your fault, that signals a deeper issue around boundaries and trust. In that case, you might want to think hard about whether to stay in this relationship. Love doesn't justify subjecting yourself to repeated privacy violations. There are plenty of people out there who do respect basic privacy rights.
 
 Protection that requires violation of privacy is not protection; it's snooping.
-
 <END_OF_SET>
-
 
 QUESTION:
 My adult daughter constantly asks for financial help but dismisses my advice and resents any boundaries I try to set. I feel used and guilty at the same time. What’s the right response?
-
 
 DRAFT_RESPONSE:
 It sounds like you’re in a tough spot, feeling torn between wanting to support your daughter and protecting your own boundaries. It’s natural to want to help someone you love, especially your child, but it’s also important to recognize your limits and what you’re comfortable with. If you keep giving financial help without clear boundaries, it might reinforce a pattern where your daughter relies on you without taking responsibility for her own situation. On the other hand, setting boundaries can feel harsh or cause tension, especially if she reacts with resentment.
@@ -1038,17 +880,14 @@ You might try having a calm conversation with her about what you’re able to of
 
 Ultimately, finding a balance between compassion and self-care is key. You don’t have to solve all her problems, and it’s okay to say no when you need to. Over time, this might encourage her to take more responsibility, but it’s a process that may take patience. If the situation feels overwhelming, seeking outside support for yourself, like talking to trusted friends or a counselor, could also be helpful.
 
-
 STRENGTHS:
 - Respects the dignity of both the mother and the daughter.
 - Avoids falling into therapyspeak.
-
 
 WEAKNESSES:
 - Does not lay out, specifically enough, what the boundaries should be with a daughter.
 - Language is a bit equivocal and lacks moral "punch."
 - Lacks a script for the letter writer to use.
-
 
 REVISED_RESPONSE:
 This is an emotionally fraught position to be in. Wanting to help your child doesn’t go away just because they’re grown, and guilt often rushes in the moment you consider pulling back. But generosity that consistently leaves you feeling used is a signal that something is out of balance. In interacting with an adult child, there need to be clear boundaries on each side, especially when it comes to financial matters. A lack of boundaries or violation of them is usually a recipe for trouble in the relationship.
@@ -1058,13 +897,10 @@ You say "financial help," but you don't fully specify what this means. Is it jus
 Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without harming the relationship or your retirement funds. You might say: “I care about you, but I’m no longer comfortable providing financial support under these conditions.” That statement is not punitive. It’s honest.
 
 Your daughter may be angry, and that will be painful. But guilt alone is not a reason to continue a pattern that leaves you resentful and her dependent. Boundaries, while uncomfortable, often create the possibility for a healthier adult relationship over time.
-
 <END_OF_SET>
-
 
 QUESTION:
 My spouse keeps forgiving a family member who repeatedly disrespects me. I feel like my feelings always come second. Is this a marriage problem or a family problem?
-
 
 DRAFT_RESPONSE:
 What you’re describing touches on both your marriage and your extended family, but the heart of the issue seems to be how your spouse is balancing loyalty and respect between you and their family member. When someone you love repeatedly disrespects you, and your spouse continues to forgive that behavior without addressing your feelings, it can create a painful sense of being sidelined or undervalued in your own partnership.
@@ -1077,21 +913,17 @@ If your spouse is unwilling or unable to acknowledge your experience or to advoc
 
 Ultimately, your marriage should be a place where you feel supported and respected, especially when outside relationships cause tension. If that balance isn’t there, it’s worth reflecting on what you need and whether your spouse is able to meet those needs. Sometimes couples find it helpful to seek outside perspectives to navigate these complexities, but the first step is your spouse recognizing that your feelings are valid and important—not secondary to anyone else’s.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Convincingly names the harm.
 - Recognizes that there are problems beyond whether the spouse keeps forgiving their relative or not.
-
 
 WEAKNESSES:
 - Lacks an explicit script for the letter writer to use with their spouse. 
 - At times, the response falls into platitudes that don't really add anything to the advice ("Your feelings matter deeply," "[Your feelings are] not secondary to anyone else’s")
 - Doesn't directly answer the letter writer's question about whether this is a marriage problem or a family problem.
 - Could make more explicit the point that forgiveness doesn't justify ignoring boundaries.
-
 
 REVISED_RESPONSE:
 When a spouse repeatedly prioritizes a family member over their partner’s wellbeing, it stops being just a family issue and becomes a marital one. Partnership implies a baseline commitment to protecting each other from harm, especially when that harm is ongoing and predictable.
@@ -1103,31 +935,24 @@ When someone refuses to protect their spouse from harm caused by a family member
 Forgiveness can be meaningful, but forgiveness that bypasses accountability often turns into enablement. Your spouse may believe they’re being peacemaking or generous, but the effect is that you’re left exposed and unsupported. You're left understandably wondering if your spouse cares more about you or about protecting the feelings of the family member who is harming you.
 
 Bottom line: Don't stand for mistreatment. You deserve much better than that.
-
 <END_OF_SET>
-
 
 QUESTION:
 My coworkers often interrupt or talk over me in meetings. When I try to assert myself, I’m labeled “difficult.” How do I handle this without damaging my reputation?
 
-
 DRAFT_RESPONSE:
 It sounds frustrating to be interrupted and then called difficult when you speak up. You might try to stay calm and keep expressing your ideas clearly. Sometimes, people don’t realize they are interrupting, so gently reminding them could help. Also, focusing on building good relationships with your coworkers might improve how they respond to you. It’s important to be confident but also polite so you don’t hurt your reputation. Keep trying to find a balance between standing up for yourself and maintaining harmony at work.
 
-
 SCORE: 4.5
-
 
 STRENGTHS:
 - Doesn't resort to therapyspeak. 
-
 
 WEAKNESSES:
 - Lacks a moral voice. Encourages the letter writer to accommodate those who are interrupting them, rather than truly standing up for themself. 
 - Never names the harm that the coworkers are causing, but rather brushes it off and encourages accommodation. This very much goes against my "brand" of clearly naming the harm and its effects.
 - Very short and superficial. No depth or meaningful exploration of the issues involved.
 - Lacks a script that the letter writer could use with the coworkers.
-
 
 REVISED_RESPONSE:
 Interruption is one of the worst conversational habits. In our extrovert-worshipping society, conversation can often seem to be tantamount to a contact sport in which the person who's willing to interrupt the most often gets the most floor time. And since you're talking about a workplace specifically, there are added dimensions to this problem. A workplace should have more explicit and implicit expectations that all voices are listened to. When this doesn't happen, it leaves those who are frequently interrupted feeling like their voices don't matter. Being interrupted repeatedly is not a personal failure. It’s a structural and social problem that often affects certain people more than others, regardless of competence or preparation. The frustration you feel is justified.
@@ -1139,31 +964,24 @@ For instance, if you maintain calm and composure while standing up for yourself 
 Regardless of your gender, if the pattern continues, it may be appropriate to document specific instances and raise the issue with a manager, framing it as a collaboration problem rather than a grievance. That helps protect your credibility while naming the issue. And if you've noticed other colleagues also being interrupted during meetings, which is likely, you can bring them up as well. Don't mention them by name, but say something like, "I have also noticed that other colleagues of mine are also often being interrupted at our meetings. I want our workplace to be an environment where everybody can feel free to express their full and complete opinions on work-related matters. I think that doing this will help us be the best team that we can be. Any team suffers when not all of its members are able to express themselves fully." 
 
 Wanting to be heard is not “being difficult.” It’s asking for basic professional respect.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’m considering ending a friendship because our political views have diverged dramatically. We can’t talk without it becoming tense. Is that shallow?
 
-
 DRAFT_RESPONSE:
 It’s understandable to feel conflicted about ending a friendship over political differences. Friendships often involve shared values and mutual respect, so when those start to feel compromised, it can create tension. While some might see ending a friendship over politics as shallow, it’s also important to recognize that political beliefs can be deeply tied to a person’s identity and worldview. If conversations consistently lead to discomfort or conflict, it’s reasonable to consider whether the friendship still brings you positive connection. Before making a final decision, you might try setting boundaries around political discussions or focusing on other aspects of your relationship. Ultimately, preserving your own peace of mind is important, and sometimes that means stepping back from relationships that feel more draining than supportive.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Recognizes that political disagreements often go deeper than just "shallow" disagreements over candidates or policies.
-
 
 WEAKNESSES:
 - Lacks a script that the letter writer can use.
 - Answer is too brief and doesn't adequately engage with the complex problems raised by the letter.
 - Gestures at setting boundaries, but offers few specifics.
 - Fails to delve into specific issues, such as who raises the topic of politics in conversations. Is it always the friend or sometimes also the letter-writer? 
-
 
 REVISED_RESPONSE:
 Political differences often reflect deeper values about power, responsibility, and empathy. And the place of outsiders and historically marginalized groups in our society. When those values diverge sharply, conversation can become exhausting rather than enriching. Especially in the current political climate, "agreeing to disagree" can be hard to accept when it seems like every issue is a battle between diametrically opposed values. And in the age of social media, we know much more about the political opinions of even neighbors and friends of friends than most of us would want to know. Just this year I learned that a spouse of a relative seems to see the opposite political party as being gleeful at a deadly natural disaster that happened in our state. Such revelations really do reveal sharply different values. Given all this, I don't think you're shallow to question ending the friendship. 
@@ -1175,13 +993,10 @@ If after this conversation she still keeps bringing up politics, then that sends
 Many friendships can withstand political differences, but many others cannot. The question of which of these applies to your friendship will be determined by whether the two of you are able to come to a mutually satisfactory agreement about discussing politics and then actually stick to it. Because the status quo isn't sustainable.
 
 It's not weak or "shallow" of somebody to request that a difficult topic be kept out of conversations. In fact, it takes a strong person to make such a request and risk the ire of the other person or even the end of the friendship. Bottom line: you don’t owe perpetual engagement at the cost of your own peace.
-
 <END_OF_SET>
-
 
 QUESTION:
 I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
-
 
 DRAFT_RESPONSE:
 It’s clear you appreciate your mom’s intentions, but you also need your home to feel like your own sanctuary. When someone crosses that boundary—even with good intentions—it can feel unsettling and diminish your sense of autonomy. Since your gentle hints haven’t landed, a more direct but compassionate conversation might be the kindest way forward.
@@ -1194,19 +1009,15 @@ It’s normal for parents to struggle with adjusting to their adult children’s
 
 Ultimately, your home is your personal space, and setting boundaries is a way of caring for yourself. Approaching this with kindness and clarity can help preserve your relationship while honoring your needs.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Offers a realistic view that getting the mother to change her behavior might be a process.
 - Offers a script for the letter writer to use with his mother.
 - Keeps kindness and empathy front and center.
 
-
 WEAKNESSES:
 - Could be more specific in laying out which competing forces outweigh the others. For instance, the best responses acknowledge that while avoiding hurting your mom's feelings is a real and important goal, it's very difficult to set boundaries without hurting feelings. And therefore, reasonable and kindly expressed boundaries override the need to protect the other person's feelings at all costs. This response is missing that kind of reasoning.
-
 
 REVISED_RESPONSE:
 It sounds like your mom is trying to be loving and helpful, but the way she's doing it is blurring the line between support and intrusion. You're not wrong to feel unsettled by that. When a parent oversteps reasonable boundaries in an adult child's life, it can leave the adult child feeling a range of emotions. You want to be able to feel that your space is yours, but you also don't want to hurt your mother's feelings, especially since you know that she means well. It's a painful dilemma.
@@ -1216,31 +1027,24 @@ Unfortunately, there are very few, if any, cases in which setting boundaries doe
 When setting a boundary with your mom on this matter, you want to strike a tone of loving but firm. You might say something to the effect of, "Mom, I love you, and I really do enjoy having you over. But when you come over, I want it to be for a visit where we're both present and can enjoy each other's company. I know that you mean well in coming over while I'm gone and performing chores and leaving food, but it undermines my own sense of independence and sense that my space really is my own. Moving forward, can we both agree that the key that I gave you should be only used for emergencies, and that any other times when you come over, you need to ask me first?" 
 
 Relationships between parents and adult children often involve recalibration. This is one of those times. With love and patience, you will be able to strengthen and re-calibrate your relationship with your mother so that it preserves your closeness while also respecting your own autonomy.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband and I have been married for 10 years, and while it's mostly been a good marriage with the usual ups and downs, a toxic dynamic has evolved where both of us rush to blame the other during arguments. For example, last week our cat escaped and my youngest child and I spent several hours looking for her before a neighbor thankfully found and returned her. The relief of having her back should have been the end of it, but instead the incident sparked a painful argument about whose "fault" it was—-my husband blamed me for leaving the door open when I went out to tend to our plants (I was only outside for a few minutes), while I blamed him because the only reason I went out to water the plants was that he had neglected to do it after saying he would take care of them. The argument was unproductive, as almost all our arguments are. We've been in couples therapy but haven't made much progress, in part because my husband doesn't take therapy seriously. How can we overcome this blame dynamic and develop a better marital relationship?
 
-
 DRAFT_RESPONSE:
 It sounds like you and your husband are caught in a cycle that many couples experience, where blame becomes a default response during conflicts. This pattern can be exhausting and damaging over time. While therapy is a good step, it’s important that both partners are genuinely committed to the process for it to be effective. Sometimes, external factors like stress, fatigue, or unresolved personal issues can fuel these arguments, so it might help to consider whether there are broader pressures affecting your relationship. Reflecting on your own communication styles and emotional triggers can also be insightful. Remember, every relationship has its challenges, and working through them often requires patience, empathy, and sometimes a willingness to accept imperfections in both yourself and your partner. If therapy hasn’t helped so far, you might explore different approaches or therapists who specialize in couples work. Ultimately, fostering a sense of shared responsibility rather than blame can create a more supportive environment for both of you.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Avoids the trap of therapyspeak. 
-
 
 WEAKNESSES:
 - Advice appears too generic and clichéd. 
 - Response does not go into enough detail about the problems involved.
 - Points out that both partners need to be committed to therapy for it to be effective, but offers no advice on helping the letter writer's husband get there.
 - Fails to tease out what's really behind the dynamic of blame and what can help dismantle it.
-
 
 REVISED_RESPONSE:
 This is a common problem, so you're hardly alone in facing this. Your husband's reluctance to take therapy seriously is discouraging, but there are other approaches you can take. During a moment when both of you are calm, approach him and say something like, "Honey, I've noticed that when we fight, we often blame each other for problems, and this doesn't resolve anything. It just results in hurt feelings for both of us. What do you think we can do to address this?"
@@ -1250,15 +1054,12 @@ Much will depend on how he responds. If he doesn't respond well, particularly af
 To help reinforce more positive new habits, I'd suggest also having a weekly check-in where you talk with your partner about how resolving the problem is going. Were there fewer incidents of blaming this past week than the week before? If so, count that as a win. You can expect your progress to be zig-zaggy, but if you work at it long enough, there's a good chance that the overall trend line will be positive. And the mere act of discussing blame in a "meta" fashion should help the two of you to detach from it and to see it from a more objective perspective. That is, to see blame as a complex and negative dynamic, rather than simply being in the mindset of trying to score points against the other.
 
 Over time, this work should help change this difficult dynamic while also solving the original problems more quickly. I would also recommend reading John Gottman's book, "The 7 Principles for Making Marriage Work," which contains excellent advice about the blame game and other marital challenges.
-
 <END_OF_SET>
-
 
 QUESTION:
 Like so many others, my teenage daughter is struggling with an eating disorder. In her case, she's lost so many pounds in the last few weeks that she barely resembles her old self. She's obsessed with the idea that she's fat, but in reality, she's dangerously underweight. Making matters worse, my husband seems to not take her situation seriously enough. While I fear for her life if she doesn't get treatment soon, my husband often brushes off the subject when I talk to him about it. He says things like, "Oh, she's just going through a phase," or "Maybe she just doesn't like the food that you cook." I think that my daughter is overhearing this and it might be encouraging her to starve herself even more.
 
 I've always been the non-confrontational type, which I fear has contributed to my daughter getting into the mess that she's in. So I'm not really sure how to confront my husband about this. What do you suggest?
-
 
 DRAFT_RESPONSE:
 Your concern for your daughter is deeply understandable, and the urgency you feel is real and justified. When a young person is caught in the grip of an eating disorder, it’s not just a phase or a matter of food preference—it’s a serious health crisis that demands attention and care. Your husband’s minimization, whether intentional or not, risks leaving your daughter feeling unseen and unsupported at a moment when she needs a united front most.
@@ -1271,20 +1072,16 @@ At the same time, it’s crucial to set boundaries around your daughter’s care
 
 The takeaway here is that protecting your daughter’s well-being requires both clear communication and decisive action. Your voice matters, and so does your willingness to stand firm in the face of denial. This is not about winning an argument with your husband but about safeguarding your child’s life. When the stakes are this high, the courage to speak up and act is the most profound form of love you can offer.
 
-
 SCORE: 8.5
-
 
 STRENGTHS:
 - Articulates the harms clearly.
 - Strong moral voice
 - Good script to use with the husband that explains the problem with his behavior without blame. 
 
-
 WEAKNESSES:
 - Would be strengthened by naming some specific resources that the parents could read regarding eating disorders.
 - Again, uses the word "takeaway" in the final paragraph. This sounds more like "stage directions" rather than simply stating what the takeaway is, without having to name the fact that it's a takeaway.
-
 
 REVISED_RESPONSE:
 As you noted, this is a life-or-death situation. What I would do is urgently get both your daughter and husband educated on the serious problem of eating disorders, "tout de suite." First, if you haven't already, inform your daughter of the following resources: the 24/7 eating disorder hotline (866-932-1264) and the National Association of Anorexia Nervosa and Associated Disorders (ANAD) Helpline (888-375-7767). I would also insist that both your daughter and your husband visit the website of the National Eating Disorders Association, particularly their helpful article "Busting The Myths About Eating Disorders" (https://www.nationaleatingdisorders.org/busting-myths-about-eating-disorders/). 
@@ -1294,15 +1091,12 @@ The immediate problem, of course, is helping your daughter to get healthy and ov
 You might tell your husband something like: "When you are dismissive of our daughter's eating disorder, you unintentionally make the problem worse. You're encouraging her to not take the problem seriously rather than confronting it as the life-threatening challenge that it is. I know that you also love our daughter and want her to get well, but these comments are achieving the opposite. Can you agree to read some of these articles and resources [see the examples above] and try to educate yourself more about eating disorders?"
 
 Finally, by all means, whenever your husband makes one of these remarks and there's even the possibility that your daughter could have been around, seek her out at your first opportunity and emphasize to her that what her father said was wrong. Tell her the facts in a calm manner, not to demonize her father but rather to show that his harmful views aren't correct. Facts and sincere affirmation are the best antidotes to misguided and harmful ignorance.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband and I are facing a dilemma over how to respond to a problem with how his family treats his brother. We both have long suspected that my husband's brother is gay. At one point, the brother even came to my husband asking for advice on how to come out of the closet. However, in large part because of their family's attitudes, the brother has never actually come out to them. From time to time, I overhear some of my husband's family, particularly my father-in-law, make offensive and cruel remarks about gay people. I don't know if the father-in-law suspects that one of his sons is gay or not, but regardless, this creates an alienating environment for us and obviously especially for the brother.
 
 Our dilemma is on how to respond to this, if at all. I would like for us, or at least for my husband, to bring this up with his father and to make clear that we don't approve of these cruel remarks. My husband has made it clear that even though he strongly disapproves of the anti-gay remarks, he wants to preserve his relationship with his father and doesn't want to intervene. I tend to feel that since it's his family, he should have more of a say on how to engage with them. But it really hurts to stand by and say nothing while my husband's father creates such an intolerant environment. Do you think that we should just let this go or do you feel that it's worth risking our relationship with his father to try to improve the situation?
-
 
 DRAFT_RESPONSE:
 This is a deeply painful and complex situation, and your feelings of hurt and frustration are entirely understandable. When a family environment feels alienating or hostile—especially around something as personal and vulnerable as sexual identity—it can create a heavy emotional burden for everyone involved, including your husband and his brother.
@@ -1319,9 +1113,7 @@ Ultimately, there is no perfect answer here. You and your husband will need to n
 
 Your desire for a kinder, more accepting family space is both compassionate and courageous. Finding a path that honors that desire while respecting your husband’s approach will take time, patience, and ongoing conversation.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Empathetic and emotionally attuned
@@ -1329,14 +1121,12 @@ STRENGTHS:
 - Avoids simplistic “just confront him” advice
 - Acknowledges the brother’s vulnerability
 
-
 WEAKNESSES:
 - Too abstract and cautious given the moral stakes
 - Lacks clear moral clarity about the harm of silence
 - Over-relies on “there is no perfect answer”
 - Does not sufficiently center the brother’s safety and dignity
 - Avoids giving a concrete boundary or decision framework
-
 
 REVISED_RESPONSE:
 This is a painful situation precisely because it sits at the intersection of loyalty, safety, and moral responsibility. You’re not imagining the harm here. Repeated anti-gay remarks do real damage, even when no one is “officially” out, and especially when someone in the family is quietly absorbing those messages about who they are allowed to be. Silence in these situations is not neutral. It often functions as permission.
@@ -1348,15 +1138,12 @@ One important distinction may help you move forward: this does not have to be fr
 That kind of boundary may still provoke backlash. There is no guarantee it won’t. But it shifts the cost away from the most vulnerable person in the room. Right now, that cost is being paid by a brother who is likely already carrying a great deal of fear and isolation. Protecting him does not require heroics, but it does require choosing discomfort over complicity.
 
 Finally, regardless of what your husband decides to do with his father, it matters enormously that his brother knows where you both stand. Even quiet, private expressions of support can be lifesaving in an environment like this. You cannot control whether the family becomes more tolerant. But you can make sure that no one is left wondering whether cruelty is being silently endorsed. That clarity alone can make a profound difference.
-
 <END_OF_SET>
-
 
 QUESTION:
 My wife and I are expecting our first child, a daughter. As you might imagine, we're over the moon about being new parents and nurturing and loving this new human. Nevertheless, my wife and I are engaged in a nasty recurring argument over whether to baptize our future daughter. My wife came from a fairly secular family but experienced trauma in her early adulthood, including a sexual assault. She found an on-campus religious community that provided tremendous support to her in her healing. And after college she has continued to attend church in that same denomination. She's been a part of this denomination for about 15 years at this point, and I have nothing against her doing this. Obviously she's an autonomous adult, and we don't have to agree on religion. But in my case, I'm an atheist who had some very bad experiences with religion growing up, including multiple attempts to proselytize me. I also had a friend who was abused by a priest. And so for me, organized religion is the root of much evil with corporate greed being the root of most of the rest.
 
 My wife wants to baptize our daughter in her denomination because she wants to pass on to her child the deep connection that she has to her faith. And also, I suspect, because she feels that on some level being part of this religious community might shield her daughter from the trauma that she went through as a younger woman. But for me, I worry that baptizing our daughter in this religion would essentially brainwash and indoctrinate her. I fear our daughter wanting to marry young and then becoming obedient to her husband due to our church's teachings. The denomination is one of the more conservative ones, and I don't agree with most of their teachings. I want our daughter to be a strong young woman, not a slave to her future husband because of religious brainwashing. Should I just give in and let her get indoctrinated, or should I fight harder for her to not be baptized?
-
 
 DRAFT_RESPONSE:
 Your situation is deeply complex and touches on some of the most intimate aspects of identity, belief, and parenting. It’s clear that both you and your wife want what’s best for your daughter, but you have very different visions of what that looks like. Your wife’s connection to her faith is a source of healing and community for her, and she hopes to share that with your child. Your concerns come from a place of protecting your daughter’s autonomy and ensuring she grows up with the freedom to think critically and make her own choices, especially given your experiences with religion.
@@ -1371,9 +1158,7 @@ If the conversation feels stuck or charged, it might help to take a pause and re
 
 Ultimately, this is a negotiation of values and hopes, not just about baptism but about the kind of family life you want to build together. It’s okay to hold your concerns firmly while also acknowledging your wife’s meaningful connection to her faith. Finding a middle ground that respects both of your perspectives may not be simple, but it can be a foundation for the kind of parenting partnership that nurtures your daughter’s strength and freedom.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Thoughtful and balanced
@@ -1384,7 +1169,6 @@ STRENGTHS:
 
 - Suggests delay and compromise
 
-
 WEAKNESSES:
 - Too gentle toward a very real power struggle
 
@@ -1393,7 +1177,6 @@ WEAKNESSES:
 - Overuses “explore together” language without grounding
 
 - Does not sufficiently separate symbolic ritual from upbringing control
-
 
 REVISED_RESPONSE:
 It seems like you're falling into a trap that many religious and secular people alike fall into: framing a problem as a strict black-and-white either/or matter. Fundamentally, it seems to me that both you and your wife are coming from a place of love, and your differences are rooted in very different life experiences with religion. Your wife’s desire to baptize your daughter is tied to healing, community, and survival. Your resistance is tied to coercion, harm, and a deep fear of repeating patterns you’ve already seen damage people you care about. Your wife's healing experiences with faith are legitimate, but your fear of indoctrination is just as legitimate. 
@@ -1407,13 +1190,10 @@ I will also point out that there are avenues for secular people to meet and disc
 One can allow a symbolic rite while drawing firm lines around teaching, gender expectations, and moral authority. If those lines cannot be agreed upon, then delaying baptism until your daughter is old enough to express her own wishes is also a principled position, not a rejection of your wife’s faith.
 
 Indeed, don't forget to keep in mind the bigger picture of what your daughter herself might eventually want. Hopefully you and your wife would both agree that when your daughter is old enough to do so, she should be the one to determine her future path, be it a religious path or a secular one. So I think it makes sense to expose her to a mixture of religious and secular viewpoints. The exact contours of this will, of course, be up to you and your wife and eventually up to her. But by coming from a place of compassion and love, you will put her in a position to be well-equipped to make her own faith decision when the time comes. If you can reach a shared commitment to protecting your daughter’s autonomy, curiosity, and safety, then the question of baptism becomes less existential and more practical. And if you can’t reach that shared ground, it’s a sign that this conversation needs more time, not more pressure.
-
 <END_OF_SET>
-
 
 QUESTION:
 My best friend recently got back together with her ex-boyfriend, who I know was emotionally abusive to her. She cut off her other best friend for telling her to leave him, and now she's threatening to cut me off too over a trivial political disagreement we had. I'm trying to be a safe presence for her like people advised, but it's getting harder as she keeps ghosting me or being cold and distant. How do I handle this without losing my friend completely, and how do I stop feeling terrible about it?
-
 
 DRAFT_RESPONSE:
 It’s deeply painful to watch someone you care about return to a relationship that you believe is harmful, especially when that person starts to push away others who are trying to support them. Your friend’s decision to reunite with someone who was emotionally abusive—and to cut off those who voiced concern—puts you in a very difficult position. It’s understandable that you want to be a safe presence for her, but it’s also important to recognize the limits of what you can do.
@@ -1426,9 +1206,7 @@ Feeling terrible about this is a natural response to losing closeness with someo
 
 Ultimately, friendships can be complicated and sometimes painful, especially when one person is navigating difficult personal challenges. Holding onto hope for reconciliation is natural, but so is honoring your own emotional health. You can be a compassionate friend without sacrificing your own sense of safety and dignity.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Compassionate and validating
@@ -1439,7 +1217,6 @@ STRENGTHS:
 
 - Avoids blaming the letter writer
 
-
 WEAKNESSES:
 - Too evenly weighted between “be patient” and “protect yourself”
 
@@ -1448,7 +1225,6 @@ WEAKNESSES:
 - Lacks guidance on guilt and self-blame
 
 - Does not explicitly name coercive dynamics
-
 
 REVISED_RESPONSE:
 Watching someone you love return to a partner who harmed them is heartbreaking, and it becomes even more painful when your concern is treated as betrayal. You’re trying to stay present without enabling harm, and that is a narrow, exhausting line to walk. The fact that it’s getting harder does not mean you’re failing. It means the situation itself is eroding the space for a healthy friendship.
@@ -1462,20 +1238,15 @@ The guilt you’re feeling is also very common. Many people internalize the idea
 One way forward is to step back slightly while leaving a clear signal of care: let her know you’re there if she wants connection that doesn’t involve punishing you for disagreement, and then redirect your energy toward relationships that can meet you with warmth and respect. If she returns later, you can decide then what you’re willing to offer.
 
 Losing emotional closeness, even temporarily, hurts. You’re allowed to grieve that without blaming yourself. Caring deeply does not obligate you to accept harm in return. Sometimes the most compassionate choice for both people is to stop trying to hold something together that currently can’t be held.
-
 <END_OF_SET>
-
 
 QUESTION:
 My wife and I have been married about 15 years. For the first few years, our sex life was great. We were, as the saying goes, "f***ing like bunnies". But as the years wore on, especially once we had kids, we hit a rough spot in the bedroom. Since we had our second and final child, my wife only wants sex once every few weeks, and sometimes once every few months. When we do have sex, I almost always have to initiate, and she's just not as, shall we say, vigorous as was the case before. I love my wife and want to respect her preferences, but at the same time, I feel that my sexual needs are no longer being met. Am I doomed to spend the rest of my days in a sexually unsatisfying marriage, or is there hope for us?
 
-
 DRAFT_RESPONSE:
 It’s understandable to feel concerned when your sex life changes, especially after many years and having children. Many couples experience shifts in intimacy over time, and it’s common for desire to fluctuate. It might help to have open conversations with your wife about how you’re feeling and listen to her perspective as well. Sometimes, finding ways to reconnect emotionally can also improve physical intimacy. Couples therapy could be an option if you feel stuck, but ultimately, relationships evolve, and it’s possible to find a new balance that works for both of you.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Calm, nonjudgmental tone
@@ -1483,7 +1254,6 @@ STRENGTHS:
 - Normalizes change over time
 
 - Avoids blaming either partner
-
 
 WEAKNESSES:
 - Extremely generic and interchangeable
@@ -1498,7 +1268,6 @@ WEAKNESSES:
 
 - Fails to address resentment, grief, or fear about the future
 
-
 REVISED_RESPONSE:
 What you’re describing is painfully common, and that doesn’t make it any easier to live with. A long-term drop in sexual intimacy can quietly reshape a marriage, especially when one partner still desires a level of closeness that the other no longer seems able or willing to meet. Loving your wife and respecting her preferences does not cancel out your own needs, and it’s important to say that clearly.
 
@@ -1509,15 +1278,12 @@ You are not doomed, but hope here requires honesty rather than optimism. A meani
 That conversation may be uncomfortable, and it may surface grief on both sides. If your wife feels touched-out, exhausted, or disconnected from her own sexuality, that deserves compassion. But compassion does not mean accepting an indefinite status quo that leaves you quietly unhappy. A marriage can survive many things, but long-term erotic neglect without acknowledgment is not one of them.
 
 Whether the path forward involves medical consultation, couples counseling, renegotiated expectations, or difficult decisions about compatibility, the first step is naming the problem honestly. You are not wrong to want a marriage that includes mutual desire, not just mutual respect. Wanting that does not make you disloyal. It means you’re taking your relationship seriously.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband has a habit of criticizing me when I do something wrong, or when he thinks I do something wrong. This behavior has unfortunately been escalating in recent months. It started even before our wedding. For instance, he would remark upon my having chosen the "wrong" dress rather than telling a white lie that he liked the dress. Also, he would say things like, "You must be so glad you found me given how you were living before." Like most people in love, I brushed off these red flags, thinking that he would change after the wedding. But alas, things only got worse from there. Now that we've been married several years and have two kids, he started insulting me in front of the kids. He also tries to make me believe things that I know aren't true. For instance, by repeating lies to me, such as accusing me of losing our house keys, when in fact he's the one who misplaced them. They were found in the pocket of his suit jacket, for goodness sake!
 
 My husband is mostly a wonderful man and a good father, and I dread the prospect of becoming a single mother, so I don't want to lose him. I've tried talking with him about the insults, but he always brushes me off. Is there a way that I can address this to salvage the marriage? Or do you think I should seek the exit?
-
 
 DRAFT_RESPONSE:
 It sounds like you’re in a really difficult and painful situation, and it’s understandable that you want to find a way to preserve your marriage while also protecting yourself and your children. Your husband’s pattern of criticism, insults, and attempts to distort the truth are concerning, especially as they’ve escalated over time and now happen in front of your kids. These behaviors can be damaging not only to you but also to the emotional well-being of your family.
@@ -1528,9 +1294,7 @@ Since you mention that he is a good father and mostly a wonderful man, it’s cl
 
 Ultimately, deciding whether to stay or leave is deeply personal and complex. It’s worth reflecting on whether the relationship can be a source of safety and respect for you moving forward. Protecting yourself and your children emotionally and physically is paramount, and sometimes that means setting firm boundaries or even stepping away if the harmful behavior continues. You don’t have to make this decision alone—lean on trusted friends, family, or professionals who can support you as you navigate this challenging time.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Recognizes the behavior as concerning
@@ -1540,7 +1304,6 @@ STRENGTHS:
 - Mentions impact on children
 
 - Does not rush immediately to “leave”
-
 
 WEAKNESSES:
 - Too hesitant given the severity of the behavior
@@ -1555,7 +1318,6 @@ WEAKNESSES:
 
 - Fails to prioritize the children’s psychological safety strongly enough
 
-
 REVISED_RESPONSE:
 What you’re describing goes well beyond ordinary marital conflict. Persistent criticism, public humiliation, and telling you things you know are false in order to make you doubt your own memory are not quirks or communication issues. They are forms of emotional harm. When this behavior happens in front of your children, it also teaches them damaging lessons about power, truth, and what love looks like.
 
@@ -1566,9 +1328,7 @@ You are right to feel torn. Wanting to preserve your family and avoid single par
 If there is any chance of salvaging this marriage, it will require a firm boundary, not another gentle appeal. That might sound like: “I will not accept being insulted or undermined, especially in front of our children. If this continues, I will take steps to protect myself and them.” This isn’t a threat. It’s a statement of reality. If he is willing to take responsibility and engage seriously in counseling with the explicit goal of changing this behavior, that may be worth exploring. If he isn’t, that tells you something important.
 
 Loving someone does not obligate you to endure ongoing harm. And staying “for the kids” only works if the home is a place of safety and respect. You don’t need to decide everything today. But it is appropriate to stop minimizing what’s happening and start prioritizing your dignity and your children’s emotional health. Those are not negotiable needs.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm engaged to be married to a wonderful man. We met online about a year and a half ago. When he proposed, I was truly over the moon. This has been a fairytale story, except for one major aspect: my extremely religious sister doesn't approve of him. Why? It boils down to the fact that he's divorced. In our religious tradition, if you enter into marriage with somebody, even if the marriage itself was not in this tradition, and you then divorce, our church has to find a reason why the divorce is invalid to permit the person to marry a second time within this church. It's called an annulment. My fiance has been willing to go quite far for my family with regards to religion, including even getting baptized, albeit not in our same denomination. But very reasonably, he's decided not to do an annulment on the grounds that it would be an unacceptable intrusion into his private life. And he's right. We don't need priests digging into his past life.
@@ -1576,7 +1336,6 @@ I'm engaged to be married to a wonderful man. We met online about a year and a h
 But this refusal to do the annulment is a deal-breaker for my sister, who will only attend my wedding if the annulment happens and if my fiance gets baptized into the "right" sect. It's looking like a real possibility that my sister will skip the wedding. I really want her there, and I've tried to explain this to her and get her to understand that even though she may not agree with the wedding or with my choice of a partner, she needs to attend because that's what sisters who love their sisters do. I am politically liberal, but if she were to marry someone who's a huge Trump supporter and conservative, I wouldn't hesitate to attend. (She is single now.) Because again that's what sisters do.
 
 Is there a way that I can approach the topic that I haven't thought of that might help come around to seeing reason, or should I just deal with not having my beloved sister at the wedding? (Oh, and one thing I forgot to mention, I encouraged her to see a priest to discuss this matter in the hope that he would tell her something along the lines of: "Yes, go to the wedding because you love your sister and it's the right thing to do. It's not anything that will undermine your faith or commitment to God." But she won't go, and my husband suspects the reason is because she knows that the priest will probably say something along these lines.)
-
 
 DRAFT_RESPONSE:
 It sounds like you’re in a really tough spot, caught between your sister’s deeply held religious convictions and your own commitment to your fiancé and your future together. Your sister’s stance is clearly rooted in her faith and the rules she follows, and that makes it hard for her to accept your fiancé as he is, especially without the annulment and baptism in her preferred denomination. At the same time, it’s understandable that you want your sister to be part of such an important moment in your life.
@@ -1589,9 +1348,7 @@ Ultimately, though, it’s possible that your sister may not come around, and yo
 
 In the end, you can only control your own actions and feelings, not your sister’s. Holding space for her perspective while standing firm in your own choices might be the most balanced path forward.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Calm and empathetic
@@ -1601,7 +1358,6 @@ STRENGTHS:
 - Encourages acceptance of sister’s choice
 
 - Avoids attacking religion directly
-
 
 WEAKNESSES:
 - Overly deferential to rigid belief
@@ -1616,7 +1372,6 @@ WEAKNESSES:
 
 - Leaves the letter writer emotionally stranded
 
-
 REVISED_RESPONSE:
 This situation hurts because it asks you to choose between two things that matter deeply to you: your sister and your future with the person you love. It’s also painful because you’ve already bent in significant ways, while your sister’s position remains rigid. At some point, compromise stops being mutual and starts becoming coercive.
 
@@ -1629,13 +1384,10 @@ At this point, the most honest approach may be to stop arguing theology and spea
 It’s also important to grieve what you may not get. You can love your sister and still be deeply disappointed by her choice. If she does not attend, that absence will say something about her priorities, not about the legitimacy of your marriage. Surround yourself with people who are able to celebrate your commitment without conditions.
 
 You are not wrong to want your sister’s support. But you are also not wrong to refuse to sacrifice your partner’s dignity in order to secure it. Sometimes the most self-respecting choice is to move forward with joy and let others decide whether they are willing to meet you there.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm on the autism spectrum and my partner is also neurodivergent, albeit differently. This has been a source of connection, but also a source of struggle. For example, they frequently express frustration when I'm not reading their social cues in the way that they expect me to. They also get irritated if I leave the room because they're cooking a certain thing, or if I'm focusing on obsessive interest, as we autists are known for. I do try to communicate my needs to them, and they seem receptive to it. But often it seems like we're getting nowhere. Our brains are wired too differently. Any recommendations on how to bridge the gap?
-
 
 DRAFT_RESPONSE:
 It sounds like you and your partner share a deep understanding of what it means to experience the world through neurodivergent perspectives, which is a meaningful foundation. Yet, as you’ve noticed, even with that shared experience, the ways your minds work can lead to misunderstandings and frustration. This is not uncommon in any relationship, but the particular nuances of neurodivergence can make the gaps feel especially wide or confusing.
@@ -1650,9 +1402,7 @@ Finally, consider whether there are external supports that might help—whether 
 
 Your relationship is clearly important to both of you, and navigating these differences with kindness and curiosity, even when it’s hard, is a testament to that. There may not be a perfect formula, but with time, mutual respect, and some practical adjustments, you can find ways to bridge those gaps that honor both your unique ways of being.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Shows genuine empathy and avoids blame.
@@ -1663,14 +1413,12 @@ STRENGTHS:
 
 - Maintains a calm, respectful tone throughout.
 
-
 WEAKNESSES:
 - Slightly overly explanatory at times, drifting toward conceptual framing rather than editorial clarity.
 
 - Hesitates to name limits with firm moral confidence; it explains why things are hard more than it clarifies what is reasonable.
 
 - Lacks a concrete script or boundary statement the letter writer could actually use.
-
 
 REVISED_RESPONSE:
 What you’re describing is not a failure of effort or goodwill. It’s a collision between two nervous systems that process the world differently, even though both fall under the broad umbrella of neurodivergence. Shared neurodivergence can create deep understanding, but it does not guarantee compatibility in day-to-day functioning. That’s an important distinction, and one that often takes couples a long time to accept.
@@ -1682,9 +1430,7 @@ At the same time, it’s worth naming that your partner’s irritation when you 
 The most important shift here is moving away from the idea that you should “bridge the gap” by trying harder to be different. What you actually need is a shared framework that accepts difference as permanent and designs around it. If these conversations keep looping without progress, working with a counselor who understands neurodivergent relationships may help translate needs into concrete agreements. Not to fix either of you, but to help you build something workable.
 
 Compatibility isn’t about identical wiring. It’s about whether two people can build a life that respects both sets of needs without chronic resentment. That’s the real question to keep in view.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I are both liberal, but most of my family is strongly conservative, as in hardcore Trump-loving conservative. As you can imagine, we've had our share of disagreements, but we've found ways to agree to disagree. We just try not to discuss politics, and we have a rule to never talk to each other on the day of a major election, like the midterms or a presidential election. This has worked reasonably well for us and has managed to keep us in relatively close contact.
@@ -1692,7 +1438,6 @@ My partner and I are both liberal, but most of my family is strongly conservativ
 The problem is that my partner, who's an outspoken activist in our local Democratic Party, refuses to come to family events. He came to our Easter celebration one year and was visibly upset by some of the things my parents said about Trump and immigrants. Even though I 100% agree with my partner that those things were wrong, it's still important for me to spend time with my family. Lately, my partner will make excuses for not coming to family events. He'll say he's too tired or he'll say that it's too long of a drive (they live 3 hours away, but my husband routinely makes drives longer than that for work and to go to his video game conventions.) 
 
 My family has asked why he's not coming, and I have to fudge it or come up with half-true excuses. They're smart people, and they've started to suspect the real reason for his not coming. I've tried to talk to him about it, but again he's always evasive. Should I sit down with him and ask him point-blank to please tell me the truth so we can clear the air? Or should I respect his opinions as a fellow adult and just drop the matter?
-
 
 DRAFT_RESPONSE:
 Your situation reflects a delicate balancing act between honoring your partner’s feelings and maintaining your connection with your family. It’s clear that your partner’s discomfort at family gatherings stems from genuine distress over the political attitudes expressed there, which he finds hurtful and perhaps alienating. At the same time, your desire to spend time with your family is understandable and important to you.
@@ -1707,9 +1452,7 @@ This might mean finding compromises—perhaps attending some events without him,
 
 There may not be a perfect solution here, and some discomfort might remain. But opening the door to candid dialogue, grounded in respect and care, is a step toward clarity. It can help you both understand each other better and decide how to honor your values and relationships moving forward.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Correctly reframes the issue as avoidance and honesty, not ideology.
@@ -1720,14 +1463,12 @@ STRENGTHS:
 
 - Avoids political advocacy while still acknowledging moral discomfort.
 
-
 WEAKNESSES:
 - Stops just short of clear moral adjudication. It explains the problem well but softens the conclusion.
 
 - Lacks a crisp boundary statement that centers the letter writer’s needs as non-negotiable.
 
 - Slightly repetitive in explaining why silence is harmful rather than asserting that it is unacceptable.
-
 
 REVISED_RESPONSE:
 This situation isn’t really about politics. It’s about avoidance, honesty, and the growing strain of carrying someone else’s silence on your back.
@@ -1741,9 +1482,7 @@ Yes, it would be appropriate to sit down with him and ask for a direct conversat
 It’s also important to accept that the likely outcome is not full agreement. He may decide that he simply will not attend certain events. You may decide that maintaining those family ties matters enough to attend alone. That can be workable, but only if it’s named openly and handled as a shared decision rather than an ongoing evasion.
 
 Dropping the matter entirely would not be respectful to you. Respecting your partner’s autonomy does not require you to carry the emotional and social costs of his silence. Clear agreements beat quiet resentment every time.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm going through a nasty divorce. My husband and I were married for about 20 years, and the marriage unraveled for a variety of reasons. Yes, there was infidelity, but that honestly wasn't the biggest part of it. The infidelity was really a symptom rather than a cause of what broke us up. Effectively, we just weren't communicating well, and we realized that we would be happier with other people.
@@ -1751,7 +1490,6 @@ I'm going through a nasty divorce. My husband and I were married for about 20 ye
 The specific problem that I am writing to you about is our families' very different opinions about divorce and their impacts on me. Not to be stereotypical, but my family is from the West Coast, and they have a more relaxed attitude towards things like divorce. Obviously they don't like divorce, but they accept that it's sometimes necessary when a marriage has run its course or otherwise is damaged beyond repair. They're being very compassionate and graceful towards me and even towards him. My soon-to-be ex-husband's family, on the other hand, is much more religious and conservative. They feel that divorce is a sin and that he must stay in the marriage at all costs. Perhaps owing to the fact that their religious tradition is more than a little patriarchal, they've been venting most of their anger on me rather than him. Even though he's the one who cheated. They've been making snide remarks towards me about how I didn't cut it as a wife and mother. And they even called me a few times and half cajoled me, half insulted me into trying to reconsider ending the marriage.
 
 Now I know that after the divorce, I will have less reason to interact with them. But the fact that I have three children with my husband means that they won't be out of our lives entirely. At least until the kids grow up. And that's assuming the children decide to cut ties with them, which is unlikely because our daughter in particular is close to one of her uncles and those cousins. Obviously, once our children become adults, they'll have every right to make their own independent decisions on whether to maintain ties with these soon-to-be former relatives. But I fear that keeping these relatives in our lives for the children's sake is just going to mean that the insults and other poor behavior will continue. How can I respect my children's wishes to choose their own relationship with their in-laws while protecting myself from their vitriol?
-
 
 DRAFT_RESPONSE:
 I'm sorry you're going through such a difficult time. It sounds really painful to be caught between your own family’s support and your soon-to-be ex-husband’s family’s criticism. Navigating family dynamics during a divorce is always complicated, especially when children are involved. Here are some ideas that might help:
@@ -1764,9 +1502,7 @@ I'm sorry you're going through such a difficult time. It sounds really painful t
 
 Remember, it’s okay to prioritize your well-being even as you try to keep peace for the sake of your children. It’s a tough balance, but taking care of yourself is important too.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Correctly identifies scapegoating and gendered blame dynamics.
@@ -1775,14 +1511,12 @@ STRENGTHS:
 
 - Recognizes the distinction between the parent’s dignity and the children’s relationships.
 
-
 WEAKNESSES:
 - Leans noticeably into sociological explanation, which distances it from the reader’s immediate decision-making.
 
 - Provides fewer concrete boundaries or scripts than the situation warrants.
 
 - The tone risks sounding analytical rather than grounded in lived reality.
-
 
 REVISED_RESPONSE:
 What makes this situation especially painful is that you’re being asked to absorb moral judgment and hostility at a moment when you are already navigating loss, change, and responsibility for your children. The fact that your ex-husband’s family is directing their anger at you, rather than at him, is not accidental. In many conservative or patriarchal family systems, blame flows toward the woman who is perceived as having failed in her role, regardless of the facts. That context matters, because it means reasoning with them is unlikely to change their behavior.
@@ -1794,13 +1528,10 @@ A useful distinction here is between your relationship with your former in-laws 
 It may also be necessary, as your children grow older, to help them understand these dynamics in age-appropriate ways. Not by vilifying their relatives, but by modeling that love does not require tolerating mistreatment. That lesson will serve them far beyond this divorce.
 
 You cannot make your ex-husband’s family compassionate or fair. What you can do is decide how much access they have to you, and under what conditions. Drawing those boundaries is not vindictive. It is a form of self-respect, and it teaches your children something vital about how to handle unjust treatment with clarity rather than submission.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm a 37-year-old man, and I live with my long-term partner. No kids. My brother and I are not close. He lives just a 3-hour drive away, and we routinely make drives longer than that for various reasons, but we only see him maybe once every couple of years. And this includes Christmases and Thanksgivings. We are not actively hostile. We get along relatively well, and we have a few things in common. But we really are at the level of at most casual friends. I have co-workers who I'm closer to than my brother. I want to reconcile with him, but I really don't know how. Do you have any strategies for trying to connect with a semi-estranged but not hostile sibling?
-
 
 DRAFT_RESPONSE:
 It sounds like you have a complicated but not outright negative relationship with your brother, which can make reaching out feel both hopeful and uncertain. Since you’re not actively hostile but more distant, a gentle approach might work best. You could start by trying to create more frequent, low-pressure contact—maybe sending a casual message or sharing something that reminded you of him, just to open a line of communication without expectations. Sometimes, small gestures like this can gradually build a bridge.
@@ -1809,9 +1540,7 @@ If you do get a chance to meet in person, consider suggesting an activity you bo
 
 Keep in mind that reconciliation is a two-way street, so it’s important to be patient and open to where things naturally lead. If your brother is receptive, you might find opportunities to deepen your connection over time. If not, it’s also okay to accept the relationship as it is and focus on what feels right for you.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Captures the emotional ambiguity of quiet estrangement very well.
@@ -1822,14 +1551,12 @@ STRENGTHS:
 
 - Uses a tone that feels humane and realistic.
 
-
 WEAKNESSES:
 - Hesitates to articulate the emotional risk of reaching out more clearly.
 
 - Lacks a stronger framing around self-protection if the attempt fails.
 
 - Could more explicitly validate grief alongside hope.
-
 
 REVISED_RESPONSE:
 One of the hardest kinds of estrangement is the quiet, unremarkable kind. There’s no blow-up, no single incident to point to, no obvious villain. Just years of drift, habit, and low expectations. That makes it harder to know how to intervene, because nothing is technically “wrong,” even though something is clearly missing.
@@ -1843,15 +1570,12 @@ After that, pay attention not just to what he says, but to what he does. If he e
 Making the three-hour drive yourself, as you suggested, can be a meaningful gesture, especially if you frame it as wanting to meet him where he is, literally and figuratively. Just be careful not to over-invest emotionally before you know whether the effort is mutual.
 
 Sometimes the most realistic outcome isn’t a close sibling bond, but a warmer, more intentional version of the relationship you already have. That can still be worthwhile. The key is to act from curiosity rather than obligation, and to let his response guide how much of yourself you continue to offer.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm black, and my partner is white. We've been dating for about three years. We get along great, and even though we have a few minor issues, I really see a future with my partner. (If it matters, I'm a woman, and he's a man.) But the problem is his family, particularly his parents. His parents have made it clear that they don't approve of us as a couple. They are polite to me when I interact with them, but reading between the lines, I can see that they're not happy. There's a lot of tension, and my partner reports to me that when I'm not present, they make racist remarks behind my back. This is causing a lot of tension. 
 
 I love my partner and don't want to end this relationship, but I don't think that I can live through decades of hostile relatives. Even though the parents are the worst offenders, some other members of his extended family have expressed similar racist sentiments, so the problem won't end after his parents pass. And I know it's terrible to frame it that way, but the views they expressed are pretty awful, too. We've been talking about getting married, but neither of us has proposed. But given the attitudes of his family, it's hard to envision either a marriage or a long-term, unmarried partnership with him. Is there a way forward for us? Or should I end the relationship now before there's a proposal?
-
 
 DRAFT_RESPONSE:
 Your situation is deeply challenging, and it’s understandable that you’re feeling torn between your love for your partner and the reality of his family’s hostility. It’s a painful position to be in, especially when the people closest to your partner hold views that are hurtful and unacceptable. The fact that your partner shares what his family says behind your back is important—it shows some level of honesty and perhaps discomfort on his part, but it also raises questions about how he is handling the situation.
@@ -1866,9 +1590,7 @@ You might consider having a very candid conversation with your partner about the
 
 Ultimately, there’s no simple answer, and it’s okay to take your time before making any decisions about proposals or marriage. Your feelings and well-being deserve to be at the center of this. Whatever you decide, it’s important that you feel respected, supported, and safe in your relationship.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Clearly empathetic and validating of the letter writer’s pain.
@@ -1876,7 +1598,6 @@ STRENGTHS:
 - Correctly identifies the partner’s response to racism as the central variable.
 
 - Avoids minimizing the harm or suggesting the writer simply “tough it out.”
-
 
 WEAKNESSES:
 - Too cautious and noncommittal given the severity of racism involved.
@@ -1886,9 +1607,6 @@ WEAKNESSES:
 - Lacks concrete boundaries or decision criteria for moving forward.
 
 - Puts too much weight on abstract reflection instead of moral clarity about what a livable future requires.
-
-- Uses the word "deeply", which is a classic LLM tale.
-
 
 REVISED_RESPONSE:
 Racism from a partner’s family is not a “minor relationship challenge.” It is a serious, ongoing harm, and you are right to be thinking about whether you can live with it long-term. Decades of hostility, even when it’s polite on the surface, wear people down. Love alone does not neutralize that.
@@ -1901,15 +1619,12 @@ You might ask him something very direct, such as:
 If his answer centers on discomfort, avoidance, or hoping things will improve with time, that’s important information. It suggests that, in moments of conflict, you may be left carrying the burden alone. If, on the other hand, he is clear that he will challenge them, limit contact if necessary, and put your safety and dignity first, then there may be a path forward, even if it’s a difficult one.
 
 You are not obligated to marry into hostility to prove your commitment. Wanting a future where you are respected is not asking too much. If the price of staying is enduring racism with no meaningful protection from your partner, it is reasonable to walk away before the stakes get higher.
-
 <END_OF_SET>
-
 
 QUESTION:
 My daughter just came out to my husband and me. It happened relatively undramatically. We were all sitting around the kitchen table, eating dinner, and she mentioned that she had something to tell us. She said that her friend, who we will call Chloe, is actually her girlfriend, and that she's been pretty sure that she is gay for some time. She's 16. She says that while she's been attracted to other girls aside from Chloe, Chloe is the first one to actually reciprocate. And she says she's never been attracted to any boys.
 
 My husband and I paused for a moment, not out of disapproval, but because we simply didn't know how to respond. Finally, we both said something about how we love her and that she's glad and that we're glad that she has enough trust in us to confide in us about this. Neither my husband nor I are homophobic. We have both long supported gay rights, and we've both been close to people who are gay. My husband even bought a small pride flag for her room. The problem though is how do we go about actually relating to her? While my husband and I are honestly elated that we won't have to deal with any teen pregnancy scares, we're also unsure about how we as straight people can truly relate to her experiences. We know that, when it comes to dating and relationships, gay and straight people have many things in common, more so than what divides them. But being gay in our still substantially homophobic society is an experience that neither my husband and I have ever known firsthand. Do you have any suggestions or resources on how to connect with her on this?
-
 
 DRAFT_RESPONSE:
 Your openness and love in this moment are a strong foundation for your daughter’s sense of safety and acceptance, which is invaluable. It’s natural to feel uncertain about how to relate to her experience when it’s different from your own, especially given the unique challenges that can come with being gay in a society that still carries prejudice. The fact that you recognize both the common ground in relationships and the distinct realities she may face shows a thoughtful and compassionate approach.
@@ -1922,9 +1637,7 @@ Consider connecting with local or online support groups for parents of LGBTQ+ te
 
 Above all, maintaining your unconditional love and acceptance will be the most meaningful way to relate to her. Your willingness to embrace her identity without judgment creates a space where she can grow into herself with confidence and trust in her family. It’s okay to acknowledge that you don’t have all the answers — your presence, respect, and care are what truly matter.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Warm, affirming, and supportive.
@@ -1933,14 +1646,12 @@ STRENGTHS:
 
 - Encourages listening and education without overstepping.
 
-
 WEAKNESSES:
 - Somewhat generic and cautious.
 
 - Does not fully leverage the parents’ already strong instincts.
 
 - Lacks the columnist’s firmer reassurance and concrete framing.
-
 
 REVISED_RESPONSE:
 About three-quarters of the battle has already been won. Your daughter trusted you with something deeply personal, and you responded with love, acceptance, and steadiness. Sadly, many teenagers don’t get that. She’s very lucky.
@@ -1952,15 +1663,12 @@ Where your experiences diverge is in the social context. Being gay in a still-un
 Be proactive without being intrusive. Initiate conversations, but don’t interrogate. Let her know that you’re open to meeting her girlfriend, that her relationship is welcome in your home, and that you’re available if things get confusing or painful. At the same time, give her room to have her own experiences and make her own mistakes, just as you would with a straight child.
 
 Above all, keep doing what you’re already doing: offering love without conditions, guidance without control, and support without panic. That combination does more to equip a teenager for the world than any perfect set of words ever could.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm 28 years old (female), and my boyfriend is 33. We get along well and he's a great guy, loves me, loves my dog, wants kids, is usually pretty low maintenance. The problem is, well, I suppose a common one. It's a new time and in many cases, women are working and earning more than men. We are a textbook example of this. Although in our case, I am the only one earning anything at all! I just finished grad school last year and I have a really good, promising job in the finance industry. Nothing like those Wolf of Wall Street financiers but still a good, sustainable job. My boyfriend, by contrast, has always been a bit of a dreamer. He dropped out of college once, then finished a couple years later after volunteering in several cities in America and earning very little money. I met him during his second college stint when I was finishing up college myself. We had a period of long distance but long story short, decided it was worth it, stuck out the long distance, and then started living together after he was able to move back to our town. He also got a master's degree somewhere along the way but isn't using it. He says he wants to change the world and has big plans to end world hunger and improve global education.
 
 Part of why I fell in love with him was that idealism. But honestly, the situation is starting to become untenable. As I mentioned, he doesn't work right now. He's in a volunteer gig and he sometimes picks up shifts as an Uber driver. But that's hardly what he went to grad school to do. When I urge him to help pay at least a respectable portion of the rent, he keeps talking to me about how his dreams are so important and how so many people in third-world countries are living so much worse than us. So you shouldn't be complaining. I get and understand that there are lots of people who have it worse off than us. But that's still no excuse in my view for what he's doing. As I alluded to earlier, I'm interested in starting a family soon, but can't imagine doing it with him until he does a 180 with his life. And when I have mentioned kids around him, he seems at best ambivalent. What should I do? Stay or go?
-
 
 DRAFT_RESPONSE:
 Your situation is layered with hope, frustration, and a very real tension between ideals and practical realities. You fell in love with a man whose dreams inspired you, but now those dreams seem to be standing in the way of the partnership you want—one where both people contribute, share responsibilities, and move forward together. It’s important to recognize that love and admiration for someone’s ideals don’t automatically translate into a sustainable relationship, especially when the balance of effort and commitment feels so uneven.
@@ -1975,9 +1683,7 @@ Ultimately, staying or going isn’t about punishing him or giving up on love—
 
 Takeaway: Love is not just about shared dreams—it’s about shared realities. When the gap between the two becomes too wide, the kindest thing you can do for yourself and your partner is to face that truth honestly, and choose the path that honors your needs and your future.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Acknowledges the tension between ideals and practical realities.
@@ -1986,14 +1692,12 @@ STRENGTHS:
 
 - Encourages direct conversation about future alignment.
 
-
 WEAKNESSES:
 - Too hesitant about naming incompatibility when it’s already clear.
 
 - Overemphasizes process when the outcome is likely settled.
 
 - Softens the boyfriend’s deflection rather than calling it what it is.
-
 
 REVISED_RESPONSE:
 I think you’ve probably answered your own question. You’ve raised the issue, and instead of engaging with it, he deflects by invoking his dreams and the suffering of others. That doesn’t make him noble; it makes him unavailable as a partner in the life you want to build.
@@ -2003,26 +1707,20 @@ You have a demanding career and clear goals, including starting a family. He has
 You’ve already invested years in this relationship, and I don’t doubt that there’s real love between you. But love doesn’t erase the consequences of incompatible priorities. Ask yourself honestly: would ending this relationship be more painful than giving up your hope for children, stability, and a partner who pulls his weight?
 
 You’re not wrong for wanting a shared future that includes both ideals and responsibility. If he cannot or will not move toward that, then staying means shrinking your life to accommodate his. Ending the relationship would be heartbreaking, but it may also be the clearest and kindest choice for both of you.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm 27 and my boyfriend is 30; we've been together for three years and living together for 1.5 years. We get along well and are managing financially, but the problem is with his parents. They're in their late 60s, living on limited income (his father is retired from the military, his mother was a teacher until she quit due to osteoarthritis), but despite their modest pensions, they've made extremely inadvisable financial decisions—luxury cruises, expensive restaurants they can't afford. They're emotionally manipulative, constantly playing on the fact that he's their only child to get him to spend money on them and go into debt. He can't seem to resist, and I think part of it is his sense of duty carried over from when he was in the military—he feels he owes his parents for raising him and wants to give back. They're taking advantage of this. I've tried talking to him about this multiple times, but he always says that his duty to his parents supersedes everything else. I love him and don't want to leave, but I also don't want us to go broke because he can't say no to his parents. Is there any hope for us?
 
-
 DRAFT_RESPONSE:
 It sounds like you’re in a tough spot, feeling caught between your love for your boyfriend and the financial strain his parents’ demands are causing. It’s understandable that his sense of duty makes it hard for him to set boundaries with his parents. Many people struggle with balancing family obligations and their own financial well-being. You’ve tried talking to him, which is important, but it might take time for him to see the impact this is having on your relationship. Maybe continuing to have open conversations and gently encouraging him to find a way to support his parents without risking your future together could help. Relationships often require patience and compromise, so there could be hope if you both keep working on this together.
 
-
 SCORE: 4.5
-
 
 STRENGTHS:
 - Recognizes emotional difficulty of the situation.
 
 - Acknowledges family obligation as a real force.
-
 
 WEAKNESSES:
 - Extremely vague and overly neutral.
@@ -2032,7 +1730,6 @@ WEAKNESSES:
 - Offers no boundaries, criteria, or decision framework.
 
 - Minimizes urgency and long-term consequences.
-
 
 REVISED_RESPONSE:
 This isn’t just about money. It’s about whether your boyfriend can separate loyalty from self-destruction and obligation from exploitation.
@@ -2047,13 +1744,10 @@ You might say something like:
 If he cannot imagine setting limits, budgeting help instead of bailouts, or protecting your joint finances, then love alone will not fix this. Going broke together to avoid his parents’ displeasure is not a viable life plan.
 
 There may be hope only if he is willing to confront this pattern directly. If he isn’t, then the most painful truth may also be the clearest one: you are not choosing between love and money. You are choosing between a shared future and one where you are permanently subsidizing someone else’s inability to say no.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband has always been particular about cleanliness, but since he started a high-stress job, it's gotten much worse. When he's on his way home, I can feel my whole body tense up. I rush around cleaning counters, vacuuming, putting away dishes, making sure no toys are out—all before he walks through the door. If anything is out of place when he arrives, he immediately starts straightening and cleaning, often before even saying hello. I've adapted to his standards over the years, and we're both tidy now, but I feel like I'm living under constant pressure to keep things perfect so he doesn't spiral into cleaning mode. Our kids are experiencing the stress too, and it's getting to them. It's exhausting, and I hate that I sometimes dread his return because of the energy shift it brings. We've talked about it many times, but not much has changed. He refuses counseling and says he'll "work on it," but I don't see real progress. How can I support him without losing my peace or turning our home into a stress zone for everyone?
-
 
 DRAFT_RESPONSE:
 It sounds like you’re carrying a heavy emotional load, trying to manage both your husband’s heightened need for order and the ripple effects it has on your own well-being and your children’s sense of calm. Living under that kind of pressure—where the home feels like a minefield of potential triggers—can be deeply wearing, and it’s understandable that you dread the energy shift when he comes home.
@@ -2070,9 +1764,7 @@ At the same time, it’s crucial to honor your own limits. If the current dynami
 
 Ultimately, your home should be a place where all family members feel safe and supported, not just a spotless environment. Balancing your husband’s needs with your own and your children’s well-being is complex, and there may not be a perfect solution. But by focusing on realistic expectations, open dialogue about impact, and protecting your own emotional space, you can begin to shift the dynamic toward something more sustainable and less stressful for everyone.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Accurately conveys the emotional burden on the writer.
@@ -2081,14 +1773,12 @@ STRENGTHS:
 
 - Avoids blaming the writer.
 
-
 WEAKNESSES:
 - Too gentle given the level of disruption.
 
 - Avoids naming the husband’s behavior as a serious problem.
 
 - Lacks firm boundaries and overuses abstract language.
-
 
 REVISED_RESPONSE:
 His anxious behavior is affecting your entire family. The fact that you’re pre-cleaning to avoid triggering him is a sign that his needs have expanded beyond reasonable boundaries. You can’t make him get help, but you can decide how much of your life you’re willing to organize around his anxiety.
@@ -2101,13 +1791,10 @@ Then propose specific, limited changes. For example: he agrees to greet the fami
 But be clear with yourself: these adjustments are temporary at best. If he continues to refuse professional help while his behavior affects you and your children, that refusal becomes a choice with consequences. You are allowed to protect your peace and your children’s emotional safety, even if that makes him uncomfortable.
 
 You’re not asking for perfection. You’re asking for a home that doesn’t feel like a pressure cooker. That’s a reasonable expectation.
-
 <END_OF_SET>
-
 
 QUESTION:
 My wife comes from a large, close-knit family, while I come from a much smaller family. Sometimes it seems like I have lived through "My Big Fat Greek Wedding." But movie references aside, this has resulted in cultural adaptations for both of us. Geography also shapes our interactions with our respective families, especially around the holidays. Her family is mostly local. Most live within an hour's driving radius. By contrast, my family is very spread out. By "spread out", I mean that I need to get on a plane to see three of my four immediate family members. And there's no destination I can go to where I will be within 200 miles of more than one of my immediate family members. As you can imagine, this means we spend most holidays with her family. It just makes logistical sense, especially because traveling over the holidays is such a nightmare. But at the same time, I feel that this is a bit inequitable. I grew up assuming that my wife and I would alternate families to visit for the holidays, as a lot of people do. For instance, we see her family for Thanksgiving, I see hers for Christmas, then do it the reverse the following year. But the distance makes this impractical. I also have limited time off from work, and we like to travel outside of the holidays for leisure purposes as well. How can we heed logistical realities while making things fairer?
-
 
 DRAFT_RESPONSE:
 It sounds like you and your wife are navigating a complex situation where geography, family size, and traditions all intersect, making holiday plans feel more complicated than they might for other couples. It’s understandable that you feel the current arrangement leans more toward her family, especially since spending most holidays with one side can create a sense of imbalance over time.
@@ -2118,9 +1805,7 @@ Another possibility is to explore ways to involve your family in the holidays yo
 
 Ultimately, it’s important to acknowledge that perfect equity might be hard to achieve given the circumstances, but striving for a balance that respects both your needs and feelings is key. Keeping the conversation open and flexible as your lives and work schedules evolve can help you find solutions that feel right for both of you.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Clearly empathetic and nonjudgmental.
@@ -2128,7 +1813,6 @@ STRENGTHS:
 - Correctly identifies that strict holiday alternation may not be realistic.
 
 - Encourages conversation about fairness rather than rigid rules.
-
 
 WEAKNESSES:
 - Overly vague and noncommittal.
@@ -2138,7 +1822,6 @@ WEAKNESSES:
 - Relies on generic “open communication” framing.
 
 - Lacks concrete reframing of fairness beyond logistics.
-
 
 REVISED_RESPONSE:
 Short of a couple or more of your family members moving, there isn't really a way to do it without working around the geography. There are a great many families that can't simply do the one-side-for-Thanksgiving/other-for-Christmas pattern that you mentioned. For instance, some relatives have limited mobility. Some relatives have much smaller houses to support family gatherings than others. And as in your situation, geography is often a major factor. So I'd say the first step for you would be to step back from the script that you've been trying to follow and recognize the diversity of experiences out there. There's no one-size-fits-all model for the holidays.
@@ -2150,13 +1833,10 @@ Instead of trying to force holiday parity, talk with your wife about what would 
 You might say something like, “I understand why we spend most holidays with your family. I’m not trying to upend that. But I also don’t want to slowly lose my connection to my own family. Can we think together about how to protect that?”
 
 These situations are challenging at first, but they are definitely workable. Holidays don't always have to be when the traditional calendar says they should be. And they don't have to follow a particular script. So go enjoy your Festivus or your Pre-Christmas. I am sure they will be as wonderful and memorable as the traditional holidays.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm expecting my first baby in a few months, and I'm struggling with a decision I never thought I'd face. I always assumed I would stay home with my kids, at least during the early years—that's how I was raised. My mom stayed home throughout our entire childhoods. But now that I'm actually pregnant, I realize I don't want to leave my job. I work in HR at a midsize company, and while the work is challenging, it's also predictable and I find it fulfilling. It also doesn't make financial sense right now because I bring in roughly 60% of our family's income—my husband is a schoolteacher. Most of my friends either don't have kids yet or are stay-at-home moms, so I don't have great models for working motherhood. My coworkers who are moms seem frazzled and complain about their kids all the time, which scares me. Is it even possible to be a happy working mom, or am I letting money make a decision for me that should be moral or emotional?
-
 
 DRAFT_RESPONSE:
 What you’re facing is a deeply personal and complex crossroads, and it’s completely understandable to feel unsettled by it. The image you grew up with—your mom staying home—provides a meaningful example, but it’s also just one way of many to approach parenting and work. Your feelings of fulfillment and financial responsibility are important parts of who you are, and they deserve to be honored alongside your hopes and fears about motherhood.
@@ -2169,9 +1849,7 @@ You might find it helpful to seek out a broader range of perspectives—perhaps 
 
 Ultimately, there is no single “right” way to be a mother, and no shame in choosing a path that honors both your professional life and your family’s needs. Trusting yourself to navigate this new chapter with openness and flexibility will serve you well, even when the road feels uncertain.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Warm, validating, and non-alarmist.
@@ -2180,14 +1858,12 @@ STRENGTHS:
 
 - Avoids rigid moral framing.
 
-
 WEAKNESSES:
 - Slightly generic and cautious.
 
 - Does not clearly dismantle the false moral framing of the dilemma.
 
 - Ends without a strong moral landing.
-
 
 REVISED_RESPONSE:
 Yes, it is absolutely possible to be a happy working mother. More importantly, there is nothing morally suspect about wanting to keep a job that you find fulfilling and that materially supports your family.
@@ -2201,13 +1877,10 @@ Instead of asking whether you’re “letting money decide,” ask whether the l
 Give yourself permission to decide provisionally. Many women reassess after the baby arrives. Some scale back, some don’t. That flexibility is a strength, not a failure of conviction.
 
 There is no virtue in martyrdom here. A parent who feels grounded and respected is a better parent than one who gave up a meaningful life out of guilt.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband and I recently discovered that our 17-year-old is depressed and has contemplated suicide. I found out by going through their phone after noticing they seemed "off" and didn't want to talk to me. Our teen feels betrayed and angry that I went through their phone. We took them to their pediatrician for an evaluation, and they refused to talk at all or to consider antidepressant or nonmedical interventions. We went to a therapist twice and they refused to speak at all. I've tried drawing them out, waiting patiently, explaining how suicide cannot be undone and we will get through this together, but nothing seems to get through. They did confirm that there was no event that triggered this—they're just sad. They said talking to their friends helps. But I don't know what to do. I'm barely sleeping and every time they're out of sight I'm wondering if they're okay. I asked if they'd see a different therapist and got completely shut down. How do we continue in this liminal space where our teen is suffering but refusing help?
-
 
 DRAFT_RESPONSE:
 What you’re facing is profoundly painful and disorienting, and it’s clear how deeply you care for your teen. When a young person is struggling with depression and suicidal thoughts, the impulse to protect them can feel overwhelming—and yet, the very acts that come from love, like checking their phone, can fracture trust. Your teen’s anger and sense of betrayal are real and valid, even as your intentions were rooted in concern. This tension between wanting to keep them safe and respecting their autonomy is one of the hardest balances to strike.
@@ -2222,9 +1895,7 @@ If safety becomes an immediate concern—if you believe your teen is at imminent
 
 Takeaway: When a young person is hurting and shutting down, love sometimes means holding space without demands, showing up consistently, and protecting your own well-being so you can be a steady anchor through the storm. The path forward is rarely quick or neat, but your enduring presence is a lifeline.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Strong empathy for the parents’ fear.
@@ -2232,7 +1903,6 @@ STRENGTHS:
 - Acknowledges breach of trust without demonizing the parents.
 
 - Encourages parental self-support.
-
 
 WEAKNESSES:
 - Slips into therapyspeak (“liminal space,” “hold space”).
@@ -2242,7 +1912,6 @@ WEAKNESSES:
 - Overly diffuse and gentle given the seriousness of the risk.
 
 - Avoids firm guidance about safety and parental authority.
-
 
 REVISED_RESPONSE:
 What you’re living with right now is terrifying, and nothing about your reaction is irrational. When a child is depressed and talking about suicide, a parent’s nervous system never fully stands down. That’s not pathology; that’s love under strain.
@@ -2256,13 +1925,10 @@ You might say something like, “I know I broke your trust, and I’m sorry for 
 At the same time, you and your husband should get professional guidance for yourselves, not to diagnose your child, but to help you make grounded decisions in a situation where fear can distort judgment. Looping in the school counselor is also appropriate. This is not a betrayal; it’s building a wider net.
 
 This may be a long, quiet road. Presence, consistency, and safety matter more than eloquence right now. You are not failing because your teen won’t open up. You are parenting in an impossibly hard moment.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm getting married next year and I want to wear my grandmother's wedding gown. She got married in 1970 and her dress is a stunning floor-length fuchsia A-line gown with a square neckline—she hated white as much as I do. My grandmother is having it dry cleaned and says it's still in perfect condition. My future mother-in-law thought it was wonderful that I'd be wearing my grandmother's gown until she saw a picture of it. Now she insists that it couldn't be a wedding gown since brides only wore white back then, even though the picture is clearly of my grandparents on their wedding day. She can't let it go and keeps saying what a mistake it will be to be married in "that dreary old pink dress" and that I'll miss the fun of picking my own special gown. My mom also suggested I wear something more traditional like she did, and offered me her white gown, but I hate it—it's poufy and over the top with tulle and beading. My fiancé says I should wear what makes me happy, which is my grandmother's dress. With both moms objecting, is this a stupid hill to die on?
-
 
 DRAFT_RESPONSE:
 Your grandmother’s gown carries a rare and beautiful kind of meaning—one that goes beyond fabric and style. It’s a tangible link to family history, a statement about your values, and a reflection of your own taste and identity. The fact that it’s not white, and that you both dislike the traditional white dress, is part of what makes it so special. It’s a choice that honors your grandmother’s spirit and your own authenticity.
@@ -2275,9 +1941,7 @@ Your fiancé’s support is a vital anchor here. It’s a reminder that your wed
 
 Choosing to wear your grandmother’s gown is a way of weaving your family’s story into your own, and that is a powerful, beautiful thing. It’s not about being stubborn; it’s about honoring your truth and the love that brought you to this moment. That kind of clarity and courage is the foundation of a marriage worth celebrating.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Clear affirmation of autonomy.
@@ -2286,14 +1950,12 @@ STRENGTHS:
 
 - Correctly centers the couple, not the parents.
 
-
 WEAKNESSES:
 - Slightly combative tone toward the mothers.
 
 - Leans into historical correction rather than emotional framing.
 
 - Risks escalating the conflict unnecessarily.
-
 
 REVISED_RESPONSE:
 No, this is not a stupid hill to die on. It's your wedding, and you should wear what makes you happy. Your future mother-in-law's opinion about what you should wear on your wedding day is just that: an opinion, not a requirement. When somebody tries to take away another person's autonomy and force their own arbitrary choices upon them, it can create profound discomfort and resentment. It can make the person feel like their voice doesn't matter. This is absolutely the right hill to die on, in part because it's a preview of problems that you will face again and again in this family if you don't stand up for yourself early on.
@@ -2306,27 +1968,21 @@ If the pressure continues, your fiancé should take the lead with his mother. Th
 
 This is actually a good test of how you'll handle future boundary issues with your in-laws. If you (or your soon-to-be-husband) give in on something as personal as your wedding dress to avoid conflict, you're setting a pattern of letting them dictate your choices. Set a better precedent: with respect for their opinions, but with firm boundaries about what's yours to decide. Wear the pink dress, and have a beautiful wedding.
 
-P.S.: Kudos to your husband for offering the common-sense opinion of "your wedding, your choice." He sounds like a keeper.
-
+P.S.: Kudos to your husband-to-be for offering the common-sense opinion of "your wedding, your choice." He sounds like a keeper.
 <END_OF_SET>
-
 
 QUESTION:
 My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD and one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
 
-
 DRAFT_RESPONSE:
 It sounds like the competition between you and your brother has been a long-standing part of your relationship, shaped by your upbringing and the ways you both measure success. Wanting to change that dynamic is a positive step, even if it feels challenging. One way to start might be by focusing on shared experiences that don’t revolve around comparison or winning. When you spend time together, you could try to engage in activities that highlight cooperation or simply enjoying each other’s company without keeping score. It might also help to be mindful of your own feelings during these interactions and gently remind yourself that your worth isn’t tied to how you perform against him. Over time, small shifts in how you relate during these moments could open up space for a different kind of connection. It’s understandable that old patterns resurface, but with patience and intention, you might find ways to build a relationship that feels less competitive and more supportive.
 
-
 SCORE: 4.0
-
 
 STRENGTHS:
 - Gentle and nonjudgmental.
 
 - Encourages self-reflection.
-
 
 WEAKNESSES:
 - Extremely vague and generic.
@@ -2336,7 +1992,6 @@ WEAKNESSES:
 - Over-pathologizes normal sibling dynamics.
 
 - Offers no concrete guidance for changing the relationship.
-
 
 REVISED_RESPONSE:
 What you’re describing isn’t unusual for siblings raised in a household where achievement was the main currency of love. Even decades later, those dynamics can snap back into place the moment you’re together, especially in situations that invite comparison.
@@ -2350,15 +2005,12 @@ If you want to name the issue directly, keep it simple and non-accusatory: “I�
 You may also need to accept that some of this work is internal. Your brother’s success doesn’t diminish your own, but unlearning that reflex takes time. The goal isn’t to erase comparison entirely; it’s to stop letting it dictate how close you’re allowed to feel.
 
 Repair here is possible, but it will come from small, deliberate shifts rather than one big conversation.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm a single man in my early thirties. I live alone. I have a decent job and a few good friends, but I feel that there's one giant gap in my life: a woman-shaped gap. I'm a straight man, and I yearn for a partner. In therapy, I often struggle with the shame, frustration, and sense of inadequacy that comes with being a single man, at least for me. My therapist has suggested some useful exercises, such as conducting a mock trial where the defense is defending my being single and the prosecution is advocating for being partnered. This helps, but the core feelings of hollowness, personal failure, and jealousy remain. Every time I see on Facebook that another of my friends or acquaintances is getting engaged, I want to throw up. I feel bad because I should be happy for them, but instead I keep thinking about my own situation.
 
 In terms of meeting people, I've tried all the usual routes: online dating, joining organizations/meetups, even going to bars. I've given each of these a good-faith effort, but nothing has materialized. When I do meet women from online dating sites, there's either a fundamental incompatibility (e.g. they're much more religious than me) or they flake out early on or they're simply not interested after one date. Am I doomed to die alone? How can I come to terms with my singleness in the short term and increase my chances of being in a good relationship in the long term? 
-
 
 DRAFT_RESPONSE:
 Your feelings of emptiness and frustration are deeply human and understandable. The yearning for connection, especially romantic connection, is a powerful part of life, and it’s painful when it feels out of reach. It’s important to acknowledge that your sense of shame and inadequacy, while very real to you, are not objective truths. Being single is not a mark of failure, even if it feels that way in moments of comparison or loneliness.
@@ -2375,9 +2027,7 @@ Finally, remember that being single is not a permanent sentence unless you choos
 
 The moral clarity here is that your longing is valid, but it need not define your self-worth or your life’s narrative. You are whole as you are, and that wholeness is the foundation from which any relationship—romantic or otherwise—can grow.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Compassionate and non-shaming toward the letter writer.
@@ -2387,7 +2037,6 @@ STRENGTHS:
 - Acknowledges both emotional pain and effort already expended.
 
 - Encourages self-worth independent of relationship status.
-
 
 WEAKNESSES:
 - Overuses generic emotional language, including “deeply” and other intensifiers that dilute impact.
@@ -2399,7 +2048,6 @@ WEAKNESSES:
 - Offers many reframes but little structural clarity about what can and cannot be controlled.
 
 - Ending drifts into platitude territory rather than a grounded moral landing.
-
 
 REVISED_RESPONSE:
 You’re describing something very specific and very human: not abstract loneliness, but the ache of wanting a partner and not having one, despite trying. There’s no way to make that painless, and pretending otherwise often makes people feel more isolated rather than less.
@@ -2413,13 +2061,10 @@ As for the practical side: you’re already doing most of what’s within your c
 In the short term, the task isn’t to make peace with being single forever. It’s to loosen the grip of the belief that your life is on hold until someone chooses you. In the long term, the best predictor of a healthy relationship isn’t relentless striving, but staying connected to a life that feels worth sharing when the opportunity arises.
 
 You are not broken for wanting love. And you are not failing because it hasn’t happened yet.
-
 <END_OF_SET>
-
 
 QUESTION:
 My husband and I have been married five years and we have two young children. My husband's job requires him to travel frequently—he's gone about two weeks out of every month. When he's home, he's often exhausted and wants to relax, which means I'm still doing most of the childcare and household management even when he's here. I work full-time too, and I'm burning out. I've tried talking to him about it, but he says his job is demanding and he needs downtime when he's home. I understand that, but I also need a break, and I feel like I'm doing everything alone. We can't afford for him to change jobs right now, but something has to give. How do we find balance when his career requires so much travel?
-
 
 DRAFT_RESPONSE:
 Your situation is one many parents face, and it’s deeply challenging to carry the weight of both work and home life without feeling seen or supported. Your husband’s demanding job and need for rest are real, but so is your exhaustion and the unfair burden you’re shouldering. This isn’t about who works harder or deserves more downtime—it’s about partnership and shared responsibility, especially when children and a household depend on both of you.
@@ -2432,9 +2077,7 @@ It’s important to acknowledge that your husband’s need for downtime is valid
 
 Ultimately, balance in a marriage where one partner travels extensively is not about perfect equality every day but about mutual respect and intentional effort to support each other’s needs. You deserve to be heard and helped, not just understood. When rest and responsibility are fairly distributed, your partnership can withstand the strain of demanding careers and parenting. If that balance feels impossible now, it’s a signal to keep pushing for change—because enduring this alone is neither sustainable nor fair.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Clearly validates the letter writer’s exhaustion.
@@ -2443,14 +2086,12 @@ STRENGTHS:
 
 - Encourages specificity rather than vague complaints.
 
-
 WEAKNESSES:
 - Uses familiar LLM phrasing and emotional generalities.
 
 - Over-explains fairness instead of firmly naming inequity.
 
 - Slight tendency to soften the husband’s responsibility by emphasizing mutual stress.
-
 
 REVISED_RESPONSE:
 You’re not upset because your husband travels. You’re upset because when he’s home, the workload still isn’t shared in a way that allows you to recover. That distinction matters.
@@ -2465,13 +2106,10 @@ From there, get specific. If he needs decompression time, fine. But it should be
 You should also talk honestly about how long this arrangement is expected to last. If this level of travel is temporary, you can treat it as a strain you’re jointly managing. If it’s indefinite, then you’re not just asking for tweaks. You’re deciding whether this is a life you can live in the long run.
 
 Burnout isn’t a personal failing. It’s a signal that the system you’re in needs adjustment. A partnership that survives demanding careers does so because both people are willing to rebalance when one person is carrying too much.
-
 <END_OF_SET>
-
 
 QUESTION:
 I'm the mother of two kids, a son age 15 and a daughter age 13. My son has expressed a strong interest in being a physician, a goal that I support because he has a genuine love for medicine—he's been interested in it from a very young age and has loved his hospital shadowing experiences. The problem is that he's so focused on school and grades that he isn't doing any extracurriculars. I worry that now that he's in high school, not having extracurriculars will hurt his chances of getting into a good college and eventually medical school, even if he maintains his excellent grades. I don't like the "extracurricular arms race" that high school has become, but I recognize we have to work within the system as it exists. I've repeatedly encouraged him to find an extracurricular he likes, even suggesting the Science Club since science is his favorite subject, but he always says he's focused on schoolwork and that Science Club would be redundant since he already studies science outside of school. I want him to forge his own path, but I also don't want him to make choices that could hurt his chances of getting into medical school or another professional or graduate school. How can I strike a balance between providing sound parental advice and giving him the autonomy he needs to make his own choices?
-
 
 DRAFT_RESPONSE:
 Your concern is both understandable and deeply caring. You want to support your son’s passion for medicine while also helping him navigate the realities of college admissions, which often value a well-rounded profile. The tension between honoring his autonomy and guiding him through a system that rewards more than just grades is a delicate one.
@@ -2488,9 +2126,7 @@ Ultimately, your son’s path will be his own, and your role is to provide a ste
 
 In the end, the most important thing is that he learns to make decisions grounded in both self-awareness and a realistic understanding of the world he’s entering. That kind of wisdom will serve him far beyond any application form.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Thoughtful and supportive of both parental concern and child autonomy.
@@ -2499,14 +2135,12 @@ STRENGTHS:
 
 - Encourages reframing extracurriculars as growth rather than résumé padding.
 
-
 WEAKNESSES:
 - Overlong and somewhat repetitive.
 
 - Uses generalized admissions logic instead of prioritizing decision clarity.
 
 - Misses an opportunity to normalize a narrower but intentional path.
-
 
 REVISED_RESPONSE:
 I agree with you about the extracurricular arms race: it's unfortunate that these activities have too often become boxes to check rather than enriching experiences, but you're right that we need to work within the system. I would also add that the system still rewards participation beyond grades. Both can be true at the same time.
@@ -2524,13 +2158,10 @@ Also remember that the fact that your son is a teenager means that he's in a dev
 Autonomy doesn’t mean lack of guidance; it means having information and support while retaining agency. If he later decides to add an outside-of-school activity to his life grade, great. If he doesn’t, he’ll still be making a conscious decision rather than a blind one.
 
 Your job isn’t to optimize his résumé. It’s to help him understand the terrain well enough to choose his own path through it.
-
 <END_OF_SET>
-
 
 QUESTION:
 My wife and I have been married for eight years, and we have a good relationship overall. But there's one recurring issue: she's very close with her group of college friends, and they have a group chat where they're constantly messaging. The problem is that they often share very personal details about their lives, including things about their relationships and sex lives. My wife participates in these conversations and sometimes shares details about our relationship that I'm not comfortable with. When I've asked her to keep our private life private, she says I'm being too sensitive and that this is just how her friend group communicates. But I feel like my privacy is being violated, and I don't want our intimate details discussed in a group chat. How do we resolve this?
-
 
 DRAFT_RESPONSE:
 It’s clear that you value the privacy of your relationship deeply, and that’s a completely reasonable and important boundary to have. At the same time, your wife’s connection with her friends and the way they communicate is a significant part of her social life, and it sounds like this group chat is a space where she feels comfortable sharing and connecting. The tension arises because these two needs—your desire for privacy and her desire for openness with her friends—are coming into conflict.
@@ -2545,9 +2176,7 @@ If this feels difficult to navigate on your own, it can be helpful to set aside 
 
 If the pattern persists and your concerns continue to be minimized, it’s worth reflecting on how this dynamic affects your trust and emotional safety in the relationship. Your feelings deserve to be taken seriously, and a healthy partnership involves mutual respect for each other’s boundaries—even when they require some adjustment or discomfort.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Validates the letter writer’s discomfort.
@@ -2556,14 +2185,12 @@ STRENGTHS:
 
 - Encourages dialogue rather than ultimatums.
 
-
 WEAKNESSES:
 - Overuses balancing language that blurs the boundary violation.
 
 - Minimizes the seriousness of repeated dismissal (“too sensitive”).
 
 - Slips toward therapyspeak and generic conflict-resolution framing.
-
 
 REVISED_RESPONSE:
 Your feelings are completely valid: you have a right to privacy in your relationship, and your wife sharing intimate details about your life without your consent is a boundary violation. The fact that she's dismissing your concerns as being "too sensitive" is also problematic. Your comfort level matters, and a good partner should respect that, even if they don't fully understand it.
@@ -2575,13 +2202,10 @@ You need to have a clear conversation about boundaries: "I understand that your 
 If she continues to dismiss your concerns or refuses to change her behavior, that's a bigger issue. It suggests she doesn't respect your boundaries or your right to privacy. You might need to consider couples counseling to work through this, because trust and respect for boundaries are fundamental to a healthy relationship. Your wife's friendships are important, but they shouldn't come at the expense of your comfort and privacy in your own marriage.
 
 A marriage can survive differing social styles. It can’t thrive when one partner’s boundaries are repeatedly dismissed. This is worth taking seriously now, before resentment sets in deeper.
-
 <END_OF_SET>
-
 
 QUESTION:
 My girlfriend and I have been together for two years, and we're both in our late 20s. She just got offered her dream job, but it's in a city about 500 miles away. She wants to take it, and she's asked me to move with her. I have a good job here that I enjoy, my family lives nearby, and I've built a life in this city. I love her and I want to support her career, but I'm not sure I'm ready to uproot my entire life. She's hurt that I'm hesitating and says it shows I'm not committed to our future. How do we figure this out?
-
 
 DRAFT_RESPONSE:
 Your girlfriend’s dream job is a big deal, and it’s natural she wants you by her side. But your hesitation isn’t a sign of a lack of commitment—it’s a reflection of the very real sacrifices and upheavals involved in moving across the country. Commitment doesn’t mean abandoning your own life and values on a whim; it means wrestling honestly with what you’re willing and able to give up, and what you need to preserve.
@@ -2594,9 +2218,7 @@ If she insists that your reluctance means you’re not committed, that’s a red
 
 This moment is a test of whether your relationship can handle complexity and compromise, or if it demands a kind of allegiance that erases individual needs. Supporting someone doesn’t mean losing yourself. If you can’t find a way forward that respects both your lives, it’s better to acknowledge that now than to build a future on resentment or unspoken sacrifices.
 
-
 SCORE: 8.0
-
 
 STRENGTHS:
 - Demonstrates solid moral clarity without shaming either partner.
@@ -2609,7 +2231,6 @@ STRENGTHS:
 
 - Maintains a calm, humane tone throughout.
 
-
 WEAKNESSES:
 - Slight overuse of abstract framing (“test of whether your relationship can handle complexity”) that softens the moral landing.
 
@@ -2619,7 +2240,6 @@ WEAKNESSES:
 
 - Could be slightly more decisive in validating the letter writer’s right to say no without apology.
 
-
 REVISED_RESPONSE:
 This is a major life decision, and it deserves honest conversation rather than guilt or pressure. Your girlfriend’s excitement and disappointment are understandable. A dream job matters. But moving 500 miles for a partner is a serious ask, not a simple gesture of loyalty, and it’s reasonable to take that request seriously instead of rushing to prove commitment.
 
@@ -2628,13 +2248,10 @@ The core issue here isn’t just geography. It’s whether you’re allowed to w
 You might say something like: “I’m proud of you and I want to support what you’re building. But moving would mean giving up a lot of what anchors my life right now. I need us to talk honestly about whether there’s a path forward that respects both of us, not just one of us making a sacrifice.”
 
 If she continues to frame your hesitation as a referendum on your commitment, that’s worth paying attention to. Healthy partnerships leave room for deliberation around life-altering decisions. They don’t turn them into loyalty tests. This moment isn’t about proving love. It’s about figuring out whether your visions of a shared future genuinely align, or whether they’re beginning to pull in different directions. Either answer is painful, but clarity now is far kinder than resentment later.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I have been together for three years, and we're talking about moving in together. The issue is pets. I have two cats that I've had for years, and they're like family to me. My partner is allergic to cats and doesn't really like them anyway. They've suggested I rehome my cats before we move in together, but I can't imagine giving them up. My partner says it's not fair to expect them to live with animals they're allergic to and don't want, but I feel like asking me to give up my pets is asking me to give up part of my family. How do we resolve this?
-
 
 DRAFT_RESPONSE:
 This is a crossroads where love and loyalty collide, and it’s clear your partner’s allergy and discomfort with cats is not a trivial matter, but neither is your bond with your pets. Your cats are not just animals; they’re part of your life’s fabric, and asking you to rehome them is asking you to sever a meaningful relationship. That’s a heavy request, and it’s reasonable for you to resist it.
@@ -2649,9 +2266,7 @@ If your partner remains unwilling to accommodate your cats or explore compromise
 
 Ultimately, love isn’t about erasing what makes us whole. It’s about finding ways to hold each other’s realities without asking for impossible sacrifices. If you can’t find a way to live together that honors both your partner’s health and your cats’ place in your life, it’s worth questioning whether cohabitation is the right next step. Your cats are family, and any partner who truly respects you will see that, not as an obstacle, but as part of the package.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Validates both sides’ stated concerns.
@@ -2661,7 +2276,6 @@ STRENGTHS:
 - Attempts to explore compromise rather than defaulting to extremes.
 
 - Avoids overt therapyspeak.
-
 
 WEAKNESSES:
 - Equivocates way too much! Doesn't recognize the fundamental incompatibility of the partners or how the letter writer's partner's inflexible attitude realistically means there's little chance for their relationship to work, at least if the letter writer is to retain their integrity and their very meaningful relationships with their cats.
@@ -2674,7 +2288,6 @@ WEAKNESSES:
 
 - Ends without sufficient moral clarity.
 
-
 REVISED_RESPONSE:
 This is a fundamental incompatibility that needs to be faced honestly before you move in together. Your partner is right that it’s not fair to expect someone to live with animals they’re allergic to. But you’re also right that asking you to rehome pets you’ve had for years is not a neutral compromise. It’s a demand that asks you to give up a relationship that matters deeply to you. In my view, that makes it a deal-breaker unless something genuinely changes.
 
@@ -2683,13 +2296,10 @@ Before drawing that conclusion, it’s worth clarifying the allergy question. Ha
 More broadly, this isn’t just about allergies. You see your cats as family. Your partner “doesn’t really like them anyway.” Even if the allergy could be managed, that mismatch matters. Big decisions built on wishful thinking tend to fail quietly and painfully. One partner feels coerced; the other feels blamed for asking.
 
 Sometimes the most respectful choice is to admit that love alone doesn’t bridge every gap. Living separately or ending the relationship may be far more humane than forcing one of you to sacrifice something fundamental. Compatibility isn’t about who’s right. It’s about whether the life you’re trying to build allows both people to keep their integrity.
-
 <END_OF_SET>
-
 
 QUESTION:
 My younger sister has taken up this strange new habit of commenting on my appearance every time we see each other. It’s always framed as concern about my health or “just trying to be honest,” but the comments land hard and linger with me for days. I’ve already tried gently telling her that these remarks don’t feel supportive, yet she insists she’s doing it out of love and that I’m being overly sensitive. I’m starting to dread family gatherings because I never know what she’ll say next. She isn’t trying to be cruel, but the pattern is wearing me down. How do I set a boundary she will actually respect?
-
 
 DRAFT_RESPONSE:
 Your sister’s “concern” about your appearance isn’t just a quirk or a misguided attempt at honesty—it’s a boundary violation dressed up as care. When someone repeatedly makes comments that cause discomfort, regardless of their intent, it’s not a matter of sensitivity on your part but of respect on theirs. You’ve already tried the gentle approach, and it’s clear she’s not hearing you. That means it’s time to be firmer and more explicit about what you will and won’t accept.
@@ -2700,9 +2310,7 @@ If she continues, you have every right to limit your exposure to her comments. T
 
 The core issue here is respect for your autonomy and feelings. Love doesn’t look like repeated criticism disguised as concern. It looks like honoring the boundaries someone sets, even when it’s uncomfortable. Your sister’s insistence on “honesty” at your expense is a form of control, not care. You don’t have to accept that dynamic, and setting a firm boundary is the clearest way to reclaim your space and peace.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Correctly identifies the behavior as a boundary violation.
@@ -2715,7 +2323,6 @@ STRENGTHS:
 
 - Emphasizes follow-through, not just verbal boundaries.
 
-
 WEAKNESSES:
 - Overly confident labeling (“form of control”) risks escalation.
 
@@ -2724,7 +2331,6 @@ WEAKNESSES:
 - Misses an opportunity to frame the boundary as informational rather than punitive.
 
 - Slightly heavy-handed in tone for a family context.
-
 
 REVISED_RESPONSE:
 First, it’s worth noticing that you describe this as a relatively new pattern. That doesn’t excuse the behavior, but it may help you understand it. You could start by asking, calmly and privately, whether something has changed for her that’s prompting these comments. That conversation may not resolve the issue, but it can clarify whether this is anxiety, projection, or simply a habit she hasn’t examined.
@@ -2736,9 +2342,7 @@ The next step is to remove the debate entirely. Instead of asking her to see thi
 Then follow through consistently. If she comments again, disengage immediately. Change rooms. Leave early. Keep it brief and predictable. This isn’t punishment. It’s information. Some people only adjust their behavior once they understand that certain topics reliably end the interaction.
 
 Love doesn’t require tolerating repeated discomfort. If she wants closeness, she has to participate in it respectfully. Protecting your well-being is not overreacting. It’s the minimum standard for an adult relationship.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I are friends with two other couples. The six of us have been close for over a decade, or so I thought. 
@@ -2747,7 +2351,6 @@ Before one couple got married last year, the other woman hosted a bachelorette p
 Both grooms are entitled to invite whomever they want to their bachelor parties. I know that. And, of course, the male partners do not all have to be as close to one another as the three women are. But I really don't get the bachelor party thing because, when we are all together, my partner very much seems to be part of the guys' close circle. They've known him around the same amount of time they've known each other.
 
 At this point, it's not about the invite as much as whether there's something I don't know that explains why they're not including my partner. I'm hurt, but I'm also just baffled: Of the six of us, why is he the only one left out of things?
-
 
 DRAFT_RESPONSE:
 It’s understandable that you feel hurt and confused by your partner being excluded from the bachelor parties, especially given the long-standing friendship among all six of you. When a close-knit group starts to show signs of division or exclusion, it naturally raises questions and stirs feelings of uncertainty.
@@ -2762,9 +2365,7 @@ At the same time, it’s important to prepare for the possibility that you might
 
 Your feelings are valid, and it’s okay to seek understanding. But also remember that your partner’s value and your relationship aren’t defined by these invitations. How you both navigate this together—whether by addressing it directly, accepting the situation, or reconsidering the closeness of these friendships—will be what truly matters in the long run.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - It correctly validates the letter writer’s feelings of confusion and hurt without dismissing them.
@@ -2774,7 +2375,6 @@ STRENGTHS:
 - It acknowledges the social reality that invitations are discretionary while still recognizing that patterns of exclusion matter.
 
 - It suggests direct communication as a way to gain clarity, which is appropriate in principle.
-
 
 WEAKNESSES:
 - Excessive hedging and equivocation. The response repeatedly softens its own conclusions (“might,” “could be,” “it’s possible”) to the point that it avoids taking a clear stance.
@@ -2788,7 +2388,6 @@ WEAKNESSES:
 - Emotional flattening. The response treats the situation as abstract group dynamics rather than as something that reasonably calls into question how close or reciprocal these friendships really are.
 
 - LLM tic: The final paragraph drifts into generic reassurance about “what truly matters in the long run,” which is a classic high-level wrap-up that doesn’t add substance.
-
 
 REVISED_RESPONSE:
 What’s bothering you here isn’t etiquette. It’s pattern.
@@ -2805,13 +2404,10 @@ That conversation may confirm your fears, or it may reveal a benign explanation.
 If it turns out that your partner simply isn’t regarded as part of that inner circle, the task then becomes adjusting your expectations. You don’t need to confront anyone or blow up the friendships, but you also don’t have to pretend the group is something it isn’t. Longstanding friendships sometimes evolve unevenly, and noticing that isn’t petty or disloyal. It’s honest.
 
 The key is this: you’re not wrong to pay attention to patterns, and you’re not obligated to minimize something that feels exclusionary just to keep the peace.
-
 <END_OF_SET>
-
 
 QUESTION:
 One of my coworkers is very friendly and has made a point of inviting me to various after-work activities. I’ve turned down the invitations every time, partly because I’m introverted and partly because I like keeping a clear line between my work life and my personal time. He never gets pushy or inappropriate, but he is persistent. Even after several polite nos, he keeps asking as though I might suddenly change my mind. I don’t want to embarrass him or make things awkward at work, but I also don’t want to spend the rest of the year repeating myself. How can I shut this down kindly but firmly?
-
 
 DRAFT_RESPONSE:
 It sounds like you value your boundaries and want to maintain a comfortable, professional relationship with your coworker, which is entirely reasonable. His persistence, even if well-intentioned, is putting you in a difficult spot where you feel pressured to keep declining, and that can be exhausting.
@@ -2822,9 +2418,7 @@ If he continues to ask, you can gently but more directly reiterate your position
 
 Remember, you don’t owe anyone your personal time, and maintaining your boundaries is a form of self-respect that benefits both you and your workplace dynamic. It’s okay if this feels a bit awkward at first; over time, your coworker will likely come to accept your preference and respect it.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Clearly affirms the writer’s right to boundaries.
@@ -2834,7 +2428,6 @@ STRENGTHS:
 - Avoids therapyspeak and diagnosis.
 
 - Tone is polite and professional.
-
 
 WEAKNESSES:
 - Overly padded with reassurance.
@@ -2846,7 +2439,6 @@ WEAKNESSES:
 - Fails to explain why polite refusals haven’t worked.
 
 - Ends with generalized reassurance rather than authority.
-
 
 REVISED_RESPONSE:
 When polite refusals don’t work, it usually means the other person is interpreting them as situational rather than final. In other words, he’s hearing “not this time” instead of “this isn’t something I do.”
@@ -2866,9 +2458,7 @@ No apologies. No explanations. Repetition without emotional padding is often the
 Only if he continues after that does this become a workplace issue rather than a social one, at which point HR may be appropriate. But most people adjust once they understand the boundary is real.
 
 Handled this way, the working relationship doesn’t need to suffer. In fact, many people find clarity easier to respect than endless politeness that quietly breeds resentment.
-
 <END_OF_SET>
-
 
 QUESTION:
 I was very fortunate that my parents raised me to appreciate simplicity and avoid greed and excess.
@@ -2883,7 +2473,6 @@ I love her and don’t want to break up, but I’d hate to marry and raise child
 
 It seems like a sore subject, and I don’t want to harp on it, but I do need some reassurance. How should I ask about this?
 
-
 DRAFT_RESPONSE:
 It’s clear you deeply value simplicity and have been shaped by a meaningful set of principles around consumption and lifestyle. Your concern about how your girlfriend’s family’s habits might influence her future choices is understandable, especially as you imagine a shared life together. At the same time, it’s important to recognize that people often differentiate themselves from their families in significant ways, even when those families have very different values or habits.
 
@@ -2893,9 +2482,7 @@ This kind of dialogue can open space for mutual understanding without putting he
 
 Ultimately, the question is about compatibility and shared vision, not about judging her family’s choices. If you can both speak openly about what matters most to you in your life together, you’ll gain clarity about whether your values align in a way that feels sustainable and respectful. It’s okay to acknowledge that this is a tricky subject, and it may take time and patience to explore it without conflict. Your desire to understand and be understood is a good foundation to build on.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Encourages discussion of shared values rather than direct confrontation.
@@ -2904,7 +2491,6 @@ STRENGTHS:
 
 - Acknowledges sensitivity around family loyalty.
 
-
 WEAKNESSES:
 - The response does not call out the letter writer for their own blind spots. For example, for being judgmental towards his girlfriend's family. 
 - The letter is way too equivocal in its response. It also fails to acknowledge nuance. For instance, the letter writer dismisses his girlfriend's family as having a "toxic lifestyle" when in fact the reasons for their supposed excesses may be things like cultural tradition or maybe one or both of the parents was raised in poverty and wants to make sure that their children got everything that they needed and they may have lovingly overcompensated. The letter seems to suppose a moral equivalence between the letter writer and his girlfriend, when in reality the letter writer is being extremely judgmental and is probably ill-informed about the full picture.
@@ -2912,7 +2498,6 @@ WEAKNESSES:
 - Fails to challenge the letter writer’s framing or assumptions.
 - Overuses soft language (“might help,” “could gently ask”) to the point of evasiveness.
 - Feels more like mediation than advice.
-
 
 REVISED_RESPONSE:
 Right now, the problem isn’t your girlfriend’s family. It’s the way you’re talking about them.
@@ -2931,15 +2516,12 @@ That invites her perspective without demanding she repudiate her parents.
 If it turns out that she does aspire to a very different lifestyle, that’s important information. But you won’t get honest answers by leading with judgment. Compatibility is about shared direction, not moral superiority.
 
 If you want reassurance, earn it by approaching this with humility rather than verdicts.
-
 <END_OF_SET>
-
 
 QUESTION:
 I've been married for a few years. My wife and I are mostly open with each other about things. But I have one thing that I haven't told her about. I watch porn. It's always from mainstream sites. Never underage porn. And I never interact with any of the performers directly, a la OnlyFans. I usually do it when I'm sleeping in the other room for various reasons, or sometimes when she goes out for a while. I feel guilty about this, but at the same time, I also feel like it's important to me since our libidos are mismatched. My libido is significantly higher than hers.
 
 I feel that this is a better solution to the libido problem than actually going out and having an affair, but part of me feels this is still cheating because after all, I am deliberately getting sexually stimulated by other women's bodies. Is this cheating? What's your verdict on this?
-
 
 DRAFT_RESPONSE:
 Your question touches on a deeply personal and often complex area of relationships—how to navigate differences in sexual desire and the boundaries around individual behaviors like watching pornography. It’s clear you’ve thought carefully about your actions and their impact on your marriage, which is an important starting point.
@@ -2954,9 +2536,7 @@ Ultimately, the question of whether watching porn is cheating isn’t just about
 
 In the meantime, be gentle with yourself as you navigate these feelings. Sexual desire is a natural part of being human, and finding a path that honors both your needs and your commitment to your wife is a delicate balance. There’s no perfect answer, but your willingness to reflect on this thoughtfully is a meaningful step.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Maintains a non-hysterical, non-shaming tone around porn.
@@ -2966,7 +2546,6 @@ STRENGTHS:
 - Identifies secrecy and guilt as more destabilizing than porn use itself.
 
 - Encourages communication instead of defaulting to either confession panic or concealment.
-
 
 WEAKNESSES:
 - Too “therapy-office” in cadence and phrasing. Expressions like “deeply personal,” “worth reflecting on,” and “deeply healing” feel templated rather than deliberate.
@@ -2980,7 +2559,6 @@ WEAKNESSES:
 - The suggestion of counseling feels premature and somewhat evasive, given that the core issue is boundaries and trust rather than pathology.
 
 - Does not meaningfully engage the ethical discomfort raised by the letter writer about sexual attention being directed toward other people’s bodies.
-
 
 REVISED_RESPONSE:
 You’re asking two different questions at once: “Is porn cheating?” and “Am I doing something in secret that would hurt my spouse if she knew?” The second question is usually the one that matters.
@@ -3008,13 +2586,10 @@ Then stop talking and listen. If she says, “Absolutely not,” you have your a
 One more thing: do not let porn become the substitute for intimacy conversations you are avoiding. A libido mismatch is common, but it still needs daylight. That might mean scheduling sex, broadening what “sex” includes, making room for affection that does not feel like a demand, and yes, sometimes accepting that one partner masturbates. None of that requires shame. It does require honesty.
 
 You’re not asking because you want permission. You’re asking because you can feel the trust issue lurking underneath. Take that seriously now, while it’s still fixable.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I recently merged our finances, and we’re discovering that we have very different spending habits. I’m frugal and tend to think months ahead. He’s more spontaneous and comfortable with impulse purchases. Neither of us is reckless, but the mismatch has caused a few tense conversations about what counts as “necessary,” and I can feel resentment creeping in. How do we navigate this without turning every purchase into a referendum on our values?
-
 
 DRAFT_RESPONSE:
 It’s a common and understandable challenge when two people with different approaches to money come together, especially when finances become shared. Money often carries emotional weight and can symbolize deeper values, security, and trust, so it’s no surprise that differing spending habits can stir tension.
@@ -3029,9 +2604,7 @@ Finally, be mindful of the emotional undercurrents. If resentment is creeping in
 
 Navigating financial differences is rarely seamless, but with patience, respect, and a bit of compromise, you can build a shared approach that reflects both your values without turning every purchase into a battleground.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Calm and even-handed tone that avoids shaming either partner.
@@ -3041,7 +2614,6 @@ STRENGTHS:
 - Offers a practical structural suggestion (discretionary spending bucket).
 
 - Acknowledges resentment early rather than minimizing it.
-
 
 WEAKNESSES:
 - Leans too heavily on balance and neutrality, which slightly blurs moral clarity.
@@ -3053,7 +2625,6 @@ WEAKNESSES:
 - No clear boundary-setting language or script that names what must change.
 
 - Ending is vague and platitudinal rather than decisive.
-
 
 REVISED_RESPONSE:
 Money fights feel small on the surface, but they tend to grow quickly because they tap into much deeper fears: safety, autonomy, and whether you can trust the person next to you. The resentment you’re noticing isn’t a personal failure. It’s a signal that the current setup isn’t working.
@@ -3067,15 +2638,12 @@ You might say something like: “I’m noticing that I’m starting to feel rese
 If even modest purchases are turning into debates about values, that’s a sign the boundaries are too fuzzy. Clear rules lower the emotional temperature.
 
 Finally, don’t treat this as a one-time fix. Revisit the system periodically and ask a simple question: “Is this still working for both of us?” You’re not trying to win an argument about money. You’re trying to build a financial structure that lets both of you breathe.
-
 <END_OF_SET>
-
 
 QUESTION:
 I feel that I'm a walking, breathing cliche. I'm a 54-year-old woman whose similarly-aged husband cheated on me with his 24-year-old secretary. It's really the oldest story on God's green earth. I naively took him at his word when he told me that he was working late on Monday and Wednesday evenings. He told me that he had a big project to finish up, and his boss had laid off his assistant, so he was forced to do two people's jobs. Thus, he had to spend many hours at work outside of the workday to get it all done. 
 
 Imagine my surprise when my best friend told me that she had seen my husband and a much younger woman out at a nice restaurant after working hours while my friend was on a date there! I confronted him, and after initial predictable denials, he confessed. He told me she made him feel young and wanted. Again, you can find countless examples of this story down to the small details. But now that I'm reeling from this betrayal, I'm wondering whether to stay or to leave him. He has always been a good husband and provider, and I believe him when he told me that he hasn't slept with anybody outside of the marriage except for the secretary. He swore to me he would change. However, a couple of weeks ago, after we tried to reconcile, my friend once again saw him out with his girlfriend at the same restaurant. (He could have at least been smart about it and gone to a different restaurant with her.) Clearly he hasn't ended things with her. He has many good qualities, but I don't know if I can forgive him for this. Should I stay or should I go?
-
 
 DRAFT_RESPONSE:
 What you’re facing is profoundly painful and confusing, and it’s completely natural to feel torn between the history you share with your husband and the fresh wounds his actions have caused. The pattern you describe—his initial denial, confession, promises to change, and then continued secret meetings—speaks to a breach of trust that goes beyond a single mistake. Trust, once broken, is difficult to rebuild, especially when the behavior that caused the hurt persists.
@@ -3090,9 +2658,7 @@ Ultimately, your well-being and dignity deserve to be at the center of this deci
 
 Take your time, lean on trusted friends or confidants, and trust your own judgment about what feels right for you. Your feelings are valid, and your life ahead deserves honesty and care—both from yourself and from those you choose to share it with.
 
-
 SCORE: 7.0
-
 
 STRENGTHS:
 - Accurately identifies the repeated pattern of deceit.
@@ -3102,7 +2668,6 @@ STRENGTHS:
 - Centers dignity and self-respect.
 
 - Avoids overt moralizing language.
-
 
 WEAKNESSES:
 - Excessively cautious and non-directive for the severity of the situation.
@@ -3114,7 +2679,6 @@ WEAKNESSES:
 - Fails to provide a clear framework for decision-making.
 
 - Typical LLM pattern of ending with vague reassurance rather than moral clarity.
-
 
 REVISED_RESPONSE:
 I’m sorry you’re going through this. What you’re describing isn’t a single lapse in judgment. It’s a sustained pattern of deception that has continued even after confrontation and promises to stop.
@@ -3128,20 +2692,15 @@ You’re allowed to weigh the years you’ve shared and the life you’ve built.
 If you’re still unsure, ask yourself a hard but clarifying question: If nothing changed from today forward, could I live this life without losing myself? If the answer is no, then the decision is already leaning in one direction.
 
 Staying is only reasonable if the behavior stops completely and accountability follows. Without that, leaving isn’t a failure. It’s self-preservation.
-
 <END_OF_SET>
-
 
 QUESTION:
 I’ve become close friends with someone at work, and the friendship has been great, but lately he’s been leaning on me in ways that feel more intimate than a typical workplace bond. Long messages late at night, venting about loneliness, asking for emotional reassurance. He has a partner, and so do I, and nothing explicitly romantic has happened, but the line feels blurry. I don’t want to lose the friendship, but I also don’t want to compromise boundaries I care about. How can I reset things without making it awkward at work?
 
-
 DRAFT_RESPONSE:
 It sounds like you value this friendship but are feeling a bit overwhelmed by the emotional closeness that's developing, especially given your existing relationships. It’s understandable to want to maintain boundaries while keeping things comfortable at work. You might try gently steering conversations toward lighter topics or suggesting more group interactions to balance the dynamic. Setting small limits on when and how you respond, like not replying to late-night messages right away, could help signal your boundaries without making a big deal out of it. Over time, this can help reset the tone of your friendship in a way that feels more manageable for you.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Acknowledges discomfort and desire to preserve the friendship.
@@ -3149,7 +2708,6 @@ STRENGTHS:
 - Suggests practical adjustments like limiting late-night replies.
 
 - Maintains a non-accusatory tone.
-
 
 WEAKNESSES:
 - It is not forceful enough about the boundaries that the letter writer should be setting. For instance, rather than stating unequivocally that late-night messages should be off the table, it suggests setting "small limits" like not replying to the late-night messages "right away."
@@ -3161,7 +2719,6 @@ WEAKNESSES:
 - Avoids naming emotional intimacy as a problem.
 
 - Classic LLM hedging and under-assertiveness.
-
 
 REVISED_RESPONSE:
 What you’re describing is not just a friendship getting “a bit intense.” It’s the early stages of an emotional entanglement that puts both of your primary relationships at risk.
@@ -3179,15 +2736,12 @@ Then back that up with action. No late-night messaging. No private emotional tal
 If he reacts with embarrassment or over-apologizes, keep your tone steady: “There’s nothing wrong. I just want our friendship to stay in a place that feels good for both of us.” But if he does the opposite and reacts defensively or angrily, then that shows you something important as well. 
 
 Connecting with a valued friend doesn't justify crossing lines that you don't want to cross. And clear boundaries don’t ruin good relationships. They protect them.
-
 <END_OF_SET>
-
 
 QUESTION:
 I've become very attracted to someone at my school. I'm in my mid-30s, and I am in an intensive vocational school that's co-educational. My cohort ranges in age from early 20s to 50s, although most of us are in the late 20s/early 30s range. I am a guy, and there's a girl in our cohort who is a few years younger than me. She and I are both introverts, and we bonded over this. She has also said that she sees me as handsome, though I need to remind myself that this doesn't necessarily indicate romantic interest. But I feel that our connection is becoming stronger with each conversation. We don't spend a lot of one-on-one time, but we always seem to end up talking to each other in group settings.
 
 Unfortunately, she's engaged. I really want to be respectful of her relationship and not be a homewrecker, but at the same time I feel what I feel. Is there a way forward for us? Should I venture to satisfy my curiosity regarding whether she shares my feelings, or should I keep quiet about this?
-
 
 DRAFT_RESPONSE:
 You’re navigating a delicate and emotionally charged situation, and it’s clear you’re trying to approach it with respect and thoughtfulness. Feeling drawn to someone, especially when you share a meaningful connection, is a natural human experience. At the same time, the fact that she is engaged introduces important boundaries that deserve careful consideration.
@@ -3202,9 +2756,7 @@ On the other hand, if you consider sharing your feelings, it’s crucial to do s
 
 Ultimately, there is no simple or risk-free path forward here. Balancing your genuine feelings with respect for her commitments and the broader social context requires patience and self-awareness. It’s okay to hold space for your emotions while choosing not to act on them in ways that could cause harm. Over time, as circumstances evolve, you may find clarity about what feels right for you. In the meantime, focusing on your own growth and the connections you can build without crossing boundaries may offer a steadier and more compassionate way forward.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Thoughtful and emotionally aware.
@@ -3212,7 +2764,6 @@ STRENGTHS:
 - Acknowledges genuine feelings without shaming.
 
 - Correctly notes the ethical risk of acting on the attraction.
-
 
 WEAKNESSES:
 - The response equivocates too much. While it does acknowledge that the letter-writer's love interest's commitment to someone else is real, it doesn't state forcefully enough that he shouldn't approach her as a potential romantic partner.
@@ -3225,7 +2776,6 @@ WEAKNESSES:
 
 - Lacks moral clarity about respecting an engagement.
 
-
 REVISED_RESPONSE:
 While acknowledging the emotional complexities of the situation, I think you've answered your own questions. You want to respect her relationship, you don't want to be a homewrecker, and she's engaged. So that means that no, there's not a way forward for you two romantically, unless she breaks up with her fiancé. And needless to say, if this happens, it can't be because you contributed to it.
 
@@ -3234,13 +2784,10 @@ People have unrequited romantic feelings all the time, and also requited ones th
 Continue to engage her as a friend within appropriate boundaries. Approach her with the mentality that romance is off the table and always will be. And if you can't engage her as a friend due to these romantic feelings, then you should disengage from interacting with her and focus your social attention elsewhere. 
 
 Some connections are real, and still not meant to be pursued. Some hard questions must remain unanswered.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I have different approaches to socializing. I enjoy hosting people and creating opportunities to bring our circles together. He prefers one-on-one interactions and finds group gatherings draining. I’ve tried balancing both, but lately I feel like I’m shrinking my social world to fit his preferences. When I bring it up, he says he doesn’t want to hold me back, but he still rarely participates. I don’t want to pressure him, yet I want a life that feels full. How do we navigate this mismatch?
-
 
 DRAFT_RESPONSE:
 It sounds like you and your partner have different social needs, which is pretty common in relationships. You enjoy the energy of group gatherings and mixing social circles, while he prefers more intimate, one-on-one time. Finding a balance that respects both of your preferences can be tricky but not impossible.
@@ -3251,9 +2798,7 @@ It’s important that you don’t feel like you have to shrink your social life 
 
 Keep the conversation open and honest, but try to avoid framing it as a problem he needs to fix. Instead, focus on how you both can support each other’s needs. Over time, you may find a rhythm that works, even if it’s not perfect. Relationships often require some compromise, but it’s important that both partners feel their needs are recognized and respected.
 
-
 SCORE: 6.5
-
 
 STRENGTHS:
 - Accurately identifies the core mismatch in social needs
@@ -3261,7 +2806,6 @@ STRENGTHS:
 - Validates the letter writer’s desire for a fuller social life
 
 - Encourages open communication without shaming either partner
-
 
 WEAKNESSES:
 - Overly generic “balance” framing that avoids taking a clear stance
@@ -3274,7 +2818,6 @@ WEAKNESSES:
 
 - No clear boundary-setting language or scripts
 
-
 REVISED_RESPONSE:
 Start by identifying what you actually need. Is it his active participation? Or is it his support for you to host and socialize freely? Once you know that, express it clearly: “I don’t need you at every gathering, but I do need to feel like I’m not choosing between my social life and our relationship.”
 
@@ -3285,13 +2828,10 @@ It’s also worth asking whether there are ways to make larger gatherings more c
 Reassure him that opting out isn’t a failure. Many people with lower social stamina feel guilty for not matching their partner’s energy. When you frame this as balance rather than pressure, he may feel freer to participate in ways that genuinely work for him. Over time, familiarity with a few people can also make gatherings feel less daunting.
 
 You’re not trying to merge personalities. You’re trying to build a life where both styles can breathe.
-
 <END_OF_SET>
-
 
 QUESTION:
 My younger sister and I used to be close, but ever since she joined a very tight-knit religious community, our relationship has grown strained. She’s kind and still reaches out, but conversations feel scripted, and she gently critiques my choices in ways she never used to. She keeps inviting me to events that feel more like recruitment than connection. I miss who we were to each other, but I also want to respect her path. How do I keep the relationship alive without feeling pressured to participate in a belief system that isn’t mine?
-
 
 DRAFT_RESPONSE:
 Your sister’s shift into a close-knit religious community has clearly altered the dynamic between you in ways that feel uncomfortable and unfamiliar. What you’re describing—the scripted conversations, the gentle critiques, the invitations that feel less like genuine connection and more like recruitment—are all signs that your sister’s new identity is reshaping how she relates to you. This isn’t just about different beliefs; it’s about how those beliefs are being used as a yardstick to measure your choices and, by extension, your worth in her eyes.
@@ -3304,9 +2844,7 @@ You can’t force her to change or to separate her faith from her relationship w
 
 The moral truth here is that love between siblings isn’t unconditional in the sense of tolerating pressure or disrespect. It requires a mutual willingness to accept difference without weaponizing it. If your sister’s new path demands that you conform or be corrected, then what you’re left with isn’t a relationship but a battleground. Protecting your own boundaries is not rejection—it’s the only way to keep the door open for the kind of connection you both once had, or at least to preserve your own sense of self in the process.
 
-
 SCORE: 7.5
-
 
 STRENGTHS:
 - Clearly names the pressure and recruitment dynamic
@@ -3317,14 +2855,12 @@ STRENGTHS:
 
 - Avoids demonizing the sister
 
-
 WEAKNESSES:
 - Slightly overlong and repetitive in places
 
 - Leans into abstract moral framing instead of tightening focus
 
 - Some generalized commentary that could be sharper and more direct
-
 
 REVISED_RESPONSE:
 Start by affirming the bond you want to preserve. Something like: “I love you, and I want us to stay close. But I need to be honest: I feel pressured when our conversations center on your community or when invitations sound like recruitment.”
@@ -3338,13 +2874,10 @@ Expect some awkwardness. But this is the type of unambiguous language you need t
 Also expect resistance and some "backsliding" on her part (sorry). But if you continue to convey your own needs and wishes in a kind, loving, but firm and decisive manner, that will increase the chance that she will come around to halting the preaching and engaging with you as a sibling again.
 
 You’re not rejecting her faith. You’re shaping a version of the relationship that both of you can inhabit with honesty. The connection can evolve, but only if it’s grounded in mutual respect rather than quiet discomfort or the continual replay of asymmetrical power dynamics.
-
 <END_OF_SET>
-
 
 QUESTION:
 My boyfriend and I have very different levels of political engagement. I attend rallies, donate, and stay active in local organizing. He supports my involvement but has little interest in participating himself, saying he prefers to “keep politics out of daily life.” Lately I’m feeling a sense of mismatch, like our values align in theory but not in practice. I’m worried that this will become a deeper divide over time. How do I talk about this without sounding self-righteous?
-
 
 DRAFT_RESPONSE:
 It’s understandable to feel a growing distance when something as important to you as political engagement feels so differently experienced by your partner. Your concern about sounding self-righteous shows your care for how you come across, which is a good sign that you want this conversation to be constructive rather than confrontational.
@@ -3357,9 +2890,7 @@ If you want to bridge the gap, you might explore small ways he could be involved
 
 Ultimately, the goal is to understand each other better and find respect for your different ways of living out shared values, rather than to convince or convert. Approaching the conversation with curiosity and openness, rather than judgment, will help keep it from feeling self-righteous and instead make it a genuine dialogue.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Maintains a respectful tone
@@ -3367,7 +2898,6 @@ STRENGTHS:
 - Encourages dialogue rather than confrontation
 
 - Acknowledges different modes of value expression
-
 
 WEAKNESSES:
 - Overly cautious and neutral for a values-based conflict
@@ -3377,7 +2907,6 @@ WEAKNESSES:
 - Avoids naming the moral hierarchy anxiety driving the issue
 
 - Fails to give the letter writer emotional grounding or clarity
-
 
 REVISED_RESPONSE:
 Short answer: you probably can’t avoid sounding a little self-righteous, because political engagement is emotionally and morally charged. Even asking how he lives his values invites comparison, whether you intend it or not. That doesn’t mean you shouldn’t talk about it. It just means you should be honest about what you’re really asking.
@@ -3389,13 +2918,10 @@ Along these same lines, avoid framing involvement as a moral hierarchy. Instead,
 From there, look for overlapping ground rather than identical action. Maybe he won’t march in the streets, but he might support you in smaller ways: researching issues, helping with logistics, or simply being a sounding board. Even handing out water bottles to protesters at a march in mid-summer is a very valuable but often overlooked contribution. And these activities still allow him to keep politics mostly out of his daily life while still finding small ways to contribute to the causes you both seem to care about. Meaningful alignment doesn’t require carbon-copy activism or the loud forms of engagement that are often held up as superior to quieter forms. Maybe your boyfriend is more of a “behind-the-scenes” type of guy. What matters is whether you can respect each other’s choices without resentment building underneath.
 
 The goal isn’t to convert him. It’s understanding whether this difference can live comfortably inside the relationship, or whether it will keep pulling you apart.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner and I have been together for a few years, and we’ve always talked about wanting kids “someday.” Recently, I’ve felt that desire growing stronger, but when I brought it up more concretely, he hesitated. Not a firm no, but a real uncertainty. He says he needs more time to think about what he wants his life to look like. I don’t want to pressure him into parenthood, but I also don’t want to put my own timeline on hold indefinitely. How do we talk about something this big without turning it into an ultimatum?
-
 
 DRAFT_RESPONSE:
 It’s clear that this is a deeply important and sensitive topic for both of you, and it’s understandable that you want to honor your own feelings while also respecting your partner’s need for time and clarity. When it comes to something as life-altering as deciding whether and when to have children, there is rarely a neat or quick resolution, and that uncertainty can be painful.
@@ -3406,9 +2932,7 @@ It’s also okay to acknowledge that your timelines might not align perfectly, a
 
 Ultimately, this is a conversation about shared values and life goals, and it’s worth revisiting periodically as you both gain clarity. It’s not about ultimatums, but about mutual respect and honesty—recognizing that sometimes love means holding space for uncertainty, and sometimes it means making difficult choices about what you need to thrive.
 
-
 SCORE: 5.5
-
 
 STRENGTHS:
 - Acknowledges emotional sensitivity
@@ -3416,7 +2940,6 @@ STRENGTHS:
 - Avoids pressuring language
 
 - Recognizes the stakes
-
 
 WEAKNESSES:
 - The response equivocates too much, which is unfortunate for such a high-stakes topic. There's too much neutrality/false equivalence rather than recognizing this as a non-compromisable issue.
@@ -3426,7 +2949,6 @@ WEAKNESSES:
 - Avoids naming that timelines matter
 
 - Typical LLM hedging around “ongoing conversations”
-
 
 REVISED_RESPONSE:
 This is a common but challenging situation. When partners differ on the all-important issue of whether or not to have kids, there are only a few outcomes that are possible. 1. Either one of the partners genuinely changes their mind, in which case the pair either become parents (fertility or adoption processes allowing) or they don’t, with each partner fully on board. 2. Or one of the two partners gives in without truly changing their mind, which leads to either one partner being in a parental role that they didn't truly want or one partner feeling resentful about losing their chance at parenthood. 3. The final possibility is that both partners, recognizing the irreconcilability of their differences, are honest with themselves and each other and break up. I doubt that you or your partner want option number 2. That leaves the two of you to figure out whether you're truly on the same page about having kids (or whether there's a reasonable chance of that in the near-ish future) or whether it might be time to part ways.
@@ -3440,13 +2962,10 @@ Then dig into what “uncertainty” means for him. Is he unsure about the timin
 At the same time, articulate your own timeline without apology. You’re not issuing an ultimatum by acknowledging that your desires matter. You’re simply saying: “I can’t stay indefinitely in a holding pattern. I want to explore this with you in a way that respects both of our needs.” Without naming a specific time in the future by which he needs to make his decision, you're clearly communicating to him that the status quo of uncertainty cannot continue forever.
 
 Finally, agree on a structured follow-up—a real check-in a few weeks or months down the line. “Sweetheart, I know that we've talked about having kids at some point, and I know that last time we checked in you were hesitant. But has your stance changed at all since the last time that we talked?” Big decisions often require reflection, but they also require momentum. You’re not rushing him. You’re creating a shared path forward. But you're also gently letting him know that at a certain point, there will be a fork in the road, and that he will need to decide which of the two paths to take.
-
 <END_OF_SET>
-
 
 QUESTION:
 My partner recently disclosed that he’s been feeling lost about his career, and now he wants to explore a totally different field. I want to be supportive, but I’m anxious—this could mean years of retraining, financial instability, and a major shift in our future plans. I don’t want to discourage him, but I also don’t want to ignore the practical impact on our shared life. How do I support his growth without sidelining my own needs?
-
 
 DRAFT_RESPONSE:
 It’s clear you care deeply about your partner’s well-being and growth, and you’re also mindful of the very real practical implications this change could bring to your shared life. This is a delicate balance to navigate, and it’s understandable to feel anxious about the uncertainty ahead.
@@ -3461,9 +2980,7 @@ Ultimately, this kind of shift can be an opportunity for both of you to grow—n
 
 There’s no perfect answer here, only the ongoing work of navigating change together, with compassion for each other’s hopes and limits.
 
-
 SCORE: 6.0
-
 
 STRENGTHS:
 - Validates both emotional and practical concerns
@@ -3471,7 +2988,6 @@ STRENGTHS:
 - Encourages joint discussion
 
 - Avoids discouraging growth
-
 
 WEAKNESSES:
 - Too abstract and non-directive
@@ -3481,7 +2997,6 @@ WEAKNESSES:
 - Lacks concrete framing for shared decision-making
 
 - Avoids naming financial and lifestyle impacts directly
-
 
 REVISED_RESPONSE:
 Career changes are rarely just about work. They often reflect deeper questions about identity, meaning, or long-standing dissatisfaction. You want to validate your partner's explorations of this new field, but you're also understandably concerned about its implications for both of your lives. Underlying all of this is the uncertainty surrounding what will happen over the next few years, both in his professional life and by extension, in your lives more generally.
@@ -3495,5 +3010,4 @@ If he doesn't volunteer this information, ask questions that clarify the scope: 
 Career changes are multi-stage processes, and the two of you might work together to decide upon a phased approach to this transition. One in which the first steps would be somewhat experimental and relatively easily reversed. He can start by simply researching the new field, which is probably what he's doing now. This can involve talking to established professionals in this field, reading articles and websites, etc. And if he's able to, he can shadow professionals in the field as well. The next step might involve more commitment, such as part-time classes, depending on the target career. If the field he's aspiring to is one with a very rigid and pre-set course of study, such as the law, then he might sit in on one or two classes if he's able to. This approach could allow him to test the path before making a full leap.
 
 All in all, you’re not denying him growth. You’re ensuring that your relationship with him is woven into his career change decision rather than left behind.
-
 <END_OF_SET>

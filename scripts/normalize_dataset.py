@@ -14,6 +14,8 @@ Canonical format:
 
 import re
 import os
+import argparse
+import sys
 
 def normalize_dataset(input_file, output_file):
     """Normalize the dataset file to match the canonical format."""
@@ -165,8 +167,10 @@ def normalize_dataset(input_file, output_file):
         
         # Join the normalized lines
         normalized_example = '\n'.join(normalized_lines)
-        # Clean up multiple consecutive empty lines (max 2)
+        # Clean up multiple consecutive empty lines (max 1)
         normalized_example = re.sub(r'\n{3,}', '\n\n', normalized_example)
+        # Remove trailing blank lines
+        normalized_example = normalized_example.rstrip()
         normalized_examples.append(normalized_example)
         
         if i < len(examples) - 1:  # Not the last one
@@ -175,7 +179,7 @@ def normalize_dataset(input_file, output_file):
     # Join all examples
     normalized_content = '\n'.join(normalized_examples)
     
-    # Final cleanup: ensure proper spacing around headers
+    # Final cleanup: ensure proper spacing around headers (one blank line before each)
     normalized_content = re.sub(r'\n(QUESTION:)\n+', r'\n\n\1\n', normalized_content)
     normalized_content = re.sub(r'\n(DRAFT_RESPONSE:)\n+', r'\n\n\1\n', normalized_content)
     normalized_content = re.sub(r'\n(SCORE:)\s*', r'\n\n\1 ', normalized_content)
@@ -187,8 +191,11 @@ def normalize_dataset(input_file, output_file):
     normalized_content = re.sub(r'^INPUT:\s*$', '', normalized_content, flags=re.MULTILINE)
     normalized_content = re.sub(r'^EVALUATION:\s*$', '', normalized_content, flags=re.MULTILINE)
     
-    # Clean up excessive whitespace (but preserve intentional spacing)
-    normalized_content = re.sub(r'\n{4,}', '\n\n\n', normalized_content)
+    # Final comprehensive cleanup: ensure never more than one blank line in a row anywhere
+    # Replace any sequence of 3+ newlines (which means 2+ blank lines) with exactly 2 newlines (1 blank line)
+    # Do this multiple times to catch all cases
+    while re.search(r'\n{3,}', normalized_content):
+        normalized_content = re.sub(r'\n{3,}', '\n\n', normalized_content)
     
     # Write output
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -197,8 +204,37 @@ def normalize_dataset(input_file, output_file):
     print(f"Normalization complete. Output written to {output_file}")
 
 if __name__ == '__main__':
-    input_file = os.path.expanduser('~/Desktop/build_llm_karpathy/sources/v3/dataset_source.md')
-    output_file = os.path.expanduser('~/Desktop/build_llm_karpathy/sources/v3/dataset_source_normalized.md')
+    parser = argparse.ArgumentParser(
+        description='Normalize dataset_source.md file to match canonical format'
+    )
+    parser.add_argument(
+        'input_file',
+        nargs='?',
+        default=os.path.expanduser('~/Desktop/build_llm_karpathy/sources/v3/dataset_source.md'),
+        help='Input file to normalize (default: ~/Desktop/build_llm_karpathy/sources/v3/dataset_source.md)'
+    )
+    parser.add_argument(
+        '-o', '--output',
+        help='Output file path (default: input filename with "_normalized" before extension)'
+    )
+    
+    args = parser.parse_args()
+    
+    # Expand user path if it contains ~
+    input_file = os.path.expanduser(args.input_file)
+    
+    # Generate output filename if not provided
+    if args.output:
+        output_file = os.path.expanduser(args.output)
+    else:
+        # Add "_normalized" before the file extension
+        base, ext = os.path.splitext(input_file)
+        output_file = f"{base}_normalized{ext}"
+    
+    # Check if input file exists
+    if not os.path.exists(input_file):
+        print(f"Error: Input file not found: {input_file}", file=sys.stderr)
+        sys.exit(1)
     
     normalize_dataset(input_file, output_file)
     print("\nPlease review the normalized file before replacing the original.")
