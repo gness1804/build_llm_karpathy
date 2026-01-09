@@ -1,78 +1,9 @@
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
-QUESTION:
+QUESTION: 
 I was in what I thought was a long-term, loving relationship for over a year. My partner, "J", and I shared a lot of interests, got along mostly well, and overall really connected. We had even started talking about marriage, although only semi-seriously. But then J goes on a business trip for two weeks. On his last day, he calls me and says that he needs to take some time for himself. I thought, This is odd, but if he needs his space for a while and to recharge, then I'm all for it. But after this conversation, he dropped off the face of the earth. No calls, texts, e-mails. I called and texted him multiple times to try to understand what's going on, but I was continually met with silence.
 
 After two agonizing months of no contact from him at all, he calls me out of the blue one evening. He says he wants to pick up where we left off. I'm incensed. I gave him a piece of my mind and let him know that it's not acceptable to ghost your partner like that, especially given the level of commitment that I thought we had had. We had a big fight, and I told him that I never wanted to see him again. (I should note that I did ask him whether something tragic or drastic had happened, such as one of his parents passing away, and he said no, there was nothing like that. He didn't give a real explanation.) But now looking back, I feel guilty. Did I overreact?
 
-DRAFT_RESPONSE:
+DRAFT_RESPONSE: 
 Your feelings in this situation are completely understandable. Being in a relationship where you share connection and even talk about a future together naturally builds an expectation of mutual respect and communication. For J to disappear without any explanation for two months, especially when you reached out multiple times seeking clarity, is deeply hurtful and confusing. Ghosting someone you care about, particularly at a point when the relationship felt serious, is a breach of trust and consideration.
 
 Your anger and frustration when he finally reappeared are valid responses to being treated with such disregard. You were left in an emotional limbo, without closure or understanding, and it’s natural to want to protect yourself from further pain by setting boundaries. Asking whether something serious had happened was a compassionate attempt to understand, and when that was met with silence or vague answers, it’s reasonable that your patience wore thin.
@@ -81,21 +12,22 @@ Feeling guilty afterward is a common reaction when emotions run high, but it’s
 
 If you find yourself reflecting on this, it might help to focus on what you need from a partner in terms of communication and respect, and how you want to be treated moving forward. Your feelings and boundaries matter, and honoring them is a form of self-care rather than overreaction. Whatever you decide about this relationship, your experience highlights the importance of mutual accountability and honesty in any partnership.
 
-EVALUATION:
-Score: 8.0
+SCORE: 8.0
 
-Strengths:
+STRENGTHS:
 - Describes patterns of behavior without adopting clinical or therapeutic language.
 - Demonstrates empathy and validation of the letter writer's pain.
 - Condemns the bad behavior involved without moralizing or shaming.
 - Directly names the harm caused by the other party's actions.
-Weaknesses:
+
+WEAKNESSES:
 - Lacks a "script" or suggested verbatim statement or question for the letter writer to pose to the other party.
 - Some of the wording is overly vague and general, particularly the last paragraph.
 - The response is a bit vague on boundaries. It spends too much time reaffirming the letter writer's actions and feelings rather than recommending specific boundaries that she can set towards this partner or potential future partners.
+- Uses the word "deeply" which is an LLM tell as LLMs often overuse it.
 
-OUTPUT: 
-Anyone who invests a year in a relationship, openly discusses marriage, and then gets cut off without warning would be shaken. A year together is a major emotional investment. When someone disappears at that stage, people often experience a kind of emotional disorientation—guilt, shame, confusion, and, very often, self-doubt. But it’s important to remember that he was the one who chose to walk out, and his choice reflects on him, not on your worth. You weren’t being overly dramatic. You were responding like any person would when a trusted partner suddenly vanishes.
+REVISED_RESPONSE: 
+Anyone who invests a year in a relationship, openly discusses marriage, and then gets cut off without warning would be shaken. A year together is a major emotional investment. When someone disappears at that stage, people often experience a kind of emotional disorientation: guilt, shame, confusion, and, very often, self-doubt. But it’s important to remember that he was the one who chose to walk out, and his choice reflects on him, not on your worth. You weren’t being overly dramatic. You were responding like any person would when a trusted partner suddenly vanishes.
 
 A year together signals seriousness for most people. By that point, ending things by text already feels too abrupt and impersonal, let alone disappearing entirely. Ghosting after that level of intimacy isn’t a momentary lapse in judgment. It’s a deep breakdown in basic relational responsibility.
 
@@ -105,9 +37,7 @@ If he reaches out again hoping to reopen the conversation, you can keep your res
 That isn't punishment. It’s a boundary.
 
 It’s also worth remembering that two months is a sixth of your entire relationship and longer than many relationships last in total. You deserve someone who honors your time and your presence instead of leaving for an extended period and returning only when it’s convenient for him. If working through all of this brings up self-doubt or lingering guilt, a therapist can be a helpful partner in making sense of what happened; not because you did anything wrong, but because experiences like this can shake your sense of stability. A good therapist can help you internalize that this rupture was about his avoidance, not your value, and sometimes hearing that clearly and consistently is the best medicine as you move forward.
-
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -215,8 +145,8 @@ If you feel the urge to text or call him in search of closure, it can help to pa
 Instead of anchoring your healing to an explanation he may never be willing or able to give, try grounding yourself in what you already know. The differences you described—around finances, religion, and family—are substantial, and any one of them is enough to end a relationship, let alone all of them combined. And regardless of how things ended, you’re still you: someone worthy of love, compatibility, and stability.
 
 What you're going through is common, but I know that doesn't make it hurt any less. If you find yourself stuck in self-doubt or rumination, a therapist can be a helpful partner in sorting through those feelings. Learning to let your own understanding, rather than someone else’s explanation, carry the weight of your healing is not only less emotionally risky; it’s also far more empowering.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -313,6 +243,7 @@ Weaknesses:
 - Grammar: presence of em dashes.
 - Does not name the harm explicitly enough.
 - Lacks the moral clarity of the best responses.
+- Uses the word "deeply".
 
 OUTPUT: 
 It must be quite painful to see your own brother engaging in actions that harm others. You clearly care about the friend and your brother. So you're not wrong to feel hurt even though your brother's actions aren't directed at you. You don't mention that there's been any outright abuse in this friendship. Had there been, the case for intervention would have been a slam dunk. Assuming no abuse, this is a tough nut to crack. You want your brother to treat his friend better, but you also don't want to get involved in his life. You respect his autonomy as I'm sure you would want him to respect yours. But yet you also see him engaging in actions that violate your moral compass.
@@ -320,8 +251,8 @@ It must be quite painful to see your own brother engaging in actions that harm o
 But that being said, I think this issue is more complex than just your brother's autonomy vs. compassion. This is a situation where you don't have to speak up right away, unprovoked (again, if there was abuse, then the advice would be very different). But the next time the topic of the friend comes up, and especially if your brother says something dismissive towards him, then you might want to speak up. You might say something like the following: "[Brother], I know that your friendships are your own business, but as your sister and as a friend, I can't help but notice that you've been treating your friend a bit dismissively. This conveys to the friend that you don't think that he's worthy of your time. Would you like to be treated like that?"
 
 Such a conversation might be hard, but if your brother is open-minded and willing to reconsider his attitudes, then that will help far more people than just his friend. Being reminded of where we're falling short when it comes to compassion and empathy can help us grow in ways that benefit us all. And if he pushes back or chooses not to engage, you can still take some peace in knowing that you spoke up in a way that was measured, compassionate, and aligned with your values. Sometimes doing that is all that’s within our control, and sometimes that’s enough.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -427,8 +358,8 @@ You were clearly caught between a woman you loved and a family that possesses a 
 I would not attempt further contact with her. You ended things. She made it clear she didn't want to interact with you anymore. And even though you didn't respect her life choices during the relationship, you should at least respect her choice now to end contact with you. If by chance she does reach out to you, which would probably be for logistical reasons rather than any interest in renewing your relationship, do not attempt to win her back. You can tell her something like, "I'm so sorry for how I treated you. I don't expect you to forgive me, and I certainly don't expect you to take me back. But I just wanted to express that I feel awful for having treated you so poorly. You didn't deserve that, and I didn't deserve you." And mean it.
 
 If she doesn't reach out, don't reach out to her. You seem wracked with guilt and a strong need to apologize to her. But reaching out would probably do more harm than good, especially since she expressed the wish to not see you again. And she would likely take an unsolicited apology as an empty gesture meant more to comfort you than to sincerely atone for the mistakes that you made and the hurt that you caused. Guilt can be a useful signal to us to do better. Now that you're more aware of how others' opinions can sway you and of some of your own blind spots, you'll be better equipped for future relationships. Let this person go. Do better next time.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -527,6 +458,7 @@ Weaknesses:
 - Uses cliched language such as "the ongoing dance of partnership."
 - The response mentions "gentle boundaries," but doesn't offer any specificity as to which boundaries to set and why.
 - Grammar: uses em-dashes. 
+- Uses the word "deeply", which is indicative of an LLM-type response.
 
 OUTPUT: 
 Religious differences can be particularly painful because they often involve not only abstract belief but also matters of identity, family, and morality. And when one feels that a fragile equilibrium in their life is disrupted, it's often unsettling. Particularly when that fragile equilibrium was perceived to protect them from something that's long been triggering. But it sounds like you and your wife are both coming from a place of compassion and respect. That matters a great deal. 
@@ -536,8 +468,8 @@ This will position you better to explore the thorny issues your letter raises. I
 Such a conversation is important because ultimately, a compromise will be needed here. Maybe she can place the cross in a room that only she mostly uses. Maybe you agree to attend services with her once or twice a month when her choir is singing. And these services need not all be in person. Many churches now offer hybrid services; that is, services both online and in-person. If she's amenable to it, maybe you can agree to an arrangement like you attending church once a month when she's singing, and for the rest of the services, you watch virtually. This could be a way of supporting her without being in the triggering environment as much. And, of course, she should agree to give you the space to explore your own philosophy and ideas without judgment. There are many secular groups in many parts of the country such as the Ethical Society, humanist groups, and atheist groups. I have known multiple non-religious people who have found much of the same community and sense of purpose in these groups as many others do in churches, but without the beliefs or rituals that they find problematic.
 
 By marrying into a religious family, apparently you're already accommodating religion to a certain extent. Remember also that making these accommodations for your wife doesn't imply that you believe what she does or vice versa. Making modest accommodations for each other isn't surrender. It's displaying love and respect. And ultimately, that's what life should be all about, whether or not one is devout.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -646,15 +578,16 @@ Weaknesses:
 - Does not adequately name the harm that the letter-writer's father caused, which weakens the response's moral voice.
 - Grammar: uses em-dashes. 
 - The ending lacks a clear moral "punch."
+- Uses the word "deeply" in the response. This is overused by LLMs and is a classic LLM tell.
 
 OUTPUT: 
-When somebody you love hurts you deeply, it often leaves scars that last for a long time. Many people feel the need to try to close these wounds by confronting the person who caused them. But in any situation, not just this one, conditioning healing or closure upon somebody else's approval or apology is setting ourselves up for painful disappointment.
+When somebody you love hurts you profoundly, it often leaves scars that last for a long time. Many people feel the need to try to close these wounds by confronting the person who caused them. But in any situation, not just this one, conditioning healing or closure upon somebody else's approval or apology is setting ourselves up for painful disappointment.
 
 A recurring theme in this and other advice columns is boundaries. That is, setting appropriate boundaries for people who cause harm, be it intentional or otherwise. In your particular case, though, the tragedy is that children can't really set boundaries in the same way that adults can. They lack the power to do so. So your father's constant violations of reasonable boundaries in your household, against you and your siblings and your mother, happened apparently unimpeded. At this point, the boundary that you now have the power to set is with your own expectations. I would not recommend reaching out to him if the purpose is to gain an apology or otherwise get closure from him. Considering he's not reached out to you about this in all these years, all these decades, it's unlikely he'll be receptive to your message now. Confronting him directly would likely reopen old wounds without giving you what you want.
 
 I would recommend a more introspective approach. Write him a letter you know he will never read because you will never give it to him. In this letter, don't pull punches. Don't hold back. Tell him exactly how his actions make you feel, how they hurt you, and what you want from him now. In many cases, people find that this exercise enables them to defuse a lot of pain and emotional tension, and it reduces their urge to confront the person for real. And if you aren't already, you might also consider working with a therapist to help you process some of these issues. Your dad's treatment of you was definitely not okay, but you don't need to compound the pain by hoping for a closure that probably will never come. Your past self deserved better, and you deserve better now.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -756,8 +689,8 @@ I think that most parents worry about the perpetuation of dysfunctional patterns
 I would take the approach of "trust but verify." Assume good intentions from the grandparents until you see evidence otherwise. At the same time, don't be naive. Try to be there as much as you can when the grandparents are over so that you can observe how they interact with your kids. If you observe problematic behavior, intervene. Pull your parents aside and say something like: “Mom and Dad, my children and I love you. But when we see you exercising favoritism for Rosie's children over mine, such as [Examples A and B], it sends the wrong message to both sets of children. Can you work on treating all of your grandchildren more equally in the future?”
 
 If they won't play ball, limit your children's interaction with your parents. And if this keeps happening, you might want to make the hard decision to keep your children separate from their grandparents until the grandparents express a genuine wish to treat their grandchildren more fairly, and then you see evidence of this. It would be heartbreaking to have to explain to your children why they don't get to see their grandparents very often. But the emotional harm that your grandparents will cause if they play the same favoritism game with their grandchildren outweighs this concern. Ultimately, you might have to end up doing for your parents what they failed to do for you and your sister: modeling an equitable approach to children. Love alone can't justify knowingly subjecting your children to cruel and arbitrary treatment.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -858,9 +791,10 @@ Strengths:
 Weaknesses:
 - Even though the letter is compassionate and empathetic towards the child, and implies that the situation isn't their fault, it would be strengthened by the columnist explicitly and forcefully stating that none of these problems are in any way the letter writer's fault. And that the situation was caused by the parents and not the child.
 - Grammar: uses em-dashes. 
+- Uses the word "deeply", which is an LLM towel.
 
 OUTPUT: 
-I’m so sorry that you have to go through that. No child deserves to be treated as a go-between by their parents. And no child should be forced into the heartbreaking position of having to choose one parent over the other. This is not only deeply unfair, but it also teaches children to be perpetually wary of those who are supposed to love them the most, lest their trust be betrayed again. It teaches children terrible lessons about communication, basic decency, and how to "fight fair" with a spouse or partner, including during a breakup or divorce.
+I’m so sorry that you have to go through that. No child deserves to be treated as a go-between by their parents. And no child should be forced into the heartbreaking position of having to choose one parent over the other. This is not only grossly unfair, but it also teaches children to be perpetually wary of those who are supposed to love them the most, lest their trust be betrayed again. It teaches children terrible lessons about communication, basic decency, and how to "fight fair" with a spouse or partner, including during a breakup or divorce.
 
 I know all this sounds scary. But the good news is that you do have some tools at your disposal. And you seem to have a good head on your shoulders. The road ahead will be hard, but there are ways to lighten the burden.
 
@@ -869,8 +803,8 @@ You can start by having a difficult but important conversation with your parents
 There are also resources out there to help you, and I encourage you to take advantage of them. For instance, have you talked to your school guidance counselor about the problem? They might be able to refer you to some resources that could help. Also, while I don't know the exact details of your parents’ legal situation, in many cases, there will be a court-appointed child advocate to speak up for children in situations like yours. If you have one already, then please go to them and talk to them about how best to handle this difficult situation. If you don’t have one, then ask one of your parents' attorneys or an official at the court during the next legal hearing if you can be provided with one. These professionals are trained to represent children's interests in cases like yours.
 
 From your letter, it's evident that you have a lot of courage and you're trying to do what's right. In closing, I want to make it very clear that none of this is your fault. The problem is between your parents, not with you. And none of the pain that you're going through should be interpreted as a result of something you did wrong. You are just caught in a very hard situation, and you seem to be doing your best to manage it. Best of luck to you.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -977,8 +911,8 @@ The reality, though, is that sometimes you have to risk hurting someone's feelin
 I recommend having a conversation with John where you respectfully but firmly lay out the problem and your boundaries. You could say something like, "Hey John, I really like having you as a friend and hanging out with you, but I've noticed that I initiate almost all of our hangouts and that you haven't come to important things of mine, such as helping out with family or coming to my marathon, whereas I have tried to do those things for you as much as I can. How can we fix this?"
 
 If he responds amicably, then it's just a matter of nudging the balance in a more equitable direction, probably over time. The challenge in this case will be to try to make things more equitable without falling into the trap of “bean counting.” And if this happy outcome does come to pass, then you can ignore the rest of this letter. But if his response is unfriendly, such as being defensive or stonewalling, or even just apathetic (which can be just as hostile in its own way) then you might want to reconsider how you've been investing your time. In this case, you might have to decide whether his companionship is worth the emotional and logistical stress of him relying on you for important things, but not being able to do the same yourself. Retaining a friendship with someone you care about isn't worth it if the friendship is drastically one-sided and you're carrying all of the burden. Sometimes doing the hard thing and ending a friendship and hurting the other person's feelings is necessary to shift your time investment to people who have your back as well.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1076,8 +1010,8 @@ Your sister’s anger is understandable, but it does not override your experienc
 You can acknowledge your sister’s grief without sacrificing your own wellbeing. That might sound like: “I understand that this loss is painful for you, and I respect your need to mourn in your own way. I’m not able to participate, and that boundary is about my own health, not a judgment of you.”
 
 Funerals are for the living. But they are not for everyone. Protecting yourself now is not cruelty. It’s honesty, practiced late but carefully.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1180,8 +1114,8 @@ It’s important to be clear about what this choice is and isn’t. You are not 
 If reconciliation were genuinely possible, it would begin with accountability and repair, not an invitation. You are allowed to decide that your wedding is no place for unfinished business.
 
 You can hold this boundary calmly and without debate. “This is what I need in order to feel present and protected on my wedding day” is a complete explanation. Anyone who cannot accept that is asking you to prioritize appearances over wellbeing.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1287,8 +1221,8 @@ One of the hardest truths here is that intention and impact are not the same. Yo
 If there is a path forward, it begins with acknowledgment rather than explanation. That means resisting the urge to contextualize your choices too quickly, even if your reasons felt real and complex. Repair starts with something like: “I didn’t protect you the way I should have. I understand why that hurt you, and I’m sorry.” Full stop.
 
 After that, the timeline belongs to them. They may need distance. They may never return to the relationship you want. Accepting that is part of accountability, painful as it is. The goal is not to feel forgiven. The goal is to become someone safer now than you were then.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1392,8 +1326,8 @@ If possible, both you and your husband should have a talk with his parents about
 Then follow up your words with actions as needed. Boundaries are meaningless unless they're enforced. If they refuse to treat you better, then make clear that they're not going to be able to have much contact with their grandchildren. As heartbreaking as it is to limit children's access to their grandparents, the fundamental need for them to respect you and the future effects of their disrespect on your future children, if their behavior remains unchanged, outweigh this concern.
 
 Twins will require enough of you. You are not obligated to carry unresolved family conflict alongside that responsibility.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1498,8 +1432,8 @@ His concern may reflect care rather than ambivalence. At the same time, attracti
 Listen carefully to what he says. If he seems to hedge or if he remains stuck in hesitation, that may simply mean he is not available for the kind of relationship you want right now. That can be disappointing without being anyone’s fault.
 
 Sometimes care expresses itself not through action, but through restraint.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1599,8 +1533,8 @@ It’s very likely that your sister’s resentment has far more to do with her o
 What is reasonable is to draw a clear but calm boundary. You might say something like, “I care about you, and I don’t see my accomplishments as a judgment of you. I don’t want to feel like I have to apologize for my life in order to be close to you.” That frames the issue honestly without attacking her character or dismissing her feelings. After that, the next move is hers. She may need time, distance, or help of her own to work through this.
 
 If the resentment continues to surface as hostility or punishment, it’s also appropriate to limit how much of your inner life you share with her, at least for now. That’s not cruelty. It’s self-protection. Healthy adult relationships make room for difference without turning it into a moral failing. You are allowed to be proud of your work and still be a loving sister. If she cannot tolerate both at once, that is painful, but it is not something you can solve by shrinking yourself.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1709,8 +1643,8 @@ If reconciliation were possible, it would require willingness and accountability
 It’s fair to say to them: “I understand this is hard for you. But I’m not willing to reconnect under pressure or pretense. If I do decide to reconnect with [Sibling], then it will be on my own timeline and for my own reasons.” That response is honest without being cruel.
 
 Sometimes the most loving choice is to stop pretending a relationship exists when it doesn’t.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1809,8 +1743,8 @@ Your inclination to pull back appears to be a conflict between wanting to be the
 Pulling back does not have to look like abandonment. It can look like recalibration. You might say something like: “I care about you and I want to support you, but I don’t have the capacity for long nightly calls anymore. Can we find a different way to stay connected that works for both of us?” That opens the door to adjustment rather than rupture. And if she presses you on why you're pulling back, you can explain to her that while you absolutely want to continue to be there for her, the long calls are draining you emotionally. Say that to be fully present for her and be the best friend that you can be, you have to take care of yourself, too. And this requires less frequent and less lengthy discussions of divorce-related matters. 
 
 Being a good friend does not require sacrificing your own emotional health. Care that is sustainable is ultimately more loving than care that quietly burns out.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -1913,8 +1847,8 @@ If you feel that it's worth trying to save the marriage, and that the underlying
 But if you decide after this reflection that ending the marriage is the best course of action, do it. Hopefully you and your husband have an amicable enough relationship that a divorce would be relatively smooth. Also, you don't mention if you have children. But even if you do, divorce in the case of an unhappy marriage is a better alternative to modeling an unhappy relationship for your children.
 
 There is no moral virtue in endurance for its own sake. The ethical question isn’t whether you’re allowed to want more, but how to proceed with honesty and care for both yourself and your spouse. Sometimes the most courageous and loving thing you can do is walk away.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2011,8 +1945,8 @@ The trick is to strike a balance between expressing your wish to reconnect witho
 That doesn’t mean suppressing your feelings entirely. It means expressing them without making them your child’s responsibility.
 
 Sometimes the most loving thing a parent can do is leave the door open and trust that their child will walk through it when they’re able.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2117,8 +2051,8 @@ While I'm not usually a fan of "tests" in relationships, in this case whether yo
 Life is hard enough without your own partner putting you down and then not even taking responsibility for it. A partner who respects you will care more about how their words land than about defending their sense of humor.
 
 You are not obligated to tolerate being the punchline to "keep the peace" in your relationship. Asking for basic respect is not fragility. It is a reasonable boundary.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2220,8 +2154,8 @@ I'm not implying that any of these things were true of your own relationship. Ra
 You don’t need to rewrite your history to justify your present emotions. Mixed feelings are common after loss, particularly when love and strain coexisted for a long time. In my parents' case, they were married for over 30 years and there was clearly a lot of love between them. But for various reasons, the relationship fell apart. After an intense grieving period, my mother felt a lot of relief at being able to live a new life on her own terms. I think even today she still loves my dad in some way, but also feels that the divorce was the right thing to do.
 
 Emotions are signals, and your relief is telling you that something about that relationship wasn't right. It isn't telling you anything about whether or not you loved your partner. A chapter of your life has ended, but that doesn't mean that you didn't have a lot of love for the co-author of that chapter.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2320,8 +2254,8 @@ The outsized importance of traditions in our culture, particularly around the ho
 The good news is that you are allowed to renegotiate expectations as an adult, even if doing so disappoints others. Choosing not to attend every gathering is not a rejection of your family; it’s an acknowledgment of your limits. You might explain to your parents that while you love seeing them and visiting for holidays, you're not able to attend for every holiday. You could, for instance, say that you're coming to see them for Christmas, but you have other plans for Thanksgiving. If they press you for details on why you're not going to see them for every holiday, you don't need to provide an exhaustive explanation. It's enough to say: “This is what I can manage right now. I love you and enjoy being with you, but I need to find space for myself as well.” 
 
 Self-care is not selfishness with better branding. It is maintenance.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2425,8 +2359,8 @@ This behavior deserves to be addressed directly and taken seriously. You might s
 If your partner minimizes it, refuses to stop, or reframes it as your fault, that signals a deeper issue around boundaries and trust. In that case, you might want to think hard about whether to stay in this relationship. Love doesn't justify subjecting yourself to repeated privacy violations. There are plenty of people out there who do respect basic privacy rights.
 
 Protection that requires violation of privacy is not protection; it's snooping.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2524,8 +2458,8 @@ You say "financial help," but you don't fully specify what this means. Is it jus
 Setting boundaries here is not a withdrawal of love. It’s a clarification of what kind of help you can offer without harming the relationship or your retirement funds. You might say: “I care about you, but I’m no longer comfortable providing financial support under these conditions.” That statement is not punitive. It’s honest.
 
 Your daughter may be angry, and that will be painful. But guilt alone is not a reason to continue a pattern that leaves you resentful and her dependent. Boundaries, while uncomfortable, often create the possibility for a healthier adult relationship over time.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2630,8 +2564,8 @@ When someone refuses to protect their spouse from harm caused by a family member
 Forgiveness can be meaningful, but forgiveness that bypasses accountability often turns into enablement. Your spouse may believe they’re being peacemaking or generous, but the effect is that you’re left exposed and unsupported. You're left understandably wondering if your spouse cares more about you or about protecting the feelings of the family member who is harming you.
 
 Bottom line: Don't stand for mistreatment. You deserve much better than that.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2727,8 +2661,8 @@ For instance, if you maintain calm and composure while standing up for yourself 
 Regardless of your gender, if the pattern continues, it may be appropriate to document specific instances and raise the issue with a manager, framing it as a collaboration problem rather than a grievance. That helps protect your credibility while naming the issue. And if you've noticed other colleagues also being interrupted during meetings, which is likely, you can bring them up as well. Don't mention them by name, but say something like, "I have also noticed that other colleagues of mine are also often being interrupted at our meetings. I want our workplace to be an environment where everybody can feel free to express their full and complete opinions on work-related matters. I think that doing this will help us be the best team that we can be. Any team suffers when not all of its members are able to express themselves fully." 
 
 Wanting to be heard is not “being difficult.” It’s asking for basic professional respect.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2824,8 +2758,8 @@ If after this conversation she still keeps bringing up politics, then that sends
 Many friendships can withstand political differences, but many others cannot. The question of which of these applies to your friendship will be determined by whether the two of you are able to come to a mutually satisfactory agreement about discussing politics and then actually stick to it. Because the status quo isn't sustainable.
 
 It's not weak or "shallow" of somebody to request that a difficult topic be kept out of conversations. In fact, it takes a strong person to make such a request and risk the ire of the other person or even the end of the friendship. Bottom line: you don’t owe perpetual engagement at the cost of your own peace.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -2926,8 +2860,8 @@ Unfortunately, there are very few, if any, cases in which setting boundaries doe
 When setting a boundary with your mom on this matter, you want to strike a tone of loving but firm. You might say something to the effect of, "Mom, I love you, and I really do enjoy having you over. But when you come over, I want it to be for a visit where we're both present and can enjoy each other's company. I know that you mean well in coming over while I'm gone and performing chores and leaving food, but it undermines my own sense of independence and sense that my space really is my own. Moving forward, can we both agree that the key that I gave you should be only used for emergencies, and that any other times when you come over, you need to ask me first?" 
 
 Relationships between parents and adult children often involve recalibration. This is one of those times. With love and patience, you will be able to strengthen and re-calibrate your relationship with your mother so that it preserves your closeness while also respecting your own autonomy.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3021,8 +2955,8 @@ Much will depend on how he responds. If he doesn't respond well, particularly af
 To help reinforce more positive new habits, I'd suggest also having a weekly check-in where you talk with your partner about how resolving the problem is going. Were there fewer incidents of blaming this past week than the week before? If so, count that as a win. You can expect your progress to be zig-zaggy, but if you work at it long enough, there's a good chance that the overall trend line will be positive. And the mere act of discussing blame in a "meta" fashion should help the two of you to detach from it and to see it from a more objective perspective. That is, to see blame as a complex and negative dynamic, rather than simply being in the mindset of trying to score points against the other.
 
 Over time, this work should help change this difficult dynamic while also solving the original problems more quickly. I would also recommend reading John Gottman's book, "The 7 Principles for Making Marriage Work," which contains excellent advice about the blame game and other marital challenges.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3126,8 +3060,8 @@ The immediate problem, of course, is helping your daughter to get healthy and ov
 You might tell your husband something like: "When you are dismissive of our daughter's eating disorder, you unintentionally make the problem worse. You're encouraging her to not take the problem seriously rather than confronting it as the life-threatening challenge that it is. I know that you also love our daughter and want her to get well, but these comments are achieving the opposite. Can you agree to read some of these articles and resources [see the examples above] and try to educate yourself more about eating disorders?"
 
 Finally, by all means, whenever your husband makes one of these remarks and there's even the possibility that your daughter could have been around, seek her out at your first opportunity and emphasize to her that what her father said was wrong. Tell her the facts in a calm manner, not to demonize her father but rather to show that his harmful views aren't correct. Facts and sincere affirmation are the best antidotes to misguided and harmful ignorance.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3242,8 +3176,8 @@ One important distinction may help you move forward: this does not have to be fr
 That kind of boundary may still provoke backlash. There is no guarantee it won’t. But it shifts the cost away from the most vulnerable person in the room. Right now, that cost is being paid by a brother who is likely already carrying a great deal of fear and isolation. Protecting him does not require heroics, but it does require choosing discomfort over complicity.
 
 Finally, regardless of what your husband decides to do with his father, it matters enormously that his brother knows where you both stand. Even quiet, private expressions of support can be lifesaving in an environment like this. You cannot control whether the family becomes more tolerant. But you can make sure that no one is left wondering whether cruelty is being silently endorsed. That clarity alone can make a profound difference.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3365,8 +3299,8 @@ I will also point out that there are avenues for secular people to meet and disc
 One can allow a symbolic rite while drawing firm lines around teaching, gender expectations, and moral authority. If those lines cannot be agreed upon, then delaying baptism until your daughter is old enough to express her own wishes is also a principled position, not a rejection of your wife’s faith.
 
 Indeed, don't forget to keep in mind the bigger picture of what your daughter herself might eventually want. Hopefully you and your wife would both agree that when your daughter is old enough to do so, she should be the one to determine her future path, be it a religious path or a secular one. So I think it makes sense to expose her to a mixture of religious and secular viewpoints. The exact contours of this will, of course, be up to you and your wife and eventually up to her. But by coming from a place of compassion and love, you will put her in a position to be well-equipped to make her own faith decision when the time comes. If you can reach a shared commitment to protecting your daughter’s autonomy, curiosity, and safety, then the question of baptism becomes less existential and more practical. And if you can’t reach that shared ground, it’s a sign that this conversation needs more time, not more pressure.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3484,8 +3418,8 @@ The guilt you’re feeling is also very common. Many people internalize the idea
 One way forward is to step back slightly while leaving a clear signal of care: let her know you’re there if she wants connection that doesn’t involve punishing you for disagreement, and then redirect your energy toward relationships that can meet you with warmth and respect. If she returns later, you can decide then what you’re willing to offer.
 
 Losing emotional closeness, even temporarily, hurts. You’re allowed to grieve that without blaming yourself. Caring deeply does not obligate you to accept harm in return. Sometimes the most compassionate choice for both people is to stop trying to hold something together that currently can’t be held.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3595,8 +3529,8 @@ You are not doomed, but hope here requires honesty rather than optimism. A meani
 That conversation may be uncomfortable, and it may surface grief on both sides. If your wife feels touched-out, exhausted, or disconnected from her own sexuality, that deserves compassion. But compassion does not mean accepting an indefinite status quo that leaves you quietly unhappy. A marriage can survive many things, but long-term erotic neglect without acknowledgment is not one of them.
 
 Whether the path forward involves medical consultation, couples counseling, renegotiated expectations, or difficult decisions about compatibility, the first step is naming the problem honestly. You are not wrong to want a marriage that includes mutual desire, not just mutual respect. Wanting that does not make you disloyal. It means you’re taking your relationship seriously.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3716,8 +3650,8 @@ You are right to feel torn. Wanting to preserve your family and avoid single par
 If there is any chance of salvaging this marriage, it will require a firm boundary, not another gentle appeal. That might sound like: “I will not accept being insulted or undermined, especially in front of our children. If this continues, I will take steps to protect myself and them.” This isn’t a threat. It’s a statement of reality. If he is willing to take responsibility and engage seriously in counseling with the explicit goal of changing this behavior, that may be worth exploring. If he isn’t, that tells you something important.
 
 Loving someone does not obligate you to endure ongoing harm. And staying “for the kids” only works if the home is a place of safety and respect. You don’t need to decide everything today. But it is appropriate to stop minimizing what’s happening and start prioritizing your dignity and your children’s emotional health. Those are not negotiable needs.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3843,8 +3777,8 @@ At this point, the most honest approach may be to stop arguing theology and spea
 It’s also important to grieve what you may not get. You can love your sister and still be deeply disappointed by her choice. If she does not attend, that absence will say something about her priorities, not about the legitimacy of your marriage. Surround yourself with people who are able to celebrate your commitment without conditions.
 
 You are not wrong to want your sister’s support. But you are also not wrong to refuse to sacrifice your partner’s dignity in order to secure it. Sometimes the most self-respecting choice is to move forward with joy and let others decide whether they are willing to meet you there.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -3958,8 +3892,8 @@ At the same time, it’s worth naming that your partner’s irritation when you 
 The most important shift here is moving away from the idea that you should “bridge the gap” by trying harder to be different. What you actually need is a shared framework that accepts difference as permanent and designs around it. If these conversations keep looping without progress, working with a counselor who understands neurodivergent relationships may help translate needs into concrete agreements. Not to fix either of you, but to help you build something workable.
 
 Compatibility isn’t about identical wiring. It’s about whether two people can build a life that respects both sets of needs without chronic resentment. That’s the real question to keep in view.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4079,8 +4013,8 @@ Yes, it would be appropriate to sit down with him and ask for a direct conversat
 It’s also important to accept that the likely outcome is not full agreement. He may decide that he simply will not attend certain events. You may decide that maintaining those family ties matters enough to attend alone. That can be workable, but only if it’s named openly and handled as a shared decision rather than an ongoing evasion.
 
 Dropping the matter entirely would not be respectful to you. Respecting your partner’s autonomy does not require you to carry the emotional and social costs of his silence. Clear agreements beat quiet resentment every time.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4194,8 +4128,8 @@ A useful distinction here is between your relationship with your former in-laws 
 It may also be necessary, as your children grow older, to help them understand these dynamics in age-appropriate ways. Not by vilifying their relatives, but by modeling that love does not require tolerating mistreatment. That lesson will serve them far beyond this divorce.
 
 You cannot make your ex-husband’s family compassionate or fair. What you can do is decide how much access they have to you, and under what conditions. Drawing those boundaries is not vindictive. It is a form of self-respect, and it teaches your children something vital about how to handle unjust treatment with clarity rather than submission.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4305,8 +4239,8 @@ After that, pay attention not just to what he says, but to what he does. If he e
 Making the three-hour drive yourself, as you suggested, can be a meaningful gesture, especially if you frame it as wanting to meet him where he is, literally and figuratively. Just be careful not to over-invest emotionally before you know whether the effort is mutual.
 
 Sometimes the most realistic outcome isn’t a close sibling bond, but a warmer, more intentional version of the relationship you already have. That can still be worthwhile. The key is to act from curiosity rather than obligation, and to let his response guide how much of yourself you continue to offer.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4423,8 +4357,8 @@ You might ask him something very direct, such as:
 If his answer centers on discomfort, avoidance, or hoping things will improve with time, that’s important information. It suggests that, in moments of conflict, you may be left carrying the burden alone. If, on the other hand, he is clear that he will challenge them, limit contact if necessary, and put your safety and dignity first, then there may be a path forward, even if it’s a difficult one.
 
 You are not obligated to marry into hostility to prove your commitment. Wanting a future where you are respected is not asking too much. If the price of staying is enduring racism with no meaningful protection from your partner, it is reasonable to walk away before the stakes get higher.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4536,8 +4470,8 @@ Where your experiences diverge is in the social context. Being gay in a still-un
 Be proactive without being intrusive. Initiate conversations, but don’t interrogate. Let her know that you’re open to meeting her girlfriend, that her relationship is welcome in your home, and that you’re available if things get confusing or painful. At the same time, give her room to have her own experiences and make her own mistakes, just as you would with a straight child.
 
 Above all, keep doing what you’re already doing: offering love without conditions, guidance without control, and support without panic. That combination does more to equip a teenager for the world than any perfect set of words ever could.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4649,8 +4583,8 @@ You have a demanding career and clear goals, including starting a family. He has
 You’ve already invested years in this relationship, and I don’t doubt that there’s real love between you. But love doesn’t erase the consequences of incompatible priorities. Ask yourself honestly: would ending this relationship be more painful than giving up your hope for children, stability, and a partner who pulls his weight?
 
 You’re not wrong for wanting a shared future that includes both ideals and responsibility. If he cannot or will not move toward that, then staying means shrinking your life to accommodate his. Ending the relationship would be heartbreaking, but it may also be the clearest and kindest choice for both of you.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4755,8 +4689,8 @@ You might say something like:
 If he cannot imagine setting limits, budgeting help instead of bailouts, or protecting your joint finances, then love alone will not fix this. Going broke together to avoid his parents’ displeasure is not a viable life plan.
 
 There may be hope only if he is willing to confront this pattern directly. If he isn’t, then the most painful truth may also be the clearest one: you are not choosing between love and money. You are choosing between a shared future and one where you are permanently subsidizing someone else’s inability to say no.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4871,8 +4805,8 @@ Then propose specific, limited changes. For example: he agrees to greet the fami
 But be clear with yourself: these adjustments are temporary at best. If he continues to refuse professional help while his behavior affects you and your children, that refusal becomes a choice with consequences. You are allowed to protect your peace and your children’s emotional safety, even if that makes him uncomfortable.
 
 You’re not asking for perfection. You’re asking for a home that doesn’t feel like a pressure cooker. That’s a reasonable expectation.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -4982,8 +4916,8 @@ Instead of trying to force holiday parity, talk with your wife about what would 
 You might say something like, “I understand why we spend most holidays with your family. I’m not trying to upend that. But I also don’t want to slowly lose my connection to my own family. Can we think together about how to protect that?”
 
 These situations are challenging at first, but they are definitely workable. Holidays don't always have to be when the traditional calendar says they should be. And they don't have to follow a particular script. So go enjoy your Festivus or your Pre-Christmas. I am sure they will be as wonderful and memorable as the traditional holidays.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5095,8 +5029,8 @@ Instead of asking whether you’re “letting money decide,” ask whether the l
 Give yourself permission to decide provisionally. Many women reassess after the baby arrives. Some scale back, some don’t. That flexibility is a strength, not a failure of conviction.
 
 There is no virtue in martyrdom here. A parent who feels grounded and respected is a better parent than one who gave up a meaningful life out of guilt.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5212,8 +5146,8 @@ You might say something like, “I know I broke your trust, and I’m sorry for 
 At the same time, you and your husband should get professional guidance for yourselves, not to diagnose your child, but to help you make grounded decisions in a situation where fear can distort judgment. Looping in the school counselor is also appropriate. This is not a betrayal; it’s building a wider net.
 
 This may be a long, quiet road. Presence, consistency, and safety matter more than eloquence right now. You are not failing because your teen won’t open up. You are parenting in an impossibly hard moment.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5325,8 +5259,8 @@ If the pressure continues, your fiancé should take the lead with his mother. Th
 This is actually a good test of how you'll handle future boundary issues with your in-laws. If you (or your soon-to-be-husband) give in on something as personal as your wedding dress to avoid conflict, you're setting a pattern of letting them dictate your choices. Set a better precedent: with respect for their opinions, but with firm boundaries about what's yours to decide. Wear the pink dress, and have a beautiful wedding.
 
 P.S.: Kudos to your husband for offering the common-sense opinion of "your wedding, your choice." He sounds like a keeper.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5430,8 +5364,8 @@ If you want to name the issue directly, keep it simple and non-accusatory: “I�
 You may also need to accept that some of this work is internal. Your brother’s success doesn’t diminish your own, but unlearning that reflex takes time. The goal isn’t to erase comparison entirely; it’s to stop letting it dictate how close you’re allowed to feel.
 
 Repair here is possible, but it will come from small, deliberate shifts rather than one big conversation.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5555,8 +5489,8 @@ As for the practical side: you’re already doing most of what’s within your c
 In the short term, the task isn’t to make peace with being single forever. It’s to loosen the grip of the belief that your life is on hold until someone chooses you. In the long term, the best predictor of a healthy relationship isn’t relentless striving, but staying connected to a life that feels worth sharing when the opportunity arises.
 
 You are not broken for wanting love. And you are not failing because it hasn’t happened yet.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5669,8 +5603,8 @@ From there, get specific. If he needs decompression time, fine. But it should be
 You should also talk honestly about how long this arrangement is expected to last. If this level of travel is temporary, you can treat it as a strain you’re jointly managing. If it’s indefinite, then you’re not just asking for tweaks. You’re deciding whether this is a life you can live in the long run.
 
 Burnout isn’t a personal failing. It’s a signal that the system you’re in needs adjustment. A partnership that survives demanding careers does so because both people are willing to rebalance when one person is carrying too much.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5790,8 +5724,8 @@ Also remember that the fact that your son is a teenager means that he's in a dev
 Autonomy doesn’t mean lack of guidance; it means having information and support while retaining agency. If he later decides to add an outside-of-school activity to his life grade, great. If he doesn’t, he’ll still be making a conscious decision rather than a blind one.
 
 Your job isn’t to optimize his résumé. It’s to help him understand the terrain well enough to choose his own path through it.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -5903,8 +5837,8 @@ You need to have a clear conversation about boundaries: "I understand that your 
 If she continues to dismiss your concerns or refuses to change her behavior, that's a bigger issue. It suggests she doesn't respect your boundaries or your right to privacy. You might need to consider couples counseling to work through this, because trust and respect for boundaries are fundamental to a healthy relationship. Your wife's friendships are important, but they shouldn't come at the expense of your comfort and privacy in your own marriage.
 
 A marriage can survive differing social styles. It can’t thrive when one partner’s boundaries are repeatedly dismissed. This is worth taking seriously now, before resentment sets in deeper.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6018,8 +5952,8 @@ The core issue here isn’t just geography. It’s whether you’re allowed to w
 You might say something like: “I’m proud of you and I want to support what you’re building. But moving would mean giving up a lot of what anchors my life right now. I need us to talk honestly about whether there’s a path forward that respects both of us, not just one of us making a sacrifice.”
 
 If she continues to frame your hesitation as a referendum on your commitment, that’s worth paying attention to. Healthy partnerships leave room for deliberation around life-altering decisions. They don’t turn them into loyalty tests. This moment isn’t about proving love. It’s about figuring out whether your visions of a shared future genuinely align, or whether they’re beginning to pull in different directions. Either answer is painful, but clarity now is far kinder than resentment later.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6135,8 +6069,8 @@ Before drawing that conclusion, it’s worth clarifying the allergy question. Ha
 More broadly, this isn’t just about allergies. You see your cats as family. Your partner “doesn’t really like them anyway.” Even if the allergy could be managed, that mismatch matters. Big decisions built on wishful thinking tend to fail quietly and painfully. One partner feels coerced; the other feels blamed for asking.
 
 Sometimes the most respectful choice is to admit that love alone doesn’t bridge every gap. Living separately or ending the relationship may be far more humane than forcing one of you to sacrifice something fundamental. Compatibility isn’t about who’s right. It’s about whether the life you’re trying to build allows both people to keep their integrity.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6250,8 +6184,8 @@ The next step is to remove the debate entirely. Instead of asking her to see thi
 Then follow through consistently. If she comments again, disengage immediately. Change rooms. Leave early. Keep it brief and predictable. This isn’t punishment. It’s information. Some people only adjust their behavior once they understand that certain topics reliably end the interaction.
 
 Love doesn’t require tolerating repeated discomfort. If she wants closeness, she has to participate in it respectfully. Protecting your well-being is not overreacting. It’s the minimum standard for an adult relationship.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6381,8 +6315,8 @@ That conversation may confirm your fears, or it may reveal a benign explanation.
 If it turns out that your partner simply isn’t regarded as part of that inner circle, the task then becomes adjusting your expectations. You don’t need to confront anyone or blow up the friendships, but you also don’t have to pretend the group is something it isn’t. Longstanding friendships sometimes evolve unevenly, and noticing that isn’t petty or disloyal. It’s honest.
 
 The key is this: you’re not wrong to pay attention to patterns, and you’re not obligated to minimize something that feels exclusionary just to keep the peace.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6504,8 +6438,8 @@ No apologies. No explanations. Repetition without emotional padding is often the
 Only if he continues after that does this become a workplace issue rather than a social one, at which point HR may be appropriate. But most people adjust once they understand the boundary is real.
 
 Handled this way, the working relationship doesn’t need to suffer. In fact, many people find clarity easier to respect than endless politeness that quietly breeds resentment.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6632,8 +6566,8 @@ That invites her perspective without demanding she repudiate her parents.
 If it turns out that she does aspire to a very different lifestyle, that’s important information. But you won’t get honest answers by leading with judgment. Compatibility is about shared direction, not moral superiority.
 
 If you want reassurance, earn it by approaching this with humility rather than verdicts.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6771,8 +6705,8 @@ Then stop talking and listen. If she says, “Absolutely not,” you have your a
 One more thing: do not let porn become the substitute for intimacy conversations you are avoiding. A libido mismatch is common, but it still needs daylight. That might mean scheduling sex, broadening what “sex” includes, making room for affection that does not feel like a demand, and yes, sometimes accepting that one partner masturbates. None of that requires shame. It does require honesty.
 
 You’re not asking because you want permission. You’re asking because you can feel the trust issue lurking underneath. Take that seriously now, while it’s still fixable.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -6892,8 +6826,8 @@ You might say something like: “I’m noticing that I’m starting to feel rese
 If even modest purchases are turning into debates about values, that’s a sign the boundaries are too fuzzy. Clear rules lower the emotional temperature.
 
 Finally, don’t treat this as a one-time fix. Revisit the system periodically and ask a simple question: “Is this still working for both of us?” You’re not trying to win an argument about money. You’re trying to build a financial structure that lets both of you breathe.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7015,8 +6949,8 @@ You’re allowed to weigh the years you’ve shared and the life you’ve built.
 If you’re still unsure, ask yourself a hard but clarifying question: If nothing changed from today forward, could I live this life without losing myself? If the answer is no, then the decision is already leaning in one direction.
 
 Staying is only reasonable if the behavior stops completely and accountability follows. Without that, leaving isn’t a failure. It’s self-preservation.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7128,8 +7062,8 @@ Then back that up with action. No late-night messaging. No private emotional tal
 If he reacts with embarrassment or over-apologizes, keep your tone steady: “There’s nothing wrong. I just want our friendship to stay in a place that feels good for both of us.” But if he does the opposite and reacts defensively or angrily, then that shows you something important as well. 
 
 Connecting with a valued friend doesn't justify crossing lines that you don't want to cross. And clear boundaries don’t ruin good relationships. They protect them.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7245,8 +7179,8 @@ People have unrequited romantic feelings all the time, and also requited ones th
 Continue to engage her as a friend within appropriate boundaries. Approach her with the mentality that romance is off the table and always will be. And if you can't engage her as a friend due to these romantic feelings, then you should disengage from interacting with her and focus your social attention elsewhere. 
 
 Some connections are real, and still not meant to be pursued. Some hard questions must remain unanswered.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7358,8 +7292,8 @@ It’s also worth asking whether there are ways to make larger gatherings more c
 Reassure him that opting out isn’t a failure. Many people with lower social stamina feel guilty for not matching their partner’s energy. When you frame this as balance rather than pressure, he may feel freer to participate in ways that genuinely work for him. Over time, familiarity with a few people can also make gatherings feel less daunting.
 
 You’re not trying to merge personalities. You’re trying to build a life where both styles can breathe.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7473,8 +7407,8 @@ Expect some awkwardness. But this is the type of unambiguous language you need t
 Also expect resistance and some "backsliding" on her part (sorry). But if you continue to convey your own needs and wishes in a kind, loving, but firm and decisive manner, that will increase the chance that she will come around to halting the preaching and engaging with you as a sibling again.
 
 You’re not rejecting her faith. You’re shaping a version of the relationship that both of you can inhabit with honesty. The connection can evolve, but only if it’s grounded in mutual respect rather than quiet discomfort or the continual replay of asymmetrical power dynamics.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7586,8 +7520,8 @@ Along these same lines, avoid framing involvement as a moral hierarchy. Instead,
 From there, look for overlapping ground rather than identical action. Maybe he won’t march in the streets, but he might support you in smaller ways: researching issues, helping with logistics, or simply being a sounding board. Even handing out water bottles to protesters at a march in mid-summer is a very valuable but often overlooked contribution. And these activities still allow him to keep politics mostly out of his daily life while still finding small ways to contribute to the causes you both seem to care about. Meaningful alignment doesn’t require carbon-copy activism or the loud forms of engagement that are often held up as superior to quieter forms. Maybe your boyfriend is more of a “behind-the-scenes” type of guy. What matters is whether you can respect each other’s choices without resentment building underneath.
 
 The goal isn’t to convert him. It’s understanding whether this difference can live comfortably inside the relationship, or whether it will keep pulling you apart.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7699,8 +7633,8 @@ Then dig into what “uncertainty” means for him. Is he unsure about the timin
 At the same time, articulate your own timeline without apology. You’re not issuing an ultimatum by acknowledging that your desires matter. You’re simply saying: “I can’t stay indefinitely in a holding pattern. I want to explore this with you in a way that respects both of our needs.” Without naming a specific time in the future by which he needs to make his decision, you're clearly communicating to him that the status quo of uncertainty cannot continue forever.
 
 Finally, agree on a structured follow-up—a real check-in a few weeks or months down the line. “Sweetheart, I know that we've talked about having kids at some point, and I know that last time we checked in you were hesitant. But has your stance changed at all since the last time that we talked?” Big decisions often require reflection, but they also require momentum. You’re not rushing him. You’re creating a shared path forward. But you're also gently letting him know that at a certain point, there will be a fork in the road, and that he will need to decide which of the two paths to take.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
+<END_OF_SET>
+
 
 INPUT:
 You are revising an advice-column response using the following rubric.
@@ -7816,4 +7750,4 @@ If he doesn't volunteer this information, ask questions that clarify the scope: 
 Career changes are multi-stage processes, and the two of you might work together to decide upon a phased approach to this transition. One in which the first steps would be somewhat experimental and relatively easily reversed. He can start by simply researching the new field, which is probably what he's doing now. This can involve talking to established professionals in this field, reading articles and websites, etc. And if he's able to, he can shadow professionals in the field as well. The next step might involve more commitment, such as part-time classes, depending on the target career. If the field he's aspiring to is one with a very rigid and pre-set course of study, such as the law, then he might sit in on one or two classes if he's able to. This approach could allow him to test the path before making a full leap.
 
 All in all, you’re not denying him growth. You’re ensuring that your relationship with him is woven into his career change decision rather than left behind.
-</END_EXAMPLE>
+<END_OF_SET>
