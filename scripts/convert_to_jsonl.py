@@ -143,7 +143,8 @@ def parse_markdown_document(content: str) -> List[Dict[str, str]]:
         weaknesses = normalize_text(weaknesses_match.group(1))
         
         # Extract REVISED_RESPONSE (from REVISED_RESPONSE: until end of section)
-        revised_match = re.search(r'REVISED_RESPONSE:\s*\n?(.*?)$', section, re.DOTALL | re.MULTILINE)
+        # Use \Z to match absolute end of string (not end of line), and greedy match to get all content
+        revised_match = re.search(r'REVISED_RESPONSE:\s*\n?(.*)\Z', section, re.DOTALL)
         if not revised_match:
             raise ValueError(f"Missing or malformed REVISED_RESPONSE section in entry {section_idx + 1}")
         revised_response = normalize_text(revised_match.group(1))

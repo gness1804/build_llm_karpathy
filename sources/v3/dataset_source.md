@@ -320,7 +320,7 @@ STRENGTHS:
 WEAKNESSES:
 - Even though the letter is compassionate and empathetic towards the child, and implies that the situation isn't their fault, it would be strengthened by the columnist explicitly and forcefully stating that none of these problems are in any way the letter writer's fault. And that the situation was caused by the parents and not the child.
 - Grammar: uses em-dashes. 
-- Uses the word "deeply", which is an LLM towel.
+- Uses the word "deeply", which is an LLM tell.
 
 REVISED_RESPONSE:
 I’m so sorry that you have to go through that. No child deserves to be treated as a go-between by their parents. And no child should be forced into the heartbreaking position of having to choose one parent over the other. This is not only grossly unfair, but it also teaches children to be perpetually wary of those who are supposed to love them the most, lest their trust be betrayed again. It teaches children terrible lessons about communication, basic decency, and how to "fight fair" with a spouse or partner, including during a breakup or divorce.
