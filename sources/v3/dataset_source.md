@@ -477,74 +477,6 @@ If there is a path forward, it begins with acknowledgment rather than explanatio
 After that, the timeline belongs to them. They may need distance. They may never return to the relationship you want. Accepting that is part of accountability, painful as it is. The goal is not to feel forgiven. The goal is to become someone safer now than you were then.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My husband’s parents are openly hostile toward me and have questioned our marriage. I’ve opted out of seeing them. Now I’m pregnant with twins, and they suddenly want access. Am I wrong to keep my distance?
 
@@ -583,72 +515,7 @@ Twins will require enough of you. You are not obligated to carry unresolved fami
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I’m 21 and interested in a man who is 13 years older than me. He says he’s attracted to me but hesitant because he doesn’t want to “take advantage of my youth.” I don’t know what to make of that.
@@ -689,72 +556,7 @@ Sometimes care expresses itself not through action, but through restraint.
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My sister resents me for being more academically successful. She says I make her feel inferior, even when I try to downplay my achievements. I feel like I’m walking on eggshells.
@@ -790,72 +592,7 @@ If the resentment continues to surface as hostility or punishment, it’s also a
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I’m estranged from a sibling, and my parents keep pushing us to “make peace.” They say it’s breaking their hearts. What should I do?
@@ -900,72 +637,7 @@ Sometimes the most loving choice is to stop pretending a relationship exists whe
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My best friend is going through a divorce and calls me almost every night to vent. At first I wanted to be there for her, but it’s been months now, and every conversation turns into a two-hour monologue about her ex. I’m emotionally exhausted and starting to dread her calls. Am I a bad friend if I pull back?
@@ -1000,72 +672,7 @@ Being a good friend does not require sacrificing your own emotional health. Care
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I’ve been married for 20 years and recently realized I’m deeply unhappy. There’s no abuse, no infidelity, just a growing sense that we became roommates. Is it selfish to consider leaving?
@@ -1104,72 +711,7 @@ There is no moral virtue in endurance for its own sake. The ethical question isn
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My adult son rarely calls or visits. When I bring it up, he says he’s busy. I feel rejected and don’t know how to respond without pushing him further away.
@@ -1202,72 +744,7 @@ Sometimes the most loving thing a parent can do is leave the door open and trust
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My partner frequently jokes at my expense in social settings. When I ask him to stop, he says I’m too sensitive. Am I?
@@ -1308,72 +785,7 @@ You are not obligated to tolerate being the punchline to "keep the peace" in you
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I feel guilty for being relieved after ending a relationship. Does that mean I never really loved them?
@@ -1411,72 +823,7 @@ Emotions are signals, and your relief is telling you that something about that r
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My parents expect me to visit every holiday, even though doing so leaves me anxious and depleted. I feel trapped between obligation and self-care.
@@ -1511,72 +858,7 @@ Self-care is not selfishness with better branding. It is maintenance.
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I discovered that my partner reads my private messages “out of concern.” They say they’re just trying to protect the relationship. How serious is this?
@@ -1616,72 +898,7 @@ Protection that requires violation of privacy is not protection; it's snooping.
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My adult daughter constantly asks for financial help but dismisses my advice and resents any boundaries I try to set. I feel used and guilty at the same time. What’s the right response?
@@ -1715,72 +932,7 @@ Your daughter may be angry, and that will be painful. But guilt alone is not a r
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My spouse keeps forgiving a family member who repeatedly disrespects me. I feel like my feelings always come second. Is this a marriage problem or a family problem?
@@ -1821,72 +973,7 @@ Bottom line: Don't stand for mistreatment. You deserve much better than that.
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My coworkers often interrupt or talk over me in meetings. When I try to assert myself, I’m labeled “difficult.” How do I handle this without damaging my reputation?
@@ -1918,72 +1005,7 @@ Wanting to be heard is not “being difficult.” It’s asking for basic profes
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I’m considering ending a friendship because our political views have diverged dramatically. We can’t talk without it becoming tense. Is that shallow?
@@ -2015,72 +1037,7 @@ It's not weak or "shallow" of somebody to request that a difficult topic be kept
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I am in my late twenties and recently moved into my own place. My mom has a key for emergencies, which I was fine with. Lately she has started “dropping by” unannounced when I am at work to leave food, do small chores, or reorganize things “to help.” She means well, but it feels like my space is not really mine. I tried joking about it, but she did not get the hint. How do I set a boundary without hurting her feelings?
@@ -2117,72 +1074,7 @@ Relationships between parents and adult children often involve recalibration. Th
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband and I have been married for 10 years, and while it's mostly been a good marriage with the usual ups and downs, a toxic dynamic has evolved where both of us rush to blame the other during arguments. For example, last week our cat escaped and my youngest child and I spent several hours looking for her before a neighbor thankfully found and returned her. The relief of having her back should have been the end of it, but instead the incident sparked a painful argument about whose "fault" it was—-my husband blamed me for leaving the door open when I went out to tend to our plants (I was only outside for a few minutes), while I blamed him because the only reason I went out to water the plants was that he had neglected to do it after saying he would take care of them. The argument was unproductive, as almost all our arguments are. We've been in couples therapy but haven't made much progress, in part because my husband doesn't take therapy seriously. How can we overcome this blame dynamic and develop a better marital relationship?
@@ -2212,72 +1104,7 @@ Over time, this work should help change this difficult dynamic while also solvin
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 Like so many others, my teenage daughter is struggling with an eating disorder. In her case, she's lost so many pounds in the last few weeks that she barely resembles her old self. She's obsessed with the idea that she's fat, but in reality, she's dangerously underweight. Making matters worse, my husband seems to not take her situation seriously enough. While I fear for her life if she doesn't get treatment soon, my husband often brushes off the subject when I talk to him about it. He says things like, "Oh, she's just going through a phase," or "Maybe she just doesn't like the food that you cook." I think that my daughter is overhearing this and it might be encouraging her to starve herself even more.
@@ -2317,72 +1144,7 @@ Finally, by all means, whenever your husband makes one of these remarks and ther
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband and I are facing a dilemma over how to respond to a problem with how his family treats his brother. We both have long suspected that my husband's brother is gay. At one point, the brother even came to my husband asking for advice on how to come out of the closet. However, in large part because of their family's attitudes, the brother has never actually come out to them. From time to time, I overhear some of my husband's family, particularly my father-in-law, make offensive and cruel remarks about gay people. I don't know if the father-in-law suspects that one of his sons is gay or not, but regardless, this creates an alienating environment for us and obviously especially for the brother.
@@ -2433,72 +1195,7 @@ Finally, regardless of what your husband decides to do with his father, it matte
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My wife and I are expecting our first child, a daughter. As you might imagine, we're over the moon about being new parents and nurturing and loving this new human. Nevertheless, my wife and I are engaged in a nasty recurring argument over whether to baptize our future daughter. My wife came from a fairly secular family but experienced trauma in her early adulthood, including a sexual assault. She found an on-campus religious community that provided tremendous support to her in her healing. And after college she has continued to attend church in that same denomination. She's been a part of this denomination for about 15 years at this point, and I have nothing against her doing this. Obviously she's an autonomous adult, and we don't have to agree on religion. But in my case, I'm an atheist who had some very bad experiences with religion growing up, including multiple attempts to proselytize me. I also had a friend who was abused by a priest. And so for me, organized religion is the root of much evil with corporate greed being the root of most of the rest.
@@ -2556,72 +1253,7 @@ Indeed, don't forget to keep in mind the bigger picture of what your daughter he
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My best friend recently got back together with her ex-boyfriend, who I know was emotionally abusive to her. She cut off her other best friend for telling her to leave him, and now she's threatening to cut me off too over a trivial political disagreement we had. I'm trying to be a safe presence for her like people advised, but it's getting harder as she keeps ghosting me or being cold and distant. How do I handle this without losing my friend completely, and how do I stop feeling terrible about it?
@@ -2675,72 +1307,7 @@ Losing emotional closeness, even temporarily, hurts. You’re allowed to grieve 
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My wife and I have been married about 15 years. For the first few years, our sex life was great. We were, as the saying goes, "f***ing like bunnies". But as the years wore on, especially once we had kids, we hit a rough spot in the bedroom. Since we had our second and final child, my wife only wants sex once every few weeks, and sometimes once every few months. When we do have sex, I almost always have to initiate, and she's just not as, shall we say, vigorous as was the case before. I love my wife and want to respect her preferences, but at the same time, I feel that my sexual needs are no longer being met. Am I doomed to spend the rest of my days in a sexually unsatisfying marriage, or is there hope for us?
@@ -2786,72 +1353,7 @@ Whether the path forward involves medical consultation, couples counseling, rene
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband has a habit of criticizing me when I do something wrong, or when he thinks I do something wrong. This behavior has unfortunately been escalating in recent months. It started even before our wedding. For instance, he would remark upon my having chosen the "wrong" dress rather than telling a white lie that he liked the dress. Also, he would say things like, "You must be so glad you found me given how you were living before." Like most people in love, I brushed off these red flags, thinking that he would change after the wedding. But alas, things only got worse from there. Now that we've been married several years and have two kids, he started insulting me in front of the kids. He also tries to make me believe things that I know aren't true. For instance, by repeating lies to me, such as accusing me of losing our house keys, when in fact he's the one who misplaced them. They were found in the pocket of his suit jacket, for goodness sake!
@@ -2907,72 +1409,7 @@ Loving someone does not obligate you to endure ongoing harm. And staying “for 
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm engaged to be married to a wonderful man. We met online about a year and a half ago. When he proposed, I was truly over the moon. This has been a fairytale story, except for one major aspect: my extremely religious sister doesn't approve of him. Why? It boils down to the fact that he's divorced. In our religious tradition, if you enter into marriage with somebody, even if the marriage itself was not in this tradition, and you then divorce, our church has to find a reason why the divorce is invalid to permit the person to marry a second time within this church. It's called an annulment. My fiance has been willing to go quite far for my family with regards to religion, including even getting baptized, albeit not in our same denomination. But very reasonably, he's decided not to do an annulment on the grounds that it would be an unacceptable intrusion into his private life. And he's right. We don't need priests digging into his past life.
@@ -3034,72 +1471,7 @@ You are not wrong to want your sister’s support. But you are also not wrong to
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm on the autism spectrum and my partner is also neurodivergent, albeit differently. This has been a source of connection, but also a source of struggle. For example, they frequently express frustration when I'm not reading their social cues in the way that they expect me to. They also get irritated if I leave the room because they're cooking a certain thing, or if I'm focusing on obsessive interest, as we autists are known for. I do try to communicate my needs to them, and they seem receptive to it. But often it seems like we're getting nowhere. Our brains are wired too differently. Any recommendations on how to bridge the gap?
@@ -3149,72 +1521,7 @@ Compatibility isn’t about identical wiring. It’s about whether two people ca
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My partner and I are both liberal, but most of my family is strongly conservative, as in hardcore Trump-loving conservative. As you can imagine, we've had our share of disagreements, but we've found ways to agree to disagree. We just try not to discuss politics, and we have a rule to never talk to each other on the day of a major election, like the midterms or a presidential election. This has worked reasonably well for us and has managed to keep us in relatively close contact.
@@ -3270,72 +1577,7 @@ Dropping the matter entirely would not be respectful to you. Respecting your par
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm going through a nasty divorce. My husband and I were married for about 20 years, and the marriage unraveled for a variety of reasons. Yes, there was infidelity, but that honestly wasn't the biggest part of it. The infidelity was really a symptom rather than a cause of what broke us up. Effectively, we just weren't communicating well, and we realized that we would be happier with other people.
@@ -3385,72 +1627,7 @@ You cannot make your ex-husband’s family compassionate or fair. What you can d
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm a 37-year-old man, and I live with my long-term partner. No kids. My brother and I are not close. He lives just a 3-hour drive away, and we routinely make drives longer than that for various reasons, but we only see him maybe once every couple of years. And this includes Christmases and Thanksgivings. We are not actively hostile. We get along relatively well, and we have a few things in common. But we really are at the level of at most casual friends. I have co-workers who I'm closer to than my brother. I want to reconcile with him, but I really don't know how. Do you have any strategies for trying to connect with a semi-estranged but not hostile sibling?
@@ -3496,72 +1673,7 @@ Sometimes the most realistic outcome isn’t a close sibling bond, but a warmer,
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm black, and my partner is white. We've been dating for about three years. We get along great, and even though we have a few minor issues, I really see a future with my partner. (If it matters, I'm a woman, and he's a man.) But the problem is his family, particularly his parents. His parents have made it clear that they don't approve of us as a couple. They are polite to me when I interact with them, but reading between the lines, I can see that they're not happy. There's a lot of tension, and my partner reports to me that when I'm not present, they make racist remarks behind my back. This is causing a lot of tension. 
@@ -3614,72 +1726,7 @@ You are not obligated to marry into hostility to prove your commitment. Wanting 
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My daughter just came out to my husband and me. It happened relatively undramatically. We were all sitting around the kitchen table, eating dinner, and she mentioned that she had something to tell us. She said that her friend, who we will call Chloe, is actually her girlfriend, and that she's been pretty sure that she is gay for some time. She's 16. She says that while she's been attracted to other girls aside from Chloe, Chloe is the first one to actually reciprocate. And she says she's never been attracted to any boys.
@@ -3727,72 +1774,7 @@ Above all, keep doing what you’re already doing: offering love without conditi
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm 28 years old (female), and my boyfriend is 33. We get along well and he's a great guy, loves me, loves my dog, wants kids, is usually pretty low maintenance. The problem is, well, I suppose a common one. It's a new time and in many cases, women are working and earning more than men. We are a textbook example of this. Although in our case, I am the only one earning anything at all! I just finished grad school last year and I have a really good, promising job in the finance industry. Nothing like those Wolf of Wall Street financiers but still a good, sustainable job. My boyfriend, by contrast, has always been a bit of a dreamer. He dropped out of college once, then finished a couple years later after volunteering in several cities in America and earning very little money. I met him during his second college stint when I was finishing up college myself. We had a period of long distance but long story short, decided it was worth it, stuck out the long distance, and then started living together after he was able to move back to our town. He also got a master's degree somewhere along the way but isn't using it. He says he wants to change the world and has big plans to end world hunger and improve global education.
@@ -3840,72 +1822,7 @@ You’re not wrong for wanting a shared future that includes both ideals and res
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm 27 and my boyfriend is 30; we've been together for three years and living together for 1.5 years. We get along well and are managing financially, but the problem is with his parents. They're in their late 60s, living on limited income (his father is retired from the military, his mother was a teacher until she quit due to osteoarthritis), but despite their modest pensions, they've made extremely inadvisable financial decisions—luxury cruises, expensive restaurants they can't afford. They're emotionally manipulative, constantly playing on the fact that he's their only child to get him to spend money on them and go into debt. He can't seem to resist, and I think part of it is his sense of duty carried over from when he was in the military—he feels he owes his parents for raising him and wants to give back. They're taking advantage of this. I've tried talking to him about this multiple times, but he always says that his duty to his parents supersedes everything else. I love him and don't want to leave, but I also don't want us to go broke because he can't say no to his parents. Is there any hope for us?
@@ -3946,72 +1863,7 @@ There may be hope only if he is willing to confront this pattern directly. If he
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband has always been particular about cleanliness, but since he started a high-stress job, it's gotten much worse. When he's on his way home, I can feel my whole body tense up. I rush around cleaning counters, vacuuming, putting away dishes, making sure no toys are out—all before he walks through the door. If anything is out of place when he arrives, he immediately starts straightening and cleaning, often before even saying hello. I've adapted to his standards over the years, and we're both tidy now, but I feel like I'm living under constant pressure to keep things perfect so he doesn't spiral into cleaning mode. Our kids are experiencing the stress too, and it's getting to them. It's exhausting, and I hate that I sometimes dread his return because of the energy shift it brings. We've talked about it many times, but not much has changed. He refuses counseling and says he'll "work on it," but I don't see real progress. How can I support him without losing my peace or turning our home into a stress zone for everyone?
@@ -4062,72 +1914,7 @@ You’re not asking for perfection. You’re asking for a home that doesn’t fe
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My wife comes from a large, close-knit family, while I come from a much smaller family. Sometimes it seems like I have lived through "My Big Fat Greek Wedding." But movie references aside, this has resulted in cultural adaptations for both of us. Geography also shapes our interactions with our respective families, especially around the holidays. Her family is mostly local. Most live within an hour's driving radius. By contrast, my family is very spread out. By "spread out", I mean that I need to get on a plane to see three of my four immediate family members. And there's no destination I can go to where I will be within 200 miles of more than one of my immediate family members. As you can imagine, this means we spend most holidays with her family. It just makes logistical sense, especially because traveling over the holidays is such a nightmare. But at the same time, I feel that this is a bit inequitable. I grew up assuming that my wife and I would alternate families to visit for the holidays, as a lot of people do. For instance, we see her family for Thanksgiving, I see hers for Christmas, then do it the reverse the following year. But the distance makes this impractical. I also have limited time off from work, and we like to travel outside of the holidays for leisure purposes as well. How can we heed logistical realities while making things fairer?
@@ -4173,72 +1960,7 @@ These situations are challenging at first, but they are definitely workable. Hol
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm expecting my first baby in a few months, and I'm struggling with a decision I never thought I'd face. I always assumed I would stay home with my kids, at least during the early years—that's how I was raised. My mom stayed home throughout our entire childhoods. But now that I'm actually pregnant, I realize I don't want to leave my job. I work in HR at a midsize company, and while the work is challenging, it's also predictable and I find it fulfilling. It also doesn't make financial sense right now because I bring in roughly 60% of our family's income—my husband is a schoolteacher. Most of my friends either don't have kids yet or are stay-at-home moms, so I don't have great models for working motherhood. My coworkers who are moms seem frazzled and complain about their kids all the time, which scares me. Is it even possible to be a happy working mom, or am I letting money make a decision for me that should be moral or emotional?
@@ -4286,72 +2008,7 @@ There is no virtue in martyrdom here. A parent who feels grounded and respected 
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband and I recently discovered that our 17-year-old is depressed and has contemplated suicide. I found out by going through their phone after noticing they seemed "off" and didn't want to talk to me. Our teen feels betrayed and angry that I went through their phone. We took them to their pediatrician for an evaluation, and they refused to talk at all or to consider antidepressant or nonmedical interventions. We went to a therapist twice and they refused to speak at all. I've tried drawing them out, waiting patiently, explaining how suicide cannot be undone and we will get through this together, but nothing seems to get through. They did confirm that there was no event that triggered this—they're just sad. They said talking to their friends helps. But I don't know what to do. I'm barely sleeping and every time they're out of sight I'm wondering if they're okay. I asked if they'd see a different therapist and got completely shut down. How do we continue in this liminal space where our teen is suffering but refusing help?
@@ -4403,72 +2060,7 @@ This may be a long, quiet road. Presence, consistency, and safety matter more th
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm getting married next year and I want to wear my grandmother's wedding gown. She got married in 1970 and her dress is a stunning floor-length fuchsia A-line gown with a square neckline—she hated white as much as I do. My grandmother is having it dry cleaned and says it's still in perfect condition. My future mother-in-law thought it was wonderful that I'd be wearing my grandmother's gown until she saw a picture of it. Now she insists that it couldn't be a wedding gown since brides only wore white back then, even though the picture is clearly of my grandparents on their wedding day. She can't let it go and keeps saying what a mistake it will be to be married in "that dreary old pink dress" and that I'll miss the fun of picking my own special gown. My mom also suggested I wear something more traditional like she did, and offered me her white gown, but I hate it—it's poufy and over the top with tulle and beading. My fiancé says I should wear what makes me happy, which is my grandmother's dress. With both moms objecting, is this a stupid hill to die on?
@@ -4516,72 +2108,7 @@ P.S.: Kudos to your husband for offering the common-sense opinion of "your weddi
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD and one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
@@ -4621,72 +2148,7 @@ Repair here is possible, but it will come from small, deliberate shifts rather t
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm a single man in my early thirties. I live alone. I have a decent job and a few good friends, but I feel that there's one giant gap in my life: a woman-shaped gap. I'm a straight man, and I yearn for a partner. In therapy, I often struggle with the shame, frustration, and sense of inadequacy that comes with being a single man, at least for me. My therapist has suggested some useful exercises, such as conducting a mock trial where the defense is defending my being single and the prosecution is advocating for being partnered. This helps, but the core feelings of hollowness, personal failure, and jealousy remain. Every time I see on Facebook that another of my friends or acquaintances is getting engaged, I want to throw up. I feel bad because I should be happy for them, but instead I keep thinking about my own situation.
@@ -4746,72 +2208,7 @@ You are not broken for wanting love. And you are not failing because it hasn’t
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My husband and I have been married five years and we have two young children. My husband's job requires him to travel frequently—he's gone about two weeks out of every month. When he's home, he's often exhausted and wants to relax, which means I'm still doing most of the childcare and household management even when he's here. I work full-time too, and I'm burning out. I've tried talking to him about it, but he says his job is demanding and he needs downtime when he's home. I understand that, but I also need a break, and I feel like I'm doing everything alone. We can't afford for him to change jobs right now, but something has to give. How do we find balance when his career requires so much travel?
@@ -4860,72 +2257,7 @@ Burnout isn’t a personal failing. It’s a signal that the system you’re in 
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I'm the mother of two kids, a son age 15 and a daughter age 13. My son has expressed a strong interest in being a physician, a goal that I support because he has a genuine love for medicine—he's been interested in it from a very young age and has loved his hospital shadowing experiences. The problem is that he's so focused on school and grades that he isn't doing any extracurriculars. I worry that now that he's in high school, not having extracurriculars will hurt his chances of getting into a good college and eventually medical school, even if he maintains his excellent grades. I don't like the "extracurricular arms race" that high school has become, but I recognize we have to work within the system as it exists. I've repeatedly encouraged him to find an extracurricular he likes, even suggesting the Science Club since science is his favorite subject, but he always says he's focused on schoolwork and that Science Club would be redundant since he already studies science outside of school. I want him to forge his own path, but I also don't want him to make choices that could hurt his chances of getting into medical school or another professional or graduate school. How can I strike a balance between providing sound parental advice and giving him the autonomy he needs to make his own choices?
@@ -4981,72 +2313,7 @@ Your job isn’t to optimize his résumé. It’s to help him understand the ter
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My wife and I have been married for eight years, and we have a good relationship overall. But there's one recurring issue: she's very close with her group of college friends, and they have a group chat where they're constantly messaging. The problem is that they often share very personal details about their lives, including things about their relationships and sex lives. My wife participates in these conversations and sometimes shares details about our relationship that I'm not comfortable with. When I've asked her to keep our private life private, she says I'm being too sensitive and that this is just how her friend group communicates. But I feel like my privacy is being violated, and I don't want our intimate details discussed in a group chat. How do we resolve this?
@@ -5094,72 +2361,7 @@ A marriage can survive differing social styles. It can’t thrive when one partn
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My girlfriend and I have been together for two years, and we're both in our late 20s. She just got offered her dream job, but it's in a city about 500 miles away. She wants to take it, and she's asked me to move with her. I have a good job here that I enjoy, my family lives nearby, and I've built a life in this city. I love her and I want to support her career, but I'm not sure I'm ready to uproot my entire life. She's hurt that I'm hesitating and says it shows I'm not committed to our future. How do we figure this out?
@@ -5209,72 +2411,7 @@ If she continues to frame your hesitation as a referendum on your commitment, th
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My partner and I have been together for three years, and we're talking about moving in together. The issue is pets. I have two cats that I've had for years, and they're like family to me. My partner is allergic to cats and doesn't really like them anyway. They've suggested I rehome my cats before we move in together, but I can't imagine giving them up. My partner says it's not fair to expect them to live with animals they're allergic to and don't want, but I feel like asking me to give up my pets is asking me to give up part of my family. How do we resolve this?
@@ -5326,72 +2463,7 @@ Sometimes the most respectful choice is to admit that love alone doesn’t bridg
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My younger sister has taken up this strange new habit of commenting on my appearance every time we see each other. It’s always framed as concern about my health or “just trying to be honest,” but the comments land hard and linger with me for days. I’ve already tried gently telling her that these remarks don’t feel supportive, yet she insists she’s doing it out of love and that I’m being overly sensitive. I’m starting to dread family gatherings because I never know what she’ll say next. She isn’t trying to be cruel, but the pattern is wearing me down. How do I set a boundary she will actually respect?
@@ -5441,72 +2513,7 @@ Love doesn’t require tolerating repeated discomfort. If she wants closeness, s
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My partner and I are friends with two other couples. The six of us have been close for over a decade, or so I thought. 
@@ -5572,72 +2579,7 @@ The key is this: you’re not wrong to pay attention to patterns, and you’re n
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 One of my coworkers is very friendly and has made a point of inviting me to various after-work activities. I’ve turned down the invitations every time, partly because I’m introverted and partly because I like keeping a clear line between my work life and my personal time. He never gets pushy or inappropriate, but he is persistent. Even after several polite nos, he keeps asking as though I might suddenly change my mind. I don’t want to embarrass him or make things awkward at work, but I also don’t want to spend the rest of the year repeating myself. How can I shut this down kindly but firmly?
@@ -5695,72 +2637,7 @@ Handled this way, the working relationship doesn’t need to suffer. In fact, ma
 <END_OF_SET>
 
 
-INPUT:
-You are revising an advice-column response using the following rubric.
 
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I was very fortunate that my parents raised me to appreciate simplicity and avoid greed and excess.
@@ -5821,74 +2698,6 @@ If it turns out that she does aspire to a very different lifestyle, that’s imp
 
 If you want reassurance, earn it by approaching this with humility rather than verdicts.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I've been married for a few years. My wife and I are mostly open with each other about things. But I have one thing that I haven't told her about. I watch porn. It's always from mainstream sites. Never underage porn. And I never interact with any of the performers directly, a la OnlyFans. I usually do it when I'm sleeping in the other room for various reasons, or sometimes when she goes out for a while. I feel guilty about this, but at the same time, I also feel like it's important to me since our libidos are mismatched. My libido is significantly higher than hers.
@@ -5961,74 +2770,6 @@ One more thing: do not let porn become the substitute for intimacy conversations
 You’re not asking because you want permission. You’re asking because you can feel the trust issue lurking underneath. Take that seriously now, while it’s still fixable.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My partner and I recently merged our finances, and we’re discovering that we have very different spending habits. I’m frugal and tend to think months ahead. He’s more spontaneous and comfortable with impulse purchases. Neither of us is reckless, but the mismatch has caused a few tense conversations about what counts as “necessary,” and I can feel resentment creeping in. How do we navigate this without turning every purchase into a referendum on our values?
 
@@ -6081,74 +2822,6 @@ If even modest purchases are turning into debates about values, that’s a sign 
 
 Finally, don’t treat this as a one-time fix. Revisit the system periodically and ask a simple question: “Is this still working for both of us?” You’re not trying to win an argument about money. You’re trying to build a financial structure that lets both of you breathe.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I feel that I'm a walking, breathing cliche. I'm a 54-year-old woman whose similarly-aged husband cheated on me with his 24-year-old secretary. It's really the oldest story on God's green earth. I naively took him at his word when he told me that he was working late on Monday and Wednesday evenings. He told me that he had a big project to finish up, and his boss had laid off his assistant, so he was forced to do two people's jobs. Thus, he had to spend many hours at work outside of the workday to get it all done. 
@@ -6205,74 +2878,6 @@ If you’re still unsure, ask yourself a hard but clarifying question: If nothin
 Staying is only reasonable if the behavior stops completely and accountability follows. Without that, leaving isn’t a failure. It’s self-preservation.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 I’ve become close friends with someone at work, and the friendship has been great, but lately he’s been leaning on me in ways that feel more intimate than a typical workplace bond. Long messages late at night, venting about loneliness, asking for emotional reassurance. He has a partner, and so do I, and nothing explicitly romantic has happened, but the line feels blurry. I don’t want to lose the friendship, but I also don’t want to compromise boundaries I care about. How can I reset things without making it awkward at work?
 
@@ -6317,74 +2922,6 @@ If he reacts with embarrassment or over-apologizes, keep your tone steady: “Th
 
 Connecting with a valued friend doesn't justify crossing lines that you don't want to cross. And clear boundaries don’t ruin good relationships. They protect them.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 I've become very attracted to someone at my school. I'm in my mid-30s, and I am in an intensive vocational school that's co-educational. My cohort ranges in age from early 20s to 50s, although most of us are in the late 20s/early 30s range. I am a guy, and there's a girl in our cohort who is a few years younger than me. She and I are both introverts, and we bonded over this. She has also said that she sees me as handsome, though I need to remind myself that this doesn't necessarily indicate romantic interest. But I feel that our connection is becoming stronger with each conversation. We don't spend a lot of one-on-one time, but we always seem to end up talking to each other in group settings.
@@ -6435,74 +2972,6 @@ Continue to engage her as a friend within appropriate boundaries. Approach her w
 Some connections are real, and still not meant to be pursued. Some hard questions must remain unanswered.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My partner and I have different approaches to socializing. I enjoy hosting people and creating opportunities to bring our circles together. He prefers one-on-one interactions and finds group gatherings draining. I’ve tried balancing both, but lately I feel like I’m shrinking my social world to fit his preferences. When I bring it up, he says he doesn’t want to hold me back, but he still rarely participates. I don’t want to pressure him, yet I want a life that feels full. How do we navigate this mismatch?
 
@@ -6547,74 +3016,6 @@ Reassure him that opting out isn’t a failure. Many people with lower social st
 
 You’re not trying to merge personalities. You’re trying to build a life where both styles can breathe.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My younger sister and I used to be close, but ever since she joined a very tight-knit religious community, our relationship has grown strained. She’s kind and still reaches out, but conversations feel scripted, and she gently critiques my choices in ways she never used to. She keeps inviting me to events that feel more like recruitment than connection. I miss who we were to each other, but I also want to respect her path. How do I keep the relationship alive without feeling pressured to participate in a belief system that isn’t mine?
@@ -6663,74 +3064,6 @@ Also expect resistance and some "backsliding" on her part (sorry). But if you co
 You’re not rejecting her faith. You’re shaping a version of the relationship that both of you can inhabit with honesty. The connection can evolve, but only if it’s grounded in mutual respect rather than quiet discomfort or the continual replay of asymmetrical power dynamics.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My boyfriend and I have very different levels of political engagement. I attend rallies, donate, and stay active in local organizing. He supports my involvement but has little interest in participating himself, saying he prefers to “keep politics out of daily life.” Lately I’m feeling a sense of mismatch, like our values align in theory but not in practice. I’m worried that this will become a deeper divide over time. How do I talk about this without sounding self-righteous?
 
@@ -6776,74 +3109,6 @@ From there, look for overlapping ground rather than identical action. Maybe he w
 The goal isn’t to convert him. It’s understanding whether this difference can live comfortably inside the relationship, or whether it will keep pulling you apart.
 <END_OF_SET>
 
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 My partner and I have been together for a few years, and we’ve always talked about wanting kids “someday.” Recently, I’ve felt that desire growing stronger, but when I brought it up more concretely, he hesitated. Not a firm no, but a real uncertainty. He says he needs more time to think about what he wants his life to look like. I don’t want to pressure him into parenthood, but I also don’t want to put my own timeline on hold indefinitely. How do we talk about something this big without turning it into an ultimatum?
 
@@ -6888,74 +3153,6 @@ At the same time, articulate your own timeline without apology. You’re not iss
 
 Finally, agree on a structured follow-up—a real check-in a few weeks or months down the line. “Sweetheart, I know that we've talked about having kids at some point, and I know that last time we checked in you were hesitant. But has your stance changed at all since the last time that we talked?” Big decisions often require reflection, but they also require momentum. You’re not rushing him. You’re creating a shared path forward. But you're also gently letting him know that at a certain point, there will be a fork in the road, and that he will need to decide which of the two paths to take.
 <END_OF_SET>
-
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
 
 QUESTION:
 My partner recently disclosed that he’s been feeling lost about his career, and now he wants to explore a totally different field. I want to be supportive, but I’m anxious—this could mean years of retraining, financial instability, and a major shift in our future plans. I don’t want to discourage him, but I also don’t want to ignore the practical impact on our shared life. How do I support his growth without sidelining my own needs?
