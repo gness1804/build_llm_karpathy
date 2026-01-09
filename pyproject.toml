@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.bump2version]
-current_version = "0.1.4"
+current_version = "0.1.5"
 commit = true
 tag = true
 files = ["pyproject.toml"]
@@ -13,7 +13,7 @@ vcs = "git"
 
 [project]
 name = "build-llm-karpathy"
-version = "0.1.4"
+version = "0.1.5"
 description = "Implementation of a transformer-based language model following Andrej Karpathy's approach"
 readme = "README.md"
 requires-python = ">=3.10"
