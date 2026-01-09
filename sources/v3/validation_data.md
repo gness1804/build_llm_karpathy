@@ -1,72 +1,3 @@
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
-
 QUESTION:
 I am the oldest of three daughters, and my family has always placed a heavy emphasis on achievement and success, conventionally defined—my father is a physician, and my mother is a renowned lawyer, and my younger siblings and I all followed in their footsteps, becoming professionals of various stripes. We're all reasonably happy in our lives, though we face a lot of stress. But I've been encountering one particular problem that has caused me to question some of the values I grew up with. Last year, when my car broke down on the side of the road, I waited 3 hours for AAA, but they never came. Just as hour 4 began, a kindly man around my age drove up in his truck and offered to fix the problem, refusing the money I offered as compensation. On a whim, I asked him if he might want to meet for coffee, and we really hit it off. Now we're in a promising relationship. He came from a working class family and aside from his vocational education, hasn't had much formal education; he's an auto mechanic. But after I told my parents about our relationship, they strongly disapproved, making harsh remarks about me throwing away my life with some "grease monkey" and emphasizing that both of my siblings were married or engaged to fellow highly paid professionals.
 
@@ -81,30 +12,22 @@ When it comes to your family, there’s no simple answer. Keeping some distance 
 
 Ultimately, your happiness and sense of self deserve to be at the center of this. It’s okay to set boundaries that preserve your well-being, even if that means some distance from your family for now. Over time, as they witness your relationship and your continued success on your own terms, their perspective may shift—or it may not. Either way, living authentically and with integrity is a powerful way to honor both yourself and the people you love.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Clearly identifies the core value conflict between status-driven family expectations and personal fulfillment.
+STRENGTHS:
+- Clearly identifies the core value conflict between status-driven family expectations and personal fulfillment.
+- Maintains a calm, respectful tone toward all parties.
+- Encourages boundary-setting without immediately escalating to estrangement.
+- Avoids diagnosing or pathologizing anyone.
 
-Maintains a calm, respectful tone toward all parties.
+WEAKNESSES:
+- Overly abstract and generalized; relies on broad moral language rather than decisive framing.
+- Uses em dashes (“—kindness, respect, shared values, and genuine connection”) which contributes to a polished-but-LLM feel.
+- Avoids clearly naming the parents’ behavior as disrespectful or harmful.
+- Lacks a concrete script for addressing the parents directly.
+- Ending is aspirational but vague, suggesting growth “over time” without grounding the reader in present-day action.
 
-Encourages boundary-setting without immediately escalating to estrangement.
-
-Avoids diagnosing or pathologizing anyone.
-
-Weaknesses:
-Overly abstract and generalized; relies on broad moral language rather than decisive framing.
-
-Uses em dashes (“—kindness, respect, shared values, and genuine connection”) which contributes to a polished-but-LLM feel.
-
-Avoids clearly naming the parents’ behavior as disrespectful or harmful.
-
-Lacks a concrete script for addressing the parents directly.
-
-Ending is aspirational but vague, suggesting growth “over time” without grounding the reader in present-day action.
-
-OUTPUT: 
+REVISED_RESPONSE:
 I would agree that your parents are acting inappropriately. We have enough problems with class and income inequality in our society without people throwing fuel on the fire by acting with such disrespect towards those who are different. The fact and appropriateness of your relationship with a mechanic is none of their business. Their comments about your partner aren’t expressions of concern; they’re expressions of contempt, and that matters.
 
 You don’t need to hide your partner to keep the peace. Before keeping your parents at arm’s length, though, it’s worth confronting this directly. That gives them a chance to course-correct and makes it clear that silence does not equal consent.
@@ -114,75 +37,7 @@ I would convey to your parents that while you love them, you also don't like how
 If they resist, you can also remind them, gently but firmly, that status is relative. Except for those who sit at the very top of the social ladder, there are always people above who could apply the same dismissiveness and contempt that they’re directing downward. That perspective often lands harder than moral lectures.
 
 If they refuse to stop, then distance becomes a boundary, not a punishment. But start with clarity. This is your life, and you don’t need to apologize for building it according to your own definition of success.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I briefly dated a woman last year. Let's call her "Jeannie." And by "briefly," I mean: friendship that quickly evolved, romance that developed even more quickly, a brief sexual encounter, and then painful disengagement on the part of Jeannie. The situation was short but extremely intense, and it was one of the one or two times that I've truly been in love. We were good friends for 6 months after our "breakup" and then have remained cordial thereafter. 
@@ -204,28 +59,21 @@ Ultimately, relationships thrive on mutual respect and understanding, which some
 
 There’s no simple answer here, but your willingness to consider both perspectives thoughtfully is a strong foundation for navigating this with care.
 
-EVALUATION:
-Score: 6.5
+SCORE: 6.5
 
-Strengths:
-Accurately identifies the emotional tension between friendship and romantic partnership.
+STRENGTHS:
+- Accurately identifies the emotional tension between friendship and romantic partnership.
+- Avoids accusing either party of bad faith.
+- Recognizes that boundaries matter even when no cheating has occurred.
 
-Avoids accusing either party of bad faith.
+WEAKNESSES:
+- Response is too biased towards prioritizing the romantic relationship over the friendship. Does not adequately consider the possibility that the better course of action might be to break up with Mira and remain friends with Jeannie.
+- Excessive neutrality (“Neither of you is inherently right or wrong”) weakens moral clarity.
+- Overlong and meandering, with multiple paragraphs reiterating the same balance point.
+- Uses em dashes repeatedly (“Jeannie—someone you shared a meaningful, if brief, romantic connection with”), contributing to a generic LLM cadence.
+- Fails to engage with the intensity and emotional residue of the Jeannie relationship.
 
-Recognizes that boundaries matter even when no cheating has occurred.
-
-Weaknesses:
-Response is too biased towards prioritizing the romantic relationship over the friendship. Does not adequately consider the possibility that the better course of action might be to break up with Mira and remain friends with Jeannie.
-
-Excessive neutrality (“Neither of you is inherently right or wrong”) weakens moral clarity.
-
-Overlong and meandering, with multiple paragraphs reiterating the same balance point.
-
-Uses em dashes repeatedly (“Jeannie—someone you shared a meaningful, if brief, romantic connection with”), contributing to a generic LLM cadence.
-
-Fails to engage with the intensity and emotional residue of the Jeannie relationship.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Being torn between two people you care about, especially when you don't think that there's a valid reason for the conflict to be there at all, is definitely a distinct kind of pain. In your mind, there's a clear boundary, chronologically and physically, that separates your relationship with Jeannie from that with Mira. Mira feels differently. 
 
 Being friends with an ex is one of those age-old issues dividing good, thoughtful people. One school of thought holds that such a friendship, or indeed any friendship between people with the potential for mutual attraction, is almost always a slippery slope towards inappropriate contact between the two people involved. Call this the "When Harry Met Sally" school. The other camp is more permissive of such friendships, as long as appropriate boundaries are maintained. And at the end of the day, it really does depend on the people and the circumstances. I've known of people who were platonic friends with exes for years after the breakup, with no apparent rekindling of any sort of romantic interest between them. And I've also known of people who, um, went the "When Harry Met Sally" route.
@@ -235,75 +83,7 @@ Ultimately, the answer to this question depends on the particulars. The question
 You have a right to your own friendships, but her concerns are also valid. If you truly feel that you can maintain a friendship with this ex without any temptations or risk of inappropriate actions, then it might be worth trying to make the friendship work--while also keeping your current partner apprised, of course. Suggest a compromise. For instance, maybe only hang out with Jeannie in group settings or when your partner is there. Or agree to only see Jeannie in public spaces during the day. But if your partner's discomfort would seem to preclude even compromises like this, then you might have to weigh this friendship vs. your current relationship. If it really does seem to be a mutually exclusive choice after ruling out compromises and such, then you'll have to decide whether staying in your current relationship is worth cutting ties with a friend or vice-versa.
 
 Sometimes a loss isn’t about choosing the “right” person. It’s about recognizing that you can’t carry every meaningful connection forward into the next phase of your life without something giving way.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My girlfriend and I have been together for a year, and we're both in our early 30s. She's great in so many ways, but there's one thing that's really bothering me: she's constantly on her phone when we're together. We'll be having dinner, and she'll be scrolling through social media. We'll be watching a movie, and she'll be texting. Even when we're having what I think is an important conversation, she'll pick up her phone to check notifications. I've mentioned it a few times, and she'll put it away for a little while, but then she's right back to it. I feel like I'm competing with her phone for attention, and it's making me feel unimportant. Am I overreacting, or is this a legitimate concern?
@@ -317,28 +97,21 @@ At the same time, it’s important to observe how she responds to this conversat
 
 Ultimately, relationships thrive on mutual respect and attentiveness. If this issue continues to leave you feeling neglected, it’s okay to reconsider how it fits into your overall happiness and needs. You deserve to feel seen and prioritized, and a partner who can share their attention with you—not just their phone.
 
-EVALUATION:
-Score: 7.5
+SCORE: 7.5
 
-Strengths:
-Correctly names the emotional impact of divided attention.
+STRENGTHS:
+- Correctly names the emotional impact of divided attention.
+- Validates the concern without labeling the partner as malicious.
+- Encourages observing patterns over time rather than reacting to isolated incidents.
+- Avoids overt therapyspeak or diagnosis.
 
-Validates the concern without labeling the partner as malicious.
+WEAKNESSES:
+- Uses an em dash in the opening (“You’re not overreacting—this is a legitimate concern”), which contributes to an LLM-ish tone.
+- Slightly overexplains the psychological reasons for phone use rather than staying grounded in relational impact.
+- Suggests app-based solutions that may feel overly prescriptive or external to the relationship.
+- Ending drifts toward problem-solving rather than reaffirming the relational boundary itself.
 
-Encourages observing patterns over time rather than reacting to isolated incidents.
-
-Avoids overt therapyspeak or diagnosis.
-
-Weaknesses:
-Uses an em dash in the opening (“You’re not overreacting—this is a legitimate concern”), which contributes to an LLM-ish tone.
-
-Slightly overexplains the psychological reasons for phone use rather than staying grounded in relational impact.
-
-Suggests app-based solutions that may feel overly prescriptive or external to the relationship.
-
-Ending drifts toward problem-solving rather than reaffirming the relational boundary itself.
-
-OUTPUT: 
+REVISED_RESPONSE:
 You're not overreacting—this is a legitimate concern. When someone is constantly on their phone during shared time, it sends a message that whatever's on the screen is more important than the person in front of them. That's hurtful, and it's reasonable to want your partner's full attention when you're spending time together.
 
 The fact that she puts it away temporarily when you mention it but then goes back to it suggests this might be more of a habit or compulsion than intentional disregard. Or that she understands what's wrong intellectually, but it's different on an emotional level. Some people genuinely struggle with phone addiction or use their phones as a way to manage anxiety or boredom. But regardless of the reason, it's affecting your relationship, and that needs to be addressed.
@@ -346,75 +119,7 @@ The fact that she puts it away temporarily when you mention it but then goes bac
 Have a direct conversation when you're both calm and not in the middle of a phone-checking moment: "I love spending time with you, but I've noticed that you're often on your phone when we're together, and it makes me feel like I'm not important to you. I'd like us to have some phone-free time together—maybe during meals, or when we're watching something, or having important conversations. Can we agree on some boundaries around that?" Be specific about what you need. Maybe phones go in another room during dinner, or you have certain times that are designated as phone-free. If she's resistant or dismissive of your feelings, that's a bigger problem. But if she's willing to work on it, you might need to help her by suggesting alternatives—maybe she needs to address underlying anxiety, or maybe your time together needs to be made more engaging so she's less tempted to reach for her phone. The goal is to find a balance where you both feel present and connected.
 
 As a coda, I will add that there are also apps out there that limit access to distracting apps. These apps allow someone to set restrictions around the use of distracting apps (such as Facebook, YouTube, Instagram, or any apps one chooses). These are often time-based (e.g., during working hours or during the evenings) but can also have settings such as limiting the amount of time someone can open such apps in a day. One of the best of these is called Opal. Such an app might also be a solution if, as you mentioned, her heavy phone use is more of an unconscious habit than a conscious effort to avoid talking to you. I'd recommend looking into these apps.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My husband’s best friend recently confided in me that he’s struggling with depression, and he begged me not to tell my husband because he “doesn’t want to be a burden.” I care about this person, but I’m not comfortable holding a secret this big—especially since my husband would want to support him. I don’t want to betray his trust, but I also don’t want to shoulder something I’m not qualified to manage. What’s the right way to navigate this?
@@ -430,30 +135,22 @@ If he remains unwilling to involve your husband, you might consider carefully wh
 
 Ultimately, you are not responsible for “fixing” this situation, but you can be a bridge to help your friend access the support he needs. Balancing confidentiality with care is never easy, but prioritizing safety and well-being—both his and yours—is a reasonable and humane guide.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Correctly identifies the core tension between confidentiality and support.
+STRENGTHS:
+- Correctly identifies the core tension between confidentiality and support.
+- Validates the letter writer’s discomfort without shaming.
+- Avoids diagnosing or prescribing treatment directly.
+- Acknowledges limits of responsibility (“you are not responsible for fixing this”).
 
-Validates the letter writer’s discomfort without shaming.
+WEAKNESSES:
+- Overuse of LLM hedging language (“one way to approach this,” “might consider,” “ultimately”).
+- Excessive neutrality where moral clarity is warranted. The response never clearly states that this is too heavy a secret to impose on someone outside the friendship.
+- Overuse of “deeply” and “deeply delicate,” which feels templated.
+- Lacks a clear boundary statement or decisive guidance about when secrecy must give way to safety.
+- The suggestion that disclosure “might not be a betrayal” is too soft and leaves the letter writer carrying the moral burden.
 
-Avoids diagnosing or prescribing treatment directly.
-
-Acknowledges limits of responsibility (“you are not responsible for fixing this”).
-
-Weaknesses:
-Overuse of LLM hedging language (“one way to approach this,” “might consider,” “ultimately”).
-
-Excessive neutrality where moral clarity is warranted. The response never clearly states that this is too heavy a secret to impose on someone outside the friendship.
-
-Overuse of “deeply” and “deeply delicate,” which feels templated.
-
-Lacks a clear boundary statement or decisive guidance about when secrecy must give way to safety.
-
-The suggestion that disclosure “might not be a betrayal” is too soft and leaves the letter writer carrying the moral burden.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Situations like this are tricky and require clear boundaries. You are caught between protecting the friend's confidence and your own hesitation at carrying a secret that you really shouldn't have to carry. You were placed in a position you didn’t choose: holding a serious, emotionally loaded secret about someone who is not your primary relationship. That’s not a fair ask. 
 
 You should make clear to the friend that he should reach out to other people who are better able to assist him. Begin by validating his feelings. “I’m really glad you trusted me enough to share this.” Then pivot gently toward your boundary: “But I’m not the right person to carry this alone. You deserve support from people who love you, and I can’t hold this in isolation.”
@@ -463,75 +160,7 @@ Encourage him to tell your husband directly. Offer support if he wants help fram
 If he still refuses to tell your husband, you may need to prioritize safety over secrecy. Mental health struggles are not casual confidences. You need to be firm but non-threatening with the friend that this isn't something he can just tell you and then pretend like nothing is going on. You might say: “I’m worried about you, and I can’t keep this from him if it means you won’t get the support you need.” 
 
 This isn’t betrayal. It’s responsible care. You’re refusing to let him collapse in isolation, and you’re refusing to carry a burden that was never yours to bear alone.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I'm engaged to a wonderful man. We've been together for two years, and even though we've had our ups and downs, it's mostly been great. But we've hit a major snag when it comes to wedding planning. Since he proposed months ago, our first concern has been cost. We're both graduate students, and we're several years away from being able to make good money. I come from a modest background where there was never much extra money growing up. But my fiancé's family is much wealthier. His parents agreed to pay for the entire wedding, which really floored me and was something that we gratefully accepted. But there was a catch. Since they've agreed to fund the wedding, they've been trying to dictate to us non-stop every little detail, right down to the color of the flowers. They've even hinted in a backhanded way that they might withdraw financial support for our wedding if we don't do things exactly their way.
@@ -551,30 +180,22 @@ If the parents continue to insist on controlling every detail or use financial l
 
 Ultimately, there is no perfect answer here. Your wedding is a significant milestone, but it’s also just one day in a lifetime of partnership. Prioritizing your relationship and your well-being over the event’s scale or appearance is a valid and often wise choice. Whatever you decide, approaching the situation with honesty, empathy, and clear communication—especially between you and your fiancé—will be your strongest foundation.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Accurately names the tension between gratitude and autonomy.
+STRENGTHS:
+- Accurately names the tension between gratitude and autonomy.
+- Encourages communication between partners before involving parents.
+- Avoids demonizing the parents.
+- Keeps tone calm and non-inflammatory.
 
-Encourages communication between partners before involving parents.
+WEAKNESSES:
+- Excessive hedging and neutrality where leverage and coercion should be named.
+- Overuse of “deeply challenging” and similar softeners.
+- Lacks firm moral clarity about financial pressure being a form of control.
+- Offers too many options without helping the reader evaluate which are viable.
+- No concrete boundary language; avoids scripts until very late.
 
-Avoids demonizing the parents.
-
-Keeps tone calm and non-inflammatory.
-
-Weaknesses:
-Excessive hedging and neutrality where leverage and coercion should be named.
-
-Overuse of “deeply challenging” and similar softeners.
-
-Lacks firm moral clarity about financial pressure being a form of control.
-
-Offers too many options without helping the reader evaluate which are viable.
-
-No concrete boundary language; avoids scripts until very late.
-
-OUTPUT: 
+REVISED_RESPONSE:
 I'm sorry that your dream wedding is coming with so many strings attached, but unfortunately, that's fairly common. Gratitude does not require surrendering your agency. Paying for the wedding does not entitle someone to run your marriage’s first major decision.
 
 What I'd suggest you do first is have an honest conversation with your fiancé. Sit down and discuss: what are the essentials that you must have in your wedding? What are some things you can negotiate? And what are some things that you don't particularly care about? Then, you might want to make a list as to what your preferences are in each of those categories versus what his parents' preferences are. This will help you have a holistic view to see whether there's enough alignment with their preferences to, as you say, "suck it up" and go along with what they want or if going it alone and having a more modest wedding might be more appropriate.
@@ -584,75 +205,7 @@ If you're generally okay with their direction but have a few smaller deal-breake
 If they respond by escalating pressure or threatening to withdraw support, that tells you something important. At that point, the question isn’t about weddings. It’s about whether accepting their money means accepting ongoing control. If so, scaling back or choosing a smaller wedding within your means may ultimately protect your relationship and your peace. It would also set a good precedent that they can't bully you by dangling dollars in front of your faces.
 
 There’s no way to have everything here. But starting your marriage by asserting shared values and mutual respect matters more than having a perfect event.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My partner and I have been together for three years, and we're talking about getting engaged. The problem is my family. They're very traditional and have made it clear they don't approve of my partner for several reasons—my partner is from a different cultural background, has a different religion, and my family thinks they're "not good enough" for me. We've tried to include my partner in family events, but my family is cold and sometimes outright rude. My partner has been incredibly patient and understanding, but I can see it's taking a toll. I love my family, but I also love my partner, and I'm tired of being caught in the middle. How do I handle this?
@@ -672,31 +225,22 @@ Ultimately, you’re facing a choice between trying to change long-held family a
 
 Take your time, lean on trusted friends or confidants who understand your situation, and remember that you have the right to build a life that reflects your values and happiness.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-- ...
-Acknowledges emotional pain on all sides.
+STRENGTHS:
+- Acknowledges emotional pain on all sides.
+- Centers the partner’s experience of exclusion.
+- Encourages boundary setting.
+- Avoids diagnosing or pathologizing family behavior.
 
-Centers the partner’s experience of exclusion.
+WEAKNESSES:
+- Overuse of “deeply” and generalized emotional language.
+- Still too conciliatory toward family hostility.
+- Avoids clearly naming prejudice as harmful behavior.
+- Lacks concrete consequences for continued disrespect.
+- Uses em dashes in places that soften otherwise strong points.
 
-Encourages boundary setting.
-
-Avoids diagnosing or pathologizing family behavior.
-
-Weaknesses:
-Overuse of “deeply” and generalized emotional language.
-
-Still too conciliatory toward family hostility.
-
-Avoids clearly naming prejudice as harmful behavior.
-
-Lacks concrete consequences for continued disrespect.
-
-Uses em dashes in places that soften otherwise strong points.
-
-OUTPUT: 
+REVISED_RESPONSE:
 This is a painful situation, and I'm sorry you're dealing with it. The reality is that you can't control your family's behavior, but you can control how you respond to it and what you're willing to tolerate. Right now, by continuing to bring your partner into situations where they're treated poorly, you're essentially condoning that treatment, even if that's not your intention. You’re unintentionally signaling that this treatment is something they’re expected to endure. That’s not fair to them, and it’s not sustainable for you.
 
 You must set clear boundaries with your family. Have a direct conversation: "I love you all, and I want you in my life. But the way you're treating my partner is unacceptable, and I won't continue to subject them to that. If you can't be respectful and welcoming to my partner, then I won't be bringing them to family events, and I may need to limit my own participation as well." This is hard, but necessary. Your partner deserves to be treated with basic respect, and you deserve to not have to choose between your family and your relationship.
@@ -704,75 +248,7 @@ You must set clear boundaries with your family. Have a direct conversation: "I l
 The key is to be consistent. If you set this boundary but then keep showing up to family events without your partner, or if you let your family's comments slide, you're sending mixed messages. You might also consider whether there are family members who are more accepting. Maybe you can maintain relationships with those individuals separately, while limiting contact with those who are hostile. 
 
 You’re not choosing between your family and your partner. You’re choosing whether the person you love is protected or sacrificed to keep the peace. That choice will shape the future you’re building.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My close friend recently started dating someone new, and while I want to be supportive, every interaction I’ve had with his partner has left me uneasy. They dominate conversations, interrupt constantly, and seem dismissive of my friend’s opinions in subtle but persistent ways. My friend seems smitten and hasn’t noticed any of this. I don’t want to rain on his happiness, but I’m worried about the dynamic I’m observing. How do I express concern without sounding judgmental or territorial?
@@ -790,30 +266,22 @@ Lastly, keep in mind that your role isn’t to control or fix the relationship b
 
 This is a tough spot to be in, and your thoughtful approach shows your commitment to your friend’s happiness and safety. Trust that your honesty, delivered with kindness, is a meaningful gift.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Validates the writer’s concern without accusing the new partner of being abusive or malicious based on limited evidence.
+STRENGTHS:
+- Validates the writer’s concern without accusing the new partner of being abusive or malicious based on limited evidence.
+- Advises the right general lane: talk privately to the friend, focus on concrete observations, expect defensiveness.
+- Includes a usable conversational entry point (a short script) and urges restraint.
 
-Advises the right general lane: talk privately to the friend, focus on concrete observations, expect defensiveness.
+WEAKNESSES:
+- LLM-ish phrasing and filler: “delicate tightrope,” “approaching with humility,” “planting a seed,” “meaningful gift.” It reads like generic guidance rather than a columnist with a point of view.
+- Overuse of intensifiers: “deeply” shows up again and contributes to the same “default voice” problem you’ve been flagging.
+- Em dash usage: It uses em dashes (for example, “what you’ve described—the partner’s…”) which you explicitly want to penalize and train out.
+- Too hedged and abstract: It never really names what you are seeing in plain terms (steamrolling, subtle contempt, social isolation risk) or draws a firm line about what would warrant escalation.
+- Not enough practical structure: It gives one “say something like” line, but doesn’t coach the writer on how to handle likely outcomes (friend brushes it off, partner escalates, friend later confides).
+- Ending is generic reassurance: It closes by praising the writer’s thoughtfulness instead of leaving them with a clear, grounded next step.
 
-Includes a usable conversational entry point (a short script) and urges restraint.
-
-Weaknesses:
-LLM-ish phrasing and filler: “delicate tightrope,” “approaching with humility,” “planting a seed,” “meaningful gift.” It reads like generic guidance rather than a columnist with a point of view.
-
-Overuse of intensifiers: “deeply” shows up again and contributes to the same “default voice” problem you’ve been flagging.
-
-Em dash usage: It uses em dashes (for example, “what you’ve described—the partner’s…”) which you explicitly want to penalize and train out.
-
-Too hedged and abstract: It never really names what you are seeing in plain terms (steamrolling, subtle contempt, social isolation risk) or draws a firm line about what would warrant escalation.
-
-Not enough practical structure: It gives one “say something like” line, but doesn’t coach the writer on how to handle likely outcomes (friend brushes it off, partner escalates, friend later confides).
-
-Ending is generic reassurance: It closes by praising the writer’s thoughtfulness instead of leaving them with a clear, grounded next step.
-
-OUTPUT: 
+REVISED_RESPONSE:
 You’re right to feel uneasy, and you’re also right to be careful. A friend’s new relationship is not a courtroom, and you do not have enough information to declare that this person is “bad.” But you are allowed to notice a pattern that leaves your friend smaller in the room. People who constantly interrupt, dominate, and subtly swat down a partner’s opinions can slowly train everyone around them to stop listening to that partner. That is not nothing.
 
 The mistake to avoid is making this about your opinion of the new partner’s personality. Keep it about your friend’s experience and your friend’s voice. Pick a calm moment when you are alone and say something like:
@@ -827,75 +295,7 @@ If he shrugs it off, do not press. Just stay observant and stay available. If th
 One more boundary for your own sanity: do not get pulled into becoming the designated referee at every dinner. If the partner is steamrolling you too, you can keep it simple in the moment: “Hold on, I want to hear what he was saying.” No speech, no drama, just a small correction that signals the room has more than one voice.
 
 You cannot run quality control on your friend’s love life. You can be a steady mirror and a steady friend. When you speak with care and specificity, you are not being territorial. You are being loyal.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I’m close with my older sister, but she’s been sharing very personal details about my life with extended family members—things I told her in confidence. When I confronted her, she said she was “just trying to help people understand what I’m going through.” I’m hurt and feel exposed, but she doesn’t seem to grasp the breach of trust. How do I rebuild safety with someone who doesn’t seem to understand boundaries?
@@ -909,30 +309,22 @@ Rebuilding safety will likely take time and repeated, consistent respect for you
 
 Ultimately, rebuilding trust requires both acknowledgment of the breach and a demonstrated commitment to respect your privacy. If that commitment isn’t there, protecting your own emotional well-being by creating distance or adjusting expectations is a valid and sometimes necessary step. Your need for safety and respect in your relationships is not only reasonable but essential.
 
-EVALUATION:
-Score: 6.5
+SCORE: 6.5
 
-Strengths:
-Clearly validates the sense of betrayal.
+STRENGTHS:
+- Clearly validates the sense of betrayal.
+- Emphasizes the importance of trust.
+- Encourages boundary setting.
+- Avoids blaming the letter writer.
 
-Emphasizes the importance of trust.
+WEAKNESSES:
+- Overuse of “deeply painful” and similar LLM intensifiers.
+- Too forgiving of repeated boundary violations.
+- Avoids naming the behavior as unacceptable unless safety is at stake.
+- Lacks a clear rule for future information sharing.
+- Uses em dashes to soften accountability.
 
-Encourages boundary setting.
-
-Avoids blaming the letter writer.
-
-Weaknesses:
-Overuse of “deeply painful” and similar LLM intensifiers.
-
-Too forgiving of repeated boundary violations.
-
-Avoids naming the behavior as unacceptable unless safety is at stake.
-
-Lacks a clear rule for future information sharing.
-
-Uses em dashes to soften accountability.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Sharing someone else’s private information without permission is not a misunderstanding. It’s a breach of trust. Intentions don’t override that, and “trying to help people understand” does not make it acceptable.
 
 The fact that you've already confronted her and made clear what the problem is, and that she doesn't seem willing or able to change her behavior, indicates a larger issue. You will have to make clear to her the gravity of the situation, and if necessary, stop sharing sensitive personal information with her if the behavior continues.
@@ -942,75 +334,7 @@ Start with clarity: “When I share personal things with you, I expect them to s
 From there, set a forward-looking rule: “If you’re ever unsure whether something is private, assume it is. Ask me first before sharing it with anyone else.” With anything that's at all sensitive, she needs to ask you before sharing it. End of discussion.
 
 Rebuilding trust takes time, but consistency helps. If she proves she can hold confidentiality moving forward, the relationship will strengthen. If she can’t, then you will know that you simply can't share private or sensitive information with her anymore. Not out of punishment, but in order to protect yourself. Love doesn't justify allowing your sister to become a sieve with your most private and intimate information.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I feel pressured to reconcile with a parent who has never acknowledged the harm they caused. Other family members say I should “move on.” Am I being unforgiving?
@@ -1024,28 +348,21 @@ You have the right to decide what kind of relationship, if any, is healthy for y
 
 Ultimately, your feelings and needs matter. You don’t have to rush toward reconciliation or forgiveness to satisfy others’ expectations. It’s okay to prioritize your healing and to seek support from people who respect your experience and decisions.
 
-EVALUATION:
-Score: 7.5
+SCORE: 7.5
 
-Strengths:
-Correctly distinguishes forgiveness from reconciliation.
+STRENGTHS:
+- Correctly distinguishes forgiveness from reconciliation.
+- Validates boundaries without shaming.
+- Avoids clinical language and diagnosis.
+- Centers the letter writer’s agency.
 
-Validates boundaries without shaming.
+WEAKNESSES:
+- Still abstract and generalized.
+- Avoids naming the power imbalance and long-term harm directly.
+- Soft moral framing where firmness is warranted.
+- Ends with reassurance instead of a clear ethical anchor.
 
-Avoids clinical language and diagnosis.
-
-Centers the letter writer’s agency.
-
-Weaknesses:
-Still abstract and generalized.
-
-Avoids naming the power imbalance and long-term harm directly.
-
-Soft moral framing where firmness is warranted.
-
-Ends with reassurance instead of a clear ethical anchor.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Forgiveness without accountability is not healing. It’s erasure. Moving on does not require reopening relationships that remain unsafe or unresolved.
 
 Often, the pressure to “move on” reflects other people’s discomfort with conflict rather than a genuine concern for your wellbeing. Distance and unresolved tension make them uneasy, so reconciliation gets framed as maturity and refusal as stubbornness. That doesn’t make their advice wise or fair.
@@ -1053,75 +370,7 @@ Often, the pressure to “move on” reflects other people’s discomfort with c
 You are allowed to let go of anger without granting access. Those are separate decisions. Reconciliation, if it ever happens, must be built on recognition of harm and changed behavior. Without that, distance is a reasonable form of self-protection.
 
 You are not unforgiving for refusing to pretend that nothing happened.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I've been dating my boyfriend for about six months, and things are going well overall. But there's one issue that's been bothering me: he's still very close with his ex-girlfriend. They text regularly, hang out one-on-one, and he even invited her to a party at his place recently. When I asked him about it, he said they're just friends and that their relationship was never that serious anyway. I trust him, but it still makes me uncomfortable. I've never stayed friends with my exes, so I don't really understand how that works. Am I being unreasonable? Should I ask him to cut back on the friendship, or is this something I need to work on?
@@ -1135,30 +384,22 @@ At the same time, it’s worth reflecting on whether your discomfort stems from 
 
 Ultimately, a healthy relationship involves both partners feeling heard and respected. If his closeness with his ex consistently undermines your trust or peace of mind, that’s a significant issue to address. But if you can find a balance that honors your feelings and his friendships, it can be an opportunity to deepen your understanding of each other’s needs and build a stronger foundation.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Normalizes discomfort without accusing the boyfriend of wrongdoing.
+STRENGTHS:
+- Normalizes discomfort without accusing the boyfriend of wrongdoing.
+- Correctly notes that ex-friendships vary by person.
+- Encourages conversation over demands.
+- Maintains a calm, non-reactive tone.
 
-Correctly notes that ex-friendships vary by person.
+WEAKNESSES:
+- Excessive hedging and neutrality.
+- Overuse of LLM filler such as “what matters most” and “worth reflecting on.”
+- Avoids clearly naming boundary misalignment.
+- Lacks concrete guidance for evaluating his response.
+- Ends without a firm takeaway.
 
-Encourages conversation over demands.
-
-Maintains a calm, non-reactive tone.
-
-Weaknesses:
-Excessive hedging and neutrality.
-
-Overuse of LLM filler such as “what matters most” and “worth reflecting on.”
-
-Avoids clearly naming boundary misalignment.
-
-Lacks concrete guidance for evaluating his response.
-
-Ends without a firm takeaway.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Whether exes can be friends is highly individual and not universal. The question isn't whether it's normal or appropriate to be friends with an ex in the abstract, but whether this particular friendship is appropriate and respectful of your current relationship. And it’s reasonable to feel uneasy when an ex remains woven into someone’s daily emotional and social life.
 
 Before you ask him to change anything, you need to understand what's really going on. Have a calm conversation: "I trust you, but I'm feeling uncomfortable with how close you are with your ex. Can you help me understand what this friendship means to you now?" 
@@ -1166,75 +407,7 @@ Before you ask him to change anything, you need to understand what's really goin
 Pay attention to his response. Does he dismiss your feelings? Does he get defensive? Or does he listen and try to help you understand? A partner who cares about your feelings will want to address your discomfort, even if they don't agree that there's a problem. You might find that there are reasonable boundaries you can both agree on: maybe group hangouts are fine, but one-on-one dinners feel too intimate. Or maybe you can all hang out together so you can see their dynamic for yourself. 
 
 But regardless of whether any such accommodations are made, the larger question is whether or not you feel sidelined and how he reacts to that. You’re not asking him to erase his past. You’re asking whether there’s room for your comfort in the present. That’s a reasonable question in any committed relationship.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I've been in a serious relationship for a few years now. Things have been going really well between us. I mean, we have our issues like every couple, but overall, things are great. I love him, he loves me, we both love each other's families. The problem is that he's expressed interest in opening up the relationship. I'm not enthused about the idea. Although I don't consider myself particularly religious or traditional, I do think that intimate relationships should be one-on-one. No judgment towards anybody else, but that's how I want my own life to be. He says that he wants to explore other people outside the relationship but remain committed to me. He cited several examples of our friends who have done it and he emphasizes that I would always remain his primary partner. He also said that I can meet any and all of his other partners and that he would be above board about everything. I have no reason to think he's seeing someone behind my back. He's always been honest. But I don't really feel comfortable with an open relationship. I've expressed this, but he keeps bringing it up. Is there hope for us?
@@ -1252,30 +425,22 @@ You might consider having a calm, honest conversation where you both explore wha
 
 Ultimately, relationships thrive on mutual respect and shared understanding, not just love alone. Your discomfort is a signal that deserves attention, and your partner’s persistence is a signal that he’s wrestling with his own needs. Navig
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Validates both partners’ perspectives.
+STRENGTHS:
+- Validates both partners’ perspectives.
+- Avoids moralizing about monogamy or polyamory.
+- Acknowledges that honesty does not equal compatibility.
+- Maintains a respectful tone.
 
-Avoids moralizing about monogamy or polyamory.
+WEAKNESSES:
+- Too equivocal about a non-negotiable issue.
+- Overuses LLM phrases like “it depends” and “worth exploring.”
+- Avoids naming this as a fundamental incompatibility.
+- Does not clearly empower the letter writer to hold a firm boundary.
+- Em dashes soften what should be direct statements.
 
-Acknowledges that honesty does not equal compatibility.
-
-Maintains a respectful tone.
-
-Weaknesses:
-Too equivocal about a non-negotiable issue.
-
-Overuses LLM phrases like “it depends” and “worth exploring.”
-
-Avoids naming this as a fundamental incompatibility.
-
-Does not clearly empower the letter writer to hold a firm boundary.
-
-Em dashes soften what should be direct statements.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Polyamorous relationships are increasingly common nowadays, but both partners have to genuinely want them. You can’t compromise on monogamy any more than you can compromise on whether to have children. 
 
 I think you have the right approach by being non-judgmental, but also by knowing what you want personally. Since he has mentioned a non-monogamous relationship multiple times even though you've expressed not wanting to pursue this, this seems like a fundamental incompatibility issue. And repeatedly pushing a boundary doesn’t make it negotiable. It just puts pressure on you to do something you really don't want to do.
@@ -1283,75 +448,7 @@ I think you have the right approach by being non-judgmental, but also by knowing
 You need to make sure there is zero ambiguity and that he knows that remaining in a relationship with you or exploring polyamory are mutually exclusive options. I would have one more conversation with him on the subject: “I love you and want to be with you, but I don’t want an open relationship. If that’s something you need, then we want different lives.” 
 
 If he chooses to stay, it has to be with full acceptance, not quiet resentment. And if he can’t, the pain of ending things now will be far less than the damage caused by forcing yourself into a relationship structure you don’t want.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My girlfriend and I have been dating for two years, and we're both in our late 20s. I've always known I wanted kids—it's been a life goal of mine for as long as I can remember. When we first started dating, she said she wasn't sure about kids, which I thought meant she was open to the possibility. But recently, she's been more firm about it, saying she doesn't think she wants children and that she's pretty certain about that. I love her and I can see a future with her, but I can't imagine my life without being a parent. I've tried to talk to her about it, but she gets defensive and says I'm pressuring her. I don't want to pressure her, but I also don't want to waste either of our time if we're fundamentally incompatible on this. How do we navigate this?
@@ -1367,28 +464,22 @@ At the same time, it’s important to acknowledge that some differences—especi
 
 Ultimately, this is a moment for honest reflection and compassionate communication. You both deserve clarity about where you stand, even if that clarity leads to difficult decisions. Taking the time to listen deeply to each other, without pressure or expectation, can help you find the path that respects both your needs and hers.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Recognizes the seriousness of the issue.
+STRENGTHS:
+- Recognizes the seriousness of the issue.
+- Avoids pressuring either party to change.
+- Encourages honest dialogue.
+- Acknowledges that love alone is not enough.
 
-Avoids pressuring either party to change.
+WEAKNESSES:
+- The response is too equivocal. It doesn't clearly address the fact that the question of whether to have children is not compromisable.
+- Frames the issue as something to “navigate” rather than decide.
+- Avoids stating plainly that this cannot be compromised.
+- Ends with reflection instead of resolution.
+- Uses the word "deeply", a classic LLM tell.
 
-Encourages honest dialogue.
-
-Acknowledges that love alone is not enough.
-
-Weaknesses:
-The response is too equivocal. It doesn't clearly address the fact that the question of whether to have children is not compromisable.
-
-Frames the issue as something to “navigate” rather than decide.
-
-Avoids stating plainly that this cannot be compromised.
-
-Ends with reflection instead of resolution.
-
-OUTPUT: 
+REVISED_RESPONSE:
 This is one of those fundamental incompatibilities that can't be compromised on: you can't have half a kid, and and no one should become a parent out of obligation or give it up out of fear of loss. Your girlfriend’s growing certainty deserves to be taken at face value, not treated as temporary hesitation. And your desire to be a parent isn’t something you should quietly set aside and hope will fade.
 
 You need to have one more direct, honest conversation. Frame it not as pressure, but as clarity: "I love you, but having children is a non-negotiable life goal for me. I need to know whether our futures truly align."
@@ -1396,75 +487,7 @@ You need to have one more direct, honest conversation. Frame it not as pressure,
 Give her space to answer without pressure, but take the answer seriously. 
 
 If the lives that you want are fundamentally different--and this would definitely be the case if you both come to opposite conclusions about having children--then there's no path forward together, only apart. The kindest outcome may be accepting that this relationship can’t carry both of you where you want to go.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My partner says I’m “too independent” and that it makes him feel unnecessary. I don’t see independence as a flaw, but he seems genuinely hurt. How do I respond without apologizing for who I am?
@@ -1478,26 +501,20 @@ From there, you can explore together what each of you needs to feel valued and c
 
 Ultimately, a healthy relationship allows both people to be themselves while also making space for each other’s vulnerabilities. You don’t have to sacrifice your independence, but staying open to dialogue and empathy can help both of you feel more seen and supported. If this dynamic continues to cause pain or misunderstanding, it’s okay to reassess whether your needs and his can coexist in a way that feels respectful and fulfilling for both.
 
-EVALUATION:
-Score: 6.5
+SCORE: 6.5
 
-Strengths:
-Acknowledges both parties’ emotional experiences without hostility.
+STRENGTHS:
+- Acknowledges both parties’ emotional experiences without hostility.
+- Encourages dialogue rather than escalation.
+- Avoids diagnosis or overt therapyspeak.
 
-Encourages dialogue rather than escalation.
+WEAKNESSES:
+- The response is way too weak. It doesn't properly acknowledge that the partner is judging the letter writer harshly for a core character trait that's not bad. The partner's response is a red flag, not a situation where "staying open to dialogue and empathy can help both of you feel more seen and supported."
+- Typical wishy-washy LLM language. Uses generic LLM phrasing (“healthy relationship,” “space for vulnerabilities”) without concrete moral framing.
+- Over-accommodating tone that subtly pressures the letter writer to manage the partner’s insecurity.
+- No clear boundary-setting script that protects the letter writer’s autonomy.
 
-Avoids diagnosis or overt therapyspeak.
-
-Weaknesses:
-The response is way too weak. It doesn't properly acknowledge that the partner is judging the letter writer harshly for a core character trait that's not bad. The partner's response is a red flag, not a situation where "staying open to dialogue and empathy can help both of you feel more seen and supported."
-
-Typical wishy-washy LLM language. Uses generic LLM phrasing (“healthy relationship,” “space for vulnerabilities”) without concrete moral framing.
-
-Over-accommodating tone that subtly pressures the letter writer to manage the partner’s insecurity.
-
-No clear boundary-setting script that protects the letter writer’s autonomy.
-
-OUTPUT: 
+REVISED_RESPONSE:
 Independence is not a character defect, nor does it automatically render one's partner "unnecessary." For many people, it is a hard-earned strength that reflects resilience, self-trust, and a stable sense of identity. It’s understandable that you don’t want to apologize for that. Nor should you.
 
 This behavior on the part of your partner could reflect a controlling nature or it could simply mean that he is insecure about something. Men in our society are socialized to feel a strong need to be useful. If they perceive that this is no longer the case, it often causes anxiety and insecurity, which can be expressed in multiple ways, including criticizing a partner for supposedly being too independent. That deserves understanding, but it does not justify framing your independence as something you should fix.
@@ -1505,75 +522,7 @@ This behavior on the part of your partner could reflect a controlling nature or 
 You can acknowledge his feelings without accepting blame. You might say something like: “I value you and choose you. My independence isn’t about pushing you away; it’s about being whole as a person. I want us to be partners, rather than one of us depending on the other.” 
 
 If he’s able to hear that and reflect on why your independence feels threatening, this may be something you can work through together. But if he continues to treat a core strength of yours as a defect, that’s worth paying attention to. A healthy partnership is built between two whole people, not one person shrinking so the other can feel essential.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 My partner and I have been together for four years, and we're both in our early 30s. We've been talking about having kids, but we have very different ideas about parenting. I was raised with strict rules, clear consequences, and high expectations. My partner was raised in a much more permissive household where kids had a lot of freedom and choices. I think kids need structure and boundaries to thrive, while my partner thinks too many rules stifle creativity and independence. We've tried to discuss this, but we both get defensive because our approaches are tied to our own childhood experiences. How do we figure out a parenting style we can both agree on before we have kids?
@@ -1591,28 +540,21 @@ If discussions continue to feel stuck or emotionally charged, it might be worthw
 
 Ultimately, the goal isn’t to erase your differences but to create a parenting style that honors both your perspectives and supports your future child’s growth. That will take ongoing dialogue, patience, and a willingness to adapt as you learn together. It’s a challenging but deeply meaningful process, and the effort you put in now can build a foundation of mutual respect and teamwork for your family.
 
-EVALUATION:
-Score: 7.0
+SCORE: 7.0
 
-Strengths:
-Calm, respectful tone that reduces defensiveness.
+STRENGTHS:
+- Calm, respectful tone that reduces defensiveness.
+- Correctly identifies that both approaches have value.
+- Suggests moving from abstraction to concrete scenarios.
+- Avoids overt moralizing.
 
-Correctly identifies that both approaches have value.
+WEAKNESSES:
+- Overuses consensus language (“neither is right or wrong”) in a way that dulls moral clarity.
+- Leans heavily on generalized advice and outside authorities instead of anchoring in the couple’s agency.
+- Reflexively suggests counseling as a solution, which is not wrong but is overly default LLM behavior.
+- Lacks a clear framework for distinguishing negotiables from non-negotiables.
 
-Suggests moving from abstraction to concrete scenarios.
-
-Avoids overt moralizing.
-
-Weaknesses:
-Overuses consensus language (“neither is right or wrong”) in a way that dulls moral clarity.
-
-Leans heavily on generalized advice and outside authorities instead of anchoring in the couple’s agency.
-
-Reflexively suggests counseling as a solution, which is not wrong but is overly default LLM behavior.
-
-Lacks a clear framework for distinguishing negotiables from non-negotiables.
-
-OUTPUT: 
+REVISED_RESPONSE:
 This is exactly the kind of disagreement that deserves serious attention before you bring children into the picture. Parenting differences tied to childhood experience tend to feel existential because, in a way, they are.
 
 The goal here isn’t to prove whose upbringing was better. It’s to decide what kind of parents you want to be together. That means getting specific. Abstract debates about “structure versus freedom” usually go nowhere. Instead, talk through real situations. Bedtimes. Screen use. Discipline. Safety. Ask yourselves where you see room for flexibility and where you don’t.
@@ -1620,75 +562,7 @@ The goal here isn’t to prove whose upbringing was better. It’s to decide wha
 Most couples find they can agree on firm boundaries around health, safety, and respect, while allowing more choice around self-expression, interests, and autonomy. That distinction matters. It turns ideology into practice.
 
 If these conversations keep turning defensive, that’s a sign you’re protecting your past rather than designing your future. You don’t need to resolve every hypothetical today, but you do need confidence that you can collaborate without one of you feeling erased. Parenting requires a shared spine, even when styles differ.
-</END_EXAMPLE>
-<BEGIN_EXAMPLE>
-
-INPUT:
-You are revising an advice-column response using the following rubric.
-
-RUBRIC:
-*Purpose:*
-Revise a draft advice-column response to be clearer, firmer, more humane, and more aligned with the columnist’s voice.
-
-*Core Criteria:*
-
-Moral clarity:
-
-- Names harmful behavior when warranted.
-
-- Avoids false neutrality or excessive hedging.
-
-- Does not shame, moralize, or catastrophize.
-
-Empathy without therapyspeak:
-
-- Validates feelings plainly and directly, and in clear language.
-
-- Avoids clinical language, diagnosis, or any sort of "therapyspeak."
-
-- Does not position the columnist as a therapist
-
-- Does not prescribe a plan of treatment.
-
-Respect for agency and boundaries:
-
-- Centers the letter writer’s right to set limits.
-
-- Suggests appropriate boundaries that fit the specific situation.
-
-- Avoids advising self-erasure, over-accommodation, or guilt-based compliance.
-
-Specificity and usefulness:
-
-- Goes beyond general reassurance.
-
-- Offers scripts, or verbatim recommendations on how the letter-writer should address other parties in the scenario. (But at the same time, do not include more than two of these in any given response, and don't make these scripts the majority of the response.)
-
-- Offer concrete framing and next steps when appropriate.
-
-- Avoids vague platitudes.
-
-- Avoids clichéd or pop psychology responses, such as using "I" statements.
-
-Tone and voice:
-
-- Calm, grounded, and humane.
-
-- Direct but not harsh.
-
-- Secular, evidence-informed.
-
-- No proselytizing or political advocacy.
-
-- No bigotry or stereotyping.
-
-Focus and restraint:
-
-- Addresses the actual dilemma, not every possible angle of a broader or more general problem.
-
-- Does not escalate unnecessarily.
-
-- Keeps dignity of all parties in view.
+<END_OF_SET>
 
 QUESTION:
 I’m in a close friend group where everyone usually gets along, but two people had a falling-out months ago and the tension is still affecting the whole dynamic. They avoid each other, make pointed remarks, and sometimes try to recruit the rest of us to “their side.” I’m tired of feeling like I’m walking through interpersonal landmines every time we all hang out. I care about both, but I don’t want to be a mediator or referee anymore. How can I protect my own peace without alienating either friend?
@@ -1706,26 +580,20 @@ Lastly, it’s worth reflecting on whether the group dynamic as a whole is still
 
 In all of this, compassion for yourself and for your friends can coexist with clear boundaries. You can care deeply without carrying the weight of their unresolved conflict. It’s a difficult balance, but honoring your own well-being is a vital part of sustaining any relationship.
 
-EVALUATION:
-Score: 7.5
+SCORE: 7.5
 
-Strengths:
-Accurately names emotional exhaustion and boundary fatigue.
+STRENGTHS:
+- Accurately names emotional exhaustion and boundary fatigue.
+- Clearly states that the letter writer is not responsible for fixing the conflict.
+- Encourages self-protection without demonizing either friend.
 
-Clearly states that the letter writer is not responsible for fixing the conflict.
+WEAKNESSES:
+- Overuses the word “deeply,” which reads as LLM-style emotional inflation.
+- Relies heavily on generalized reassurance rather than firm social norms.
+- Avoids directly naming the friends’ behavior as inappropriate.
+- Ends with broad reflection instead of a decisive closing stance.
 
-Encourages self-protection without demonizing either friend.
-
-Weaknesses:
-Overuses the word “deeply,” which reads as LLM-style emotional inflation.
-
-Relies heavily on generalized reassurance rather than firm social norms.
-
-Avoids directly naming the friends’ behavior as inappropriate.
-
-Ends with broad reflection instead of a decisive closing stance.
-
-OUTPUT: 
+REVISED_RESPONSE:
 You’re right to be tired. Being conscripted into someone else’s unresolved conflict drains the joy out of a friend group quickly, and it’s not something you signed up for.
 
 You don’t need to fix their conflict, but you do need to define your role in it. Start by telling each of them privately, and gently, that you’re stepping out of the middle. Something like: “I care about you, but I can’t be part of conversations that pull me into conflict with the other person. I want to stay neutral and keep our friendship separate from whatever the two of you are working through.”
@@ -1737,4 +605,4 @@ This additional support might help you to set a consistent boundary in group set
 If group hangouts continue to feel strained, consider hosting smaller gatherings with different configurations so you’re not constantly managing the fallout. You’re allowed to curate your social life. Caring about people doesn’t require absorbing their unresolved conflicts.
 
 You’re not choosing sides. You’re choosing not to be collateral damage.
-</END_EXAMPLE>
+<END_OF_SET>

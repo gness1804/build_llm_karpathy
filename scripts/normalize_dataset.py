@@ -31,8 +31,18 @@ def normalize_dataset(input_file, output_file):
         if not example.strip():
             continue
         
-        # Skip the first 3 examples as they're already correctly formatted
-        if i < 3:
+        # Check if example is already in correct format (has SCORE: not Score: or EVALUATION:)
+        # If it's already formatted, skip processing
+        is_already_formatted = (
+            'SCORE:' in example and 
+            'STRENGTHS:' in example and 
+            'WEAKNESSES:' in example and 
+            'REVISED_RESPONSE:' in example and
+            'EVALUATION:' not in example and
+            'OUTPUT:' not in example
+        )
+        
+        if is_already_formatted:
             normalized_examples.append(example)
             if i < len(examples) - 1:  # Not the last one
                 normalized_examples.append('<END_OF_SET>')
@@ -113,8 +123,8 @@ def normalize_dataset(input_file, output_file):
                 j += 1
                 continue
             
-            # Handle STRENGTHS: section
-            if stripped.startswith('Strengths:') and not stripped.startswith('STRENGTHS:'):
+            # Handle STRENGTHS: section (case-insensitive)
+            if re.match(r'^Strengths:', stripped, re.IGNORECASE) and not stripped.startswith('STRENGTHS:'):
                 normalized_lines.append('')
                 normalized_lines.append('STRENGTHS:')
                 in_strengths = True
@@ -122,8 +132,8 @@ def normalize_dataset(input_file, output_file):
                 j += 1
                 continue
             
-            # Handle WEAKNESSES: section
-            if stripped.startswith('Weaknesses:') and not stripped.startswith('WEAKNESSES:'):
+            # Handle WEAKNESSES: section (case-insensitive)
+            if re.match(r'^Weaknesses:', stripped, re.IGNORECASE) and not stripped.startswith('WEAKNESSES:'):
                 normalized_lines.append('')
                 normalized_lines.append('WEAKNESSES:')
                 in_strengths = False
@@ -134,6 +144,17 @@ def normalize_dataset(input_file, output_file):
             # Process content within STRENGTHS or WEAKNESSES sections
             if in_strengths or in_weaknesses:
                 if stripped:
+                    # Check if this is a section header (means we're leaving this section)
+                    if (stripped.startswith('WEAKNESSES:') or stripped.startswith('Weaknesses:') or
+                        stripped.startswith('OUTPUT:') or stripped.startswith('REVISED_RESPONSE:') or
+                        stripped.startswith('QUESTION:') or stripped.startswith('EVALUATION:') or
+                        stripped.startswith('STRENGTHS:') or stripped.startswith('Strengths:')):
+                        # We've hit a new section, exit this one
+                        in_strengths = False
+                        in_weaknesses = False
+                        # Don't increment j, let the next iteration handle this line
+                        continue
+                    
                     # Ensure it's a bullet point
                     if not stripped.startswith('-'):
                         # Check if it's a numbered list item
@@ -151,13 +172,19 @@ def normalize_dataset(input_file, output_file):
                     # Empty line - check if we're moving to next section
                     if j + 1 < len(lines):
                         next_stripped = lines[j + 1].strip()
-                        if next_stripped.startswith('WEAKNESSES:') or next_stripped.startswith('Weaknesses:') or \
-                           next_stripped.startswith('OUTPUT:') or next_stripped.startswith('REVISED_RESPONSE:') or \
-                           next_stripped.startswith('QUESTION:') or next_stripped.startswith('EVALUATION:'):
+                        # If next line is a section header, don't add empty line
+                        if (next_stripped.startswith('WEAKNESSES:') or next_stripped.startswith('Weaknesses:') or
+                            next_stripped.startswith('OUTPUT:') or next_stripped.startswith('REVISED_RESPONSE:') or
+                            next_stripped.startswith('QUESTION:') or next_stripped.startswith('EVALUATION:') or
+                            next_stripped.startswith('STRENGTHS:') or next_stripped.startswith('Strengths:')):
                             # Don't add empty line, let next section handle it
                             pass
+                        elif next_stripped:
+                            # Next line is content (another strength/weakness item), skip the empty line
+                            pass
                         else:
-                            normalized_lines.append('')
+                            # Multiple empty lines, skip them
+                            pass
                 j += 1
                 continue
             
