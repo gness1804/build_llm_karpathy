@@ -8,9 +8,6 @@ commit = true
 tag = true
 files = ["pyproject.toml"]
 
-[tool.bump2version]
-vcs = "git"
-
 [project]
 name = "build-llm-karpathy"
 version = "0.1.6"
