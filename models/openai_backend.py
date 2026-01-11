@@ -11,12 +11,12 @@ def generate_answer(input: str, version: str = "v1") -> str:
     if version == "v1":
         messages = [
             {"role": "system", "content": ADVICE_COLUMNIST_SYSTEM_PROMPT},
-            {"role": "user", "content": f"QUESTION: {input}"},
+            {"role": "user", "content": input},
         ]
     elif version == "v3":
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT_V3},
-            {"role": "user", "content": f"{input}"},
+            {"role": "user", "content": input},
         ]
     else:
         raise ValueError(f"Invalid version: {version}")
