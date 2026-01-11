@@ -139,3 +139,14 @@ If you do face some rejection or silence, it’s painful but understandable. It 
 Lastly, as you reconnect, you might consider creating new shared experiences that fit everyone’s current lives, rather than trying to recreate the past exactly. This can help friendships grow in ways that feel authentic and sustainable now.
 
 In short, approach your friends with honesty and warmth, be prepared for a range of responses, and honor the effort you’re making to nurture connection. That effort itself is a valuable expression of care.
+
+---
+
+(Not in the original @test_prompts_v1.md)
+
+QUESTION:
+I married into a religious family a few years ago. I was raised secular and have long been skeptical of religion. I've even participated in some secular and atheist organizations and was vice president of one of them. But after I got engaged to my now-wife, I underwent a baptism into Christianity. I did this largely due to pressure from her family. It meant a lot to my wife and her family, and I thought at the time that I might be able to work with the more palatable parts of Christianity while keeping the rest at bay. After all, there are very few devout people who follow all rules of their religion to the letter.
+
+It hasn't exactly worked out like that. I underestimated or intentionally forgot why I was so resistant to adopting the faith in the first place. My reasons are private, but basically boil down to the fact that I couldn't accept the supernatural claims, and I also didn't like the troubled history and political associations of the faith. Two years ago, I realized that I just couldn't be a Christian anymore, and so I "deconverted" privately. But I've since been living sort of a double life. My wife knows about my renewed secular identity, as does my atheist sister-in-law. Another sister-in-law, who is still a Christian, has an inkling. But the rest of her family is in the dark, unless my wife has told them without my knowledge.
+
+The question is, should I continue living this lie or should I tell them about my true identity? The main benefit of the status quo is that I really do feel accepted and loved, but I worry that that acceptance and love are contingent upon a religious identity that I no longer truly have. But I worry that if I tell them it could create a rift and cause me to regret my decision. Do you think that I should come clean to my in-laws about my new religious identity? Or should I continue to play along as though I'm a Christian?
