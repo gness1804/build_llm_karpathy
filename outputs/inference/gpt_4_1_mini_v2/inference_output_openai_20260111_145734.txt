@@ -1,0 +1,21 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-11 14:57:34
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: \nMy partner's sibling died unexpectedly six months ago. Since then, my partner has been a different person. He is not cruel or unfaithful or anything like that. He is just distant. He spends long hours at work, barely talks at home, and seems to exist in a separate emotional world. When I ask how he is doing, he says "fine" and changes the subject. I know grief does not follow a schedule, but I feel like I lost my partner and no one has named that. How can I support him and also honor the fact that I am hurting too?
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re describing is a deeply painful and confusing experience—grief doesn’t just affect the person who lost someone, it ripples through the relationships around them. Your partner’s withdrawal and emotional distance can feel like a kind of loss in itself, and it’s completely understandable that you feel as if you’ve lost the person you knew. At the same time, his way of coping—retreating into work and shutting down emotionally—may be his attempt to manage overwhelming feelings he doesn’t know how to express or share.
+
+Supporting him doesn’t mean you have to put your own feelings aside or pretend everything is fine. It’s okay to acknowledge your own hurt and loneliness, even if he isn’t able to meet you there right now. One way to hold space for both of you is to gently share your experience without pressuring him to respond in a certain way. For example, you might say something like, “I miss how close we used to feel, and it’s been hard for me to feel so distant from you lately. I’m here when you want to talk or if you want company.” This kind of invitation respects his pace while also naming your reality.
+
+At the same time, try to find ways to care for yourself outside the relationship—whether that’s leaning on friends, engaging in activities that bring you peace, or seeking support from a counselor or support group. Grief can create a long, uneven journey, and it’s important to tend to your own emotional needs even as you hold space for his.
+
+If your partner remains closed off for a prolonged time, it’s fair to consider what that means for your connection and whether the relationship is meeting your needs. Sometimes grief reshapes people and relationships in ways that require new boundaries or adjustments. There’s no simple fix here, but your feelings are valid, and your desire for connection and honesty is a meaningful part of the process. Holding both your pain and his silence with patience and compassion—while also protecting your own well-being—is a difficult balance, but it’s a real and honest way forward.
+==================================================

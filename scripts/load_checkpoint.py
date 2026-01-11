@@ -47,7 +47,6 @@ if MODEL_TYPE == "openai_backend":
         print("INFERENCE MODE (OpenAI backend)")
         print("=" * 50)
         print(f"\nPrompt: {PROMPT}")
-
         print(f"Version: {VERSION}")
 
         generated_text = openai_generate_answer(PROMPT, version=VERSION)
