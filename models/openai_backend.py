@@ -1,17 +1,25 @@
 import os
 from openai import OpenAI
 
-from models.prompts import ADVICE_COLUMNIST_SYSTEM_PROMPT
+from models.prompts import ADVICE_COLUMNIST_SYSTEM_PROMPT, SYSTEM_PROMPT_V3
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "ft:gpt-4.1-mini")
 
-def generate_answer(question: str) -> str:
-    messages = [
-        {"role": "system", "content": ADVICE_COLUMNIST_SYSTEM_PROMPT},
-        {"role": "user", "content": f"QUESTION: {question}"},
-    ]
+def generate_answer(input: str, version: str = "v1") -> str:
+    if version == "v1":
+        messages = [
+            {"role": "system", "content": ADVICE_COLUMNIST_SYSTEM_PROMPT},
+            {"role": "user", "content": f"QUESTION: {input}"},
+        ]
+    elif version == "v3":
+        messages = [
+            {"role": "system", "content": SYSTEM_PROMPT_V3},
+            {"role": "user", "content": f"{input}"},
+        ]
+    else:
+        raise ValueError(f"Invalid version: {version}")
 
     resp = client.chat.completions.create(
         model=OPENAI_MODEL,

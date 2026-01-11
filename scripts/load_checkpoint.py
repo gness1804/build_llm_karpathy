@@ -15,6 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 # Configuration
+VERSION = os.environ.get("VERSION", "v1")
 CHECKPOINT_PATH = os.environ.get("CHECKPOINT_PATH", None)
 MODE = os.environ.get("MODE", "inference").lower()  # "inference" or "resume"
 DEVICE = os.environ.get("DEVICE", "auto")  # "auto", "cpu", "cuda", "mps"
@@ -47,7 +48,9 @@ if MODEL_TYPE == "openai_backend":
         print("=" * 50)
         print(f"\nPrompt: {PROMPT}")
 
-        generated_text = openai_generate_answer(PROMPT)
+        print(f"Version: {VERSION}")
+
+        generated_text = openai_generate_answer(PROMPT, version=VERSION)
 
         print("\n" + "=" * 50)
         print("GENERATED TEXT")
