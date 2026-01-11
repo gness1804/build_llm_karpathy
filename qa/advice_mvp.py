@@ -143,12 +143,31 @@ def call_fine_tuned_model(question: str, draft_response: str, verbose: bool = Fa
         raise RuntimeError(f"Failed to get response from fine-tuned model: {e}")
 
 
+def format_elapsed_time(seconds: float) -> str:
+    """
+    Format elapsed time in a human-readable format.
+    
+    Args:
+        seconds: Elapsed time in seconds
+        
+    Returns:
+        Formatted time string
+    """
+    if seconds < 60:
+        return f"{seconds:.2f} seconds"
+    else:
+        minutes = int(seconds // 60)
+        secs = seconds % 60
+        return f"{minutes} minute{'s' if minutes != 1 else ''} {secs:.2f} seconds"
+
+
 def save_output(
     question: str,
     draft_response: str,
     full_v3_response: str,
     revised_response: str,
     output_dir: str,
+    elapsed_time: float,
     verbose: bool = False
 ) -> str:
     """
@@ -177,6 +196,7 @@ def save_output(
             f.write("MVP ADVICE COLUMN OUTPUT\n")
             f.write("=" * 80 + "\n\n")
             f.write(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Total execution time: {format_elapsed_time(elapsed_time)}\n")
             f.write(f"Base Model: {BASE_MODEL}\n")
             f.write(f"Fine-tuned Model: {FINE_TUNED_MODEL}\n\n")
             
@@ -283,6 +303,9 @@ Examples:
     print("=" * 80)
     print(f"\n📋 Question: {question[:100]}{'...' if len(question) > 100 else ''}")
     
+    # Start timing
+    start_time = time.time()
+    
     try:
         # Step 1: Call base model
         draft_response = call_base_model(question, max_retries=args.max_retries, verbose=args.verbose)
@@ -298,12 +321,18 @@ Examples:
         parsed = parse_v3_response(full_v3_response)
         revised_response = extract_revised_response(full_v3_response)
         
+        # Calculate elapsed time
+        elapsed_time = time.time() - start_time
+        
         # Step 4: Display output
         print("\n" + "=" * 80)
         print("REVISED RESPONSE")
         print("=" * 80)
         print(revised_response)
         print("=" * 80)
+        
+        # Display timing information
+        print(f"\n⏱️  Total execution time: {format_elapsed_time(elapsed_time)}")
         
         # Step 5: Show debug info if verbose
         if args.verbose:
@@ -326,6 +355,7 @@ Examples:
                 full_v3_response=full_v3_response,
                 revised_response=revised_response,
                 output_dir=args.output_dir,
+                elapsed_time=elapsed_time,
                 verbose=args.verbose
             )
         
