@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 20:30:35
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I'm close with my older sister, but she's been sharing very personal details about my life with extended family members—things I told her in confidence. When I confronted her, she said she was "just trying to help people understand what I'm going through." I'm hurt and feel exposed, but she doesn't seem to grasp the breach of trust. How do I rebuild safety with someone who doesn't seem to understand boundaries?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s deeply painful when someone you trust, especially a close family member like your sister, shares your private matters without your consent. Your feelings of hurt and exposure are completely valid. Trust is a fragile thing, and when it’s broken, it can leave you feeling vulnerable and unsure about how to move forward.
+
+Your sister’s explanation—that she was trying to help others understand your situation—suggests she may see her actions as supportive, even if they disregard your need for privacy. This disconnect can make it hard for her to recognize the boundary she crossed. It might help to gently but clearly express not just that you’re upset, but why this sharing feels like a violation to you. Sometimes people don’t fully grasp the impact of their actions until it’s spelled out in terms they can relate to—how it affects your sense of safety and your willingness to be open with her in the future.
+
+Rebuilding safety will likely take time and repeated, consistent respect for your boundaries. It’s okay to set clear limits about what you’re willing to share going forward and to remind her if those limits are crossed again. If she continues to dismiss your feelings or boundaries, it’s also okay to reconsider how much you share with her, at least until you feel more secure.
+
+Ultimately, rebuilding trust requires both acknowledgment of the breach and a demonstrated commitment to respect your privacy. If that commitment isn’t there, protecting your own emotional well-being by creating distance or adjusting expectations is a valid and sometimes necessary step. Your need for safety and respect in your relationships is not only reasonable but essential.
+==================================================

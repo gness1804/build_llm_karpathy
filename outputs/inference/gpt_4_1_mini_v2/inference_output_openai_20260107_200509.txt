@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 20:05:09
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My husband's best friend recently confided in me that he's struggling with depression, and he begged me not to tell my husband because he "doesn't want to be a burden." I care about this person, but I'm not comfortable holding a secret this big—especially since my husband would want to support him. I don't want to betray his trust, but I also don't want to shoulder something I'm not qualified to manage. What's the right way to navigate this?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: This is a deeply delicate situation, and your feelings of discomfort and concern are completely understandable. When someone confides in us about something as serious as depression, it places us in a difficult position—especially when they ask us to keep it secret from others who might be able to help.
+
+Your husband’s friend is clearly struggling and fears being a burden, which is a common and painful feeling for people facing mental health challenges. At the same time, you’re right to recognize that you’re not equipped to manage this on your own, and that your husband might be an important source of support.
+
+One way to approach this is to gently encourage your husband’s friend to seek professional help or to consider sharing his feelings with someone he trusts, like your husband. You might express your care and concern while also being honest about your limits: that you want to support him but feel that keeping this secret is too heavy a responsibility for you alone.
+
+If he remains unwilling to involve your husband, you might consider carefully whether and how to share this information with your husband yourself. This is not a betrayal but rather a compassionate step to ensure that your friend gets the support he needs. You could frame it as coming from a place of concern for both your friend’s well-being and your own sense of responsibility.
+
+Ultimately, you are not responsible for “fixing” this situation, but you can be a bridge to help your friend access the support he needs. Balancing confidentiality with care is never easy, but prioritizing safety and well-being—both his and yours—is a reasonable and humane guide.
+==================================================

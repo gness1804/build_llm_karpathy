@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 17:40:27
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear moral landing or concluding insight, without labeling it as a takeaway.
+
+QUESTION: My husband and I have been married five years and we have two young children. My husband's job requires him to travel frequently—he's gone about two weeks out of every month. When he's home, he's often exhausted and wants to relax, which means I'm still doing most of the childcare and household management even when he's here. I work full-time too, and I'm burning out. I've tried talking to him about it, but he says his job is demanding and he needs downtime when he's home. I understand that, but I also need a break, and I feel like I'm doing everything alone. We can't afford for him to change jobs right now, but something has to give. How do we find balance when his career requires so much travel?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your situation is one many parents face, and it’s deeply challenging to carry the weight of both work and home life without feeling seen or supported. Your husband’s demanding job and need for rest are real, but so is your exhaustion and the unfair burden you’re shouldering. This isn’t about who works harder or deserves more downtime—it’s about partnership and shared responsibility, especially when children and a household depend on both of you.
+
+When you’ve already tried talking and feel unheard, it’s time to be very specific about what you need and what you’re willing to accept. Instead of general conversations about feeling overwhelmed, try a clear, concrete proposal. For example, say: “When you’re home, I need you to take on these specific tasks—like bedtime routines, meal prep, or laundry—so I can rest or focus on my work. If you’re too tired for everything, let’s pick the most important things together.” Naming exact duties removes ambiguity and gives him a clear way to contribute.
+
+Also, consider scheduling a family meeting where you both map out the week’s demands and divide responsibilities in advance. This can help prevent exhaustion from creeping in unnoticed and create a shared sense of accountability. If childcare or household help is financially out of reach, look for small ways to lighten the load—maybe swapping childcare with a trusted friend or family member occasionally, or simplifying routines to reduce daily stress.
+
+It’s important to acknowledge that your husband’s need for downtime is valid, but it should not come at the cost of your well-being or the family’s functioning. Rest is a shared resource in a partnership, not an individual entitlement. If the current pattern continues, it risks breeding resentment and deep fatigue that neither of you can afford.
+
+Ultimately, balance in a marriage where one partner travels extensively is not about perfect equality every day but about mutual respect and intentional effort to support each other’s needs. You deserve to be heard and helped, not just understood. When rest and responsibility are fairly distributed, your partnership can withstand the strain of demanding careers and parenting. If that balance feels impossible now, it’s a signal to keep pushing for change—because enduring this alone is neither sustainable nor fair.
+==================================================

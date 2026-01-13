@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-08 12:38:50
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: QUESTION: I feel pressured to reconcile with a parent who has never acknowledged the harm they caused. Other family members say I should "move on." Am I being unforgiving?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Feeling pressured to reconcile with a parent who has not acknowledged the harm they caused is a deeply personal and complex situation. It’s important to recognize that forgiveness and reconciliation are not the same thing, and neither is owed simply because others suggest it. Forgiveness, if it happens, is a process that often requires acknowledgment and accountability from the person who caused harm. Without that, reconciliation can feel one-sided and may reopen wounds rather than heal them.
+
+When family members say you should "move on," they might be seeking peace or closure for themselves, but their perspective doesn’t invalidate your experience or feelings. Being unwilling to reconcile under these circumstances doesn’t mean you are unforgiving; it may mean you are protecting your emotional well-being and honoring your own boundaries.
+
+You have the right to decide what kind of relationship, if any, is healthy for you. It’s okay to take the time you need to process your feelings and to set limits on interactions that feel unsafe or damaging. Choosing distance or even ending contact can be a legitimate and sometimes necessary choice when harm remains unacknowledged.
+
+Ultimately, your feelings and needs matter. You don’t have to rush toward reconciliation or forgiveness to satisfy others’ expectations. It’s okay to prioritize your healing and to seek support from people who respect your experience and decisions.
+==================================================

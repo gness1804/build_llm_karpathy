@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 19:59:42
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My partner and I are friends with two other couples. The six of us have been close for over a decade, or so I thought. \n\nBefore one couple got married last year, the other woman hosted a bachelorette party for the bride, to which I was invited. There was also a bachelor party for the groom, but my partner wasn't invited. This year, the other couple is getting married, and I just received the bachelorette invite from the bride. The groom is having a bachelor party, to which my partner is apparently not invited.\nBoth grooms are entitled to invite whomever they want to their bachelor parties. I know that. And, of course, the male partners do not all have to be as close to one another as the three women are. But I really don't get the bachelor party thing because, when we are all together, my partner very much seems to be part of the guys' close circle. They've known him around the same amount of time they've known each other.\n\nAt this point, it's not about the invite as much as whether there's something I don't know that explains why they're not including my partner. I'm hurt, but I'm also just baffled: Of the six of us, why is he the only one left out of things?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s understandable that you feel hurt and confused by your partner being excluded from the bachelor parties, especially given the long-standing friendship among all six of you. When a close-knit group starts to show signs of division or exclusion, it naturally raises questions and stirs feelings of uncertainty.
+
+You’ve already acknowledged that the grooms have the right to invite whomever they choose, and that the male partners don’t necessarily have to be equally close. Yet, your observation that your partner seems integrated with the guys when you’re all together adds a layer of complexity. This suggests that the exclusion might not be about a lack of connection or friendship on the surface.
+
+Sometimes, social dynamics within groups shift in subtle ways that aren’t immediately clear. There could be personal reasons, unspoken tensions, or misunderstandings that you’re not aware of. It’s also possible that the bachelor parties are being planned with a particular vibe or history in mind that doesn’t include your partner, even if that feels unfair or puzzling to you.
+
+If you feel comfortable, the most direct way to gain clarity is to have an open and gentle conversation with one or both of the grooms or perhaps the other male friends. Express your feelings without accusation—share that you’re puzzled and hurt because your partner has been left out despite the long friendship and apparent closeness. Sometimes, bringing the issue into the light can reveal misunderstandings or assumptions that can be addressed.
+
+At the same time, it’s important to prepare for the possibility that you might not get a fully satisfying explanation. People’s social choices aren’t always transparent or fair, and sometimes exclusion happens without a clear or justifiable reason. If that’s the case, it’s worth reflecting on what this means for your group’s dynamics and your own boundaries around inclusion and respect.
+
+Your feelings are valid, and it’s okay to seek understanding. But also remember that your partner’s value and your relationship aren’t defined by these invitations. How you both navigate this together—whether by addressing it directly, accepting the situation, or reconsidering the closeness of these friendships—will be what truly matters in the long run.
+==================================================

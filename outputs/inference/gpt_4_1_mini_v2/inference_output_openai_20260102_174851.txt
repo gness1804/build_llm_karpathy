@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 17:48:51
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I’m getting married soon, and I’m seriously considering not inviting my father. He has been verbally abusive and relentlessly negative my entire life. We’re currently not speaking. He’s elderly and in poor health, and some relatives say I’ll regret excluding him. Am I being too rigid by not wanting him at my wedding?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Choosing who to invite to your wedding is deeply personal, and it’s understandable that you’re wrestling with this decision, especially when it involves a parent with whom you have a difficult history. Your feelings about your father’s verbal abuse and negativity are valid, and it’s important to honor your emotional well-being, particularly on a day meant to celebrate joy and connection.
+
+The fact that you’re not currently speaking suggests that the relationship is strained, and inviting him might reopen wounds or create tension during what should be a supportive and happy occasion. While relatives may worry about future regrets, their perspective often comes from a place of tradition or hope for reconciliation, which doesn’t necessarily align with your lived experience or what you need right now.
+
+It’s not rigid to set boundaries that protect your mental and emotional health. Sometimes, choosing distance—even on significant days—is a form of self-respect and self-care. If you feel that including your father would overshadow your happiness or compromise your sense of safety, it’s okay to prioritize yourself.
+
+If you want, you might consider ways to acknowledge him privately or at a different time, but that’s entirely up to you and what feels right. Ultimately, your wedding is your day, and the people you surround yourself with should be those who support and uplift you. Trust your judgment about what will serve you best.
+==================================================

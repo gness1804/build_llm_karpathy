@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-11 14:51:00
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: \nMy wife is very driven and ambitious in her career, which I respect. I am more content with a modest job that pays the bills and leaves me time for hobbies, friends, and family. Lately she has started making comments like "You could be doing so much more," or "You are too smart to stay where you are." She insists she is just "encouraging" me, but I feel criticized and looked down on. I am happy with my life. How do I tell her this without making her feel like I am rejecting her values?
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you deeply respect your wife’s drive and ambition, and you want to honor that while also staying true to your own sense of fulfillment. That balance can be delicate, especially when her encouragement feels more like judgment to you. It’s important to acknowledge that her comments likely come from a place of care and hope for your potential, even if the way she expresses it doesn’t land well for you.
+
+When you talk to her, you might start by affirming how much you admire her dedication and how inspiring it is to see her pursue her goals. Then gently share how her words affect you—not as a rejection of her values, but as an expression of your own contentment and priorities. You could say something like, “I really appreciate how much you believe in me and want the best for me. At the same time, I feel happy and fulfilled with the balance I have right now, and I worry that when you say I could be doing more, it sounds like you don’t see that happiness.”
+
+Framing it this way invites her to understand your perspective without feeling dismissed. It also opens a space for her to reflect on how her encouragement might be experienced differently than she intends. Over time, this kind of honest sharing can help both of you appreciate the different ways you define success and fulfillment, without one feeling diminished or pressured to change. It’s okay for two people who love each other to hold different visions of what a good life looks like. Your contentment is valid, and so is her ambition. Finding a way to hold both can deepen your connection rather than strain it.
+==================================================

@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-02 18:01:43
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My adult children have limited contact with me because of how my second husband treated them when they were growing up. He was harsh and controlling. There was yelling but no physical abuse. I didn’t intervene as much as I should have, and now my kids say I never chose them. I’m devastated and don’t know how to move forward.
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s deeply painful to feel that your children see you as having chosen someone else over them, especially when you recognize your own role in how things unfolded. The fact that your children have limited contact and express such hurt shows how much damage was done, and it’s understandable that you feel devastated.
+
+What you’re facing now is a profound rupture in trust and connection, and healing that kind of wound is neither quick nor easy. Your acknowledgment of your past shortcomings is an important step, but it’s also just the beginning. Your children’s feelings of being unchosen and unheard are real and valid, and they may carry years of accumulated pain and disappointment.
+
+Moving forward, it might help to accept that rebuilding these relationships will require patience and humility. It’s not something you can fix by words alone or by expecting immediate forgiveness. Instead, it may be about consistently showing through your actions that you see and respect their experiences, even if they are not ready to fully engage with you yet. This might mean reaching out with openness and without pressure, listening without defending, and allowing them to set the pace.
+
+At the same time, it’s important to care for yourself in this process. The grief and regret you feel are heavy burdens, and finding support—whether through trusted friends, support groups, or counseling—can help you navigate your own emotions without losing sight of your children’s needs.
+
+There are no guarantees that the relationship will return to what it once was, or that it will ever be easy. But your willingness to face this honestly and to hold space for their feelings, even when it’s painful, is a meaningful foundation. Over time, that openness can create the possibility for new forms of connection, even if they look different from what you might have hoped.
+
+Above all, remember that your children’s feelings are not a rejection of you as a whole person, but a response to the past and the pain they carry. Holding that complexity—both your regret and their hurt—without trying to erase or rush it is one of the hardest but most important parts of moving forward.
+==================================================

@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 16:46:05
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-medium quality response that meets the following criteria: Empathetic but generic, lacks clarity or depth, feels "LLM-like". Lacks a distinctive human voice. May include concrete steps, embedded in prose and never spelled out in an explicit numbered or bulleted list. Responses in this range are usually short and are rather shallow, rather than fully engaging with the complex issues that are present in advice column problems.
+
+QUESTION: My brother and I have always been very competitive. We were raised in a household where academic success was valued above almost everything else. He and I were both very good students, but he was the better one. In particular, I struggled at math. But he always aced his math classes and now has a math PhD and one in physics. I have, "only," a single PhD in a non-math related field. Our competition dynamic led to a distant relationship that we have had during our entire adult lives. We're both in our early forties. I want to try to mend the rift, but I'm not sure where to begin. This is complicated by the fact that on the relatively rare occasions that we see each other, the old competitive dynamic emerges again. For instance, recently when we were visiting our mother, we played games such as Trivial Pursuit and Scrabble in which he smoked me. He's never been a jerk or bragged about beating me in things, but I still feel the effects of it. How can we move towards a more productive dynamic?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like the competition between you and your brother has been a long-standing part of your relationship, shaped by your upbringing and the ways you both measure success. Wanting to change that dynamic is a positive step, even if it feels challenging. One way to start might be by focusing on shared experiences that don’t revolve around comparison or winning. When you spend time together, you could try to engage in activities that highlight cooperation or simply enjoying each other’s company without keeping score. It might also help to be mindful of your own feelings during these interactions and gently remind yourself that your worth isn’t tied to how you perform against him. Over time, small shifts in how you relate during these moments could open up space for a different kind of connection. It’s understandable that old patterns resurface, but with patience and intention, you might find ways to build a relationship that feels less competitive and more supportive.
+==================================================

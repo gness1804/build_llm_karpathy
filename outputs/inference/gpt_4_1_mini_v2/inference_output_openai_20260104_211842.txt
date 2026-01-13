@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-04 21:18:42
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a high quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: My best friend is going through a divorce and calls me almost every night to vent. At first I wanted to be there for her, but it's been months now, and every conversation turns into a two-hour monologue about her ex. I'm emotionally exhausted and starting to dread her calls. Am I a bad friend if I pull back?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your desire to support your friend during a painful time is deeply compassionate, and it’s clear you care about her well-being. At the same time, your feelings of exhaustion and dread are important signals—not signs of failure or inadequacy as a friend, but reminders that your own emotional resources have limits. Friendship is a two-way street, and it’s natural for support to ebb and flow rather than be a constant, one-sided drain.
+
+You might consider gently setting boundaries that protect your energy while still showing you care. For example, you could say something like, “I want to be here for you, but I’m finding it hard to keep up with long calls every night. Maybe we can check in a few times a week instead?” Or, “I’m worried I’m not the best person to help you process this all the time. Have you thought about talking with someone who can give you more focused support?” These scripts acknowledge your limits without shutting her out.
+
+It’s also worth reflecting on what you need from the friendship. If the dynamic feels unbalanced and draining, that’s a valid experience. Pulling back doesn’t make you a bad friend—it makes you a human being with boundaries. Sometimes, stepping back can create space for both people to breathe and recalibrate the relationship.
+
+The takeaway here is that caring for others doesn’t require sacrificing your own well-being. True friendship can survive—and even deepen—when honesty about limits replaces silent endurance. Your kindness is real, and so is your need for balance. Holding both truths with respect is the kindest act you can offer yourself and your friend.
+==================================================

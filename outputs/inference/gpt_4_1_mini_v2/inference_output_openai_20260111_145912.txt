@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-11 14:59:12
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: \nYears ago, I lived with a couple of roommates. One of them, "M," was charming and well liked by everyone, but in private, he was controlling and manipulative with me. He would criticize what I wore, make jokes at my expense in front of others, and punish me with weeks of coldness if I pushed back. Eventually I moved out and cut off contact. Now a close friend of mine has started dating him. She is over the moon and keeps telling me how lucky she feels. I have not told her anything, because I do not want to sound bitter or plant fear based only on my experience. At the same time, it feels awful to say nothing. What, if anything, do I owe her?
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings of discomfort and conflict here are completely understandable. You’ve experienced M in a way that was hurtful and controlling, and now someone you care about is seeing only the side of him that’s charming and appealing. It’s a difficult position to be in—wanting to protect your friend from potential harm, while also not wanting to seem bitter or to unfairly color her view based on your personal history.
+
+What you owe her is honesty, but it’s important to consider how and when to share it. Your experience is valid and real, and it’s reasonable to want her to have the full picture. However, sharing your story in a way that respects her autonomy means offering your perspective without insisting she must see things your way or make decisions based on your warnings alone.
+
+You might choose a moment when you’re both calm and private to gently share what you went through, framing it as your personal experience rather than a definitive judgment of who he is now or who he is with her. For example, you could say something like, “I want to share something from my past with M, not to make you doubt your feelings, but because I care about you and want you to know what I experienced.” This approach invites her to listen without feeling attacked or pressured.
+
+At the same time, be prepared for the possibility that she may not respond as you hope. She might feel defensive, or she might see M differently. That’s her right. What matters is that you’ve been honest and caring, not that you control her choices.
+
+If you decide not to say anything, that’s also a valid choice. Protecting your own peace and boundaries is important, and sometimes people have to learn about others in their own time and way. But if you do keep quiet, it’s worth reflecting on whether that silence feels like protection or avoidance, and what you might need to feel more at ease.
+
+Ultimately, your friend’s relationship with M is her journey. Your experience is a valuable piece of information, but it’s one part of a larger, complex picture. Offering your truth with kindness and respect honors both your past and your friendship.
+==================================================

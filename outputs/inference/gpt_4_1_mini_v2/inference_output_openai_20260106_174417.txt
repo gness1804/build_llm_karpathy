@@ -1,0 +1,31 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 17:44:17
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear moral landing or concluding insight, without labeling it as a takeaway.
+
+QUESTION: I'm the mother of two kids, a son age 15 and a daughter age 13. My son has expressed a strong interest in being a physician, a goal that I support because he has a genuine love for medicine—he's been interested in it from a very young age and has loved his hospital shadowing experiences. The problem is that he's so focused on school and grades that he isn't doing any extracurriculars. I worry that now that he's in high school, not having extracurriculars will hurt his chances of getting into a good college and eventually medical school, even if he maintains his excellent grades. I don't like the "extracurricular arms race" that high school has become, but I recognize we have to work within the system as it exists. I've repeatedly encouraged him to find an extracurricular he likes, even suggesting the Science Club since science is his favorite subject, but he always says he's focused on schoolwork and that Science Club would be redundant since he already studies science outside of school. I want him to forge his own path, but I also don't want him to make choices that could hurt his chances of getting into medical school or another professional or graduate school. How can I strike a balance between providing sound parental advice and giving him the autonomy he needs to make his own choices?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your concern is both understandable and deeply caring. You want to support your son’s passion for medicine while also helping him navigate the realities of college admissions, which often value a well-rounded profile. The tension between honoring his autonomy and guiding him through a system that rewards more than just grades is a delicate one.
+
+First, it’s important to acknowledge that your son’s dedication to academics is a strength, not a weakness. His focus on schoolwork reflects discipline and commitment—qualities that will serve him well in medicine. However, colleges and medical schools often look for evidence of broader engagement: leadership, teamwork, perseverance in different contexts, and the ability to balance multiple commitments. These aren’t just boxes to check; they speak to the kind of person he is beyond the classroom.
+
+Rather than framing extracurriculars as a necessary “add-on” to impress admissions committees, try shifting the conversation toward exploration and personal growth. You might say something like: “I see how much you love science and how hard you work in school. Sometimes, activities outside of class can help you discover new interests or develop skills that will make you an even stronger candidate—and a more fulfilled person. What if we looked for something that feels different from schoolwork, something that excites you or challenges you in a new way?”
+
+If he resists traditional clubs, consider alternatives that align with his interests but don’t feel like schoolwork. Volunteering at a hospital, joining a youth mentorship program, or even starting a small project related to health education could be meaningful. You might offer to help him find opportunities that fit his schedule and energy level, emphasizing that this is about his growth, not just college applications.
+
+It’s also worth having an honest conversation about the realities of medical school admissions, but without pressure or fear. You could say: “I want to be upfront about how competitive medical school can be. Grades are crucial, but so is showing that you’re engaged in your community and can handle responsibilities beyond academics. I trust you to make your own choices, but I want to make sure you have all the information to decide what’s best for you.”
+
+Ultimately, your son’s path will be his own, and your role is to provide a steady, informed presence—offering guidance without taking over. It’s okay to hold space for his focus on academics while gently encouraging him to consider the broader picture. The balance lies in respecting his passion and discipline, while inviting him to step outside his comfort zone in ways that feel authentic.
+
+In the end, the most important thing is that he learns to make decisions grounded in both self-awareness and a realistic understanding of the world he’s entering. That kind of wisdom will serve him far beyond any application form.
+==================================================

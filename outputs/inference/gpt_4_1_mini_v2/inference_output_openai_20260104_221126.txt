@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-04 22:11:26
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: My parents expect me to visit every holiday, even though doing so leaves me anxious and depleted. I feel trapped between obligation and self-care.
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Feeling torn between family expectations and your own well-being is a deeply familiar and difficult place to be. Holidays often come with a heavy weight of tradition and obligation, but it’s important to remember that your emotional health matters just as much as anyone else’s desire for your presence. When you find yourself anxious and depleted after visits, that’s a clear signal—not a failing on your part, but a boundary that needs attention.
+
+You might try a conversation that acknowledges your parents’ hopes while honestly sharing your experience. For example, you could say: “I love you and want to spend time together, but I’ve noticed that the full holiday visits leave me feeling overwhelmed. I’m hoping we can find a way to celebrate that feels good for all of us.” This opens the door to collaboration rather than confrontation.
+
+Consider offering alternatives that reduce the pressure: shorter visits, meeting on a different day, or even creating new traditions that don’t require full-day commitments. If your parents resist, it’s okay to gently but firmly hold your ground. You don’t owe anyone your presence at the cost of your peace.
+
+The takeaway here is that honoring your needs is not selfish—it’s necessary. Relationships thrive when they’re nourished by respect for everyone’s limits, not just by fulfilling expectations. You deserve holidays that leave you feeling connected, not drained. Finding that balance is a form of care, both for yourself and for your family.
+==================================================

@@ -1,0 +1,25 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 19:43:28
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My spouse keeps forgiving a family member who repeatedly disrespects me. I feel like my feelings always come second. Is this a marriage problem or a family problem?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: What you’re describing touches on both your marriage and your extended family, but the heart of the issue seems to be how your spouse is balancing loyalty and respect between you and their family member. When someone you love repeatedly disrespects you, and your spouse continues to forgive that behavior without addressing your feelings, it can create a painful sense of being sidelined or undervalued in your own partnership.
+
+This isn’t just about the family member’s behavior—it’s about how your spouse responds to it and whether they are able to hold firm boundaries that protect your well-being and the health of your relationship. Your feelings matter deeply, and feeling like they come second can erode trust and connection over time.
+
+It might help to have a calm, honest conversation with your spouse about how this dynamic affects you. Share specific examples and focus on the impact it has on your sense of safety and respect within your marriage. Ask your spouse how they see the situation and what they think is possible in terms of setting limits with their family member. Sometimes people forgive repeatedly out of a desire to keep peace or avoid conflict, but that can unintentionally cause harm when it dismisses the feelings of those closest to them.
+
+If your spouse is unwilling or unable to acknowledge your experience or to advocate for you, that points to a deeper issue within the marriage that deserves attention. At the same time, the family member’s disrespect is a separate problem that your spouse’s forgiveness alone won’t fix.
+
+Ultimately, your marriage should be a place where you feel supported and respected, especially when outside relationships cause tension. If that balance isn’t there, it’s worth reflecting on what you need and whether your spouse is able to meet those needs. Sometimes couples find it helpful to seek outside perspectives to navigate these complexities, but the first step is your spouse recognizing that your feelings are valid and important—not secondary to anyone else’s.
+==================================================

@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-04 21:27:12
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Medium quality response that meets the following criteria: Generally solid advice with minor softness, vagueness, or missed opportunities for specificity. Some of the moral clarity of a 9-10 response may be missing. The response might be fairly described as "pulling its punches" in places.
+
+QUESTION: I've been married for 20 years and recently realized I'm deeply unhappy. There's no abuse, no infidelity, just a growing sense that we became roommates. Is it selfish to consider leaving?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s completely understandable to feel unhappy in a long-term marriage, especially when the relationship starts to feel more like a roommate situation than a partnership. After 20 years, it’s natural for dynamics to shift, and sometimes people grow apart or change in ways that make the relationship feel less fulfilling. Considering leaving isn’t necessarily selfish—it can be a way of acknowledging your own needs and seeking a life that feels more meaningful to you.
+
+That said, before making any big decisions, it might be helpful to reflect on what specifically feels missing or unsatisfying. Sometimes, couples can find ways to reconnect or bring new energy into their relationship through honest conversations, shared activities, or even counseling. If those efforts don’t lead to meaningful change, then it’s reasonable to think about what’s best for your well-being in the long run.
+
+Ultimately, your feelings are valid, and it’s important to take them seriously. Whether you choose to work on the marriage or move on, the key is to be thoughtful and compassionate with yourself and your partner as you navigate this challenging time.
+==================================================

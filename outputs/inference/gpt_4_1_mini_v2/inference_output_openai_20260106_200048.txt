@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 20:00:48
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: One of my coworkers is very friendly and has made a point of inviting me to various after-work activities. I've turned down the invitations every time, partly because I'm introverted and partly because I like keeping a clear line between my work life and my personal time. He never gets pushy or inappropriate, but he is persistent. Even after several polite nos, he keeps asking as though I might suddenly change my mind. I don't want to embarrass him or make things awkward at work, but I also don't want to spend the rest of the year repeating myself. How can I shut this down kindly but firmly?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you value your boundaries and want to maintain a comfortable, professional relationship with your coworker, which is entirely reasonable. His persistence, even if well-intentioned, is putting you in a difficult spot where you feel pressured to keep declining, and that can be exhausting.
+
+A way to address this kindly but firmly is to acknowledge his friendliness while clearly stating your preference. You might say something like, “I really appreciate your invitations and that you want to include me, but I’m someone who prefers to keep my work and personal life separate. I hope you understand that I won’t be joining after-work activities, but I’m glad to work with you during the day.” This kind of response expresses gratitude and respect but also sets a clear boundary.
+
+If he continues to ask, you can gently but more directly reiterate your position without feeling the need to justify it further. Sometimes, people persist because they don’t realize their invitations are causing discomfort or because they hope the answer will change. Your clarity helps remove that uncertainty.
+
+Remember, you don’t owe anyone your personal time, and maintaining your boundaries is a form of self-respect that benefits both you and your workplace dynamic. It’s okay if this feels a bit awkward at first; over time, your coworker will likely come to accept your preference and respect it.
+==================================================

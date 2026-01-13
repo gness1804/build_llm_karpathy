@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-05 21:02:57
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear "takeaway" that is powerful but not preachy.
+
+QUESTION: Like so many others, my teenage daughter is struggling with an eating disorder. In her case, she's lost so many pounds in the last few weeks that she barely resembles her old self. She's obsessed with the idea that she's fat, but in reality, she's dangerously underweight. Making matters worse, my husband seems to not take her situation seriously enough. While I fear for her life if she doesn't get treatment soon, my husband often brushes off the subject when I talk to him about it. He says things like, "Oh, she's just going through a phase," or "Maybe she just doesn't like the food that you cook." I think that my daughter is overhearing this and it might be encouraging her to starve herself even more.\n\nI've always been the non-confrontational type, which I fear has contributed to my daughter getting into the mess that she's in. So I'm not really sure how to confront my husband about this. What do you suggest?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your concern for your daughter is deeply understandable, and the urgency you feel is real and justified. When a young person is caught in the grip of an eating disorder, it’s not just a phase or a matter of food preference—it’s a serious health crisis that demands attention and care. Your husband’s minimization, whether intentional or not, risks leaving your daughter feeling unseen and unsupported at a moment when she needs a united front most.
+
+It’s important to approach your husband not with blame, but with clarity about the stakes. You might say something like, “I know you want to believe this is temporary, but I’m genuinely scared for her health. I’ve noticed she’s lost so much weight that she looks very different, and I’m worried this isn’t just about food she doesn’t like. When you say it’s a phase, I worry she hears that and feels like she doesn’t need help.” This kind of statement grounds your feelings in observable facts and the impact of his words, rather than accusing him of wrongdoing.
+
+You could also invite him to join you in learning more about eating disorders—perhaps by reading reputable resources together or speaking with a healthcare professional. Sometimes, people minimize what they don’t understand. Bringing him into the conversation as a partner rather than an adversary can help shift his perspective.
+
+At the same time, it’s crucial to set boundaries around your daughter’s care. If your husband continues to dismiss the seriousness, you may need to take the lead in seeking professional help—whether that means making appointments with doctors, therapists, or nutritionists who specialize in eating disorders. Your daughter’s health and safety must come first, even if it means making difficult decisions without full agreement at home.
+
+The takeaway here is that protecting your daughter’s well-being requires both clear communication and decisive action. Your voice matters, and so does your willingness to stand firm in the face of denial. This is not about winning an argument with your husband but about safeguarding your child’s life. When the stakes are this high, the courage to speak up and act is the most profound form of love you can offer.
+==================================================

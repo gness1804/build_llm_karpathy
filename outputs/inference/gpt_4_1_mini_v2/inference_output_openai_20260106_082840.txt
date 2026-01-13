@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 08:28:40
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I'm on the autism spectrum and my partner is also neurodivergent, albeit differently. This has been a source of connection, but also a source of struggle. For example, they frequently express frustration when I'm not reading their social cues in the way that they expect me to. They also get irritated if I leave the room because they're cooking a certain thing, or if I'm focusing on obsessive interest, as we autists are known for. I do try to communicate my needs to them, and they seem receptive to it. But often it seems like we're getting nowhere. Our brains are wired too differently. Any recommendations on how to bridge the gap?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you and your partner share a deep understanding of what it means to experience the world through neurodivergent perspectives, which is a meaningful foundation. Yet, as you’ve noticed, even with that shared experience, the ways your minds work can lead to misunderstandings and frustration. This is not uncommon in any relationship, but the particular nuances of neurodivergence can make the gaps feel especially wide or confusing.
+
+One thing to hold onto is that your differences don’t have to be a barrier, but they do require ongoing patience and creativity. Since your partner gets frustrated when social cues aren’t picked up as expected, it might help to develop some explicit “translation” strategies together. For example, you could agree on clear signals or phrases that communicate feelings or needs without relying on subtle cues. This can reduce the guesswork and the frustration on both sides.
+
+When it comes to moments like leaving the room during cooking or focusing on your interests, it might be useful to explore what those moments mean emotionally for your partner. Is it about feeling left out, worried about the cooking process, or something else? Understanding the underlying feelings can open the door to solutions that respect both your need for space or focus and their need for connection or reassurance. Perhaps setting small check-in routines during those times could help—something brief and predictable that reassures them without pulling you away from what you’re engaged in.
+
+You mention that you try to communicate your needs and that your partner is receptive, which is a positive sign. Still, if it feels like you’re going in circles, it might be worth stepping back together and acknowledging that this is a long-term process, not a quick fix. Sometimes, it helps to approach these challenges as shared puzzles rather than problems to be solved immediately. This mindset can reduce pressure and foster teamwork.
+
+Finally, consider whether there are external supports that might help—whether that’s a counselor experienced with neurodivergent couples, a support group, or trusted friends who understand your dynamic. Having a space where both of you can express yourselves and be heard without judgment can be invaluable.
+
+Your relationship is clearly important to both of you, and navigating these differences with kindness and curiosity, even when it’s hard, is a testament to that. There may not be a perfect formula, but with time, mutual respect, and some practical adjustments, you can find ways to bridge those gaps that honor both your unique ways of being.
+==================================================

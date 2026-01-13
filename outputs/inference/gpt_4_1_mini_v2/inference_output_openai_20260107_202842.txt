@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 20:28:42
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: My close friend recently started dating someone new, and while I want to be supportive, every interaction I've had with his partner has left me uneasy. They dominate conversations, interrupt constantly, and seem dismissive of my friend's opinions in subtle but persistent ways. My friend seems smitten and hasn't noticed any of this. I don't want to rain on his happiness, but I'm worried about the dynamic I'm observing. How do I express concern without sounding judgmental or territorial?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It’s clear you care deeply about your friend’s well-being, and that makes your concern both natural and important. When someone we care about enters a new relationship, especially one where we notice troubling patterns, it can feel like a delicate tightrope to walk between support and honesty.
+
+Given what you’ve described—the partner’s dominating behavior and subtle dismissiveness—it’s understandable that you feel uneasy. These dynamics can quietly undermine your friend’s voice and confidence over time, even if they’re not immediately obvious to him. Your friend’s current infatuation might make it harder for him to see these red flags, so your perspective could be valuable if shared thoughtfully.
+
+Approaching this conversation with humility and care is key. Instead of framing your concerns as judgments about the partner’s character, you might focus on your feelings and observations. For example, you could say something like, “I’ve noticed a few moments when it seemed like your opinions weren’t getting the attention they deserve, and I felt a bit worried about how that might affect you.” This way, you’re centering your friend’s experience rather than making accusatory statements.
+
+It’s also helpful to choose a moment when you’re alone with your friend, away from the partner, so he doesn’t feel defensive or caught off guard. Be prepared for the possibility that he might not immediately see things your way or might feel protective of his relationship. That doesn’t mean your concerns aren’t valid; sometimes it takes time for someone to process and reflect.
+
+Lastly, keep in mind that your role isn’t to control or fix the relationship but to offer a caring perspective. Your friend’s autonomy matters, and he will ultimately decide how to navigate this relationship. By expressing your concern gently and respectfully, you’re honoring your friendship and planting a seed that might help him if challenges arise later.
+
+This is a tough spot to be in, and your thoughtful approach shows your commitment to your friend’s happiness and safety. Trust that your honesty, delivered with kindness, is a meaningful gift.
+==================================================

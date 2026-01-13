@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 08:34:21
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-medium quality response that meets the following criteria: Empathetic but generic, lacks clarity or depth, feels "LLM-like". Lacks a distinctive human voice. May include things like a bulleted or numbered "laundry list" of solutions. Responses in this range are usually short and are rather shallow, rather than fully engaging with the complex issues that are present in advice column problems.
+
+QUESTION: I'm going through a nasty divorce. My husband and I were married for about 20 years, and the marriage unraveled for a variety of reasons. Yes, there was infidelity, but that honestly wasn't the biggest part of it. The infidelity was really a symptom rather than a cause of what broke us up. Effectively, we just weren't communicating well, and we realized that we would be happier with other people.\n\nThe specific problem that I am writing to you about is our families' very different opinions about divorce and their impacts on me. Not to be stereotypical, but my family is from the West Coast, and they have a more relaxed attitude towards things like divorce. Obviously they don't like divorce, but they accept that it's sometimes necessary when a marriage has run its course or otherwise is damaged beyond repair. They're being very compassionate and graceful towards me and even towards him. My soon-to-be ex-husband's family, on the other hand, is much more religious and conservative. They feel that divorce is a sin and that he must stay in the marriage at all costs. Perhaps owing to the fact that their religious tradition is more than a little patriarchal, they've been venting most of their anger on me rather than him. Even though he's the one who cheated. They've been making snide remarks towards me about how I didn't cut it as a wife and mother. And they even called me a few times and half cajoled me, half insulted me into trying to reconsider ending the marriage.\n\nNow I know that after the divorce, I will have less reason to interact with them. But the fact that I have three children with my husband means that they won't be out of our lives entirely. At least until the kids grow up. And that's assuming the children decide to cut ties with them, which is unlikely because our daughter in particular is close to one of her uncles and those cousins. Obviously, once our children become adults, they'll have every right to make their own independent decisions on whether to maintain ties with these soon-to-be former relatives. But I fear that keeping these relatives in our lives for the children's sake is just going to mean that the insults and other poor behavior will continue. How can I respect my children's wishes to choose their own relationship with their in-laws while protecting myself from their vitriol?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: I'm sorry you're going through such a difficult time. It sounds really painful to be caught between your own family’s support and your soon-to-be ex-husband’s family’s criticism. Navigating family dynamics during a divorce is always complicated, especially when children are involved. Here are some ideas that might help:
+
+1. Set clear boundaries with your ex-husband’s family about what kind of behavior you will and won’t accept.
+2. Talk to your children about how you feel and encourage open communication so they can understand your perspective.
+3. Consider limiting your direct interactions with his family to minimize exposure to their negativity.
+4. Support your children’s relationships with their relatives while also protecting your own emotional health.
+5. Seek out support from friends, family, or support groups who understand what you’re going through.
+
+Remember, it’s okay to prioritize your well-being even as you try to keep peace for the sake of your children. It’s a tough balance, but taking care of yourself is important too.
+==================================================

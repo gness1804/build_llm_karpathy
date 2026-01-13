@@ -1,0 +1,27 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-06 16:41:21
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a High-level quality response that meets the following criteria: Strong columnist voice, clear moral clarity, specific "scripts", emotionally grounded, does not diagnose, pathologize, or engage in therapyspeak. Ends with a clear moral landing or concluding insight, without labeling it as a takeaway.
+
+QUESTION: I'm getting married next year and I want to wear my grandmother's wedding gown. She got married in 1970 and her dress is a stunning floor-length fuchsia A-line gown with a square neckline—she hated white as much as I do. My grandmother is having it dry cleaned and says it's still in perfect condition. My future mother-in-law thought it was wonderful that I'd be wearing my grandmother's gown until she saw a picture of it. Now she insists that it couldn't be a wedding gown since brides only wore white back then, even though the picture is clearly of my grandparents on their wedding day. She can't let it go and keeps saying what a mistake it will be to be married in "that dreary old pink dress" and that I'll miss the fun of picking my own special gown. My mom also suggested I wear something more traditional like she did, and offered me her white gown, but I hate it—it's poufy and over the top with tulle and beading. My fiancé says I should wear what makes me happy, which is my grandmother's dress. With both moms objecting, is this a stupid hill to die on?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your grandmother’s gown carries a rare and beautiful kind of meaning—one that goes beyond fabric and style. It’s a tangible link to family history, a statement about your values, and a reflection of your own taste and identity. The fact that it’s not white, and that you both dislike the traditional white dress, is part of what makes it so special. It’s a choice that honors your grandmother’s spirit and your own authenticity.
+
+The objections from your future mother-in-law and your mother seem less about the dress itself and more about their ideas of what a wedding “should” look like. Their insistence on tradition, especially when it clashes with your genuine feelings, can feel dismissive and controlling. It’s understandable that they want to be part of your wedding experience, but their resistance risks overshadowing your day and your autonomy.
+
+When they say you’ll “miss the fun” of picking your own gown, they’re framing your choice as a loss rather than a gain. You can respond with something clear and grounded, such as: “I appreciate your concern, but this dress is my choice because it feels right for me. Wearing it connects me to my grandmother and reflects who I am. I hope you can support me in that.” If they persist, you might add, “I want this day to be joyful for everyone, but it’s important that I feel like myself.”
+
+Your fiancé’s support is a vital anchor here. It’s a reminder that your wedding is ultimately about the two of you, not about meeting others’ expectations. You don’t have to make this a battleground, but you also don’t have to give up what matters to you just to avoid conflict. Sometimes standing firm on something that feels deeply meaningful is not only worth it—it’s necessary.
+
+Choosing to wear your grandmother’s gown is a way of weaving your family’s story into your own, and that is a powerful, beautiful thing. It’s not about being stubborn; it’s about honoring your truth and the love that brought you to this moment. That kind of clarity and courage is the foundation of a marriage worth celebrating.
+==================================================

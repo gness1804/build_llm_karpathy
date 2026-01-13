@@ -1,0 +1,23 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-08 12:41:41
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+QUESTION: I've been dating my boyfriend for about six months, and things are going well overall. But there's one issue that's been bothering me: he's still very close with his ex-girlfriend. They text regularly, hang out one-on-one, and he even invited her to a party at his place recently. When I asked him about it, he said they're just friends and that their relationship was never that serious anyway. I trust him, but it still makes me uncomfortable. I've never stayed friends with my exes, so I don't really understand how that works. Am I being unreasonable? Should I ask him to cut back on the friendship, or is this something I need to work on?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: Your feelings of discomfort are completely valid. When a partner maintains a close friendship with an ex, especially involving regular one-on-one time and social invitations, it can naturally stir up uncertainty or insecurity, even if there’s trust in their intentions. It’s important to recognize that people have different ways of relating to past partners—some can transition into genuine friendships, while others find that too difficult or uncomfortable. Neither approach is inherently right or wrong; it’s about what feels respectful and safe within your current relationship.
+
+What matters most is how this dynamic affects you and your sense of security. Since you’ve already expressed your feelings and heard his perspective, the next step might be to have a deeper conversation about boundaries and mutual respect. This doesn’t mean demanding he end the friendship outright, but rather exploring what would help you feel more comfortable—whether that’s less frequent one-on-one hangouts, more transparency about their interactions, or clearer signals that your relationship is the priority.
+
+At the same time, it’s worth reflecting on whether your discomfort stems from personal boundaries or from comparisons or fears that might not be fully grounded in the present reality. Sometimes, working through those feelings internally can help you approach the situation with more clarity and calm.
+
+Ultimately, a healthy relationship involves both partners feeling heard and respected. If his closeness with his ex consistently undermines your trust or peace of mind, that’s a significant issue to address. But if you can find a balance that honors your feelings and his friendships, it can be an opportunity to deepen your understanding of each other’s needs and build a stronger foundation.
+==================================================

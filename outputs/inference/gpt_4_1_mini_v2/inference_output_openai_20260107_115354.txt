@@ -1,0 +1,19 @@
+Backend: openai_backend
+Model: gpt-4.1-mini
+Generated at: 2026-01-07 11:53:54
+Temperature: 0.3
+Top P: 0.9
+Max new tokens: 1100
+
+PROMPT:
+INSTRUCTION: You are helping to generate advice column responses to train an LLM. I'm looking for a range of responses in terms of quality. Can you produce a Low-medium quality response that meets the following criteria: Empathetic but generic, lacks clarity or depth, feels "LLM-like". Lacks a distinctive human voice. May include concrete steps, embedded in prose and never spelled out in an explicit numbered or bulleted list. Responses in this range are usually short and are rather shallow, rather than fully engaging with the complex issues that are present in advice column problems.
+
+QUESTION: I've become close friends with someone at work, and the friendship has been great, but lately he's been leaning on me in ways that feel more intimate than a typical workplace bond. Long messages late at night, venting about loneliness, asking for emotional reassurance. He has a partner, and so do I, and nothing explicitly romantic has happened, but the line feels blurry. I don't want to lose the friendship, but I also don't want to compromise boundaries I care about. How can I reset things without making it awkward at work?
+
+ANSWER:
+
+==================================================
+GENERATED TEXT
+==================================================
+ANSWER: It sounds like you value this friendship but are feeling a bit overwhelmed by the emotional closeness that's developing, especially given your existing relationships. It’s understandable to want to maintain boundaries while keeping things comfortable at work. You might try gently steering conversations toward lighter topics or suggesting more group interactions to balance the dynamic. Setting small limits on when and how you respond, like not replying to late-night messages right away, could help signal your boundaries without making a big deal out of it. Over time, this can help reset the tone of your friendship in a way that feels more manageable for you.
+==================================================

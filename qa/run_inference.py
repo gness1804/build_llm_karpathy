@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """
-Script to run inference on prompts from test_prompts.md or direct prompt text
+Script to run inference on prompts from test_prompts_v1.md or direct prompt text
 
 Usage:
-    # Using shorthand reference from test_prompts.md
-    qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt'
-    qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'path/to/checkpoint1.pt'
+    # v1: Using shorthand reference from test_prompts_v1.md (QUESTION: prefix added automatically)
+    qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt' --version v1
+    qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'path/to/checkpoint1.pt' --version v1
     
-    # Using direct prompt text (auto-detected for long prompts or those with newlines)
-    qa/run_inference.py --prompt 'My husband left me. He left me for a much younger woman.' --model_type openai_backend
+    # v1: Using direct prompt text (must include QUESTION: prefix)
+    qa/run_inference.py --prompt 'QUESTION: My husband left me. He left me for a much younger woman.' --model_type openai_backend --version v1
     
-    # Explicitly force direct prompt mode
-    qa/run_inference.py --prompt 'Short text' --direct-prompt --model_type openai_backend
+    # v1: Explicitly force direct prompt mode (must include QUESTION: prefix)
+    qa/run_inference.py --prompt 'QUESTION: Short text' --direct-prompt --model_type openai_backend --version v1
+    
+    # v3: Always uses direct prompt text from command line (must include QUESTION: and DRAFT_RESPONSE:)
+    qa/run_inference.py --prompt 'QUESTION: ...\n\nDRAFT_RESPONSE: ...' --model_type openai_backend --version v3
 """
 
 import os
@@ -66,11 +69,11 @@ def load_env_file(env_path):
 
 def parse_prompts_file(prompts_path):
     """
-    Parse test_prompts.md to extract prompts and stems, creating a mapping.
+    Parse test_prompts_v1.md to extract prompts and stems, creating a mapping.
     Uses explicit SHORTHAND values from the file instead of generating from titles.
     
     Args:
-        prompts_path: Path to test_prompts.md
+        prompts_path: Path to test_prompts_v1.md
         
     Returns:
         dict: Dictionary mapping shorthand names to dicts with 'prompt' and 'stem' keys
@@ -78,7 +81,7 @@ def parse_prompts_file(prompts_path):
     prompts = {}
     
     if not prompts_path.exists():
-        print(f"❌ Error: test_prompts.md not found at {prompts_path}")
+        print(f"❌ Error: test_prompts_v1.md not found at {prompts_path}")
         sys.exit(1)
     
     with open(prompts_path, 'r', encoding='utf-8') as f:
@@ -192,29 +195,32 @@ def list_available_prompts(prompts):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Run inference on prompts from test_prompts.md',
+        description='Run inference on prompts from test_prompts_v1.md',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Using shorthand references from test_prompts.md
-  qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt'
-  qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'checkpoints/model.pt'
-  qa/run_inference.py --prompt 'value difference around ambition' --checkpoint 'checkpoints/model.pt'
+  # v1: Using shorthand references from test_prompts_v1.md (QUESTION: added automatically)
+  qa/run_inference.py --prompt 'parent overstepping' --checkpoint 'path/to/checkpoint.pt' --version v1
+  qa/run_inference.py --prompt 'simple romantic miscommunication' --checkpoint 'checkpoints/model.pt' --version v1
+  qa/run_inference.py --prompt 'value difference around ambition' --checkpoint 'checkpoints/model.pt' --version v1
   
-  # Using direct prompt text (auto-detected for long prompts or those with newlines)
-  qa/run_inference.py --prompt 'My husband left me. He left me for a much younger woman.' --model_type openai_backend
-  qa/run_inference.py --prompt 'What are my options?' --checkpoint 'checkpoints/model.pt'
+  # v1: Using direct prompt text (must include QUESTION: prefix)
+  qa/run_inference.py --prompt 'QUESTION: My husband left me. He left me for a much younger woman.' --model_type openai_backend --version v1
+  qa/run_inference.py --prompt 'QUESTION: What are my options?' --checkpoint 'checkpoints/model.pt' --version v1
   
-  # Explicitly force direct prompt mode (bypasses shorthand lookup)
-  qa/run_inference.py --prompt 'Short text' --direct-prompt --model_type openai_backend
+  # v1: Explicitly force direct prompt mode (must include QUESTION: prefix)
+  qa/run_inference.py --prompt 'QUESTION: Short text' --direct-prompt --model_type openai_backend --version v1
   
-  qa/run_inference.py --list  # List all available prompts
+  # v3: Always uses direct prompt text from command line (must include QUESTION: and DRAFT_RESPONSE:)
+  qa/run_inference.py --prompt 'QUESTION: My husband left me.\n\nDRAFT_RESPONSE: Some draft response...' --model_type openai_backend --version v3
+  
+  qa/run_inference.py --list  # List all available prompts (v1 only)
         """
     )
     parser.add_argument(
         '--prompt',
         type=str,
-        help='Shorthand name of the prompt to run (e.g., "parent overstepping") or a full prompt text. Long prompts (>200 chars) or prompts with newlines are automatically treated as direct prompts.'
+        help='For v1: Shorthand name from test_prompts_v1.md (e.g., "parent overstepping") or full prompt text starting with "QUESTION:". Long prompts (>200 chars) or prompts with newlines are automatically treated as direct prompts. For v3: Full prompt text containing both "QUESTION:" and "DRAFT_RESPONSE:" (no shorthand lookup).'
     )
     parser.add_argument(
         '--checkpoint',
@@ -227,6 +233,12 @@ Examples:
         type=str,
         choices=["gpt2", "openai_backend", "from_scratch"], 
         default="gpt2"
+    )
+    parser.add_argument(
+        '--version',
+        type=str,
+        choices=["v1", "v3"], 
+        default="v1"
     )
     parser.add_argument(
         '--list',
@@ -244,6 +256,12 @@ Examples:
         help='Treat --prompt as direct prompt text, bypassing shorthand lookup'
     )
     parser.add_argument(
+        '--instruction',
+        '--instructions',
+        type=str,
+        help='Optional extra instruction text to send along with the prompt (e.g., a system-level directive)'
+    )
+    parser.add_argument(
         '--save-output',
         action='store_true',
         help='Save the output to a file'
@@ -256,9 +274,13 @@ Examples:
     )
     
     args = parser.parse_args()
+    instruction_text = (args.instruction or '').strip()
     
     # Load prompts
-    prompts_path = SCRIPT_DIR / 'test_prompts.md'
+    if args.version == "v3":
+        prompts_path = SCRIPT_DIR / 'test_prompts_v3.md'
+    else:
+        prompts_path = SCRIPT_DIR / 'test_prompts_v1.md'
     prompts = parse_prompts_file(prompts_path)
     
     if args.list:
@@ -274,28 +296,40 @@ Examples:
         sys.exit(1)
     
     # Determine if we should treat this as a direct prompt
-    # Heuristics: if --direct-prompt flag is set, or prompt is very long, or contains newlines
-    is_direct_prompt = args.direct_prompt
-    if not is_direct_prompt:
-        # Auto-detect: long prompts (> 200 chars) or prompts with newlines are likely direct prompts
-        if len(args.prompt) > 200 or '\n' in args.prompt:
-            is_direct_prompt = True
-            print(f"💡 Detected long prompt or newlines - treating as direct prompt text")
+    # v3 always uses direct prompts (no shorthand lookup)
+    # For v1, use shorthand lookup unless --direct-prompt is set or prompt is very long/contains newlines
+    if args.version == "v3":
+        # v3 always uses direct prompt text from command line (no shorthand)
+        is_direct_prompt = True
+    else:
+        # For v1, check if we should use direct prompt
+        is_direct_prompt = args.direct_prompt
+        if not is_direct_prompt:
+            # Auto-detect: long prompts (> 200 chars) or prompts with newlines are likely direct prompts
+            if len(args.prompt) > 200 or '\n' in args.prompt:
+                is_direct_prompt = True
+                print(f"💡 Detected long prompt or newlines - treating as direct prompt text")
     
-    # Try to find the prompt as a shorthand reference (unless it's a direct prompt)
+    # Try to find the prompt as a shorthand reference (only for v1, and only if not direct)
     if is_direct_prompt:
         # Treat as direct prompt text
         prompt_text = args.prompt
         stem_text = ''
-        print(f"✅ Using direct prompt text")
+        if args.version == "v3":
+            print(f"✅ Using direct prompt text (v3 always uses command-line prompt)")
+        else:
+            print(f"✅ Using direct prompt text")
     else:
+        # Only v1 can use shorthand lookup
         # Try shorthand lookup with strict matching for longer inputs
         strict_mode = len(args.prompt) > 50  # Use strict mode for inputs longer than 50 chars
         matched_key, prompt_dict = find_prompt_by_shorthand(args.prompt, prompts, strict=strict_mode)
         
         if matched_key:
-            # Found as shorthand reference
-            prompt_text = prompt_dict['prompt']
+            # Found as shorthand reference (v1 only)
+            # Add "QUESTION:" prefix since file format doesn't include it
+            raw_prompt = prompt_dict['prompt']
+            prompt_text = f"QUESTION: {raw_prompt}"
             stem_text = prompt_dict.get('stem', '')
             print(f"✅ Found prompt: {matched_key}")
         else:
@@ -306,12 +340,37 @@ Examples:
     if args.checkpoint:
         print(f"   Using checkpoint: {args.checkpoint}")
     print(f"   Using model type: {args.model_type.upper()}")
+    print(f"   Using version: {args.version}")
     
-    if args.use_stem:
+    if args.use_stem and args.version == "v1":
         if stem_text:
             print(f"   Using STEM: {stem_text[:60]}...")
         else:
             print(f"   ⚠️  Warning: --use-stem specified but no STEM found for this prompt")
+    
+    # Handle --use-stem for v1 (append stem as ANSWER: if available)
+    if args.use_stem and args.version == "v1" and stem_text:
+        stem_clean = stem_text.strip()
+        prompt_text = f"{prompt_text}\n\nANSWER: {stem_clean}"
+    
+    # Clean the prompt text (strip any extra whitespace)
+    prompt_text_clean = prompt_text.strip()
+    
+    # Validate required trigger words based on version
+    if args.version == "v1":
+        if not prompt_text_clean.startswith("QUESTION:"):
+            print(f"❌ Error: For v1, the prompt must start with 'QUESTION:'")
+            print(f"   Your prompt starts with: {prompt_text_clean[:50]}...")
+            sys.exit(1)
+    elif args.version == "v3":
+        if "QUESTION:" not in prompt_text_clean:
+            print(f"❌ Error: For v3, the prompt must contain 'QUESTION:'")
+            print(f"   Your prompt starts with: {prompt_text_clean[:50]}...")
+            sys.exit(1)
+        if "DRAFT_RESPONSE:" not in prompt_text_clean:
+            print(f"❌ Error: For v3, the prompt must contain 'DRAFT_RESPONSE:'")
+            print(f"   Your prompt: {prompt_text_clean[:100]}...")
+            sys.exit(1)
     
     # Check if checkpoint exists (only if provided)
     checkpoint_path = None
@@ -335,17 +394,15 @@ Examples:
     for key, value in env_vars.items():
         env[key] = value
     
-    # Clean the prompt text (strip any extra whitespace)
-    prompt_text_clean = prompt_text.strip()
-    
-    # Format prompt to match training data format: QUESTION: <text>\n\nANSWER:
-    if args.use_stem and stem_text:
-        # Include stem after ANSWER:
-        stem_clean = stem_text.strip()
-        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER: {stem_clean}"
+    # Use prompt text directly (user must provide trigger words)
+    # For v1: user must provide "QUESTION:" prefix
+    # For v3: user must provide "QUESTION:" and "DRAFT_RESPONSE:" prefixes
+    base_prompt = prompt_text_clean
+
+    if instruction_text:
+        formatted_prompt = f"INSTRUCTION: {instruction_text}\n\n{base_prompt}"
     else:
-        # Standard format without stem
-        formatted_prompt = f"QUESTION: {prompt_text_clean}\n\nANSWER:"
+        formatted_prompt = base_prompt
     
     # Override with command-line arguments
     if checkpoint_path:
@@ -353,12 +410,19 @@ Examples:
     env['PROMPT'] = formatted_prompt
     env['MODE'] = 'inference'  # Ensure MODE is set
     env['MODEL_TYPE'] = args.model_type
+    env['VERSION'] = args.version
     if args.save_output:
         env['SAVE_OUTPUT'] = 'True'
     if args.output_dir:
         env['OUTPUT_DIR'] = str(args.output_dir)
+    if instruction_text:
+        env['INSTRUCTION'] = instruction_text
     
     # Print what we're running
+    if instruction_text:
+        instr_preview = instruction_text.replace('\n', ' ')
+        print(f"\n🧭 Instruction preview (first 120 chars):")
+        print(f"   {instr_preview[:120]}...")
     print(f"\n📏 Prompt preview (first 100 chars):")
     print(f"   {prompt_text_clean[:100]}...")
     print(f"\n📋 Full formatted prompt (first 150 chars):")
