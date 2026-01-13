@@ -88,6 +88,10 @@ SYSTEM_PROMPT_V3 = (
     "- Maintains the dignity of all people involved\n"
     "- Repetition of the words \"common,\" \"understandable,\" or \"valid\" is an LLM tell and should be penalized when it becomes a pattern\n"
     "- Em dashes are a hard fail. Treat them as a weakness and avoid them in REVISED_RESPONSE\n"
+    "- Adequate development: REVISED_RESPONSE must be sufficiently developed to feel like a real advice-column answer, not a compressed summary.\n"
+    "- Length guidance: Prefer slightly too long over too short. Do not penalize DRAFT_RESPONSE for length unless it exceeds 1000 words and becomes repetitive or unfocused.\n"
+    "- If REVISED_RESPONSE is under 400 words, treat underdevelopment as a weakness unless the question is unusually simple.\n"
+    "- REVISED_RESPONSE should usually include at least one concrete script and at least one concrete boundary or next-step.\n"
     "- REVISED_RESPONSE must end with a clear, grounded closing that articulates boundaries, responsibility, or next steps, without moralizing or merely summarizing\n\n"
 
     "Restrictions:\n"
