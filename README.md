@@ -27,6 +27,19 @@ The implementation uses Shakespeare's text as training data to (ideally) generat
 2. **Ensure training data exists:**
    The project expects a text file at `sources/shakespeare.txt`. This file should contain the Shakespeare text corpus used for training. This file exists in the directory previously noted or it can be downloaded at https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt using your favorite document download method. 
 
+## Git hooks
+
+Hooks live in a tracked `.githooks/` directory, but git does not pick them up
+automatically. Run this once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+They block AWS account IDs, ARNs, access keys and private-key headers in staged
+content, in filenames, and in the commit message. Until you run that line, a
+fresh clone commits unprotected.
+
 ## Running the Model
 
 To train the model and generate text, simply run:
